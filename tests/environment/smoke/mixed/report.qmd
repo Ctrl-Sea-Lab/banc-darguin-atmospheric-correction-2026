@@ -1,0 +1,21 @@
+---
+title: "Mixed R and Python environment smoke test"
+engine: knitr
+---
+
+```{r}
+root <- normalizePath(Sys.getenv("RENV_PROJECT"))
+stopifnot(startsWith(normalizePath(.libPaths()[1L]), file.path(root, "renv", "library")))
+```
+
+```{python}
+import os
+import sys
+from pathlib import Path
+
+import numpy as np
+
+root = Path(os.environ["RENV_PROJECT"]).resolve()
+assert Path(sys.executable).resolve() == (root / ".venv/bin/python").resolve()
+assert np.__version__
+```

@@ -1,0 +1,47 @@
+
+# Ctrl+Sea — Scientific investigation metadata
+
+task:
+  id: "TO_BE_ASSIGNED"
+  paperclip_issue_id: ""
+  title: ""
+  slug: ""
+  research_question: ""
+  created_at: ""
+
+analysis:
+  status: "not_started"
+  language: []
+  input_datasets: []
+  scripts: []
+  report_source: "report.qmd"
+  report_html: "report.html"
+
+environment:
+  python_lockfile: "../../uv.lock"
+  python_lockfile_sha256: null
+  r_lockfile: "../../renv.lock"
+  r_lockfile_sha256: null
+  python_version: null
+  r_version: null
+  quarto_version: null
+  render_command: null
+  validation_status: "not_run"
+  provenance_file: "provenance/environment.json"
+
+review:
+  status: "pending"
+  reviewer: ""
+  comments: []
+
+pi_approval:
+  status: "pending"
+  approved_revision: null
+  approved_by: null
+  approved_at: null
+  note: "This YAML is not evidence of authenticated PI approval."
+
+manuscript:
+  integration_status: "not_authorized"
+  sections: []
+  pull_request: null

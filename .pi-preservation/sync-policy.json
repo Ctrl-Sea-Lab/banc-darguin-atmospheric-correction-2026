@@ -1,0 +1,87 @@
+{
+  "schema": "ctrl-sea.pi-sync-policy.v1",
+  "version": 1,
+  "state_file": "pre-build/.pi-sync/state.json",
+  "report_file": "pre-build/.pi-sync/last-report.json",
+  "protected_paths": {
+    "files": [
+      "AGENTS.md",
+      "PI_CONTRIBUTIONS.md",
+      "_quarto.yml",
+      "index.qmd",
+      "library.bib"
+    ],
+    "prefixes": [
+      ".pi-preservation/",
+      "R/",
+      "docs/",
+      "figures/",
+      "manuscript/",
+      "pre-build/",
+      "python/"
+    ]
+  },
+  "unaffected_prefixes": [
+    "analysis/"
+  ],
+  "states": {
+    "requires_pre_task_sync": {
+      "protected_content_may_proceed": false
+    },
+    "synchronized_unscoped": {
+      "protected_content_may_proceed": false
+    },
+    "ready": {
+      "protected_content_may_proceed": true
+    },
+    "conflict": {
+      "protected_content_may_proceed": false
+    },
+    "refreshed": {
+      "protected_content_may_proceed": false
+    }
+  },
+  "transitions": [
+    {
+      "command": "pre-task",
+      "from": [
+        "requires_pre_task_sync",
+        "synchronized_unscoped",
+        "ready",
+        "conflict",
+        "refreshed"
+      ],
+      "on_conflict": "conflict",
+      "on_success": "ready"
+    },
+    {
+      "command": "refresh",
+      "from": [
+        "ready",
+        "synchronized_unscoped",
+        "requires_pre_task_sync",
+        "conflict",
+        "refreshed"
+      ],
+      "requires": "external exact-HEAD acceptance",
+      "on_conflict": "conflict",
+      "on_success": "refreshed"
+    }
+  ],
+  "commands": {
+    "prepare": "./scripts/pi-workspace pre-task --task-id <TASK-ID> --agent ada-lovelace",
+    "verify": "./scripts/pi-workspace verify-ready --task-id <TASK-ID> --agent <agent-slug> --path <path>",
+    "refresh": "./scripts/pi-workspace refresh --acceptance-file <outside-repository.json>"
+  },
+  "roles": {
+    "charles-darwin": "scope and coordinate affected tasks in Paperclip",
+    "ada-lovelace": "operate synchronization and preserve conflict evidence",
+    "johannes-gutenberg": "verify readiness before manuscript integration or build",
+    "rachel-carson": "preserve PI ecological text and record interpretation conflicts",
+    "edward-tufte": "preserve manual figures and editable sources",
+    "roger-tomlinson": "preserve PI geospatial scripts, figures, CRS, and units",
+    "thomas-bayes": "preserve PI statistical scripts, parameters, and seeds",
+    "karl-popper": "independently review safeguards and exact-revision gates",
+    "alan-turing": "maintain synchronization code, tests, and provenance"
+  }
+}

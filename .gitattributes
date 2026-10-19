@@ -1,0 +1,4 @@
+*.png binary
+*.psd binary
+pre-build/library.bib binary
+pre-build/.pi-sync/baseline/library.bib binary

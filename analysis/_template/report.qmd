@@ -1,0 +1,85 @@
+
+---
+title: "Scientific Investigation Report"
+subtitle: "Ctrl+Sea Research Laboratory"
+author: "Ctrl+Sea Research Team"
+date: today
+---
+
+# Research question
+
+Describe the specific scientific question, objectives,
+and hypotheses or exploratory aims.
+
+# Data and study area
+
+Describe the datasets, study area, sampling design,
+spatial and temporal coverage, and data limitations.
+
+# Methods
+
+Document preprocessing, analytical methods, model
+specifications, parameters, software versions, and
+validation procedures.
+
+# Results
+
+Present quantitative findings supported by actual
+R/Python computations.
+
+Include figures, tables, uncertainty estimates,
+and references to the corresponding output files.
+
+# Discussion
+
+Interpret the results in relation to the scientific
+question and verified literature.
+
+Distinguish observations, interpretations, plausible
+mechanisms, and speculation.
+
+# Limitations
+
+Describe methodological limitations, uncertainty,
+potential biases, and unresolved questions.
+
+# Conclusions
+
+Summarize the principal findings without introducing
+unsupported claims.
+
+# Reproducibility
+
+Document the input datasets, scripts, software
+environment, execution instructions, and output paths.
+
+Restore and validate the repository environments from the repository root:
+
+```text
+./scripts/bootstrap-env.sh
+./scripts/check-env.sh
+```
+
+Render this report only with:
+
+```text
+./scripts/render-analysis.sh analysis/<TASK-ID>_<concise-name>
+```
+
+Record the Git revision, exact tool and package versions, parameters, platform,
+and SHA-256 hashes of `uv.lock` and `renv.lock` in
+`provenance/environment.json`. The report must identify all input data and
+scientific output paths separately.
+
+# Scientific review and approval
+
+**Task ID:** To be assigned
+
+**Internal review:** Pending
+
+**Principal Investigator approval:** Pending
+
+The status above is descriptive only; authenticated approval must be verified
+against the exact analysis revision and provenance record.
+
+**Manuscript integration:** Not authorized

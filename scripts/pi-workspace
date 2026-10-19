@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+script_dir=$(CDPATH= cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)
+project_root=$(CDPATH= cd -- "$script_dir/.." && pwd -P)
+
+if (($# == 0)); then
+  echo "usage: $0 {init|status|import|pre-task|verify-ready|refresh|preview|promote-figure} [ARG ...]" >&2
+  exit 64
+fi
+
+if [[ $1 == preview ]]; then
+  shift
+  exec "$script_dir/project-env.sh" quarto preview "$project_root/pre-build" --no-browser "$@"
+fi
+
+if [[ -x "$project_root/.venv/bin/python" ]]; then
+  exec "$script_dir/project-env.sh" "$project_root/.venv/bin/python" \
+    "$script_dir/pi_sync.py" --repository "$project_root" "$@"
+fi
+
+command -v uv >/dev/null 2>&1 || {
+  echo "PI workspace error: restore the project environment with scripts/bootstrap-env.sh" >&2
+  exit 1
+}
+exec "$script_dir/project-env.sh" uv run --frozen --no-python-downloads python \
+  "$script_dir/pi_sync.py" --repository "$project_root" "$@"

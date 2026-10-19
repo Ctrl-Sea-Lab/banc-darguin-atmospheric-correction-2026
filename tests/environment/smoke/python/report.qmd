@@ -1,0 +1,14 @@
+---
+title: "Python environment smoke test"
+jupyter: python3
+---
+
+```{python}
+import os
+import sys
+from pathlib import Path
+
+root = Path(os.environ["RENV_PROJECT"]).resolve()
+assert Path(sys.executable).resolve() == (root / ".venv/bin/python").resolve()
+print(sys.executable)
+```

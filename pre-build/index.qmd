@@ -1,0 +1,39 @@
+
+---
+title: "Scientific Research Project"
+subtitle: "Ctrl+Sea Research Laboratory"
+author:
+  - name: "Research Team"
+date: today
+abstract: |
+  This manuscript is a template for reproducible
+  scientific research in marine ecology and
+  remote sensing.
+keywords:
+  - Marine ecology
+  - Remote sensing
+  - Reproducible research
+---
+
+# Introduction
+
+Scientific background, research objectives, and hypotheses.
+
+# Materials and Methods
+
+Description of study sites, datasets, processing methods,
+and statistical analyses.
+
+# Results
+
+Only results from explicitly approved scientific
+investigations may be incorporated into this section.
+
+# Discussion
+
+Interpretation of validated scientific findings,
+uncertainties, limitations, and ecological implications.
+
+# Conclusion
+
+Summary of the principal scientific contributions.

@@ -1,0 +1,32 @@
+
+project:
+  type: manuscript
+  output-dir: docs
+  execute-dir: project
+  render:
+    - index.qmd
+
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    toc: true
+    theme: cosmo
+    number-sections: true
+    code-fold: true
+
+  docx:
+    toc: true
+    number-sections: true
+    output-file: manuscript.docx
+    # Uncomment if a reference template is available:
+    # reference-doc: quarto_template.docx
+
+bibliography: library.bib
+
+resources:
+  - "!*.qmd"
+  - "!*.ipynb"
+  - "!*.out.ipynb"
+  - "!*.embed.ipynb"

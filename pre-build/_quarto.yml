@@ -1,0 +1,19 @@
+project:
+  type: default
+  output-dir: .preview
+  render:
+    - index.qmd
+
+execute-dir: project
+
+format:
+  html:
+    toc: true
+    theme: cosmo
+    number-sections: true
+    code-fold: true
+
+bibliography: library.bib
+
+resources:
+  - figures/**

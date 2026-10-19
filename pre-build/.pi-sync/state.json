@@ -1,0 +1,22 @@
+{
+  "files": {
+    "R/generate_example_figure.R": "3f65f469e74fc4b17464d7f1509ba10841743667c9866399ffc274500eb8aeca",
+    "figures/edited/README.md": "2035a6720123269b128d15de90ba3c580e1b9e14f8f571e80082de57aa97f700",
+    "figures/generated/README.md": "b00dc04f776534fc606a072a679c2a139d65c6a5fdf978b68b0be907f572f566",
+    "figures/generated/example-trend.png": "d4d210e9b6110b9ba33ba8521460840f9d249f8cfc574305aa1fb1b047f1cf15",
+    "index.qmd": "02ddee3652b4ea65269e07a74b405c48f297d91f6d0d2305320015a80a8be592",
+    "library.bib": "f8d1911f84b1d547b354b5555fc3284bd5ca8662ba69d38ce8c88b0a41f043bc",
+    "python/generate_example_figure.py": "6d5adb51de1fc7cba81d013786bc9bd7fa2e4767948f99e3caa48b98ff4f4fe4"
+  },
+  "last_synced_git_branch": "ctr-8-prebuild-sync",
+  "last_synced_git_head": "a59f5bf2da9135b6de9b3626ed6a999183e287ec",
+  "workflow": {
+    "blocking_scope": "protected_content",
+    "last_operation": "policy-migration",
+    "managed_tree_sha256": "2490c50abaa86f2005deb862e6d596ef0d1e8f65439c9659dec7f2e19d6bdf24",
+    "prepared_by": null,
+    "state": "requires_pre_task_sync",
+    "task_id": null
+  },
+  "version": 1
+}

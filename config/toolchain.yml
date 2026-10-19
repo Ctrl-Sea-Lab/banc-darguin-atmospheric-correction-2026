@@ -1,0 +1,24 @@
+schema_version: 1
+tools:
+  uv: "0.12.20"
+  python: "3.12.3"
+  r: "4.3.3"
+  renv: "1.3.1"
+  quarto: "1.10.19"
+  gdal: "3.8.4"
+sources:
+  python_index: "https://pypi.org/simple"
+  r_repository: "https://cloud.r-project.org"
+uv_binary:
+  platform: "x86_64-unknown-linux-gnu"
+  url: "https://releases.astral.sh/github/uv/releases/download/0.12.20/uv-x86_64-unknown-linux-gnu.tar.gz"
+  sha256: "6590717592ace991ff83a63fef799e3ad9d33ecc8f96c5d6bdd732496e79337f"
+renv_source:
+  url: "https://cloud.r-project.org/src/contrib/renv_1.3.1.tar.gz"
+  sha256: "e16281908ddf0ed6f8f6f8ad3f2cc4788af6de04c1ab223517aa1cc9acb30731"
+policy:
+  python_downloads: "manual"
+  project_environment: ".venv"
+  python_cache: ".cache/uv"
+  r_library: "renv/library"
+  r_cache: ".cache/renv"

@@ -1,0 +1,94 @@
+/.quarto/
+**/*.quarto_ipynb
+
+# ==========================================
+# Ctrl+Sea — Research Project Git Ignore
+# ==========================================
+
+# Raw and processed scientific datasets
+/data/raw/*
+/data/processed/*
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+
+# Large geospatial and scientific files
+*.tif
+*.tiff
+*.jp2
+*.nc
+*.h5
+*.hdf5
+*.grib
+*.las
+*.laz
+*.zip
+*.7z
+
+# R temporary files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+renv/library/
+renv/staging/
+renv/python/
+renv/local/
+renv/cellar/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.cache/
+/tests/environment/smoke/**/_output/
+/pre-build/.preview/
+/pre-build/.quarto/
+/pre-build/.gitignore
+/pre-build/.pi-sync/generated/
+/pre-build/.pi-sync/last-report.json
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+auth.json
+secrets.yaml
+
+# Temporary scientific processing
+scratch/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Quarto intermediate files
+.quarto/
+*_cache/
+*_files/
+*.knit.md
+*.utf8.md
+
+# Preserve Quarto manuscript outputs
+!/docs/
+!/docs/**
+
+# Preserve individual HTML analysis reports
+!/analysis/
+!/analysis/**/*.html
+
+# Preserve Git placeholders
+!.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Generated placeholder outputs in the research template
+/analysis/_template/report.html
+/docs/*.html
+/docs/*.docx
+/docs/site_libs/

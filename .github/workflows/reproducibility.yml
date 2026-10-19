@@ -1,0 +1,89 @@
+name: Reproducibility
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  UV_PYTHON_DOWNLOADS: manual
+  UV_CACHE_DIR: ${{ github.workspace }}/.cache/uv
+  RENV_PATHS_CACHE: ${{ github.workspace }}/.cache/renv
+  RENV_CONFIG_REPOS_OVERRIDE: https://cloud.r-project.org
+  # Setup actions run before the locked project library exists. Project wrappers
+  # override this with the repository .Rprofile after restore.
+  R_PROFILE_USER: /dev/null
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Check out reviewed revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+
+      - name: Set up Python 3.12.3
+        uses: actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c
+        with:
+          python-version: "3.12.3"
+
+      - name: Set up uv 0.12.20
+        uses: astral-sh/setup-uv@3259c6206f993105e3a61b142c2d97bf4b9ef83d
+        with:
+          version: "0.12.20"
+          enable-cache: false
+
+      - name: Set up R 4.3.3
+        uses: r-lib/actions/setup-r@929c772977a3a13c8733b363bf5a2f685c25dd91
+        with:
+          r-version: "4.3.3"
+          use-public-rspm: false
+
+      - name: Set up Quarto 1.10.19
+        uses: quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b
+        with:
+          version: "1.10.19"
+
+      - name: Install approved system packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes --no-install-recommends \
+            gdal-bin=3.8.4+dfsg-3ubuntu3 \
+            libpng-dev=1.6.43-5ubuntu0.7 \
+            libuv1-dev=1.48.0-1.1build1
+          test "$(gdalinfo --version | sed -E 's/^GDAL ([0-9]+\.[0-9]+\.[0-9]+).*/\1/')" = "3.8.4"
+          test "$(dpkg-query -W -f='${Version}' libpng-dev)" = "1.6.43-5ubuntu0.7"
+          test "$(dpkg-query -W -f='${Version}' libuv1-dev)" = "1.48.0-1.1build1"
+
+      - name: Restore locked project environments
+        run: ./scripts/bootstrap-env.sh
+
+      - name: Run Python tests
+        run: ./scripts/project-env.sh uv run --locked --no-python-downloads pytest
+
+      - name: Run R tests
+        run: ./scripts/project-env.sh Rscript -e 'testthat::test_dir("tests/testthat", stop_on_failure = TRUE)'
+
+      - name: Render environment smoke reports
+        run: ./tests/environment/render-smoke.sh
+
+      - name: Confirm no tracked generated environments or manuscript changes
+        run: |
+          dirty_status=$(git status --porcelain -- . ':!.cache' ':!.venv' ':!renv/library' ':!tests/environment/smoke/**/_output')
+          if [[ -n "$dirty_status" ]]; then
+            echo "Unexpected repository changes after validation:" >&2
+            printf '%s\n' "$dirty_status" >&2
+            exit 1
+          fi
+          test -z "$(git diff --name-only -- index.qmd _quarto.yml manuscript docs)"
+
+      - name: Upload smoke reports
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: environment-smoke-reports
+          path: tests/environment/smoke/**/_output/report.html
+          if-no-files-found: warn
+          retention-days: 14

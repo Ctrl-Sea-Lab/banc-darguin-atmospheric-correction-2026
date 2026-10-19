@@ -1,0 +1,102 @@
+name: pi-contribution-guard
+
+on:
+  pull_request_target:
+    branches: [main]
+    types: [opened, synchronize, reopened]
+  pull_request_review:
+    types: [submitted, dismissed]
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+
+jobs:
+  preservation:
+    # These events load this workflow from the protected base. No code from the
+    # proposed revision is executed here.
+    if: >-
+      github.event_name != 'issue_comment' ||
+      github.event.issue.pull_request != null
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve pull-request revision
+        id: pull-request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const number = context.payload.pull_request?.number ?? context.payload.issue?.number;
+            if (!number) {
+              core.setFailed('Event is not bound to a pull request');
+              return;
+            }
+            const {data: pull} = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: number,
+            });
+            if (pull.base.ref !== 'main') {
+              core.setFailed(`Unexpected base branch: ${pull.base.ref}`);
+              return;
+            }
+            core.setOutput('number', number);
+            core.setOutput('base-ref', pull.base.ref);
+            core.setOutput('base-sha', pull.base.sha);
+            core.setOutput('head-sha', pull.head.sha);
+
+      - name: Check out trusted guard from the base revision
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: guard-tools
+          ref: ${{ steps.pull-request.outputs.base-sha }}
+          persist-credentials: false
+
+      - name: Check out proposed revision as data
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          path: candidate
+          ref: ${{ steps.pull-request.outputs.head-sha }}
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Classify protected changes
+        id: classify
+        shell: bash
+        run: |
+          set +e
+          python guard-tools/scripts/pi_guard.py --repository candidate check \
+            --base-ref "origin/${{ steps.pull-request.outputs.base-ref }}" \
+            --report-json "$RUNNER_TEMP/pi-guard-report.json"
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            echo "review_required=false" >> "$GITHUB_OUTPUT"
+          elif [ "$status" -eq 3 ]; then
+            echo "review_required=true" >> "$GITHUB_OUTPUT"
+          else
+            exit "$status"
+          fi
+
+      - name: Verify authenticated PI authorization
+        if: steps.classify.outputs.review_required == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PI_GITHUB_LOGINS: ${{ vars.PI_GITHUB_LOGINS }}
+        run: |
+          python guard-tools/scripts/github_pi_authorization.py \
+            --guard-report "$RUNNER_TEMP/pi-guard-report.json" \
+            --pull-request-number "${{ steps.pull-request.outputs.number }}" \
+            --head-commit "${{ steps.pull-request.outputs.head-sha }}" \
+            --output "$RUNNER_TEMP/pi-authorization.json"
+          python guard-tools/scripts/pi_guard.py --repository candidate check \
+            --base-ref "origin/${{ steps.pull-request.outputs.base-ref }}" \
+            --authorization-file "$RUNNER_TEMP/pi-authorization.json"
