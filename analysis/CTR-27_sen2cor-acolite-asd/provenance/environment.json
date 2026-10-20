@@ -1,12 +1,12 @@
 {
-  "R": {
-    "version": "4.3.3",
-    "stderr": "",
-    "exit_code": 0
+  "python": "3.12.3",
+  "quarto": "1.10.19",
+  "lockfiles": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
   },
-  "Quarto": {
-    "version": "1.10.19",
-    "stderr": "",
-    "exit_code": 0
-  }
+  "new_packages": [],
+  "system_changes": [],
+  "html_external_script_or_css_dependencies": [],
+  "HTML_title_present": true
 }

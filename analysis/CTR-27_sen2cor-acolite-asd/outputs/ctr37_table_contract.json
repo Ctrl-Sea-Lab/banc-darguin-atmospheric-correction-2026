@@ -1,0 +1,29 @@
+{
+  "primary_metrics": "ctr37_station_metrics.csv: 12 rows; station/correction unique; v4, complete fixed spectra",
+  "supplementary_metrics": "ctr37_supplementary_metrics.csv: 14 unavailable station/correction rows; N=0, metrics NA",
+  "v5_metrics": "ctr37_v5_sensitivity_metrics.csv: 26 rows; 12 finite primary plus 14 unavailable supplementary",
+  "figure_pairs": "ctr37_figure_pairs.csv: 78 rows; station/band/correction unique; 36 finite primary, 42 supplementary NA",
+  "spectral_long": "ctr37_spectral_long.csv: 117 rows; station/band/series unique; 54 finite primary, 63 supplementary NA",
+  "booleans": "CSV True/False strings; explicitly parse in R; included_validation_pair always False",
+  "NA": "literal NA for unknown quantities; zero n_paired_bands means no usable band, not zero discrepancy",
+  "unit": "1 (dimensionless reflectance); signed difference and all metrics on same scale",
+  "band_order": [
+    "B02",
+    "B03",
+    "B04"
+  ],
+  "station_order": [
+    "AC01",
+    "AC02",
+    "AC05",
+    "AC06",
+    "AC07",
+    "AC08"
+  ],
+  "classes": "literal dry_sand, algae_mud, white_sand, seagrass; supplementary zn/sand; do not silently recode",
+  "plot_filter": "fixed six primary stations; common_finite_triple=True; v4_primary; complete spectra",
+  "status": "EXPLORATORY_DIAGNOSTIC_PHYSICAL_HOLD or UNAVAILABLE_NOT_SUBSTITUTED; no validation eligibility release",
+  "captions": "diagnostic-agreement.qmd, Figure handoff to Edward",
+  "sensitivity": "v5 tables explicitly separate; do not duplicate primary plotted points",
+  "precision": "full Python round-trip float precision in CSV; displayed metrics six decimals"
+}
