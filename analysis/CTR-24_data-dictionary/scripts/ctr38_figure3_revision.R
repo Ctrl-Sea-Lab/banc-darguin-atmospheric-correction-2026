@@ -17,7 +17,7 @@ draw <- function(population) {
   lim <- if(population=="reference") c(0,0.7) else c(0,0.6)
   lim <- range(c(lim,d$asd_reflectance,d$satellite_reflectance))
   lim <- c(floor(lim[1]*10)/10,ceiling(lim[2]*10)/10)
-  layout(matrix(c(1,2,3,3),nrow=2,byrow=TRUE),heights=c(1,0.20))
+  layout(matrix(c(1,2),nrow=1))
   par(family="sans",mar=c(3.5,3.9,2.2,0.6),mgp=c(2.25,0.55,0),tcl=-0.25,
       las=1,cex=0.82,xaxs="i",yaxs="i",lwd=0.8,pty="s")
   for(correction in c("Sen2Cor","ACOLITE")) {
@@ -32,19 +32,23 @@ draw <- function(population) {
     title(main=correction,adj=0,line=0.65,cex.main=1.12,xpd=NA)
     text(lim[1]+0.035*diff(lim),lim[2]-0.025*diff(lim),
          sprintf("RMSD %.3f | Bias %+.3f",m$RMSE,m$bias),adj=c(0,1),cex=0.88)
+    # Keep each key inside its panel, below and to the right of the plotted values.
+    if(correction=="Sen2Cor") {
+      legend("bottomright",legend=names(shapes),pch=shapes,pt.bg="white",
+             col="#202020",bty="n",cex=0.78,x.intersp=0.65,y.intersp=1.05,
+             pt.cex=1.15,inset=c(0.025,0.035))
+    } else {
+      legend("bottomright",legend=band_names[match(bands,names(cols))],pch=21,
+             pt.bg=cols[bands],col="#202020",bty="n",cex=0.74,
+             x.intersp=0.65,y.intersp=1.0,pt.cex=1.15,inset=c(0.025,0.035))
+    }
   }
-  par(mar=c(0,0,0,0),pty="m");plot.new();plot.window(xlim=c(0,1),ylim=c(0,1))
-  legend("top",legend=band_names[match(bands,names(cols))],pch=21,pt.bg=cols[bands],
-         col="#202020",ncol=if(length(bands)>3) 5 else 3,bty="n",cex=0.77,
-         x.intersp=0.65,y.intersp=0.90,pt.cex=1.15)
-  legend("bottom",legend=names(shapes),pch=shapes,pt.bg="white",ncol=4,
-         bty="n",cex=0.78,x.intersp=0.65,pt.cex=1.15,inset=c(0,0.12))
 }
 for(population in c("reference","primary")) {
   name <- file.path(out,paste0("ctr38_figure3_",population))
-  svg(paste0(name,".svg"),width=183/25.4,height=124/25.4);draw(population);dev.off()
-  cairo_pdf(paste0(name,".pdf"),width=183/25.4,height=124/25.4);draw(population);dev.off()
-  png(paste0(name,".png"),width=183,height=124,units="mm",res=600,type="cairo")
+  svg(paste0(name,".svg"),width=183/25.4,height=100/25.4);draw(population);dev.off()
+  cairo_pdf(paste0(name,".pdf"),width=183/25.4,height=100/25.4);draw(population);dev.off()
+  png(paste0(name,".png"),width=183,height=100,units="mm",res=600,type="cairo")
   draw(population);dev.off()
 }
 cat(R.version.string,"\n")

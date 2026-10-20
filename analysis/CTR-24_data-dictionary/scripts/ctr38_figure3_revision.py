@@ -135,6 +135,9 @@ def main():
     parser=Resources();parser.feed(report);assert not parser.external,parser.external
     for r in summaries:
         for k in ['bias','MAE','RMSE']: assert format(r[k],'+.6f' if k=='bias' else '.6f') in report
+    # Refresh the offline copy before hashing or packaging its provenance.
+    subprocess.run([str(ROOT/'.venv/bin/python'),str(A/'scripts/ctr38_figure3_portable.py')],
+                   cwd=ROOT,check=True,capture_output=True,text=True)
     result=dict(status='pass',previous_author_commit=BASE,source_comment_id='e6a042c8-55d1-433d-afce-18a6b2f9ec0d',
         supplied_rows=126,supplied_script_expected_rows=144,missing_script_input='figure3_metrics.csv',
         primary_values_per_correction=18,reference_values_per_correction=54,overlapping_values_checked=36,
@@ -145,8 +148,8 @@ def main():
         new_extraction=False,new_integration=False,inference=False,external_report_resources=parser.external,
         scientific_review='pending exact-revision independent review; not PI approval')
     (A/'provenance/ctr38_figure3_revision.json').write_text(json.dumps(result,indent=2)+'\n')
-    paths=[A/'final-matchup-report.qmd',A/'final-matchup-report.html']
-    for pattern in ['scripts/ctr38_figure3_revision.*','scripts/ctr38_final_report_template.md','tables/ctr38_figure3_*.csv','provenance/pi_figure3_20261020/*','provenance/ctr38_figure3_*','figures/generated/ctr38_figure3_*']:
+    paths=[A/'final-matchup-report.qmd',A/'final-matchup-report.html',A/'final-matchup-report-portable.html']
+    for pattern in ['scripts/ctr38_figure3_revision.*','scripts/ctr38_figure3_portable.py','scripts/ctr38_final_report_template.md','tables/ctr38_figure3_*.csv','provenance/pi_figure3_20261020/*','provenance/ctr38_figure3_*','figures/generated/ctr38_figure3_*']:
         paths.extend(A.glob(pattern))
     # Include the original station-facet deliverable and saved metrics in the complete bundle.
     paths.extend([A/'figures/generated/ctr38_station_spectra.svg',A/'figures/generated/ctr38_station_spectra.pdf',
