@@ -1,0 +1,20 @@
+---
+title: "Five complementary Sentinel-2 atmospheric correction processors"
+subtitle: "CTR-64 · Coastal and intertidal review for Banc d’Arguin"
+author: "Rachel Carson · Ctrl+Sea"
+date: 2026-10-20
+bibliography: library_additions.bib
+link-citations: true
+nocite: |
+  @Tavora2023Recipes
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    embed-resources: true
+    css: report.css
+execute:
+  enabled: false
+---
+
+{{< include review.md >}}

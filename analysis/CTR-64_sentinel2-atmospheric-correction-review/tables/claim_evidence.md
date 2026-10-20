@@ -1,0 +1,35 @@
+| claim_id | evidence_type | claim | source_id | location | limitations |
+| --- | --- | --- | --- | --- | --- |
+| C01 | recommendation | Retain four and add C2RCC for aquatic inversion diversity | Multiple method sources + C2RCC implementation | Method matrix; decision matrix | No empirical Banc d’Arguin ranking; reviewer synthesis |
+| C02 | documented capability | Sen2Cor 2.13.02 improves CAMS use over water; release 2026-09-24 | sen2cor_release | ESA release features/date | Release note claim, not independent accuracy validation |
+| C03 | documented capability | Sen2Cor libRadtran, DDV, CAMS fallback and aerosol choices | sen2cor_manual | §§2.2–2.3 | Finite aerosol model family; no dust guarantee |
+| C04 | documented capability | Sen2Cor has documented adjacency capability | sen2cor_atbd; sen2cor_manual | ATBD §§4.5–4.7; SUM expert settings | Older ATBD; exact 2.13 executable/default enablement needs retained calibration |
+| C05 | literature finding | DSF dark spectrum/tile assumptions and aerosol constraints | Vanhellemont2019DSF | §2 | Historical configuration; current defaults separately inspected |
+| C06 | documented capability | ACOLITE inspected tiled AOT, residual-glint/adjacency off | acolite_defaults | dsf_aot_estimate; dsf_residual_glint_correction; adjacency_correction | Snapshot not necessarily released binary defaults |
+| C07 | literature finding | TSDSF+RAdCor explicit adjacency; band-dependent evidence | Castagna2025RAdCor | §§2,4,5 | Belgian small waters; not local intertidal validation |
+| C08 | documented capability | POLYMER v4.17 and v5 preview coexist; special terms | polymer_changelog; polymer_license | v4.17 entry; Terms v2.0 | Use classification/permission not decided |
+| C09 | documented capability | POLYMER MSI default 60 m, offsets and A/B/C | polymer_msi | Level1_MSI constructor, platform and offset parsing | Source snapshot, not execution test |
+| C10 | literature finding | MAJA combines spectral and temporal aerosol constraints | Hagolle2015MAJA; Doxani2023ACIXLand | Methods/Conclusions; Table 1 | Foundational validation not MSI coastal; newer operational settings differ |
+| C11 | documented capability | MAJA one-scene init possible; eight default backward products | maja_start | Requirements and Note | Not recommended standard usage; usable series required |
+| C12 | documented capability | MAJA 4.10 CAMS49r1/S2C; 4.9.3 adjacency fix | maja_home | Release notices | Current GitLab package inaccessible; no current tag claim |
+| C13 | documented capability | C2RCC coupled RT networks and domain tests | c2rcc_spec; c2rcc_nets | Algorithm Specification; MSI inventory | Network training domain does not guarantee site coverage |
+| C14 | literature finding | C2RCC shallow-bottom/strong-glint limitations | Muller2026C2RCC | §4 | Main quantitative validation concerns OLCI |
+| C15 | documented capability | C2RCC MSI output defaults and bands | c2rcc_current_operator; c2rcc_current_algorithm | outputAsRrs; NN_SOURCE_BAND_REFL_NAMES | Installed SNAP module must be recorded separately |
+| C16 | literature finding | iCOR MODTRAN5/SIMEC; direct glint and whitecaps neglected | DeKeukelaere2018iCOR | Methods pp.527–529 | Foundational model; current package unverified |
+| C17 | documented capability | VITO free plugin/access form | icor_home; icor_access | Service and download form | Exact license/source/current package not obtained |
+| C18 | literature finding | SIAC Bayesian constraints and land uncertainty | Yin2022SIAC | §§2–4 | Land validation is not aquatic validation |
+| C19 | documented capability | SIAC auxiliary route and license inconsistency | siac_readme; siac_license | Auxiliaries; LICENSE heading | AGPLv3 file versus GPLv3 README; resolve before redistribution |
+| C20 | literature finding | OC-SMART MSI and coupled ML; website access unconfirmed | Fan2021OCSMART; ocsmart_access | §§2–3,6; failed software retrieval | Historical distribution is not current deployment proof |
+| C21 | literature finding | Warren common matchups 521, ±3h coastal/±24h inland | Warren2019MSI | Abstract; Methods; Conclusions | Older S2A processors and regional/time-window limits |
+| C22 | literature finding | ACIX Land common sites 79 S2 and 62 L8 | Doxani2023ACIXLand | Abstract/Methods | Reference types differ; land only |
+| C23 | literature finding | ACIX-Aqua performance depends on reference population/water type | Pahlevan2021ACIXAqua | §§3–7 | Older algorithms, not universal site ranking |
+| C24 | literature finding | Gironde comparison uses satellite indirect reference | Renosh2020Estuaries | §5 Conclusions | ACOLITE-corrected L8 reference; no independent coincident radiometry |
+| C25 | interpretation | Separate water/exposed/mixed pixels and output definitions | All domain and output sources | Output table and proposed design | Proposed future design, not implemented |
+| C26 | documented capability | Sen2Cor memory guideline 4GB; historical peak 3.5GB | sen2cor_manual | §2.5 | Historical hardware, not new benchmark or current macOS support |
+| C27 | planning estimate | 16–32 GB starting workstation envelope | Reviewer estimate | Resource-planning section | Not a documented minimum, performance result or hardware purchase recommendation |
+| C28 | literature finding | Sen2Cor field spectra for exposed seagrass/bare/mixed surfaces | Zoffoli2020 | §§2.3.1,3.3.1 and Fig.5 | Limited Bourgneuf scenes; no common processor ranking |
+| C29 | literature finding | Intertidal Sen2Cor use includes subsequent red/NIR calibration | Daggers2020 | Satellite preprocessing | Temporal consistency cannot be attributed to Sen2Cor alone |
+| C30 | literature finding | Mudflat Sen2Cor+BRDF and migration timing effects | Jacobs2021 | Satellite processing; Discussion | Biological endpoint and representativeness limits |
+| C31 | literature finding | Bijagos ACOLITE DSF exposure application and tidal lags | Granadeiro2021 | §§2.2–2.5; Discussion | Relative calibration; exposure endpoint, not absolute AC validation |
+| C32 | literature finding | Sediment moisture/grain size and empirical calibration | Thuy2022 | §§II–IV | Local sediment/calibration domain; no processor superiority test |
+| C33 | literature finding | MAJA comparison aligned adjacency/terrain treatment | Colin2023 | §§2–4 | Developer land assessment; not tidal-flat validation |

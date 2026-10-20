@@ -1,0 +1,30 @@
+task:
+  id: CTR-64
+  paperclip_issue_id: 49e74dd3-dee6-455e-979c-a7c400e93418
+  title: Review Sentinel-2 atmospheric correction processors
+  slug: sentinel2-atmospheric-correction-review
+  research_question: Which five complementary locally executable processors suit coastal and exposed-intertidal research?
+  created_at: '2026-10-20'
+analysis:
+  status: drafted_for_independent_review
+  language: [Python]
+  input_datasets: []
+  scripts: [scripts/acquire_evidence.py, scripts/acquire_supplement.py, scripts/build_review_tables.py, scripts/validate_review.py]
+  report_source: report.qmd
+  report_html: report.html
+  processor_installation: not_performed
+  imagery_processing: not_performed
+review:
+  status: pending_independent_review
+  reviewer: null
+pi_approval:
+  status: pending
+  approved_revision: null
+  note: No YAML field constitutes authenticated approval.
+manuscript:
+  integration_status: not_authorized
+  merge_status: not_authorized
+  publication_status: not_authorized
+bibliography:
+  root_update: pending_required_sync_receipt
+  additions: library_additions.bib

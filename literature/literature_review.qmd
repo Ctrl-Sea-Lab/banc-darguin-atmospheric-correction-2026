@@ -1,0 +1,9 @@
+---
+title: "CTR-64 literature synthesis"
+---
+
+Take-home message: retain Sen2Cor, ACOLITE, POLYMER and MAJA, adding C2RCC for aquatic inversion diversity. No Banc d’Arguin accuracy ranking is established.
+
+The full critical synthesis is in [the standalone HTML report](../analysis/CTR-64_sentinel2-atmospheric-correction-review/report.html). Method, implementation and evidence matrices distinguish literature findings, documented capabilities and reviewer recommendations.
+
+Cross-study disagreements depend on water type, version, reference independence and matchup/coverage selection. Exposed-intertidal evidence remains limited. iCOR is a conditional aquatic fallback; SIAC is a land-priority alternative. Root bibliography additions await the mandatory PI synchronization gate. Internal scientific review and PI approval are pending.

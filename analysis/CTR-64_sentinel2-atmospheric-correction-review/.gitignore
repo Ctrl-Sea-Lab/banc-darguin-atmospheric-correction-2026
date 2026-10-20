@@ -1,0 +1,7 @@
+/outputs/sources/
+/literature/pdfs/*
+!literature/pdfs/.gitignore
+/.quarto/
+/*_files/
+
+**/*.quarto_ipynb
