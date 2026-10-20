@@ -20,6 +20,7 @@ P = A / 'provenance/pi_figure3_20261020'
 BASE = 'dd00258982cd3050d74d9a41291a1bf6fb061abc'
 STATIONS = ['AC01','AC02','AC05','AC06','AC07','AC08']
 CORRECTIONS = ['Sen2Cor','ACOLITE']
+DISPLAY = {'dry_sand':'Sand','white_sand':'Sand','algae_mud':'Macroalgae','seagrass':'Seagrass'}
 TARGETS = {'dry_sand':'Dry sand','algae_mud':'Algal mud','white_sand':'White sand','seagrass':'Seagrass'}
 
 
@@ -111,12 +112,15 @@ def main():
     with tempfile.TemporaryDirectory(prefix='ctr38_figure3_',dir=A/'outputs') as tmp:
         run=subprocess.run([str(ROOT/'scripts/project-env.sh'),'Rscript',str(A/'scripts/ctr38_figure3_revision.R'),str(A),tmp],cwd=ROOT,capture_output=True,text=True,check=True)
         (A/'provenance/ctr38_figure3_render.txt').write_text(run.stdout+run.stderr)
+        station=subprocess.run([str(ROOT/'scripts/project-env.sh'),'Rscript',str(A/'scripts/ctr38_figure3_station_labels.R'),str(A),tmp],cwd=ROOT,capture_output=True,text=True,check=True)
+        (A/'provenance/ctr38_figure3_station_render.txt').write_text(station.stdout+station.stderr)
         for p in Path(tmp).iterdir(): module.write_generated_bytes(A,p.name,p.read_bytes())
+    write(A/'tables/ctr38_figure3_display_classes.csv', [dict(original_class=k,display_class=v) for k,v in DISPLAY.items()])
     md=(A/'scripts/ctr38_final_report_template.md').read_text()
     rows=[[r['population'],r['correction'],r['n_stations'],r['n_bands'],r['n_station_band_values'],f"{r['bias']:+.6f}",f"{r['MAE']:.6f}",f"{r['RMSE']:.6f}"] for r in summaries]
     md=md.replace('SUMMARY_TABLE',table(['Scope','Correction','Stations','Bands','Values','Bias (1)','MAE (1)','RMSD (1)'],rows))
-    rows=[[r['station_id'],r['class_literal'],{'L2A':'Sen2Cor','ACOLITE':'ACOLITE'}[r['correction']],r['n_paired_bands']]+[format(float(r[k]),'.6f') for k in ['bias','MAE','RMSE']] for r in saved]
-    md=md.replace('STATION_TABLE',table(['Station','Original target','Correction','Bands','Bias (1)','MAE (1)','RMSD (1)'],rows))
+    rows=[[r['station_id'],DISPLAY[r['class_literal']],r['class_literal'],{'L2A':'Sen2Cor','ACOLITE':'ACOLITE'}[r['correction']],r['n_paired_bands']]+[format(float(r[k]),'.6f') for k in ['bias','MAE','RMSE']] for r in saved]
+    md=md.replace('STATION_TABLE',table(['Station','Displayed class','Original target','Correction','Bands','Bias (1)','MAE (1)','RMSD (1)'],rows))
     coverage=read(A/'tables/ctr37_station_coverage.csv')
     rows=[[r['station_id'],r['class_literal'],'NA','NA',0] for r in coverage if r['population']=='supplementary']
     md=md.replace('MISSING_TABLE',table(['Station','Original target','ASD band reference','Satellite values','Common bands'],rows))
@@ -149,7 +153,7 @@ def main():
         scientific_review='pending exact-revision independent review; not PI approval')
     (A/'provenance/ctr38_figure3_revision.json').write_text(json.dumps(result,indent=2)+'\n')
     paths=[A/'final-matchup-report.qmd',A/'final-matchup-report.html',A/'final-matchup-report-portable.html']
-    for pattern in ['scripts/ctr38_figure3_revision.*','scripts/ctr38_figure3_portable.py','scripts/ctr38_final_report_template.md','tables/ctr38_figure3_*.csv','provenance/pi_figure3_20261020/*','provenance/ctr38_figure3_*','figures/generated/ctr38_figure3_*']:
+    for pattern in ['scripts/ctr38_figure3_revision.*','scripts/ctr38_figure3_portable.py','scripts/ctr38_figure3_station_labels.R','scripts/ctr38_final_report_template.md','tables/ctr38_figure3_*.csv','provenance/pi_figure3_20261020/*','provenance/ctr38_figure3_*','figures/generated/ctr38_figure3_*']:
         paths.extend(A.glob(pattern))
     # Include the original station-facet deliverable and saved metrics in the complete bundle.
     paths.extend([A/'figures/generated/ctr38_station_spectra.svg',A/'figures/generated/ctr38_station_spectra.pdf',

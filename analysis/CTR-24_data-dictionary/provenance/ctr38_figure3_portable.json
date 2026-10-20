@@ -1,8 +1,8 @@
 {
   "source": "final-matchup-report.html",
-  "source_sha256": "351bd3193c2e1700ecbf3a0d9bc9e9b19d303e6979ab53fd83edae8f1f247213",
+  "source_sha256": "95fe5c15476ced3fb5c01081f0df175e97c37096416ad722c77d11bf02f3ccba",
   "portable": "final-matchup-report-portable.html",
-  "portable_sha256": "ee6ba2aaef8418fcd62dcc7e5cbee96a76ac6226e9d64774f762ef357e3fae47",
+  "portable_sha256": "913d3e746bc5deaa5ed0ce16fe57242e262a417c85a760b91545c78ebbaa6905",
   "report_main_content_preserved_byte_for_byte": true,
   "report_text_identical": true,
   "external_rendering_resources": [],

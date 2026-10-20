@@ -8,10 +8,15 @@ cols <- c(B1="#4c17e1",B2="#6999fe",B3="#a4d26f",B4="#e47121",
           B5="#b80a0a",B6="#7e0000",B7="#111111",B8="#111111",B8A="#111111")
 band_names <- c("B1 Coastal","B2 Blue","B3 Green","B4 Red","B5 Red edge",
                 "B6 Red edge","B7 Red edge","B8 NIR","B8A Narrow NIR")
-shapes <- c("Dry sand"=21,"Algal mud"=23,"White sand"=24,"Seagrass"=25)
+# PI-requested display grouping; saved source tables retain their original labels.
+classes <- c("Dry sand"="Sand","White sand"="Sand","Algal mud"="Macroalgae","Seagrass"="Seagrass")
+shapes <- c("Sand"=21,"Macroalgae"=23,"Seagrass"=25)
 metrics <- read.csv(file.path(a,"tables/ctr38_figure3_summary_metrics.csv"))
 draw <- function(population) {
   d <- read.csv(file.path(a,paste0("tables/ctr38_figure3_",population,"_pairs.csv")))
+  stopifnot(all(d$target %in% names(classes)))
+  d$target <- unname(classes[d$target])
+  stopifnot(setequal(unique(d$target), names(shapes)))
   bands <- names(cols)[names(cols) %in% unique(d$band)]
   # Identical scales and a common 1:1 aspect in each panel, including valid negatives.
   lim <- if(population=="reference") c(0,0.7) else c(0,0.6)
