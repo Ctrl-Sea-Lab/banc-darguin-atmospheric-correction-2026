@@ -1,0 +1,9 @@
+{
+  "baseline_commit": "9f0f06d2b5958b35de82adbca1577e4c384ae846",
+  "source_report": "analysis/CTR-27_sen2cor-acolite-asd/report.qmd",
+  "source_qmd_sha256": "7664ceab2269b8dcad2036564a6fdad1117b24cb73e2c77922f64fc852808c5e",
+  "summary_word_count": 206,
+  "source_body_blocks_retained": 21,
+  "scientific_outputs_recomputed": false,
+  "new_literature": false
+}

@@ -1,0 +1,17 @@
+{
+  "baseline_commit": "9f0f06d2b5958b35de82adbca1577e4c384ae846",
+  "source_files_and_locks_byte_identical": 75,
+  "all_source_numerical_outputs_preserved": true,
+  "source_report_and_generator_unchanged": true,
+  "source_body_blocks_preserved": 21,
+  "summary_word_count": 206,
+  "summary_magnitudes_checked_against_existing_tables": true,
+  "embedded_images_byte_identical_to_source": 5,
+  "original_figure_captions_present": true,
+  "all_five_images_have_alt_text": true,
+  "external_render_assets": [],
+  "report_qmd_sha256": "0bc8eed26a7d2f84eeae161578bb19e0bb994d0aa0bce77f266032fc378864dc",
+  "report_html_sha256": "31a8a21a454c2754e08e141fdb38d812de904fbe571f823f0795dd7b3c978824",
+  "scientific_reanalysis": "none; numerical scripts not rerun",
+  "validation_limit": "author preservation/presentation checks; independent scientific and editorial review pending"
+}

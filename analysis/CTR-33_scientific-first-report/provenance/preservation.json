@@ -1,0 +1,179 @@
+{
+  "baseline_commit": "9f0f06d2b5958b35de82adbca1577e4c384ae846",
+  "source_files_and_locks_byte_identical": 75,
+  "all_source_numerical_outputs_preserved": true,
+  "source_report_and_generator_unchanged": true,
+  "source_body_blocks_preserved": 21,
+  "summary_word_count": 206,
+  "summary_magnitudes_checked_against_existing_tables": true,
+  "embedded_images_byte_identical_to_source": 5,
+  "original_figure_captions_present": true,
+  "all_five_images_have_alt_text": true,
+  "external_render_assets": [],
+  "report_qmd_sha256": "0bc8eed26a7d2f84eeae161578bb19e0bb994d0aa0bce77f266032fc378864dc",
+  "report_html_sha256": "31a8a21a454c2754e08e141fdb38d812de904fbe571f823f0795dd7b3c978824",
+  "read_only_input_checks": {
+    "raw_files_stat_unchanged": 894,
+    "small_input_full_hashes_verified": [
+      {
+        "path": "data/raw/ASD/202603_Measurement_log.txt",
+        "sha256": "f5dead39285522d5cec031cce05c377117b79b39357b6e35e4eadf902c8ec6e2",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/ASD/202603_Seagrass_cover.txt",
+        "sha256": "03ab764cd0e255f72c2a22a4b25299cb2c9cfce1dfe7696281a78e99aeef879d",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/GPS/Info spectral measure_biomass core_BdA 2026.xlsx",
+        "sha256": "3a20a92a56d844f9d9fff44694f78c787ad13eca58a0b1d64d626bc00a0be43e",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/ASD/202603_Reflectance_avg.txt",
+        "sha256": "16985b87c9f5f991f0684bfb6bbaa9f53696c681bd311500b22b41c32860c23d",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.shp",
+        "sha256": "c866db904e3ce3c5ad98d43e10ffb7210dbe26ba9e71709413501a94b6b2a433",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.shx",
+        "sha256": "dc1aff7ec23dcd5ce69571486abba9f65afecef8411ed1acb3fda130cf01bb4e",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.dbf",
+        "sha256": "3a204eb17921850852f941013ce8ed322f49147892fcabf6110d1f6a779e937d",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.prj",
+        "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.cpg",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.shp",
+        "sha256": "464fcbd502c5caac4eb6898307fe2b988ad504d7bc1b74d80eda66dc6918f231",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.shx",
+        "sha256": "10b260a1d9047b09533adea18295d3c048c082845a6873367d8b4f4f61f70a3f",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.dbf",
+        "sha256": "5126ccf3b00d55f62001a300b5b0ba09c80eaf3e335a79d1c1d1bf4aba40cde0",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.prj",
+        "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.cpg",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/extent.shp",
+        "sha256": "621e719dea338631f031aef63173cb04eae8404c8b45f8dc7d09753b56a7cc2a",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/extent.shx",
+        "sha256": "04ba97c8c192a8c4416f45c8817dd4b27ccb6d0d7f0fefbd2ed85fbde0034a05",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/extent.dbf",
+        "sha256": "c499a7d236645465854bdb58c79a857b7f1494d7d609733e859743600f66844a",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/extent.prj",
+        "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/extent.cpg",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/mask/square_mask.shp",
+        "sha256": "825f011b2da98934fe1c1ff4f6cb222c494879236a6b2e0a5c09979bf336c1c0",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/mask/square_mask.shx",
+        "sha256": "0c5cf955821915fc602b7e64e218953f16c97b9ba4bb094bdb835299bf761aea",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/mask/square_mask.dbf",
+        "sha256": "d737d255c5eaaadfb69d1778be8f18e333620ad9d7d5dd9407afbdc7f1f778dc",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/mask/square_mask.prj",
+        "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/SHP/mask/square_mask.cpg",
+        "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/MTD_MSIL2A.xml",
+        "sha256": "d71dee20a14903c358436e7cc14ce3fb7839def4bf550599ea849a04089c0182",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/MTD_TL.xml",
+        "sha256": "3c80af4b5c092c4e8f044577354273ba6da34f9c243d1aa6980684fdd6d90122",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/DATASTRIP/DS_2BPS_20260327T152639_S20260327T113507/MTD_DS.xml",
+        "sha256": "044384f7d88f8e046ef5505bf10f7984a369c4e02d7fc0ecd2ee80d3b46e8de1",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/manifest.safe",
+        "sha256": "ae62b5bc079f8f30689c2c23f5811890a8db1b9739dd7149a9b19d09d31cecff",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/COPE-GSEG-EOPG-TN-15-0007 - Sentinel-2 Spectral Response Functions 2024 - 4.0.xlsx",
+        "sha256": "1a9edc27d692a570911a460d589f188da0fc3e27f0b0bd1ad322059c380519b0",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/Atm_Compare_AOI/ACOLITE/2026-03-27.csv",
+        "sha256": "a25dbd5e47694c6a83765a6c5c9b8b542a85faf623e294aff0639c944a075743",
+        "baseline_equal": true
+      },
+      {
+        "path": "data/raw/Atm_Compare_AOI/Sen2Cor/2026-03-27.csv",
+        "sha256": "5f682490c6ee009c54883ec58b1893773509e0f33a01277f7fda20dd9f60f7a0",
+        "baseline_equal": true
+      }
+    ],
+    "raster_reads": 0,
+    "whole_scene_hashes_computed": false
+  },
+  "scientific_reanalysis": "none; numerical scripts not rerun",
+  "validation_limit": "author preservation/presentation checks; independent scientific and editorial review pending"
+}

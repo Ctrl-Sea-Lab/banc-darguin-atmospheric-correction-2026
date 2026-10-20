@@ -1,0 +1,42 @@
+[
+  {
+    "source_figure": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/field-spectra.png",
+    "sha256": "fe40c1d537def99a399532dc56eb70e3e02b04a3cca22ed8a6a0d0c8f5db7a0c",
+    "embedded_bytes_identical": true,
+    "original_caption_present": true,
+    "caption": "All 15 March 27 station-average ASD spectra, separated into eight primary AC candidates and seven supplementary D06 candidates. Reflectance is dimensionless; wavelengths are nm. No repeat-level error bars are available.",
+    "html_alt": "Fifteen field spectra in primary and supplementary panels; wavelength 400 to 900 nm and dimensionless reflectance."
+  },
+  {
+    "source_figure": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/station-aoi-map.png",
+    "sha256": "c4ebc3c5a8b25570d8429d172d312249460e638792925ddeb93ef926c9efb1d7",
+    "embedded_bytes_identical": true,
+    "original_caption_present": true,
+    "caption": "Field locations against actual supplied AOI polygon outlines and the footprints of the supplied 10 m cells. Coordinates are EPSG:32628 in km, scale bars are metres, and north is up. Triangles mark AC candidates; open circles mark D06 candidates. Leader lines connect labels to unchanged locations. All 15 field stations are plotted and unmatched. AC01/02 remain at their supplied GPS positions near Iwik despite Arel workbook text. No coastline or satellite basemap is inferred.",
+    "html_alt": "All 15 unmatched stations and actual AOI cell footprints in EPSG:32628; AC01 and AC02 discrepancy retained."
+  },
+  {
+    "source_figure": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/aoi-correction-comparison.png",
+    "sha256": "03ae4d413370b703b664c57376c30f58c95235639484e941532eba3f45812701",
+    "embedded_bytes_identical": true,
+    "original_caption_present": true,
+    "caption": "Operational L2A versus supplied ACOLITE DSF for B02, B03 and B04, separated by Arel and Iwik. Axes share a common dimensionless reflectance scale; the dashed line is 1:1. Counts are spatially dependent supplied pixel records and QA is not validated. These are product comparisons without ASD matches.",
+    "html_alt": "Six AOI by band scatter panels, common reflectance axes and 1:1 line; QA not validated."
+  },
+  {
+    "source_figure": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/aoi-paired-differences.png",
+    "sha256": "d8e997842ee42d257c18dbb7793d4ee28325d78192178521ae9f08b9f3c2a9d0",
+    "embedded_bytes_identical": true,
+    "original_caption_present": true,
+    "caption": "Paired difference distributions using ACOLITE minus operational L2A reflectance. Panels share 0.01-wide bins and common axes; zero is dashed. Every supplied finite primary-band record is retained. QA is not validated and spatially dependent pixel counts do not establish independent replication.",
+    "html_alt": "Six histograms of ACOLITE minus operational L2A; all observed differences negative; QA not validated."
+  },
+  {
+    "source_figure": "analysis/CTR-27_sen2cor-acolite-asd/figures/srf-coverage.png",
+    "sha256": "9257b80942dab9bda2b04b5cb2d2a64962923e7ae7a6a556864f8b80c60fb8e3",
+    "embedded_bytes_identical": true,
+    "original_caption_present": true,
+    "caption": "Spectral response coverage using PI-confirmed field wavelengths in nm. Full spectral coverage alone does not establish spatial or QA eligibility.",
+    "html_alt": "S2B spectral-response coverage for field wavelengths 400\u2013900 nm; B08 is below the 99.9% threshold. Coverage does not establish spatial or QA eligibility."
+  }
+]

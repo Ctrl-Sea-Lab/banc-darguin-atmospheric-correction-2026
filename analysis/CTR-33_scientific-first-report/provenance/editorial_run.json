@@ -1,0 +1,21 @@
+{
+  "commands_executed": [
+    "python3 scripts/pi_guard.py preflight --base-ref origin/main",
+    "./scripts/pi-workspace verify-ready --task-id CTR-33 --agent roger-tomlinson --path analysis/CTR-33_scientific-first-report/",
+    "python3 analysis/CTR-33_scientific-first-report/scripts/build_report.py",
+    "./scripts/render-analysis.sh analysis/CTR-33_scientific-first-report",
+    "python3 analysis/CTR-33_scientific-first-report/scripts/verify.py --raw-root /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026",
+    "python3 analysis/CTR-33_scientific-first-report/scripts/verify.py",
+    "python3 -m unittest discover -s tests -p test_*.py",
+    "python3 analysis/CTR-33_scientific-first-report/scripts/capture_browser.py"
+  ],
+  "deterministic_presentation_rebuild": true,
+  "quarto_version": "1.10.19",
+  "Python_version": "Python 3.12.3",
+  "standalone_render": "passed; provenance/render.txt",
+  "repository_preservation_tests": "34 tests passed; provenance/preservation_tests.txt",
+  "raw_numerical_analysis_rerun": false,
+  "new_metrics_extraction_or_raster_reads": false,
+  "dependency_or_lock_changes": false,
+  "guard_note": "Final clean-commit PI guards are recorded in the delivery receipt after commit; an earlier check correctly refused the uncommitted task directory."
+}

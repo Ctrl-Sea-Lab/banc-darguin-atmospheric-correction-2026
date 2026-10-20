@@ -1,0 +1,33 @@
+{
+  "report_html_sha256": "31a8a21a454c2754e08e141fdb38d812de904fbe571f823f0795dd7b3c978824",
+  "viewport": [
+    1400,
+    1100
+  ],
+  "browser": "Mozilla Firefox 152.0.3",
+  "first_page": "Full final report opened locally; summary visible before research question",
+  "principal_figures": "Four exact embedded figure/caption DOM fragments, with report CSS; no image changes",
+  "limitation": "Fragment images verify rendering; this is not automated full-page scrolling or independent editorial review",
+  "screenshots": [
+    {
+      "path": "outputs/browser-checks/field-spectra.png",
+      "sha256": "41031ab024ab9d7b798e0ebcf11a57f421d64a45bc07a7d16748a7f6b93b9848"
+    },
+    {
+      "path": "outputs/browser-checks/first-page.png",
+      "sha256": "0b92209bb5cdca45ce960838be3807ed4c3a525a582ea82dc33bc4d83d27f08a"
+    },
+    {
+      "path": "outputs/browser-checks/paired-differences.png",
+      "sha256": "11307cf1acf6c9ce6d932f05c93666cb1edf3cdb583af8e09c303b52be5b503e"
+    },
+    {
+      "path": "outputs/browser-checks/product-scatter.png",
+      "sha256": "d321362bf7644f3e6a7ea734af5e4779e80708fb7b823bcf925ba5cf16b73970"
+    },
+    {
+      "path": "outputs/browser-checks/station-map.png",
+      "sha256": "2e0745cc33202f9bb9d8b09b2c7ed5dd2994220418b0632d74fcee21728b7957"
+    }
+  ]
+}

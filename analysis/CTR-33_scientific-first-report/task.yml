@@ -1,0 +1,39 @@
+task:
+  id: CTR-33
+  paperclip_issue_id: 352dd2f9-f3a4-4572-b209-c027c599c83a
+  title: Restructure March 27 report and validate scientific-first communication
+  slug: scientific-first-report
+  scope: editorial presentation of existing authorized investigation; no new analysis
+  source_task: CTR-28
+  source_investigation: analysis/CTR-27_sen2cor-acolite-asd/
+  source_commit: 9f0f06d2b5958b35de82adbca1577e4c384ae846
+  source_document_revision: 7f45ae7b-2969-4c9e-8b83-51250fc21432
+  source_PR: https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026/pull/3
+  created_at: '2026-10-20'
+analysis:
+  status: editorial_submission_pending_review
+  readiness: blocked_for_station_extraction_and_ASD_validation
+  report_source: report.qmd
+  report_html: report.html
+  scientific_outputs: retained byte-for-byte under source_investigation
+  new_metrics_or_extraction: none
+  new_literature: none
+  research_question: Can the supplied March 27 field and satellite products form comparable reflectance matchups?
+environment:
+  python_lockfile: ../../uv.lock
+  r_lockfile: ../../renv.lock
+  dependency_changes: none
+  render_command: ./scripts/render-analysis.sh analysis/CTR-33_scientific-first-report
+review:
+  editorial: Rachel Carson; native review stage; pending
+  independent_scientific: Karl Popper; native review stage; pending
+  coordinator: Charles Darwin; native review stage; pending
+  source_review: CTR-28 remains independent and authoritative
+pi_approval:
+  status: pending
+  approved_revision: null
+  note: This YAML is not evidence of authenticated PI approval.
+manuscript:
+  integration_status: not_authorized
+  merge_status: not_authorized
+  public_publication_status: not_authorized

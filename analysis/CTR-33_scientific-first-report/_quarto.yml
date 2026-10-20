@@ -1,0 +1,24 @@
+
+project:
+  type: default
+  output-dir: .
+  execute-dir: project
+  render:
+    - report.qmd
+
+format:
+  html:
+    toc: false
+    toc-depth: 3
+    number-sections: true
+    code-fold: true
+    theme: none
+    minimal: true
+    css: report.css
+    embed-resources: true
+
+execute:
+  echo: true
+  warning: true
+
+# A minimal standalone document avoids embedding unused Bootstrap/font assets.
