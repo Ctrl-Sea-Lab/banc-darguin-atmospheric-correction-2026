@@ -51,8 +51,8 @@
     },
     {
       "path": "provenance/render.txt",
-      "bytes": 583,
-      "sha256": "44d458f28c81a7fdc605b666b7a8a5aab29fda92a459cdfb1ebc020549120e34"
+      "bytes": 578,
+      "sha256": "d451c44eadd1baf5b8b56fb223f0ea4dad07fcc5489b5e348beaa7503ebadd0a"
     },
     {
       "path": "provenance/sync_readiness.json",
@@ -71,8 +71,8 @@
     },
     {
       "path": "report.html",
-      "bytes": 1937365,
-      "sha256": "3e2b66ea4604214da96f44e0341ccf3ee7aec6f1bcad873e6930db893cb764c9"
+      "bytes": 1937319,
+      "sha256": "a6e247407c1b49c5c3fbd217e7575a8c55f7e270c8c47c9f18a802baf7435b9f"
     },
     {
       "path": "report.md",
@@ -86,8 +86,8 @@
     },
     {
       "path": "scripts/build_report.py",
-      "bytes": 26540,
-      "sha256": "c2f2d0d3de49098d805d1de2b14fccf8f85909c606ccebe610e3f2d3ca4a5a71"
+      "bytes": 26560,
+      "sha256": "948f43aa15a1e8650d5da123c52678427e9c69f0c5d9a848e566a71bf21b42ad"
     },
     {
       "path": "scripts/enrich_metadata.py",
@@ -95,9 +95,14 @@
       "sha256": "3c1e1d89e95ae1a8cd9c8276f352eed3de65bf8968b1f4de3d768f7984d883f9"
     },
     {
+      "path": "scripts/finalize.py",
+      "bytes": 1188,
+      "sha256": "2de12cc62c78ea15edbbd6185351f9c38a49438d671d92c6e2351d6a850aef23"
+    },
+    {
       "path": "scripts/inventory.py",
-      "bytes": 17095,
-      "sha256": "cc120cb616e02efbdbd13bdc0f7af608e33d3e77673ac21cc5e34b270806e924"
+      "bytes": 17115,
+      "sha256": "e077e254a50d985e7ea1824426ccd61e5a1dc45426b21c0c4023fcf52cf92e08"
     },
     {
       "path": "scripts/validate.py",
@@ -106,23 +111,23 @@
     },
     {
       "path": "tables/archive_inventory.csv",
-      "bytes": 1130741,
-      "sha256": "ce8f8037a20fda68ef31d8760ec2fb0a5c4c9129221caeebcc9bc00ad7cb42d0"
+      "bytes": 1126364,
+      "sha256": "1a47364e6c975896bd5a08d3cb9c6d06e314592bf20852dc5fc75f00052cdd70"
     },
     {
       "path": "tables/dataset_metadata.csv",
-      "bytes": 1675171,
-      "sha256": "e889902d3e73485e668cf89328464bc16bd3445321583adaebdd2c51049b412e"
+      "bytes": 1674538,
+      "sha256": "8e037c327a53592a43637e07f86fe00b99b904cdaa5b19d863a031d66b214577"
     },
     {
       "path": "tables/file_inventory.csv",
-      "bytes": 214974,
-      "sha256": "17962cd2753808f4617c3e4d15b2ce4f0ae3274ed19d2d96f6a4a7fa69dd8c11"
+      "bytes": 214124,
+      "sha256": "449ea6ba5dcdc42462818f9c2b43b4ac5e3ca70445583f5d7cfaaeb426df7170"
     },
     {
       "path": "tables/variable_dictionary.csv",
-      "bytes": 14856260,
-      "sha256": "e1ae8963b1f07d91ec40016bc3020e21a00c98732cbd190f2d0546f8ca19b4ed"
+      "bytes": 14842665,
+      "sha256": "ded4084cab97d60b0f5f40b1b21e4817bb515a767362e97589fa84daf67bf679"
     },
     {
       "path": "task.yml",

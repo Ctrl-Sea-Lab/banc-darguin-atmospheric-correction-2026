@@ -30,7 +30,7 @@ for k,h in H.items():
  else:continue
  D.append(r)
 with (P/'tables/dataset_metadata.csv').open('w',newline='') as f:
- w=csv.DictWriter(f,list(D[0]));w.writeheader();w.writerows(D)
+ w=csv.DictWriter(f,list(D[0]),lineterminator="\n");w.writeheader();w.writerows(D)
 sections=[]
 def add(s):sections.append(s.strip()+'\n')
 add('''# Banc d’Arguin 2026 — descriptive data dictionary

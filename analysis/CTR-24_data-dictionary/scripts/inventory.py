@@ -178,7 +178,7 @@ def shp(p,source):
 def csvout(path,rows,required=()):
  keys=list(dict.fromkeys(list(required)+[k for r in rows for k in r]))
  with path.open('w',newline='') as f:
-  w=csv.DictWriter(f,keys);w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,keys,lineterminator="\n");w.writeheader();w.writerows(rows)
 
 def main():
  start=UTC();before=scan();nc=NC()
