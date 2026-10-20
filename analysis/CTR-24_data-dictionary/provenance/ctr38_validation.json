@@ -1,0 +1,44 @@
+{
+  "status": "pass",
+  "input_commit": "9a4ec93fc412736fda85b44a1aab56ed6e2c2beb",
+  "ctr37_manifest_entries_verified": 26,
+  "frozen_contract_inputs_verified": 11,
+  "primary_spectral_values": 54,
+  "identical_scatter_keys_per_correction": 18,
+  "primary_metric_rows": 12,
+  "all_36_metric_annotations_found_in_PDF_text": true,
+  "PNG_dimensions_pixels": {
+    "ctr38_station_spectra": [
+      4251,
+      5196
+    ],
+    "ctr38_agreement_scatter": [
+      4251,
+      2740
+    ]
+  },
+  "supplementary_stations": 7,
+  "supplementary_metrics_NA_rows": 14,
+  "validation_eligible_pairs": 0,
+  "all_displayed_metrics_match_saved_table_rounding": true,
+  "external_render_resources": [],
+  "unit": "1",
+  "PNG_dpi": 600,
+  "dimensions_mm": {
+    "station_spectra": [
+      180,
+      220
+    ],
+    "agreement_scatter": [
+      180,
+      116
+    ]
+  },
+  "software": {
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+    "R": "see ctr38_render.txt",
+    "quarto": "1.10.19"
+  },
+  "scope": "Author display QA only; native presentation and independent reviews pending"
+}

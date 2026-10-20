@@ -1,0 +1,10 @@
+Linux Mint Research Worker: simon-desktop, Linux Mint 22.3.
+Approved repository Python 3.12.3, base R 4.3.3, Quarto 1.10.19.
+No dependency installation or lockfile changes.
+scripts/check-env.sh: passed; uv would make no changes; renv consistent.
+python3 -m unittest discover -s tests -p 'test_*.py': 34 tests, OK (75.296 s).
+PI guard was invoked before commit and correctly refused a dirty tree; final clean-commit result is recorded in the Paperclip delivery document.
+Task-specific ctr-38-station-figures branch in original checkout; no new worktree or investigation directory.
+pi-workspace verify-ready for CTR-38: ready, affected=false, unrelated investigation paths do not depend on PI synchronization. Actual analysis scripts, report, figures/generated, tables, outputs and provenance paths were checked.
+Saved CTR-37 input audit passed before plotting; 26 numerical manifest files and 11 frozen contract inputs checked without rerunning extraction or metrics.
+Original tracked files are checked for preservation against input commit before committing; only new CTR-38 paths may be introduced.
