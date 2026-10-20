@@ -1,0 +1,1 @@
+First R verifier run stopped because Python-exported True/False strings were read as character columns. The verifier now explicitly validates and parses these tokens. No numerical results changed. Environment check passed; R emitted a normalizePath warning about an absent temporary home directory, unrelated to the repository-local library. No packages installed.

@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "numeric_tables_replayed_identically": 9,
+  "table_sha256": {
+    "ctr37_spectral_long.csv": "aba8c25375a1e78e22c912a693dc3ca1b9e696088d2b27343c87714d39237baa",
+    "ctr37_station_coverage.csv": "5912c1dfa216a8236f830b31ddc10f8fd94a986aa75f94db541800ad3861974b",
+    "ctr37_v5_spectral_long.csv": "8fae72c49306463c190d3bc6fbc6851a102070e1ed4e210bdc7cfa055722a26e",
+    "ctr37_supplementary_metrics.csv": "138a8d80532f24c6868547eeaf8e4a789a8f0a9c07a143160d3dcb1d65fd1507",
+    "ctr37_figure_pairs.csv": "39573f432c61e251c02efaf33a5584972cbcfc941265ac6399acf7a22df4c996",
+    "ctr37_v5_sensitivity_metrics.csv": "4b06f33afda41ed6c8d960f11f69ac2a19077a884e25358b864bb37f609aabd9",
+    "ctr37_v5_sensitivity_pairs.csv": "cd9141cdef6f9b7579bb52b7449a5d2264ea3da1ba953ce5713be312c274ee20",
+    "ctr37_srf_sensitivity.csv": "1db2a3b3362dff2ba6900ef48d9b335ed6574a0389de01a7ef2585c2d5aa2954",
+    "ctr37_station_metrics.csv": "d955d329c7a95fe1882963fe6aecd1a8b9fb0b01dd0060640653fbd2cf778bc2"
+  },
+  "html_tables": 2,
+  "html_table_rows_including_headers": 26,
+  "external_render_assets": [],
+  "all_primary_rounded_metrics_found_in_html": true,
+  "original_tracked_files_preserved": 200,
+  "input_audit_checks": 308,
+  "R_checks": 74,
+  "dict_report_unchanged": true,
+  "review": "author verification, not independent scientific review"
+}

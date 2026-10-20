@@ -1,0 +1,45 @@
+{
+  "primary_complete_stations": 6,
+  "partial_primary_stations": 0,
+  "primary_triples": 18,
+  "primary_correction_rows": 36,
+  "unavailable_supplementary_stations": 7,
+  "eligible_validation_pairs": 0,
+  "max_abs_v5_minus_v4_reference": 1.5520406161650957e-05,
+  "unit": "1",
+  "scope": "EXPLORATORY_DIAGNOSTIC_PHYSICAL_HOLD",
+  "software": {
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "host": "simon-desktop",
+    "packages": "standard library only"
+  },
+  "inputs_sha256": {
+    "tables/ctr36_station_inputs.csv": "d9380a8c0e98aa70ec17015a0bf30daf378792b7a165fcfe21f7e803c719118d",
+    "tables/ctr36_supplementary_unmatched.csv": "52a44955b13f3d2f28e4eccf391a26a24072ee4dd05f07391a859520f1ffa17b",
+    "tables/ctr36_nonmud_station_inventory.csv": "70202c7907cdf8c1e81cd1ead9c917f00fff69e56f3e121b28f170d5f60c874b",
+    "tables/ctr36_exclusions.csv": "d243f01e50871d4b65362601ee9509095809e049405aeb7cf72cef383111e702",
+    "tables/ctr34_held_diagnostics.csv": "c0b3ef9db017f606da4655cec75ed44d1098a4e36fde39cad92ab0c94d250564",
+    "tables/ctr34_convolved_references.csv": "af2f2a5267bb5be7c81a99bd1d74022b86cea386592e0094211cddf0eb99402a",
+    "tables/ctr34_eligible_pairs.csv": "3f90d4a030c1daa5f59259180e30bf2f0adf0c41b6ae7f3e1f1d8eb1f1bdc4ff",
+    "provenance/ctr36_delivery_manifest.json": "e9cfccbc8a2a580e4dc5df884bf2d1df4538d04e979330422e71e02728901402",
+    "provenance/ctr36_input_validation.json": "95f9ece05ef6c8d9bc8ffc92e9b5b6172196babc7e041668d3f0259706a022cc",
+    "provenance/ctr36_legacy_validation.json": "0d2dfa03cc8763de5d325608fefdfe7c1fe8455e837e7413ba63ebd3f9531526",
+    "outputs/ctr36_matchup_amendment.json": "ca3775471a138f59bb0c8c9710ea3848c996535ae33764815afc5596348764ef"
+  },
+  "output_tables_sha256": {
+    "ctr37_figure_pairs.csv": "39573f432c61e251c02efaf33a5584972cbcfc941265ac6399acf7a22df4c996",
+    "ctr37_spectral_long.csv": "aba8c25375a1e78e22c912a693dc3ca1b9e696088d2b27343c87714d39237baa",
+    "ctr37_srf_sensitivity.csv": "1db2a3b3362dff2ba6900ef48d9b335ed6574a0389de01a7ef2585c2d5aa2954",
+    "ctr37_station_coverage.csv": "5912c1dfa216a8236f830b31ddc10f8fd94a986aa75f94db541800ad3861974b",
+    "ctr37_station_metrics.csv": "d955d329c7a95fe1882963fe6aecd1a8b9fb0b01dd0060640653fbd2cf778bc2",
+    "ctr37_supplementary_metrics.csv": "138a8d80532f24c6868547eeaf8e4a789a8f0a9c07a143160d3dcb1d65fd1507",
+    "ctr37_v5_sensitivity_metrics.csv": "4b06f33afda41ed6c8d960f11f69ac2a19077a884e25358b864bb37f609aabd9",
+    "ctr37_v5_sensitivity_pairs.csv": "cd9141cdef6f9b7579bb52b7449a5d2264ea3da1ba953ce5713be312c274ee20",
+    "ctr37_v5_spectral_long.csv": "8fae72c49306463c190d3bc6fbc6851a102070e1ed4e210bdc7cfa055722a26e"
+  },
+  "source_sha256": "cd78dfe53b064f57381a7d01109f0f5ee9347501551cfa664548cc235b02b65c",
+  "input_audit_sha256": "518633b6097e09d11f38922ff8a1cd9964ca0cabca215b8cc633dfd3218cb64e",
+  "no_model_fitted": true,
+  "no_random_sampling": true,
+  "review": "awaiting independent review and PI approval"
+}

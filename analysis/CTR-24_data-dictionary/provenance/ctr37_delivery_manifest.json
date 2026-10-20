@@ -1,0 +1,98 @@
+{
+  "diagnostic-agreement.html": {
+    "sha256": "5b08a041ecf9584a877e64d8c37edf082c8ee08a64c394c59779e11674b3d521",
+    "bytes": 1290385
+  },
+  "diagnostic-agreement.qmd": {
+    "sha256": "db18659f4ac0f8787c3e7add96bec0aa306e27bc1b8c4396130a70586d994948",
+    "bytes": 12957
+  },
+  "outputs/ctr37_contract.json": {
+    "sha256": "cabedb1a493424b8b0998325601c6dc6e8ddb4feaa176c6e4e0fd98a1ed76aec",
+    "bytes": 2820
+  },
+  "outputs/ctr37_table_contract.json": {
+    "sha256": "20c958327dc4e21ebcad152096a1a561ebc3cf0c5375777341392833714af294",
+    "bytes": 1644
+  },
+  "provenance/ctr37_computation.json": {
+    "sha256": "895dcc124d652d8b457b0de820c2157c375d9cd1ef028fbdf2211da18a93bb53",
+    "bytes": 2991
+  },
+  "provenance/ctr37_delivery_validation.json": {
+    "sha256": "60ab33a2a2f3397ccc1da180265d1bc59a04c9bba5c730880a59c75c620753c9",
+    "bytes": 1356
+  },
+  "provenance/ctr37_development_notes.txt": {
+    "sha256": "a431d2e4aa0368a60642f431577abc33074c0a21227e4006578ebbc0b3f489ea",
+    "bytes": 365
+  },
+  "provenance/ctr37_environment_check.txt": {
+    "sha256": "a44706311a319ef89fa4e3fa7970f0ea5c745751818e4b4ab98096516dbd973c",
+    "bytes": 275
+  },
+  "provenance/ctr37_independent_arithmetic.txt": {
+    "sha256": "65706a5eeaea872f2ac648e6bd45e58121ed3801e31197782f7d6038aa47d8bd",
+    "bytes": 4502
+  },
+  "provenance/ctr37_input_audit.json": {
+    "sha256": "518633b6097e09d11f38922ff8a1cd9964ca0cabca215b8cc633dfd3218cb64e",
+    "bytes": 23472
+  },
+  "provenance/ctr37_render.txt": {
+    "sha256": "9b4c7991af81574ae514f59b894b004b5abf450b8ce0bfa976a2cb85cc391326",
+    "bytes": 531
+  },
+  "provenance/ctr37_sync_readiness.json": {
+    "sha256": "244b268cd38fcac652c55e6c2b70af554fafb99d8ff946c2fc0b4fca6c2d3427",
+    "bytes": 279
+  },
+  "scripts/ctr37_diagnostics.py": {
+    "sha256": "cd78dfe53b064f57381a7d01109f0f5ee9347501551cfa664548cc235b02b65c",
+    "bytes": 15240
+  },
+  "scripts/ctr37_report.py": {
+    "sha256": "9d643481b0c1befd748c0d4f749ad559ae917e54e451e761db25c79f3858ad37",
+    "bytes": 14260
+  },
+  "scripts/ctr37_verify.R": {
+    "sha256": "e9ef6c36761535c4a7b2650986cb151bfc24dadf73b1521d8cc1bb4d43739b0f",
+    "bytes": 4320
+  },
+  "tables/ctr37_figure_pairs.csv": {
+    "sha256": "39573f432c61e251c02efaf33a5584972cbcfc941265ac6399acf7a22df4c996",
+    "bytes": 23212
+  },
+  "tables/ctr37_spectral_long.csv": {
+    "sha256": "aba8c25375a1e78e22c912a693dc3ca1b9e696088d2b27343c87714d39237baa",
+    "bytes": 26385
+  },
+  "tables/ctr37_srf_sensitivity.csv": {
+    "sha256": "1db2a3b3362dff2ba6900ef48d9b335ed6574a0389de01a7ef2585c2d5aa2954",
+    "bytes": 2060
+  },
+  "tables/ctr37_station_coverage.csv": {
+    "sha256": "5912c1dfa216a8236f830b31ddc10f8fd94a986aa75f94db541800ad3861974b",
+    "bytes": 3815
+  },
+  "tables/ctr37_station_metrics.csv": {
+    "sha256": "d955d329c7a95fe1882963fe6aecd1a8b9fb0b01dd0060640653fbd2cf778bc2",
+    "bytes": 2756
+  },
+  "tables/ctr37_supplementary_metrics.csv": {
+    "sha256": "138a8d80532f24c6868547eeaf8e4a789a8f0a9c07a143160d3dcb1d65fd1507",
+    "bytes": 8247
+  },
+  "tables/ctr37_v5_sensitivity_metrics.csv": {
+    "sha256": "4b06f33afda41ed6c8d960f11f69ac2a19077a884e25358b864bb37f609aabd9",
+    "bytes": 10908
+  },
+  "tables/ctr37_v5_sensitivity_pairs.csv": {
+    "sha256": "cd9141cdef6f9b7579bb52b7449a5d2264ea3da1ba953ce5713be312c274ee20",
+    "bytes": 23527
+  },
+  "tables/ctr37_v5_spectral_long.csv": {
+    "sha256": "8fae72c49306463c190d3bc6fbc6851a102070e1ed4e210bdc7cfa055722a26e",
+    "bytes": 26855
+  }
+}
