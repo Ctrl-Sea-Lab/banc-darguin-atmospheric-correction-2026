@@ -1,0 +1,31 @@
+{
+  "report_html_sha256": "7696e04210cebf0da53b22c2f4b75af1803ada9309d3584d0b1952acfc8c1e6e",
+  "status": "pass: first page and all three figure/caption fragments visually inspected",
+  "viewport": [
+    1400,
+    1100
+  ],
+  "browser": "Mozilla Firefox 152.0.3",
+  "self_contained_images": 3,
+  "no_external_script_stylesheet": true,
+  "screenshots": [
+    {
+      "path": "outputs/ctr34_browser/current-spectra.png",
+      "sha256": "40a98a34d2d19e438834e58c7283628c1b71f424a1a28395d8b13110c419f742"
+    },
+    {
+      "path": "outputs/ctr34_browser/first-page.png",
+      "sha256": "e515a6a7b9b035e1738e71d6d9b57f36d2c266ac8d64dd88f4578364e0522e2c"
+    },
+    {
+      "path": "outputs/ctr34_browser/local-imagery.png",
+      "sha256": "46af47e23211a708c21d80a60a9031b38c9cbed2c0298febe9590cd0aa5a31b3"
+    },
+    {
+      "path": "outputs/ctr34_browser/scl.png",
+      "sha256": "26d90a013c152a304f1c964bbaa0c8031bb94458eba095a366563f72ffe3c95c"
+    }
+  ],
+  "scope": "first page and exact embedded image/caption fragments; not full-page automated usability or scientific review",
+  "visual_result": "Findings visible on first viewport; axes, legends, image windows and captions readable; no excluded mud curves; no clipping observed"
+}

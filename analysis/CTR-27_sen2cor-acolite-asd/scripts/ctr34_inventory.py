@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""Metadata-only mud-label and explicit lineage/ground-control inventory checks."""
+import json,hashlib,re,xml.etree.ElementTree as E
+from pathlib import Path
+import ctr34_support as m
+P=m.P;ROOT=m.ROOT
+source=ROOT/'data/raw/ASD/202603_Measurement_log.txt';text=source.read_text();hits=[(i+1,l) for i,l in enumerate(text.splitlines()) if re.search(r'(?:mpb|mbp).*mud|mud.*(?:mpb|mbp)|microphytobenthos',l,re.I)]
+m.dump('provenance/ctr34_mud_scan.json',{'scope':'complete supplied cover table, complete GPS workbook all sheets (freeze script), complete measurement log (this script); station metadata only, no excluded spectral summarization','cover_GPS_hits':'tables/ctr34_mud_metadata_dispositions.csv; only AC03 mbp_mud and AC04 mpb_mud','log_source':str(source.relative_to(ROOT)),'log_sha256':m.sha(source),'log_explicit_mud_MPB_hits':hits,'other_records':'none explicitly documented in the inspected supplied metadata; generic mud references or algae_mud do not trigger exclusion','conservative_alias':'AC03 mbp_mud treated as PI-excluded mpb_mud without raw rename'})
+inventory=json.loads((P/'provenance/ctr34_raw_before.json').read_text());candidates=[k for k in inventory if 'MSIL1C_20260327' in k or any(t in Path(k).name.lower() for t in ['resampling_grid','source_grid','contributor','patch_boundary','ground_control'])]
+safe=next((ROOT/'data/raw/S2').glob('S2B_MSIL2A_20260327*.SAFE'));md=next(safe.glob('GRANULE/*/MTD_TL.xml'));elements=[e.tag.split('}')[-1] for e in E.parse(md).iter()]
+m.dump('provenance/ctr34_lineage_inspection.json',{'inventory_scanned':f'all {len(inventory)} raw relative paths from preserved stat snapshot','matching_March27_L1C_or_explicit_contributor_patch_ground_control_paths':candidates,'tile_metadata':str(md.relative_to(ROOT)),'tile_metadata_sha256':m.sha(md),'metadata_element_summary':{k:elements.count(k) for k in ['Tile_Geocoding','Geoposition','Size','Sun_Angles_Grid','Viewing_Incidence_Angles_Grids']},'interpretation':'orthorectified geocoding/angle metadata present; no explicit original L1C image bundle, native radiometric contributor/resampling grid, measured representative patch polygon, or independent local ground-control file identified by supplied paths. This is an inventory limitation, not a claim that evidence is permanently unrecoverable.'})
+print('Explicit lineage paths:',len(candidates),'; additional mud-MPB log hits:',len(hits))

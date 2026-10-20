@@ -23,3 +23,13 @@ for(s in sites) {
 }
 mtext('SCL native 20 m cells: green = vegetation (4); tan = bare (5); blue = water (6). Centre QA cell outlined.',outer=TRUE,line=.5,cex=.8)
 dev.off()
+a <- read.csv(file.path(p,'tables/ctr34_current_spectra.csv'))
+png(file.path(out,'ctr34-current-spectra.png'),width=1650,height=700,res=150)
+par(mfrow=c(1,2),mar=c(4,4,3,1))
+for(role in c('primary_intended_held','supplementary_not_primary')) {
+ d <- a[a$role==role,]; ss <- unique(d$station_id); cc <- grDevices::hcl.colors(length(ss),'Dark 3')
+ plot(c(400,900),c(0,.6),type='n',xlab='Wavelength (nm)',ylab='Reflectance (unitless)',main=if(role=='primary_intended_held') 'Six intended primary targets — matchups held' else 'Seven supplementary targets — outside primary',cex.main=.9)
+ for(i in seq_along(ss)) { z <- d[d$station_id==ss[i],];lines(z$wavelength_nm,z$reflectance,col=cc[i],lwd=1.6) }
+ legend('topleft',legend=ss,col=cc,lty=1,lwd=2,bty='n',cex=.8)
+}
+dev.off()
