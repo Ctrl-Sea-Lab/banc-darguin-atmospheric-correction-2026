@@ -14,4 +14,4 @@ build_review_tables.py rebuilds the investigation tables and the task-owned proj
 
 Seventeen scholarly PDFs were retained locally from nineteen verified scholarly references. Original source URLs and metadata remain available in the CSVs. Copyrighted full texts and downloaded processor source/license files are not redistributed in the archive.
 
-Internal scientific review and PI scientific approval remain pending. Installation, imagery processing, manuscript integration, merge and publication are outside this review.
+CTR-65 returned Minor Revision for initial submission 943ee59. The corrections and focused verification are described in outputs/author_response.md. Focused reconsideration and PI scientific approval remain pending. Historical development provenance is separate from the content-bound submission record in provenance/submission.json. Installation, imagery processing, manuscript integration, merge and publication are outside this review.

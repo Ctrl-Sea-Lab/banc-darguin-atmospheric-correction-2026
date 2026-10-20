@@ -11,5 +11,7 @@
   "quarto": "1.10.19",
   "python": "Python 3.12.3",
   "uv_lock_sha256": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
-  "renv_lock_sha256": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  "renv_lock_sha256": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707",
+  "record_role": "Historical development checkout only; not submitted-revision provenance",
+  "development_branch": "ctr-64-processor-review"
 }

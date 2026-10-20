@@ -13,8 +13,22 @@ def check(ok,msg):
  if not ok:raise AssertionError(msg)
  checks.append(msg)
 
+def validate_submission(check_fn):
+ record=json.loads((ROOT/'provenance/submission.json').read_text())
+ for field,path in [('uv_lock_sha256','uv.lock'),('renv_lock_sha256','renv.lock')]:
+  check_fn(hashlib.sha256((REPO/path).read_bytes()).hexdigest()==record[field], 'Submitted lockfile hash matches: '+path)
+ for rel,sha in record['source_file_sha256'].items():
+  check_fn(hashlib.sha256((REPO/rel).read_bytes()).hexdigest()==sha, 'Submission provenance source hash matches: '+rel)
+ source=record['initial_submitted_revision']
+ parent=subprocess.check_output(['git','rev-parse',source+'^'],cwd=REPO,text=True).strip()
+ check_fn(parent==record['initial_submitted_parent'], 'Initial submitted parent matches Git history')
+ check_fn(subprocess.run(['git','merge-base','--is-ancestor',source,'HEAD'],cwd=REPO).returncode==0, 'Initial reviewed revision is an ancestor of this checkout')
+ check_fn(subprocess.check_output([sys.executable,'--version'],text=True).strip()==record['verification_environment']['python'], 'Validation Python version matches submission record')
+ check_fn(subprocess.check_output(['quarto','--version'],text=True).strip()==record['verification_environment']['quarto'], 'Render Quarto version matches submission record')
+
 if __name__=='__main__':
  checks=[];pdfchecks=[]
+ validate_submission(check)
  refs=list(csv.DictReader((ROOT/'tables/references_index.csv').open()))
  keys=[r['citation_key']for r in refs];dois=[r['doi'].lower()for r in refs]
  check(len(keys)==len(set(keys)),'Unique citation keys')
@@ -58,6 +72,6 @@ if __name__=='__main__':
  # A protected-file diff is not authorized by this task.
  changed=subprocess.check_output(['git','diff','--name-only','HEAD'],cwd=REPO,text=True).splitlines()
  check(not any(p in ['index.qmd','library.bib','_quarto.yml']or p.startswith(('pre-build/','manuscript/','docs/','.pi-preservation/','R/','python/','figures/'))for p in changed),'No protected tracked file modified')
- out={'author_validation':'passed','independent_review':'pending','pi_approval':'pending','checks_passed':len(checks),'references':len(refs),'full_text_pdfs':len(pdfchecks),'source_hashes':hashed,'checks':checks,'pdf_identity':pdfchecks}
+ out={'author_validation':'passed','independent_review':'initial submission minor revision; focused reconsideration pending','pi_approval':'pending','checks_passed':len(checks),'references':len(refs),'full_text_pdfs':len(pdfchecks),'source_hashes':hashed,'checks':checks,'pdf_identity':pdfchecks}
  (ROOT/'outputs/validation.json').write_text(json.dumps(out,indent=2))
  print(json.dumps({k:v for k,v in out.items()if k not in ['checks','pdf_identity']},indent=2))

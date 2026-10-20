@@ -14,7 +14,7 @@
 | maja_license | HTTP Error 404: Not Found | No bypass; alternative lawful route used when available; see index |
 | MAJA active GitLab | Access challenge | CESBIO public docs/archived code used; no newest-tag claim |
 | Root library.bib | verify-ready: requires_pre_task_sync | Addition provided locally; Charles/Ada coordination pending |
-| Independent scientific review | Pending independent reviewer | Author validation is not independent review |
+| Independent scientific review | CTR-65: Minor Revision on 943ee59; corrections submitted for focused reconsideration | Author validation is not independent review or PI approval |
 | Banc d’Arguin five-processor validation | No site-specific common benchmark established | External intertidal field/application evidence is available; no local accuracy inference |
 | Processor installation / hardware benchmark | Outside review scope, not performed | All feasibility statements conditional |
 | Full systematic coverage | No registered systematic protocol; sources inaccessible | Structured critical review only |

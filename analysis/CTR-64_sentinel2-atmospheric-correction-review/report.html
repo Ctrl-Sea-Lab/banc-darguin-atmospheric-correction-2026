@@ -2942,10 +2942,11 @@ vertical-align: -.125em;
 </section>
 <section id="reproducibility-and-review-status" class="level2" data-number="8">
 <h2 data-number="8" class="anchored" data-anchor-id="reproducibility-and-review-status"><span class="header-section-number">8</span> Reproducibility and review status</h2>
-<p>The investigation was copied from <code>analysis/_template/</code> in isolated branch <code>ctr-64-processor-review</code>, based on <code>869b759</code>. The default branch was fetched for handoff. Concurrent work is preserved. No final manuscript, raw dataset, safeguard or lockfile is edited.</p>
+<p>Development began by copying <code>analysis/_template/</code> in isolated branch <code>ctr-64-processor-review</code>, based on <code>869b7596bd287b27d7a8d86e1eb52d2ba20e7075</code>. The historical development environment is preserved and explicitly labeled in <code>provenance/environment.json</code>. The initial submitted package, commit <code>943ee59d36d3e2b77eda44e8d8d2694658195966</code> on <code>ctr-64-review-submission</code>, instead has parent <code>0085c9b0ba9f661ded5c608b7a5fa70b0b522d00</code> and Python lockfile SHA-256 <code>755d75b2e9c37542bd209cf779d668518b89903c05d5e04b30657cf734ed77a1</code>. The development Python lock hash differs; neither root lockfile was edited to reconcile the records.</p>
+<p>The correction is prepared in the submission worktree. <code>provenance/submission.json</code> records its parent/source-package revision, submitted base, actual root lock hashes, validation/render commands and observed Python/Quarto versions. Its source-file hashes bind the record to the corrected report, scripts, tables and literature products without requiring a self-referential commit hash; the final exact commit is recorded in the external delivery receipt. The validator rejects mismatched locks or stale source hashes. Concurrent work is preserved. No final manuscript, raw dataset, safeguard or root lockfile is edited.</p>
 <p>Existing CTR-39 project literature and keys were inspected and reused where relevant. The acquisition scripts retrieve metadata/public documents; the table builder produces bibliography/index, matrices and manifests; validation checks citation/DOI uniqueness, PDF identity, file consistency and hashes. Render with the investigation configuration through <code>scripts/render-analysis.sh</code>; never regenerate root <code>index.qmd</code>. Machine-readable tables/logs accompany the HTML.</p>
 <p>The project reference index/synthesis are under <code>literature/</code>. Root <code>library.bib</code> readiness returned <code>requires_pre_task_sync</code>; verified additions are supplied as <code>library_additions.bib</code> pending Charles/Ada synchronization. This is <strong>not a completed root bibliography update</strong>. Local PDFs are ignored and excluded from the transfer archive; links/access records permit lawful retrieval.</p>
-<p><strong>Internal scientific review:</strong> pending independent reviewer. Author checks are not independent review. <strong>PI scientific approval:</strong> pending; no authenticated revision-bound approval. <strong>Manuscript integration, merge and publication:</strong> not authorized. The recommendation is ready for critical review, not approved scientific findings. Completion requires independent review and the bibliography synchronization gate.</p>
+<p><strong>Internal scientific review:</strong> Karl Popper returned <strong>Minor Revision</strong> in CTR-65 for initial submission <code>943ee59d36d3e2b77eda44e8d8d2694658195966</code>, with no critical or major scientific concern identified. The required development/submission provenance distinction and notebook-ignore correction are documented in <code>outputs/author_response.md</code>. Focused reconsideration of the new exact revision remains pending. Author checks are not independent review. <strong>PI scientific approval:</strong> pending; no authenticated revision-bound approval. <strong>Manuscript integration, merge and publication:</strong> not authorized. The recommendation is ready for critical review, not approved scientific findings. Completion requires independent review and the bibliography synchronization gate.</p>
 </section>
 <section id="evidence-appendices" class="level2" data-number="9">
 <h2 data-number="9" class="anchored" data-anchor-id="evidence-appendices"><span class="header-section-number">9</span> Evidence appendices</h2>
@@ -3372,8 +3373,8 @@ vertical-align: -.125em;
 </tr>
 <tr class="odd">
 <td>Independent scientific review</td>
-<td>Pending independent reviewer</td>
-<td>Author validation is not independent review</td>
+<td>CTR-65: Minor Revision on 943ee59; corrections submitted for focused reconsideration</td>
+<td>Author validation is not independent review or PI approval</td>
 </tr>
 <tr class="even">
 <td>Banc d’Arguin five-processor validation</td>

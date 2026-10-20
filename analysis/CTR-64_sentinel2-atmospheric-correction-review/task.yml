@@ -6,7 +6,7 @@ task:
   research_question: Which five complementary locally executable processors suit coastal and exposed-intertidal research?
   created_at: '2026-10-20'
 analysis:
-  status: drafted_for_independent_review
+  status: minor_revision_for_focused_reconsideration
   language: [Python]
   input_datasets: []
   scripts: [scripts/acquire_evidence.py, scripts/acquire_supplement.py, scripts/build_review_tables.py, scripts/validate_review.py]
@@ -15,8 +15,10 @@ analysis:
   processor_installation: not_performed
   imagery_processing: not_performed
 review:
-  status: pending_independent_review
-  reviewer: null
+  status: minor_revision_corrected_pending_reconsideration
+  reviewer: Karl Popper
+  reviewed_revision: 943ee59d36d3e2b77eda44e8d8d2694658195966
+  review_task: CTR-65
 pi_approval:
   status: pending
   approved_revision: null

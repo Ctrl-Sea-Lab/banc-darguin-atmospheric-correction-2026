@@ -161,11 +161,11 @@ def bibliography():
  headers=['citation_key','title','authors','year','journal','doi','publication_type','pdf_path','source_url','full_text_availability','verification_level','keywords','relevance','verified_date','pdf_retrieval_url','verification_limits','publication_version']
  with (LIT/'references_index.csv').open('w',newline='') as f:w=csv.writer(f);w.writerow(headers);w.writerows(rows)
  shutil.copy2(LIT/'references_index.csv',TABLES/'references_index.csv')
- (LIT/'literature_review.qmd').write_text('---\ntitle: "CTR-64 literature synthesis"\n---\n\nTake-home message: retain Sen2Cor, ACOLITE, POLYMER and MAJA, adding C2RCC for aquatic inversion diversity. No Banc d’Arguin accuracy ranking is established.\n\nThe full critical synthesis is in [the standalone HTML report](../analysis/CTR-64_sentinel2-atmospheric-correction-review/report.html). Method, implementation and evidence matrices distinguish literature findings, documented capabilities and reviewer recommendations.\n\nCross-study disagreements depend on water type, version, reference independence and matchup/coverage selection. Exposed-intertidal evidence remains limited. iCOR is a conditional aquatic fallback; SIAC is a land-priority alternative. Root bibliography additions await the mandatory PI synchronization gate. Internal scientific review and PI approval are pending.\n')
+ (LIT/'literature_review.qmd').write_text('---\ntitle: "CTR-64 literature synthesis"\n---\n\nTake-home message: retain Sen2Cor, ACOLITE, POLYMER and MAJA, adding C2RCC for aquatic inversion diversity. No Banc d’Arguin accuracy ranking is established.\n\nThe full critical synthesis is in [the standalone HTML report](../analysis/CTR-64_sentinel2-atmospheric-correction-review/report.html). Method, implementation and evidence matrices distinguish literature findings, documented capabilities and reviewer recommendations.\n\nCross-study disagreements depend on water type, version, reference independence and matchup/coverage selection. Exposed-intertidal evidence remains limited. iCOR is a conditional aquatic fallback; SIAC is a land-priority alternative. Root bibliography additions await the mandatory PI synchronization gate. Independent review of the first submission requested minor revisions; focused reconsideration and PI approval are pending.\n')
  return rows
 
 if __name__=='__main__':
- (ROOT/'.gitignore').write_text('/outputs/sources/\n/literature/pdfs/*\n!literature/pdfs/.gitignore\n/.quarto/\n/*_files/\n')
+ (ROOT/'.gitignore').write_text('/outputs/sources/\n/literature/pdfs/*\n!literature/pdfs/.gitignore\n/.quarto/\n/*_files/\n\n**/*.quarto_ipynb\n')
  (ROOT/'literature/pdfs/.gitignore').write_text('*\n!.gitignore\n')
  table('method_matrix',['Processor/configuration','Forward model','Inversion','Aerosol constraints','Spatial/temporal priors','Surface model','Adjacency','Evidence'],METHODS)
  table('local_requirements',['Processor','Version/platform','Implementation','License/access','Inputs','Auxiliaries/offline','Resources','Operating outline','Evidence'],LOCAL)
@@ -184,7 +184,7 @@ if __name__=='__main__':
  gaps += [
   ['MAJA active GitLab','Access challenge','CESBIO public docs/archived code used; no newest-tag claim'],
   ['Root library.bib','verify-ready: requires_pre_task_sync','Addition provided locally; Charles/Ada coordination pending'],
-  ['Independent scientific review','Pending independent reviewer','Author validation is not independent review'],
+  ['Independent scientific review','CTR-65: Minor Revision on 943ee59; corrections submitted for focused reconsideration','Author validation is not independent review or PI approval'],
   ['Banc d’Arguin five-processor validation','No site-specific common benchmark established','External intertidal field/application evidence is available; no local accuracy inference'],
   ['Processor installation / hardware benchmark','Outside review scope, not performed','All feasibility statements conditional'],
   ['Full systematic coverage','No registered systematic protocol; sources inaccessible','Structured critical review only'],
