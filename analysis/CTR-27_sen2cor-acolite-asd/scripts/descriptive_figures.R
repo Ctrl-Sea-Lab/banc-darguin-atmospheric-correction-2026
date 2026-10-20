@@ -26,13 +26,13 @@ draw('field-spectra',12,5.7,function(){
 join <- read.csv(file.path(a,'tables/aoi_station_join.csv'))
 v <- read.csv(file.path(a,'tables/aoi_plot_vertices.csv'))
 draw('station-aoi-map',12,6.5,function(){
- par(mfrow=c(1,2),mar=c(4.5,6,3,1),mgp=c(4,1,0),oma=c(1,0,2.5,0))
+ par(mfrow=c(1,2),mar=c(4.5,6,3,1),mgp=c(3,1,0),oma=c(1,0,2.5,0))
  for(g in c('Arel','Iwik')) {
   poly <- v[v$AOI==g,]; cells <- l2[l2$AOI==g,]; s <- join[join$nearest_AOI_raw==g,]
   xx <- range(c(poly$x,s$station_x_m))/1000; yy <- range(c(poly$y,s$station_y_m))/1000
   pad <- max(diff(xx),diff(yy))*.13
-  plot(NA,xlim=xx+c(-pad,3*pad),ylim=yy+c(-pad,pad),asp=1,xlab='Easting (km; EPSG:32628)',ylab='Northing (km; EPSG:32628)',main=paste0(g,': ',nrow(s),' field locations'),axes=FALSE)
-  axis(1);axis(2,las=1);box()
+  plot(NA,xlim=xx+c(-pad,3*pad),ylim=yy+c(-pad,pad),asp=1,xlab='Easting (km; EPSG:32628)',ylab='',main=paste0(g,': ',nrow(s),' field locations'),axes=FALSE)
+  axis(1);axis(2,las=1);box();mtext('Northing (km; EPSG:32628)',side=2,line=4.2)
   rect((cells$x-5)/1000,(cells$y-5)/1000,(cells$x+5)/1000,(cells$y+5)/1000,col='#DCEAF1',border=NA)
   polygon(poly$x/1000,poly$y/1000,border='#0072B2',lwd=1.5)
   points(s$station_x_m/1000,s$station_y_m/1000,pch=ifelse(grepl('^AC',s$station_id),17,1),col='#A54400',cex=1.1)

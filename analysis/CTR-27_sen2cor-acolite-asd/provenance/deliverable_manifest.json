@@ -19,7 +19,7 @@
     {
       "path": "figures/generated/aoi-correction-comparison.pdf",
       "bytes": 233587,
-      "sha256": "c8ac6312fccea41b9c0b9a9682ceb0f74ec3db4ba8e6c4c5effe217ebf58dd2d"
+      "sha256": "df03c261f2be780349a772ec90061c45a4d81e7f605776cfd0a4e03f0e708946"
     },
     {
       "path": "figures/generated/aoi-correction-comparison.png",
@@ -29,7 +29,7 @@
     {
       "path": "figures/generated/aoi-paired-differences.pdf",
       "bytes": 6872,
-      "sha256": "c13de85225d8602cd3a7ffc16154fa1ae31c7aab137845a9f7b185f3f95c1314"
+      "sha256": "76edf2ef5c57caa8f9d25eac9b3f5aee525bb834e6982ffa488b397aacc6790c"
     },
     {
       "path": "figures/generated/aoi-paired-differences.png",
@@ -39,7 +39,7 @@
     {
       "path": "figures/generated/field-spectra.pdf",
       "bytes": 43496,
-      "sha256": "ce7f8e22900703e3af698bd570de139c895d155da6b5bcb6ae465a7aa290ba57"
+      "sha256": "495ffb4c59daebe41f9884773eaa98726f1aa6607ece2bb964f54007d3906318"
     },
     {
       "path": "figures/generated/field-spectra.png",
@@ -48,13 +48,13 @@
     },
     {
       "path": "figures/generated/station-aoi-map.pdf",
-      "bytes": 11826,
-      "sha256": "f78ce95153da7f9076d58a9892f9a77a56caac2b99551aee10549386c89b14a9"
+      "bytes": 11822,
+      "sha256": "22e9fcdb3c7731cc66fddf55f3ff71e078a6b149e8b6cf20c221c618d1ad16c7"
     },
     {
       "path": "figures/generated/station-aoi-map.png",
-      "bytes": 84073,
-      "sha256": "b56f887bb224ca64e13b1cdb6ff11578b5e3226108a01ca37a1435e2f55aad07"
+      "bytes": 86252,
+      "sha256": "c4ebc3c5a8b25570d8429d172d312249460e638792925ddeb93ef926c9efb1d7"
     },
     {
       "path": "figures/srf-coverage.png",
@@ -139,7 +139,7 @@
     {
       "path": "provenance/descriptive_run.json",
       "bytes": 2403,
-      "sha256": "4f4748c7e63469a846c828873ab0730cffb1d55207686ec143d9fe4f8552dd2a"
+      "sha256": "36d0dbeefaf295af8df579e1885865619e28493fcbb3874c6f5c44f5e655a6ee"
     },
     {
       "path": "provenance/environment.json",
@@ -208,8 +208,8 @@
     },
     {
       "path": "report.html",
-      "bytes": 647641,
-      "sha256": "2e3d20b7318a32630ec285dd2d4812690d748482317c6673a39b185c572761ab"
+      "bytes": 650545,
+      "sha256": "d35fcd6fe6d0b33a29f99149f35f6206f768c3c836f8c12ae8a90f2c8ceb932d"
     },
     {
       "path": "report.md",
@@ -253,8 +253,8 @@
     },
     {
       "path": "scripts/descriptive_figures.R",
-      "bytes": 5922,
-      "sha256": "4bce5a80a7bc6854932b16eb20d73061426c28f99dbb644e5872a375a2e60e5b"
+      "bytes": 5948,
+      "sha256": "ed389d905eceafef7b37a1a7effd4c2bb7d63af47efd99dd54b2cd8048db7f37"
     },
     {
       "path": "scripts/finalize.py",
