@@ -1,0 +1,11 @@
+{
+  "technical_consistency": "passed",
+  "source_integrity": "source stat tuples unchanged; small source hashes recorded; rasters not fully hashed",
+  "scientific_validation": "not complete; required field metadata unresolved",
+  "independent_review": "pending",
+  "PI_scientific_approval": "pending",
+  "manifest_rows": 165,
+  "included_pairs": 0,
+  "candidate_primary_max_before_holds": 24,
+  "hypothetical_primary_10m_pixels": 8
+}

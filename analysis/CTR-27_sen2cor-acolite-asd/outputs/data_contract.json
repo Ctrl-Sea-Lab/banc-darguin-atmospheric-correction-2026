@@ -1,0 +1,117 @@
+{
+  "schema": "ctrlsea.matchup-feasibility.v1",
+  "task": "CTR-28",
+  "parent": "CTR-27",
+  "readiness": "blocked_for_scientific_extraction",
+  "manifest": "tables/proposed_matchups.csv",
+  "csv_null": "empty field; never zero",
+  "csv_boolean": "True or False; parse explicitly",
+  "primary_key": [
+    "station_id",
+    "band"
+  ],
+  "candidate_counts": {
+    "date_eligible": 15,
+    "primary_station_candidates": 8,
+    "supplementary_station_candidates": 7,
+    "potential_primary_band_pairs_before_holds": 24,
+    "included_pairs": 0
+  },
+  "raw_identifier_crosswalk": {
+    "AC_01": "AC01",
+    "AC_02": "AC02",
+    "AC_03": "AC03",
+    "AC_04": "AC04",
+    "AC_05": "AC05",
+    "AC_06": "AC06",
+    "AC_07": "AC07",
+    "AC_08": "AC08",
+    "D06_A": "D06_A",
+    "D06_B": "D06_B",
+    "D06_C": "D06_C",
+    "D06_D": "D06_D",
+    "D06_E": "D06_E",
+    "D06_F": "D06_F",
+    "D06_G": "D06_G"
+  },
+  "independent_unit": "candidate station; bands/acquisitions/5x20 readings are not independent replicates; review spatial overlap before inference",
+  "convolution": {
+    "platform": "S2B",
+    "primary_reference": "data/raw/COPE-GSEG-EOPG-TN-15-0007 - Sentinel-2 Spectral Response Functions 2024 - 4.0.xlsx",
+    "sheet": "Spectral Responses (S2B)",
+    "formula": "integral(R_field(lambda) * SRF_band(lambda), d_lambda) / integral(SRF_band(lambda), d_lambda)",
+    "integration": "trapezoidal on union of ASD and SRF knots; linear interpolate only between finite adjacent ASD samples spaced <=1 wavelength unit after nm confirmation",
+    "minimum_response_coverage": 0.999,
+    "invalid_policy": "reject if nonfinite or missing/noisy interval intersects positive SRF; do not bridge, extrapolate, replace with zero, or silently renormalize truncated bands",
+    "ASD_units": "unresolved; no percent/fraction conversion applied",
+    "ASD_wavelength_unit": "unresolved; coverage diagnostics conditional on nm",
+    "version_sensitivity": "v5 separately hashed, normalized SRF diagnostics only; no silent substitution"
+  },
+  "spatial": {
+    "primary_bands": [
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "primary_stations": [
+      "AC01",
+      "AC02",
+      "AC03",
+      "AC04",
+      "AC05",
+      "AC06",
+      "AC07",
+      "AC08"
+    ],
+    "CRS": "raster EPSG:32628; field datum unknown",
+    "support": "confirmed field area first; primary containing 10m pixel only when same sampled footprint supported; fixed 3x3 neighborhood sensitivity, never post hoc value optimization",
+    "coarse_bands": "B01 native60m, B05/B06/B07/B8A native20m require documented homogeneous footprint of same support; 10m ACOLITE resampling does not create resolution",
+    "registration": "grid-aligned B02/B03/B04 with integer crop offset; image-to-ground registration unmeasured; no shifts fitted to ASD reflectance",
+    "resampling": "none for primary; area-weighted same-boundary aggregation only under agreed coarse-support contract; nearest neighbor for categorical masks",
+    "time": "same day insufficient; record UTC interval and tide/exposure at acquisition and field survey before enabling"
+  },
+  "masks": {
+    "predeclared_common_scl_exclude": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "allowed_scl_subject_to_field_evidence": [
+      4,
+      5,
+      6
+    ],
+    "support_rule": "all primary support pixels must pass common masks; no partial-footprint averaging",
+    "sen2cor_invalid_dn": [
+      0,
+      65535
+    ],
+    "acolite_invalid": "NaN/nonfinite; no provided l2_flags on March27; l2w_mask=False",
+    "defect_masks": "native MSK_QUALIT/MSK_DETFOO still require decoding and extraction-stage verification",
+    "water": "SCL6 not automatically discarded; exposure/optical quantity must be established independently",
+    "negative_reflectance": "retain finite values after quality masks; flag, do not clip to improve fit"
+  },
+  "statistics_handoff": {
+    "status": "Thomas to agree contract before extraction",
+    "common_pairs": "identical valid station-band pairs for both methods",
+    "cluster": "station and shared support; retain pixel cluster fields and all exclusion reasons",
+    "uncertainty": "field replicate uncertainty unavailable from mean export; within-target band dependence; few stations; spatial autocorrelation",
+    "no_results": [
+      "no bias",
+      "no RMSE",
+      "no rankings",
+      "no final scatterplot"
+    ]
+  },
+  "review": {
+    "internal": "pending independent reviewer",
+    "PI_scientific_approval": "pending",
+    "manuscript_integration": "not_authorized"
+  }
+}

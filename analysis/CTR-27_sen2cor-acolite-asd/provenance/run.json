@@ -1,0 +1,607 @@
+{
+  "started_utc": "2026-10-20T05:43:23.688373+00:00",
+  "ended_utc": "2026-10-20T05:43:28.807656+00:00",
+  "raw_stat_unchanged": true,
+  "raw_file_count": 848,
+  "raw_stat_snapshot_sha256": "a23c9300b58e69ff2c6356321af9905cc3c0e0849655cfc76a7ec0bbfcc4d6b2",
+  "inputs": [
+    {
+      "path": "data/raw/ASD/202603_Measurement_log.txt",
+      "bytes": 2318,
+      "mtime_ns": 1775135632000000000,
+      "sha256": "f5dead39285522d5cec031cce05c377117b79b39357b6e35e4eadf902c8ec6e2",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/ASD/202603_Seagrass_cover.txt",
+      "bytes": 3938,
+      "mtime_ns": 1775135632000000000,
+      "sha256": "03ab764cd0e255f72c2a22a4b25299cb2c9cfce1dfe7696281a78e99aeef879d",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/GPS/Info spectral measure_biomass core_BdA 2026.xlsx",
+      "bytes": 21503,
+      "mtime_ns": 1775208814000000000,
+      "sha256": "3a20a92a56d844f9d9fff44694f78c787ad13eca58a0b1d64d626bc00a0be43e",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/ASD/202603_Reflectance_avg.txt",
+      "bytes": 1299405,
+      "mtime_ns": 1775135632000000000,
+      "sha256": "16985b87c9f5f991f0684bfb6bbaa9f53696c681bd311500b22b41c32860c23d",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.shp",
+      "bytes": 268,
+      "mtime_ns": 1792138896000000000,
+      "sha256": "c866db904e3ce3c5ad98d43e10ffb7210dbe26ba9e71709413501a94b6b2a433",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.shx",
+      "bytes": 148,
+      "mtime_ns": 1792138896000000000,
+      "sha256": "dc1aff7ec23dcd5ce69571486abba9f65afecef8411ed1acb3fda130cf01bb4e",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.dbf",
+      "bytes": 1064,
+      "mtime_ns": 1792138896000000000,
+      "sha256": "3a204eb17921850852f941013ce8ed322f49147892fcabf6110d1f6a779e937d",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.prj",
+      "bytes": 402,
+      "mtime_ns": 1792067372000000000,
+      "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/POI_S2C_ACOLITE_targets.cpg",
+      "bytes": 5,
+      "mtime_ns": 1792067372000000000,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.shp",
+      "bytes": 1908,
+      "mtime_ns": 1775586846000000000,
+      "sha256": "464fcbd502c5caac4eb6898307fe2b988ad504d7bc1b74d80eda66dc6918f231",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.shx",
+      "bytes": 116,
+      "mtime_ns": 1775586846000000000,
+      "sha256": "10b260a1d9047b09533adea18295d3c048c082845a6873367d8b4f4f61f70a3f",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.dbf",
+      "bytes": 140,
+      "mtime_ns": 1775586846000000000,
+      "sha256": "5126ccf3b00d55f62001a300b5b0ba09c80eaf3e335a79d1c1d1bf4aba40cde0",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.prj",
+      "bytes": 402,
+      "mtime_ns": 1775586750000000000,
+      "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/TimeSeries_Polygons_Matchup.cpg",
+      "bytes": 5,
+      "mtime_ns": 1775586750000000000,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/extent.shp",
+      "bytes": 236,
+      "mtime_ns": 1773504190000000000,
+      "sha256": "621e719dea338631f031aef63173cb04eae8404c8b45f8dc7d09753b56a7cc2a",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/extent.shx",
+      "bytes": 108,
+      "mtime_ns": 1773504190000000000,
+      "sha256": "04ba97c8c192a8c4416f45c8817dd4b27ccb6d0d7f0fefbd2ed85fbde0034a05",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/extent.dbf",
+      "bytes": 77,
+      "mtime_ns": 1773504190000000000,
+      "sha256": "c499a7d236645465854bdb58c79a857b7f1494d7d609733e859743600f66844a",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/extent.prj",
+      "bytes": 402,
+      "mtime_ns": 1773504164000000000,
+      "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/extent.cpg",
+      "bytes": 5,
+      "mtime_ns": 1773504164000000000,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/mask/square_mask.shp",
+      "bytes": 236,
+      "mtime_ns": 1775556170000000000,
+      "sha256": "825f011b2da98934fe1c1ff4f6cb222c494879236a6b2e0a5c09979bf336c1c0",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/mask/square_mask.shx",
+      "bytes": 108,
+      "mtime_ns": 1775556170000000000,
+      "sha256": "0c5cf955821915fc602b7e64e218953f16c97b9ba4bb094bdb835299bf761aea",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/mask/square_mask.dbf",
+      "bytes": 77,
+      "mtime_ns": 1775556170000000000,
+      "sha256": "d737d255c5eaaadfb69d1778be8f18e333620ad9d7d5dd9407afbdc7f1f778dc",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/mask/square_mask.prj",
+      "bytes": 402,
+      "mtime_ns": 1775556156000000000,
+      "sha256": "48166aeeb61bfec2615bc098bf687ef052f47be73ae39320235d389c5708c6a7",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/SHP/mask/square_mask.cpg",
+      "bytes": 5,
+      "mtime_ns": 1775556156000000000,
+      "sha256": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/MTD_MSIL2A.xml",
+      "bytes": 54470,
+      "mtime_ns": 1775199814000000000,
+      "sha256": "d71dee20a14903c358436e7cc14ce3fb7839def4bf550599ea849a04089c0182",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/MTD_TL.xml",
+      "bytes": 626047,
+      "mtime_ns": 1775199814000000000,
+      "sha256": "3c80af4b5c092c4e8f044577354273ba6da34f9c243d1aa6980684fdd6d90122",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/DATASTRIP/DS_2BPS_20260327T152639_S20260327T113507/MTD_DS.xml",
+      "bytes": 23156051,
+      "mtime_ns": 1775199814000000000,
+      "sha256": "044384f7d88f8e046ef5505bf10f7984a369c4e02d7fc0ecd2ee80d3b46e8de1",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/manifest.safe",
+      "bytes": 68908,
+      "mtime_ns": 1775199814000000000,
+      "sha256": "ae62b5bc079f8f30689c2c23f5811890a8db1b9739dd7149a9b19d09d31cecff",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_1610.tif",
+      "bytes": 29758897,
+      "mtime_ns": 1775561282000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_2186.tif",
+      "bytes": 29758931,
+      "mtime_ns": 1775561282000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_442.tif",
+      "bytes": 29758803,
+      "mtime_ns": 1775561280000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_492.tif",
+      "bytes": 29758803,
+      "mtime_ns": 1775561280000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_559.tif",
+      "bytes": 29758835,
+      "mtime_ns": 1775561280000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_665.tif",
+      "bytes": 29758837,
+      "mtime_ns": 1775561280000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_704.tif",
+      "bytes": 29758869,
+      "mtime_ns": 1775561280000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_739.tif",
+      "bytes": 29758835,
+      "mtime_ns": 1775561282000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_780.tif",
+      "bytes": 29758871,
+      "mtime_ns": 1775561282000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_833.tif",
+      "bytes": 29758871,
+      "mtime_ns": 1775561282000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_864.tif",
+      "bytes": 29758869,
+      "mtime_ns": 1775561282000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B11_20m.jp2",
+      "bytes": 24928999,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B12_20m.jp2",
+      "bytes": 25221304,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R60m/T28QCH_20260327T113319_B01_60m.jp2",
+      "bytes": 3118149,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B02_10m.jp2",
+      "bytes": 105670043,
+      "mtime_ns": 1775199816000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B03_10m.jp2",
+      "bytes": 105510520,
+      "mtime_ns": 1775199816000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B04_10m.jp2",
+      "bytes": 104511412,
+      "mtime_ns": 1775199816000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B05_20m.jp2",
+      "bytes": 28043636,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B06_20m.jp2",
+      "bytes": 27759420,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B07_20m.jp2",
+      "bytes": 27780960,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B08_10m.jp2",
+      "bytes": 103405261,
+      "mtime_ns": 1775199818000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B8A_20m.jp2",
+      "bytes": 27810711,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_SCL_20m.jp2",
+      "bytes": 121652,
+      "mtime_ns": 1775199820000000000,
+      "sha256": null,
+      "hash_scope": "header + diagnostic windows only; no full raster hash"
+    },
+    {
+      "path": "data/raw/COPE-GSEG-EOPG-TN-15-0007 - Sentinel-2 Spectral Response Functions 2024 - 4.0.xlsx",
+      "bytes": 1339179,
+      "mtime_ns": 1775198456000000000,
+      "sha256": "1a9edc27d692a570911a460d589f188da0fc3e27f0b0bd1ad322059c380519b0",
+      "hash_scope": "whole_file"
+    },
+    {
+      "path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/official-srf-v5.xlsx",
+      "bytes": 1330493,
+      "mtime_ns": 1792474899814964528,
+      "sha256": "42be3ebd8bfcbde11c37caeb2e2fdda65fefa8d2b6f8329559b7806d02cdc9e2",
+      "hash_scope": "whole_file"
+    }
+  ],
+  "commands": [
+    [
+      "ogr2ogr",
+      "-f",
+      "GeoJSON",
+      "/vsistdout/",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/SHP/POI_S2C_ACOLITE_targets.shp"
+    ],
+    [
+      "ogr2ogr",
+      "-f",
+      "GeoJSON",
+      "/vsistdout/",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/SHP/TimeSeries_Polygons_Matchup.shp"
+    ],
+    [
+      "ogr2ogr",
+      "-f",
+      "GeoJSON",
+      "/vsistdout/",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/SHP/extent.shp"
+    ],
+    [
+      "ogr2ogr",
+      "-f",
+      "GeoJSON",
+      "/vsistdout/",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/SHP/mask/square_mask.shp"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_1610.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_2186.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_442.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_492.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_559.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_665.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_704.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_739.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_780.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_833.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_864.tif"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B11_20m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B12_20m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R60m/T28QCH_20260327T113319_B01_60m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B02_10m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B03_10m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B04_10m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B05_20m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B06_20m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B07_20m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B08_10m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B8A_20m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_SCL_20m.jp2"
+    ],
+    [
+      "gdaltransform",
+      "-s_srs",
+      "EPSG:4326",
+      "-t_srs",
+      "EPSG:32628"
+    ],
+    [
+      "gdalinfo",
+      "--version"
+    ],
+    [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    [
+      "git",
+      "branch",
+      "--show-current"
+    ]
+  ],
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "gdal": "GDAL 3.8.4, released 2024/02/08",
+  "platform": "Linux-6.17.0-35-generic-x86_64-with-glibc2.39",
+  "host": "simon-desktop",
+  "base_commit": "8d885c1c9ea1b10751dea939c2d1aee1432307bd",
+  "branch": "ctr-28-matchup-feasibility",
+  "dependency_changes": "none",
+  "locks": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  },
+  "source_dictionary_commit": "8d885c1c9ea1b10751dea939c2d1aee1432307bd",
+  "read_limits": "small tables/reference worksheets; all March27 TIFF headers; selected SAFE headers; 3x3 B04 and SCL windows at 15 hypothetical locations only",
+  "validation": "assertions passed; scientific approval pending"
+}

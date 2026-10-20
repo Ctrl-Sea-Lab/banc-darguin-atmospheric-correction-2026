@@ -1,0 +1,35 @@
+task:
+  id: "CTR-27"
+  implementation_task: "CTR-28"
+  paperclip_issue_id: "93ec8661-a983-4b74-9265-612f876599e6"
+  title: "Audit March 27 ASD and satellite match-up feasibility"
+  slug: "sen2cor-acolite-asd"
+  research_question: "Can the supplied March 27 field and satellite products form comparable reflectance matchups?"
+  created_at: "2026-10-20"
+analysis:
+  status: "feasibility_handoff_extraction_blocked"
+  scientific_results: "pending; no comparison metrics"
+  readiness: "blocked_for_scientific_extraction"
+  language: ["Python", "R"]
+  input_datasets: ["ASD", "GPS", "relevant SHP", "March27 operational L2A and ACOLITE", "supplied SRF v4; official v5 diagnostic"]
+  scripts: ["scripts/audit.py", "scripts/coverage_figure.R", "scripts/build_report.py", "scripts/validate.py"]
+  report_source: "report.qmd"
+  report_html: "report.html"
+  data_contract: "outputs/data_contract.json"
+environment:
+  python_lockfile: "../../uv.lock"
+  r_lockfile: "../../renv.lock"
+  dependency_changes: "none"
+  provenance_file: "provenance/run.json"
+  render_command: "./scripts/render-analysis.sh analysis/CTR-27_sen2cor-acolite-asd"
+  validation_status: "see provenance/validation.json; technical consistency only"
+review:
+  status: "pending_independent_review"
+  coordinator: "Charles Darwin"
+  reviewer: "Karl Popper; native review stage requested"
+pi_approval:
+  status: "pending"
+  approved_revision: null
+  note: "This YAML is not evidence of authenticated PI approval."
+manuscript:
+  integration_status: "not_authorized"
