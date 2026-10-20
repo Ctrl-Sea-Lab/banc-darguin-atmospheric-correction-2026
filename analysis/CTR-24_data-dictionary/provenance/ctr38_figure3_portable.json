@@ -1,0 +1,10 @@
+{
+  "source": "final-matchup-report.html",
+  "source_sha256": "064308768b0b76df1cda98ae90f202f44aac307e7249d039cfa5afcd98819237",
+  "portable": "final-matchup-report-portable.html",
+  "portable_sha256": "983679038ac5a9fe8aadd73ba875e60dddd070d66d299261c1bcfd149b4a0c3e",
+  "report_main_content_preserved_byte_for_byte": true,
+  "report_text_identical": true,
+  "external_rendering_resources": [],
+  "scope": "static offline presentation copy; no scientific changes"
+}
