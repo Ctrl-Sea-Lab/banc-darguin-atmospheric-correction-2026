@@ -1,0 +1,30 @@
+task:
+  id: "CTR-25"
+  parent_request: "CTR-24"
+  paperclip_issue_id: "e7387d87-044a-4e05-836a-e9cf987b9e6e"
+  title: "Descriptive data dictionary"
+  slug: "data-dictionary"
+  scope: "documentation_only"
+  created_at: "2026-10-20"
+analysis:
+  status: "not_started"
+  language: ["Python (metadata only)"]
+  scripts: ["scripts/inventory.py", "scripts/enrich_metadata.py", "scripts/build_report.py", "scripts/validate.py"]
+  report_source: "report.qmd"
+  report_html: "report.html"
+environment:
+  python_lockfile: "../../uv.lock"
+  r_lockfile: "../../renv.lock"
+  dependency_changes: "none"
+  provenance_file: "provenance/environment.json"
+  render_command: "./scripts/render-analysis.sh analysis/CTR-24_data-dictionary"
+review:
+  status: "pending"
+  reviewer: "Karl Popper"
+  task: "CTR-26"
+pi_approval:
+  status: "not_requested_no_scientific_findings"
+  approved_revision: null
+  note: "This YAML is not evidence of authenticated PI approval."
+manuscript:
+  integration_status: "not_authorized"

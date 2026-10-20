@@ -1,0 +1,133 @@
+{
+  "documentation_only": true,
+  "manifest_excludes_itself": true,
+  "source_snapshot_sha256": "044a78e6d27d24ee9c8c2f347bac52d921d1154b190fcc456a9817ee4d5910a2",
+  "report_sha256": "80adc063a204400783ab209a7391c9420ad0d41b443da1db6e3c49751bda6dfd",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 127,
+      "sha256": "5cf2de962a657618c0fc976bdcca26c961e290120d165f3f74f7fb8c55c21c3f"
+    },
+    {
+      "path": "_quarto.yml",
+      "bytes": 268,
+      "sha256": "082617aeb6770929a12897d4d64fe34c534ec1cadb28d2e5003061ed8e2ec814"
+    },
+    {
+      "path": "outputs/headers.json",
+      "bytes": 43282251,
+      "sha256": "88ceaad9ca96edc332fcca67f0a75a44c5aca9a3197cadb0bbebaaf67c91cf87"
+    },
+    {
+      "path": "provenance/enrichment_run.json",
+      "bytes": 356,
+      "sha256": "1dea1974afa71d9a17dbe9585193ee4f29fca68b1f4b0843a08ff71b56663695"
+    },
+    {
+      "path": "provenance/environment.json",
+      "bytes": 363,
+      "sha256": "3836889d038970e9ed934ce85cf0a0cabff333f9924bd0b393f01882e508bcef"
+    },
+    {
+      "path": "provenance/inventory_run.json",
+      "bytes": 115692,
+      "sha256": "0d3143a8ac047b9a8a9f64b36fb5281e89eae1ceb5dd0fde3d1ef197adbad96e"
+    },
+    {
+      "path": "provenance/inventory_stderr.txt",
+      "bytes": 67,
+      "sha256": "b00bdaf153de0bcf8ac5bb0f7de4cfe68eb8333919c0be9d0e82bbf94a8e599e"
+    },
+    {
+      "path": "provenance/inventory_stdout.txt",
+      "bytes": 2734,
+      "sha256": "6c459567e3166676d83b63fdc9f6d152bbda236ea82940c82e1381116260a6c8"
+    },
+    {
+      "path": "provenance/preservation_tests.txt",
+      "bytes": 652,
+      "sha256": "ca70faa452a937f8fd38a08aa861f75c0aafdc6a7d87963786b8871082a5d1f4"
+    },
+    {
+      "path": "provenance/render.txt",
+      "bytes": 583,
+      "sha256": "44d458f28c81a7fdc605b666b7a8a5aab29fda92a459cdfb1ebc020549120e34"
+    },
+    {
+      "path": "provenance/sync_readiness.json",
+      "bytes": 282,
+      "sha256": "583a665de62753c00c0e7585e20beb3d32d798eb022a11253a3eb20c75f3d0f5"
+    },
+    {
+      "path": "provenance/validation.json",
+      "bytes": 2281,
+      "sha256": "7f4b79c5dfdd8f3b738e8c2b70425d0ecc257bc6d5c8202928cf27a26d7bc6e3"
+    },
+    {
+      "path": "provenance/validation_stdout.txt",
+      "bytes": 2281,
+      "sha256": "7f4b79c5dfdd8f3b738e8c2b70425d0ecc257bc6d5c8202928cf27a26d7bc6e3"
+    },
+    {
+      "path": "report.html",
+      "bytes": 1937365,
+      "sha256": "3e2b66ea4604214da96f44e0341ccf3ee7aec6f1bcad873e6930db893cb764c9"
+    },
+    {
+      "path": "report.md",
+      "bytes": 27300,
+      "sha256": "80adc063a204400783ab209a7391c9420ad0d41b443da1db6e3c49751bda6dfd"
+    },
+    {
+      "path": "report.qmd",
+      "bytes": 27423,
+      "sha256": "9371b7d02c2062900517b434bef19a52c6775324c2b539c5cec63876a5a091bf"
+    },
+    {
+      "path": "scripts/build_report.py",
+      "bytes": 26540,
+      "sha256": "c2f2d0d3de49098d805d1de2b14fccf8f85909c606ccebe610e3f2d3ca4a5a71"
+    },
+    {
+      "path": "scripts/enrich_metadata.py",
+      "bytes": 9571,
+      "sha256": "3c1e1d89e95ae1a8cd9c8276f352eed3de65bf8968b1f4de3d768f7984d883f9"
+    },
+    {
+      "path": "scripts/inventory.py",
+      "bytes": 17095,
+      "sha256": "cc120cb616e02efbdbd13bdc0f7af608e33d3e77673ac21cc5e34b270806e924"
+    },
+    {
+      "path": "scripts/validate.py",
+      "bytes": 3817,
+      "sha256": "795640a35924975485ef640c225d77f045893297166683a787b7c8999c99b2b4"
+    },
+    {
+      "path": "tables/archive_inventory.csv",
+      "bytes": 1130741,
+      "sha256": "ce8f8037a20fda68ef31d8760ec2fb0a5c4c9129221caeebcc9bc00ad7cb42d0"
+    },
+    {
+      "path": "tables/dataset_metadata.csv",
+      "bytes": 1675171,
+      "sha256": "e889902d3e73485e668cf89328464bc16bd3445321583adaebdd2c51049b412e"
+    },
+    {
+      "path": "tables/file_inventory.csv",
+      "bytes": 214974,
+      "sha256": "17962cd2753808f4617c3e4d15b2ce4f0ae3274ed19d2d96f6a4a7fa69dd8c11"
+    },
+    {
+      "path": "tables/variable_dictionary.csv",
+      "bytes": 14856260,
+      "sha256": "e1ae8963b1f07d91ec40016bc3020e21a00c98732cbd190f2d0546f8ca19b4ed"
+    },
+    {
+      "path": "task.yml",
+      "bytes": 994,
+      "sha256": "c01bf4c0fb3f94e730a1244318eb4df6158356c25fe7f8b7d45f0447198ac71f"
+    }
+  ]
+}

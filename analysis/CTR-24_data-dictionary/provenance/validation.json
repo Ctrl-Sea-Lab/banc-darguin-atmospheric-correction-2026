@@ -1,0 +1,68 @@
+{
+  "utc": "2026-10-20T01:45:21.060869+00:00",
+  "checks": {
+    "unique_file_paths": true,
+    "all_variable_sources_in_inventory": true,
+    "all_archive_sources_in_inventory": true,
+    "all_fields_have_evidence": true,
+    "unique_source_variable_pairs": true,
+    "header_coverage_.nc": true,
+    "header_coverage_.tif": true,
+    "header_coverage_.jp2": true,
+    "header_coverage_.shp": true,
+    "header_coverage_.xlsx": true,
+    "header_coverage_.zip": true,
+    "netcdf_variable_count_matches_headers": true,
+    "raster_band_count_matches_headers": true,
+    "shapefile_fields_match_dbf_descriptors": true,
+    "zip_member_count_matches_central_directory": true,
+    "source_stat_records_still_unchanged": true,
+    "source_snapshot_fingerprint_matches": true,
+    "only_documentation_paths_changed": true,
+    "known_errors_explicitly_recorded": true,
+    "no_netCDF_array_read_calls": true,
+    "no_raster_statistic_flags": true
+  },
+  "all_checks_pass": true,
+  "coverage": {
+    ".nc": {
+      "physical_files": 154,
+      "captured_headers": 154
+    },
+    ".tif": {
+      "physical_files": 286,
+      "captured_headers": 286
+    },
+    ".jp2": {
+      "physical_files": 136,
+      "captured_headers": 136
+    },
+    ".shp": {
+      "physical_files": 7,
+      "captured_headers": 7
+    },
+    ".xlsx": {
+      "physical_files": 2,
+      "captured_headers": 2
+    },
+    ".zip": {
+      "physical_files": 47,
+      "captured_headers": 47
+    }
+  },
+  "files": 849,
+  "variable_rows": 13594,
+  "archive_entries": 4376,
+  "dataset_index_rows": 632,
+  "metadata_read_gaps": [
+    {
+      "source": "project_raw:S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R10m/T28QCH_20260307T113319_TCI_10m.jp2.aux.xml",
+      "error": "XML or text declaration not at start of entity: line 26, column 4"
+    },
+    {
+      "source": "project_raw:S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_TCI_10m.jp2.aux.xml",
+      "error": "XML or text declaration not at start of entity: line 26, column 4"
+    }
+  ],
+  "scope": "documentation consistency and source stat preservation; no scientific validation"
+}
