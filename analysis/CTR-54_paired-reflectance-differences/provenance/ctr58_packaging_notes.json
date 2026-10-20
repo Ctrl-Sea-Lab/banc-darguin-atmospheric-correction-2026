@@ -1,0 +1,6 @@
+{
+  "credentials_scan": "No credential-shaped tokens/private keys detected in investigation text files",
+  "scope": "Only investigation files proposed relative to initialization PR base",
+  "whitespace_check": "Original author CRLF CSVs and generated HTML contain whitespace flagged by Git; preserved byte-for-byte for numerical provenance. No scientific-byte cleanup performed.",
+  "initial_checkout_attempt": "An early readiness attempt encountered an incomplete worktree/index lock while Git was still populating. No edits occurred; checkout finished normally, clean preflight and actual-path readiness then passed."
+}

@@ -1,0 +1,7 @@
+outputs/*_display.bin
+outputs/paired_differences/
+outputs/temporal/
+provenance/*receipt*.json
+
+/.quarto/
+**/*.quarto_ipynb

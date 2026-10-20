@@ -1,0 +1,17 @@
+{
+  "inspected_by": "Roger Tomlinson (analysis author)",
+  "independent_review": false,
+  "date": "2026-10-20",
+  "PNG_sha256": "ca9d6e599cd98e875bc04e4602eece1b480d222f721658e654afbd53ecaae0be",
+  "PDF_sha256": "b202c1ffa79365b4d332a70d0507cbf999777f0961d0b2038f0a542a64523d3d",
+  "preview_sha256": "8f75cb51ff40d42281b782166e38bb3270a1df34f2936c4cc906ed4e76182a66",
+  "observations": [
+    "Eight enlarged panels retain B2/B3/B4/B8 order, median above SD.",
+    "Common extent and north-up orientation retained.",
+    "Minimal labels, scale bar and shared legends readable.",
+    "SD legend shows blue at 0, white at 0.01, red at 0.02 and upper-extension triangle.",
+    "NoData gray is distinguishable from white midpoint.",
+    "No clipped legend labels or panels observed."
+  ],
+  "report_display": "Not yet integrated; CTR-57 and CTR-58 own integration and actual HTML width verification."
+}

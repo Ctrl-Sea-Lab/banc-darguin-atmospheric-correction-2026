@@ -1,0 +1,125 @@
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+                        band    statistic  n k      edf   k_index k_p_value
+primary:B2:median_delta   B2 median_delta 22 5 1.000075 0.9875782     0.360
+primary:B2:sd_delta       B2     sd_delta 22 5 2.213600 1.5150887     0.987
+primary:B3:median_delta   B3 median_delta 22 5 1.000081 0.8625267     0.190
+primary:B3:sd_delta       B3     sd_delta 22 5 2.551450 1.4602214     0.982
+primary:B4:median_delta   B4 median_delta 22 5 1.000078 0.9149996     0.243
+primary:B4:sd_delta       B4     sd_delta 22 5 2.722297 1.4736163     0.981
+primary:B8:median_delta   B8 median_delta 22 5 1.000076 0.9383199     0.289
+primary:B8:sd_delta       B8     sd_delta 22 5 1.401512 1.3475687     0.931
+                        converged outer_convergence rmse_model_scale
+primary:B2:median_delta      TRUE  full convergence      0.009481672
+primary:B2:sd_delta          TRUE  full convergence      0.340122514
+primary:B3:median_delta      TRUE  full convergence      0.008169574
+primary:B3:sd_delta          TRUE  full convergence      0.343901045
+primary:B4:median_delta      TRUE  full convergence      0.007432866
+primary:B4:sd_delta          TRUE  full convergence      0.340043366
+primary:B8:median_delta      TRUE  full convergence      0.007654992
+primary:B8:sd_delta          TRUE  full convergence      0.348426518
+                        adjacent_residual_correlation
+primary:B2:median_delta                    0.05450258
+primary:B2:sd_delta                       -0.45467817
+primary:B3:median_delta                    0.17404346
+primary:B3:sd_delta                       -0.39981852
+primary:B4:median_delta                    0.12314023
+primary:B4:sd_delta                       -0.41856773
+primary:B8:median_delta                    0.09624552
+primary:B8:sd_delta                       -0.34206982
+                        residual_abs_fitted_spearman   shapiro_p max_leverage
+primary:B2:median_delta                 -0.220779221 0.104260180    0.2507535
+primary:B2:sd_delta                      0.412761152 0.698537538    0.4418062
+primary:B3:median_delta                 -0.009599097 0.035115545    0.2507546
+primary:B3:sd_delta                      0.369847544 0.496384855    0.4769546
+primary:B4:median_delta                  0.010728402 0.008787330    0.2507541
+primary:B4:sd_delta                      0.110107284 0.238403920    0.4917563
+primary:B8:median_delta                  0.081874647 0.002110369    0.2507537
+primary:B8:sd_delta                      0.223037832 0.737186856    0.3228560
+                         k10_edf k10_max_absolute_curve_change k10_reml_change
+primary:B2:median_delta 1.000055                  3.859761e-08      -0.1940205
+primary:B2:sd_delta     2.577141                  7.359349e-04      -0.3661585
+primary:B3:median_delta 1.000091                  1.221757e-08      -0.1940111
+primary:B3:sd_delta     3.354775                  1.800317e-03      -0.6839324
+primary:B4:median_delta 1.000076                  5.641243e-09      -0.1940150
+primary:B4:sd_delta     3.459814                  1.839665e-03      -0.7212981
+primary:B8:median_delta 1.000045                  3.465640e-08      -0.1940264
+primary:B8:sd_delta     1.486161                  1.589469e-04      -0.2074270
+                        smoothing_uncertainty_available
+primary:B2:median_delta                            TRUE
+primary:B2:sd_delta                                TRUE
+primary:B3:median_delta                            TRUE
+primary:B3:sd_delta                                TRUE
+primary:B4:median_delta                            TRUE
+primary:B4:sd_delta                                TRUE
+primary:B8:median_delta                            TRUE
+primary:B8:sd_delta                                TRUE
+                        band    statistic                         contrast
+primary:B2:median_delta   B2 median_delta last-first fitted spatial median
+primary:B2:sd_delta       B2     sd_delta      last/first typical SD ratio
+primary:B3:median_delta   B3 median_delta last-first fitted spatial median
+primary:B3:sd_delta       B3     sd_delta      last/first typical SD ratio
+primary:B4:median_delta   B4 median_delta last-first fitted spatial median
+primary:B4:sd_delta       B4     sd_delta      last/first typical SD ratio
+primary:B8:median_delta   B8 median_delta last-first fitted spatial median
+primary:B8:sd_delta       B8     sd_delta      last/first typical SD ratio
+                           estimate        lower      upper      start
+primary:B2:median_delta 0.005635200 -0.009167118 0.02043752 2025-01-06
+primary:B2:sd_delta     1.280235979  0.649319634 2.52418697 2025-01-06
+primary:B3:median_delta 0.007449676 -0.005304305 0.02020366 2025-01-06
+primary:B3:sd_delta     1.360721650  0.614299244 3.01410661 2025-01-06
+primary:B4:median_delta 0.007253109 -0.004350743 0.01885696 2025-01-06
+primary:B4:sd_delta     1.401504372  0.620372688 3.16618469 2025-01-06
+primary:B8:median_delta 0.006095429 -0.005855189 0.01804605 2025-01-06
+primary:B8:sd_delta     1.100361532  0.606173841 1.99743938 2025-01-06
+                               end
+primary:B2:median_delta 2026-03-27
+primary:B2:sd_delta     2026-03-27
+primary:B3:median_delta 2026-03-27
+primary:B3:sd_delta     2026-03-27
+primary:B4:median_delta 2026-03-27
+primary:B4:sd_delta     2026-03-27
+primary:B8:median_delta 2026-03-27
+primary:B8:sd_delta     2026-03-27
+                               band    statistic         domain min_pixels
+B2 median_delta complete_dates   B2 median_delta complete_dates    3541502
+B2 sd_delta complete_dates       B2     sd_delta complete_dates    3541502
+B3 median_delta complete_dates   B3 median_delta complete_dates    3541623
+B3 sd_delta complete_dates       B3     sd_delta complete_dates    3541623
+B4 median_delta complete_dates   B4 median_delta complete_dates    3541533
+B4 sd_delta complete_dates       B4     sd_delta complete_dates    3541533
+B8 median_delta complete_dates   B8 median_delta complete_dates    3541100
+B8 sd_delta complete_dates       B8     sd_delta complete_dates    3541100
+                               max_pixels observed_max_change
+B2 median_delta complete_dates    3541502         0.002863206
+B2 sd_delta complete_dates        3541502         0.001979371
+B3 median_delta complete_dates    3541623         0.002488480
+B3 sd_delta complete_dates        3541623         0.001881791
+B4 median_delta complete_dates    3541533         0.002420757
+B4 sd_delta complete_dates        3541533         0.002123878
+B8 median_delta complete_dates    3541100         0.002214155
+B8 sd_delta complete_dates        3541100         0.001847977
+                               observed_median_change observed_correlation
+B2 median_delta complete_dates           0.0009661337            0.9969929
+B2 sd_delta complete_dates               0.0006149500            0.9982880
+B3 median_delta complete_dates           0.0007008879            0.9966848
+B3 sd_delta complete_dates               0.0005735498            0.9985151
+B4 median_delta complete_dates           0.0004246280            0.9967258
+B4 sd_delta complete_dates               0.0002485723            0.9963969
+B8 median_delta complete_dates           0.0002783600            0.9936060
+B8 sd_delta complete_dates               0.0003706125            0.9968535
+                               curve_max_change curve_rms_change
+B2 median_delta complete_dates     0.0010314510     0.0010076261
+B2 sd_delta complete_dates         0.0007804414     0.0006451766
+B3 median_delta complete_dates     0.0008000987     0.0007348767
+B3 sd_delta complete_dates         0.0007859255     0.0005889269
+B4 median_delta complete_dates     0.0006926640     0.0004823900
+B4 sd_delta complete_dates         0.0006258512     0.0003920050
+B8 median_delta complete_dates     0.0002667442     0.0001512614
+B8 sd_delta complete_dates         0.0005409196     0.0004512268
