@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-20T09:11:43.190671+00:00",
+  "completed_utc": "2026-10-20T09:11:48.983817+00:00",
+  "freeze_contract_sha256": "edbd2527ca039139e9b79501f9130014488784bf1008d637d2264b72f30ddd0a",
+  "freeze_commit": "1f14a2d369a62498bd81de6813fe036e1ed49794",
+  "contract_document_revision": "93ceeeeb-41b8-4734-b977-36208ab764ff",
+  "eligible_pair_count": 0,
+  "held_pair_diagnostic_count": 18,
+  "held_reference_count_by_SRF": 18,
+  "raw_decode_diagnostics": 36,
+  "current_nonmud_spectra": 13,
+  "raw_stat_unchanged": true,
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "numpy": "2.5.4",
+  "GDAL": "GDAL 3.8.4, released 2024/02/08",
+  "host": "simon-desktop",
+  "locks": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  },
+  "metrics_calculated": false,
+  "rankings_examined": false,
+  "reference_rule": "response-weighted union-knot trapezoid; missing intervals checked; no positive-response extrapolation; no noisy intervals independently documented; no invented noise filter"
+}

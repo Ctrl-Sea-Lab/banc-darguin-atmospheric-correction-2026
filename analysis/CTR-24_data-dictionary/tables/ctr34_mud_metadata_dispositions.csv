@@ -1,0 +1,7 @@
+source,record,literal_text,disposition
+data/raw/ASD/202603_Seagrass_cover.txt,112,AC03	NA	87	0475	mbp_mud	0	NA	,PI class exclusion if explicit mud-MPB; outside 165 historical March27 candidates unless AC03/04
+data/raw/ASD/202603_Seagrass_cover.txt,113,AC04	NA	88	0476	mpb_mud	0	NA	,PI class exclusion if explicit mud-MPB; outside 165 historical March27 candidates unless AC03/04
+data/raw/GPS/Info spectral measure_biomass core_BdA 2026.xlsx#Sheet1,112,"{""A"": ""AC03"", ""B"": ""NA"", ""C"": ""87"", ""D"": ""Jim"", ""E"": ""0475"", ""F"": ""mbp_mud"", ""H"": ""46108"", ""I"": ""Arel"", ""J"": ""19.895208"", ""K"": ""-16.499679"", ""L"": ""Off-shore""}","AC03/04 excluded; any other dates outside historical candidate domain, not admitted"
+data/raw/GPS/Info spectral measure_biomass core_BdA 2026.xlsx#Sheet1,113,"{""A"": ""AC04"", ""B"": ""NA"", ""C"": ""88"", ""D"": ""Jim"", ""E"": ""0476"", ""F"": ""mpb_mud"", ""H"": ""46108"", ""I"": ""Arel"", ""J"": ""19.896477000000001"", ""K"": ""-16.500781"", ""L"": ""Off-shore""}","AC03/04 excluded; any other dates outside historical candidate domain, not admitted"
+tables/station_crosswalk.csv,AC03,mbp_mud,excluded all new analyses; raw spelling retained; AC03 conservative alias
+tables/station_crosswalk.csv,AC04,mpb_mud,excluded all new analyses; literal PI class

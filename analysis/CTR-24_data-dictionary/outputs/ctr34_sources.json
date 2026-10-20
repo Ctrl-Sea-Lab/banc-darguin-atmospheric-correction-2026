@@ -1,0 +1,119 @@
+[
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B02_10m.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B02_10m.jp2",
+    "bytes": 105670043,
+    "mtime_ns": 1775199816000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "acc402774ac74862bbf0e991553b9162639f2f181e665512829f6e87233c3693",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_492.tif",
+    "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_492.tif",
+    "bytes": 29758803,
+    "mtime_ns": 1775561280000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "080b0ef0ea3439dff3dadbee445ae77932ef707cc89ecfe2e070c87b0c9471d2",
+    "grid_id": "df9f2210b18734415c31ef2d190eb78367436f5e69a317bb8b283dbe169560d5"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_QUALIT_B02.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_QUALIT_B02.jp2",
+    "bytes": 56612,
+    "mtime_ns": 1775199822000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "dd66e84d69cecc8298e94324162f7fadb2baddb12426da08eabfd46e1297af3e",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_DETFOO_B02.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_DETFOO_B02.jp2",
+    "bytes": 66757,
+    "mtime_ns": 1775199820000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "3b40d20eca0d517b7193d9aec8c39c80894b2535ba7de034f13a2c46bad23b59",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B03_10m.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B03_10m.jp2",
+    "bytes": 105510520,
+    "mtime_ns": 1775199816000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "962acb590ec39f3a117354fcbc7e8ff6f76a8dd7f64e415279cc14f059e06b9b",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_559.tif",
+    "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_559.tif",
+    "bytes": 29758835,
+    "mtime_ns": 1775561280000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "1f2e05e1f33e74ae0520943b902f2b8d9d57fce430573a38eb6ebd59cd5ec0a6",
+    "grid_id": "df9f2210b18734415c31ef2d190eb78367436f5e69a317bb8b283dbe169560d5"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_QUALIT_B03.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_QUALIT_B03.jp2",
+    "bytes": 56612,
+    "mtime_ns": 1775199822000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "349500e3c0060c0860ae2075b75ad28aff24a792664cf7c4618773ee763c22d7",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_DETFOO_B03.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_DETFOO_B03.jp2",
+    "bytes": 66879,
+    "mtime_ns": 1775199820000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "41f866b5ace551d1cfab2466e5c7b0cfaaf96d7cc00649c200ef8b307d4bb829",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B04_10m.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B04_10m.jp2",
+    "bytes": 104511412,
+    "mtime_ns": 1775199816000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "f008039645867d4f4f183089c53ff330b86de123c3321a8cb67e6b32d08082b7",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_665.tif",
+    "path": "data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_665.tif",
+    "bytes": 29758837,
+    "mtime_ns": 1775561280000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "f35412f390267f2a5d43d0778743311a53d6931a62097d15b8c1a8f3093564f0",
+    "grid_id": "df9f2210b18734415c31ef2d190eb78367436f5e69a317bb8b283dbe169560d5"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_QUALIT_B04.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_QUALIT_B04.jp2",
+    "bytes": 56612,
+    "mtime_ns": 1775199822000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "fbfbbe622de866b7e395043f986d37de3a1eced59e627114b058c961591cc307",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_DETFOO_B04.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/QI_DATA/MSK_DETFOO_B04.jp2",
+    "bytes": 66871,
+    "mtime_ns": 1775199822000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "673ccabeb95657eb29f5c541360234d044799f9644e60090d46fedc969aaac95",
+    "grid_id": "bf3a2fe207de2c8537932e6208171e329523acd8de2c7b7e5a5eb51529e5ac76"
+  },
+  {
+    "source_id": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_SCL_20m.jp2",
+    "path": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_SCL_20m.jp2",
+    "bytes": 121652,
+    "mtime_ns": 1775199820000000000,
+    "identity_strength": "header/path/stat + separately hashed decoded windows; no full raster hash",
+    "header_sha256": "eff5fcdf06b43a92190eb55f4bfed2b6b32b64c952bd3b64f7a32800c9070142",
+    "grid_id": "9f2b69c19082a0a70611707cb591eee32405bd6d89707afcf4c8cd92c84f268f"
+  }
+]

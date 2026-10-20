@@ -1,0 +1,164 @@
+{
+  "schema": "ctrlsea.matchup-feasibility.v2",
+  "task": "CTR-28",
+  "parent": "CTR-27",
+  "readiness": "blocked_for_scientific_extraction",
+  "manifest": "tables/proposed_matchups.csv",
+  "csv_null": "empty field; never zero",
+  "csv_boolean": "True or False; parse explicitly",
+  "primary_key": [
+    "matchup_id"
+  ],
+  "candidate_counts": {
+    "date_eligible": 15,
+    "primary_station_candidates": 8,
+    "supplementary_station_candidates": 7,
+    "potential_primary_band_pairs_before_holds": 24,
+    "included_pairs": 0
+  },
+  "raw_identifier_crosswalk": {
+    "AC_01": "AC01",
+    "AC_02": "AC02",
+    "AC_03": "AC03",
+    "AC_04": "AC04",
+    "AC_05": "AC05",
+    "AC_06": "AC06",
+    "AC_07": "AC07",
+    "AC_08": "AC08",
+    "D06_A": "D06_A",
+    "D06_B": "D06_B",
+    "D06_C": "D06_C",
+    "D06_D": "D06_D",
+    "D06_E": "D06_E",
+    "D06_F": "D06_F",
+    "D06_G": "D06_G"
+  },
+  "independent_unit": "candidate station; bands/acquisitions/5x20 readings are not independent replicates; review spatial overlap before inference",
+  "convolution": {
+    "platform": "S2B",
+    "primary_reference": "data/raw/COPE-GSEG-EOPG-TN-15-0007 - Sentinel-2 Spectral Response Functions 2024 - 4.0.xlsx",
+    "sheet": "Spectral Responses (S2B)",
+    "formula": "integral(R_field(lambda) * SRF_band(lambda), d_lambda) / integral(SRF_band(lambda), d_lambda)",
+    "integration": "trapezoidal on union knots; interpolate only adjacent finite ASD samples <=1 nm; no extrapolation",
+    "minimum_response_coverage": 0.999,
+    "invalid_policy": "reject if nonfinite or missing/noisy interval intersects positive SRF; do not bridge, extrapolate, replace with zero, or silently renormalize truncated bands",
+    "ASD_units": "PI-confirmed unitless 0-1; identity conversion",
+    "ASD_wavelength_unit": "PI-confirmed nm",
+    "version_sensitivity": "v5 separate reference after release; no convolution in amendment",
+    "primary_reference_sha256": "1a9edc27d692a570911a460d589f188da0fc3e27f0b0bd1ad322059c380519b0"
+  },
+  "spatial": {
+    "primary_bands": [
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "primary_stations": [
+      "AC01",
+      "AC02",
+      "AC03",
+      "AC04",
+      "AC05",
+      "AC06",
+      "AC07",
+      "AC08"
+    ],
+    "CRS": "raster EPSG:32628; PI-confirmed field EPSG:4326",
+    "support": "confirmed field area first; primary containing 10m pixel only when same sampled footprint supported; fixed 3x3 neighborhood sensitivity, never post hoc value optimization",
+    "coarse_bands": "B01 native60m, B05/B06/B07/B8A native20m require documented homogeneous footprint of same support; 10m ACOLITE resampling does not create resolution",
+    "registration": "grid-aligned B02/B03/B04 with integer crop offset; image-to-ground registration unmeasured; no shifts fitted to ASD reflectance",
+    "resampling": "none for primary; area-weighted same-boundary aggregation only under agreed coarse-support contract; nearest neighbor for categorical masks",
+    "time": "same day insufficient; record UTC interval and tide/exposure at acquisition and field survey before enabling"
+  },
+  "masks": {
+    "predeclared_common_scl_exclude": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "allowed_scl_subject_to_field_evidence": [
+      4,
+      5,
+      6
+    ],
+    "support_rule": "all primary support pixels must pass common masks; no partial-footprint averaging",
+    "sen2cor_invalid_dn": [
+      0,
+      65535
+    ],
+    "acolite_invalid": "NaN/nonfinite; no provided l2_flags on March27; l2w_mask=False",
+    "defect_masks": "native MSK_QUALIT/MSK_DETFOO still require decoding and extraction-stage verification",
+    "water": "SCL6 not automatically discarded; exposure/optical quantity must be established independently",
+    "negative_reflectance": "retain finite values after quality masks; flag, do not clip to improve fit"
+  },
+  "statistics_handoff": {
+    "concurrence_revision": "1f9de7bb-a5fb-4c73-ad90-7444529f2189",
+    "status": "schema completed as held design; not an executable released extraction",
+    "sets": {
+      "P_b": "reference + both methods + common physical/full-support QA pass for a band",
+      "P_star": "intersection P_b across fixed B02/B03/B04; same targets/reference in both facets"
+    },
+    "weights": {
+      "complete_spectrum": "1/(G*T_g*3)",
+      "per_band": "1/(G_b*T_gb)",
+      "normalization": "identical normalized weights for both corrections; extraction weights separate; RMSE sqrt(weighted squared error)"
+    },
+    "complete_case_coverage": {
+      "status": "pending Charles/Roger freeze before errors",
+      "required_inventory": [
+        "targets and original frozen units retained/lost",
+        "literal/verified class",
+        "site",
+        "timing/exposure/support",
+        "ordered exclusion reasons"
+      ],
+      "rule": "all planned classes/sites must be represented and exposure/QA loss assessed; unknown types stay unknown; a primary-population claim requires a dated metadata-based justification; no automatic numerical percentage cutoff",
+      "empty_P_star": "NA pooled metrics with reason, per-band valid tables only",
+      "unrepresentative_P_star": "subset description only; withhold primary-population ranking",
+      "fallback": "dated Charles amendment before replacement display/estimand; no dropping bands/imputation/supplementary substitution to populate primary"
+    },
+    "grouping": "freeze graph before errors; never split components by method/band/type or after exclusion; no final independent-n yet",
+    "tiers": "G=0 no estimate; G=1-4 descriptive; G=5-19 unit contrasts + leave-one-unit-out; no inferential intervals/p-values/bootstrap for current <=8 primary targets",
+    "contrast": "ACOLITE minus operational L2A MAE; signed bias and RMSE companion descriptive measures after release",
+    "ecological_threshold": "required for ecological-importance/equivalence claim, not descriptive discrepancy",
+    "sensitivity": [
+      "supplied v4 versus separately hashed official v5",
+      "prespecified registration +/-1 pixel and footprint alternatives, own support graph",
+      "equal-target sensitivity if unit sizes differ; distinct estimand",
+      "QA-grouped sensitivity if materially relevant; not default radiometric merge"
+    ],
+    "scientific_metrics_computed": false
+  },
+  "review": {
+    "internal": "pending independent reviewer",
+    "PI_scientific_approval": "pending",
+    "manuscript_integration": "not_authorized"
+  },
+  "normalized_design": "outputs/normalized_design.json",
+  "normalized_key": [
+    "target_id",
+    "occasion_id",
+    "band_id",
+    "extraction_version"
+  ],
+  "staging_key": [
+    "station_id",
+    "band"
+  ],
+  "field_evidence": "provenance/field_evidence.json",
+  "dependence_graph": "outputs/dependence_graph.json",
+  "schema_version": "ctr28-amendment-v2",
+  "null_semantics": "null unknown/not evaluated, never zero/pass; booleans false while held",
+  "schema_checks": [
+    "unique normalized keys/IDs; all foreign keys; 165 ledger rows retained",
+    "later extraction: numerical contributor weights sum to 1 on fixed full support; common identity, per-method/reference/physical/paired/complete-spectrum status",
+    "unknown essential support/QA/grouping blocks extraction; no null passed/defaulted",
+    "common complete sets and complete-case loss reconciliation before error inspection"
+  ]
+}

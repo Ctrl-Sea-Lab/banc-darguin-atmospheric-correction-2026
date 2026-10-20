@@ -1,0 +1,7 @@
+{
+  "status": "pass",
+  "qmd_sha256": "f58a6ae1dfe2e49bf829f854ec01cfdb28edc9a8adc904bcbd744fabfdfecf76",
+  "input_gate_sha256": "95f9ece05ef6c8d9bc8ffc92e9b5b6172196babc7e041668d3f0259706a022cc",
+  "deletion_receipt_sha256": "7b298e7433edc5ced09c951e4a9d7afc3d5e764c4682c29c83c4bdc89f7391dc",
+  "scope": "deterministic engineering report; no scientific values recomputed"
+}

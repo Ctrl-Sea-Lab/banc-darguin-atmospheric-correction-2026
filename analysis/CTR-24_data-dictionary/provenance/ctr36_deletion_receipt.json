@@ -1,0 +1,129 @@
+{
+  "completed_utc": "2026-10-20T09:49:13.436184+00:00",
+  "task": "CTR-36",
+  "authorization": "CTR-35 assignment and saved plan revision 0d32d61e-8645-4dff-9cc4-1f40d66833e0; not a new approval",
+  "before": [
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr33",
+      "realpath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr33",
+      "kind": "registered_git_worktree",
+      "head": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "branch": "ctr-33-scientific-first-report",
+      "status_porcelain": "",
+      "ignored": [
+        ".cache/",
+        ".venv",
+        "analysis/CTR-33_scientific-first-report/.quarto/",
+        "scripts/__pycache__/",
+        "tests/__pycache__/"
+      ]
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34",
+      "realpath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34",
+      "kind": "registered_git_worktree",
+      "head": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "branch": "ctr-34-source-matchups",
+      "status_porcelain": "",
+      "ignored": [
+        ".pytest_cache/",
+        ".venv",
+        "analysis/CTR-27_sen2cor-acolite-asd/.quarto/",
+        "analysis/CTR-27_sen2cor-acolite-asd/outputs/official-srf-v5.xlsx",
+        "analysis/CTR-27_sen2cor-acolite-asd/scripts/__pycache__/",
+        "data/raw/ASD",
+        "data/raw/Atm_Compare_AOI",
+        "data/raw/COPE-GSEG-EOPG-TN-15-0007 - Sentinel-2 Spectral Response Functions 2024 - 4.0.xlsx",
+        "data/raw/GPS",
+        "data/raw/S2",
+        "data/raw/SHP",
+        "data/raw/Sentinel5P",
+        "scripts/__pycache__/",
+        "tests/__pycache__/"
+      ]
+    }
+  ],
+  "after": [
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr33",
+      "lexists": false,
+      "registered": false
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34",
+      "lexists": false,
+      "registered": false
+    }
+  ],
+  "commands": [
+    {
+      "command": [
+        "git",
+        "worktree",
+        "remove",
+        "--force",
+        "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr33"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "finished_utc": "2026-10-20T09:49:02.810663+00:00"
+    },
+    {
+      "command": [
+        "git",
+        "worktree",
+        "remove",
+        "--force",
+        "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "",
+      "finished_utc": "2026-10-20T09:49:11.670821+00:00"
+    }
+  ],
+  "remaining_worktrees": "worktree /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026\nHEAD 9f0f06d2b5958b35de82adbca1577e4c384ae846\nbranch refs/heads/ctr-36-ctr24-consolidation\n\n",
+  "retained_branch_heads": {
+    "ctr-33-scientific-first-report": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+    "ctr-34-source-matchups": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d"
+  },
+  "original_tracked_files_unchanged": true,
+  "original_raw_path_size_mtime_unchanged": true,
+  "source_archive_sha256": "2e9337d43bcf1138d47e75611e6f64bf6cddc9f9a59a8795c1be349e139261f5",
+  "v5_sha256": "42be3ebd8bfcbde11c37caeb2e2fdda65fefa8d2b6f8329559b7806d02cdc9e2",
+  "symlink_handling": "git worktree remove --force unlinks entries without following symlink targets; data/raw contained symlinks and .gitkeep only",
+  "process_check": {
+    "checked_utc": "2026-10-20T09:47:16.335164+00:00",
+    "scope": "local Linux /proc cwd, root, exe, open fds and maps; no NAS-client-wide activity claim",
+    "inspected_processes": 561,
+    "scanner_pid_excluded": 2875864,
+    "active_references": [],
+    "own_uid_inaccessible": [
+      {
+        "pid": 2810374,
+        "comm": "systemd",
+        "executable": "/usr/lib/systemd/systemd",
+        "known_session_daemon": true
+      },
+      {
+        "pid": 2810375,
+        "comm": "(sd-pam)",
+        "executable": "(sd-pam)",
+        "known_session_daemon": true
+      },
+      {
+        "pid": 2827710,
+        "comm": "sshd",
+        "executable": "sshd: paperclip-worker@notty",
+        "known_session_daemon": true
+      }
+    ],
+    "unknown_worker_processes": [],
+    "other_uid_inaccessible_count": 549,
+    "limitation": "other-user process details require privileges and are not asserted; no privilege changes made"
+  },
+  "no_raw_dataset_payload_removed": true,
+  "discarded_ignored_content": "reproducible package caches, Quarto/Python/pytest caches; no unique source work; v5 reference cache separately preserved",
+  "remote_refs_prs_tasks_changed": false
+}

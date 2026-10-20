@@ -1,0 +1,24 @@
+pandoc 
+  to: html
+  output-file: matchup-amendment.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  number-sections: false
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  title: CTR24 station matchup input handoff
+  subtitle: CTR-36 consolidation amendment under CTR-35
+  author: Alan Turing — Research Software Engineer
+  date: '2026-10-20'
+  
+Output created: matchup-amendment.html
+
