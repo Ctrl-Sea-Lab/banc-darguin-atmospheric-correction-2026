@@ -11,7 +11,7 @@ short=[{'ASD column':r['asd_column_raw'],'Station':r['station_id'],'GPS row':r['
 bands=[{'Band':r['band'],'ACOLITE variable':r['acolite_variable'],'Native support (m)':r['sen2cor_native_support_m'],'Response coverage (%)':f"{100*float(r['srf_coverage_fraction_if_nm']):.4f}",'Proposed role':r['spatial_role']} for r in rows('band_contract.csv')]
 text='''# March 27 ASD–Sentinel-2 data readiness
 
-**CTR-28 feasibility handoff for CTR-27. Readiness: blocked for scientific extraction and validation.** Date joins and satellite metadata are established, and an explicit proposed contract is delivered. Zero pairs are currently included for extraction or inferential use. This amended bounded feasibility audit is submitted for reassessment; the parent scientific comparison, independent review and PI decisions remain pending. No algorithm ranking or final publication figure is produced.
+**CTR-28 feasibility handoff for CTR-27. Readiness: blocked for scientific extraction and validation.** Date joins and satellite metadata are established, and an explicit proposed contract is delivered. Zero pairs are currently included for extraction or inferential use. This amended bounded feasibility audit is submitted for reassessment; the parent scientific comparison, independent review and PI decisions remain pending. The PI-authorized descriptive figures and statistics below are supplied-product exploration; accuracy against ASD remains not estimable.
 
 ## Question and scope
 
@@ -77,7 +77,7 @@ For the later released extraction, compute each band as **∫Rfield(λ)Sband(λ)
 
 With PI-confirmed ASD nm units, B01–B07 and B8A have full supplied response coverage. **B08 spans 774–907 nm and only 99.4857969% is covered**: hold it from primary inference. B09, B10, B11 and B12 have no ASD support. B09/10 also lack a supplied correction pair. No missing wavelengths are fabricated. Even B01/red-edge/B8A cannot be promoted without field support at their native 60/20 m resolutions.
 
-![Spectral response coverage using PI-confirmed field wavelengths in nm.](figures/srf-coverage.png)
+![Spectral response coverage using PI-confirmed field wavelengths in nm. Full spectral coverage alone does not establish spatial or QA eligibility.](figures/srf-coverage.png)
 
 The [20 August 2026 official SRF update](https://sentinels.copernicus.eu/-/sentinel-2-spectral-response-functions-update) announces v5 refinements and removal of negligible edge noise, intended for PB05.13. Our scene is PB05.12. V4 is retained to preserve the supplied design reference; this is not proof that every processor used exactly this workbook. The official v5 workbook was downloaded separately through the [SentiWiki library](https://sentiwiki.copernicus.eu/web/s2-documents), SHA-256 **42be3ebd8bfcbde11c37caeb2e2fdda65fefa8d2b6f8329559b7806d02cdc9e2**. It was not substituted into the supplied raw data.
 
@@ -123,7 +123,7 @@ The normalized file supplies targets, references, occasions, source identities w
 
 `outputs/data_contract.json` carries Thomas's concurrence. For each band P_b requires reference and both methods to pass the same physical/full-support QA rule; P* is their target intersection across the fixed three bands. Main facets use identical P* targets and ASD references. Equal-unit weights are `1/(G × T_g × 3)` for P*, and `1/(G_b × T_gb)` per band, identical across corrections; extraction weights are separate. RMSE is the square root of weighted squared error. Complete-case coverage must disclose targets/units, literal/verified classes, sites, timing/exposure/support and ordered losses. Charles/Roger must freeze the metadata-based representativeness justification before errors; an absent intended class/site or systematic exposure/QA loss precludes an unqualified primary-population claim. Unknown classes stay unknown.
 
-If P* is empty, pooled metrics are NA with a reason; valid P_b tables can be reported after physical release. If P* is unrepresentative, any summary describes only that subset and a primary-population ranking is withheld. Charles must record a dated amendment before a band-stratified replacement figure/estimand. No silent band drop, imputation or supplementary substitution is allowed. At most eight primary targets cannot meet the design's 20-unit interval rule: no bootstrap, inferential intervals or p-values are planned. G=0 yields no estimate; G=1–4 permits descriptive results; G=5–19 additionally requires unit contrasts and leave-one-unit-out sensitivity. Unknown grouping is reported as unknown. No bias, MAE, RMSE, correlation, R², inference or ranking is computed here.
+If P* is empty, pooled metrics are NA with a reason; valid P_b tables can be reported after physical release. If P* is unrepresentative, any summary describes only that subset and a primary-population ranking is withheld. Charles must record a dated amendment before a band-stratified replacement figure/estimand. No silent band drop, imputation or supplementary substitution is allowed. At most eight primary targets cannot meet the design's 20-unit interval rule: no bootstrap, inferential intervals or p-values are planned. G=0 yields no estimate; G=1–4 permits descriptive results; G=5–19 additionally requires unit contrasts and leave-one-unit-out sensitivity. Unknown grouping is reported as unknown. No ASD-based bias, MAE, RMSE, correlation, R², inference or ranking is computed here. The separate AOI summaries describe paired product differences only.
 
 ## Remaining evidence and questions
 
@@ -149,6 +149,7 @@ Run from the project root:
 .venv/bin/python analysis/CTR-27_sen2cor-acolite-asd/scripts/audit.py
 .venv/bin/python analysis/CTR-27_sen2cor-acolite-asd/scripts/amend.py
 ./scripts/project-env.sh Rscript analysis/CTR-27_sen2cor-acolite-asd/scripts/coverage_figure.R
+.venv/bin/python analysis/CTR-27_sen2cor-acolite-asd/scripts/descriptive.py
 .venv/bin/python analysis/CTR-27_sen2cor-acolite-asd/scripts/build_report.py
 ./scripts/render-analysis.sh analysis/CTR-27_sen2cor-acolite-asd
 .venv/bin/python analysis/CTR-27_sen2cor-acolite-asd/scripts/validate.py
@@ -170,7 +171,67 @@ checks=intake['spotchecks'];pc=intake['polygon_checks']
 spot='Source-check mismatches against the containing stored cell: '+json.dumps(checks['mismatches_by_method_band'],sort_keys=True)+'. B01 stored-20m follow-up: '+str(checks['B01_20m_followup_matches'])+'/'+str(checks['B01_20m_followup_checks'])+' match. Polygon centre-set checks: '+json.dumps(pc,sort_keys=True)+'. Full per-record diagnostics are retained; no correction-to-ASD error is calculated.'
 text=text.replace('{{AOI}}',table(aoi,list(aoi[0]))).replace('{{SPOTCHECK}}',spot)
 text=text.replace('{{STATIONS}}',table(short,list(short[0]))).replace('{{BANDS}}',table(bands,list(bands[0]))).replace('{{ENV}}',f"Environment: Python {run['python'].split()[0]}, NumPy {run['numpy']}, {run['gdal']}. Source base {run['base_commit']}; branch `{run['branch']}`. UV lock SHA-256 `{run['locks']['uv.lock']}`; renv lock SHA-256 `{run['locks']['renv.lock']}`.")
+
+# The descriptive section is generated from saved full-precision summary tables.
+def display_table(name,columns):
+ data=rows(name)
+ return table([{k:(f"{float(r[k]):.5f}" if k in ['mean','SD','Q1','median','Q3','minimum','maximum'] else r[k]) for k in columns} for r in data],columns)
+diffrows=rows('aoi_paired_differences.csv')
+means='; '.join(g+': '+', '.join(r['band']+' '+f"{float(r['mean']):.5f}" for r in diffrows if r['AOI']==g) for g in ['Arel','Iwik'])
+expansion="""## Descriptive results and figures — PI-authorized expansion
+
+This expansion implements the PI request of 20 October 2026, 06:27:52 UTC (comment `cd589b22-be5b-45ed-9df8-accc7ff5949e`) and independent review revision `41b37e06-40fd-471b-b7de-ef3e2d339803`, section D. These displays describe station spectra and the supplied AOI product values. **They do not validate either correction against ASD.** B08 remains held; no extra correction run, convolution, station reflectance extraction or QA release was performed.
+
+### Feasibility counts and denominators
+
+"""+display_table('feasibility_counts.csv',['quantity','count','denominator'])+"""
+
+ASD-validation bias, MAE, RMSE and R²: **not estimable: zero admitted field matchups**. Candidate design counts are not observed validation sample sizes. Final independent units remain unknown.
+
+### Station-average field spectra
+
+![All 15 March 27 station-average ASD spectra, separated into eight primary AC candidates and seven supplementary D06 candidates. Reflectance is dimensionless; wavelengths are nm. No repeat-level error bars are available.](figures/generated/field-spectra.png){fig-alt="Fifteen field spectra in primary and supplementary panels; wavelength 400 to 900 nm and dimensionless reflectance."}
+
+The following statistics describe each supplied spectrum over its 501 equally spaced 1 nm channels from 400 through 900 nm, inclusive. The mean is the unweighted arithmetic channel mean; sample SD (denominator 500), quartiles and range describe variation across wavelengths. **Wavelength channels are not field replicates, and this SD is not station measurement uncertainty.** No spectral smoothing or conversion was applied. All 7,515 selected values are finite; no wavelength channel was discarded. Literal labels remain in the machine-readable table and crosswalk; spectral appearance does not establish ecological identity.
+
+"""+display_table('field_spectral_summary.csv',['station_id','n','mean','SD','Q1','median','Q3','minimum','maximum'])+"""
+
+The table is rounded to five decimals for display; `tables/field_spectral_summary.csv` retains computation precision. Here n means wavelength channels per supplied station average, not independently sampled stations.
+
+### Field locations and actual supplied AOI support
+
+![Field locations against actual supplied AOI polygon outlines and the footprints of the supplied 10 m cells. Coordinates are EPSG:32628 in km, scale bars are metres, and north is up. Triangles mark AC candidates; open circles mark D06 candidates. Leader lines connect labels to unchanged locations. All 15 field stations are plotted and unmatched. AC01/02 remain at their supplied GPS positions near Iwik despite Arel workbook text. No coastline or satellite basemap is inferred.](figures/generated/station-aoi-map.png){fig-alt="All 15 unmatched stations and actual AOI cell footprints in EPSG:32628; AC01 and AC02 discrepancy retained."}
+
+The Arel panel includes 13 nearest-AOI field locations and Iwik includes two; panel assignment is geographic plotting context, not a validated site or ecological crosswalk. D06_A/B nearly overlap at this scale; both records and labels are retained. The 15 nearest-centre distances span **15.851–989.715 m**, purely as distance diagnostics. A new read-only `gdaltransform` check from the supplied EPSG:4326 coordinates agrees with all saved EPSG:32628 points within 1e-6 m. This verifies the transform arithmetic, not GPS accuracy, field footprints or empirical image registration. There are zero station containing-cell joins; no nearest cell is substituted. The AOI cells nominally extend 5 m around their centres; effective sensor support remains unverified.
+
+### Exploratory paired AOI product comparison
+
+![Operational L2A versus supplied ACOLITE DSF for B02, B03 and B04, separated by Arel and Iwik. Axes share a common dimensionless reflectance scale; the dashed line is 1:1. Counts are spatially dependent supplied pixel records and QA is not validated. These are product comparisons without ASD matches.](figures/generated/aoi-correction-comparison.png){fig-alt="Six AOI by band scatter panels, common reflectance axes and 1:1 line; QA not validated."}
+
+The paired key is `(AOI, pixel_id)`, with identical centre coordinates and nominal 10 m boundaries across corrections. The 1,463 cells comprise 730 Arel and 733 Iwik records, repeated across the three bands; 4,389 band-pairs are not 4,389 independent samples. No resampling, spatial shift, range clipping or value-based cell selection was performed. Existing source spotchecks support encoding at their bounded sample only. The CSV values are already decoded: operational L2A source reflectance is `(DN - 1000)/10000` after masking native codes 0 and 65535; ACOLITE Float32 `rhos` is direct dimensionless reflectance. **No scale/offset was applied a second time.**
+
+The descriptive retention rule is finite values in both corrections for a band, excluding recognized decoded L2A special codes -0.1 and 6.4535. Nonfinite/special exclusions are **zero** in all six AOI-band groups; all supplied primary-band pairs are retained. No QA mask is authenticated by this rule, and no QA-based exclusions are claimed. CSV export NoData/QA lineage and full effective support remain unresolved. `tables/descriptive_exclusions.csv` supplies every count.
+
+Distribution statistics below use sample SD (`n - 1`) and linear interpolated quantiles (NumPy `method='linear'`, equivalent to R type 7: position `(n - 1)p` with zero-based indexing). Values are dimensionless; SD and IQR describe pixel spread, not uncertainty in correction accuracy. The underlying pixels are spatially dependent, selected AOIs rather than random ecological samples.
+
+"""+display_table('aoi_descriptive.csv',['AOI','band','method','n','mean','SD','Q1','median','Q3','minimum','maximum'])+"""
+
+### Paired differences: ACOLITE minus operational L2A
+
+![Paired difference distributions using ACOLITE minus operational L2A reflectance. Panels share 0.01-wide bins and common axes; zero is dashed. Every supplied finite primary-band record is retained. QA is not validated and spatially dependent pixel counts do not establish independent replication.](figures/generated/aoi-paired-differences.png){fig-alt="Six histograms of ACOLITE minus operational L2A; all observed differences negative; QA not validated."}
+
+"""+display_table('aoi_paired_differences.csv',['AOI','band','n','mean','SD','Q1','median','Q3','minimum','maximum'])+"""
+
+Mean paired differences are """+means+""". Every saved difference is negative for these AOIs and bands: the supplied ACOLITE values are lower than operational L2A values. The discrepancy is larger in Arel than Iwik in these records. This is not evidence of which method is closer to field reflectance. AOI selection, spatial dependence, unvalidated QA, exposed sediment/moisture, tidal state, adjacency and processing/support differences prevent a correction-accuracy or causal interpretation. No p-values, bootstrap intervals, equivalence claim or method ranking is calculated.
+
+### Expansion verification and review response
+
+Requests D1–D5 are addressed by `field-spectra`, `station-aoi-map`, `aoi-correction-comparison`, `aoi-paired-differences` and their six machine-readable summary/count/geometry tables. PNG figures are embedded in this standalone HTML; companion PDF files and CSV tables are delivered for inspection. `scripts/descriptive.py` computes statistics and promotes scratch figures through the existing safe figure writer under this investigation's `figures/generated/`; `scripts/descriptive_figures.R` draws the displays and independently recalculates all **33 summary rows** (15 spectra, 12 product distributions, six differences) within 1e-12. This cross-language author check does not replace Karl's independent review. No dependencies changed, no new raster values were read, all raw file size/mtime tuples were unchanged, and input hashes match their recorded values. `provenance/descriptive_run.json` records scope, parameters, hashes, transforms and software locks. Scientific field-validation holds and separate PI, manuscript, merge and publication gates remain in effect.
+
+"""
+text=text.replace('## Field evidence and exact proposed crosswalk',expansion+'## Field evidence and exact proposed crosswalk')
+
 (P/'report.md').write_text(text)
-(P/'report.qmd').write_text('---\ntitle: "March 27 ASD–Sentinel-2 feasibility audit"\nsubtitle: "CTR-28 handoff for CTR-27; scientific extraction held"\nauthor: "Roger Tomlinson"\nformat: html\nexecute:\n  enabled: false\n---\n\n'+text)
+(P/'report.qmd').write_text('---\ntitle: "March 27 ASD–Sentinel-2 feasibility and descriptive results"\nsubtitle: "CTR-28 handoff for CTR-27; scientific extraction held"\nauthor: "Roger Tomlinson"\nformat: html\nexecute:\n  enabled: false\n---\n\n'+text)
 print('Built static report')
 if __name__=='__main__':pass

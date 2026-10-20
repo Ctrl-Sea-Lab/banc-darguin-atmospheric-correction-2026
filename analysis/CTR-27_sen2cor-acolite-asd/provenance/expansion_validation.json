@@ -1,0 +1,13 @@
+{
+  "standalone_embedded_images": 5,
+  "PNG_contents_match_delivered_files": true,
+  "new_figures_have_alt_text": true,
+  "field_summary_rows": 15,
+  "product_summary_rows": 12,
+  "paired_difference_rows": 6,
+  "cross_language_numeric_check": "R recalculated all 33 rows from source; agrees within 1e-12 during descriptive.py",
+  "raw_stat_unchanged": true,
+  "preservation_tests": "..................................                                       [100%]\n34 passed in 78.78s (0:01:18)",
+  "field_validation": "not estimable: zero admitted field matchups",
+  "review": "independent Karl review pending; PI scientific approval pending"
+}

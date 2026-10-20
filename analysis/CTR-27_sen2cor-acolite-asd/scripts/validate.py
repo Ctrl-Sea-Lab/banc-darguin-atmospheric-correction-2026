@@ -69,3 +69,25 @@ assert json.loads((P/'provenance/amendment_run.json').read_text())['raw_stat_unc
 assert 'unknown field datum' not in (P/'report.md').read_text()
 out.update(normalized_keys_and_foreign_keys='passed',new_input_hashes='verified against current files',AOI_rows_each=1463,station_CSV_cell_matches=0,primary_source_encoding_checks='36/36',AOI_scalar_raster_reads=144,final_independent_units=None,scientific_validation='held: footprint/location/overpass, native QA/support/grouping unresolved; PI units/CRS/field exposure incorporated')
 (P/'provenance/validation.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out))
+
+# Expanded report consistency and standalone image checks.
+import base64
+from html.parser import HTMLParser
+class Images(HTMLParser):
+ def __init__(self): super().__init__(); self.images=[]
+ def handle_starttag(self,tag,attrs):
+  if tag=='img': self.images.append(dict(attrs))
+im=Images();im.feed(html)
+assert len(im.images)==5 and all(x['src'].startswith('data:image/png;base64,') for x in im.images)
+expected=[P/'figures/generated'/f'{name}.png' for name in ['field-spectra','station-aoi-map','aoi-correction-comparison','aoi-paired-differences']]+[P/'figures/srf-coverage.png']
+assert [hashlib.sha256(base64.b64decode(x['src'].split(',',1)[1])).hexdigest() for x in im.images]==[hashlib.sha256(q.read_bytes()).hexdigest() for q in expected]
+assert all(x.get('alt') for x in im.images[:4])
+assert len(read('field_spectral_summary.csv'))==15 and len(read('aoi_descriptive.csv'))==12 and len(read('aoi_paired_differences.csv'))==6
+assert all(int(r['excluded_pairs'])==0 and int(r['retained_pairs'])==int(r['total_pairs']) for r in read('descriptive_exclusions.csv'))
+assert 'not estimable: zero admitted field matchups' in html
+exp=json.loads((P/'provenance/descriptive_run.json').read_text()); assert exp['raw_stat_unchanged'] and exp['new_raster_reads']==0
+for name,hsh in exp['scripts'].items(): assert hashlib.sha256((P/name).read_bytes()).hexdigest()==hsh
+for x in exp['used_input_hashes']: assert hashlib.sha256((P.parents[1]/x['path']).read_bytes()).hexdigest()==x['sha256']
+for name,hsh in exp['locks'].items(): assert hashlib.sha256((P.parents[1]/name).read_bytes()).hexdigest()==hsh
+checks={'standalone_embedded_images':5,'PNG_contents_match_delivered_files':True,'new_figures_have_alt_text':True,'field_summary_rows':15,'product_summary_rows':12,'paired_difference_rows':6,'cross_language_numeric_check':'R recalculated all 33 rows from source; agrees within 1e-12 during descriptive.py','raw_stat_unchanged':True,'preservation_tests':(P/'provenance/expansion_preservation_tests.txt').read_text().strip(),'field_validation':'not estimable: zero admitted field matchups','review':'independent Karl review pending; PI scientific approval pending'}
+(P/'provenance/expansion_validation.json').write_text(json.dumps(checks,indent=2)+'\n');print(json.dumps(checks))
