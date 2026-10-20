@@ -44,7 +44,7 @@ def dump(name, obj):
 
 def table(name, rows, fields=None):
     with (P / 'tables' / name).open('w', newline='') as f:
-        w = csv.DictWriter(f, fieldnames=fields or list(rows[0]))
+        w = csv.DictWriter(f, fieldnames=fields or list(rows[0]), lineterminator="\n")
         w.writeheader()
         w.writerows({k: 'NA' if v is None else v for k, v in r.items()} for r in rows)
 
