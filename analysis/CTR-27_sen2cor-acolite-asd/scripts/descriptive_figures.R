@@ -11,7 +11,7 @@ key <- function(x) paste(x$AOI,x$pixel_id,sep=':')
 ac <- ac[match(key(l2),key(ac)),];stopifnot(identical(key(l2),key(ac)))
 colors <- c('#0072B2','#D55E00','#009E73','#CC79A7','#332288','#8C510A','#444444','#56B4E9')
 draw <- function(name,w,h,fun) {
-  png(file.path(out,paste0(name,'.png')),width=w,height=h,units='in',res=160,type='cairo');fun();dev.off()
+  png(file.path(out,paste0(name,'.png')),width=w,height=h,units='in',res=100,type='cairo');fun();dev.off()
   pdf(file.path(out,paste0(name,'.pdf')),width=w,height=h,useDingbats=FALSE);fun();dev.off()
 }
 draw('field-spectra',12,5.7,function(){

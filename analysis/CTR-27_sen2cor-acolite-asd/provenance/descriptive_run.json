@@ -1,7 +1,7 @@
 {
-  "started_utc": "2026-10-20T06:37:30.414707+00:00",
-  "ended_utc": "2026-10-20T06:37:34.317884+00:00",
-  "base_commit": "30bf024d129b70191b0ba90193eedc45dfc69b6a",
+  "started_utc": "2026-10-20T06:41:34.934964+00:00",
+  "ended_utc": "2026-10-20T06:41:38.201684+00:00",
+  "base_commit": "5c6b38a111ab4684838ad27d9f4560c6244b2b58",
   "PI_scope_comment": "cd589b22-be5b-45ed-9df8-accc7ff5949e",
   "review_revision": "41b37e06-40fd-471b-b7de-ef3e2d339803",
   "raw_stat_unchanged": true,
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "scripts/descriptive.py": "c7fe9cf90dcb122afe2392753ee5575412c172939a09b79717d70c7e72d0338f",
-    "scripts/descriptive_figures.R": "5f422ec6d5fa67fb8a8cad44291b4f087d7c4a64d0cda4ea8797ef45f933422f"
+    "scripts/descriptive_figures.R": "4bce5a80a7bc6854932b16eb20d73061426c28f99dbb644e5872a375a2e60e5b"
   },
   "ASD_validation_metrics": "not estimable: zero admitted field matchups",
   "independent_review": "pending",

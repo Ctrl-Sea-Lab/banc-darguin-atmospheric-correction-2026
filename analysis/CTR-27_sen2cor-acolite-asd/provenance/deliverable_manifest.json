@@ -19,42 +19,42 @@
     {
       "path": "figures/generated/aoi-correction-comparison.pdf",
       "bytes": 233587,
-      "sha256": "106976fedaf1100be60468071c038cf00887cfd7f159d89f99084c2951390dc0"
+      "sha256": "c8ac6312fccea41b9c0b9a9682ceb0f74ec3db4ba8e6c4c5effe217ebf58dd2d"
     },
     {
       "path": "figures/generated/aoi-correction-comparison.png",
-      "bytes": 181201,
-      "sha256": "29008b4d151fe8b8ef526dc64fd2704e48e32bfdcb1f16c5eee2e01cb67172f1"
+      "bytes": 98357,
+      "sha256": "03ae4d413370b703b664c57376c30f58c95235639484e941532eba3f45812701"
     },
     {
       "path": "figures/generated/aoi-paired-differences.pdf",
       "bytes": 6872,
-      "sha256": "ba6524a3796573b8d1857282ff83e3ad1aca8903ec8b04eaaa214f3dcd108302"
+      "sha256": "c13de85225d8602cd3a7ffc16154fa1ae31c7aab137845a9f7b185f3f95c1314"
     },
     {
       "path": "figures/generated/aoi-paired-differences.png",
-      "bytes": 128342,
-      "sha256": "2482d730e033ac8031b30479e2e4dc9d5e39ff061c75b2b17c9e51d98adb321b"
+      "bytes": 71227,
+      "sha256": "d8e997842ee42d257c18dbb7793d4ee28325d78192178521ae9f08b9f3c2a9d0"
     },
     {
       "path": "figures/generated/field-spectra.pdf",
       "bytes": 43496,
-      "sha256": "c23f3f13dedf4585f508a5793d9468a854315075373bff4397c4a22c96e35419"
+      "sha256": "ce7f8e22900703e3af698bd570de139c895d155da6b5bcb6ae465a7aa290ba57"
     },
     {
       "path": "figures/generated/field-spectra.png",
-      "bytes": 195481,
-      "sha256": "68247b448d25ae6f777cd46356ee1c77b9d8967b90ee47d939a6254093256ab7"
+      "bytes": 106852,
+      "sha256": "fe40c1d537def99a399532dc56eb70e3e02b04a3cca22ed8a6a0d0c8f5db7a0c"
     },
     {
       "path": "figures/generated/station-aoi-map.pdf",
       "bytes": 11826,
-      "sha256": "ba62683a9c1b3f1af8bfe00f5efb312bf454396c4bd8b23081c3b2a4712c381e"
+      "sha256": "f78ce95153da7f9076d58a9892f9a77a56caac2b99551aee10549386c89b14a9"
     },
     {
       "path": "figures/generated/station-aoi-map.png",
-      "bytes": 145742,
-      "sha256": "81f5185c5154879e036f415528d0641b1a737453ccedb0fb78893b466274bd34"
+      "bytes": 84073,
+      "sha256": "b56f887bb224ca64e13b1cdb6ff11578b5e3226108a01ca37a1435e2f55aad07"
     },
     {
       "path": "figures/srf-coverage.png",
@@ -139,12 +139,17 @@
     {
       "path": "provenance/descriptive_run.json",
       "bytes": 2403,
-      "sha256": "7222c070fa35f2932d24e9441d6620e9699c31268b6fdeec3d8e2590f590f143"
+      "sha256": "4f4748c7e63469a846c828873ab0730cffb1d55207686ec143d9fe4f8552dd2a"
     },
     {
       "path": "provenance/environment.json",
       "bytes": 160,
       "sha256": "dd9ff2903f77d4a7a2ab6809979e717bea8ba82337eba9299a7fbce46ceb989b"
+    },
+    {
+      "path": "provenance/expansion_numeric_check.txt",
+      "bytes": 349,
+      "sha256": "55bbfd6a9b17985cee505e84950eaad158503038add329911867e499bd00509b"
     },
     {
       "path": "provenance/expansion_preservation_tests.txt",
@@ -203,8 +208,8 @@
     },
     {
       "path": "report.html",
-      "bytes": 1034649,
-      "sha256": "f6749f62f60a0122fd30964b9e8b81a6061f1cf199248a60f9c6de2e5b97b782"
+      "bytes": 647641,
+      "sha256": "2e3d20b7318a32630ec285dd2d4812690d748482317c6673a39b185c572761ab"
     },
     {
       "path": "report.md",
@@ -249,7 +254,7 @@
     {
       "path": "scripts/descriptive_figures.R",
       "bytes": 5922,
-      "sha256": "5f422ec6d5fa67fb8a8cad44291b4f087d7c4a64d0cda4ea8797ef45f933422f"
+      "sha256": "4bce5a80a7bc6854932b16eb20d73061426c28f99dbb644e5872a375a2e60e5b"
     },
     {
       "path": "scripts/finalize.py",

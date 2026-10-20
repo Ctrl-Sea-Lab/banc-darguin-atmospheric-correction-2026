@@ -1,0 +1,10 @@
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+null device 
+          1 
+R independently recalculated all 33 summary rows (15 field, 12 product, 6 difference); agreement within 1e-12.
+{"field_spectra": 15, "AOI_distribution_rows": 12, "paired_difference_rows": 6, "excluded_band_pairs": 0, "raw_stat_unchanged": true}
