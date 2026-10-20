@@ -3,8 +3,8 @@
   "files": [
     {
       "path": ".gitignore",
-      "bytes": 120,
-      "sha256": "3297d346d36b1a5dcd998b07e30e17f426c2993caec8388d1866378f413c942a"
+      "bytes": 149,
+      "sha256": "a5fea5b1938d24eaeb9bbda06ea81a6cd3983d9b6e5c86f7fee0cbec46012784"
     },
     {
       "path": "_quarto.yml",
@@ -18,8 +18,8 @@
     },
     {
       "path": "figures/srf-coverage.png",
-      "bytes": 74251,
-      "sha256": "cd49e3d1c6fa6dc29ef73071faf82502ec82422eb522b5635c2d245e8f262b7e"
+      "bytes": 73445,
+      "sha256": "9257b80942dab9bda2b04b5cb2d2a64962923e7ae7a6a556864f8b80c60fb8e3"
     },
     {
       "path": "outputs/.gitkeep",
@@ -27,9 +27,24 @@
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "path": "outputs/aoi_intake.json",
+      "bytes": 8012,
+      "sha256": "5b878f9ed757d2c654ba2e3352c806d2ba5d23d1c1fdbd6a600780fb87c15ebb"
+    },
+    {
       "path": "outputs/data_contract.json",
-      "bytes": 4591,
-      "sha256": "5bf738d62ebd4efa94ab68c9baeffeea652a906be6cf7b56d678a5cbde2b15d1"
+      "bytes": 7414,
+      "sha256": "afd1d52b42a7fe26b6e0698bd9ce74d4d9b879306e8220468b44b054771bbd51"
+    },
+    {
+      "path": "outputs/dependence_graph.json",
+      "bytes": 1890,
+      "sha256": "eeedfd36c9abe7903bf42e9f9b4d27554facd6eda34a63630b5d6ca2defc4442"
+    },
+    {
+      "path": "outputs/normalized_design.json",
+      "bytes": 741573,
+      "sha256": "596688c13cbf991dcba401e146dc42454eac820d1e2e6d22dd1dcfcf47da53dd"
     },
     {
       "path": "outputs/raster_headers.json",
@@ -57,14 +72,44 @@
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "path": "provenance/amendment_environment.txt",
+      "bytes": 275,
+      "sha256": "30eb81810b978f619ec024a030654faee5ae4522b72787aa33a6efdadc95886d"
+    },
+    {
+      "path": "provenance/amendment_preservation_tests.txt",
+      "bytes": 652,
+      "sha256": "0d2252ba4469a5aa4f01cdadb408d057276d14ea370c9f155fdcb0a7b9cca9ce"
+    },
+    {
+      "path": "provenance/amendment_render.txt",
+      "bytes": 644,
+      "sha256": "322362862f8244050e34d46f29b5aa16308985d3066c3a5902f22c3c6c8f04dc"
+    },
+    {
+      "path": "provenance/amendment_run.json",
+      "bytes": 3049,
+      "sha256": "2ff6197eeeb26f79f3fedd7b13315a0f4de05b10d535fb99ca88bf0b87715405"
+    },
+    {
+      "path": "provenance/amendment_sync_readiness.json",
+      "bytes": 286,
+      "sha256": "af7bd1a746f674a4a93b5f726967f3e6e7a632d89c7df98aaa036e6a79c6f3f6"
+    },
+    {
       "path": "provenance/environment.json",
       "bytes": 160,
       "sha256": "dd9ff2903f77d4a7a2ab6809979e717bea8ba82337eba9299a7fbce46ceb989b"
     },
     {
+      "path": "provenance/field_evidence.json",
+      "bytes": 1232,
+      "sha256": "1fd0825ca0fc1e159b6c067723343083c85b3db1ec4c05485511ec4d59b85dfb"
+    },
+    {
       "path": "provenance/official_sources.json",
       "bytes": 958,
-      "sha256": "e88e314e35b9440d73202c08d0799ca8ce6568374ed13cddf677d29ffe2a9e18"
+      "sha256": "3de937f68cc266040fe2fc331707a424ef56d4af3a3153dbb8e6b86fbfec4953"
     },
     {
       "path": "provenance/preservation_tests.txt",
@@ -79,7 +124,7 @@
     {
       "path": "provenance/run.json",
       "bytes": 23865,
-      "sha256": "57362ad7e92a77434d6bfca2fa25a9f157d90f585d9286b89748b2e262f01011"
+      "sha256": "34f9fe26829c14d390ebb4956edf8fc8b0f46cfde536509516ce5f9568f6e5f5"
     },
     {
       "path": "provenance/sync_readiness.json",
@@ -88,23 +133,23 @@
     },
     {
       "path": "provenance/validation.json",
-      "bytes": 434,
-      "sha256": "c63087ed1776b279a9798e392690507bc7e21f289bb3bb4003407727697d5f93"
+      "bytes": 776,
+      "sha256": "df68ccba08e27f2d7dfb03b5c7a17686337fbf3b7d8deeb366fad8c8d437499e"
     },
     {
       "path": "report.html",
-      "bytes": 2030199,
-      "sha256": "dc955b12caba99ac08da1c019ac536dd33df337342489aff22f119e6351512f8"
+      "bytes": 2042555,
+      "sha256": "f537384922ebe36962cd3fb6e7d0bdb7a125cdf1966c242dd268cb14b6111b62"
     },
     {
       "path": "report.md",
-      "bytes": 24394,
-      "sha256": "f6f85f13928ac883402459e51311398a1a319d37fc98bba92f839dca03d5f159"
+      "bytes": 34713,
+      "sha256": "13e25981ac95112fe34386418c5be6c80f844bc3929fdb0368c15843ca26645b"
     },
     {
       "path": "report.qmd",
-      "bytes": 24587,
-      "sha256": "7a904338d9a9d48fa8257940dd505b12fb49a2b4e120f5de371c6376866bdf67"
+      "bytes": 34906,
+      "sha256": "3e344f4872e7328731fa163475efc1ab212c941677bc30a764cfbf225014593d"
     },
     {
       "path": "scripts/.gitkeep",
@@ -112,19 +157,24 @@
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "path": "scripts/amend.py",
+      "bytes": 29481,
+      "sha256": "9b1fc5d632e3b18e985399f68df4c8d9615af7f7db2d8bb17f3d685c9c023299"
+    },
+    {
       "path": "scripts/audit.py",
-      "bytes": 23527,
-      "sha256": "a2785f3cd7c612f2f98c968d3a68faa890ac75863c87f316bc74e786a3aaa9d2"
+      "bytes": 24103,
+      "sha256": "c049b068592992b3a8978e1672b3ce4a5da9f25908be415a7af0e72e42780d59"
     },
     {
       "path": "scripts/build_report.py",
-      "bytes": 23500,
-      "sha256": "69c2819e13f8d2f8ecf7dca373a56544914539cb115451196d22a240b3dabb65"
+      "bytes": 33828,
+      "sha256": "2bf8242b9db248b6c42823cf7325bb8b3d301648eebe2af9b21f2789db3361d0"
     },
     {
       "path": "scripts/coverage_figure.R",
-      "bytes": 903,
-      "sha256": "cfd2b0751892e051d368b2f75e27ff6055eaa157fb115dd4dc3604b10f4a469d"
+      "bytes": 884,
+      "sha256": "4a1cdef0dbf0f45d5696efaea2592a8949367fc84aaec6ef5c0ab2a5ce528930"
     },
     {
       "path": "scripts/finalize.py",
@@ -133,8 +183,8 @@
     },
     {
       "path": "scripts/validate.py",
-      "bytes": 3165,
-      "sha256": "7f209685a704d6f624d16321221781dfc4950044f7bb27e9eb6f7dc6aed1c864"
+      "bytes": 7379,
+      "sha256": "441050313e0a5e6832738f4c44b87ee748094ca96b029b881e3dbf875967a087"
     },
     {
       "path": "tables/.gitkeep",
@@ -142,19 +192,39 @@
       "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
     },
     {
+      "path": "tables/aoi_B01_representation_checks.csv",
+      "bytes": 2518,
+      "sha256": "c3d617932e737dd19bd21257b116f95a17554922a495363fc45e556d6c8057cf"
+    },
+    {
+      "path": "tables/aoi_input_inventory.csv",
+      "bytes": 5818,
+      "sha256": "0d2c44818c3393be69e4c246c1a831ceff9adc832ee55f7805e662e636eaf05e"
+    },
+    {
+      "path": "tables/aoi_source_spotchecks.csv",
+      "bytes": 51786,
+      "sha256": "d013354d43c8ad9e17679857920b67d5083a50543ce2ca3f9cca4006fd4ed4d8"
+    },
+    {
+      "path": "tables/aoi_station_join.csv",
+      "bytes": 2200,
+      "sha256": "302fbe24dc2ff8b1b7aec8e313dbd5960d2244c1154627bd4cea5db43f9f05fd"
+    },
+    {
       "path": "tables/band_contract.csv",
-      "bytes": 10927,
-      "sha256": "0610fb05bbb834f8e6c6340dde138dc29d428b16cb13a3e78c5fc33f989bf704"
+      "bytes": 10769,
+      "sha256": "8c039531038b8a04e06a6cbd03a12d752adb4b7a5c1f7ea1efe50bf8e9e75a74"
     },
     {
       "path": "tables/conditional_spatial_diagnostics.csv",
-      "bytes": 7369,
-      "sha256": "5c590999830b7fea39df39b12ed39d3848d0ecefcdf187a5a74d283a0a86b2c3"
+      "bytes": 8089,
+      "sha256": "607a6dd70d5817bdf1473896562fb27bfd6773183badf984234391f83f4013e1"
     },
     {
       "path": "tables/proposed_matchups.csv",
-      "bytes": 344865,
-      "sha256": "00a41d16344022d7c4e4470ba1ab57071568de38291d4bc6b3e0bcd3953c59b7"
+      "bytes": 458715,
+      "sha256": "b70b4440a052acabd3ab8c8dd94bdf60dc895fb50204525cb5efc696327e5e83"
     },
     {
       "path": "tables/spectrum_disposition.csv",
@@ -163,8 +233,8 @@
     },
     {
       "path": "tables/srf_coverage.csv",
-      "bytes": 3569,
-      "sha256": "8745f206d083c65f2ae99b7ab40a2b3cfd45ee6c36c3a001675fe7f48b867aa7"
+      "bytes": 3439,
+      "sha256": "c7b3d1ae590eb7c50a2fc14f37aa3f9e106d12764b1274aaff3a033ceb487552"
     },
     {
       "path": "tables/srf_v5_sensitivity.csv",
@@ -173,13 +243,13 @@
     },
     {
       "path": "tables/station_crosswalk.csv",
-      "bytes": 12866,
-      "sha256": "cbcf8b66d28bd7ed940554707d30ebca76259a456452bb2e1a282fd7b48b405c"
+      "bytes": 18615,
+      "sha256": "201bb7768312b13512c5ac5a23bb8068b4763f06cbc6d761fc6745ed08af87c9"
     },
     {
       "path": "task.yml",
-      "bytes": 1521,
-      "sha256": "2c7cbe385d50d2d272650598ece163e96551c6b03e51bfe72cfcdfa38246c957"
+      "bytes": 1555,
+      "sha256": "0ff1030c2cc547e63c7b87bcea2bf6d1a6555775be5731c64420832bab4c77c6"
     }
   ]
 }

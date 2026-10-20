@@ -12,7 +12,7 @@ analysis:
   readiness: "blocked_for_scientific_extraction"
   language: ["Python", "R"]
   input_datasets: ["ASD", "GPS", "relevant SHP", "March27 operational L2A and ACOLITE", "supplied SRF v4; official v5 diagnostic"]
-  scripts: ["scripts/audit.py", "scripts/coverage_figure.R", "scripts/build_report.py", "scripts/validate.py"]
+  scripts: ["scripts/audit.py", "scripts/amend.py", "scripts/coverage_figure.R", "scripts/build_report.py", "scripts/validate.py"]
   report_source: "report.qmd"
   report_html: "report.html"
   data_contract: "outputs/data_contract.json"
@@ -24,7 +24,7 @@ environment:
   render_command: "./scripts/render-analysis.sh analysis/CTR-27_sen2cor-acolite-asd"
   validation_status: "see provenance/validation.json; technical consistency only"
 review:
-  status: "pending_independent_review"
+  status: "amended_pending_independent_reassessment"
   coordinator: "Charles Darwin"
   reviewer: "Karl Popper; native review stage requested"
 pi_approval:

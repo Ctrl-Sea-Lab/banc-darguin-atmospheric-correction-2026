@@ -1,0 +1,62 @@
+{
+  "version": "ctr28-amendment-v2",
+  "domain": {
+    "stations": [
+      "AC01",
+      "AC02",
+      "AC03",
+      "AC04",
+      "AC05",
+      "AC06",
+      "AC07",
+      "AC08"
+    ],
+    "bands": [
+      "B02",
+      "B03",
+      "B04"
+    ],
+    "support": "actual primary contributors only; excludes diagnostic 3x3 and coarse bands"
+  },
+  "status": "unresolved; no final G or components assigned",
+  "edges": [
+    {
+      "from_station": "AC01",
+      "to_station": "AC02",
+      "type": "shared_QA_cell",
+      "evidence": "SCL20m qualified source cell",
+      "domain": "auxiliary_QA",
+      "merge_if_admitted": false,
+      "actual_primary_support_confirmed": false
+    },
+    {
+      "from_station": "D06_A",
+      "to_station": "D06_B",
+      "type": "shared_candidate_native_10m_cell",
+      "evidence": "PI CRS + coordinate-derived SAFE cell",
+      "domain": "supplementary candidate; outside primary graph",
+      "merge_if_admitted": true,
+      "actual_primary_support_confirmed": false
+    },
+    {
+      "from_station": "D06_A",
+      "to_station": "D06_B",
+      "type": "shared_QA_cell",
+      "evidence": "SCL20m qualified source cell",
+      "domain": "auxiliary_QA",
+      "merge_if_admitted": false,
+      "actual_primary_support_confirmed": false
+    }
+  ],
+  "merge_rule": "union actual shared radiometric/field/repeated-unit edges across both corrections and B*, transitive closure then evidenced site/block merges; freeze before errors; never split after exclusions",
+  "QA_rule": "QA-only sharing is not radiometric merge; conservative QA grouping sensitivity separate",
+  "unresolved": [
+    "field overlap/accuracy",
+    "AC01/02 site conflict",
+    "ACOLITE upstream support envelope",
+    "empirical registration",
+    "station/site dependence"
+  ],
+  "components": null,
+  "sha256": "fc7115db48be3f85fa9cc6ce1ea006b04e82fa37cee7d5f48fd7887be0a41dc6"
+}

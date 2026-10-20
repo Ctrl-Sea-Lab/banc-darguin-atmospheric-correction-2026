@@ -1,0 +1,66 @@
+{
+  "started_utc": "2026-10-20T06:19:08.706520+00:00",
+  "ended_utc": "2026-10-20T06:19:10.630731+00:00",
+  "base_commit": "1cd34b042eca41f26da81e41fb838b7344357dca",
+  "input_inventory": "tables/aoi_input_inventory.csv",
+  "raw_stat_unchanged": true,
+  "raw_file_count": 894,
+  "raw_stat_snapshot_sha256": "348fa5b6d0288579ee6e7f0fa944ad2a7a5f3ba795fa46d0f97f19f9e94265ec",
+  "read_limits": "two March27 CSVs; all their tabular identities/centres; six predetermined AOI cells x available bands = 138 scalar raster reads, plus six B01 stored-20m follow-up reads, plus audit.py 405 diagnostic window values; driver blocks may be larger",
+  "scalar_raster_reads": 144,
+  "used_new_inputs": [
+    {
+      "path": "data/raw/Atm_Compare_AOI/ACOLITE/2026-03-27.csv",
+      "bytes": 612770,
+      "mtime_ns": 1775590458000000000,
+      "used": true,
+      "sha256": "a25dbd5e47694c6a83765a6c5c9b8b542a85faf623e294aff0639c944a075743",
+      "scope": "whole-file SHA256 and table inspection"
+    },
+    {
+      "path": "data/raw/Atm_Compare_AOI/Sen2Cor/2026-03-27.csv",
+      "bytes": 601456,
+      "mtime_ns": 1775590496000000000,
+      "used": true,
+      "sha256": "5f682490c6ee009c54883ec58b1893773509e0f33a01277f7fda20dd9f60f7a0",
+      "scope": "whole-file SHA256 and table inspection"
+    }
+  ],
+  "commands": [
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R60m/T28QCH_20260327T113319_B09_60m.jp2"
+    ],
+    [
+      "gdalinfo",
+      "-json",
+      "-noct",
+      "-nogcp",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_B01_20m.jp2"
+    ],
+    [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ]
+  ],
+  "metrics_computed": false,
+  "dependencies_changed": false,
+  "code_sha256": {
+    "scripts/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "scripts/amend.py": "9b1fc5d632e3b18e985399f68df4c8d9615af7f7db2d8bb17f3d685c9c023299",
+    "scripts/audit.py": "c049b068592992b3a8978e1672b3ce4a5da9f25908be415a7af0e72e42780d59",
+    "scripts/build_report.py": "d57d6f4214b5f10a29bcacaeba2457cdcffb5f1de387192ae2571e3d887e2ab9",
+    "scripts/coverage_figure.R": "4a1cdef0dbf0f45d5696efaea2592a8949367fc84aaec6ef5c0ab2a5ce528930",
+    "scripts/finalize.py": "c77d4aa402da0c762b363e4013fa8cd48d3ef261c92fb36a9307a5f98a024092",
+    "scripts/validate.py": "2d09eb50e96d49cb64e268486d7710503bfbd78d6e03830f359a9a16208068b8"
+  },
+  "environment_lock_sha256": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  },
+  "review": "independent reassessment and PI approval pending"
+}
