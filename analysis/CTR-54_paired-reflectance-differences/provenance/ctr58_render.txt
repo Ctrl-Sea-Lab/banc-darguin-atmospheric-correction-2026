@@ -1,0 +1,31 @@
+pandoc 
+  to: html
+  output-file: report.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: false
+  toc-depth: 3
+  number-sections: false
+  css:
+    - report.css
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: cosmo
+  title: Paired Sentinel-2 surface-reflectance differences at Banc d’Arguin
+  subtitle: CTR-54 · standalone investigation · scientific review and PI approval pending
+  author: Rachel Carson, Roger Tomlinson and Thomas Bayes · Ctrl+Sea
+  date: '2026-10-20'
+  bibliography:
+    - library.bib
+  
+Output created: report.html
+
+Rendered /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/.task-worktrees/CTR-58/analysis/CTR-54_paired-reflectance-differences/report.html

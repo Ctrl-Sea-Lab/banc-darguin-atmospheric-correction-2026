@@ -1,0 +1,27 @@
+........PI contribution guard: explicit review is required
+......?? PI-notes.txt
+....................
+----------------------------------------------------------------------
+Ran 34 tests in 92.327s
+
+OK
+GitHub PI authorization: verified github_pi_comment 22 by SigOiry
+{
+  "version": 1,
+  "base_commit": "6df6dc4b78b930d0f40cfa92766c49bb445f9dbd",
+  "head_commit": "2736a428b1e06bc33400d85aaee42486f717b3b0",
+  "protected_changes": [
+    {
+      "path": "index.qmd",
+      "decision_types": [
+        "manuscript_integration"
+      ]
+    }
+  ],
+  "required_paths": [
+    "index.qmd"
+  ],
+  "required_decision_types": [
+    "manuscript_integration"
+  ]
+}

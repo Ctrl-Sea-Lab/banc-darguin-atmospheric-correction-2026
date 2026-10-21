@@ -1,0 +1,149 @@
+---
+title: "Paired Sentinel-2 surface-reflectance differences at Banc d’Arguin"
+subtitle: "CTR-54 · standalone investigation · scientific review and PI approval pending"
+author: "Rachel Carson, Roger Tomlinson and Thomas Bayes · Ctrl+Sea"
+date: "2026-10-20"
+bibliography: library.bib
+format:
+  html:
+    embed-resources: true
+    toc: false
+    number-sections: false
+    css: report.css
+---
+
+## Take-home message
+
+ACOLITE surface reflectance was lower than Sen2Cor on most of the 22 matched Sentinel-2 acquisitions. Differences persisted when the same pixels were compared on every date. Their magnitude and spatial variability changed among acquisitions, but sparse temporal sampling, influential observations and unequal quality information prevent a reliable trend or seasonal interpretation. This comparison measures disagreement between processors; it cannot identify which correction is more accurate.
+
+## Meaningful results
+
+The median across date-level spatial medians of ΔR = ACOLITE − Sen2Cor was −0.00962, −0.00924, −0.00751 and −0.00935 for B2, B3, B4 and B8, respectively, in dimensionless reflectance. Spatial medians were negative on 19 of 22 dates in each visible band and 21 of 22 dates in B8. Restricting the analysis to a fixed complete-date core changed fitted median curves by at most 0.00103 and fitted SD curves by at most 0.000786. Acquisition-level spatial SD ranged from 0.00434 to 0.02911 across bands and dates; this is spatial heterogeneity of disagreement, not uncertainty in a median.
+
+## Issues and limitations
+
+The study covers 6 January 2025–27 March 2026, with gaps of 2–70 days, over the supplied crop rather than the full satellite tile. Both March 2026 ACOLITE deliveries lack quality flags. Excluding these acquisitions changed fitted SD curves by as much as 0.00579 over shared temporal support. Changing date support and quality availability cannot be separated by that sensitivity. There is no independent field-reflectance reference, thematic validation of the masks, or evidence sufficient to attribute differences to ecological change.
+
+## Implications and next steps
+
+The outputs establish the sign and magnitude of processor disagreement on the observed footprint and identify acquisitions that warrant scrutiny. Independent scientific review must assess the assembled evidence before PI scientific approval is sought. Further accuracy or mechanistic claims would require independently validated reference observations and a design separating acquisition conditions, sensor effects and ecological variation.
+
+## Research question and study area
+
+How do paired ACOLITE and Sen2Cor surface reflectances differ spatially and through time for the blue (B2), green (B3), red (B4) and broad near-infrared (B8) bands? The objectives were to map each pixel’s temporal median and sample standard deviation (SD) of ΔR, summarize each acquisition spatially, and describe temporal variation with separate band-specific generalized additive models (GAMs). B8A was excluded. No directional mechanistic hypothesis or accuracy ranking was tested.
+
+The supplied Banc d’Arguin T28QCH crop contains 7,428,162 cells at 10 m resolution, corresponding to a rectangular area of 742.8162 km². It includes valid land, intertidal and water pixels, without an additional marine-only mask. Earlier clipping recorded in ACOLITE metadata constrains the available footprint. The comparison grid is EPSG:32628, with 3763 columns and 1974 rows; bounds are E = 334050–371680 m and N = 2190240–2209980 m.
+
+## Methods
+
+### Acquisition pairing and reflectance preparation
+
+The source inventory comprised 24 ACOLITE date directories, 46 Sen2Cor ZIP products and two loose SAFE products. Products were matched by sensor, datatake, orbit and tile, then checked against exact tile sensing times. Product datatake start and tile sensing time were treated as distinct metadata fields. Duplicate versions were ordered by processing baseline and generation, retaining one product per acquisition key. Twenty-two acquisitions were paired: three Sentinel-2A, eleven Sentinel-2B and eight Sentinel-2C. ACOLITE dates 15 February and 13 October 2025 lacked corresponding T28QCH Sen2Cor products and were excluded; adjacent-tile products were not substituted. The inventory records all exclusions.
+
+ACOLITE bands were selected using sensor-specific metadata for the `rhos` variables. The supplied Float32 values are dimensionless surface reflectance, with scale 1 and offset 0; they were not converted from remote-sensing reflectance (`Rrs`) or divided by π. Actual wavelength assignments remain in `tables/band_mapping.csv`. Sen2Cor reflectance was decoded as `(DN + BOA_ADD_OFFSET) / BOA_QUANTIFICATION_VALUE` using each product’s XML; the selected products had offset −1000 and quantification 10000. Product documentation supports this decoding convention [@copernicusProducts].
+
+Native reflectance grids shared the same coordinate system and pixel lattice. Sen2Cor bands were cropped at integer pixel offsets without reflectance interpolation. Its 20 m scene-classification layer (SCL) was transferred to the 10 m grid by nearest neighbour; this does not create finer quality information.
+
+### Joint validity and coverage
+
+For each date and band, ΔR was calculated only where both products were valid. Exclusions included Sen2Cor DN = 0 or 65535, nonfinite ACOLITE values, and the exact encoded netCDF Float32 fill sentinel, approximately 9.96921 × 10³⁶ [@unidataFill]. This finite sentinel occurred despite GeoTIFF metadata declaring NoData as NaN; all 88 source band rasters were audited. Finite negative reflectance was retained, and no arbitrary upper reflectance threshold was imposed.
+
+The primary mask retained SCL classes 4, 5 and 6 (vegetation, non-vegetated and water), rejecting all other classes [@copernicusProcessing]. Available ACOLITE cirrus, out-of-scene and DEM-shadow flags were also rejected, using the recorded bit exponents. Non-water and negative-reflectance flags were retained. The current official flag implementation provides context [@acoliteFlags], but the exact processor commit that generated these deliveries could not be recovered from their timestamp-style version strings. No additional cloud buffering or morphology was introduced. The two March 2026 acquisitions used SCL and finite paired values because ACOLITE flag layers were absent.
+
+Five alternative domains tested sensitivity: inclusion of SCL class 7; exclusion of ACOLITE high-TOA flags; pixels valid on all 22 primary dates; pixels valid on at least 18 dates; and the common finite paired footprint across all bands and dates before quality filtering. Only the complete-date core guarantees identical retained pixels on every date within a band. The other domains can retain date-specific missingness. Domains overlap and were not treated as independent samples.
+
+### Spatial and temporal summaries
+
+At each pixel, the temporal median used all retained paired observations and temporal sample SD used denominator n−1, requiring n ≥ 2. A count raster records the available observations. Separately, each acquisition’s spatial median and sample SD were calculated across retained pixels within each band and domain. Pixel counts describe coverage and do not represent independent temporal replicates or precision weights. The median of pixel-level temporal medians and the median across date-level spatial medians are different summaries and were kept distinct.
+
+Scientific summaries used full-resolution data. Differences were stored as Float32 rasters after Float64 computation; temporal processing used 64-row blocks and disk-backed local SSD scratch. Float rasters use NoData −9999; count/mask rasters use 255, preserving count zero as meaningful. Display sampling and color saturation affect figures only.
+
+### Descriptive temporal models and uncertainty
+
+Separate Gaussian GAMs described the spatial median and log spatial SD in each band:
+
+\[
+M_{ib}=\alpha_{b,M}+f_{b,M}(t_i)+\epsilon_{ib,M},\qquad
+\log S_{ib}=\alpha_{b,S}+f_{b,S}(t_i)+\epsilon_{ib,S}.
+\]
+
+Here *t* is elapsed days from 6 January 2025. Each model used 22 equally weighted acquisition summaries, a penalized cubic regression spline with basis dimension k = 5, and restricted maximum likelihood smoothing (`mgcv::gam`, `bs="cr"`) [@mgcvGam]. All primary observations were retained. All SDs were positive, so logarithms required no pseudocount. Exponentiating a fitted log-SD yields the conditional median of spatial SD under the working lognormal model, rather than its arithmetic mean. Curves were evaluated at 401 times within the observed bounds, without extrapolation.
+
+Basis sensitivity doubled k to 10. Diagnostics included effective degrees of freedom (EDF), a 1000-permutation basis check (seed 56054), residual distributions, spread versus fitted values, adjacent-acquisition residual correlation and actual-time-lag semivariograms. Influence was assessed through 176 leave-one-date-out refits. Models were also refitted across the five alternative domains and after excluding the two acquisitions lacking ACOLITE flags; omission comparisons used overlapping date support.
+
+Approximate pointwise intervals used coefficient covariance including smoothing-parameter uncertainty (`unconditional=TRUE`) [@mgcvPredict], with fitted value ±1.96 SE on the model scale and exponentiation for SD. Endpoint differences and ratios used the full covariance of endpoint design-row contrasts. Residual departures and temporal dependence mean these intervals are illustrative working-model summaries, not calibrated evidence for temporal significance, simultaneous bands, prediction intervals or spatial-sampling uncertainty.
+
+## Results
+
+### Predominantly negative disagreement across the footprint
+
+All four map distributions had negative medians of pixel temporal medians (Table 1). Temporal SD maps describe variability at a fixed location through available dates, whereas date-level spatial SD describes heterogeneity among locations within an acquisition. These quantities need not have the same magnitude or ordering among bands.
+
+{{< include outputs/ctr57-summary-table.md >}}
+
+The same 7,309,566 cells in each band had defined temporal medians and SDs, covering 98.4% of the rectangle. Observed temporal counts ranged from 4 to 22 among those cells; 118,596 cells had no retained observations. A defined map value therefore does not imply complete temporal coverage. The per-band count rasters and `tables/temporal_coverage.csv` retain this missingness information.
+
+::: {.map-wide}
+![Temporal median (top; n ≥ 1) and sample SD (bottom; n ≥ 2) of paired surface-reflectance differences, ΔR = ACOLITE − Sen2Cor, for B2/B3/B4/B8 across 22 acquisitions. Positive ΔR means higher ACOLITE reflectance. Quantities are dimensionless; the full supplied EPSG:32628 extent and spatial aspect ratio are preserved. Median maps share zero-centered limits ±0.04644; low-end saturation affects 0.89%, 1.04%, 1.54% and 4.55% of valid pixels in band order, with no high-end saturation. All SD maps share blue = 0, white = 0.01 and red = 0.02. White is a display midpoint, not a zero or significance threshold. SD >0.02 saturates red, marked by the upper legend triangle, affecting 4.47%, 11.85%, 15.19% and 14.23% of valid pixels. Gray denotes NoData, distinct from zero or the white midpoint. Drawing uses a regular sample including the outer edges; numerical rasters remain unchanged. Each valid map cell has 4–22 observations; both March 2026 dates lack ACOLITE flags.](figures/generated/paired_reflectance_maps_v2_preview.png){#fig-maps width=100% fig-alt="Eight maps: temporal median and SD of ACOLITE minus Sen2Cor reflectance for B2, B3, B4 and B8."}
+
+[Full-resolution maps: PNG](figures/generated/paired_reflectance_maps_v2.png) · [PDF](figures/generated/paired_reflectance_maps_v2.pdf)
+:::
+
+### Acquisition variability exceeds the fitted temporal change
+
+Date-level spatial medians ranged from −0.04078 to 0.00645 in B2, −0.03608 to 0.00441 in B3, −0.03431 to 0.00247 in B4, and −0.03648 to 0.00009 in B8. All 22 dates yielded defined summaries in every band; primary valid coverage varied approximately 72–98% of the fixed grid.
+
+The median smooths were nearly linear (EDF approximately 1), with fitted endpoint increases of 0.00564–0.00745. Their approximate intervals included zero in every band (Table 2). This does not establish absence of change. SD smooths had EDF 1.40–2.72; broad elevations in the visible-band curves during mid-2025 do not establish recurrent seasonality.
+
+![Date-level disagreement between atmospheric corrections. Points show all 22 spatial medians (top) and spatial sample SDs (bottom) per band within the primary valid domain; lines show separate descriptive REML GAMs. ΔR = ACOLITE − Sen2Cor, dimensionless reflectance. B2/B3/B4/B8 are blue/green/red/broad near-infrared bands. These summaries aggregate pixels within each date, rather than dates within each pixel as in the maps. Spatial SD measures heterogeneity, not median uncertainty. SD curves are exponentiated log-scale fits. Curves span observed dates only; gaps are 2–70 days, coverage varies approximately 72–98%, and the two March 2026 acquisitions lack ACOLITE flags.](figures/generated/ctr56_temporal_gam.png){#fig-temporal width=100% fig-alt="Two time-series panels showing all 22 date-level spatial medians and SDs with separate descriptive curves for four bands."}
+
+[Temporal figure PDF](figures/generated/ctr56_temporal_gam.pdf). Approximate intervals and detailed residual figures are retained with the statistical evidence; the requested main figure shows points and curves only.
+
+{{< include outputs/ctr57-contrast-table.md >}}
+
+### Coverage similarity does not remove quality and acquisition sensitivity
+
+Complete-date cores retained 3,541,100–3,541,623 pixels per band, approximately 47.7% of the rectangle. Primary-to-core correlations were 0.9936–0.9970 for observed medians and 0.9964–0.9985 for spatial SD. Maximum fitted curve changes were 0.00103 and 0.000786, respectively. Similarity supports the interpretation that changing observed pixels alone does not explain the temporal pattern. It does not establish that coverage selection is ignorable: the consistently clear core is a conditional subset.
+
+Mask choice also mattered. Excluding high-TOA flags reduced date-level spatial SD by median amounts of 0.00272, 0.00310, 0.00406 and 0.00493 in band order; the largest SD curve change was 0.00736 in B8. Bright terrestrial pixels can trigger these flags, so the sensitivity changes both scene composition and quality selection. It is not evidence that either masking choice is more accurate.
+
+Omitting 22 March 2025 produced the greatest median-curve influence in each band; omitting 7 March 2026 produced the greatest SD influence. Excluding both March 2026 acquisitions changed B3’s median curve by up to 0.00602 and SD curves by 0.00490–0.00579 on shared support. The primary figure retains these observations and their limitations.
+
+Median-model residuals were left-tailed. Log-SD residual correlations between adjacent acquisitions ranged from −0.34 to −0.45; these are acquisition-lag diagnostics, not daily autocorrelation. Doubling the basis changed SD curves by up to 0.00184. These findings limit confidence in precise curvature and working-model intervals despite convergence of every primary fit.
+
+## Scientific interpretation and limitations
+
+The predominantly negative sign indicates lower ACOLITE reflectance relative to Sen2Cor for these paired observations. Agreement on sign across bands and similarity of complete-core curves make a purely changing-footprint explanation insufficient. Neither result identifies a correct processor or an ecological mechanism. The primary domain combines land, intertidal and water pixels, so aggregate differences cannot be generalized to any one habitat without further analysis.
+
+Sensor identity, date, atmospheric conditions and quality availability are unevenly distributed. Residual clouds, adjacency, glint, tidal state, substrate visibility and mixed pixels are possible contributors rather than tested explanations. The study neither isolates their effects nor demonstrates that one dominates. The absence of independent reference reflectance prevents accuracy ranking even where corrections agree.
+
+The short, irregular series and influential acquisitions limit temporal inference. A fixed complete-date core can favour persistently observable locations; mask sensitivities alter population composition as well as contamination. White on the SD maps is only a chosen midpoint, and red saturation combines different values above 0.02 visually. All values and observation counts remain available in the scientific rasters and tables. Independent review and an exact-revision PI decision are still required.
+
+## Supporting reproducibility information
+
+This report assembles the authorized geospatial and statistical evidence without rerunning atmospheric correction or changing scientific products. Exact source revisions are geospatial `1bbb23b3b94e775a60aa921f8c9c4f86f51926cb`, map presentation `8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04`, and statistical `f1ae24ad409ae31f82cad4fd1767ed9861145fbf`. Source handoffs, table semantics, metadata and exclusions remain in `HANDOFF.md`, `FIGURE_REVISION.md`, `CTR56_HANDOFF.md`, `METHODS.md` and `TABLE_CONTRACT.md`. Historical display instructions in earlier methods are superseded here by the map-v2 caption and its audited fixed SD limits.
+
+The source-data manifest contains 142 physical files. Its SHA-256 is `e0b207ea8d92ea0058b1db9d9a970fee8041f5330541d0b607f4898758b30a31`; the date-summary table hash is `342f79e8f154dde2780bd6a6df974dfe3df097cfca9dd0246419f3bb81df202a`. Per-file evidence is in `provenance/input_hashes.csv`, `provenance/output_hashes.csv`, `provenance/figure_v2_files.csv` and `provenance/ctr56_output_hashes.csv`. The report’s assembly checks, numerical claim ledger and exact consumed-file hashes are in `provenance/ctr57_assembly.json` and `tables/ctr57_claim_ledger.csv`.
+
+Upstream author checks comprise direct source-pixel decoding, independent Python/base-R temporal calculations, all 113 raster metadata checks, selected full-resolution date-summary recomputations, saved-model prediction checks, transformation/contrast checks and deterministic numerical reruns. They are recorded evidence reused here, not computations rerun by the writer and not independent scientific review. This writing task checks the source/output hashes and recomputes reported tabular summaries.
+
+The existing repository environment uses Python 3.12.3, R 4.3.3, mgcv 1.9-1 and Quarto 1.10.19; full upstream sessions and lockfile hashes remain in provenance. No dependencies were changed. Geospatial reproduction uses `scripts/run.sh`; statistics use `scripts/ctr56_run.py` with the canonical project environment. Neither script is needed merely to read or render this report. Report assembly is:
+
+```bash
+python3 analysis/CTR-54_paired-reflectance-differences/scripts/ctr57_assemble.py
+RENV_PATHS_LIBRARY=/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/renv/library \
+  ./scripts/render-analysis.sh analysis/CTR-54_paired-reflectance-differences
+```
+
+The investigation-specific configuration renders HTML only. Supporting diagnostics and predictions remain beside the report. A portable review package retains editable text, bibliography, both full-resolution figures, supporting tables, code and provenance, while raw datasets and large scientific rasters remain in their established project storage.
+
+## Internal review and PI approval status
+
+Author computational checks are recorded upstream; this writing and assembly check does not independently approve the science. Alan’s execution, actual-display and exact-package verification is CTR-58; Karl’s independent scientific review is CTR-59. Both remain pending for this assembled candidate. PI scientific approval is pending, with no authenticated decision bound to this report revision. Manuscript integration, merge and publication are separate activities and remain unauthorized.
+
+## Verified methodological sources
+
+Only the primary documentation cited for product decoding, quality interpretation, encoded fill values and model implementation is included below. This targeted documentation check is not a literature review of atmospheric-correction performance. Verification scope and mutable-source limitations are recorded in `literature/references_index.csv`; no research-paper findings are inferred from abstracts or titles.
+
+::: {#refs}
+:::

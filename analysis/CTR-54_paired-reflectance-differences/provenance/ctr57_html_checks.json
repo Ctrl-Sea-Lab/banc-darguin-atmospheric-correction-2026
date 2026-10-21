@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "figures_embedded": 2,
+  "figures_have_alt_text": true,
+  "resolved_bibliography_entries": 6,
+  "local_full_resolution_links_exist": true,
+  "desktop_map_widths": {
+    "1440": 1376,
+    "1920": 1600
+  },
+  "prior_map_width": 798.984375,
+  "mobile_390_no_page_overflow": true,
+  "inspection": "Writer inspected final desktop screenshot; independent review pending"
+}

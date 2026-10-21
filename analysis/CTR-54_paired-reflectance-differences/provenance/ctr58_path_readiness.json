@@ -1,0 +1,19 @@
+{
+  "affected": false,
+  "agent": "alan-turing",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-54_paired-reflectance-differences/README.md",
+    "analysis/CTR-54_paired-reflectance-differences/task.yml",
+    "analysis/CTR-54_paired-reflectance-differences/report.html",
+    "analysis/CTR-54_paired-reflectance-differences/scripts/ctr58_validate.py",
+    "analysis/CTR-54_paired-reflectance-differences/scripts/ctr58_display.py",
+    "analysis/CTR-54_paired-reflectance-differences/provenance",
+    "analysis/CTR-54_paired-reflectance-differences/outputs",
+    "analysis/CTR-54_paired-reflectance-differences/CTR58_HANDOFF.md"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-58",
+  "version": 1
+}
