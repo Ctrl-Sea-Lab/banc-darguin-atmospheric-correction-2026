@@ -1,0 +1,27 @@
+pandoc 
+  to: html
+  output-file: report.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 3
+  number-sections: true
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: cosmo
+  title: Paired Sentinel-2 reflectance differences
+  subtitle: CTR-54 geospatial analysis · CTR-55 delivery · draft for review
+  author: Roger Tomlinson · Ctrl+Sea
+  date: '2026-10-20'
+  
+Output created: report.html
+
+Rendered /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/.task-worktrees/CTR-55/analysis/CTR-54_paired-reflectance-differences/report.html

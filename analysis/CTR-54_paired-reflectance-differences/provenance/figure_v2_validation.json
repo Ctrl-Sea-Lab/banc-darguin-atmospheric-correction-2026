@@ -1,0 +1,34 @@
+{
+  "result": "pass",
+  "immutable_completed_products_checked": [
+    "outputs/temporal/B2_median.tif",
+    "outputs/temporal/B3_median.tif",
+    "outputs/temporal/B4_median.tif",
+    "outputs/temporal/B8_median.tif",
+    "outputs/temporal/B2_sd.tif",
+    "outputs/temporal/B3_sd.tif",
+    "outputs/temporal/B4_sd.tif",
+    "outputs/temporal/B8_sd.tif",
+    "tables/date_band_summary.csv",
+    "provenance/input_hashes.csv",
+    "provenance/validation.json",
+    "provenance/processing.json",
+    "figures/generated/paired_reflectance_maps.png",
+    "figures/generated/paired_reflectance_maps.pdf"
+  ],
+  "rasters_metadata_checked": 8,
+  "color_anchors_checked": 3,
+  "panels_checked": 8,
+  "panel_width_inches": 4.42,
+  "panel_height_inches": 2.31865001328727,
+  "geographic_aspect_ratio_preserved": true,
+  "full_extent_preserved": true,
+  "PNG_dimensions": [
+    8000,
+    2440
+  ],
+  "scientific_processing_repeated": false,
+  "independent_scientific_review": "pending CTR-59",
+  "PI_scientific_approval": "pending",
+  "report_display_verification": "assigned to Alan on CTR-58 after Rachel integration on CTR-57"
+}

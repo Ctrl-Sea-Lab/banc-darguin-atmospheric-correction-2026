@@ -1,0 +1,72 @@
+schema_version: 1
+project:
+  id: "5fc298b7-b03d-4a03-b14f-25b3e66ccf85"
+  name: "Atmopheric correction of the Banc D'arguin 2026"
+  slug: "banc-darguin-atmospheric-correction-2026"
+  objective: >-
+    Future comparison of atmospheric correction approaches for satellite
+    products in Banc d'Arguin, Mauritania.
+  phase: "infrastructure_initialized"
+
+repository:
+  url: "https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026"
+  visibility: "private"
+  default_branch: "main"
+  generated_initial_commit: "0085c9b0ba9f661ded5c608b7a5fa70b0b522d00"
+  generated_initial_tree: "105a874230b3d484500979852a5c01fa17f6eb4f"
+  initialization_branch: "ctr-22-project-initialization"
+
+template:
+  repository: "https://github.com/Ctrl-Sea-Lab/Research-Template"
+  approved_branch: "main"
+  approved_commit: "12385523028c05188dd76d265a80eeb70f298e66"
+  approved_tree: "105a874230b3d484500979852a5c01fa17f6eb4f"
+  approved_pr_head: "cf21a82c3d8a724e3bd0e9ac4ceddced531ffe65"
+  approval_interaction: "853229f8-3933-44be-852c-60b3a7e6ffd5"
+  independent_sync_review_task: "CTR-19"
+  independent_sync_review_result: "pass_no_findings"
+
+paths:
+  project: "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/"
+  raw: "/mnt/PaperClip_Projects/data/raw/banc-darguin-atmospheric-correction-2026/"
+  processed: "/mnt/PaperClip_Projects/data/processed/banc-darguin-atmospheric-correction-2026/"
+
+data_inventory:
+  verified_at_utc: "2026-10-19T20:44:00Z"
+  supplied_datasets: 0
+  authorized_datasets: 0
+  status: "empty"
+
+scientific_scope:
+  hypotheses: "pending_first_research_question"
+  analysis_methods: "pending_first_research_question"
+  scientific_processing_authorized: false
+  manuscript_integration_authorized: false
+  publication_authorized: false
+
+environments:
+  python_manager: "uv"
+  python_lock: "uv.lock"
+  python_environment: ".venv"
+  r_manager: "renv"
+  r_lock: "renv.lock"
+  r_library: "renv/library"
+  toolchain: "config/toolchain.yml"
+
+raw_data_protection:
+  mechanism: "project_scoped_posix_mode"
+  owner: "paperclip-worker"
+  group: "research"
+  locked_directory_mode: "2550"
+  upload_window_directory_mode: "2570"
+  current_state: "locked_empty"
+  limitation: >-
+    This is accidental-write protection, not immutability; the owner or NAS
+    administrator can change modes, and uploaded files must also have their
+    write bits removed by their owner or an administrator.
+
+pi_workspace:
+  implementation: "approved_and_independently_tested"
+  state_file: "pre-build/.pi-sync/state.json"
+  current_state: "requires_pre_task_sync"
+  readiness: "initialized_but_protected_work_requires_ada_pre_task_sync"

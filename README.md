@@ -1,71 +1,86 @@
-# Research-Template
+# Atmopheric correction of the Banc D'arguin 2026
 
-Reproducible marine ecology and remote sensing research template using R,
-Python, and Quarto.
+Reproducible project infrastructure for a future comparison of atmospheric
+correction approaches for satellite products in Banc d’Arguin, Mauritania.
+This repository contains infrastructure only: no scientific dataset,
+hypothesis, analysis method, result, or publication decision has been supplied
+or authorized yet.
 
-Human PI edits are preserved through the workflow in
-[`PI_CONTRIBUTIONS.md`](PI_CONTRIBUTIONS.md). Automated figures go to
-`figures/generated/`; manually edited graphics and their editable sources go to
-`figures/edited/`.
+## Project resources
 
-Team-wide protected work uses the machine-readable policy in
-`.pi-preservation/sync-policy.json` and task-scoped receipts from
-`scripts/pi-workspace pre-task`. Proposed Paperclip role amendments are listed
-in [`PI_SYNC_AGENT_AMENDMENTS.md`](PI_SYNC_AGENT_AMENDMENTS.md) for PI review;
-they are not applied automatically.
+- Private repository: <https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026>
+- Research-worker checkout: `/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/`
+- Authoritative raw-data directory: `/mnt/PaperClip_Projects/data/raw/banc-darguin-atmospheric-correction-2026/`
+- Processed-data directory: `/mnt/PaperClip_Projects/data/processed/banc-darguin-atmospheric-correction-2026/`
+- Machine-readable project metadata: [`config/project.yml`](config/project.yml)
 
-The PI-facing manuscript workspace is `pre-build/`. Ada imports PI edits before
-team work and refreshes the workspace after accepted revisions:
+The repository was generated from the approved `main` revision of
+`Ctrl-Sea-Lab/Research-Template`. Exact source and generated revision evidence
+is recorded in `config/project.yml`. Development branches of the template were
+not incorporated.
 
-```bash
-./scripts/pi-workspace status
-./scripts/pi-workspace import
-./scripts/pi-workspace refresh
-./scripts/pi-workspace preview
-```
+## Data inventory and manual upload
 
-Synchronization uses Git context, SHA-256 hashes, and a three-way baseline. It
-stops without changing managed files when text or binary changes cannot be
-resolved safely. See `PI_CONTRIBUTIONS.md` for exit codes and conflict handling.
+The initial inventory is empty: zero supplied datasets and zero authorized
+datasets. Do not download, move, rename, transform, or otherwise alter
+scientific data until a dataset and task are explicitly authorized.
 
-## Managed project environments
+The raw-data directory is locked by default with POSIX mode `2550`, owned by
+`paperclip-worker` and grouped to `research`. This prevents the research worker
+and the research group from creating, deleting, or renaming raw files during
+normal operation. The project repository also ignores raw and processed data,
+so datasets cannot be committed accidentally.
 
-The repository is the isolation boundary:
+For a PI manual upload, an authorized project operator must:
 
-- Python packages are declared in `pyproject.toml`, resolved in `uv.lock`, and
-  installed into `.venv/` by the pinned `uv` release.
-- R packages are resolved in `renv.lock` and installed into the project-local
-  `renv/library/`.
-- Quarto commands run through `scripts/project-env.sh`, which binds Python,
-  reticulate, renv, and caches to this repository for one child process only.
+1. Confirm that `/mnt/PaperClip_Projects` is the expected NFS mount and that the
+   uploader is an authorized member of the `research` group.
+2. Open a bounded upload window by changing only the project raw directory to
+   mode `2570`. Existing raw files must remain read-only.
+3. Have the PI copy files directly into the raw-data directory; do not route
+   them through the Git checkout.
+4. Record filenames, byte sizes, checksums, source, acquisition time, uploader,
+   units, format, and any CRS in the authorized investigation provenance.
+5. Remove write permission from uploaded files and subdirectories, then return
+   the project raw directory to mode `2550` and verify that
+   `paperclip-worker` cannot write to it.
 
-Host prerequisites are recorded in `config/toolchain.yml`. Installing or
-changing those tools is not performed by the project bootstrap and requires
-separate approval.
+This is an accidental-write safeguard, not an immutable archive. The directory
+owner or a NAS administrator can change the mode, and protection of files
+uploaded under a different owner requires that uploader or an administrator to
+remove their write bits. No raw file is present yet, so no dataset checksum has
+been recorded.
 
-After the prerequisites have been provisioned:
+## Managed computing environments
+
+Host prerequisites and exact versions are declared in
+[`config/toolchain.yml`](config/toolchain.yml). Python dependencies are declared
+in `pyproject.toml`, locked in `uv.lock`, and restored into repository-local
+`.venv/`. R dependencies are locked in `renv.lock` and restored into the
+project-local `renv/library/`. Quarto commands run through
+`scripts/project-env.sh`, which binds both environments for one child process.
+
+From the repository root:
 
 ```bash
 ./scripts/bootstrap-env.sh
 ./scripts/check-env.sh
 ```
 
-Add a Python dependency with `uv`:
+Do not install or modify system-wide software as part of project work.
 
-```bash
-./scripts/project-env.sh uv add <package-spec>
-./scripts/check-env.sh
+## New investigations
+
+Each authorized scientific question receives a unique directory copied from
+`analysis/_template/`:
+
+```text
+analysis/<TASK-ID>_<concise-name>/
 ```
 
-Add an R dependency from the approved CRAN registry:
-
-```bash
-./scripts/project-env.sh Rscript scripts/manage-r-dependencies.R add <package-spec>
-./scripts/check-env.sh
-```
-
-Create an investigation by copying `analysis/_template/`, then render only that
-investigation:
+Keep its scripts, `task.yml`, provenance, figures, tables, outputs,
+`report.qmd`, and standalone `report.html` together. Render only the
+investigation directory:
 
 ```bash
 ./scripts/render-analysis.sh analysis/<TASK-ID>_<concise-name>
@@ -74,6 +89,25 @@ investigation:
   --render-command './scripts/render-analysis.sh analysis/<TASK-ID>_<concise-name>'
 ```
 
-The render helper refuses `analysis/_template`, nested paths, and all root
-manuscript targets. See `DEPENDENCIES.md` for governance, upgrades, recovery,
-and troubleshooting.
+Ordinary investigations must not modify the root manuscript. Hypotheses and
+analysis methods remain pending the first research question and scientific
+review.
+
+## PI workspace and synchronization
+
+The approved PI synchronization implementation is present in `pre-build/`,
+`scripts/pi_sync.py`, and `scripts/pi-workspace`. Its current machine-readable
+state is `requires_pre_task_sync`: the workspace is initialized and protected
+content remains blocked until Ada Lovelace performs the task-scoped pre-task
+reconciliation.
+
+```bash
+./scripts/pi-workspace status
+./scripts/pi-workspace pre-task --task-id <TASK-ID> --agent ada-lovelace
+./scripts/pi-workspace verify-ready --task-id <TASK-ID> \
+  --agent <agent-slug> --path <repository-relative-path>
+```
+
+Conflicts stop affected protected work; unrelated `analysis/` investigations
+may continue. A successful synchronization check does not authorize scientific
+approval, manuscript integration, merge, publication, or public release.

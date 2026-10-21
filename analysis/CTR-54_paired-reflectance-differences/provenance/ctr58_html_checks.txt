@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "html_sha256": "a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84",
+  "embedded_images": 2,
+  "all_images_have_alt": true,
+  "external_or_relative_render_assets": 0,
+  "bibliography_entries": 6,
+  "full_resolution_links_verified": [
+    "figures/generated/paired_reflectance_maps_v2.png",
+    "figures/generated/paired_reflectance_maps_v2.pdf",
+    "figures/generated/ctr56_temporal_gam.pdf"
+  ],
+  "standalone_scope": "Both displayed figures, styles and scripts embedded; optional full-resolution downloads are separate files also included in review archive."
+}

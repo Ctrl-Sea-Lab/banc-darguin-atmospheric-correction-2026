@@ -1,7 +1,7 @@
 [project]
-name = "ctrl-sea-research-template"
+name = "banc-darguin-atmospheric-correction-2026"
 version = "0.1.0"
-description = "Reproducible R/Python/Quarto research project environment"
+description = "Reproducible infrastructure for Banc d'Arguin atmospheric-correction research"
 requires-python = ">=3.12,<3.13"
 dependencies = []
 

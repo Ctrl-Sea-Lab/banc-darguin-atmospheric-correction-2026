@@ -1,0 +1,45 @@
+{
+  "pairs": 22,
+  "width": 3763,
+  "height": 1974,
+  "epsg": 32628,
+  "geotransform": [
+    334050.0,
+    10.0,
+    0.0,
+    2209980.0,
+    0.0,
+    -10.0
+  ],
+  "units": "dimensionless reflectance",
+  "sign": "ACOLITE minus Sen2Cor",
+  "mask": {
+    "SCL_keep": [
+      4,
+      5,
+      6
+    ],
+    "SCL_sensitivity_keep": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "ACOLITE_rejected_flags": [
+      "cirrus",
+      "outofscene",
+      "dem_shadow"
+    ],
+    "ACOLITE_high_TOA": "sensitivity only; bright terrestrial reflectance is not automatically invalid",
+    "ACOLITE_SWIR_and_negative": "retained; no marine-only or positivity selection",
+    "missing_flags": "Sen2Cor SCL and finite observations only; no independent ACOLITE QA"
+  },
+  "n_dates_without_ac_flags": 2,
+  "elapsed_seconds": 261.55552629999875,
+  "chunk_rows": 64,
+  "encoded_fill_value": 9.969209968386869e+36,
+  "temporal_sd_ddof": 1,
+  "spatial_sd_ddof": 1,
+  "median_minimum_n": 1,
+  "sd_minimum_n": 2
+}

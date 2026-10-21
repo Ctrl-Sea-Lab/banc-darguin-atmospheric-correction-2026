@@ -1,0 +1,3 @@
+PASS: 113 raster hashes, dimensions, CRS and nodata
+PASS: 142 raw file sizes/mtimes, 3 raw checksums, 12 source pixels, 12 temporal statistics from all 22 dates
+PASS: compact model rerun and all numeric output tables; SD saturation; exact palette and panel geometry

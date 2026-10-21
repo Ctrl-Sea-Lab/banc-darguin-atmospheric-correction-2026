@@ -1,0 +1,3 @@
+PASS: 48 converged models; 401 in-range predictions per model; positive inverse-transformed SD; prediction/covariance and endpoint-contrast agreement; 176 influence refits.
+Maximum saved prediction/SE discrepancy: 6.217249e-15 
+Maximum linear-GAM versus independent OLS discrepancy: 1.342676e-07 

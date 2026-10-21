@@ -1,0 +1,292 @@
+claim,band,value,units,source,selector,operation
+median across date spatial medians,B2,-0.009618537034839392,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B2,median(median_delta)
+negative date count,B2,19,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B2,count median_delta < 0
+median of pixel temporal medians,B2,-0.009619161952286959,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B2; median,median_delta
+median of pixel temporal SDs,B2,0.011242543812841177,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B2; sd,median_delta
+median_delta min,B2,-0.04077754355967045,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B2,min(median_delta)
+median_delta max,B2,0.0064475322142243385,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B2,max(median_delta)
+sd_delta min,B2,0.004837031184829109,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B2,min(sd_delta)
+sd_delta max,B2,0.02153796204369668,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B2,max(sd_delta)
+median across date spatial medians,B3,-0.009235511301085353,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B3,median(median_delta)
+negative date count,B3,19,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B3,count median_delta < 0
+median of pixel temporal medians,B3,-0.008565052412450314,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B3; median,median_delta
+median of pixel temporal SDs,B3,0.010260981973260641,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B3; sd,median_delta
+median_delta min,B3,-0.03608481585979462,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B3,min(median_delta)
+median_delta max,B3,0.004412492271512747,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B3,max(median_delta)
+sd_delta min,B3,0.0043409715601079955,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B3,min(sd_delta)
+sd_delta max,B3,0.022829046950738407,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B3,max(sd_delta)
+median across date spatial medians,B4,-0.007510389317758381,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B4,median(median_delta)
+negative date count,B4,19,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B4,count median_delta < 0
+median of pixel temporal medians,B4,-0.007927824277430773,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B4; median,median_delta
+median of pixel temporal SDs,B4,0.009392946027219296,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B4; sd,median_delta
+median_delta min,B4,-0.03431328758597374,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B4,min(median_delta)
+median_delta max,B4,0.002465057885274291,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B4,max(median_delta)
+sd_delta min,B4,0.004366002685988633,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B4,min(sd_delta)
+sd_delta max,B4,0.024580787639374834,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B4,max(sd_delta)
+median across date spatial medians,B8,-0.009349268395453691,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B8,median(median_delta)
+negative date count,B8,21,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B8,count median_delta < 0
+median of pixel temporal medians,B8,-0.008925415575504303,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B8; median,median_delta
+median of pixel temporal SDs,B8,0.01010759687051177,dimensionless reflectance unless count/ratio stated,tables/temporal_raster_summary.csv,B8; sd,median_delta
+median_delta min,B8,-0.03647762909531593,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B8,min(median_delta)
+median_delta max,B8,9.285943087888882e-05,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B8,max(median_delta)
+sd_delta min,B8,0.007144964023385026,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B8,min(sd_delta)
+sd_delta max,B8,0.029110268867001955,dimensionless reflectance unless count/ratio stated,tables/date_band_summary.csv,primary; B8,max(sd_delta)
+endpoint median_delta estimate,B2,0.00563520039870717,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B2; median_delta,estimate
+endpoint median_delta lower,B2,-0.00916711760054579,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B2; median_delta,lower
+endpoint median_delta upper,B2,0.0204375183979601,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B2; median_delta,upper
+endpoint sd_delta estimate,B2,1.28023597935125,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B2; sd_delta,estimate
+endpoint sd_delta lower,B2,0.649319634039719,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B2; sd_delta,lower
+endpoint sd_delta upper,B2,2.52418697495475,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B2; sd_delta,upper
+endpoint median_delta estimate,B3,0.00744967637367996,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B3; median_delta,estimate
+endpoint median_delta lower,B3,-0.00530430451208927,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B3; median_delta,lower
+endpoint median_delta upper,B3,0.0202036572594492,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B3; median_delta,upper
+endpoint sd_delta estimate,B3,1.36072165041682,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B3; sd_delta,estimate
+endpoint sd_delta lower,B3,0.614299243941243,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B3; sd_delta,lower
+endpoint sd_delta upper,B3,3.01410660712154,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B3; sd_delta,upper
+endpoint median_delta estimate,B4,0.00725310888312732,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B4; median_delta,estimate
+endpoint median_delta lower,B4,-0.0043507425932546,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B4; median_delta,lower
+endpoint median_delta upper,B4,0.0188569603595092,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B4; median_delta,upper
+endpoint sd_delta estimate,B4,1.40150437163703,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B4; sd_delta,estimate
+endpoint sd_delta lower,B4,0.620372687742262,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B4; sd_delta,lower
+endpoint sd_delta upper,B4,3.16618468628287,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B4; sd_delta,upper
+endpoint median_delta estimate,B8,0.00609542937883863,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B8; median_delta,estimate
+endpoint median_delta lower,B8,-0.00585518923175222,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B8; median_delta,lower
+endpoint median_delta upper,B8,0.0180460479894295,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B8; median_delta,upper
+endpoint sd_delta estimate,B8,1.10036153206016,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B8; sd_delta,estimate
+endpoint sd_delta lower,B8,0.606173840657104,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B8; sd_delta,lower
+endpoint sd_delta upper,B8,1.99743938129244,dimensionless reflectance unless count/ratio stated,tables/ctr56_endpoint_contrasts.csv,B8; sd_delta,upper
+min_pixels,B2,5364437,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,min_pixels
+observed_median_change,B2,9.12448018789216e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_median_change
+observed_correlation,B2,0.99999876596793,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_correlation
+curve_max_change,B2,1.02631138558639e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,curve_max_change
+min_pixels,B2,4735434,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,min_pixels
+observed_median_change,B2,0.000879814714938401,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_median_change
+observed_correlation,B2,0.996085339423099,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_correlation
+curve_max_change,B2,0.000995082405822632,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,curve_max_change
+min_pixels,B2,3541502,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,min_pixels
+observed_median_change,B2,0.000966133666224778,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_median_change
+observed_correlation,B2,0.996992902767397,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_correlation
+curve_max_change,B2,0.00103145096658609,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,curve_max_change
+min_pixels,B2,5336432,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,min_pixels
+observed_median_change,B2,-3.46521846950054e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_median_change
+observed_correlation,B2,0.999997706316064,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_correlation
+curve_max_change,B2,3.89999924748155e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,curve_max_change
+min_pixels,B2,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,min_pixels
+observed_median_change,B2,-1.37800816446543e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_median_change
+observed_correlation,B2,0.999999997246582,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_correlation
+curve_max_change,B2,1.9489120992814e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,curve_max_change
+min_pixels,B2,5364437,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,min_pixels
+observed_median_change,B2,1.04345310900436e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_median_change
+observed_correlation,B2,0.99999833703763,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_correlation
+curve_max_change,B2,9.77239568609317e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,curve_max_change
+min_pixels,B2,4735434,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,min_pixels
+observed_median_change,B2,-0.00271601239809221,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_median_change
+observed_correlation,B2,0.929186984062217,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_correlation
+curve_max_change,B2,0.00392257230082996,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,curve_max_change
+min_pixels,B2,3541502,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,min_pixels
+observed_median_change,B2,0.000614950000345071,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_median_change
+observed_correlation,B2,0.998287967247537,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_correlation
+curve_max_change,B2,0.000780441358176875,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,curve_max_change
+min_pixels,B2,5336432,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,min_pixels
+observed_median_change,B2,-3.98975934743449e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_median_change
+observed_correlation,B2,0.999986948472602,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_correlation
+curve_max_change,B2,5.84145081256471e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,curve_max_change
+min_pixels,B2,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,min_pixels
+observed_median_change,B2,-9.57458462457449e-08,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_median_change
+observed_correlation,B2,0.999999989772675,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_correlation
+curve_max_change,B2,5.78827789171621e-07,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,curve_max_change
+min_pixels,B3,5364446,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,min_pixels
+observed_median_change,B3,4.92521971464169e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_median_change
+observed_correlation,B3,0.999998605667369,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_correlation
+curve_max_change,B3,9.66703122545418e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,curve_max_change
+min_pixels,B3,4735441,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,min_pixels
+observed_median_change,B3,0.000846587724611159,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_median_change
+observed_correlation,B3,0.995482727310294,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_correlation
+curve_max_change,B3,0.000895579539688832,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,curve_max_change
+min_pixels,B3,3541623,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,min_pixels
+observed_median_change,B3,0.000700887874700129,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_median_change
+observed_correlation,B3,0.9966848241776,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_correlation
+curve_max_change,B3,0.000800098651253157,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,curve_max_change
+min_pixels,B3,5336439,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,min_pixels
+observed_median_change,B3,-1.83016527444124e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_median_change
+observed_correlation,B3,0.999998471757707,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_correlation
+curve_max_change,B3,3.07103894329076e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,curve_max_change
+min_pixels,B3,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,min_pixels
+observed_median_change,B3,-1.44331716001034e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_median_change
+observed_correlation,B3,0.999999996871806,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_correlation
+curve_max_change,B3,1.89953240050441e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,curve_max_change
+min_pixels,B3,5364446,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,min_pixels
+observed_median_change,B3,3.30777483431577e-07,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_median_change
+observed_correlation,B3,0.999998361050954,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_correlation
+curve_max_change,B3,8.23476733473154e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,curve_max_change
+min_pixels,B3,4735441,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,min_pixels
+observed_median_change,B3,-0.0031020975981568,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_median_change
+observed_correlation,B3,0.938350948219961,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_correlation
+curve_max_change,B3,0.00412331441712271,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,curve_max_change
+min_pixels,B3,3541623,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,min_pixels
+observed_median_change,B3,0.00057354978753957,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_median_change
+observed_correlation,B3,0.99851512954624,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_correlation
+curve_max_change,B3,0.000785925503563521,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,curve_max_change
+min_pixels,B3,5336439,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,min_pixels
+observed_median_change,B3,-4.57275633728802e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_median_change
+observed_correlation,B3,0.99998565180898,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_correlation
+curve_max_change,B3,8.07479034313843e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,curve_max_change
+min_pixels,B3,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,min_pixels
+observed_median_change,B3,-3.26629976827794e-07,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_median_change
+observed_correlation,B3,0.999999988152391,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_correlation
+curve_max_change,B3,1.20799071852591e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,curve_max_change
+min_pixels,B4,5364440,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,min_pixels
+observed_median_change,B4,2.37785112112802e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_median_change
+observed_correlation,B4,0.999999260219823,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_correlation
+curve_max_change,B4,3.56048428993248e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,curve_max_change
+min_pixels,B4,4735435,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,min_pixels
+observed_median_change,B4,0.000779965718276799,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_median_change
+observed_correlation,B4,0.993167233430068,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_correlation
+curve_max_change,B4,0.000771886815904042,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,curve_max_change
+min_pixels,B4,3541533,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,min_pixels
+observed_median_change,B4,0.000424628015025519,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_median_change
+observed_correlation,B4,0.996725785271214,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_correlation
+curve_max_change,B4,0.000692664041747794,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,curve_max_change
+min_pixels,B4,5336433,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,min_pixels
+observed_median_change,B4,1.70350540429354e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_median_change
+observed_correlation,B4,0.999997595762606,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_correlation
+curve_max_change,B4,5.64422220416475e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,curve_max_change
+min_pixels,B4,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,min_pixels
+observed_median_change,B4,-1.45548256114125e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_median_change
+observed_correlation,B4,0.99999999626823,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_correlation
+curve_max_change,B4,1.7376431177803e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,curve_max_change
+min_pixels,B4,5364440,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,min_pixels
+observed_median_change,B4,-4.17889900766744e-07,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_median_change
+observed_correlation,B4,0.999998390719021,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_correlation
+curve_max_change,B4,7.30983433134581e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,curve_max_change
+min_pixels,B4,4735435,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,min_pixels
+observed_median_change,B4,-0.00406269202812328,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_median_change
+observed_correlation,B4,0.894975400767961,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_correlation
+curve_max_change,B4,0.00553388581722084,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,curve_max_change
+min_pixels,B4,3541533,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,min_pixels
+observed_median_change,B4,0.000248572261649501,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_median_change
+observed_correlation,B4,0.996396880095175,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_correlation
+curve_max_change,B4,0.000625851203789265,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,curve_max_change
+min_pixels,B4,5336433,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,min_pixels
+observed_median_change,B4,-3.78752476817394e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_median_change
+observed_correlation,B4,0.999979615252535,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_correlation
+curve_max_change,B4,9.92978847017927e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,curve_max_change
+min_pixels,B4,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,min_pixels
+observed_median_change,B4,-3.48527445414443e-07,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_median_change
+observed_correlation,B4,0.999999979699022,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_correlation
+curve_max_change,B4,1.76964258248938e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,curve_max_change
+min_pixels,B8,5364444,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,min_pixels
+observed_median_change,B8,-2.59178765118096e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_median_change
+observed_correlation,B8,0.999998489312664,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,observed_correlation
+curve_max_change,B8,1.62602237102254e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; median_delta,curve_max_change
+min_pixels,B8,4735438,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,min_pixels
+observed_median_change,B8,0.000963070050493115,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_median_change
+observed_correlation,B8,0.990832828013894,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,observed_correlation
+curve_max_change,B8,0.00106778971173855,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; median_delta,curve_max_change
+min_pixels,B8,3541100,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,min_pixels
+observed_median_change,B8,0.000278359988442389,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_median_change
+observed_correlation,B8,0.993606036354306,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,observed_correlation
+curve_max_change,B8,0.000266744193303489,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; median_delta,curve_max_change
+min_pixels,B8,5336436,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,min_pixels
+observed_median_change,B8,8.00425186753273e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_median_change
+observed_correlation,B8,0.999997564650165,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,observed_correlation
+curve_max_change,B8,1.22597803195786e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; median_delta,curve_max_change
+min_pixels,B8,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,min_pixels
+observed_median_change,B8,-1.6834819689393e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_median_change
+observed_correlation,B8,0.999999993035968,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,observed_correlation
+curve_max_change,B8,1.92698200350214e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; median_delta,curve_max_change
+min_pixels,B8,5364444,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,min_pixels
+observed_median_change,B8,-1.08599729518009e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_median_change
+observed_correlation,B8,0.999997094015549,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,observed_correlation
+curve_max_change,B8,2.61587049159833e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,include_SCL7; sd_delta,curve_max_change
+min_pixels,B8,4735438,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,min_pixels
+observed_median_change,B8,-0.00492600402971939,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_median_change
+observed_correlation,B8,0.893622424758725,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,observed_correlation
+curve_max_change,B8,0.00735724189255264,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,exclude_high_TOA; sd_delta,curve_max_change
+min_pixels,B8,3541100,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,min_pixels
+observed_median_change,B8,0.000370612479692019,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_median_change
+observed_correlation,B8,0.996853505514265,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,observed_correlation
+curve_max_change,B8,0.000540919562484133,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,complete_dates; sd_delta,curve_max_change
+min_pixels,B8,5336436,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,min_pixels
+observed_median_change,B8,-4.00691968648337e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_median_change
+observed_correlation,B8,0.999982632095958,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,observed_correlation
+curve_max_change,B8,6.99670624439777e-05,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,coverage80; sd_delta,curve_max_change
+min_pixels,B8,5346503,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,min_pixels
+observed_median_change,B8,-4.88366183794969e-08,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_median_change
+observed_correlation,B8,0.999999975207267,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,observed_correlation
+curve_max_change,B8,1.67366866948501e-06,dimensionless reflectance unless count/ratio stated,tables/ctr56_domain_sensitivity.csv,common_footprint; sd_delta,curve_max_change
+no_missing_flags_max_curve_change,B2,0.000377826652940975,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; median_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B2,0.00490253955609293,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; sd_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B3,0.00601616411140245,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; median_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B3,0.0055747835223471,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; sd_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B4,0.00021598112777771,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; median_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B4,0.00579187331302511,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; sd_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B8,0.000508525331745352,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; median_delta,no_missing_flags_max_curve_change
+no_missing_flags_max_curve_change,B8,0.00559122386989057,dimensionless reflectance unless count/ratio stated,tables/ctr56_quality_coverage_diagnostics.csv,; sd_delta,no_missing_flags_max_curve_change
+edf,B2,1.00007497425464,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,edf
+adjacent_residual_correlation,B2,0.0545025770520016,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B2,3.85976107186714e-08,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,k10_max_absolute_curve_change
+edf,B2,2.21360027226584,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,edf
+adjacent_residual_correlation,B2,-0.454678167522962,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B2,0.000735934879899197,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,k10_max_absolute_curve_change
+edf,B3,1.00008079909914,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,edf
+adjacent_residual_correlation,B3,0.17404346346631,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B3,1.22175688004045e-08,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,k10_max_absolute_curve_change
+edf,B3,2.55145033066937,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,edf
+adjacent_residual_correlation,B3,-0.399818521086729,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B3,0.00180031658773568,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,k10_max_absolute_curve_change
+edf,B4,1.00007824176985,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,edf
+adjacent_residual_correlation,B4,0.12314022693129,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B4,5.64124294933493e-09,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,k10_max_absolute_curve_change
+edf,B4,2.72229684264647,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,edf
+adjacent_residual_correlation,B4,-0.418567729526152,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B4,0.00183966478696783,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,k10_max_absolute_curve_change
+edf,B8,1.00007615755082,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,edf
+adjacent_residual_correlation,B8,0.0962455248773898,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B8,3.46563960029744e-08,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; median_delta,k10_max_absolute_curve_change
+edf,B8,1.4015115101885,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,edf
+adjacent_residual_correlation,B8,-0.342069823007369,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,adjacent_residual_correlation
+k10_max_absolute_curve_change,B8,0.000158946901756217,dimensionless reflectance unless count/ratio stated,tables/ctr56_diagnostics.csv,; sd_delta,k10_max_absolute_curve_change
+display_min,B2,-0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_min
+display_max,B2,0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_max
+fraction_clipped_low,B2,0.00886660028789671,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_low
+fraction_clipped_high,B2,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_high
+display_min,B3,-0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_min
+display_max,B3,0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_max
+fraction_clipped_low,B3,0.010376402648255723,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_low
+fraction_clipped_high,B3,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_high
+display_min,B4,-0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_min
+display_max,B4,0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_max
+fraction_clipped_low,B4,0.015410764469463713,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_low
+fraction_clipped_high,B4,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_high
+display_min,B8,-0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_min
+display_max,B8,0.0464419350028038,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,display_max
+fraction_clipped_low,B8,0.045489294439642516,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_low
+fraction_clipped_high,B8,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; median,fraction_clipped_high
+display_min,B2,0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_min
+display_max,B2,0.02,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_max
+fraction_clipped_low,B2,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_low
+fraction_clipped_high,B2,0.04468828929104683,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_high
+display_min,B3,0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_min
+display_max,B3,0.02,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_max
+fraction_clipped_low,B3,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_low
+fraction_clipped_high,B3,0.11851401300706499,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_high
+display_min,B4,0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_min
+display_max,B4,0.02,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_max
+fraction_clipped_low,B4,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_low
+fraction_clipped_high,B4,0.1519123023172648,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_high
+display_min,B8,0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_min
+display_max,B8,0.02,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,display_max
+fraction_clipped_low,B8,0.0,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_low
+fraction_clipped_high,B8,0.14226371305765623,dimensionless reflectance unless count/ratio stated,tables/display_limits_v2.csv,; sd,fraction_clipped_high
+largest omission influence,B2,0.00316217735689113,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,median_delta; 2025-03-22,max(max_curve_change)
+largest omission influence,B2,0.0032632584058131,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,sd_delta; 2026-03-07,max(max_curve_change)
+largest omission influence,B3,0.00274497993141677,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,median_delta; 2025-03-22,max(max_curve_change)
+largest omission influence,B3,0.00378988864907087,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,sd_delta; 2026-03-07,max(max_curve_change)
+largest omission influence,B4,0.00260738909399763,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,median_delta; 2025-03-22,max(max_curve_change)
+largest omission influence,B4,0.00450696211656733,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,sd_delta; 2026-03-07,max(max_curve_change)
+largest omission influence,B8,0.00271254663825933,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,median_delta; 2025-03-22,max(max_curve_change)
+largest omission influence,B8,0.00569455082886689,dimensionless reflectance unless count/ratio stated,tables/ctr56_leave_one_date_out.csv,sd_delta; 2026-03-07,max(max_curve_change)
+minimum acquisition gap in days,all,2,dimensionless reflectance unless count/ratio stated,tables/ctr56_date_design.csv,all dates,acquisition design check
+maximum acquisition gap in days,all,70,dimensionless reflectance unless count/ratio stated,tables/ctr56_date_design.csv,all dates,acquisition design check
+matched acquisitions,all,22,dimensionless reflectance unless count/ratio stated,tables/ctr56_date_design.csv,all dates,acquisition design check
