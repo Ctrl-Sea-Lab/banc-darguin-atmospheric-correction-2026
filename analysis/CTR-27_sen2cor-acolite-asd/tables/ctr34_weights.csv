@@ -1,0 +1,19 @@
+station_id,band_id,matchup_id,P_b,P_star,frozen_unit_id,G_b,G,T_gb,T_g,per_band_statistical_weight,complete_spectrum_statistical_weight,reason
+AC01,B02,matchup:11f18d0ad5a61287e64b684c,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC01,B03,matchup:e91876ab97a7d23b2205e9b4,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC01,B04,matchup:34dc151dd7b332b786e8e17a,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC02,B02,matchup:76abdc7e9c82cfeee597bdc8,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC02,B03,matchup:ff4621314a9c2e002e90ecd7,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC02,B04,matchup:563918007560ea824678a041,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC05,B02,matchup:49621b064fa84cfee25a7aba,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC05,B03,matchup:053f14dea5269c5ef4e5feb0,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC05,B04,matchup:547dcab4c6aaa17061d3ad31,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC06,B02,matchup:47801bdce8ffd3116198eab3,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC06,B03,matchup:db442f6720b5205483aacf50,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC06,B04,matchup:f772d10f8b393dcc53498982,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC07,B02,matchup:a072ce25da925a7983fae5de,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC07,B03,matchup:61800d607fa27a0203f4ff24,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC07,B04,matchup:3c868dcf1c213c368583b70b,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC08,B02,matchup:5d8622b6fc6ae6573c122a48,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC08,B03,matchup:e7d3a9bbe06959c0a640afba,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated
+AC08,B04,matchup:eece8344a1a2c334c2624b1a,False,False,,0,0,,,,,empty paired sets; actual dependence grouping unknown; no normalized weights calculated

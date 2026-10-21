@@ -1,0 +1,25 @@
+pandoc 
+  to: html
+  output-file: final-matchup-report.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 2
+  number-sections: false
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  title: Satellite–ASD reflectance matchups at Banc d’Arguin
+  subtitle: Final analysis report for CTR24 · Figure 3 revision requested 20 October 2026
+  author: Ctrl+Sea · report revision by Rachel Carson · prior figures by Edward Tufte · validated numerical tables by Thomas Bayes
+  theme: cosmo
+  
+Output created: final-matchup-report.html
+
