@@ -1,0 +1,15 @@
+{
+  "branch": "ctr-34-source-matchups",
+  "baseline": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+  "initial_preflight": "Refused untracked .cache and renv/library symlinks created while connecting the shared project environment. No protection override used. They were removed.",
+  "clean_preflight": {
+    "branch": "ctr-34-source-matchups",
+    "base": "0085c9b0ba9f661ded5c608b7a5fa70b0b522d00",
+    "head": "c937101cf8d2490e789bfaa90bfba1ca4e32dfa6",
+    "working_tree": "clean"
+  },
+  "timing": "Clean preflight completed after bounded metadata inspection was committed and before final release freeze or paired diagnostic export; initial failed setup attempt retained transparently.",
+  "analysis_readiness": "verify-ready returned ready, affected=false; receipt ctr34_sync_readiness.json",
+  "CTR33_unchanged": true,
+  "all_current_targets_confined_to": "analysis/CTR-27_sen2cor-acolite-asd/"
+}

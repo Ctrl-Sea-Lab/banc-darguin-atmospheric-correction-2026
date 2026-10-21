@@ -1,35 +1,47 @@
 task:
   id: "CTR-27"
-  implementation_task: "CTR-28"
-  paperclip_issue_id: "93ec8661-a983-4b74-9265-612f876599e6"
-  title: "Audit March 27 ASD and satellite match-up feasibility"
+  implementation_task: "CTR-34"
+  paperclip_issue_id: "80d6c6f6-e2c7-4e0e-aac0-e94919268c59"
+  title: "Resolve station support and extract non-mud ASD–satellite matchups"
   slug: "sen2cor-acolite-asd"
-  research_question: "Can the supplied March 27 field and satellite products form comparable reflectance matchups?"
-  created_at: "2026-10-20"
+  research_question: "Do the supplied source rasters justify non-mud ASD matchups under common spatial, optical and QA support?"
+  amendment_date: "2026-10-20"
+  accepted_audit_commit: "9f0f06d2b5958b35de82adbca1577e4c384ae846"
+  editorial_baseline_commit: "86e0d6cd6663a80691fd52d050776bf0c790c8bf"
 analysis:
-  status: "feasibility_handoff_extraction_blocked"
-  scientific_results: "PI-authorized field spectra and descriptive paired AOI results delivered; ASD validation not estimable"
-  readiness: "blocked_for_scientific_extraction"
+  status: "technical_submission_pending_independent_review"
+  readiness: "no_valid_matchups_under_frozen_contract"
+  scientific_results: "Zero eligible pairs; 18 held diagnostics; current spectra omit AC03/04; 165 historical dispositions retained"
+  intended_primary_targets: ["AC01", "AC02", "AC05", "AC06", "AC07", "AC08"]
+  fixed_bands: ["B02", "B03", "B04"]
+  PI_class_exclusions: ["AC03 literal mbp_mud conservative alias", "AC04 literal mpb_mud"]
+  primary_candidate_maximum: 18
+  included_pairs: 0
   language: ["Python", "R"]
-  input_datasets: ["ASD", "GPS", "relevant SHP", "March27 operational L2A and ACOLITE", "supplied SRF v4; official v5 diagnostic"]
-  scripts: ["scripts/audit.py", "scripts/amend.py", "scripts/coverage_figure.R", "scripts/descriptive.py", "scripts/descriptive_figures.R", "scripts/build_report.py", "scripts/validate.py"]
+  scripts: ["scripts/ctr34_support.py", "scripts/ctr34_freeze.py", "scripts/ctr34_extract.py", "scripts/ctr34_validate.py", "scripts/ctr34_figures.R", "scripts/ctr34_publish_figures.py", "scripts/ctr34_report.py", "scripts/ctr34_reproduce.py", "scripts/ctr34_package.py"]
   report_source: "report.qmd"
   report_html: "report.html"
-  data_contract: "outputs/data_contract.json"
+  data_contract: "outputs/ctr34_release_contract.json"
+  schema: "outputs/ctr34_schema.json"
+  eligible_pairs: "tables/ctr34_eligible_pairs.csv"
+  candidate_ledger: "tables/ctr34_candidate_ledger.csv"
+  metrics_computed: false
+  rankings_examined: false
+  legacy_artifacts: "All unprefixed CTR28 files and CTR33 report are historical evidence, not the current eligible-population report"
 environment:
   python_lockfile: "../../uv.lock"
   r_lockfile: "../../renv.lock"
-  dependency_changes: "none"
-  provenance_file: "provenance/run.json"
+  dependency_changes: "none; canonical repository environment reused"
+  provenance_file: "provenance/ctr34_extract.json"
   render_command: "./scripts/render-analysis.sh analysis/CTR-27_sen2cor-acolite-asd"
-  validation_status: "see provenance/validation.json; technical consistency only"
+  validation_status: "see provenance/ctr34_validation.json; technical checks only"
 review:
-  status: "amended_pending_independent_reassessment"
+  status: "pending_exact_delivery_independent_review"
   coordinator: "Charles Darwin"
-  reviewer: "Karl Popper; native review stage requested"
+  reviewer: "Karl Popper; configured native review stage, then Charles"
 pi_approval:
-  status: "pending"
+  status: "pending_this_amendment"
   approved_revision: null
-  note: "This YAML is not evidence of authenticated PI approval."
+  note: "Earlier feasibility approval does not cover this science amendment; this YAML is not approval evidence."
 manuscript:
   integration_status: "not_authorized"

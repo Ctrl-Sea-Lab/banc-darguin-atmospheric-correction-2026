@@ -1,0 +1,54 @@
+{
+  "version": "ctr34-v1",
+  "csv_null": "empty means unknown/not evaluated/not applicable according to status/reason; never zero or pass",
+  "csv_boolean": "True or False; parse explicitly",
+  "primary_key": {
+    "candidate_ledger": "matchup_id",
+    "targets": "target_id",
+    "support": "support_id",
+    "qa_cells": "qa_cell_id",
+    "qa_links": [
+      "matchup_id",
+      "qa_cell_id"
+    ],
+    "held_diagnostics": "matchup_id",
+    "eligible_pairs": "matchup_id"
+  },
+  "natural_matchup_key": [
+    "target_id",
+    "occasion_id",
+    "band_id",
+    "extraction_version"
+  ],
+  "source_identity": "qualified source/path and grid; existing full-file small-input IDs in outputs/normalized_design.json; new raster sources use path IDs with separate grid/window identities",
+  "source_id_namespaces": "References/occasions retain accepted IDs and link to accepted normalized sources; current support/QA path IDs resolve in ctr34_sources.json",
+  "support_semantics": "stored-cell contributors have numerical weight1; upstream native contributors/effective bounds null and held; statistical weights null. QA cells never radiometric contributors",
+  "qa_cell_station_dx_dy": "one witness inspection record after deduplication; NOT exclusive ownership or all target memberships. qa_links carries many-to-many membership; local_qa contains every window-relative observation",
+  "qa_layers": [
+    "ANC_LOST",
+    "ANC_DEG",
+    "MSI_LOST",
+    "MSI_DEG",
+    "DEFECT",
+    "NODATA",
+    "PARTIALLY_CORRECTED",
+    "SATURATED"
+  ],
+  "validity": "pass/fail/unknown_material/not_evaluated/excluded states; included booleans false throughout",
+  "graph": "actual union across primary targets and B02-B04/both corrections; null components; nominal, QA and diagnostic relations separately recorded",
+  "weight_formulas": {
+    "complete_spectrum": "1/(G*T_g*3)",
+    "per_band": "1/(G_b*T_gb)",
+    "empty_sets": "NA/null; zero included rows; no fabricated normalized weights"
+  },
+  "scene_pairs": [
+    {
+      "scene_pair_id": "scene-pair:eb8866f8e910de6cd5c4fdfa",
+      "operational_L2A": "S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE",
+      "ACOLITE": "S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W",
+      "satellite_time_utc": "2026-03-27T11:45:53.975343Z",
+      "byte_identical_L1C_lineage": "unestablished"
+    }
+  ],
+  "current_table_prefix": "ctr34_; legacy unprefixed tables/figures/outputs are CTR28 historical evidence"
+}

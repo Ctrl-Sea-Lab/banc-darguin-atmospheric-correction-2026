@@ -1,0 +1,25 @@
+pandoc
+  to: html
+  output-file: report.html
+  standalone: true
+  embed-resources: true
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 3
+  number-sections: true
+  css:
+    - report.css
+
+metadata
+  document-css: false
+  lang: en
+  theme: none
+  minimal: true
+  title: 'March 27 ASD–satellite matchups: support and exposure remain unresolved'
+  subtitle: CTR-34 execution amendment to CTR-27 • technical submission for independent review
+  author: Roger Tomlinson
+
+Output created: report.html
+
+Rendered /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34/analysis/CTR-27_sen2cor-acolite-asd/report.html

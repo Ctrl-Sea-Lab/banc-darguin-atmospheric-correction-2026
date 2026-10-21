@@ -1,0 +1,13 @@
+dimension,level,intended_targets,retained_complete_targets,lost_targets,intended_band_pairs,valid_pairs_B02,valid_pairs_B03,valid_pairs_B04,metadata_loss,population_claim
+station_id,AC01,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+station_id,AC02,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+station_id,AC05,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+station_id,AC06,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+station_id,AC07,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+station_id,AC08,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+geographic_group,Iwik,2,0,2,6,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+geographic_group,offshore_Arel,4,0,4,12,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+class_literal,algae_mud,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+class_literal,dry_sand,2,0,2,6,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+class_literal,seagrass,2,0,2,6,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
+class_literal,white_sand,1,0,1,3,0,0,0,material physical-support hold; see target decisions,none; empty P*; no pooled estimate or ranking
