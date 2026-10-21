@@ -1,0 +1,67 @@
+{
+  "started_utc": "2026-10-20T01:36:52.496930+00:00",
+  "ended_utc": "2026-10-20T01:38:03.757906+00:00",
+  "roots": {
+    "project_raw": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw",
+    "project_processed": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/processed",
+    "nas_raw": "/mnt/PaperClip_Projects/data/raw/banc-darguin-atmospheric-correction-2026",
+    "nas_processed": "/mnt/PaperClip_Projects/data/processed/banc-darguin-atmospheric-correction-2026"
+  },
+  "root_status": {
+    "project_raw": {
+      "exists": true,
+      "is_symlink": false,
+      "physical_file_count": 848
+    },
+    "project_processed": {
+      "exists": true,
+      "is_symlink": false,
+      "physical_file_count": 1
+    },
+    "nas_raw": {
+      "exists": true,
+      "is_symlink": false,
+      "physical_file_count": 0
+    },
+    "nas_processed": {
+      "exists": true,
+      "is_symlink": false,
+      "physical_file_count": 0
+    }
+  },
+  "source_snapshot_sha256": "044a78e6d27d24ee9c8c2f347bac52d921d1154b190fcc456a9817ee4d5910a2",
+  "fingerprint_method": "sorted file stat tuples (root/path/bytes/mtime_ns/mode/uid/gid/kind/target); not file-content hashes",
+  "stat_snapshot_unchanged": true,
+  "errors": [
+    {
+      "source": "project_raw:S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R10m/T28QCH_20260307T113319_TCI_10m.jp2.aux.xml",
+      "error": "XML or text declaration not at start of entity: line 26, column 4"
+    },
+    {
+      "source": "project_raw:S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_TCI_10m.jp2.aux.xml",
+      "error": "XML or text declaration not at start of entity: line 26, column 4"
+    }
+  ],
+  "physical_files": 849,
+  "archive_members": 4376,
+  "variables": 12948,
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "libnetcdf": "4.9.2 of Mar 31 2024 08:09:36 $",
+  "gdal": "GDAL 3.8.4, released 2024/02/08",
+  "git_head": "b023b619886b2a174a8b653bfc90166b7d001332",
+  "git_branch": "ctr-25-data-dictionary",
+  "dependency_changes": "none; Python stdlib + installed system GDAL/libnetcdf",
+  "source_data_protection": "read-only opens; GDAL_PAM_ENABLED=NO; no permission changes; no full-data checksums",
+  "symlink_policy": "symlink entries inventoried, never traversed; root symlinks explicitly reported",
+  "group_file_counts": {
+    "placeholder": 2,
+    "ASD": 3,
+    "spectral_response_reference": 1,
+    "GPS": 1,
+    "S2/ACOLITE": 385,
+    "S2/expanded_SAFE": 192,
+    "S2/Sen2Cor": 46,
+    "SHP": 39,
+    "Sentinel5P": 180
+  }
+}
