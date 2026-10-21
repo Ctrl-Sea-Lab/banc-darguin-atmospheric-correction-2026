@@ -1,0 +1,80 @@
+[
+  {
+    "id": "b23e2fa5-051d-4a45-a222-a53d4f2f5c2b",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "issueId": "7a9e2a96-1285-4585-b912-0779b4b52764",
+    "kind": "ask_user_questions",
+    "status": "answered",
+    "continuationPolicy": "wake_assignee",
+    "requestedResolverPolicy": "human_only",
+    "effectiveResolverPolicy": "human_only",
+    "resolverPolicyProvenance": "explicit",
+    "effectiveResolverPolicySource": "requested",
+    "idempotencyKey": "CTR-70:operator-prerequisites:83ae97f3:v1",
+    "originCommentIds": [
+      "83ae97f3-4571-4533-9f5a-4a6a7c3b005a"
+    ],
+    "sourceCommentId": null,
+    "sourceIdentityContextId": "f87b6244-a396-40f9-8555-946bdde13f99",
+    "sourceRunId": "8d99f544-87e7-47ab-af6b-c2a5be83e006",
+    "title": null,
+    "summary": null,
+    "createdByAgentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd",
+    "addresseeAgentId": null,
+    "addresseeUserId": null,
+    "createdByUserId": null,
+    "resolvedByAgentId": null,
+    "resolvedByRunId": null,
+    "resolvedByUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+    "payload": {
+      "version": 1,
+      "supersedeOnUserComment": false,
+      "questions": [
+        {
+          "id": "operator_evidence",
+          "prompt": "Who is the human Paperclip/infrastructure operator, and where can the existing prerequisite evidence be inspected? Please provide nonsecret references for (1) PI authority at the original decision time, (2) the server record binding that decision to its exact approved scope, and (3) an existing execution environment agents cannot modify. If a prerequisite is unavailable, state which one. The checklist is /CTR/issues/CTR-70#document-operator-prerequisites. No credentials or repeat bibliography approval are requested.",
+          "selectionMode": "single",
+          "required": true,
+          "allowOther": true,
+          "options": [
+            {
+              "id": "paperclip_text_answer",
+              "label": "Type an answer",
+              "freeText": true
+            }
+          ]
+        }
+      ],
+      "questionSet": {
+        "schema": "paperclip.question_set.v1",
+        "questions": [
+          {
+            "id": "operator_evidence",
+            "prompt": "Who is the human Paperclip/infrastructure operator, and where can the existing prerequisite evidence be inspected? Please provide nonsecret references for (1) PI authority at the original decision time, (2) the server record binding that decision to its exact approved scope, and (3) an existing execution environment agents cannot modify. If a prerequisite is unavailable, state which one. The checklist is /CTR/issues/CTR-70#document-operator-prerequisites. No credentials or repeat bibliography approval are requested.",
+            "required": true,
+            "answerMode": "text"
+          }
+        ]
+      }
+    },
+    "result": {
+      "version": 1,
+      "answers": [
+        {
+          "questionId": "operator_evidence",
+          "optionIds": [],
+          "otherText": "iam the human at the origin of the decison. ctr54 and ctr64 must be located in the root analysis directory as all ned\u00f1w task assigned should be"
+        }
+      ],
+      "summaryMarkdown": null
+    },
+    "resolvedAt": "2026-10-21T05:18:34.521Z",
+    "createdAt": "2026-10-21T05:14:11.794Z",
+    "updatedAt": "2026-10-21T05:18:34.521Z",
+    "resolverPolicy": "human_only",
+    "legacyResolverPolicyAliases": {
+      "requested": "board_only",
+      "effective": "board_only"
+    }
+  }
+]

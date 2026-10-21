@@ -1,0 +1,37 @@
+task:
+  id: CTR-44
+  parent_request: CTR-38
+  destination_investigation: CTR-27
+  title: Retain supplied matchup and present early-March full spectra
+  scope: presentation_from_verified_CTR43_tables
+analysis:
+  report_source: report.qmd
+  report_template: scripts/ctr44_report_template.md
+  report_html: report.html
+  portable_html: report-portable.html
+  satellite_date: 2026-03-07
+  field_date: 2026-03-27
+  validation_eligible_pairs: 0
+  physical_holds: retained
+  new_extraction: false
+  new_integration: false
+  new_statistics: false
+source:
+  numerical_commit: dc10ebe93e8e5053f4f7fb6aa377ba7fb9a174bd
+  extraction_commit: 51eeaf86353e895d18ee8f0747642d45d612909e
+  presentation_baseline: 51805d91ffdef5cafa81c11fd91a74163eec4d83
+  figure1: unchanged_supplied_table_reproduction_not_new_March7_result
+environment:
+  python_lockfile: ../../uv.lock
+  r_lockfile: ../../renv.lock
+  dependency_changes: none
+  reproduction_command: .venv/bin/python analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr44_delivery.py
+  render_command: ./scripts/render-analysis.sh analysis/CTR-27_sen2cor-acolite-asd
+review:
+  status: pending_exact_revision
+  route: CTR-38 native Rachel presentation then Karl independent scientific review
+pi_approval:
+  current_revision_approved: false
+  note: Prior presentation acceptance does not approve March results; YAML is not approval evidence.
+manuscript:
+  integration_status: not_authorized

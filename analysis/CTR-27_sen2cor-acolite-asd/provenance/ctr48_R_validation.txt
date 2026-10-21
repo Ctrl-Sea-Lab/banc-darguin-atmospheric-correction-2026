@@ -1,0 +1,51 @@
+PASS: independent R join, 54 differences, target/band summaries and 48 spectral steps.
+                           pair                  target_n_pairs
+         0.0000000000000000e+00          0.0000000000000000e+00
+             target_mean_signed            target_median_signed
+         1.7347234759768071e-18          0.0000000000000000e+00
+target_mean_absolute_difference               target_min_signed
+         1.7347234759768071e-18          0.0000000000000000e+00
+              target_max_signed               target_n_positive
+         0.0000000000000000e+00          0.0000000000000000e+00
+              target_n_negative                   target_n_zero
+         0.0000000000000000e+00          0.0000000000000000e+00
+                   band_n_pairs                band_mean_signed
+         0.0000000000000000e+00          8.6736173798840355e-19
+             band_median_signed   band_mean_absolute_difference
+         0.0000000000000000e+00          6.9388939039072284e-18
+                band_min_signed                 band_max_signed
+         0.0000000000000000e+00          0.0000000000000000e+00
+                band_n_positive                 band_n_negative
+         0.0000000000000000e+00          0.0000000000000000e+00
+                    band_n_zero
+         0.0000000000000000e+00
+
+Pooled descriptive values, not independent-replicate estimates:
+                 n_pairs              mean_signed            median_signed
+  54.0000000000000000000    0.0099016731484620653    0.0129950562536716475
+mean_absolute_difference               min_signed               max_signed
+   0.0360563105952408577   -0.0543315726816654201    0.0851400411605834906
+              n_positive               n_negative                   n_zero
+  31.0000000000000000000   23.0000000000000000000    0.0000000000000000000
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Linux Mint 22.3
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C
+
+time zone: Europe/Rome
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices datasets  utils     methods   base
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3 tools_4.3.3    renv_1.3.1

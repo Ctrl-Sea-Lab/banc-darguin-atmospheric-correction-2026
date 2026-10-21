@@ -1,0 +1,19 @@
+{
+  "inspected_by": "Roger Tomlinson (analysis author)",
+  "independent_review": false,
+  "date": "2026-10-20",
+  "panel_order": [
+    "B2",
+    "B3",
+    "B4",
+    "B8"
+  ],
+  "median_top_sd_bottom": true,
+  "north_up": true,
+  "extent_shared": true,
+  "row_scales_shared": true,
+  "labels_legends_legible": true,
+  "PNG_sha256": "1f07e45f762067c0ed3901e0081693bbd89d6f9027687ed0eeb3c9eeeaa23348",
+  "PDF_sha256": "3d3f407cccf622779864a0a540da05ba719a900ff5de4545df754367cc0cdd2a",
+  "note": "Visually inspected final 400 dpi export and 200 dpi HTML preview; diverging zero-centred median and sequential sample-SD scales; clipping audited separately."
+}

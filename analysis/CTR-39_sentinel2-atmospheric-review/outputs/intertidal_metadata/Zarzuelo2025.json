@@ -1,0 +1,973 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        2
+      ]
+    ],
+    "date-time": "2026-09-02T03:40:02Z",
+    "timestamp": 1788320402818,
+    "version": "build-2803163510"
+  },
+  "reference-count": 58,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2025-08-01T00:00:00Z",
+        "timestamp": 1754006400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            1
+          ]
+        ],
+        "date-time": "2025-08-01T00:00:00Z",
+        "timestamp": 1754006400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            12
+          ]
+        ],
+        "date-time": "2025-06-12T00:00:00Z",
+        "timestamp": 1749686400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100020636",
+      "name": "Spain Ministry of Education Vocational Training and Sports",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "PLEC2022-009362"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "PLEC2022-009362"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100020636",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100017642",
+      "name": "National Plan for Scientific and Technical Research and Innovation",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100017642",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000780",
+      "name": "European Commission",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "101060874"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "101060874"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100000780",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000811",
+      "name": "European Institute of Innovation and Technology",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100000811",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100014440",
+      "name": "Espa\u00f1a Ministerio de Ciencia Innovaci\u00f3n y Universidades",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CNS2023-143630"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CNS2023-143630"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100014440",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "International Journal of Applied Earth Observation and Geoinformation"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2025,
+        8
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.jag.2025.104676",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        27
+      ]
+    ],
+    "date-time": "2025-06-27T08:03:45Z",
+    "timestamp": 1751011425000
+  },
+  "page": "104676",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 1,
+  "special_numbering": "C",
+  "title": [
+    "Monitoring intertidal ecosystems: Assessing spatio\u2013temporal variability with Sentinel-2 and Landsat 8"
+  ],
+  "prefix": "10.1016",
+  "volume": "142",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-4551-5510",
+      "authenticated-orcid": false,
+      "given": "Carmen",
+      "family": "Zarzuelo",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alejandro",
+      "family": "L\u00f3pez-Ruiz",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Mar\u00eda",
+      "family": "Berm\u00fadez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-1388-6870",
+      "authenticated-orcid": false,
+      "given": "Miguel",
+      "family": "Ortega-S\u00e1nchez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-7485-0989",
+      "authenticated-orcid": false,
+      "given": "Isabel",
+      "family": "Caballero",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "issue": "2",
+      "key": "10.1016/j.jag.2025.104676_b1",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.1890/10-1510.1",
+      "article-title": "The value of estuarine and coastal ecosystem services",
+      "volume": "81",
+      "author": "Barbier",
+      "year": "2011",
+      "journal-title": "Ecol. Monograph."
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.jag.2025.104676_b2",
+      "doi-asserted-by": "crossref",
+      "first-page": "503",
+      "DOI": "10.1007/s10333-024-00981-x",
+      "article-title": "Unveiling the thermal impact of land cover transformations in Khuzestan province through MODIS satellite remote sensing products",
+      "volume": "22",
+      "author": "Baronian",
+      "year": "2024",
+      "journal-title": "Paddy Water Environ."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b3",
+      "series-title": "Report By Silvestrum Climate Associates for the Scientific and Technical Review Panel of the Convention on Wetlands",
+      "article-title": "Desktop study of blue carbon ecosystems in ramsar sites",
+      "author": "Beers",
+      "year": "2020"
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.jag.2025.104676_b4",
+      "doi-asserted-by": "crossref",
+      "first-page": "1061",
+      "DOI": "10.1016/j.csr.2005.12.015",
+      "article-title": "Coastal flooding hazard related to storms and coastal evolution in valdelagrana spit (Cadiz Bay Natural Park, SW Spain)",
+      "volume": "26",
+      "author": "Benavente",
+      "year": "2006",
+      "journal-title": "Cont. Shelf Res."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b5",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ecss.2021.107664",
+      "article-title": "Exploring open-source multispectral satellite remote sensing as a tool to map long-term evolution of salt marsh shorelines",
+      "volume": "266",
+      "author": "Blount",
+      "year": "2022",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "issue": "8",
+      "key": "10.1016/j.jag.2025.104676_b6",
+      "doi-asserted-by": "crossref",
+      "first-page": "1311",
+      "DOI": "10.3390/rs12081311",
+      "article-title": "Intertidal bathymetry extraction with multispectral images: A logistic regression approach",
+      "volume": "12",
+      "author": "Bu\u00e9",
+      "year": "2020",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b7",
+      "doi-asserted-by": "crossref",
+      "first-page": "148",
+      "DOI": "10.1016/j.rse.2013.08.047",
+      "article-title": "Assessment of suspended solids in the guadalquivir estuary using new DEIMOS-1 medium spatial resolution imagery",
+      "volume": "146",
+      "author": "Caballero",
+      "year": "2014",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "issue": "12",
+      "key": "10.1016/j.jag.2025.104676_b8",
+      "doi-asserted-by": "crossref",
+      "first-page": "2744",
+      "DOI": "10.3390/rs14122744",
+      "article-title": "Use of the sentinel-2 and landsat-8 satellites for water quality monitoring: An early warning tool in the mar menor coastal lagoon",
+      "volume": "14",
+      "author": "Caballero",
+      "year": "2022",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.jag.2025.104676_b9",
+      "doi-asserted-by": "crossref",
+      "first-page": "451",
+      "DOI": "10.3390/rs12030451",
+      "article-title": "Towards routine mapping of shallow bathymetry in environments with variable turbidity: Contribution of sentinel-2A/B satellites mission",
+      "volume": "12",
+      "author": "Caballero",
+      "year": "2020",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.jag.2025.104676_b10",
+      "doi-asserted-by": "crossref",
+      "first-page": "645",
+      "DOI": "10.3390/rs11060645",
+      "article-title": "Preliminary assessment of turbidity and chlorophyll impact on bathymetry derived from sentinel-2A and sentinel-3A satellites in south florida",
+      "volume": "11",
+      "author": "Caballero",
+      "year": "2019",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.jag.2025.104676_b11",
+      "doi-asserted-by": "crossref",
+      "first-page": "883",
+      "DOI": "10.1007/s12237-020-00834-w",
+      "article-title": "How plants influence resilience of salt marsh and mangrove wetlands to sea-level rise",
+      "volume": "44",
+      "author": "Cahoon",
+      "year": "2021",
+      "journal-title": "Estuaries Coasts"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b12",
+      "first-page": "74",
+      "article-title": "On safe ground? Analysis of European urban geohazards using satellite radar interferometry",
+      "volume": "58",
+      "author": "Capes",
+      "year": "2017",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "issue": "8",
+      "key": "10.1016/j.jag.2025.104676_b13",
+      "doi-asserted-by": "crossref",
+      "first-page": "1321",
+      "DOI": "10.3390/rs12081321",
+      "article-title": "Remote sensing of boreal wetlands 2: methods for evaluating boreal wetland ecosystem state and drivers of change",
+      "volume": "12",
+      "author": "Chasmer",
+      "year": "2020",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b14",
+      "article-title": "Temporal and spatial variation of coastline using remote sensing images for zhoushan archipelago, China",
+      "volume": "107",
+      "author": "Chen",
+      "year": "2022",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "issue": "6630",
+      "key": "10.1016/j.jag.2025.104676_b15",
+      "doi-asserted-by": "crossref",
+      "first-page": "253",
+      "DOI": "10.1038/387253a0",
+      "article-title": "The value of the world\u2019s ecosystem services and natural capital",
+      "volume": "387",
+      "author": "Costanza",
+      "year": "1997",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b16",
+      "series-title": "Satellite Based Intertidal-Zone Mapping from Sentinel-1&2",
+      "author": "Davids",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b17",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.rse.2024.114340",
+      "article-title": "Intertidal seagrass extent from sentinel-2 time-series show distinct trajectories in Western Europe",
+      "volume": "312",
+      "author": "Davies",
+      "year": "2024",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.jag.2025.104676_b18",
+      "doi-asserted-by": "crossref",
+      "first-page": "382",
+      "DOI": "10.1038/s43247-024-01543-z",
+      "article-title": "A sentinel watching over inter-tidal seagrass phenology across Western Europe and North Africa",
+      "volume": "5",
+      "author": "Davies",
+      "year": "2024",
+      "journal-title": "Commun. Earth Environ."
+    },
+    {
+      "issue": "11",
+      "key": "10.1016/j.jag.2025.104676_b19",
+      "doi-asserted-by": "crossref",
+      "first-page": "961",
+      "DOI": "10.1038/nclimate1970",
+      "article-title": "The role of coastal plant communities for climate change mitigation and adaptation",
+      "volume": "3",
+      "author": "Duarte",
+      "year": "2013",
+      "journal-title": "Nat. Clim. Chang."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.jag.2025.104676_b20",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2011RG000359",
+      "article-title": "Numerical models of salt marsh evolution: Ecological, geomorphic, and climatic factors",
+      "volume": "50",
+      "author": "Fagherazzi",
+      "year": "2012",
+      "journal-title": "Rev. Geophys."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b21",
+      "article-title": "A spatiotemporal framework to assess the bio-geomorphic interplay of saltmarsh vegetation and tidal emergence (Western scheldt estuary)",
+      "volume": "136",
+      "author": "Feng",
+      "year": "2025",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.jag.2025.104676_b22",
+      "doi-asserted-by": "crossref",
+      "first-page": "50",
+      "DOI": "10.3390/resources8010050",
+      "article-title": "Evaluating the response of mediterranean-atlantic saltmarshes to sea-level rise",
+      "volume": "8",
+      "author": "Fernandez-Nunez",
+      "year": "2019",
+      "journal-title": "Resources"
+    },
+    {
+      "issue": "1\u20132",
+      "key": "10.1016/j.jag.2025.104676_b23",
+      "doi-asserted-by": "crossref",
+      "first-page": "50",
+      "DOI": "10.1016/j.marchem.2008.12.002",
+      "article-title": "Benthic fluxes in a tidal salt marsh creek affected by fish farm activities: R\u00edo San Pedro (Bay of C\u00e1diz, SW Spain)",
+      "volume": "113",
+      "author": "Ferron",
+      "year": "2009",
+      "journal-title": "Mar. Chem."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b24",
+      "article-title": "Remotely sensed mapping of the intertidal zone: A sentinel-2 and google earth engine methodology",
+      "volume": "22",
+      "author": "Fitton",
+      "year": "2021",
+      "journal-title": "Remote. Sens. Appl.: Soc. Environ."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.jag.2025.104676_b25",
+      "doi-asserted-by": "crossref",
+      "first-page": "481",
+      "DOI": "10.1146/annurev-earth-082517-010255",
+      "article-title": "Marsh processes and their response to climate change and sea-level rise",
+      "volume": "47",
+      "author": "FitzGerald",
+      "year": "2019",
+      "journal-title": "Annu. Rev. Earth Planet. Sci."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.jag.2025.104676_b26",
+      "doi-asserted-by": "crossref",
+      "first-page": "178",
+      "DOI": "10.37934/arfmts.114.1.178187",
+      "article-title": "Spatial and temporal water pattern change detection through the normalized difference water index (NDWI) for initial flood assessment: a case study of Kuala Lumpur 1990 and 2021",
+      "volume": "114",
+      "author": "Ghalehteimouri",
+      "year": "2024",
+      "journal-title": "J. Adv. Res. Fluid Mech. Therm. Sci."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b27",
+      "article-title": "Predicting spatial and decadal of land use and land cover change using integrated cellular automata Markov chain model based scenarios (2019\u20132049) Zarrin\u00e9-r\u016bd river Basin in Iran",
+      "volume": "6",
+      "author": "Ghalehteimouri",
+      "year": "2022",
+      "journal-title": "Environ. Challenges"
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.jag.2025.104676_b28",
+      "doi-asserted-by": "crossref",
+      "first-page": "32",
+      "DOI": "10.1007/s41651-024-00189-x",
+      "article-title": "Impact of urban expansion on the formation of urban heat islands in Isfahan, Iran: a satellite base analysis (1990\u20132019)",
+      "volume": "8",
+      "author": "Golestani",
+      "year": "2024",
+      "journal-title": "J. Geovisualization Spat. Anal."
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.jag.2025.104676_b29",
+      "doi-asserted-by": "crossref",
+      "first-page": "320",
+      "DOI": "10.3390/rs13020320",
+      "article-title": "Using sentinel-2 images to estimate topography, tidal-stage lags and exposure periods over large intertidal areas",
+      "volume": "13",
+      "author": "Granadeiro",
+      "year": "2021",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b30",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2021.149983",
+      "article-title": "Microphytobenthos spatio-temporal dynamics across an intertidal gradient using random forest classification and sentinel-2 imagery",
+      "volume": "804",
+      "author": "Haro",
+      "year": "2022",
+      "journal-title": "Sci. Total Environ."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b31",
+      "series-title": "Hyperspectral Remote Sensing and Analysis of Intertidal Zones: A Contribution to Monitor Coastal Biodiversity",
+      "author": "Hennig",
+      "year": "2007"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b32",
+      "doi-asserted-by": "crossref",
+      "first-page": "36",
+      "DOI": "10.1016/j.ecoser.2018.01.006",
+      "article-title": "Valuing ecosystem services from blue forests: A systematic review of the valuation of salt marshes, sea grass beds and mangrove forests",
+      "volume": "30",
+      "author": "Himes-Cornell",
+      "year": "2018",
+      "journal-title": "Ecosyst. Serv."
+    },
+    {
+      "issue": "24",
+      "key": "10.1016/j.jag.2025.104676_b33",
+      "doi-asserted-by": "crossref",
+      "first-page": "2888",
+      "DOI": "10.3390/rs11242888",
+      "article-title": "High-resolution intertidal topography from sentinel-2 multi-spectral imagery: synergy between remote sensing and numerical modeling",
+      "volume": "11",
+      "author": "Khan",
+      "year": "2019",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.jag.2025.104676_b34",
+      "doi-asserted-by": "crossref",
+      "first-page": "4366",
+      "DOI": "10.1002/2016GL068507",
+      "article-title": "Sea level driven marsh expansion in a coupled model of marsh erosion and migration",
+      "volume": "43",
+      "author": "Kirwan",
+      "year": "2016",
+      "journal-title": "Geophys. Res. Lett."
+    },
+    {
+      "issue": "13",
+      "key": "10.1016/j.jag.2025.104676_b35",
+      "doi-asserted-by": "crossref",
+      "first-page": "3000",
+      "DOI": "10.3390/rs14133000",
+      "article-title": "Remote sensing of coastal vegetation phenology in a cold temperate intertidal system: implications for classification of coastal habitats",
+      "volume": "14",
+      "author": "L\u00e9gar\u00e9",
+      "year": "2022",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.jag.2025.104676_b36",
+      "doi-asserted-by": "crossref",
+      "first-page": "1425",
+      "DOI": "10.1080/01431169608948714",
+      "article-title": "The use of the normalized difference water index (NDWI) in the delineation of open water features",
+      "volume": "17",
+      "author": "McFeeters",
+      "year": "1996",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.jag.2025.104676_b37",
+      "doi-asserted-by": "crossref",
+      "first-page": "17",
+      "DOI": "10.1177/0956247807076960",
+      "article-title": "The rising tide: assessing the risks of climate change and human settlements in low elevation coastal zones",
+      "volume": "19",
+      "author": "McGranahan",
+      "year": "2007",
+      "journal-title": "Environ. Urban."
+    },
+    {
+      "issue": "2",
+      "key": "10.1016/j.jag.2025.104676_b38",
+      "first-page": "309",
+      "article-title": "Multi-criteria analysis-based mapping of the cyclone-induced pluvial flooding in coastal areas of India",
+      "volume": "6",
+      "author": "Mohseni",
+      "year": "2025",
+      "journal-title": "DYSONA- Appl. Sci."
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.jag.2025.104676_b39",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1371/journal.pone.0118571",
+      "article-title": "Future coastal population growth and exposure to sea-level rise and coastal flooding-a global assessment",
+      "volume": "10",
+      "author": "Neumann",
+      "year": "2015",
+      "journal-title": "PloS One"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b40",
+      "series-title": "Science and Instruments",
+      "article-title": "Earth science satellite remote sensing",
+      "author": "Qu",
+      "year": "2006"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b41",
+      "first-page": "309",
+      "article-title": "Monitoring vegetation systems in the great plains with ERTS",
+      "volume": "vol. 1",
+      "author": "Rouse",
+      "year": "1974"
+    },
+    {
+      "issue": "8",
+      "key": "10.1016/j.jag.2025.104676_b42",
+      "doi-asserted-by": "crossref",
+      "first-page": "1446",
+      "DOI": "10.1007/s11367-022-02032-1",
+      "article-title": "Toward a framework for selecting indicators of measuring sustainability and circular economy in the agri-food sector: a systematic literature review",
+      "volume": "29",
+      "author": "Silvestri",
+      "year": "2024",
+      "journal-title": "Int. J. Life Cycle Assess."
+    },
+    {
+      "issue": "7478",
+      "key": "10.1016/j.jag.2025.104676_b43",
+      "doi-asserted-by": "crossref",
+      "first-page": "79",
+      "DOI": "10.1038/nature12859",
+      "article-title": "Ecosystem-based coastal defence in the face of global change",
+      "volume": "504",
+      "author": "Temmerman",
+      "year": "2013",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b44",
+      "article-title": "Monitoring multidecadal coastline change and reconstructing tidal flat topography",
+      "volume": "118",
+      "author": "Tsai",
+      "year": "2023",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b45",
+      "series-title": "Global Coastal Change",
+      "author": "Valiela",
+      "year": "2009"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b46",
+      "doi-asserted-by": "crossref",
+      "first-page": "1148",
+      "DOI": "10.1016/j.scitotenv.2018.05.235",
+      "article-title": "Transient coastal landscapes: rising sea level threatens salt marshes",
+      "volume": "640",
+      "author": "Valiela",
+      "year": "2018",
+      "journal-title": "Sci. Total Environ."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b47",
+      "doi-asserted-by": "crossref",
+      "first-page": "586",
+      "DOI": "10.1016/j.rse.2018.07.015",
+      "article-title": "Atmospheric correction of metre-scale optical satellite data for inland and coastal water applications",
+      "volume": "216",
+      "author": "Vanhellemont",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "issue": "18",
+      "key": "10.1016/j.jag.2025.104676_b48",
+      "doi-asserted-by": "crossref",
+      "first-page": "2186",
+      "DOI": "10.3390/rs11182186",
+      "article-title": "Automatic methodology to detect the coastline from landsat images with a new water index assessed on three different Spanish Mediterranean deltas",
+      "volume": "11",
+      "author": "Via\u00f1a-Borja",
+      "year": "2019",
+      "journal-title": "Remote. Sens."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b49",
+      "article-title": "MFI: A mudflat index based on hyperspectral satellite images for mapping coastal mudflats",
+      "volume": "133",
+      "author": "Yang",
+      "year": "2024",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b50",
+      "doi-asserted-by": "crossref",
+      "first-page": "88",
+      "DOI": "10.1016/j.energy.2017.12.117",
+      "article-title": "Impact of human interventions on tidal stream power: The case of C\u00e1diz Bay",
+      "volume": "145",
+      "author": "Zarzuelo",
+      "year": "2018",
+      "journal-title": "Energy"
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.jag.2025.104676_b51",
+      "doi-asserted-by": "crossref",
+      "first-page": "1907",
+      "DOI": "10.3390/w12071907",
+      "article-title": "Beyond human interventions on complex bays: Effects on water and wave dynamics (study case C\u00e1diz Bay, Spain)",
+      "volume": "12",
+      "author": "Zarzuelo",
+      "year": "2020",
+      "journal-title": "Water"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b52",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.coastaleng.2022.104093",
+      "article-title": "Bridge-piling modifications on tidal flows in an estuary",
+      "volume": "173",
+      "author": "Zarzuelo",
+      "year": "2022",
+      "journal-title": "Coast. Eng."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b53",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.oceaneng.2023.113746",
+      "article-title": "Bridge-piling modifications on the momentum balance in an estuary: The role of tides, winds and seasonality",
+      "volume": "271",
+      "author": "Zarzuelo",
+      "year": "2023",
+      "journal-title": "Ocean Eng."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b54",
+      "article-title": "A phenology-based vegetation index classification (PVC) algorithm for coastal salt marshes using landsat 8 images",
+      "volume": "110",
+      "author": "Zeng",
+      "year": "2022",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b55",
+      "article-title": "Scale effects in mangrove mapping from ultra-high-resolution remote sensing imagery",
+      "volume": "136",
+      "author": "Zhang",
+      "year": "2025",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b56",
+      "series-title": "Mapping tidal flat topography using time-series sentinel-2 images and ICESat-2 data: A case study in Cixi city",
+      "author": "Zheng",
+      "year": "2023"
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b57",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.ecolind.2021.108033",
+      "article-title": "Decadal increase in the ecological status of a North-Atlantic intertidal seagrass meadow observed with multi-mission satellite time-series",
+      "volume": "130",
+      "author": "Zoffoli",
+      "year": "2021",
+      "journal-title": "Ecol. Indic."
+    },
+    {
+      "key": "10.1016/j.jag.2025.104676_b58",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.rse.2020.112020",
+      "article-title": "Sentinel-2 remote sensing of Zostera noltei-dominated intertidal seagrass meadows",
+      "volume": "251",
+      "author": "Zoffoli",
+      "year": "2020",
+      "journal-title": "Remote Sens. Environ."
+    }
+  ],
+  "container-title": [
+    "International Journal of Applied Earth Observation and Geoinformation"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1569843225003231?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S1569843225003231?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        11,
+        7
+      ]
+    ],
+    "date-time": "2025-11-07T22:12:19Z",
+    "timestamp": 1762553539000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1569843225003231"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2025,
+        8
+      ]
+    ]
+  },
+  "references-count": 58,
+  "alternative-id": [
+    "S1569843225003231"
+  ],
+  "URL": "https://doi.org/10.1016/j.jag.2025.104676",
+  "relation": {},
+  "ISSN": [
+    "1569-8432"
+  ],
+  "issn-type": [
+    {
+      "value": "1569-8432",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2025,
+        8
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Monitoring intertidal ecosystems: Assessing spatio\u2013temporal variability with Sentinel-2 and Landsat 8",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "International Journal of Applied Earth Observation and Geoinformation",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.jag.2025.104676",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "\u00a9 2025 The Authors. Published by Elsevier B.V.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "104676"
+}

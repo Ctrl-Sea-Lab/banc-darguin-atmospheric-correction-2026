@@ -1,0 +1,1537 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        13
+      ]
+    ],
+    "date-time": "2026-01-13T04:12:12Z",
+    "timestamp": 1768277532861,
+    "version": "3.49.0"
+  },
+  "reference-count": 117,
+  "publisher": "MDPI AG",
+  "issue": "14",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            7,
+            6
+          ]
+        ],
+        "date-time": "2022-07-06T00:00:00Z",
+        "timestamp": 1657065600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "MAVA Foundation",
+      "award": [
+        "UIDP/50017/2020"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "UIDP/50017/2020"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAVA Foundation",
+      "award": [
+        "UIDB/50017/2020"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "UIDB/50017/2020"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAVA Foundation",
+      "award": [
+        "LA/P/0094/2020"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "LA/P/0094/2020"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAVA Foundation",
+      "award": [
+        "PTDC/BIA/ECO/28205/2017"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "PTDC/BIA/ECO/28205/2017"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAVA Foundation",
+      "award": [
+        "SFRH/BD/131148/2017"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "SFRH/BD/131148/2017"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAVA Foundation",
+      "award": [
+        "COVID/BD/151924/2021"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "COVID/BD/151924/2021"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia (FCT Portugal)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "UIDP/50017/2020"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "UIDP/50017/2020"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia (FCT Portugal)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "UIDB/50017/2020"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "UIDB/50017/2020"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia (FCT Portugal)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "LA/P/0094/2020"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "LA/P/0094/2020"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia (FCT Portugal)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "PTDC/BIA/ECO/28205/2017"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "PTDC/BIA/ECO/28205/2017"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia (FCT Portugal)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "SFRH/BD/131148/2017"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "SFRH/BD/131148/2017"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e Tecnologia (FCT Portugal)",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "COVID/BD/151924/2021"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "COVID/BD/151924/2021"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "abstract": "<jats:p>Migratory shorebirds are notable consumers of benthic invertebrates on intertidal sediments. The distribution and abundance of shorebirds will strongly depend on their prey and on landscape and sediment features such as mud and surface water content, topography, and the presence of ecosystem engineers. An understanding of shorebird distribution and ecology thus requires knowledge of the various habitat types which may be distinguished in intertidal areas. Here, we combine Sentinel-1 and Sentinel-2 imagery and a digital elevation model (DEM), using machine learning techniques to map intertidal habitat types of importance to migratory shorebirds and their benthic prey. We do this on the third most important non-breeding area for migratory shorebirds in the East Atlantic Flyway, in the Bijag\u00f3s Archipelago in West Africa. Using pixel-level random forests, we successfully mapped rocks, shell beds, and macroalgae and distinguished between areas of bare sediment and areas occupied by fiddler crabs, an ecosystem engineer that promotes significant bioturbation on intertidal flats. We also classified two sediment types (sandy and mixed) within the bare sediment and fiddler crab areas, according to their mud content. The overall classification accuracy was 82%, and the Kappa Coefficient was 73%. The most important predictors were elevation, the Sentinel-2-derived water and moisture indexes, and Sentinel-1 VH band. The association of Sentinel-2 with Sentinel-1 and a DEM produced the best results compared to the models without these variables. This map provides an overall picture of the composition of the intertidal habitats in a site of international importance for migratory shorebirds. Most of the intertidal flats of the Bijag\u00f3s Archipelago are covered by bare sandy sediments (59%), and ca. 22% is occupied by fiddler crabs. This likely has significant implications for the spatial arrangement of the shorebird and benthic invertebrate communities due to the ecosystem engineering by the fiddler crabs, which promotes two vastly different intertidal species assemblages. This large-scale mapping provides an important product for the future monitoring of this high biodiversity area, particularly for ecological research related to the distribution and feeding ecology of the shorebirds and their prey. Such information is key from a conservation and management perspective. By delivering a successful and comprehensive mapping workflow, we contribute to the filling of the current knowledge gap on the application of remote sensing and machine learning techniques within intertidal areas, which are among the most challenging environments to map using remote sensing techniques.</jats:p>",
+  "DOI": "10.3390/rs14143260",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        6
+      ]
+    ],
+    "date-time": "2022-07-06T21:15:52Z",
+    "timestamp": 1657142152000
+  },
+  "page": "3260",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 22,
+  "title": "Combining Multispectral and Radar Imagery with Machine Learning Techniques to Map Intertidal Habitats for Migratory Shorebirds",
+  "prefix": "10.3390",
+  "volume": "14",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-3061-5423",
+      "authenticated-orcid": false,
+      "given": "Mohamed",
+      "family": "Henriques",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Center for Environmental and Marine Studies (CESAM), Department of Animal Biology, Faculty of Sciences, University of Lisbon, 1749-016 Lisbon, Portugal"
+        },
+        {
+          "name": "Conservation Ecology Group, Groningen Institute for Evolutionary Life Sciences, University of Groningen, 9700 CC Groningen, The Netherlands"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4047-9995",
+      "authenticated-orcid": false,
+      "given": "Teresa",
+      "family": "Catry",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Center for Environmental and Marine Studies (CESAM), Department of Animal Biology, Faculty of Sciences, University of Lisbon, 1749-016 Lisbon, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1772-8367",
+      "authenticated-orcid": false,
+      "given": "Jo\u00e3o Ricardo",
+      "family": "Belo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Center for Environmental and Marine Studies (CESAM), Department of Animal Biology, Faculty of Sciences, University of Lisbon, 1749-016 Lisbon, Portugal"
+        },
+        {
+          "name": "Conservation Ecology Group, Groningen Institute for Evolutionary Life Sciences, University of Groningen, 9700 CC Groningen, The Netherlands"
+        },
+        {
+          "name": "Center for Environmental and Marine Studies (CESAM), Department of Biology, University of Aveiro, 3810-193 Aveiro, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Theunis",
+      "family": "Piersma",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Conservation Ecology Group, Groningen Institute for Evolutionary Life Sciences, University of Groningen, 9700 CC Groningen, The Netherlands"
+        },
+        {
+          "name": "Department of Coastal Systems, NIOZ-Royal Netherlands Institute for Sea Research, 1797 SZ Texel, The Netherlands"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "given": "Samuel",
+      "family": "Pontes",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Instituto da Biodiversidade e \u00c1reas Protegidas Dr. Alfredo Sim\u00e3o da Silva-IBAP, Bissau, Guinea-Bissau"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-7207-3474",
+      "authenticated-orcid": false,
+      "given": "Jos\u00e9 Pedro",
+      "family": "Granadeiro",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Center for Environmental and Marine Studies (CESAM), Department of Animal Biology, Faculty of Sciences, University of Lisbon, 1749-016 Lisbon, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "role": "author",
+          "vocabulary": "crossref"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        6
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "doi-asserted-by": "crossref",
+      "first-page": "222",
+      "DOI": "10.1038/s41586-018-0805-8",
+      "article-title": "The global distribution and trajectory of tidal flats",
+      "volume": "565",
+      "author": "Murray",
+      "year": "2019",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Beninger, P.G. (2018). Mudflat Ecology, Springer International Publishing. Aquatic, Ec.",
+      "DOI": "10.1007/978-3-319-99194-8"
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "20152326",
+      "DOI": "10.1098/rspb.2015.2326",
+      "article-title": "How habitat-modifying organisms structure the food web of two coastal ecosystems",
+      "volume": "283",
+      "author": "Angelini",
+      "year": "2016",
+      "journal-title": "Proc. R. Soc. B Biol. Sci."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "1143",
+      "DOI": "10.1890/11-1282.1",
+      "article-title": "Trophic cascade induced by molluscivore predator alters pore-water biogeochemistry via competitive release of prey",
+      "volume": "93",
+      "author": "Jansen",
+      "year": "2012",
+      "journal-title": "Ecology"
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "685",
+      "DOI": "10.3389/fmars.2020.00685",
+      "article-title": "Shorebirds Affect Ecosystem Functioning on an Intertidal Mudflat",
+      "volume": "7",
+      "author": "Booty",
+      "year": "2020",
+      "journal-title": "Front. Mar. Sci."
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "unstructured": "van de Kam, J., Ens, B., Piersma, T., and Zwarts, L. (2004). Shorebirds: An Illustrated Behavioural Ecology, KNNV Publishers.",
+      "DOI": "10.1163/9789004277991"
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "52",
+      "DOI": "10.1016/j.seares.2017.08.004",
+      "article-title": "Diet and feeding ecology of the wintering shorebird assemblage in the Bijag\u00f3s archipelago, Guinea-Bissau",
+      "volume": "128",
+      "author": "Catry",
+      "year": "2017",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "ref_8",
+      "unstructured": "Boere, G.C., Galbraith, C.A., and Stroud, D.A. (2006). The conservation and population status of the world\u2019s waders at the turn of the millennium In Waterbirds around the World, The Stationery Office."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "first-page": "663",
+      "DOI": "10.1111/j.1474-919X.2012.01261.x",
+      "article-title": "A horizon scanning assessment of current and potential future threats to migratory shorebirds",
+      "volume": "154",
+      "author": "Sutherland",
+      "year": "2012",
+      "journal-title": "Ibis"
+    },
+    {
+      "key": "ref_10",
+      "unstructured": "Van Roomen, M., Nagy, S., Citegetse, G., and Schekkerman, H. (2018). East Atlantic Flyway Assessment 2017: The Status of Coastal Waterbird Populations and Their Sites, BirdLife International. Wadden Sea Flyway Initiative; Wetlands International."
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "618",
+      "DOI": "10.1017/S0959270919000431",
+      "article-title": "Changes in the waterbird community of the Parc National du Banc d\u2019Arguin, Mauritania, 1980\u20132017",
+      "volume": "30",
+      "author": "Oudman",
+      "year": "2020",
+      "journal-title": "Bird Conserv. Int."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "first-page": "819",
+      "DOI": "10.1126/science.aad6351",
+      "article-title": "Body shrinkage due to Arctic warming reduces red knot fitness in tropical wintering range",
+      "volume": "352",
+      "author": "Lisovski",
+      "year": "2016",
+      "journal-title": "Science"
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "first-page": "4263",
+      "DOI": "10.1038/s41467-018-06673-5",
+      "article-title": "Fuelling conditions at staging sites can mitigate Arctic warming effects in a migratory bird",
+      "volume": "9",
+      "author": "Rakhimberdiev",
+      "year": "2018",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "ref_14",
+      "first-page": "137",
+      "article-title": "Wintering waders in the Bijagos Archipelago, Guinee-Bissau 1992\u20131993",
+      "volume": "82",
+      "author": "Salvig",
+      "year": "1994",
+      "journal-title": "Ardea"
+    },
+    {
+      "key": "ref_15",
+      "first-page": "42",
+      "article-title": "Numbers and distribution of coastal waders in guinea-bissau",
+      "volume": "76",
+      "author": "Zwarts",
+      "year": "1988",
+      "journal-title": "Ardea"
+    },
+    {
+      "key": "ref_16",
+      "unstructured": "van Roomen, M., Citegetse, G., Crowe, O., Dodman, T., Hagemeijer, W., Meise, K., and Schekkerman, H. (2022). The Bijag\u00f3s Archipelago: A key area for waterbirds of the East Atlantic Flyway. East Atlantic Flyway Assessment 2020: The Status of Coastal Waterbird Populations and Their Sites, BirdLife International."
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Fuller, R. (2012). What is Habitat Quality? Dissecting a Research Portfolio on Shorebirds. Birds and Habitat: Relationships in Changing Landscapes, Cambridge University Press.",
+      "DOI": "10.1017/CBO9781139021654"
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "197",
+      "DOI": "10.1007/s10750-018-3584-1",
+      "article-title": "Low macroinvertebrate biomass suggests limited food availability for shorebird communities in intertidal areas of the Bijag\u00f3s archipelago (Guinea-Bissau)",
+      "volume": "816",
+      "author": "Granadeiro",
+      "year": "2018",
+      "journal-title": "Hydrobiologia"
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "103",
+      "DOI": "10.1016/j.seares.2013.02.002",
+      "article-title": "Distinctly variable mudscapes: Distribution gradients of intertidal macrofauna across the Dutch Wadden Sea",
+      "volume": "82",
+      "author": "Compton",
+      "year": "2013",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.1007/s10750-005-1109-1",
+      "article-title": "Spatial Patterns of Benthic Macroinvertebrates in Intertidal Areas of a Southern European Estuary: The Tagus, Portugal",
+      "volume": "555",
+      "author": "Rodrigues",
+      "year": "2006",
+      "journal-title": "Hydrobiologia"
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "first-page": "92",
+      "DOI": "10.1016/j.seares.2013.07.010",
+      "article-title": "Organisms as cooperative ecosystem engineers in intertidal flats",
+      "volume": "92",
+      "author": "Passarelli",
+      "year": "2014",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "first-page": "67",
+      "DOI": "10.3354/meps12355",
+      "article-title": "Intertidal macroalgae influence macroinvertebrate distribution across stress scenarios",
+      "volume": "584",
+      "author": "Umanzor",
+      "year": "2017",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "256",
+      "DOI": "10.1016/j.ecoleng.2016.12.011",
+      "article-title": "The relationship between intertidal soil composition and fiddler crab burrow depth",
+      "volume": "100",
+      "author": "Chen",
+      "year": "2017",
+      "journal-title": "Ecol. Eng."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "753",
+      "DOI": "10.1111/oik.05261",
+      "article-title": "Large-scale ecosystem engineering by flamingos and fiddler crabs on West-African intertidal flats promote joint food availability",
+      "volume": "128",
+      "author": "Bouma",
+      "year": "2019",
+      "journal-title": "Oikos"
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "first-page": "3905",
+      "DOI": "10.1007/s10750-021-04601-1",
+      "article-title": "Composition and abundance of shorebird and macroinvertebrate communities differ according to densities of burrowing fiddler crabs in tropical intertidal flats",
+      "volume": "848",
+      "author": "Paulino",
+      "year": "2021",
+      "journal-title": "Hydrobiologia"
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Mathot, K.J., Piersma, T., and Elner, R.W. (2018). Shorebirds as Integrators and Indicators of Mudflat Ecology. Mudflat Ecology, Springer.",
+      "DOI": "10.1007/978-3-319-99194-8_12"
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "first-page": "147061",
+      "DOI": "10.1016/j.scitotenv.2021.147061",
+      "article-title": "Mapping typical salt-marsh species in the Yellow River Delta wetland supported by temporal-spatial-spectral multidimensional features",
+      "volume": "783",
+      "author": "Zhang",
+      "year": "2021",
+      "journal-title": "Sci. Total Environ."
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "first-page": "112020",
+      "DOI": "10.1016/j.rse.2020.112020",
+      "article-title": "Sentinel-2 remote sensing of Zostera noltei-dominated intertidal seagrass meadows",
+      "volume": "251",
+      "author": "Zoffoli",
+      "year": "2020",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_29",
+      "first-page": "102419",
+      "article-title": "Mapping coastal marine ecosystems of the National Park of Banc d\u2019Arguin (PNBA) in Mauritania using Sentinel-2 imagery",
+      "volume": "102",
+      "author": "Pottier",
+      "year": "2021",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "ref_30",
+      "doi-asserted-by": "crossref",
+      "first-page": "32",
+      "DOI": "10.1016/j.ecss.2014.01.007",
+      "article-title": "Multi-frequency SAR data help improving the monitoring of intertidal flats on the German North Sea coast",
+      "volume": "140",
+      "author": "Gade",
+      "year": "2014",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "first-page": "125",
+      "DOI": "10.1016/j.ecss.2010.03.019",
+      "article-title": "Quantitative estimation of intertidal sediment characteristics using remote sensing and GIS",
+      "volume": "88",
+      "author": "Choi",
+      "year": "2010",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_32",
+      "doi-asserted-by": "crossref",
+      "first-page": "1191",
+      "DOI": "10.5194/isprs-archives-XLI-B8-1191-2016",
+      "article-title": "Random forest classification of sediments on exposed intertidal flats using ALOS-2 quad-polarimetric SAR data",
+      "volume": "41",
+      "author": "Wang",
+      "year": "2016",
+      "journal-title": "Int. Arch. Photogramm. Remote Sens. Spat. Inf. Sci."
+    },
+    {
+      "key": "ref_33",
+      "doi-asserted-by": "crossref",
+      "first-page": "564",
+      "DOI": "10.1016/j.marpolbul.2010.11.028",
+      "article-title": "Macrobenthos habitat mapping in a tidal flat using remotely sensed data and a GIS-based probabilistic model",
+      "volume": "62",
+      "author": "Choi",
+      "year": "2011",
+      "journal-title": "Mar. Pollut. Bull."
+    },
+    {
+      "key": "ref_34",
+      "doi-asserted-by": "crossref",
+      "first-page": "595",
+      "DOI": "10.1007/s10661-016-5591-x",
+      "article-title": "Remotely sensing the German Wadden Sea\u2014A new approach to address national and international environmental legislation",
+      "volume": "188",
+      "author": "Stelzer",
+      "year": "2016",
+      "journal-title": "Environ. Monit. Assess."
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "759",
+      "DOI": "10.2112/05-0453.1",
+      "article-title": "Mapping migratory wading bird feeding habitats using satellite imagery and field data, Eighty-Mile Beach, Western Australia",
+      "volume": "24",
+      "author": "Wade",
+      "year": "2008",
+      "journal-title": "J. Coast. Res."
+    },
+    {
+      "key": "ref_36",
+      "doi-asserted-by": "crossref",
+      "first-page": "13810",
+      "DOI": "10.1002/ece3.6971",
+      "article-title": "Retraction of invasive Spartina alterniflora and its effect on the habitat loss of endangered migratory bird species and their decline in YNNR using remote sensing technology",
+      "volume": "10",
+      "author": "Okoye",
+      "year": "2020",
+      "journal-title": "Ecol. Evol."
+    },
+    {
+      "key": "ref_37",
+      "doi-asserted-by": "crossref",
+      "first-page": "111549",
+      "DOI": "10.1016/j.jenvman.2020.111549",
+      "article-title": "Dual threat of tidal flat loss and invasive Spartina alterniflora endanger important shorebird habitat in coastal mainland China",
+      "volume": "278",
+      "author": "Jackson",
+      "year": "2021",
+      "journal-title": "J. Environ. Manage."
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "first-page": "117",
+      "DOI": "10.1093/condor/105.1.117",
+      "article-title": "Winter shorebird communities and tidal flat characteristics at Humboldt Bay, California",
+      "volume": "105",
+      "author": "Danufsky",
+      "year": "2003",
+      "journal-title": "Condor"
+    },
+    {
+      "key": "ref_39",
+      "doi-asserted-by": "crossref",
+      "first-page": "55",
+      "DOI": "10.14430/arctic1091",
+      "article-title": "The Use of Remote Sensing to Evaluate Shorebird Habitats and Populations on Prince Charles Island, Foxe Basin, Canada",
+      "volume": "50",
+      "author": "Morrison",
+      "year": "1997",
+      "journal-title": "Arctic"
+    },
+    {
+      "key": "ref_40",
+      "doi-asserted-by": "crossref",
+      "first-page": "219",
+      "DOI": "10.1016/j.ecss.2018.07.010",
+      "article-title": "Mapping the conservation priority of migratory shorebird habitat on a dynamic deltaic coast",
+      "volume": "212",
+      "author": "Zhang",
+      "year": "2018",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_41",
+      "doi-asserted-by": "crossref",
+      "first-page": "849",
+      "DOI": "10.1111/2041-210X.12942",
+      "article-title": "Better together: Integrating and fusing multispectral and radar satellite imagery to inform biodiversity monitoring, ecological research and conservation science",
+      "volume": "9",
+      "author": "Pettorelli",
+      "year": "2018",
+      "journal-title": "Methods Ecol. Evol."
+    },
+    {
+      "key": "ref_42",
+      "unstructured": "ESA (2021, December 12). The European Space Agency. Available online: https://sentinels.copernicus.eu/."
+    },
+    {
+      "key": "ref_43",
+      "doi-asserted-by": "crossref",
+      "first-page": "188",
+      "DOI": "10.1016/j.rse.2015.09.018",
+      "article-title": "A multi-sensor approach for detecting the different land covers of tidal flats in the German Wadden Sea\u2014A case study at Norderney",
+      "volume": "170",
+      "author": "Jung",
+      "year": "2015",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_44",
+      "doi-asserted-by": "crossref",
+      "first-page": "315",
+      "DOI": "10.1016/j.rse.2017.12.004",
+      "article-title": "On the imaging of exposed intertidal flats by single- and dual-co-polarization Synthetic Aperture Radar",
+      "volume": "205",
+      "author": "Gade",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_45",
+      "doi-asserted-by": "crossref",
+      "first-page": "5",
+      "DOI": "10.1023/A:1010933404324",
+      "article-title": "Random Forests",
+      "volume": "45",
+      "author": "Breiman",
+      "year": "2001",
+      "journal-title": "Mach. Learn."
+    },
+    {
+      "key": "ref_46",
+      "doi-asserted-by": "crossref",
+      "first-page": "24",
+      "DOI": "10.1016/j.isprsjprs.2016.01.011",
+      "article-title": "Random forest in remote sensing: A review of applications and future directions",
+      "volume": "114",
+      "author": "Belgiu",
+      "year": "2016",
+      "journal-title": "ISPRS J. Photogramm. Remote Sens."
+    },
+    {
+      "key": "ref_47",
+      "doi-asserted-by": "crossref",
+      "first-page": "89",
+      "DOI": "10.1016/j.rse.2016.02.028",
+      "article-title": "A meta-analysis of remote sensing research on supervised pixel-based land-cover image classification processes: General guidelines for practitioners and future research",
+      "volume": "177",
+      "author": "Khatami",
+      "year": "2016",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_48",
+      "doi-asserted-by": "crossref",
+      "first-page": "112105",
+      "DOI": "10.1016/j.rse.2020.112105",
+      "article-title": "Improving land cover classification in an urbanized coastal area by random forests: The role of variable selection",
+      "volume": "251",
+      "author": "Zhang",
+      "year": "2020",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_49",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Finlayson, C.M., Milton, G.R., Prentice, R.C., and Davidson, N.C. (2017). Bijagos Archipelago (Guinea-Bissau). The Wetland Book. II: Distribution, Description, and Conservation, Springer.",
+      "DOI": "10.1007/978-94-007-6173-5"
+    },
+    {
+      "key": "ref_50",
+      "unstructured": "Cuq, F., Campredon, P., Giraudet, J., Giraudet, E., Gourmelon, F., Pennober, G., and Sim\u00e3o da Silva, A. (2001). Un Syst\u00e8me D\u2019information G\u00e9ographique Pour L\u2019aide \u00e0 la Gestion Int\u00e9gr\u00e9e de L\u2019archipel des Bijagos (Guin\u00e9e-Bissau): Notice de la Carte, Constitution et Exploitation du SIG, Laboratoire G\u00e9osyst\u00e8mes."
+    },
+    {
+      "key": "ref_51",
+      "unstructured": "Pennober, G. (1999). Analyse Spatiale de L\u2019environnement C\u00f4tier de L\u2019archipel des Bijagos (Guin\u00e9e Bissau). [Ph.D. Thesis, Universit\u00e9 de Bretagne Occidentale]."
+    },
+    {
+      "key": "ref_52",
+      "doi-asserted-by": "crossref",
+      "first-page": "307",
+      "DOI": "10.1007/s10745-017-9907-4",
+      "article-title": "The Social Dynamics of Mangrove Forests in Guinea-Bissau, West Africa",
+      "volume": "45",
+      "author": "Temudo",
+      "year": "2017",
+      "journal-title": "Hum. Ecol."
+    },
+    {
+      "key": "ref_53",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pennober, G. (2003). Dynamique Littorale d\u2019un Delta Estuarien: Les Bijagos (Guin\u00e9e-Bissau), Institut de G\u00e9ographie et D\u2019am\u00e9nagement R\u00e9gional.",
+      "DOI": "10.3406/canan.2003.1088"
+    },
+    {
+      "key": "ref_54",
+      "doi-asserted-by": "crossref",
+      "first-page": "227",
+      "DOI": "10.1016/j.seares.2004.01.005",
+      "article-title": "Modelling the distribution of shorebirds in estuarine areas using generalised additive models",
+      "volume": "52",
+      "author": "Granadeiro",
+      "year": "2004",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "ref_55",
+      "doi-asserted-by": "crossref",
+      "first-page": "120",
+      "DOI": "10.1016/j.ecss.2016.05.023",
+      "article-title": "How do macrobenthic resources concentrate foraging waders in large megatidal sandflats?",
+      "volume": "178",
+      "author": "Ponsero",
+      "year": "2016",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_56",
+      "doi-asserted-by": "crossref",
+      "first-page": "381",
+      "DOI": "10.1016/j.ecss.2008.09.001",
+      "article-title": "Prey versus substrate as determinants of habitat choice in a feeding shorebird",
+      "volume": "80",
+      "author": "Finn",
+      "year": "2008",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_57",
+      "doi-asserted-by": "crossref",
+      "first-page": "223",
+      "DOI": "10.3354/meps10212",
+      "article-title": "Role of disturbance, geology and other environmental factors in determining abundance and diversity in coastal avian communities during winter",
+      "volume": "479",
+      "author": "Catry",
+      "year": "2013",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "ref_58",
+      "doi-asserted-by": "crossref",
+      "first-page": "917",
+      "DOI": "10.1007/s12237-014-9862-x",
+      "article-title": "Macroalgal Mats in a Eutrophic Estuary Obscure Visual Foraging Cues and Increase Variability in Prey Availability for Some Shorebirds",
+      "volume": "38",
+      "author": "Green",
+      "year": "2015",
+      "journal-title": "Estuaries and Coasts"
+    },
+    {
+      "key": "ref_59",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Besterman, A.F., Karpanty, S.M., and Pace, M.L. (2020). Impact of exotic macroalga on shorebirds varies with foraging specialization and spatial scale. PLoS ONE, 15.",
+      "DOI": "10.1371/journal.pone.0231337"
+    },
+    {
+      "key": "ref_60",
+      "doi-asserted-by": "crossref",
+      "first-page": "253",
+      "DOI": "10.1016/0022-0981(94)90030-2",
+      "article-title": "Macroalgae in marine soft-sediment communities: Effects on benthic faunal assemblages",
+      "volume": "175",
+      "author": "Everett",
+      "year": "1994",
+      "journal-title": "J. Exp. Mar. Bio. Ecol."
+    },
+    {
+      "key": "ref_61",
+      "doi-asserted-by": "crossref",
+      "first-page": "23",
+      "DOI": "10.1016/j.csr.2018.09.002",
+      "article-title": "Environmental and sediment conditions, infaunal benthic communities and biodiversity in the Celtic Sea",
+      "volume": "185",
+      "author": "Somerfield",
+      "year": "2019",
+      "journal-title": "Cont. Shelf Res."
+    },
+    {
+      "key": "ref_62",
+      "doi-asserted-by": "crossref",
+      "first-page": "71",
+      "DOI": "10.1016/j.ecss.2016.03.013",
+      "article-title": "Influence of environmental gradients on the distribution of benthic resources available for shorebirds on intertidal mudflats of Yves Bay, France",
+      "volume": "174",
+      "author": "Philippe",
+      "year": "2016",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_63",
+      "doi-asserted-by": "crossref",
+      "first-page": "937",
+      "DOI": "10.1080/00288306.1970.10418211",
+      "article-title": "Detrital sedimentary rock classification and nomenclature for use in new zealand",
+      "volume": "13",
+      "author": "Folk",
+      "year": "1970",
+      "journal-title": "New Zeal. J. Geol. Geophys."
+    },
+    {
+      "key": "ref_64",
+      "unstructured": "ESA (2015). Sentinel-2 User Handbook, European Space Agency."
+    },
+    {
+      "key": "ref_65",
+      "unstructured": "Richter, R., and Schl\u00e4pfer, D. (2012). Atmospheric/Topographic Correction for Satellite Imagery, ReSe Applications Schlapfer."
+    },
+    {
+      "key": "ref_66",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Filipponi, F. (2019). Sentinel-1 GRD Preprocessing Workflow. Proceedings, 18.",
+      "DOI": "10.3390/ECRS-3-06201"
+    },
+    {
+      "key": "ref_67",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Medasani, S., and Reddy, G.U. (2018, January 29\u201331). Analysis and Evaluation of Speckle Filters by Using Polarimetric Synthetic Aperture Radar Data Through Local Statistics. Proceedings of the 2018 Second International Conference on Electronics, Communication and Aerospace Technology (ICECA), Coimbatore, India.",
+      "DOI": "10.1109/ICECA.2018.8474567"
+    },
+    {
+      "key": "ref_68",
+      "first-page": "2353",
+      "article-title": "Speckle reducing for Sentinel-1 SAR data",
+      "volume": "Volume 2017",
+      "author": "Abramov",
+      "year": "2017",
+      "journal-title": "Proceedings of the International Geoscience and Remote Sensing Symposium (IGARSS)"
+    },
+    {
+      "key": "ref_69",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Granadeiro, J.P., Belo, J., Henriques, M., Catal\u00e3o, J., and Catry, T. (2021). Using Sentinel-2 images to estimate topography, tidal-stage lags and exposure periods over large intertidal areas. Remote Sens., 13.",
+      "DOI": "10.3390/rs13020320"
+    },
+    {
+      "key": "ref_70",
+      "unstructured": "Legendre, P. (2018). Lmodel2: Model II Regression, R Package."
+    },
+    {
+      "key": "ref_71",
+      "unstructured": "Catal\u00e3o, J. (2018). Uma nova t\u00e9cnica para determinar a batimetria intertidal com imagens multiespectrais do sat\u00e9lite Sentinel-2. Actas das 5.as Jornadas de Engenharia Hidrog, Instituto Hidrogr\u00e1fico."
+    },
+    {
+      "key": "ref_72",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bu\u00e9, I., Catal\u00e3o, J., and Semedo, \u00c1. (2020). Intertidal bathymetry extraction with multispectral images: A logistic regression approach. Remote Sens., 12.",
+      "DOI": "10.3390/rs12081311"
+    },
+    {
+      "key": "ref_73",
+      "doi-asserted-by": "crossref",
+      "first-page": "1425",
+      "DOI": "10.1080/01431169608948714",
+      "article-title": "The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features",
+      "volume": "17",
+      "author": "McFeeters",
+      "year": "1996",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "ref_74",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wood, S.N. (2017). Generalized Additive Models, Chapman and Hall/CRC. [2nd ed.].",
+      "DOI": "10.1201/9781315370279"
+    },
+    {
+      "key": "ref_75",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Commo, F., and Bot, B.M. (2022, May 16). Package nplr: N-Parameter Logistic Regression. Available online: https://mran.revolutionanalytics.com/snapshot/2015-07-13/web/packages/nplr/vignettes/nplr.pdf.",
+      "DOI": "10.32614/CRAN.package.nplr"
+    },
+    {
+      "key": "ref_76",
+      "doi-asserted-by": "crossref",
+      "first-page": "3025",
+      "DOI": "10.1080/01431160600589179",
+      "article-title": "Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery",
+      "volume": "27",
+      "author": "Xu",
+      "year": "2006",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "ref_77",
+      "doi-asserted-by": "crossref",
+      "first-page": "385",
+      "DOI": "10.1016/S0034-4257(01)00318-2",
+      "article-title": "Detection of forest harvest type using multiple dates of Landsat TM imagery",
+      "volume": "80",
+      "author": "Wilson",
+      "year": "2002",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_78",
+      "doi-asserted-by": "crossref",
+      "first-page": "480",
+      "DOI": "10.1016/j.rse.2004.12.009",
+      "article-title": "Mapping paddy rice agriculture in southern China using multi-temporal MODIS images",
+      "volume": "95",
+      "author": "Xiao",
+      "year": "2005",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_79",
+      "doi-asserted-by": "crossref",
+      "first-page": "127",
+      "DOI": "10.1016/0034-4257(79)90013-0",
+      "article-title": "Red and photographic infrared linear combinations for monitoring vegetation",
+      "volume": "8",
+      "author": "Tucker",
+      "year": "1979",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_80",
+      "unstructured": "Qi, J., Kerr, Y., and Chehbouni, A. (1994, January 17\u201322). External factor consideration in vegetation index development. Proceedings of the International Symposium on Physical Measurements and Signatures in Remote Sensing, Val-d\u2019isere, France."
+    },
+    {
+      "key": "ref_81",
+      "doi-asserted-by": "crossref",
+      "first-page": "119",
+      "DOI": "10.1016/0034-4257(94)90134-1",
+      "article-title": "A modified soil adjusted vegetation index",
+      "volume": "48",
+      "author": "Qi",
+      "year": "1994",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_82",
+      "first-page": "102176",
+      "article-title": "Sentinel-2 red-edge spectral indices (RESI) suitability for mapping rubber boom in Luang Namtha Province, northern Lao PDR",
+      "volume": "93",
+      "author": "Xiao",
+      "year": "2020",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "ref_83",
+      "first-page": "3379",
+      "article-title": "Monitoring the seasonal bare soil areas in Beijing using multi-temporal TM images",
+      "volume": "5",
+      "author": "Chen",
+      "year": "2004",
+      "journal-title": "Int. Geosci. Remote Sens. Symp."
+    },
+    {
+      "key": "ref_84",
+      "doi-asserted-by": "crossref",
+      "first-page": "2411",
+      "DOI": "10.1080/01431160600554363",
+      "article-title": "Development of topsoil grain size index for monitoring desertification in arid land using remote sensing",
+      "volume": "27",
+      "author": "Xiao",
+      "year": "2006",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "ref_85",
+      "unstructured": "Tuszynski, J. (2021). caTools: Moving Window Statistics, GIF, Base64, ROC AUC, etc, R package version 1."
+    },
+    {
+      "key": "ref_86",
+      "unstructured": "Liaw, A., and Wiener, M. (2018). Package \u2018randomForest\u2019: Breiman and Cutler\u2019s Random Forests for Classification and Regression, R package version 4."
+    },
+    {
+      "key": "ref_87",
+      "doi-asserted-by": "crossref",
+      "first-page": "659",
+      "DOI": "10.1007/s11222-016-9646-1",
+      "article-title": "Correlation and variable importance in random forests",
+      "volume": "27",
+      "author": "Gregorutti",
+      "year": "2017",
+      "journal-title": "Stat. Comput."
+    },
+    {
+      "key": "ref_88",
+      "doi-asserted-by": "crossref",
+      "first-page": "156",
+      "DOI": "10.1016/j.rse.2016.10.010",
+      "article-title": "Assessing the robustness of Random Forests to map land cover with high resolution satellite image time series over large areas",
+      "volume": "187",
+      "author": "Pelletier",
+      "year": "2016",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_89",
+      "doi-asserted-by": "crossref",
+      "first-page": "93",
+      "DOI": "10.1016/j.eswa.2019.05.028",
+      "article-title": "A comparison of random forest variable selection methods for classification prediction modeling",
+      "volume": "134",
+      "author": "Speiser",
+      "year": "2019",
+      "journal-title": "Expert Syst. Appl."
+    },
+    {
+      "key": "ref_90",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Lunetta, K.L., Hayward, L.B., Segal, J., and van Eerdewegh, P. (2004). Screening large-scale association study data: Exploiting interactions using random forests. BMC Genet., 5.",
+      "DOI": "10.1186/1471-2156-5-32"
+    },
+    {
+      "key": "ref_91",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Diaz-Uriarte, R. (2007). GeneSrF and varSelRF: A web-based tool and R package for gene selection and classification using random forest. BMC Bioinform., 8.",
+      "DOI": "10.1186/1471-2105-8-328"
+    },
+    {
+      "key": "ref_92",
+      "doi-asserted-by": "crossref",
+      "first-page": "19",
+      "DOI": "10.32614/RJ-2015-018",
+      "article-title": "VSURF: An R package for variable selection using random forests",
+      "volume": "7",
+      "author": "Genuer",
+      "year": "2015",
+      "journal-title": "R J."
+    },
+    {
+      "key": "ref_93",
+      "doi-asserted-by": "crossref",
+      "first-page": "1991",
+      "DOI": "10.5194/gmd-8-1991-2015",
+      "article-title": "System for Automated Geoscientific Analyses (SAGA) v. 2.1.4",
+      "volume": "8",
+      "author": "Conrad",
+      "year": "2015",
+      "journal-title": "Geosci. Model Dev."
+    },
+    {
+      "key": "ref_94",
+      "doi-asserted-by": "crossref",
+      "first-page": "437",
+      "DOI": "10.1080/2150704X.2016.1149252",
+      "article-title": "A structural similarity-based label-smoothing algorithm for the post-processing of land-cover classification",
+      "volume": "7",
+      "author": "Lu",
+      "year": "2016",
+      "journal-title": "Remote Sens. Lett."
+    },
+    {
+      "key": "ref_95",
+      "doi-asserted-by": "crossref",
+      "first-page": "323",
+      "DOI": "10.1080/14498596.2013.819600",
+      "article-title": "Land cover classification using moderate resolution satellite imagery and random forests with post-hoc smoothing",
+      "volume": "58",
+      "author": "Zhu",
+      "year": "2013",
+      "journal-title": "J. Spat. Sci."
+    },
+    {
+      "key": "ref_96",
+      "doi-asserted-by": "crossref",
+      "first-page": "7140",
+      "DOI": "10.1109/TGRS.2014.2308192",
+      "article-title": "New postprocessing methods for remote sensing image classification: A systematic study",
+      "volume": "52",
+      "author": "Huang",
+      "year": "2014",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "ref_97",
+      "doi-asserted-by": "crossref",
+      "first-page": "4534",
+      "DOI": "10.1109/TGRS.2012.2192741",
+      "article-title": "An overview and comparison of smooth labeling methods for land-cover classification",
+      "volume": "50",
+      "author": "Schindler",
+      "year": "2012",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "ref_98",
+      "first-page": "1",
+      "article-title": "Caret Package",
+      "volume": "28",
+      "author": "Kuhn",
+      "year": "2008",
+      "journal-title": "J. Stat. Softw."
+    },
+    {
+      "key": "ref_99",
+      "doi-asserted-by": "crossref",
+      "first-page": "306",
+      "DOI": "10.1002/gepi.20211",
+      "article-title": "A balanced accuracy function for epistasis modeling in imbalanced datasets using multifactor dimensionality reduction",
+      "volume": "31",
+      "author": "Velez",
+      "year": "2007",
+      "journal-title": "Genet. Epidemiol."
+    },
+    {
+      "key": "ref_100",
+      "unstructured": "Wegmann, M., Leutner, B., and Dech, S. (2016). Remote Sensing and GIS for Ecologists: Using Open Source Software, Pelagic Publishing."
+    },
+    {
+      "key": "ref_101",
+      "doi-asserted-by": "crossref",
+      "first-page": "77",
+      "DOI": "10.1016/S0034-4257(97)00083-7",
+      "article-title": "Selecting and interpreting measures of thematic classification accuracy",
+      "volume": "62",
+      "author": "Stehman",
+      "year": "1997",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_102",
+      "doi-asserted-by": "crossref",
+      "first-page": "35",
+      "DOI": "10.1016/0034-4257(91)90048-B",
+      "article-title": "A review of assessing the accuracy of classifications of remotely sensed data",
+      "volume": "37",
+      "author": "Congalton",
+      "year": "1991",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_103",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kim, K.L., Kim, B.J., Lee, Y.K., and Ryu, J.H. (2019). Generation of a large-scale surface sediment classification map using unmanned aerial vehicle (UAV) data: A case study at the Hwang-do tidal flat, Korea. Remote Sens., 11.",
+      "DOI": "10.3390/rs11030229"
+    },
+    {
+      "key": "ref_104",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Adolph, W., Farke, H., Lehner, S., and Ehlers, M. (2018). Remote sensing intertidal flats with TerraSAR-X. A SAR perspective of the structural elements of a tidal basin for monitoring the Wadden Sea. Remote Sens., 10.",
+      "DOI": "10.3390/rs10071085"
+    },
+    {
+      "key": "ref_105",
+      "doi-asserted-by": "crossref",
+      "first-page": "106699",
+      "DOI": "10.1016/j.ecss.2020.106699",
+      "article-title": "Mapping seagrass (Zostera) by remote sensing in the Schleswig-Holstein Wadden Sea",
+      "volume": "238",
+      "author": "Kohlus",
+      "year": "2020",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_106",
+      "first-page": "100499",
+      "article-title": "Remotely sensed mapping of the intertidal zone: A Sentinel-2 and Google Earth Engine methodology",
+      "volume": "22",
+      "author": "Fitton",
+      "year": "2021",
+      "journal-title": "Remote Sens. Appl. Soc. Environ."
+    },
+    {
+      "key": "ref_107",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bousbih, S., Zribi, M., Pelletier, C., Gorrab, A., Lili-Chabaane, Z., Baghdadi, N., Aissa, N.B., and Mougenot, B. (2019). Soil texture estimation using radar and optical data from Sentinel-1 and Sentinel-2. Remote Sens., 11.",
+      "DOI": "10.3390/rs11131520"
+    },
+    {
+      "key": "ref_108",
+      "doi-asserted-by": "crossref",
+      "first-page": "117",
+      "DOI": "10.1016/j.csr.2014.05.012",
+      "article-title": "Investigating spatial resolutions of imagery for intertidal sediment characterization using geostatistics",
+      "volume": "85",
+      "author": "Ibrahim",
+      "year": "2014",
+      "journal-title": "Cont. Shelf Res."
+    },
+    {
+      "key": "ref_109",
+      "doi-asserted-by": "crossref",
+      "first-page": "1734",
+      "DOI": "10.1109/TGRS.2016.2631632",
+      "article-title": "A Fully Polarimetric SAR Imagery Classification Scheme for Mud and Sand Flats in Intertidal Zones",
+      "volume": "55",
+      "author": "Wang",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "ref_110",
+      "first-page": "183",
+      "article-title": "Combining ALOS and ERS-2 SAR data for the characterization of tidal flats. Case study from the Baie des Veys, Normandy, France",
+      "volume": "18",
+      "author": "Deroin",
+      "year": "2012",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "ref_111",
+      "doi-asserted-by": "crossref",
+      "first-page": "110987",
+      "DOI": "10.1016/j.rse.2018.11.030",
+      "article-title": "Tracking annual changes of coastal tidal flats in China during 1986\u20132016 through analyses of Landsat images with Google Earth Engine",
+      "volume": "238",
+      "author": "Wang",
+      "year": "2020",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_112",
+      "doi-asserted-by": "crossref",
+      "first-page": "491",
+      "DOI": "10.1016/j.ecss.2004.02.009",
+      "article-title": "A critical grain size for Landsat ETM+ investigations into intertidal sediments: A case study of the Gomso tidal flats, Korea",
+      "volume": "60",
+      "author": "Ryu",
+      "year": "2004",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_113",
+      "doi-asserted-by": "crossref",
+      "first-page": "205",
+      "DOI": "10.1016/j.margeo.2010.10.022",
+      "article-title": "Spatial relationships between surface sedimentary facies distribution and topography using remotely sensed data: Example from the Ganghwa tidal flat, Korea",
+      "volume": "280",
+      "author": "Choi",
+      "year": "2011",
+      "journal-title": "Mar. Geol."
+    },
+    {
+      "key": "ref_114",
+      "unstructured": "Instituto Hidrogr\u00e1fico (2021). Vol II Pa\u00edses Africanos de L\u00edngua Oficial Portuguesa e Macau. Tabelas de Mar\u00e9s, Instituto Hidrogr\u00e1fico."
+    },
+    {
+      "key": "ref_115",
+      "doi-asserted-by": "crossref",
+      "first-page": "933",
+      "DOI": "10.1111/cobi.13638",
+      "article-title": "Global protected-area coverage and human pressure on tidal flats",
+      "volume": "35",
+      "author": "Hill",
+      "year": "2021",
+      "journal-title": "Conserv. Biol."
+    },
+    {
+      "key": "ref_116",
+      "first-page": "3",
+      "article-title": "The winter exploitation of Fiddler Crabs Uca tangeri by waders in Guinea-Bissau",
+      "volume": "73",
+      "author": "Zwarts",
+      "year": "1985",
+      "journal-title": "Ardea"
+    },
+    {
+      "key": "ref_117",
+      "unstructured": "Van Roomen, M., Citegetse, G., Crowe, O., Dodman, T., Hagemeijer, W., Meise, K., and Schekkerman, H. (2022). East Atlantic Flyway Assessment 2020: The Status of Coastal Waterbird Populations and Their Sites, BirdLife International."
+    }
+  ],
+  "container-title": "Remote Sensing",
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2072-4292/14/14/3260/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2025-10-10T23:43:33Z",
+    "timestamp": 1760139813000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2072-4292/14/14/3260"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        6
+      ]
+    ]
+  },
+  "references-count": 117,
+  "journal-issue": {
+    "issue": "14",
+    "published-online": {
+      "date-parts": [
+        [
+          2022,
+          7
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "rs14143260"
+  ],
+  "URL": "http://dx.doi.org/10.3390/rs14143260",
+  "relation": {},
+  "ISSN": [
+    "2072-4292"
+  ],
+  "subject": [],
+  "container-title-short": "Remote Sensing",
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        7,
+        6
+      ]
+    ]
+  }
+}

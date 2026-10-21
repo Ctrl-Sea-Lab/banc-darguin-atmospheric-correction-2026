@@ -1,0 +1,330 @@
+{
+  "status": 200,
+  "body": {
+    "id": "a4205ca2-a28b-4b26-91f9-961228794a7d",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "conversationAgentId": null,
+    "conversationUserId": null,
+    "conversationState": null,
+    "conversationSessionGeneration": 0,
+    "conversationBoundaryCommentId": null,
+    "projectId": "5fc298b7-b03d-4a03-b14f-25b3e66ccf85",
+    "projectWorkspaceId": null,
+    "goalId": null,
+    "parentId": "868eb798-9341-4ffd-b10c-1b515fce46c0",
+    "title": "Recover saved CTR-55 artifacts in a fresh task context",
+    "titleNeedsGeneration": false,
+    "description": "Recover delivery of already-completed CTR-55 geospatial outputs after its callback bridge failed. Do not rerun computations. Publish verified receipts and mark this recovery child done so CTR-55 resumes in a fresh context for its final task document and completion update.",
+    "status": "blocked",
+    "statusVersion": 2,
+    "lastStatusDecisionId": null,
+    "workMode": "standard",
+    "harnessKind": null,
+    "priority": "medium",
+    "reviewPolicy": null,
+    "assigneeAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+    "assigneeUserId": null,
+    "checkoutRunId": null,
+    "executionRunId": null,
+    "executionAgentNameKey": null,
+    "executionLockedAt": null,
+    "createdByAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+    "createdByUserId": null,
+    "responsibleUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+    "issueNumber": 60,
+    "identifier": "CTR-60",
+    "originKind": "manual",
+    "originId": null,
+    "originRunId": "e93839ef-9887-47e2-829c-c50efabb5ec3",
+    "originIdentityContextId": "eb54b7f2-fcf9-4f35-bdd9-4a5f53851fab",
+    "continuationIdentityContextId": "087e58a1-4683-44af-8e6d-ba4eeeccc2eb",
+    "originFingerprint": "default",
+    "requestDepth": 0,
+    "billingCode": null,
+    "assigneeAdapterOverrides": null,
+    "executionPolicy": null,
+    "executionState": null,
+    "monitorNextCheckAt": null,
+    "monitorWakeRequestedAt": null,
+    "monitorLastTriggeredAt": null,
+    "monitorAttemptCount": 0,
+    "monitorNotes": null,
+    "monitorScheduledBy": null,
+    "executionWorkspaceId": null,
+    "executionWorkspacePreference": null,
+    "executionWorkspaceSettings": null,
+    "sourceTrust": null,
+    "unblockDescriptor": null,
+    "blockedTransitionAt": "2026-10-20T18:20:57.198Z",
+    "blockedOwnerNotifiedAt": null,
+    "startedAt": "2026-10-20T18:15:59.779Z",
+    "completedAt": null,
+    "cancelledAt": null,
+    "hiddenAt": null,
+    "createdAt": "2026-10-20T18:06:15.589Z",
+    "updatedAt": "2026-10-20T18:20:57.198Z",
+    "labels": [],
+    "labelIds": [],
+    "watchdog": null,
+    "blockedByIssueIds": [
+      "6f4a556f-9f40-40ea-bdb8-42b5f88143b3"
+    ],
+    "changes": {
+      "status": {
+        "from": "in_progress",
+        "to": "blocked"
+      },
+      "statusVersion": {
+        "from": 1,
+        "to": 2
+      },
+      "checkoutRunId": {
+        "from": "3f4cd6b3-1276-4c7d-9969-4239a1c45956",
+        "to": null
+      },
+      "executionRunId": {
+        "from": "3f4cd6b3-1276-4c7d-9969-4239a1c45956",
+        "to": null
+      },
+      "executionAgentNameKey": {
+        "from": "roger tomlinson",
+        "to": null
+      },
+      "executionLockedAt": {
+        "from": "2026-10-20T18:15:59.622Z",
+        "to": null
+      },
+      "blockedTransitionAt": {
+        "from": null,
+        "to": "2026-10-20T18:20:57.198Z"
+      },
+      "blockedByIssueIds": {
+        "from": [],
+        "to": [
+          "6f4a556f-9f40-40ea-bdb8-42b5f88143b3"
+        ]
+      }
+    },
+    "blockedBy": [
+      {
+        "id": "6f4a556f-9f40-40ea-bdb8-42b5f88143b3",
+        "identifier": "CTR-61",
+        "title": "Restore verified access to saved CTR-55 report and raster files",
+        "status": "in_progress",
+        "priority": "medium",
+        "assigneeAgentId": "8e429434-cc27-4927-997b-1d3e3923b1e1",
+        "assigneeUserId": null,
+        "scheduledRetry": null
+      }
+    ],
+    "blocks": [
+      {
+        "id": "868eb798-9341-4ffd-b10c-1b515fce46c0",
+        "identifier": "CTR-55",
+        "title": "Pair Sentinel-2 acquisitions and map reflectance differences",
+        "status": "blocked",
+        "priority": "medium",
+        "assigneeAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+        "assigneeUserId": null,
+        "scheduledRetry": null
+      }
+    ],
+    "relatedWork": {
+      "outbound": [
+        {
+          "issue": {
+            "id": "868eb798-9341-4ffd-b10c-1b515fce46c0",
+            "identifier": "CTR-55",
+            "title": "Pair Sentinel-2 acquisitions and map reflectance differences",
+            "status": "blocked",
+            "priority": "medium",
+            "assigneeAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+            "assigneeUserId": null
+          },
+          "mentionCount": 4,
+          "sources": [
+            {
+              "kind": "title",
+              "sourceRecordId": null,
+              "label": "title",
+              "matchedText": "CTR-55"
+            },
+            {
+              "kind": "description",
+              "sourceRecordId": null,
+              "label": "description",
+              "matchedText": "CTR-55"
+            },
+            {
+              "kind": "document",
+              "sourceRecordId": "30e0d0ba-bbbc-4217-9be6-e0c43033d550",
+              "label": "recovery-delivery",
+              "matchedText": "CTR-55"
+            },
+            {
+              "kind": "comment",
+              "sourceRecordId": "64a1ac40-e093-4ee4-bcd0-8be9505a7756",
+              "label": "comment",
+              "matchedText": "CTR-55"
+            }
+          ]
+        },
+        {
+          "issue": {
+            "id": "6f4a556f-9f40-40ea-bdb8-42b5f88143b3",
+            "identifier": "CTR-61",
+            "title": "Restore verified access to saved CTR-55 report and raster files",
+            "status": "in_progress",
+            "priority": "medium",
+            "assigneeAgentId": "8e429434-cc27-4927-997b-1d3e3923b1e1",
+            "assigneeUserId": null
+          },
+          "mentionCount": 2,
+          "sources": [
+            {
+              "kind": "document",
+              "sourceRecordId": "30e0d0ba-bbbc-4217-9be6-e0c43033d550",
+              "label": "recovery-delivery",
+              "matchedText": "CTR-61"
+            },
+            {
+              "kind": "comment",
+              "sourceRecordId": "64a1ac40-e093-4ee4-bcd0-8be9505a7756",
+              "label": "comment",
+              "matchedText": "CTR-61"
+            }
+          ]
+        },
+        {
+          "issue": {
+            "id": "4569cd04-18be-4735-a5a4-2be2203bf2fa",
+            "identifier": "CTR-58",
+            "title": "Validate reproducibility and package standalone reflectance report",
+            "status": "blocked",
+            "priority": "medium",
+            "assigneeAgentId": "8e429434-cc27-4927-997b-1d3e3923b1e1",
+            "assigneeUserId": null
+          },
+          "mentionCount": 1,
+          "sources": [
+            {
+              "kind": "document",
+              "sourceRecordId": "30e0d0ba-bbbc-4217-9be6-e0c43033d550",
+              "label": "recovery-delivery",
+              "matchedText": "CTR-58"
+            }
+          ]
+        },
+        {
+          "issue": {
+            "id": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+            "identifier": "CTR-59",
+            "title": "Independently review paired reflectance analysis and figures",
+            "status": "blocked",
+            "priority": "medium",
+            "assigneeAgentId": "34565400-bebd-4b0f-990e-a797c05798ae",
+            "assigneeUserId": null
+          },
+          "mentionCount": 1,
+          "sources": [
+            {
+              "kind": "document",
+              "sourceRecordId": "30e0d0ba-bbbc-4217-9be6-e0c43033d550",
+              "label": "recovery-delivery",
+              "matchedText": "CTR-59"
+            }
+          ]
+        }
+      ],
+      "inbound": [
+        {
+          "issue": {
+            "id": "868eb798-9341-4ffd-b10c-1b515fce46c0",
+            "identifier": "CTR-55",
+            "title": "Pair Sentinel-2 acquisitions and map reflectance differences",
+            "status": "blocked",
+            "priority": "medium",
+            "assigneeAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+            "assigneeUserId": null
+          },
+          "mentionCount": 1,
+          "sources": [
+            {
+              "kind": "comment",
+              "sourceRecordId": "dafbc252-566f-4d8f-ac5e-028e746d2486",
+              "label": "comment",
+              "matchedText": "CTR-60"
+            }
+          ]
+        },
+        {
+          "issue": {
+            "id": "6f4a556f-9f40-40ea-bdb8-42b5f88143b3",
+            "identifier": "CTR-61",
+            "title": "Restore verified access to saved CTR-55 report and raster files",
+            "status": "in_progress",
+            "priority": "medium",
+            "assigneeAgentId": "8e429434-cc27-4927-997b-1d3e3923b1e1",
+            "assigneeUserId": null
+          },
+          "mentionCount": 1,
+          "sources": [
+            {
+              "kind": "description",
+              "sourceRecordId": null,
+              "label": "description",
+              "matchedText": "CTR-60"
+            }
+          ]
+        }
+      ]
+    },
+    "referencedIssueIdentifiers": [
+      "CTR-55",
+      "CTR-61",
+      "CTR-58",
+      "CTR-59"
+    ],
+    "comment": {
+      "id": "64a1ac40-e093-4ee4-bcd0-8be9505a7756",
+      "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+      "issueId": "a4205ca2-a28b-4b26-91f9-961228794a7d",
+      "authorAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+      "authorUserId": null,
+      "onBehalfOfUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+      "authorType": "agent",
+      "createdByRunId": "3f4cd6b3-1276-4c7d-9969-4239a1c45956",
+      "derivedAuthorAgentId": null,
+      "derivedCreatedByRunId": null,
+      "derivedAuthorSource": null,
+      "clientRequestId": null,
+      "conversationSessionGeneration": null,
+      "body": "Recovered and download-verified [code, tables and provenance](/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content?download=1). Exact hashes, paths and receipts are saved in [recovery delivery](/CTR/issues/CTR-60#document-recovery-delivery). Full report, figures and rasters remain preserved, but their board-access registration is blocked: this project has no workspace binding and this run is denied permission to create it (HTTP 403). [CTR-61](/CTR/issues/CTR-61), assigned to Alan, owns the verified access recovery. CTR-60 remains blocked until those receipts exist, then will complete to wake CTR-55. No scientific rerun or permission change; independent review and PI approval remain pending.",
+      "presentation": null,
+      "metadata": {
+        "version": 1,
+        "authorizationReason": "allow_self",
+        "sections": [
+          {
+            "title": "Authorization",
+            "rows": [
+              {
+                "type": "key_value",
+                "label": "Reason",
+                "value": "allow_self"
+              }
+            ]
+          }
+        ]
+      },
+      "deletedAt": null,
+      "deletedByType": null,
+      "deletedByAgentId": null,
+      "deletedByUserId": null,
+      "deletedByRunId": null,
+      "sourceTrust": null,
+      "createdAt": "2026-10-20T18:20:57.557Z",
+      "updatedAt": "2026-10-20T18:20:57.557Z"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+task:
+  id: CTR-54
+  delivery_task: CTR-55
+  paperclip_issue_id: 868eb798-9341-4ffd-b10c-1b515fce46c0
+  title: Paired Sentinel-2 reflectance differences
+  research_question: How do matched ACOLITE and Sen2Cor surface reflectances differ?
+  created_at: '2026-10-20'
+analysis:
+  status: computations_checked_review_pending
+  language: [Python, R]
+  input_datasets: [data/raw/S2/ACOLITE, data/raw/S2/Sen2Cor, data/raw/S2/top-level-SAFE]
+  scripts: [scripts/01_inventory.py, scripts/09_fill_audit.py, scripts/02_process.py, scripts/03_validate.py, scripts/04_figures.py, scripts/05_R_crosscheck.R, scripts/06_input_manifest.py, scripts/07_report.py]
+  report_source: report.qmd
+  report_html: report.html
+environment:
+  python_lockfile: ../../uv.lock
+  python_lockfile_sha256: 99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1
+  r_lockfile: ../../renv.lock
+  r_lockfile_sha256: 6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707
+  python_version: '3.12.3'
+  r_version: '4.3.3'
+  quarto_version: '1.10.19'
+  dependencies_changed: false
+  provenance_file: provenance/environment.json
+review:
+  status: pending
+  reviewer: Karl Popper
+pi_approval:
+  status: pending
+  approved_revision: null
+  note: This YAML is not evidence of authenticated PI approval.
+manuscript:
+  integration_status: not_authorized
+  merge_status: not_authorized
+  publication_status: not_authorized
+
+statistical_extension:
+  delivery_task: CTR-56
+  agent: Thomas Bayes
+  source_scientific_revision: 1bbb23b3b94e775a60aa921f8c9c4f86f51926cb
+  source_handoff_revision: 1631082
+  script: scripts/ctr56_run.py
+  statistical_report: ctr56-statistics.html
+  combined_report: report.html
+  main_figure: figures/generated/ctr56_temporal_gam.png
+  status: author_validation_passed_independent_review_pending
+  inference: descriptive_only
+  independent_review_task: CTR-59
+  pi_approval: pending
+
+scientific_writing:
+  delivery_task: CTR-57
+  author: Rachel Carson
+  source_geospatial_revision: 1bbb23b3b94e775a60aa921f8c9c4f86f51926cb
+  source_map_revision: 8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04
+  source_statistical_revision: f1ae24ad409ae31f82cad4fd1767ed9861145fbf
+  status: assembled_for_execution_and_independent_review
+  execution_review_task: CTR-58
+  scientific_review_task: CTR-59
+  pi_approval: pending
+  manuscript_integration: not_authorized

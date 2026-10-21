@@ -1,0 +1,16 @@
+{
+  "limits": {
+    "median": 0.0464419350028038,
+    "sd": 0.025838084518909454
+  },
+  "quantile": 0.98,
+  "quantile_sampling": "regular every fifth row and column, pooled equally by valid pixel across all four bands",
+  "render_sampling": "nearest regular every third row and column; map illustration only; final up-to-two edge pixels omitted only in display",
+  "data_rasters_unclipped": true,
+  "dimensions_inches": [
+    14,
+    4.4
+  ],
+  "png_dpi": 400,
+  "html_preview_dpi": 200
+}

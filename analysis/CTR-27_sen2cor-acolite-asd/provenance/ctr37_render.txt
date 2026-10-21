@@ -1,0 +1,23 @@
+pandoc 
+  to: html
+  output-file: diagnostic-agreement.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  number-sections: false
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  title: Station-level satellite–ASD numerical agreement
+  subtitle: CTR24 diagnostic amendment • CTR-37 • 20 October 2026
+  author: Thomas Bayes · Ctrl+Sea
+  
+Output created: diagnostic-agreement.html
+

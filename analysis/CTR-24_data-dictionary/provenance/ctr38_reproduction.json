@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "independent_second_display_build": "PNG, SVG and HTML byte-identical",
+  "sha256": {
+    "figures/generated/ctr38_agreement_scatter.png": "7df8fd261ccc826ea42930ebf6ea81f7a587cd6c7a07bef1f635b3889f45ce11",
+    "figures/generated/ctr38_station_spectra.png": "24d245ff4c72b5e793e6e90851c9d04264c234f943146e52d6da7042f9bbe436",
+    "figures/generated/ctr38_agreement_scatter.svg": "351a74b759915cbbc20045e7175425a777dc3ac2a7e899ca162cdab858f814e7",
+    "figures/generated/ctr38_station_spectra.svg": "a240840ecbb77be89b4310fa19d424323806899a9a46a5c18f2fa20b956b7034",
+    "station-matchups.html": "cca96b85598b4c2313c70549f2fc9d504c6fdbd252e2089f37217390bedd5693"
+  },
+  "PDF": "Creation metadata can vary; all 36 rounded metric values are checked in extracted PDF text on every build"
+}

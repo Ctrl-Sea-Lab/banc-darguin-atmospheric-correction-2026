@@ -1,0 +1,46 @@
+{
+  "candidate_commit": "7b9232da45c68c82c5f996b37357f15fb7b9ed55",
+  "deliverables": [
+    {
+      "path": "report.html",
+      "bytes": 4870217,
+      "sha256": "a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84"
+    },
+    {
+      "path": "CTR58_review_package.zip",
+      "bytes": 59498020,
+      "sha256": "c326399d37b31b65e0ff38dfaa4437ebae4d6bb10c03e125041c266a954b7ef7"
+    },
+    {
+      "path": "CTR58_source_provenance.zip",
+      "bytes": 2085530,
+      "sha256": "7767f898e94e3f9e38896f518a1c6b7032bf877b713b6b0ab5e2f0d7f7361107"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2.png",
+      "bytes": 17602104,
+      "sha256": "ca9d6e599cd98e875bc04e4602eece1b480d222f721658e654afbd53ecaae0be"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2.pdf",
+      "bytes": 12965942,
+      "sha256": "b202c1ffa79365b4d332a70d0507cbf999777f0961d0b2038f0a542a64523d3d"
+    },
+    {
+      "path": "figures/generated/ctr56_temporal_gam.png",
+      "bytes": 251105,
+      "sha256": "2b820b0b477e72c33324c0550e16cef2febbaf27b5873e055d41734ff6793aef"
+    },
+    {
+      "path": "figures/generated/ctr56_temporal_gam.pdf",
+      "bytes": 27314,
+      "sha256": "d3dc35bc1809a3750231e245b0293bb8d4c619bd46342cd6115845ecea9f5550"
+    },
+    {
+      "path": "delivery.json",
+      "bytes": 42800,
+      "sha256": "596879fb5ce7415c585a288ba5cfd4bce2c6ac2c7ac1d3be5df77e6e6268d7bf"
+    }
+  ],
+  "source_and_output_manifest": "delivery.json"
+}

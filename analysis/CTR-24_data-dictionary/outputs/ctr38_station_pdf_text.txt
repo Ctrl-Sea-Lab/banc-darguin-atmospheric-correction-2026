@@ -1,0 +1,71 @@
+                  Station reflectance across three visible bands
+                  Banc d’Arguin | 27 March 2026 | exploratory diagnostics
+
+                       ASD reference (v4)       Sen2Cor L2A              ACOLITE DSF
+                           A AC01 · dry_sand                                                       B AC02 · dry_sand
+                     0.6                                                                     0.6
+
+                     0.5                                                                     0.5
+
+                     0.4                                                                     0.4
+
+                     0.3                                                                     0.3
+
+                     0.2                                                                     0.2
+
+                     0.1                                                                     0.1
+
+                     0.0                                                                     0.0
+                             B02                    B03                      B04                     B02                         B03               B04
+                           N = 3 bands     Bias             MAE              RMSE                  N = 3 bands          Bias             MAE       RMSE
+                           Sen2Cor       0.024018         0.024018          0.024488               Sen2Cor            0.074747         0.074747   0.080115
+                           ACOLITE       0.007983         0.007983          0.008949               ACOLITE            0.054168         0.054168   0.060365
+
+                           C AC05 · algae_mud                                                      D AC06 · white_sand
+                     0.6                                                                     0.6
+
+                     0.5                                                                     0.5
+
+                     0.4                                                                     0.4
+Reflectance (1)
+
+
+
+
+                     0.3                                                                     0.3
+
+                     0.2                                                                     0.2
+
+                     0.1                                                                     0.1
+
+                     0.0                                                                     0.0
+                             B02                    B03                      B04                     B02                         B03               B04
+                           N = 3 bands     Bias             MAE              RMSE                  N = 3 bands       Bias                MAE       RMSE
+                           Sen2Cor       0.012308         0.012308          0.012376               Sen2Cor        0.107728             0.107728   0.107807
+                           ACOLITE       0.005246         0.005246          0.006337               ACOLITE        -0.001827            0.007502   0.008342
+
+                           E AC07 · seagrass                                                       F AC08 · seagrass
+                     0.6                                                                     0.6
+
+                     0.5                                                                     0.5
+
+                     0.4                                                                     0.4
+
+                     0.3                                                                     0.3
+
+                     0.2                                                                     0.2
+
+                     0.1                                                                     0.1
+
+                     0.0                                                                     0.0
+                             B02                    B03                      B04                     B02                         B03               B04
+                           N = 3 bands     Bias             MAE              RMSE                  N = 3 bands          Bias             MAE       RMSE
+                           Sen2Cor       0.009023         0.009023          0.009675               Sen2Cor            0.083462         0.083462   0.083956
+                           ACOLITE       0.006376         0.006376          0.007719               ACOLITE            0.064366         0.064366   0.065485
+
+
+
+                                                      Satellite minus ASD defines bias; all values are dimensionless.
+                                                 18 station–band triples on physical hold · 0 validation-eligible pairs
+                                                          Lines show band order only; uncertainty is not estimated.
+

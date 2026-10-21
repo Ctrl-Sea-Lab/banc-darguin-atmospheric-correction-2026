@@ -1,0 +1,45 @@
+task:
+  id: CTR-39
+  paperclip_issue_id: aa85c6b4-841f-4c14-8e77-fd2ad34261f9
+  title: Sentinel-2 atmospheric correction for exposed intertidal sediment
+  scope_authority: user_comment_f3ddce5f-6a48-4352-868e-2108225d02f7
+  research_question: Which correction approaches support exposed intertidal sediment observations at low tide?
+  created_at: '2026-10-20'
+analysis:
+  status: complete_internal_review_accepted
+  input_datasets: []
+  input_evidence: outputs/source_records.json
+  report_source: report.qmd
+  report_html: report.html
+  scripts: [scripts/build_library.py, scripts/restore_pdfs.py, scripts/audit_review.py]
+environment:
+  python_lockfile: ../../uv.lock
+  r_lockfile: ../../renv.lock
+  render_command: ./scripts/render-analysis.sh analysis/CTR-39_sentinel2-atmospheric-review
+  validation_status: passed
+review:
+  status: accepted
+  reviewer: Karl Popper
+  issue: CTR-46
+  reviewed_revision: 1d9f5bc97ca79a4053860f508a31a1b3f0e981b4
+  verdict: Accept
+  scope: focused_correction_and_diff_recheck_with_prior_scientific_review
+  document_revision: 0274ae1d-ac6a-46e9-b195-d21c164a92fe
+  decision_url: /CTR/issues/CTR-46#document-independent-review
+  evidence_attachment: 582bd583-d950-4d29-a87f-50e48dca7baf
+  preceding_review_issue: CTR-45
+  preceding_reviewed_revision: af8b45637a838d66ab6e53d08f154a93fc82817a
+  preceding_verdict: Minor Revision
+  findings_M1_E1: resolved
+  post_acceptance_changes: administrative_status_and_provenance_only
+  previous_water_review_issue: CTR-40
+  previous_water_verdict_applies_to_current_revision: false
+pi_approval:
+  status: not_claimed
+  approved_revision: null
+manuscript:
+  integration_status: not_authorized
+  sections: []
+shared_bibliography:
+  status: task_local_staging
+  note: Root library.bib unchanged; shared promotion requires separate synchronization workflow.

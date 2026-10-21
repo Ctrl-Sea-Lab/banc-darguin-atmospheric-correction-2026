@@ -1,0 +1,115 @@
+**Take-home message.** For Sentinel-2 observations of exposed intertidal sediment at low tide, the correction target is dimensionless surface reflectance. Sen2Cor Level-2A is a defensible starting point, supported by field comparisons that include exposed bare sediment. A focused comparison with MAJA or iCOR is more relevant than the previous ocean-colour shortlist. No processor has been demonstrated to be best for Banc d’Arguin.
+
+**Meaningful results.** Direct intertidal studies demonstrate different workable approaches: Sen2Cor, sometimes followed by relative calibration or angular correction; field-based empirical calibration for sediment moisture and grain size; and ACOLITE surface reflectance for exposure mapping. These applications do not provide a common, independent processor ranking. The strongest recurring requirement is to control which surface is observed and its state at acquisition.
+
+**Issues and limitations.** This is a targeted critical review, revised following the PI’s clarification on 20 October 2026. It contains no new satellite processing or local performance measurements. Temperate European, Vietnamese and Bijagós results require local testing. Exposed sediment may retain pore water, surface films and biofilms; these remain relevant even when water-column effects are outside the question.
+
+**Implications and next steps.** Begin with consistently processed Sen2Cor surface reflectance, an explicit exposed-sediment mask and acquisition-time tidal information. Compare a second land-surface correction on identical exposed pixels if suitable data and processing support exist. Judge both surface spectra and the intended sediment or biological product. The procedures below are recommendations for future work.
+
+## Research question and revised scope
+
+Which atmospheric-correction approaches are appropriate for Sentinel-2 observations of **exposed intertidal sediment at low tide**, and which surface and acquisition effects must be controlled before interpreting sediment properties or surface biological cover?
+
+Banc d’Arguin is the intended application. Bare mud and sand are the primary targets; microphytobenthos (surface microalgal biofilms), macroalgae and exposed vegetation matter as surface constituents or potential confounders. Submerged-habitat bathymetry, water-quality retrieval and water-column correction are outside this revision. Open water enters only through exposure masking and neighbouring-pixel effects. No water-depth, turbidity or aquatic chlorophyll retrieval is proposed.
+
+The earlier water-focused review is retained in `provenance/previous-water-review/` and in the preserved final task checkout. Its recommendation to begin with ACOLITE, C2RCC and POLYMER is superseded for this exposed-sediment question. Its independent acceptance does not extend to the new synthesis.
+
+## Search and appraisal
+
+The revision used targeted searches on 20 October 2026 combining Sentinel-2/MSI with *exposed/emerged intertidal sediment*, *mudflat/tidal flat*, *sediment moisture/water content/grain size*, *microphytobenthos*, *Sen2Cor*, *empirical line*, *ACOLITE*, *MAJA*, *iCOR*, and *ACIX Land*. Publisher and institutional full texts were examined; Crossref DOI records, including DOI content negotiation when rate-limited, verified bibliographic metadata. OpenAlex located a legitimate repository copy of the sediment study. Citation chaining connected intertidal applications to processor descriptions and land-validation studies.
+
+Selection prioritised direct exposed-surface methods and validation, followed by land atmospheric-correction benchmarks and technical documentation. Water-only comparisons were retained in the library for provenance but were not treated as evidence for exposed-sediment accuracy. The search log records scope, acquisition failures and exclusions. This is neither a systematic review nor a meta-analysis; absence of a local comparison in the selected evidence does not establish that none exists.
+
+## The physical quantity changes the processor question
+
+Surface reflectance describes the exposed surface under a specified illumination and viewing geometry. It is dimensionless. Atmospheric correction estimates it from top-of-atmosphere measurements by accounting for atmospheric scattering and absorption. Sen2Cor is designed to produce this land-surface quantity [@MainKnorn2017]. A wet exposed sediment remains a surface-reflectance target; it does not become an optically deep water target merely because its reflectance is low.
+
+Ocean-colour products can instead estimate water-leaving remote-sensing reflectance, with units of inverse steradians. They must not be equated with sediment surface reflectance. C2RCC’s documented aquatic training assumptions include optically deep water [@Muller2026]. This makes it unsuitable as a default sediment processor without a separately demonstrated surface-compatible approach. The previous water-quality rankings for C2RCC, POLYMER, OC-SMART and l2gen therefore do not answer the present question.
+
+ACOLITE merits a more qualified treatment: its atmospheric module can produce surface-reflectance outputs, and it has been used in intertidal exposure studies. Its DSF assumptions and selected dark targets must still be examined [@Vanhellemont2019]. For an exposed-surface experiment, document the actual output quantity and retain the sediment signal; do not automatically apply a water-specific SWIR deglint correction that could remove real substrate reflectance. This is a methodological recommendation, not a demonstrated ACOLITE failure at Banc d’Arguin.
+
+## What the directly relevant studies establish
+
+| Evidence | Observation relevant to exposed sediment | Limit on inference |
+|---|---|---|
+| Zoffoli et al. [@Zoffoli2020] | Sen2Cor surface spectra were compared with field spectra from bare sediment, dense exposed seagrass and mixed substrates. | Radiometric validation used two scenes at Bourgneuf Bay; the main endpoint was exposed seagrass. |
+| Daggers et al. [@Daggers2020] | Sen2Cor supported intertidal microphytobenthos mapping after additional red/NIR relative calibration. | Combined processing prevents attributing temporal consistency to Sen2Cor alone. |
+| Jacobs et al. [@Jacobs2021] | Sen2Cor plus an angular correction supported a surface-pigment workflow on mudflats. | Reflectance–pigment relationships depended on sampling timing and surface biology. |
+| Thuy et al. [@Thuy2022] | Field-calibrated Sentinel-2 surface reflectance supported exposed-sediment moisture and grain-size models. | Local empirical calibration and predominantly fine sediment; no cross-processor superiority test. |
+| Granadeiro et al. [@Granadeiro2021] | ACOLITE surface reflectance plus relative normalisation supported intertidal elevation and exposure mapping in Bijagós. | Exposure/elevation validation does not directly establish sediment spectral accuracy. |
+| Henriques et al. [@Henriques2022] | Multispectral moisture information, radar and elevation supported intertidal habitat classification in Bijagós. | Product accuracy is not an atmospheric-correction comparison; processor attribution in the paper is ambiguous. |
+| Zarzuelo et al. [@Zarzuelo2025] | ACOLITE and inter-image normalisation supported tidal-zone mapping in Cádiz. | PDF p. 7 describes intermediate-tide selection; p. 12 limits habitat zonation to low tide. Their relationship remains unclear; neither changes the low-tide scope here. |
+
+Zoffoli et al. provide particularly relevant radiometric evidence because bare sediment was explicitly included in the field comparison. Agreement supports testing Sen2Cor here, but the small scene sample and different environment prevent a universal recommendation. Seagrass product validation across additional sites should not be mistaken for additional bare-sediment atmospheric validation [@Zoffoli2020].
+
+Zarzuelo et al. describe excluding extreme tidal states and retaining intermediate conditions in §3.1 (PDF p. 7), but the Discussion (PDF p. 12) restricts habitat zonation to low-tide images because inundation obscures habitats. The methods distinguish detecting intertidal extent from classifying habitats within it; however, the relationship between the two tidal-selection statements remains unclear. This review records both without assigning an unsupported stage-specific selection rule, and retains low-tide selection for exposed sediment [@Zarzuelo2025].
+
+The apparent contrast between Sen2Cor-based biological studies and ACOLITE-based exposure studies is largely a contrast in endpoints. An exposure map can work through land–water contrast even when absolute surface spectra remain imperfect. Conversely, a useful vegetation index does not guarantee equally accurate individual bands. Relative calibration can improve consistency while retaining a bias in the reference image. These distinctions explain why application success alone is insufficient to select a processor [@Daggers2020; @Granadeiro2021].
+
+## Atmospheric-correction options for the revised question
+
+| Approach | Role in an exposed-sediment workflow | Main qualification |
+|---|---|---|
+| **Sen2Cor / Copernicus Level-2A** | Recommended baseline: accessible surface reflectance and direct exposed-intertidal precedent. | Record processing baseline, aerosol retrieval quality and masks; published use does not prove local accuracy. |
+| **MAJA** | Strong candidate for a time-series comparison, combining spectral and temporal atmospheric information. | Rapid tide-driven surface changes warrant scrutiny; land validation is not tidal-flat validation. |
+| **iCOR** | Candidate where a documented land-surface mode and adjacency treatment can be evaluated. | Separate the atmospheric module from water-specific SIMEC assumptions; do not assume shoreline correction transfers unchanged. |
+| **LaSRC, ATCOR or a documented 6S workflow** | Established land-oriented alternatives for a specific validation experiment. | Additional implementation effort needs a clear scientific purpose; no exposed-sediment ranking established here. |
+| **Empirical line using field reflectance** | Useful scene-specific calibration or benchmark when contemporaneous surface targets exist. | Hold out independent targets; local fitting cannot establish regional or temporal transferability. |
+| **ACOLITE DSF surface reflectance** | Optional comparator with relevant intertidal application history. | Check dark-target suitability, mask behaviour and output definition; validate exposed pixels directly. |
+| **Aquatic water-leaving retrievals** | Outside the baseline comparison for exposed sediment. | Water reflectance rankings and aquatic neural-network assumptions do not validate sediment spectra. |
+
+MAJA has land-surface validation against reference spectra and automated ground stations. Its temporal approach and adjacency correction make it worth testing, but changing exposure may violate the surface stability expected in parts of the temporal retrieval; this is an inference requiring inspection of masks and aerosol results. Colin et al. also show why comparison settings matter: adjacency and topographic correction were disabled in one validation branch to match the reference definition [@Colin2023].
+
+The ACIX-II Land benchmark provides a wider basis for comparing Sen2Cor, MAJA, LaSRC, ATCOR, iCOR and other processors, but its metrics use different reference strategies. Some processors were excluded from a surface-reflectance branch, and radiative-transfer differences can favour certain methods. It is not a balanced exposed-tidal-flat ranking and should not be read as one [@Doxani2023]. iCOR’s atmospheric retrieval over land is relevant, whereas its SIMEC water-adjacency component relies on a water-spectrum assumption that requires a separate applicability check for sediment [@DeKeukelaere2018].
+
+Thuy et al. fitted an empirical line to field/satellite reflectance and then modelled sediment properties. Their controlled wetting/drying experiment demonstrated coupled moisture and grain-size effects, supporting treatment of moisture as a measured surface property. Their statement that empirical calibration is the most accurate option is not established by an intercomparison in that study; this review does not adopt that ranking [@Thuy2022].
+
+## Surface-state effects that atmospheric correction cannot solve
+
+### Exposure and time since emersion
+
+A tide prediction at satellite overpass is useful but does not prove that every pixel is exposed: channels, pools and local propagation delays can differ. Granadeiro et al. demonstrate spatial tidal lags and the importance of exposure duration in Bijagós. Their study specifically warns about residual surface films and pools [@Granadeiro2021]. For this project, use tide information together with image-based exposure checks and an explicit uncertain/pool class. Retain time since emersion where it can be estimated. Select low-tide observations to expose the target, then assess comparability of surface state across dates.
+
+### Moisture, grain size and biological cover
+
+Moisture changes the sediment spectrum and can be related to grain size; treating all darkening as aerosol contamination would remove relevant information. The Vietnamese sediment experiment supports a joint interpretation of moisture and texture, with a limited sediment range [@Thuy2022]. In Bijagós, moisture-related predictors were useful for habitat classification, but complex sediment discrimination remained difficult. Its paper describes downloaded Level-2A products while naming ATCOR-2/3; this does not independently establish ATCOR as the operational processor used [@Henriques2022].
+
+Surface microalgae also change the spectrum. For sediment texture work, biological cover needs measurement or stratification. For biofilm work, pigment and reflectance measurements need close timing: Jacobs et al. found that vertical migration could undermine comparisons separated by short intervals [@Jacobs2021]. NDVI is therefore a surface optical proxy whose meaning depends on cover, background and sampling support, rather than a universal sediment or biomass measure.
+
+### Viewing geometry, adjacency and masks
+
+Angular effects require separate assessment. Jacobs et al. applied a BRDF correction after Sen2Cor; that precedent supports investigating angular sensitivity, but does not validate the same model for every wet sediment [@Jacobs2021]. At bright-sand/dark-mud/water boundaries, atmospheric adjacency and mixed pixels are distinct problems. A correction may address the former while leaving the latter. Inspect both, and test distance-to-boundary sensitivity without adopting an unsupported universal buffer width.
+
+Cloud and shadow masks should be checked over the actual exposed flat. A scene-classification water label is evidence to inspect, not a validated exposure map. Relative image normalisation should use independently justified stable targets; active intertidal pixels should not be forced to match an earlier date. Zarzuelo et al. excluded changing intertidal pixels from calibration, illustrating this distinction [@Zarzuelo2025].
+
+## Recommended validation design for Banc d’Arguin
+
+These steps are a proposed experiment, not completed processing or approved local results.
+
+1. **Define the endpoint.** Separate sediment moisture, sediment texture and biofilm/vegetation objectives. Preserve the observed surface spectrum before product-specific modelling.
+2. **Build a low-tide scene set.** Record overpass time, tidal height and datum, local exposure evidence, estimated emersion time, cloud/shadow status and solar/view geometry. Cover the available range of exposed mud/sand, moisture and atmospheric conditions without treating it as representative before checking coverage.
+3. **Use Sen2Cor consistently.** Choose a documented product collection or controlled reprocessing. For raw SAFE products, decode reflectance using the band metadata offset and quantification value, masking nodata first. Check whether a provider has already applied that conversion. Product baseline, rather than acquisition year alone, determines encoding [@CopernicusS2Products].
+4. **Compare one justified alternative.** MAJA is useful for temporal processing; iCOR is useful for examining a documented land/adjacency configuration. ACOLITE surface reflectance can be included where its intertidal precedent answers a concrete concern. Feed every method the same Level-1C acquisitions and retain its own quality flags. Do not atmospheric-correct Level-2A again.
+5. **Validate exposed surfaces.** Collect near-overpass spectra over homogeneous patches, integrate them through the MSI spectral response functions and match spatial support. Record surface moisture, sediment class, biological cover, illumination and time. Reserve independent spectra if fitting an empirical line.
+6. **Assess spectra and applications separately.** Report bandwise bias, absolute error and spectral shape; use relative errors cautiously for dark pixels. Then evaluate the sediment or biological endpoint against independent observations, preferably separated by site/date from model training. Recalibrating each product can conceal atmospheric bias, so present radiometric and product evaluations together.
+7. **Report validity and sensitivity.** Compare common exposed pixels and report each method’s usable coverage separately. Stratify by moisture, surface class, aerosol condition and proximity to water. Test exposure-mask, boundary and angular sensitivities. Select a processor only when gains are relevant to the endpoint and robust across the available validation conditions.
+
+Keep native band support explicit: visible/red/NIR and red-edge/SWIR bands do not all have the same resolution. Resampling a moisture-sensitive SWIR band to a finer grid does not create finer sediment information [@CopernicusS2Products]. No universal reflectance-error threshold, tide window, water-index cutoff or exclusion distance is justified by the reviewed evidence for this site.
+
+## Interpretation and remaining gaps
+
+The revised evidence supports a practical change of emphasis: **Sen2Cor first, with a targeted land-surface comparison and strong exposure/surface-state controls**. It does not establish that Sen2Cor is the most accurate method, nor that an aquatic-oriented atmospheric module can never work on exposed surfaces. Local radiometric validation remains the missing basis for selecting a production processor.
+
+The most consequential uncertainties are the interaction between aerosol retrieval and sparse suitable dark land targets; transfer of temporal/adjacency assumptions to a rapidly changing coast; and the separation of moisture, texture and biological effects. Potential dust influence at Banc d’Arguin should be tested with acquisition-specific atmospheric information rather than assumed to be negligible or represented by a maritime aerosol label. Broader land benchmarks motivate this check but do not quantify its local magnitude [@Doxani2023].
+
+## Reproducibility, review and approval
+
+The task-local library retains the original 17 sources and adds nine verified research articles plus one official technical web reference. New article PDFs were checked for identity and integrity; access attempts and source passages are recorded in the index and evidence matrix. `outputs/library_summary.json` contains generated counts. PDFs and extracted texts remain excluded from Git and downloadable source bundles.
+
+The report is standalone HTML rendered with investigation-local configuration. Scripts rebuild the bibliography and index from saved metadata, restore available PDFs and audit citations, PDF identity/checksums, the preserved prior version and protected root files. The numerical-claim record distinguishes source descriptions from recommendations; no project result is inferred from literature values.
+
+**Independent review:** Karl Popper’s [CTR-45 review](/CTR/issues/CTR-45#document-independent-review) returned Minor Revision for source commit `af8b45637a838d66ab6e53d08f154a93fc82817a`, with no critical or major concerns. His [CTR-46 focused recheck](/CTR/issues/CTR-46#document-independent-review), document revision `0274ae1d-ac6a-46e9-b195-d21c164a92fe`, returned **Accept** for corrected submission `1d9f5bc97ca79a4053860f508a31a1b3f0e981b4`: both the Zarzuelo qualification and Doxani locator correction are resolved. Reconstruction and preservation checks passed independently; no further author correction was requested within scope. The unchanged synthesis relies on the earlier review plus this focused correction/diff recheck, rather than a fresh review of every source. The earlier CTR-40 acceptance concerned the water-focused revision only.
+
+**Completion record:** After acceptance, only administrative status, review provenance and the resulting HTML were updated. The independent verdict remains bound to the exact corrected submission above; it is not reassigned to this later administrative revision. See `task.yml` and `provenance/independent_recheck.md`. The submitted audit JSON’s pending-review limitation describes its historical submission state; the linked independent decision supplies the subsequent acceptance evidence.
+
+**PI scientific approval and manuscript integration:** neither is claimed. Charles Darwin owns any subsequent PI coordination. The final manuscript and shared root bibliography are outside this revision.

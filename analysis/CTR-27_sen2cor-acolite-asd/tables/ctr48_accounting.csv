@@ -1,0 +1,7 @@
+target_id,class_literal,requested_bands,finite_Sen2Cor,finite_ACOLITE,finite_pairs,missing_pairs,negative_Sen2Cor,negative_ACOLITE,SCL_flag,retained
+T1,Terrestrial soil,9,9,9,9,0,0,0,False,True
+T2,Water,9,9,9,9,0,6,0,True,True
+T3,Seagrass,9,9,9,9,0,2,0,False,True
+T4,Intertidal Sediment,9,9,9,9,0,0,0,False,True
+T5,Underwater Vegetation,9,9,9,9,0,1,0,False,True
+T6,Underwater Sand,9,9,9,9,0,0,0,False,True

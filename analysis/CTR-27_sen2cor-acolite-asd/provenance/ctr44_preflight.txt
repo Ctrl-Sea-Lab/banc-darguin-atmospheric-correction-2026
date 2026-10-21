@@ -1,0 +1,128 @@
+exit_code=2
+ M analysis/CTR-27_sen2cor-acolite-asd/README.md
+ D analysis/CTR-27_sen2cor-acolite-asd/diagnostic-agreement.html
+ D analysis/CTR-27_sen2cor-acolite-asd/diagnostic-agreement.qmd
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_primary.pdf
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_primary.png
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_primary.svg
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_station_spectra.pdf
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_station_spectra.png
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_station_spectra.svg
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_station_spectra.pdf
+ D analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_station_spectra.svg
+ M analysis/CTR-27_sen2cor-acolite-asd/report-portable.html
+ M analysis/CTR-27_sen2cor-acolite-asd/report.html
+ M analysis/CTR-27_sen2cor-acolite-asd/report.qmd
+ D analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr37_diagnostics.py
+ D analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr37_finalize.py
+ D analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr37_report.py
+ D analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr37_verify.R
+ M analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr38_figure3_portable.py
+ M analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr38_figure3_revision.R
+ M analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr38_figure3_revision.py
+ D analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr38_figure3_station_labels.R
+ D analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr38_final_report_template.md
+ M analysis/CTR-27_sen2cor-acolite-asd/scripts/validate_delivery.py
+ D analysis/CTR-27_sen2cor-acolite-asd/tables/ctr37_station_metrics.csv
+ D analysis/CTR-27_sen2cor-acolite-asd/tables/ctr37_supplementary_metrics.csv
+ D analysis/CTR-27_sen2cor-acolite-asd/tables/ctr37_v5_sensitivity_metrics.csv
+ D analysis/CTR-27_sen2cor-acolite-asd/tables/ctr38_display_metrics.csv
+ D analysis/CTR-27_sen2cor-acolite-asd/tables/ctr38_figure3_primary_pairs.csv
+ D analysis/CTR-27_sen2cor-acolite-asd/tables/ctr38_figure3_source_audit.csv
+ M analysis/CTR-27_sen2cor-acolite-asd/tables/ctr38_figure3_summary_metrics.csv
+ M analysis/CTR-27_sen2cor-acolite-asd/task.yml
+?? analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr44_march_primary.pdf
+?? analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr44_march_primary.png
+?? analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr44_march_primary.svg
+?? analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr44_march_supplementary.pdf
+?? analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr44_march_supplementary.png
+?? analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr44_march_supplementary.svg
+?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr44_author_delivery.md
+?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr44_draft_pr.md
+?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr44_report_inspection.png
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/README.md
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_before.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_browser.txt
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_environment.txt
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_figure_render.txt
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_manifest.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_plotted_values.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_portable.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_quarto.txt
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_readiness.txt
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_removed.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_reproduction_before.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_unrelated_changes.json
+?? analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr44_validation.json
+?? analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr44_delivery.py
+?? analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr44_report_template.md
+?? analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr44_spectra.R
+?? analysis/CTR-39_sentinel2-atmospheric-review/.gitignore
+?? analysis/CTR-39_sentinel2-atmospheric-review/README.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/_quarto.yml
+?? analysis/CTR-39_sentinel2-atmospheric-review/figures/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/library.bib
+?? analysis/CTR-39_sentinel2-atmospheric-review/literature/literature_review.qmd
+?? analysis/CTR-39_sentinel2-atmospheric-review/literature/pdfs/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/literature/references_index.csv
+?? analysis/CTR-39_sentinel2-atmospheric-review/literature/search_log.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/literature/texts/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/audit_results.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/CopernicusS2Products.html
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Daggers2020.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Daggers2021.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Doxani2023.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Granadeiro2021.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Intertidal2022.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/MAJA2023.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Thuy2022.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Zarzuelo2025.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_metadata/Zoffoli2020.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_notes.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/intertidal_source_records.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/library_summary.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/numerical_claims.csv
+?? analysis/CTR-39_sentinel2-atmospheric-review/outputs/source_records.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/acquisition_record.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/current_review.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/editorial_response.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/environment.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/path-readiness.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-storage-copy/README.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-storage-copy/storage_copy_verification.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/README.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/library.bib
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/literature/literature_review.qmd
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/literature/references_index.csv
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/literature/search_log.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/outputs/audit_results.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/outputs/library_summary.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/outputs/numerical_claims.csv
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/outputs/source_records.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/provenance/editorial_response.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/provenance/environment.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/provenance/path-readiness.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/report.html
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/report.qmd
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/scripts/acquire_literature.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/scripts/audit_review.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/scripts/build_library.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/snapshot_hashes.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/tables/evidence_matrix.csv
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/previous-water-review/task.yml
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/protected_before.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/scope_revision.md
+?? analysis/CTR-39_sentinel2-atmospheric-review/provenance/storage_copy_verification.json
+?? analysis/CTR-39_sentinel2-atmospheric-review/report.html
+?? analysis/CTR-39_sentinel2-atmospheric-review/report.qmd
+?? analysis/CTR-39_sentinel2-atmospheric-review/scripts/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/scripts/acquire_literature.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/scripts/audit_review.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/scripts/build_library.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/scripts/restore_pdfs.py
+?? analysis/CTR-39_sentinel2-atmospheric-review/tables/.gitkeep
+?? analysis/CTR-39_sentinel2-atmospheric-review/tables/evidence_matrix.csv
+?? analysis/CTR-39_sentinel2-atmospheric-review/task.yml
+PI contribution guard: working tree contains modifications or untracked files; nothing was changed

@@ -1,0 +1,11 @@
+---
+title: "Temporal reflectance differences"
+subtitle: "CTR-54 investigation · CTR-56 statistical handoff · draft for independent review"
+author: "Thomas Bayes · Ctrl+Sea"
+date: "2026-10-20"
+format:
+  html:
+    embed-resources: true
+---
+
+{{< include outputs/ctr56-report-body.qmd >}}

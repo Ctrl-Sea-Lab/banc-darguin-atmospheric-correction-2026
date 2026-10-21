@@ -1,0 +1,13 @@
+task: CTR-59
+investigation: CTR-54
+reviewer: Karl Popper
+candidate_commit: 7b9232da45c68c82c5f996b37357f15fb7b9ed55
+recommendation: Accept
+critical_concerns: 0
+major_concerns: 0
+editorial_concerns: 1
+independence: Reviewer did not author submitted analysis.
+pi_scientific_approval: pending
+manuscript_integration: not_authorized
+merge: not_authorized
+publication: not_authorized

@@ -1,0 +1,14 @@
+{
+  "affected": true,
+  "agent": "rachel-carson",
+  "managed_tree_sha256": "2490c50abaa86f2005deb862e6d596ef0d1e8f65439c9659dec7f2e19d6bdf24",
+  "operation": "verify-ready",
+  "paths": [
+    "library.bib"
+  ],
+  "policy": ".pi-preservation/sync-policy.json",
+  "prepared_by": "ada-lovelace",
+  "result": "ready",
+  "task_id": "CTR-64",
+  "version": 1
+}

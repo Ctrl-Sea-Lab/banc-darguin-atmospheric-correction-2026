@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-10-20T08:57:18.295525+00:00",
+  "task": "CTR-34",
+  "status": "rules frozen before imagery diagnostics; final release decision follows metadata/QA review",
+  "primary_stations": [
+    "AC01",
+    "AC02",
+    "AC05",
+    "AC06",
+    "AC07",
+    "AC08"
+  ],
+  "primary_bands": [
+    "B02",
+    "B03",
+    "B04"
+  ],
+  "excluded_mud": [
+    "AC03 literal mbp_mud conservative spelling alias of PI-excluded mpb_mud",
+    "AC04 literal mpb_mud"
+  ],
+  "convolution": "reuse accepted union-knot response weighted trapezoid; >=99.9% response coverage; no missing positive-response intervals; no extrapolation",
+  "QA": "full common support; SCL excludes 0,1,2,3,7,8,9,10,11; SCL6 needs exposed-target justification; all eight MSK_QUALIT layers zero; MSK_DETFOO ID 1..12; ACOLITE absent flags must be documented; finite reflectance alone insufficient",
+  "support": "containing stored 10m cell; native upstream lineage not assumed from grid alignment. Examine bilinear metadata and available lineage. 3x3/5x5 offset windows are analyst-selected scenarios, not numerical GPS accuracy; no method-specific support shrinking",
+  "release": "unknown optional clock/GPS/calibration variance alone does not hold. Material support/quantity/exposure/QA mismatch holds affected pairs. No ASD errors or rankings in this task. Freeze eligibility/graph/coverage before paired values",
+  "coverage": "six intended stations, Iwik and offshore_Arel, literal classes retained/lost. Missing site/class or systematic loss limits any P* to subset description; empty P* no pooled estimate",
+  "weights": {
+    "P_star": "1/(G*T_g*3)",
+    "P_b": "1/(G_b*T_gb)"
+  },
+  "graph": "union actual field/radiometric support across methods and B02-B04; shared QA/diagnostic windows separate. Unknown field grouping stays unknown; no claimed independent n"
+}

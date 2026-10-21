@@ -1,0 +1,39 @@
+task:
+  id: CTR-39
+  paperclip_issue_id: aa85c6b4-841f-4c14-8e77-fd2ad34261f9
+  title: Atmospheric correction for Sentinel-2 marine ecology
+  slug: sentinel2-atmospheric-review
+  research_question: Which atmospheric correction approaches apply to Sentinel-2 marine ecology, and what evidence should guide selection?
+  created_at: '2026-10-20'
+analysis:
+  status: complete
+  language: [Python, Quarto]
+  input_datasets: []
+  input_evidence: outputs/source_records.json
+  scripts: [scripts/acquire_literature.py, scripts/build_library.py, scripts/restore_pdfs.py, scripts/audit_review.py]
+  report_source: report.qmd
+  report_html: report.html
+environment:
+  python_lockfile: ../../uv.lock
+  r_lockfile: ../../renv.lock
+  render_command: ./scripts/render-analysis.sh analysis/CTR-39_sentinel2-atmospheric-review
+  provenance_file: provenance/environment.json
+  validation_status: passed
+review:
+  status: accepted_source_revision_editorial_corrections_applied
+  reviewer: Karl Popper
+  issue: CTR-40
+  reviewed_revision: a031b9dfdfafc6b7db02848d4ded3228d2cb3e88
+  review_document_revision: 5f008a3e-c1cf-4830-8c91-ec62e808e563
+  comments: ["E1 source locator corrected; E2 MAPD label clarified; no numerical values or recommendations changed"]
+pi_approval:
+  status: pending
+  approved_revision: null
+  note: This file is not evidence of authenticated PI approval.
+manuscript:
+  integration_status: not_authorized
+  sections: []
+  pull_request: null
+shared_bibliography:
+  status: task_local_staging
+  reason: Root library.bib is protected; shared promotion requires Charles Darwin and Ada Lovelace synchronization.

@@ -1,0 +1,10 @@
+{
+  "review_issue": "CTR-46",
+  "review_issue_id": "f560e06e-5c55-434c-a44e-9eba55c2b222",
+  "status": "accepted",
+  "verdict": "Accept",
+  "source_commit": "1d9f5bc97ca79a4053860f508a31a1b3f0e981b4",
+  "review_document_revision": "0274ae1d-ac6a-46e9-b195-d21c164a92fe",
+  "administrative_closeout_commit": "aeb556a1325a74b9c32f43a6503c44f928067b43",
+  "note": "Scientific acceptance remains bound to source_commit; the later commit only records status/provenance. No PI approval or integration authorization claimed."
+}

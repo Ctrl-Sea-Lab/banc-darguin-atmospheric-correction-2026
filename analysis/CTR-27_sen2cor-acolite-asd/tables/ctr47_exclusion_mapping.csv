@@ -1,0 +1,3 @@
+station_id,class_literal,original_exclusion_preserved,exact_mapped_target_ids,nearest_target_id,nearest_target_distance_m,decision
+AC03,mbp_mud,True,none,T5,5636.560237102635,exclude_exact_source_identity_only; no_proximity_or_label_substitution
+AC04,mpb_mud,True,none,T5,5578.022955617754,exclude_exact_source_identity_only; no_proximity_or_label_substitution

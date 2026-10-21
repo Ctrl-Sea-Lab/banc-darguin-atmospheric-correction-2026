@@ -1,0 +1,36 @@
+{
+  "started_utc": "2026-10-20T12:51:08.393171+00:00",
+  "completed_utc": "2026-10-20T12:51:15.943746+00:00",
+  "station_count": 13,
+  "excluded_stations": {
+    "AC03": "mbp_mud",
+    "AC04": "mpb_mud"
+  },
+  "band_count": 9,
+  "satellite_rows": 234,
+  "satellite_finite": 234,
+  "reference_rows": 234,
+  "reference_finite": 208,
+  "common_triples_v4": 104,
+  "common_triples_v5": 104,
+  "eligible_validation_rows": 0,
+  "raw_QA_rows": 1287,
+  "operational_SCL_flagged_satellite_rows": 109,
+  "distinct_stored_cells": 208,
+  "shared_stored_cell_groups": 25,
+  "window_count": 1521,
+  "max_window_cells": 9,
+  "raw_sources_stat_unchanged": true,
+  "software": {
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "numpy": "2.5.4",
+    "GDAL": "GDAL 3.8.4, released 2024/02/08",
+    "host": "simon-desktop"
+  },
+  "source_hash_scope": "streamed full-file SHA256; raster processing only bounded windows; no full-scene arrays",
+  "convolution": "exact saved CTR34 union-knot trapezoid; threshold .999 plus no positive-response extrapolation; gaps in positive response prohibited",
+  "environment_changed": false,
+  "script_sha256": "f03d4debfbdf65b0e5eddde720652e6c28a01154f3f131850a7f19755a79b65b",
+  "existing_report_edited": false,
+  "scientific_approval": "none; author QA only; Thomas numerical check then presentation and independent review required"
+}

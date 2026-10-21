@@ -1,0 +1,61 @@
+[
+  {
+    "id": "3a4364a2-1650-48f0-ba96-532e7dadad11",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "issueId": "4a18d1aa-d58e-4336-b958-c6a58c4b29ac",
+    "kind": "request_confirmation",
+    "status": "accepted",
+    "continuationPolicy": "wake_assignee",
+    "requestedResolverPolicy": "human_only",
+    "effectiveResolverPolicy": "human_only",
+    "resolverPolicyProvenance": "explicit",
+    "effectiveResolverPolicySource": "requested",
+    "idempotencyKey": "confirmation:CTR-54:scientific:86a0e07e-c2d3-4c24-8f30-7cc2ddcb9ed2",
+    "originCommentIds": [
+      "b5939a5f-4fee-4627-9d87-1c4213cb047a"
+    ],
+    "sourceCommentId": null,
+    "sourceIdentityContextId": "a7c6f864-22a2-4508-9a07-64e265f15966",
+    "sourceRunId": "27462e26-3397-4e66-85a4-8ab4c2e97bf9",
+    "title": "PI scientific approval \u2014 reviewed reflectance comparison",
+    "summary": null,
+    "createdByAgentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd",
+    "addresseeAgentId": null,
+    "addresseeUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+    "createdByUserId": null,
+    "resolvedByAgentId": null,
+    "resolvedByRunId": null,
+    "resolvedByUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+    "payload": {
+      "version": 1,
+      "prompt": "Approve the scientific findings for the exact CTR-54 revision identified in the PI submission?",
+      "acceptLabel": "Approve scientific findings",
+      "rejectLabel": "Request changes / reject",
+      "rejectRequiresReason": true,
+      "rejectReasonLabel": "What should change, or why do you reject these findings?",
+      "allowDeclineReason": true,
+      "detailsMarkdown": "**Decision needed:** Approve the scientific findings at revision `7b9232da45c68c82c5f996b37357f15fb7b9ed55`.\n\n**Why this matters:** The 22-acquisition comparison finds generally lower ACOLITE reflectance. Larger maps and your blue\u2013white\u2013red SD scale are complete; independent review found no major concerns. Missing quality flags and uneven sampling limit interpretation.\n\n**My recommendation:** Approve this descriptive comparison with its documented limitations.\n\n**Other options:** Request revisions or reject the findings, giving your reason.\n\n**Consequences:** Approval applies only to the exact report and artifacts identified in the [PI submission](/CTR/issues/CTR-54#document-pi-submission). Manuscript integration, merge and publication remain separate decisions.\n\n**Action requested:** Inspect the report and review file cards, then select Approve scientific findings or Request changes / reject.\n\nThe lab rules reserve this decision to the PI; the scientific-research-management skill requires an exact reviewed revision and an authenticated decision. Agent metadata is not approval.",
+      "supersedeOnUserComment": true,
+      "target": {
+        "type": "issue_document",
+        "issueId": "4a18d1aa-d58e-4336-b958-c6a58c4b29ac",
+        "documentId": "3a8ea451-33c0-4952-bd46-f73cb8271aa3",
+        "key": "pi-submission",
+        "revisionId": "86a0e07e-c2d3-4c24-8f30-7cc2ddcb9ed2",
+        "revisionNumber": 1
+      }
+    },
+    "result": {
+      "version": 1,
+      "outcome": "accepted"
+    },
+    "resolvedAt": "2026-10-20T20:39:47.547Z",
+    "createdAt": "2026-10-20T20:18:51.082Z",
+    "updatedAt": "2026-10-20T20:39:47.547Z",
+    "resolverPolicy": "human_only",
+    "legacyResolverPolicyAliases": {
+      "requested": "board_only",
+      "effective": "board_only"
+    }
+  }
+]

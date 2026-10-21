@@ -1,0 +1,26 @@
+{
+  "task": "CTR-39",
+  "created_utc": "2026-10-20",
+  "base_commit": "4af70f319f672a14c016012d9610c752b21d6169",
+  "branch": "ctr-39-atmospheric-review",
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "quarto": "1.10.19",
+  "pdftotext": "pdftotext version 24.02.0",
+  "git": "git version 2.43.0",
+  "input_data": "Published scientific literature only; no project ecological data processed",
+  "render_command": "./scripts/render-analysis.sh analysis/CTR-39_sentinel2-atmospheric-review",
+  "lockfiles": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  },
+  "protected_files": {
+    "index.qmd": "02ddee3652b4ea65269e07a74b405c48f297d91f6d0d2305320015a80a8be592",
+    "library.bib": "f8d1911f84b1d547b354b5555fc3284bd5ca8662ba69d38ce8c88b0a41f043bc",
+    "_quarto.yml": "e7b4615c15ba18fbb58133e123a7c70854d2b1b5726dc10140bdbfcbde386720",
+    "AGENTS.md": "ba14ad5c5f8c0251de75cbe980fbfeebd9cf1417a68c9d2be9df2b22c5cd8b01",
+    "PI_CONTRIBUTIONS.md": "8d2cb95bed3a5b782eba73e1a37eecf0f066e722373b95caa2e489d9b07ed905"
+  },
+  "review_status": "Karl Popper accepted a031b9dfdfafc6b7db02848d4ded3228d2cb3e88 in CTR-40; subsequent E1/E2 editorial corrections applied",
+  "pi_approval": "not granted",
+  "integration_authorization": "not granted"
+}

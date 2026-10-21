@@ -1,0 +1,282 @@
+{
+  "source_commit": "f21777bffe1392b0d207b265b852232a779a16f1",
+  "baseline": "4e4e46b3b05fb30ef11549c28f5e96e7a40f1bcc",
+  "numerical_revision": "c4ac607826d6f1c1f3b0ea6040e6a8775ac6bb5b",
+  "primary_report": "report-custom-portable.html",
+  "canonical_report": "report.html",
+  "historical_alternative": "report-common.html",
+  "reproduction_scope": "Existing authorized project Git checkout with baseline objects and existing locked environments; system Python Pillow 10.2.0 for raster QA only.",
+  "raw_data_included": false,
+  "scientific_approval": false,
+  "CTR50_PR_guard": "unresolved; no push, PR, bypass, merge or publication",
+  "files": {
+    ".Rprofile": {
+      "bytes": 85,
+      "sha256": "96779fddcbe823af9c7de2a4df30c8c5fc8ab5054b258b7d197017c32ad7353c"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/CTR48_HANDOFF.md": {
+      "bytes": 13198,
+      "sha256": "889c6534a473116e0d0a382400f05feacb1912d16e01ac0f86cc88ee5aa756ba"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/CTR49_HANDOFF.md": {
+      "bytes": 8019,
+      "sha256": "b37a3f0fea464a713cf64095522640f3c57c3c50ca1bb8935d09b4b98a104fab"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/CTR52_HANDOFF.md": {
+      "bytes": 6738,
+      "sha256": "1342ca8a4c2575e73fe6f8c1e44c5910cff30bf5185d1a1c68454c424ffe8f1f"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/README.md": {
+      "bytes": 3369,
+      "sha256": "f8306270e984dacd52689bbe9ae17b2f5bb4bb45db4e3d08418f331010cc3380"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/_quarto.yml": {
+      "bytes": 268,
+      "sha256": "082617aeb6770929a12897d4d64fe34c534ec1cadb28d2e5003061ed8e2ec814"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_reference.pdf": {
+      "bytes": 27973,
+      "sha256": "475f6a5f281081cf55bbd437f605e53e17730c8d7d972aa32059e48ae9e3c374"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_reference.png": {
+      "bytes": 452291,
+      "sha256": "87e0fc3f503b326c0db4cbcde7603b81fab888fed64761faac1e24954dc04bad"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr38_figure3_reference.svg": {
+      "bytes": 135539,
+      "sha256": "952f061328f6ed3b1f280b9a70a6128801e7688384fd75d0fc52103c0e8c3b44"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr42_scene_pair.json": {
+      "bytes": 2276,
+      "sha256": "7e212109efd07ae163d6b18b9c101a952e32b9c41c6b3c19fbb26bb5e3078a39"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr48_R_validation.txt": {
+      "bytes": 2580,
+      "sha256": "a1ba4d275e56bb906567bc13aed2edc319ed3c3ef31a8b2b60cf67e923994a3e"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr48_preflight.json": {
+      "bytes": 86065,
+      "sha256": "f73c36ce370aef9354810f3db8f92f76c326f9e194e085ae525c05d08cb12dfb"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr48_validation.json": {
+      "bytes": 226458,
+      "sha256": "909dd47da2093267b6768027001d38fed1448c58132b646d33636e0904e6ff7e"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr49_target_spectra_custom_axes.csv": {
+      "bytes": 261,
+      "sha256": "f1546415686cdb451053244076294012273d5894f6b9012ee3b2cf066690b8c4"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr49_target_spectra_custom_rows.csv": {
+      "bytes": 12277,
+      "sha256": "ed87655e16daa7e857f8a686546bab764e79d4d758bbf476a1f46130ec924887"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr52_before.json": {
+      "bytes": 85973,
+      "sha256": "6f0be449ca8efea4fad77174a70f396ace82965565e471860098bbece3ef47f9"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr52_custom_quarto.txt": {
+      "bytes": 491,
+      "sha256": "6f063cbe19e94ad76e54531e994a6b3336ae516deac2a9b09e810b2227ed80ab"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr52_figure_render.txt": {
+      "bytes": 825,
+      "sha256": "c3c88cfe902699fa45dc715f561a5658226982eb377e750657c0dc06c495c7c4"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr52_gates.json": {
+      "bytes": 770,
+      "sha256": "dc90d73912a06914f24fb35722c6bc2f162de2ee6d0a109452e9858b946a8d1c"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr52_validation.json": {
+      "bytes": 2003,
+      "sha256": "7546679ef26e56071e2153f94186d42218f686ec7e6a6194273135bd28bb1a12"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr52_visual_inspection.md": {
+      "bytes": 2208,
+      "sha256": "92a8e260fbc49a9d286234f3cac9b70d112ee363442bef32ba8a68f2df02b8ed"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report-common.qmd": {
+      "bytes": 7469,
+      "sha256": "d7362c84b97f3a3f0251eaa3490fdce63a8e33a59c5fa404948989d0b919ab11"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report-custom.qmd": {
+      "bytes": 7667,
+      "sha256": "db173fc08d71d013d3e024f13be8ace06037db569a36c4298fd6914dd31211fb"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report.qmd": {
+      "bytes": 7667,
+      "sha256": "db173fc08d71d013d3e024f13be8ace06037db569a36c4298fd6914dd31211fb"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr49_delivery.py": {
+      "bytes": 8921,
+      "sha256": "c638d050a6edeca6c95b3a4e1d97e596a31eebdb2e558a30d2c273e214a84c33"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr49_spectra.R": {
+      "bytes": 3792,
+      "sha256": "a622bbd67c2e5284ef3a29fed4590c488b580df4da4e618284469ec035b2f6e8"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr52_delivery.py": {
+      "bytes": 6553,
+      "sha256": "0457e44861003bec629c35e7edb1fc6cb5ab1caf06d3360794099b97ad89988c"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr52_package.py": {
+      "bytes": 4331,
+      "sha256": "a4ad3b1278898518e4db10768a594ddc1f839e8b19e5f703af7a23b6c2eec3d7"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr52_raster_compare.py": {
+      "bytes": 977,
+      "sha256": "f2a83ff83149bb6faccab61b8d833beb0c835e88757a80f92bc89373c15e76f1"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr42_band_contract.csv": {
+      "bytes": 6806,
+      "sha256": "71cebab10825baf72100310649e8297181beeb6ef86dcd14f067508d861ffca9"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr42_sources.csv": {
+      "bytes": 14201,
+      "sha256": "daee82b34921ae3ee02928e0b355860e7bfc0e8b70344cf2d14be0ba65393abe"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_cell_sharing.csv": {
+      "bytes": 16508,
+      "sha256": "b0270927aedace96f1ea59d9e50c4bd9458827e78036309769f6e9453d34f88b"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_exclusion_mapping.csv": {
+      "bytes": 361,
+      "sha256": "c720f45f0fb96a73288f9ebd9600c3036bef33472c6b14b5e6b5c81893992e39"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_pairs.csv": {
+      "bytes": 8508,
+      "sha256": "d1a49dc0f6da1049614bc45f33a0e289feb65c86bd0835fca869721f9f327a8f"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_qa.csv": {
+      "bytes": 218547,
+      "sha256": "ad1000cbb2a9ad9ae50a5b6b711e27c5d84436dbbe403157a39a526fb9999fb8"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_satellite.csv": {
+      "bytes": 62557,
+      "sha256": "94bf52e7c618dfa1f2d639133879ac3966cd43be3ec58ee054f8d37d8651b3ea"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_sources.csv": {
+      "bytes": 14681,
+      "sha256": "28ebba27ec93b2ef3d01971004768b57bb40c343622f7b683a07b77d331fc9da"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_station_correspondence.csv": {
+      "bytes": 7821,
+      "sha256": "4cef62c4f3eb6a93328e18e59c4fc83300f734b90787e2f8bed6511c6d7616e7"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_targets.csv": {
+      "bytes": 1968,
+      "sha256": "d94bbcc7cb76f1e3556f742dce9fdaf16955f2141cc968208eb93c3728b5b493"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr47_windows.csv": {
+      "bytes": 239843,
+      "sha256": "4ae91989b1d29faa788cc1f1166cfcb44f28b5b74d482fb43ee4f973f6bddb40"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_R_crosscheck.csv": {
+      "bytes": 749,
+      "sha256": "69ea4055aa55850890678b824cc8081c08e5b1d7ce1d09aff7fdd5d869c3e97c"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_accounting.csv": {
+      "bytes": 406,
+      "sha256": "c902691a6d3d9052e9924471a3f7935719ec0f01ce6ecdd678f2eeac543d37a8"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_band_summary.csv": {
+      "bytes": 1151,
+      "sha256": "bfa120deea2a3eafc1d1b3cdbe5d8c142b006c0f41be3a671dba1e5af909137a"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_pairs.csv": {
+      "bytes": 5654,
+      "sha256": "047cfde28141ad81baa120c5e4773752b295f5c4cfbb3b4d0266bad3119032ad"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_plot_values.csv": {
+      "bytes": 10934,
+      "sha256": "065c9064993419f395c937e36a0027ab6c2e0f8bfa9b3152f35bb49865332629"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_scale_ranges.csv": {
+      "bytes": 486,
+      "sha256": "e9a29376e1dc7cfc871c66439fe480951516116e163838dcafd2a6ce828e327c"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_spectral_steps.csv": {
+      "bytes": 3753,
+      "sha256": "3d6d509d652ffbfc9446f50da2f64660d23a04a7110aa4abbd71343a6f7c2004"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr48_target_summary.csv": {
+      "bytes": 805,
+      "sha256": "b4056ad071477b232fb8369bc294651ea7d97d004dc38abf5418b0d25566f948"
+    },
+    "pyproject.toml": {
+      "bytes": 505,
+      "sha256": "9f1400ffc2943ad3779b8b0adf092994b1706a19847e40a287c7b68d3350dcae"
+    },
+    "renv.lock": {
+      "bytes": 137021,
+      "sha256": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+    },
+    "scripts/check-env.sh": {
+      "bytes": 2326,
+      "sha256": "1040286cef9b87403c193601d355ac78571eac3cc627e0cd304028c66c277b82"
+    },
+    "scripts/figure_io.py": {
+      "bytes": 1969,
+      "sha256": "d74eb9b72d096bba98756f440b859b171d8df19a03543b6618a99a88ce4e79aa"
+    },
+    "scripts/project-env.sh": {
+      "bytes": 699,
+      "sha256": "1727d0f0f585075d19aaf029c2b16f7c40894f72a0512dda6a5a71dc1512e00d"
+    },
+    "scripts/render-analysis.sh": {
+      "bytes": 1218,
+      "sha256": "48ed856c23108453f165d619a16c51407384e2e6427d8dba625c5e624b503997"
+    },
+    "uv.lock": {
+      "bytes": 129569,
+      "sha256": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report-custom-portable.html": {
+      "bytes": 442240,
+      "sha256": "53922889e4ac18c59e9bd69f3ddcac4b54877f74c5fa6ea03e6f568a2f490da0"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report-custom.html": {
+      "bytes": 2337470,
+      "sha256": "0958cc96e75f8db0ef819b2abbf3e9d607f63136069b5f9ba71172db071e9afa"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report.html": {
+      "bytes": 2337470,
+      "sha256": "0958cc96e75f8db0ef819b2abbf3e9d607f63136069b5f9ba71172db071e9afa"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report-common.html": {
+      "bytes": 2342753,
+      "sha256": "26a04e0185c4e266e447d644c84c6cc61b9028f6f24655d2a78a5dbda2b182af"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/report-common-portable.html": {
+      "bytes": 447523,
+      "sha256": "c5a4a0eb94b1f81b14a4f28ba839e6ce8673787f81b9afcba948315d6bfa0359"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom.svg": {
+      "bytes": 188182,
+      "sha256": "c1301622c27915177d3952359cc5e80315665b00905bd5712057db1df40f687d"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom.png": {
+      "bytes": 711304,
+      "sha256": "4a28baabc2f71b99314b68c21704d554aae4aed56911ea21bdfa7a8072ec798e"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom.pdf": {
+      "bytes": 30470,
+      "sha256": "d2f9bf13619463bcb1698427984d2c360b482e8e7e8f037a861b84cc46a175b8"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom_300dpi.png": {
+      "bytes": 295857,
+      "sha256": "b393bba4185ddb9527737b97e767d3dc6ae4562b3ec5dc3fa138b01aaec53076"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/outputs/CTR52-editable-source-and-evidence.zip": {
+      "bytes": 712339,
+      "sha256": "879123bd28836ad88f7144a45e72dfb396cba75b0837c70b9f8293e59941166c"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/outputs/CTR52-compact-editable-source.zip": {
+      "bytes": 263392,
+      "sha256": "bef4a30784cfbec1163dcd219938b921909404f0983fcbc4c676c9a1958ffc8f"
+    },
+    "analysis/CTR-27_sen2cor-acolite-asd/outputs/CTR52-reports.zip": {
+      "bytes": 2260855,
+      "sha256": "b3b52c3bc44b8b2d64a504a9f1625897657de9270c6564d4021abd0be71363d5"
+    }
+  }
+}

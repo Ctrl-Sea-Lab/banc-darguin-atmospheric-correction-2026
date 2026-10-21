@@ -1,0 +1,32 @@
+{
+  "affected": false,
+  "agent": "alan-turing",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/delivery-manifest.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/ctr64-copy-result.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/ctr64-assets.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/ctr64-readiness.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/ctr64-readiness-first-attempt.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/ctr54-promotion-plan.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/git-before.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/tracked-and-state-before.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/coordination.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/deliver.py",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/check_assets.py",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/finalize64.py",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-54-verified-decisions.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-70-verified-decisions.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-54_paired-reflectance-differences-source.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-54_paired-reflectance-differences-before.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-64_sentinel2-atmospheric-correction-review-source.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-64_sentinel2-atmospheric-correction-review-before.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR-64_sentinel2-atmospheric-correction-review-after.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/evidence-checksums.json",
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/CTR73-delivery-evidence.zip"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-73",
+  "version": 1
+}

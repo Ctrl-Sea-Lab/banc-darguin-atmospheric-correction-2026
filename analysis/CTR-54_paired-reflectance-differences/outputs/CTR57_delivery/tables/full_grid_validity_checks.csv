@@ -1,0 +1,5 @@
+band,n_zero,n_one,n_at_least_two,median_validity_matches,sd_validity_matches,encoded_fill_retained
+B2,118596,0,7309566,True,True,0
+B3,118596,0,7309566,True,True,0
+B4,118596,0,7309566,True,True,0
+B8,118596,0,7309566,True,True,0

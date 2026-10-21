@@ -1,0 +1,9 @@
+{
+  "zip_integrity": "passed",
+  "exact_report_and_figure_members": [
+    "analysis/CTR-54_paired-reflectance-differences/report.html",
+    "analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2.png",
+    "analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2.pdf",
+    "analysis/CTR-54_paired-reflectance-differences/figures/generated/ctr56_temporal_gam.png"
+  ]
+}

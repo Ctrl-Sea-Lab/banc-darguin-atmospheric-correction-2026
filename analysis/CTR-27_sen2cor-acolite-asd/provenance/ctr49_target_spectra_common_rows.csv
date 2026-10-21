@@ -1,0 +1,109 @@
+"target_id","class_literal","display_label","band_id","band_order_1based","wavelength_nm","correction","reflectance","finite","unit","SCL_flag","segment_id"
+"T1","Terrestrial soil","T1 — Terrestrial soil","B01",1,442.231274365104,"ACOLITE",0.162818759679794,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B01",1,442.231274365104,"Sen2Cor",0.2052,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B02",2,492.13324405604,"ACOLITE",0.209290936589241,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B02",2,492.13324405604,"Sen2Cor",0.2666,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B03",3,558.947458475621,"ACOLITE",0.310320645570755,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B03",3,558.947458475621,"Sen2Cor",0.377,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B04",4,664.936661866372,"ACOLITE",0.423949211835861,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B04",4,664.936661866372,"Sen2Cor",0.4958,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B05",5,703.8279778657,"ACOLITE",0.451420247554779,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B05",5,703.8279778657,"Sen2Cor",0.5353,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B06",6,739.126301654483,"ACOLITE",0.477098286151886,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B06",6,739.126301654483,"Sen2Cor",0.5445,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B07",7,779.720377069373,"ACOLITE",0.489805489778519,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B07",7,779.720377069373,"Sen2Cor",0.5617,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B08",8,832.948754124097,"ACOLITE",0.508659958839417,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B08",8,832.948754124097,"Sen2Cor",0.5938,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B8A",9,863.979556240761,"ACOLITE",0.507643222808838,"True",1,"False",1
+"T1","Terrestrial soil","T1 — Terrestrial soil","B8A",9,863.979556240761,"Sen2Cor",0.5665,"True",1,"False",1
+"T2","Water","T2 — Water","B01",1,442.231274365104,"ACOLITE",0.0544999353587627,"True",1,"True",1
+"T2","Water","T2 — Water","B01",1,442.231274365104,"Sen2Cor",0.0227,"True",1,"True",1
+"T2","Water","T2 — Water","B02",2,492.13324405604,"ACOLITE",0.0670723468065262,"True",1,"True",1
+"T2","Water","T2 — Water","B02",2,492.13324405604,"Sen2Cor",0.0407,"True",1,"True",1
+"T2","Water","T2 — Water","B03",3,558.947458475621,"ACOLITE",0.078435443341732,"True",1,"True",1
+"T2","Water","T2 — Water","B03",3,558.947458475621,"Sen2Cor",0.0382,"True",1,"True",1
+"T2","Water","T2 — Water","B04",4,664.936661866372,"ACOLITE",0.0313315726816654,"True",1,"True",1
+"T2","Water","T2 — Water","B04",4,664.936661866372,"Sen2Cor",-0.023,"True",1,"True",1
+"T2","Water","T2 — Water","B05",5,703.8279778657,"ACOLITE",0.0256462134420872,"True",1,"True",1
+"T2","Water","T2 — Water","B05",5,703.8279778657,"Sen2Cor",-0.0279,"True",1,"True",1
+"T2","Water","T2 — Water","B06",6,739.126301654483,"ACOLITE",0.0204849187284708,"True",1,"True",1
+"T2","Water","T2 — Water","B06",6,739.126301654483,"Sen2Cor",-0.0313,"True",1,"True",1
+"T2","Water","T2 — Water","B07",7,779.720377069373,"ACOLITE",0.0203079916536808,"True",1,"True",1
+"T2","Water","T2 — Water","B07",7,779.720377069373,"Sen2Cor",-0.0273,"True",1,"True",1
+"T2","Water","T2 — Water","B08",8,832.948754124097,"ACOLITE",0.01691073179245,"True",1,"True",1
+"T2","Water","T2 — Water","B08",8,832.948754124097,"Sen2Cor",-0.0251,"True",1,"True",1
+"T2","Water","T2 — Water","B8A",9,863.979556240761,"ACOLITE",0.0168750882148743,"True",1,"True",1
+"T2","Water","T2 — Water","B8A",9,863.979556240761,"Sen2Cor",-0.0215,"True",1,"True",1
+"T3","Seagrass","T3 — Seagrass","B01",1,442.231274365104,"ACOLITE",0.0279227942228317,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B01",1,442.231274365104,"Sen2Cor",-0.0185,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B02",2,492.13324405604,"ACOLITE",0.0295088775455952,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B02",2,492.13324405604,"Sen2Cor",-0.0146,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B03",3,558.947458475621,"ACOLITE",0.0621855445206165,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B03",3,558.947458475621,"Sen2Cor",0.0243,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B04",4,664.936661866372,"ACOLITE",0.0469345264136791,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B04",4,664.936661866372,"Sen2Cor",0.0062,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B05",5,703.8279778657,"ACOLITE",0.103340119123459,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B05",5,703.8279778657,"Sen2Cor",0.0888,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B06",6,739.126301654483,"ACOLITE",0.158070772886276,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B06",6,739.126301654483,"Sen2Cor",0.1596,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B07",7,779.720377069373,"ACOLITE",0.17473192512989,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B07",7,779.720377069373,"Sen2Cor",0.1834,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B08",8,832.948754124097,"ACOLITE",0.185804635286331,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B08",8,832.948754124097,"Sen2Cor",0.2032,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B8A",9,863.979556240761,"ACOLITE",0.192868083715439,"True",1,"False",1
+"T3","Seagrass","T3 — Seagrass","B8A",9,863.979556240761,"Sen2Cor",0.2041,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B01",1,442.231274365104,"ACOLITE",0.0999922454357147,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B01",1,442.231274365104,"Sen2Cor",0.1228,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B02",2,492.13324405604,"ACOLITE",0.129021972417831,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B02",2,492.13324405604,"Sen2Cor",0.1678,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B03",3,558.947458475621,"ACOLITE",0.182976439595222,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B03",3,558.947458475621,"Sen2Cor",0.2227,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B04",4,664.936661866372,"ACOLITE",0.204274401068687,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B04",4,664.936661866372,"Sen2Cor",0.2455,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B05",5,703.8279778657,"ACOLITE",0.24155655503273,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B05",5,703.8279778657,"Sen2Cor",0.2902,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B06",6,739.126301654483,"ACOLITE",0.256053239107132,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B06",6,739.126301654483,"Sen2Cor",0.2929,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B07",7,779.720377069373,"ACOLITE",0.2608962059021,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B07",7,779.720377069373,"Sen2Cor",0.2995,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B08",8,832.948754124097,"ACOLITE",0.262724876403809,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B08",8,832.948754124097,"Sen2Cor",0.3066,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B8A",9,863.979556240761,"ACOLITE",0.263172209262848,"True",1,"False",1
+"T4","Intertidal Sediment","T4 — Intertidal Sediment","B8A",9,863.979556240761,"Sen2Cor",0.2946,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B01",1,442.231274365104,"ACOLITE",0.025715185329318,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B01",1,442.231274365104,"Sen2Cor",0.0014,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B02",2,492.13324405604,"ACOLITE",0.0305446796119213,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B02",2,492.13324405604,"Sen2Cor",0.0139,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B03",3,558.947458475621,"ACOLITE",0.0549305938184261,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B03",3,558.947458475621,"Sen2Cor",0.0423,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B04",4,664.936661866372,"ACOLITE",0.0325483717024326,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B04",4,664.936661866372,"Sen2Cor",0.0194,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B05",5,703.8279778657,"ACOLITE",0.0570273324847221,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B05",5,703.8279778657,"Sen2Cor",0.0514,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B06",6,739.126301654483,"ACOLITE",0.0222496464848518,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B06",6,739.126301654483,"Sen2Cor",0.0027,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B07",7,779.720377069373,"ACOLITE",0.0221616178750992,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B07",7,779.720377069373,"Sen2Cor",0.0049,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B08",8,832.948754124097,"ACOLITE",0.0195196475833654,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B08",8,832.948754124097,"Sen2Cor",0.0065,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B8A",9,863.979556240761,"ACOLITE",0.0104220323264599,"True",1,"False",1
+"T5","Underwater Vegetation","T5 — Underwater Vegetation","B8A",9,863.979556240761,"Sen2Cor",-0.0038,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B01",1,442.231274365104,"ACOLITE",0.0466318577528,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B01",1,442.231274365104,"Sen2Cor",0.0597,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B02",2,492.13324405604,"ACOLITE",0.0700535252690315,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B02",2,492.13324405604,"Sen2Cor",0.1021,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B03",3,558.947458475621,"ACOLITE",0.109219305217266,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B03",3,558.947458475621,"Sen2Cor",0.1497,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B04",4,664.936661866372,"ACOLITE",0.110927134752274,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B04",4,664.936661866372,"Sen2Cor",0.157,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B05",5,703.8279778657,"ACOLITE",0.113995395600796,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B05",5,703.8279778657,"Sen2Cor",0.1616,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B06",6,739.126301654483,"ACOLITE",0.0603565573692322,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B06",6,739.126301654483,"Sen2Cor",0.0799,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B07",7,779.720377069373,"ACOLITE",0.0620990693569183,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B07",7,779.720377069373,"Sen2Cor",0.0833,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B08",8,832.948754124097,"ACOLITE",0.0571232438087463,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B08",8,832.948754124097,"Sen2Cor",0.0789,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B8A",9,863.979556240761,"ACOLITE",0.0352780297398567,"True",1,"False",1
+"T6","Underwater Sand","T6 — Underwater Sand","B8A",9,863.979556240761,"Sen2Cor",0.0482,"True",1,"False",1

@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-10-20T09:47:16.335164+00:00",
+  "scope": "local Linux /proc cwd, root, exe, open fds and maps; no NAS-client-wide activity claim",
+  "inspected_processes": 561,
+  "scanner_pid_excluded": 2875864,
+  "active_references": [],
+  "own_uid_inaccessible": [
+    {
+      "pid": 2810374,
+      "comm": "systemd",
+      "executable": "/usr/lib/systemd/systemd",
+      "known_session_daemon": true
+    },
+    {
+      "pid": 2810375,
+      "comm": "(sd-pam)",
+      "executable": "(sd-pam)",
+      "known_session_daemon": true
+    },
+    {
+      "pid": 2827710,
+      "comm": "sshd",
+      "executable": "sshd: paperclip-worker@notty",
+      "known_session_daemon": true
+    }
+  ],
+  "unknown_worker_processes": [],
+  "other_uid_inaccessible_count": 549,
+  "limitation": "other-user process details require privileges and are not asserted; no privilege changes made"
+}

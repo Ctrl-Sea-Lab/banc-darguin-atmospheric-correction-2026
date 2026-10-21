@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-20T01:45:18.495383+00:00",
+  "script": "scripts/enrich_metadata.py",
+  "method": "SAFE XML metadata and OOXML schema only",
+  "added_SAFE_band_rows": 646,
+  "total_variable_rows": 13594,
+  "observation_values": "not analyzed or exported",
+  "cached_raster_statistics": "omitted",
+  "inputs_stat_fingerprint": "see inventory_run.json"
+}

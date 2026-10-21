@@ -1,0 +1,25 @@
+pandoc
+  to: html
+  output-file: report.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 3
+  number-sections: true
+
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: cosmo
+  title: Banc d’Arguin 2026 — descriptive data dictionary
+  author: Roger Tomlinson
+
+Output created: report.html
+
+Rendered /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-24_data-dictionary/report.html

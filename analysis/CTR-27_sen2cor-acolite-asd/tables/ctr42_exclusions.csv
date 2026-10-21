@@ -1,0 +1,3 @@
+station_id,class_literal,reason,radiometric_reads,reference_integrations
+AC03,mbp_mud,original_PI_mud_exclusion,0,0
+AC04,mpb_mud,original_PI_mud_exclusion,0,0

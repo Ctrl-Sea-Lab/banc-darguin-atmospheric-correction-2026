@@ -1,0 +1,3 @@
+population,correction,n_stations,n_bands,n_station_band_values,bias,MAE,RMSE,unit,validation_eligible_pairs,evidence_scope
+reference,Sen2Cor,6,9,54,0.04972114400182161,0.05149656268934624,0.06648404297907817,1,0,supplied_table_reproduction_only
+reference,ACOLITE,6,9,54,0.019832215357628052,0.028983678437956344,0.04167766021520752,1,0,supplied_table_reproduction_only

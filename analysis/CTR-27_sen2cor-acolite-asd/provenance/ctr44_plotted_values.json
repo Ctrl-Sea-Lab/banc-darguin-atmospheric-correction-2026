@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "rows_checked": 351,
+  "finite_values": 338,
+  "ASD_B08_NA": 13,
+  "all_band_keys_segments_flags_preserved": true,
+  "absolute_serialization_tolerance": 1e-12,
+  "new_numeric_processing": false
+}

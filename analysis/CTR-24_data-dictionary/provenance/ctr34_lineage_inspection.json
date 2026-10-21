@@ -1,0 +1,14 @@
+{
+  "inventory_scanned": "all 894 raw relative paths from preserved stat snapshot",
+  "matching_March27_L1C_or_explicit_contributor_patch_ground_control_paths": [],
+  "tile_metadata": "data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/MTD_TL.xml",
+  "tile_metadata_sha256": "3c80af4b5c092c4e8f044577354273ba6da34f9c243d1aa6980684fdd6d90122",
+  "metadata_element_summary": {
+    "Tile_Geocoding": 1,
+    "Geoposition": 3,
+    "Size": 3,
+    "Sun_Angles_Grid": 1,
+    "Viewing_Incidence_Angles_Grids": 91
+  },
+  "interpretation": "orthorectified geocoding/angle metadata present; no explicit original L1C image bundle, native radiometric contributor/resampling grid, measured representative patch polygon, or independent local ground-control file identified by supplied paths. This is an inventory limitation, not a claim that evidence is permanently unrecoverable."
+}

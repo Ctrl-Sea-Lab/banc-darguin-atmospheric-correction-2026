@@ -1,0 +1,110 @@
+[
+  {
+    "id": "f6e19da5-f93d-4ba8-b445-428fe4e2a350",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "projectId": "5fc298b7-b03d-4a03-b14f-25b3e66ccf85",
+    "issueId": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+    "executionWorkspaceId": null,
+    "runtimeServiceId": null,
+    "type": "artifact",
+    "provider": "workspace",
+    "externalId": null,
+    "title": "CTR-59 independent scientific review \u2014 Accept",
+    "url": null,
+    "status": "ready_for_review",
+    "reviewState": "needs_board_review",
+    "isPrimary": true,
+    "healthStatus": "unknown",
+    "summary": "Independent Accept recommendation for exact candidate 7b9232da45c68c82c5f996b37357f15fb7b9ed55. PI approval pending. Permanent project file; full prose also saved in scientific-review task document. Attachment attempt timed out; no human-open confirmation claimed.",
+    "metadata": {
+      "sha256": "7f37d3195e2f2c9b6e6b274bec310e4d5a84e22e748a826dd8d9618291c50135",
+      "byteSize": 1918158,
+      "resourceRef": {
+        "kind": "workspace_file",
+        "issueId": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+        "displayPath": "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review/report.html",
+        "workspaceId": "4428c5e5-ad6b-4a27-a3bd-e9e4c94916a9",
+        "relativePath": "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review/report.html",
+        "workspaceKind": "project_workspace"
+      },
+      "reviewCommit": "1a7a57ba0b5b36ceaa288d5522eafe74adedd756",
+      "analysisRevision": "7b9232da45c68c82c5f996b37357f15fb7b9ed55"
+    },
+    "sourceTrust": null,
+    "createdByRunId": "4ef40b1f-b10f-4468-b08e-3f6a2e26e0af",
+    "createdAt": "2026-10-20T20:16:22.020Z",
+    "updatedAt": "2026-10-20T20:16:22.020Z"
+  },
+  {
+    "id": "d88904d0-28cb-47c0-b5ab-388f75e58ea3",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "projectId": "5fc298b7-b03d-4a03-b14f-25b3e66ccf85",
+    "issueId": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+    "executionWorkspaceId": null,
+    "runtimeServiceId": null,
+    "type": "artifact",
+    "provider": "workspace",
+    "externalId": null,
+    "title": "CTR-59 independent verification evidence and editable review",
+    "url": null,
+    "status": "ready_for_review",
+    "reviewState": "needs_board_review",
+    "isPrimary": false,
+    "healthStatus": "unknown",
+    "summary": "Independent Accept recommendation for exact candidate 7b9232da45c68c82c5f996b37357f15fb7b9ed55. PI approval pending. Permanent project file; full prose also saved in scientific-review task document. Attachment attempt timed out; no human-open confirmation claimed.",
+    "metadata": {
+      "sha256": "f9274514d8c7db93443e26accfc55d5f9073386aac3bf1b66c06f9c464f8c1ae",
+      "byteSize": 2702779,
+      "resourceRef": {
+        "kind": "workspace_file",
+        "issueId": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+        "displayPath": "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review/CTR59_review_evidence.zip",
+        "workspaceId": "4428c5e5-ad6b-4a27-a3bd-e9e4c94916a9",
+        "relativePath": "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review/CTR59_review_evidence.zip",
+        "workspaceKind": "project_workspace"
+      },
+      "reviewCommit": "1a7a57ba0b5b36ceaa288d5522eafe74adedd756",
+      "analysisRevision": "7b9232da45c68c82c5f996b37357f15fb7b9ed55"
+    },
+    "sourceTrust": null,
+    "createdByRunId": "4ef40b1f-b10f-4468-b08e-3f6a2e26e0af",
+    "createdAt": "2026-10-20T20:16:23.412Z",
+    "updatedAt": "2026-10-20T20:16:23.412Z"
+  },
+  {
+    "id": "f6a56afc-460f-4ce9-9c7b-2094e055633c",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "projectId": "5fc298b7-b03d-4a03-b14f-25b3e66ccf85",
+    "issueId": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+    "executionWorkspaceId": null,
+    "runtimeServiceId": null,
+    "type": "artifact",
+    "provider": "workspace",
+    "externalId": null,
+    "title": "CTR-59 exact review and evidence manifest",
+    "url": null,
+    "status": "ready_for_review",
+    "reviewState": "needs_board_review",
+    "isPrimary": false,
+    "healthStatus": "unknown",
+    "summary": "Independent Accept recommendation for exact candidate 7b9232da45c68c82c5f996b37357f15fb7b9ed55. PI approval pending. Permanent project file; full prose also saved in scientific-review task document. Attachment attempt timed out; no human-open confirmation claimed.",
+    "metadata": {
+      "sha256": "5cf4548f976013c885e565abc73cffadf80716f6285589e7f042bd99f9561c9c",
+      "byteSize": 4409,
+      "resourceRef": {
+        "kind": "workspace_file",
+        "issueId": "a4873b8e-3d1d-4dd8-a554-537e0e41000e",
+        "displayPath": "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review/provenance/final_delivery_manifest.json",
+        "workspaceId": "4428c5e5-ad6b-4a27-a3bd-e9e4c94916a9",
+        "relativePath": "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review/provenance/final_delivery_manifest.json",
+        "workspaceKind": "project_workspace"
+      },
+      "reviewCommit": "1a7a57ba0b5b36ceaa288d5522eafe74adedd756",
+      "analysisRevision": "7b9232da45c68c82c5f996b37357f15fb7b9ed55"
+    },
+    "sourceTrust": null,
+    "createdByRunId": "4ef40b1f-b10f-4468-b08e-3f6a2e26e0af",
+    "createdAt": "2026-10-20T20:16:24.865Z",
+    "updatedAt": "2026-10-20T20:16:24.865Z"
+  }
+]

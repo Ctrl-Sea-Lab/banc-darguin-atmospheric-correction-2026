@@ -1,0 +1,10 @@
+{
+  "source": "report.html",
+  "source_sha256": "52c0068698567487a77fd1eb472ac15e081f614d3d160e17828664812f52c092",
+  "portable": "report-portable.html",
+  "portable_sha256": "216074a22a792c52f4a611bd92d732cdbadcc94407b1ecf06d523acbabcded47",
+  "report_main_content_preserved_byte_for_byte": true,
+  "report_text_identical": true,
+  "external_rendering_resources": [],
+  "scope": "static offline presentation copy; no scientific changes"
+}

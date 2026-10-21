@@ -1,0 +1,96 @@
+{
+  "source_scientific_revision": "1bbb23b3b94e775a60aa921f8c9c4f86f51926cb",
+  "source_head_before_revision": "1631082eb8089b2beeaec8a97f6214191373f8e7",
+  "input_manifest_sha256": "e0b207ea8d92ea0058b1db9d9a970fee8041f5330541d0b607f4898758b30a31",
+  "raster_hashes": [
+    {
+      "path": "outputs/temporal/B2_median.tif",
+      "bytes": 22422409,
+      "sha256": "60ad6231fee5626d88fd7d0d6c769be6fee37e100c57331b0bf0f6318ca5c537"
+    },
+    {
+      "path": "outputs/temporal/B3_median.tif",
+      "bytes": 22541835,
+      "sha256": "1c79f065eea1b6004a4d5bbfb2dfc923317debacfb130143f0b66dd59ceb1668"
+    },
+    {
+      "path": "outputs/temporal/B4_median.tif",
+      "bytes": 22030860,
+      "sha256": "f35d4359946493a8d92577e3a9bb93037704676ca586cb2e55dca3ebc9e24aa5"
+    },
+    {
+      "path": "outputs/temporal/B8_median.tif",
+      "bytes": 21636846,
+      "sha256": "671be0d7b24582264624422fd99b3ca9ebaae1be635d0ac4e5bb3db0e9f1d15d"
+    },
+    {
+      "path": "outputs/temporal/B2_sd.tif",
+      "bytes": 21292023,
+      "sha256": "f0b67895baa06c1b589d396567a57ce1a48711884ac0b813ad958dd96dc070a0"
+    },
+    {
+      "path": "outputs/temporal/B3_sd.tif",
+      "bytes": 21290549,
+      "sha256": "1aef425e1e5a5ccc034c5a4c41556c78091b3ce5cdbf9c3e6f8a4eb6a1797406"
+    },
+    {
+      "path": "outputs/temporal/B4_sd.tif",
+      "bytes": 20789050,
+      "sha256": "7c2be3ca557cbb28e3ed7cff78e314bcb2c22e1ca34426bb7741cf89d564d4e9"
+    },
+    {
+      "path": "outputs/temporal/B8_sd.tif",
+      "bytes": 20422740,
+      "sha256": "1e3227a624f487d6d5f83e34b1c05a4d48fc8e9e26bdbe440c1ddf02e325e511"
+    }
+  ],
+  "extent": {
+    "size": [
+      3763,
+      1974
+    ],
+    "geotransform": [
+      334050.0,
+      10.0,
+      0.0,
+      2209980.0,
+      0.0,
+      -10.0
+    ],
+    "epsg": 32628
+  },
+  "median_limit": 0.0464419350028038,
+  "median_scale_unchanged": true,
+  "sd_anchors": {
+    "0": "#2166AC",
+    "0.01": "#FFFFFF",
+    "0.02": "#B2182B"
+  },
+  "sd_upper_extension": true,
+  "nodata": "#D9D9D9",
+  "dimensions_inches": [
+    20,
+    6.1
+  ],
+  "png_dpi": 400,
+  "preview_dpi": 120,
+  "render_sampling": "nearest regular display sampling including all four outer edge pixels; whole scientific extent retained; no scientific resampling or raster modification",
+  "audit": "tables/display_limits_v2.csv",
+  "outputs": [
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2.png",
+      "bytes": 17602104,
+      "sha256": "ca9d6e599cd98e875bc04e4602eece1b480d222f721658e654afbd53ecaae0be"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2.pdf",
+      "bytes": 12965942,
+      "sha256": "b202c1ffa79365b4d332a70d0507cbf999777f0961d0b2038f0a542a64523d3d"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2_preview.png",
+      "bytes": 1954528,
+      "sha256": "8f75cb51ff40d42281b782166e38bb3270a1df34f2936c4cc906ed4e76182a66"
+    }
+  ]
+}

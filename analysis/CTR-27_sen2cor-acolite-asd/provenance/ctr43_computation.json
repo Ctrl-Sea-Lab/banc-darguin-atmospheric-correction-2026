@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "input_commit": "51eeaf86353e895d18ee8f0747642d45d612909e",
+  "station_count": 13,
+  "excluded_count": 2,
+  "requested_bands": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B8A"
+  ],
+  "supported_bands": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B8A"
+  ],
+  "satellite_finite": 234,
+  "common_triples_per_role": 104,
+  "eligible_validation_pairs": 0,
+  "SCL_flagged_satellite_rows": 109,
+  "max_abs_SRF_v5_minus_v4": 7.710803728627758e-05,
+  "script_sha256": "a2b7f5c0c98d1ff41b3231f13795779ccde0a8feb0707142630cc2f2512f5f97",
+  "input_audit_sha256": "5a99b1ae46e03f1351c414f6e5376839c931356349537b43743d1903f185ef17",
+  "tables_sha256": {
+    "ctr43_band_availability.csv": "c770f10437ca29c6b0fd56d5c54813997c83ed6dcd693b751740ab9c200bb0be",
+    "ctr43_comparison_long.csv": "512aad90dafa8558a41397e244e7153f650f574a3813238bfaf568fe64a56a27",
+    "ctr43_pair_masks.csv": "49abcf63782d3dea62d8fb0c6691226b9e66961796741bc64bffc2f35daca368",
+    "ctr43_spectral_long.csv": "2df8eb536d9164031dbfdd814fb1823c0991382f807ed241d93b7283fd862d6f",
+    "ctr43_srf_sensitivity.csv": "83025a7e27227f59fded9f40e4f5369497afa1e60c127cdf0d41a320dc5ef888",
+    "ctr43_station_accounting.csv": "b8260a4a54998fb3b490710af8233eaa6363831e523077bfdbee8e1aba7493f6",
+    "ctr43_station_metrics.csv": "7974dfb7e1b0ccc368c9e186dd9f6411393bb61a825c79a06d8472e6fcadc96a"
+  },
+  "software": {
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "host": "simon-desktop",
+    "numpy": "2.5.4"
+  },
+  "no_model_or_random_sampling": true,
+  "review": "numerical handoff only; Rachel presentation then Karl independent scientific review and PI authority remain"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "upstream_commit": "dc10ebe93e8e5053f4f7fb6aa377ba7fb9a174bd",
+  "frozen_CTR43_tables": 7,
+  "frozen_CTR42_tables": 11,
+  "unchanged_figure1_exports": 3,
+  "unrelated_CTR39_baseline_files_still_present": 60,
+  "unrelated_CTR39_external_changes_recorded": 19,
+  "primary_role_rows": 351,
+  "finite_satellite_values": 234,
+  "finite_ASD_values": 104,
+  "ASD_B08_NA": 13,
+  "SCL_flagged_satellite_values": 109,
+  "all_stations_accounted": 15,
+  "validation_eligible_pairs": 0,
+  "obsolete_scatter_and_metrics_removed": true,
+  "html_images_each": 3,
+  "html_links_checked": 11,
+  "portable_main_identical": true,
+  "new_statistics_or_extraction": false,
+  "review_status": "pending Rachel then Karl on exact revision; no PI approval"
+}

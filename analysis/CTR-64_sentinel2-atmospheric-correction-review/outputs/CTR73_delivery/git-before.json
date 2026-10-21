@@ -1,0 +1,6 @@
+{
+  "head": "869b7596bd287b27d7a8d86e1eb52d2ba20e7075",
+  "branch": "ctr-49-target-report",
+  "status": "?? analysis/CTR-27_sen2cor-acolite-asd/outputs/CTR52_DELIVERY_HASHES.json\n?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr52_completion_receipt.json\n?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr52_delivery_receipts.json\n?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr52_document_receipt.json\n?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr52_technical_delivery.md\n?? analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr52_upload_report.json\n?? analysis/CTR-54_paired-reflectance-differences/\n?? analysis/CTR-60_artifact-recovery/\n",
+  "diff": ""
+}

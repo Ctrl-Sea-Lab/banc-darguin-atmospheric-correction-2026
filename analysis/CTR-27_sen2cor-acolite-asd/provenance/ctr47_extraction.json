@@ -1,0 +1,52 @@
+{
+  "started_utc": "2026-10-20T13:54:42.579208+00:00",
+  "completed_utc": "2026-10-20T13:54:56.811330+00:00",
+  "target_count": 6,
+  "retained_target_count": 6,
+  "band_order": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B8A"
+  ],
+  "satellite_rows": 108,
+  "finite_values": 108,
+  "finite_pairs": 54,
+  "negative_values": 9,
+  "operational_SCL_flagged_values": 18,
+  "operational_SCL_flagged_target_ids": [
+    "T2"
+  ],
+  "missing_QA_files": [],
+  "missing_ACOLITE_specific_quality_mask": "not supplied; exported rhos metadata l2w_mask=False; SCL/CLDPRB/SNWPRB are shared Sen2Cor operational evidence",
+  "radiometric_reads": 108,
+  "max_window_cells": 9,
+  "shared_stored_cell_groups": 0,
+  "sources_stat_unchanged": true,
+  "software": {
+    "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+    "numpy": "2.5.4",
+    "GDAL": "GDAL 3.8.4, released 2024/02/08",
+    "host": "simon-desktop"
+  },
+  "extraction": "one containing stored cell per target, band and correction; no resampling or averaging",
+  "source_hash_scope": "streamed full-file SHA256; raster decoding only bounded windows",
+  "scientific_limitations": [
+    "unequal stored footprints for coarse Sen2Cor bands and ACOLITE 10m exports",
+    "upstream interpolation weights and effective optical supports unverified",
+    "labels are supplied classes, not independent ecological identification",
+    "no independent reflectance accuracy assessment; differences do not establish superiority",
+    "operational cloud masks do not establish cloud-free conditions",
+    "correlated bands and any shared cells are not independent replicates"
+  ],
+  "field_comparison": false,
+  "ASD_integration": false,
+  "prior_physical_validation_holds": "unchanged; satellite comparison does not release prior holds",
+  "environment_changed": false,
+  "scientific_approval": "none; author QA then Thomas validation required"
+}

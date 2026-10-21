@@ -1,0 +1,82 @@
+{
+  "delivery-manifest.json": {
+    "sha256": "a0359b6e57ca45a2accf7deb1eb39404d866516dba2e841ff54385a19577d46a",
+    "bytes": 4824
+  },
+  "ctr64-copy-result.json": {
+    "sha256": "d4eaced38e0df4788d7f6892314aa73ac22863e5e8564fd1fdfc6aafc81aa0fe",
+    "bytes": 676
+  },
+  "ctr64-assets.json": {
+    "sha256": "1061255fe4a7c64a2c16747e6772cf60bb7187d874c6db93f6d0b891a3128686",
+    "bytes": 2764
+  },
+  "ctr64-readiness.json": {
+    "sha256": "e482f292d7dcfe079c4c75e998d59969dcceba68c656fffbf9d4c48a7c05510f",
+    "bytes": 44034
+  },
+  "ctr64-readiness-first-attempt.json": {
+    "sha256": "52b837dedb5e3e0ef1e6680d4ff4cd55cfcbc94ff1ca88005ddd7a825c7daeeb",
+    "bytes": 23069
+  },
+  "ctr54-promotion-plan.json": {
+    "sha256": "8998254b6aabc449bd89549d46c9f73d50e33d0de46d4cdd20752cfc30765597",
+    "bytes": 194065
+  },
+  "git-before.json": {
+    "sha256": "b8f8683a8db4c4ee6e1b829130601b6516a74094941620992d56a6a4b388d157",
+    "bytes": 669
+  },
+  "tracked-and-state-before.json": {
+    "sha256": "63bb509cb0442052a643852ab465607459bd6a74c2d7226a6049fa8dba3d6a08",
+    "bytes": 120018
+  },
+  "coordination.json": {
+    "sha256": "489712538487cdd0bc3f381ee6b20ad1f9a01b30b55f1a2d18276585bf47b61e",
+    "bytes": 3802
+  },
+  "deliver.py": {
+    "sha256": "2dba087fe60c4eda9c1eda103b3df82150d0d3f14a7f4827f38767ae5f40ef0c",
+    "bytes": 5565
+  },
+  "check_assets.py": {
+    "sha256": "118bfa877e060705011bb1501c2180242a296345a950df4c879957b692f70c99",
+    "bytes": 1805
+  },
+  "finalize64.py": {
+    "sha256": "c3c774af4270e84e270f5cb187d2023f6b4c0b20c966cdf861552898d9199699",
+    "bytes": 4693
+  },
+  "CTR-54-verified-decisions.json": {
+    "sha256": "3470089445f2fd3c8d40f542d793a8644e28c318e2f52db0087da3cff58ae40a",
+    "bytes": 3446
+  },
+  "CTR-70-verified-decisions.json": {
+    "sha256": "3c5918daae631c0dfd3a75fd74e6fabcc1d3270bb9c14f0ec8dc2a0e4de3e189",
+    "bytes": 3497
+  },
+  "CTR-54_paired-reflectance-differences-source.json": {
+    "sha256": "2476b0ab313d2ddb0e2c8cbdfc3ef426df2beb520ac9380b5d20f124b9f44768",
+    "bytes": 49042
+  },
+  "CTR-54_paired-reflectance-differences-before.json": {
+    "sha256": "2cb02370b63b82c29d77f056e35104dd2c8da7690623cb0f43d617ec45ddf8e3",
+    "bytes": 114252
+  },
+  "CTR-64_sentinel2-atmospheric-correction-review-source.json": {
+    "sha256": "4799487da7a1c84b75b4b077d04b3ee3b430d44cd06ab3fab2f637db171f9a70",
+    "bytes": 46066
+  },
+  "CTR-64_sentinel2-atmospheric-correction-review-before.json": {
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "bytes": 3
+  },
+  "CTR-64_sentinel2-atmospheric-correction-review-after.json": {
+    "sha256": "62e15886ebb00235e5c7aae6ead4000568c3f43064fa1bed48f714c5a6ff0398",
+    "bytes": 31921
+  },
+  "evidence-readiness.json": {
+    "sha256": "96d1c7b1f8942a5bf71318a39afa667467100bc9bc36500ca823eb458c6ec592",
+    "bytes": 2686
+  }
+}

@@ -1,0 +1,131 @@
+---
+title: "Paired Sentinel-2 reflectance differences"
+subtitle: "CTR-54 investigation · CTR-55 geospatial and CTR-56 statistical delivery · draft for review"
+author: "Roger Tomlinson and Thomas Bayes · Ctrl+Sea"
+date: "2026-10-20"
+format:
+  html:
+    embed-resources: true
+---
+
+{{< include outputs/ctr56-report-body.qmd >}}
+
+# Preserved geospatial analysis (CTR-55)
+
+
+## Take-home message
+
+ACOLITE surface reflectance is typically lower than Sen2Cor on the supplied T28QCH footprint across the 22 paired Sentinel-2 acquisitions. The maps and tables quantify disagreement between ACOLITE and Sen2Cor; they do not identify the more accurate correction or establish ecological change. Interpret temporal patterns alongside spatial coverage and quality information.
+
+## Meaningful results
+
+The comparison retains all valid land, intertidal and water pixels in the supplied 742.8162 km² rectangular crop. ACOLITE dates 15 February and 13 October 2025 have no same-tile Sen2Cor counterpart. All selected pairs have matching sensor, datatake, orbit, tile and tile sensing time. Reflectance grids align exactly.
+
+| Band | Median of pixel temporal medians | Median of pixel temporal SDs | Grid with ≥2 valid dates | Pixels valid on all 22 dates |
+| --- | --- | --- | --- | --- |
+| B2 | -0.00962 | 0.01124 | 98.4% | 3541502 |
+| B3 | -0.00857 | 0.01026 | 98.4% | 3541623 |
+| B4 | -0.00793 | 0.00939 | 98.4% | 3541533 |
+| B8 | -0.00893 | 0.01011 | 98.4% | 3541100 |
+
+These map-distribution summaries weight each eligible pixel once. The median of temporal medians is distinct from a pooled pixel/date median or the median of per-date spatial medians.
+
+![Paired reflectance differences](figures/generated/paired_reflectance_maps_preview.png)
+
+Temporal median (top) and sample SD (bottom) of paired surface-reflectance differences, ACOLITE − Sen2Cor, for B2, B3, B4 and B8 across 22 acquisitions (6 January 2025–27 March 2026). The full supplied T28QCH comparison crop is retained at 10 m in UTM zone 28N; no marine-only mask is added. Blank cells lack the observations required for the statistic (median n≥1; SD n≥2). Median limits are shared at ±0.04644; SD limits are shared at 0–0.02584, in dimensionless reflectance units. Display limits use pooled 98th-percentile scaling; values outside them are saturated for display only. Band-specific full-resolution clipping fractions appear below. A regular every-third-cell sample is used only to draw the maps. Missing ACOLITE flags on the two March 2026 dates and unequal per-pixel temporal coverage limit comparability; the figure does not establish correction accuracy.
+
+### Spatial summaries within each acquisition
+
+| Band | Smallest date median ΔR | Largest date median ΔR | Primary grid coverage range | Dates with positive spatial median | Dates with defined median |
+| --- | --- | --- | --- | --- | --- |
+| B2 | -0.04078 | 0.00645 | 72.0%–98.3% | 3 | 22 |
+| B3 | -0.03608 | 0.00441 | 72.0%–98.3% | 3 | 22 |
+| B4 | -0.03431 | 0.00247 | 72.0%–98.3% | 3 | 22 |
+| B8 | -0.03648 | 0.00009 | 72.0%–98.3% | 1 | 22 |
+
+Each date/band has its own spatial median, sample SD and valid count in `tables/date_band_summary.csv`. Date gaps are unequal. Spatial SD is variation across retained pixels, not uncertainty of a mean or correction accuracy.
+
+## Issues and limitations
+
+The original ACOLITE crop and its earlier polygon clipping constrain geographic scope; full Sentinel-2 tile coverage cannot be inferred from this crop. The two March 2026 ACOLITE deliveries lack flag layers. Their quality filtering therefore relies on Sen2Cor SCL and finite paired observations. SCL and ACOLITE flags have no independent validation here. Cloud remnants, aerosols, adjacency, glint, tide, bottom visibility, phenology, sensor differences and changing spatial sampling can all affect observed differences. Negative reflectance is retained when otherwise valid.
+
+No field observations or ground-truth accuracy assessment enter this investigation. Cross-correction agreement is not evidence that either correction is accurate. No causal/ecological trend is inferred. Small temporal counts must be read alongside the count rasters.
+
+## Implications and next steps
+
+Use the primary summaries for descriptive comparison and the sensitivity tables to assess dependence on quality and coverage. Statistical modelling should account for spatial/temporal dependence, sensor differences and unequal date gaps. The supplied spatial SD must not be treated as an independent measurement-error estimate. Independent review and a separate authenticated PI decision are required before findings can support the manuscript.
+
+## Question, data and methods
+
+How do paired ACOLITE and Sen2Cor surface reflectances differ for B2/B3/B4/B8 in the available Sentinel-2 observations? ΔR = ACOLITE − Sen2Cor, dimensionless. B8A is excluded.
+
+The inventory contains 24 ACOLITE date directories, 46 Sen2Cor ZIP products and two loose SAFE products. Twenty-two T28QCH acquisitions are paired across Sentinel-2A/B/C, 6 January 2025–27 March 2026. Unpaired products and reasons remain in `tables/acquisition_inventory.csv`. Candidate QCG tiles are not duplicated or substituted for CH. Sensor-specific ACOLITE band parameters and actual wavelengths are recorded in `tables/band_mapping.csv`.
+
+Reference grid: EPSG:32628; 3763 × 1974 cells; 10 m; E=334050–371680 m; N=2190240–2209980 m. Sen2Cor reflectance is cropped at exact integer pixel offsets without interpolation. SCL uses nearest-neighbour transfer from 20 to 10 m. No additional ecological mask is imposed.
+
+ACOLITE Float32 `rhos` is already dimensionless surface reflectance (scale 1, offset 0). Sen2Cor is decoded with each product's XML as `(DN + BOA_ADD_OFFSET) / BOA_QUANTIFICATION_VALUE`; selected offsets are −1000 and quantification is 10000. DN=0, saturated DN, nonfinite ACOLITE observations and the exact default netCDF Float32 fill value are excluded. The supplied ACOLITE deliveries contain that finite sentinel despite their GeoTIFF NoData=NaN metadata; all 88 input band rasters are audited in `encoded_fill_audit.csv`. The audit identifies 118,596 fill cells per raster (1.60% of the rectangle). No arbitrary reflectance upper bound is applied; valid negative values are preserved.
+
+Primary joint QA retains SCL 4/5/6 and rejects available ACOLITE cirrus, out-of-scene and DEM-shadow bits. Non-water SWIR and negative-reflectance flags are retained. Bright-pixel high-TOA flags are a separate sensitivity because they can remove valid land. Files without ACOLITE flags are identified explicitly. Full methods, assumptions and documentation are in `METHODS.md`.
+
+Temporal median uses n≥1 and sample SD uses n≥2 with denominator n−1. Per-date spatial SD also uses n−1. Processing uses 64-row chunks, Float64 computation and disk-backed Float32 differences on local SSD. All reported statistics use full-resolution values; only drawing uses a regular sample. Raw files are read without alteration.
+
+## Coverage and mask sensitivity
+
+The complete-date core retains only pixels valid on all 22 dates. The 80% core retains pixels valid on ≥18 dates. The common-footprint core requires finite paired observations in every band/date before quality masking. These conditional cores test coverage effects but can favour consistently clear locations. Additional masks include SCL 7 or exclude high-TOA flags. All domains and empty cases are retained in the downstream table.
+
+| Band | Sensitivity domain | Median across dates of change in spatial median ΔR | Min valid pixels/date | Max valid pixels/date | Comparable dates |
+| --- | --- | --- | --- | --- | --- |
+| B2 | include_SCL7 | 0.00001 | 5364437 | 7305770 | 22 |
+| B2 | exclude_high_TOA | 0.00088 | 4735434 | 7263590 | 22 |
+| B2 | complete_dates | 0.00097 | 3541502 | 3541502 | 22 |
+| B2 | coverage80 | -0.00000 | 5336432 | 7247257 | 22 |
+| B2 | common_footprint | -0.00000 | 5346503 | 7299990 | 22 |
+| B3 | include_SCL7 | 0.00000 | 5364446 | 7305781 | 22 |
+| B3 | exclude_high_TOA | 0.00085 | 4735441 | 7263601 | 22 |
+| B3 | complete_dates | 0.00070 | 3541623 | 3541623 | 22 |
+| B3 | coverage80 | -0.00000 | 5336439 | 7247258 | 22 |
+| B3 | common_footprint | -0.00000 | 5346503 | 7299990 | 22 |
+| B4 | include_SCL7 | 0.00000 | 5364440 | 7305774 | 22 |
+| B4 | exclude_high_TOA | 0.00078 | 4735435 | 7263594 | 22 |
+| B4 | complete_dates | 0.00042 | 3541533 | 3541533 | 22 |
+| B4 | coverage80 | 0.00000 | 5336433 | 7247254 | 22 |
+| B4 | common_footprint | -0.00000 | 5346503 | 7299990 | 22 |
+| B8 | include_SCL7 | -0.00000 | 5364444 | 7305635 | 22 |
+| B8 | exclude_high_TOA | 0.00096 | 4735438 | 7263455 | 22 |
+| B8 | complete_dates | 0.00028 | 3541100 | 3541100 | 22 |
+| B8 | coverage80 | 0.00001 | 5336436 | 7247248 | 22 |
+| B8 | common_footprint | -0.00000 | 5346503 | 7299990 | 22 |
+
+A change in the spatial median can reflect changed spatial support; this table is descriptive, not an inferential test. Sensitivity domains overlap and are not independent samples. Primary footprint and negative-count diagnostics repeated in sensitivity rows are labelled explicitly in `TABLE_CONTRACT.md`.
+
+## Display clipping audit
+
+| Band | Statistic | Display minimum | Display maximum | Clipped below | Clipped above |
+| --- | --- | --- | --- | --- | --- |
+| B2 | median | -0.04644 | 0.04644 | 0.89% | 0.00% |
+| B3 | median | -0.04644 | 0.04644 | 1.04% | 0.00% |
+| B4 | median | -0.04644 | 0.04644 | 1.54% | 0.00% |
+| B8 | median | -0.04644 | 0.04644 | 4.55% | 0.00% |
+| B2 | sd | 0.00000 | 0.02584 | 0.00% | 0.49% |
+| B3 | sd | 0.00000 | 0.02584 | 0.00% | 0.94% |
+| B4 | sd | 0.00000 | 0.02584 | 0.00% | 4.63% |
+| B8 | sd | 0.00000 | 0.02584 | 0.00% | 1.86% |
+
+The same limits apply to all four bands within a row. The full scientific rasters and tabulated minima/maxima remain unclipped. The exported PNG is 400 dpi (the HTML embeds a 200 dpi preview); the accompanying PDF preserves text and embeds map rasters.
+
+## Validation and reproducibility
+
+Direct checks against original source pixels: 12; maximum absolute discrepancy 7.12e-10. Temporal raster spot checks: 96; maximum absolute discrepancy 1.86e-09. All 113 scientific raster outputs passed grid, CRS, datatype and NoData checks. Base R independently recomputes temporal statistics from the delivered sample values. Numerical check tables are retained; these checks are distinct from independent scientific review and thematic accuracy.
+
+Inputs: `provenance/input_hashes.csv`; outputs: `provenance/output_hashes.csv`; exact revision, durable paths and execution commands: `HANDOFF.md` and `provenance/handoff.json`. Restore the repository lockfiles with the authorized project tools. Re-run the recorded `scripts/run.sh` sequence, including the source-fill audit, with `CTR54_SOURCE` and `CTR54_SCRATCH` set if needed. Figure and report stages use the recorded project Python/R and existing Quarto installation. No dependency change was required. Detailed software versions and lockfile hashes are in `provenance/environment.json`.
+
+## Internal review and approval status
+
+Independent scientific review pending. PI scientific approval pending. Manuscript integration, merge and publication are not authorized.
+
+## Documentation
+
+- [Copernicus Sentinel-2 product organization and reflectance decoding](https://sentiwiki.copernicus.eu/web/s2-products).
+- [Copernicus Sentinel-2 processing and scene classification](https://sentiwiki.copernicus.eu/web/s2-processing).
+- [Official ACOLITE project and processing documentation](https://github.com/acolite/acolite).
+- [Official ACOLITE flag code](https://github.com/acolite/acolite/blob/main/acolite/acolite/acolite_flags.py). The source metadata record flag exponents; the original processor commit is not recoverable from the timestamp-style version string.

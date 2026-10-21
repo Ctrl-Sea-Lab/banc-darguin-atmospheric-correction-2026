@@ -1,0 +1,4 @@
+"sd","index","hex","expected","pass"
+0,1,"#2166AC","#2166AC",TRUE
+0.01,129,"#FFFFFF","#FFFFFF",TRUE
+0.02,257,"#B2182B","#B2182B",TRUE

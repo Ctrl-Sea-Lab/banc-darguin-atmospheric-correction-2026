@@ -1,0 +1,116 @@
+{
+  "result": "passed",
+  "citations_resolved": 17,
+  "unique_dois": 16,
+  "valid_identity_checked_ignored_pdfs": 15,
+  "rendered_comparison_tables": 2,
+  "protected_root_files_unchanged": true,
+  "pdf_checks": [
+    {
+      "key": "Warren2019",
+      "pdf": "literature/pdfs/Warren_2019_Assessment.pdf",
+      "sha256": "bcc2fcce0e9323e14a1539a116fed8cca24e786db9800238b2b04f230631a496",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Pahlevan2021",
+      "pdf": "literature/pdfs/Pahlevan_2021_ACIXAqua.pdf",
+      "sha256": "4a942732f95b745c224036c87afa78c98dfd048889bc222dc8aa9ffba43c5537",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Vanhellemont2019",
+      "pdf": "literature/pdfs/Vanhellemont_2019_DarkSpectrumFitting.pdf",
+      "sha256": "7e336f97a87f99dca01b28d9fc6aa4e0f09d7c0e3bbf6472752a4c6083f1c017",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "DeKeukelaere2018",
+      "pdf": "literature/pdfs/DeKeukelaere_2018_iCOR.pdf",
+      "sha256": "a9c24c2503b2d6c83ca0694b5aa19c2543353f9e1d03a1bf83c430cd15c66cde",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "MainKnorn2017",
+      "pdf": "literature/pdfs/MainKnorn_2017_Sen2Cor.pdf",
+      "sha256": "b1c37142eb61b31858818192491f4aded7e8226764ecf3a09368a82b796de718",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Fan2021",
+      "pdf": "literature/pdfs/Fan_2021_OCSMART.pdf",
+      "sha256": "235cf1215df9d8b9d9a67eddf88a539151e75acfe0dc4e20fdb14d6b947ac1ee",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Harmel2018",
+      "pdf": "literature/pdfs/Harmel_2018_FullText.pdf",
+      "sha256": "d4c0895e614a66ebe52288e7c44c1048e3139c579bcf9bfa3dab848c54907893",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Bui2022",
+      "pdf": "literature/pdfs/Bui_2022_FrenchCoastalWaters.pdf",
+      "sha256": "695db4ee72a3d81095495c242a11b209fa595c28052c9d2ae5138c0377e84cf7",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "PereiraSandoval2019",
+      "pdf": "literature/pdfs/PereiraSandoval_2019_SpanishInlandWaters.pdf",
+      "sha256": "b03de1f606f330e1b9738aec937c9f4f034ff0bfcd678eb3e9abcb21e5434235",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Castagna2025",
+      "pdf": "literature/pdfs/Castagna_2025_RAdCor.pdf",
+      "sha256": "66f9a2d3b3f29adfc80c1c9a0a578a50dfe74fedde906263d718bac00ea730a1",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Muller2026",
+      "pdf": "literature/pdfs/Muller_2026_C2RCC.pdf",
+      "sha256": "63d4a10db4a27e0bb710d0d7eae0c45db5d1bbd54923b472d2172281e6b8f2b6",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Vrdoljak2022",
+      "pdf": "literature/pdfs/Vrdoljak_2022_Bathymetry.pdf",
+      "sha256": "4053ba9d6d5bae9c3cafc533b99c370ef9cec036c2eb956e036c6d7c53c88be8",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Gordon1994",
+      "pdf": "literature/pdfs/Gordon_1994_SeaWiFSAtmosphericCorrection.pdf",
+      "sha256": "ca940113508a2c6af5dc437f96c15922793ff5406791c0f92cf0eacd49b6a3f0",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Lathif2025",
+      "pdf": "literature/pdfs/Lathif_2025_FullText.pdf",
+      "sha256": "03b4c99837a4fadcc7e85ef8205d91cdf276987484feca2abfba7af14fb5bff8",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Brockmann2016",
+      "pdf": "literature/pdfs/Brockmann_2016_C2RCC.pdf",
+      "sha256": "bddb6e671a54d64b1f39c2d09652ae747c2acc3317311177ec560032f68b9117",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    }
+  ],
+  "limitations": "Automated checks supplement source inspection; independent acceptance in CTR-40 is bound to source revision a031b9dfdfafc6b7db02848d4ded3228d2cb3e88; subsequent editorial checks do not grant PI approval."
+}

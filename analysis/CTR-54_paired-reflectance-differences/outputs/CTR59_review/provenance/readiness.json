@@ -1,0 +1,12 @@
+{
+  "affected": false,
+  "agent": "karl-popper",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-54_paired-reflectance-differences/outputs/CTR59_review"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-59",
+  "version": 1
+}

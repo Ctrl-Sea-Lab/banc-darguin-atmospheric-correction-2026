@@ -1,0 +1,10 @@
+{
+  "status": "checks_passed_independent_scientific_review_pending",
+  "source_checks": 12,
+  "max_source_absolute_error": 7.122755163457839e-10,
+  "temporal_checks": 96,
+  "max_temporal_absolute_error": 1.862645149230957e-09,
+  "rasters_checked": 113,
+  "source_inputs_opened_read_only": true,
+  "scientific_approval": "pending"
+}

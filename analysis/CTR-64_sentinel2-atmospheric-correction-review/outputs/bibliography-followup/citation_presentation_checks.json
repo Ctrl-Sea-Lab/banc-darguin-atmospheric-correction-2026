@@ -1,0 +1,83 @@
+{
+  "citation_groups_linked": 19,
+  "unknown_keys": [],
+  "only_citation_markup_changed": true,
+  "replacements": [
+    {
+      "before": "[@Warren2019, Methods and Conclusions]",
+      "after": "([Warren2019](https://doi.org/10.1016/j.rse.2019.03.018), Methods and Conclusions)"
+    },
+    {
+      "before": "[@Doxani2023, Abstract and Methods]",
+      "after": "([Doxani2023](https://doi.org/10.1016/j.rse.2022.113412), Abstract and Methods)"
+    },
+    {
+      "before": "[@Vanhellemont2019, \u00a72]",
+      "after": "([Vanhellemont2019](https://doi.org/10.1016/j.rse.2019.03.010), \u00a72)"
+    },
+    {
+      "before": "[@Castagna2025, \u00a7\u00a74\u20135]",
+      "after": "([Castagna2025](https://doi.org/10.1364/ao.546766), \u00a7\u00a74\u20135)"
+    },
+    {
+      "before": "[@Steinmetz2011; @Warren2019; HYGEOS overview]",
+      "after": "([Steinmetz2011](https://doi.org/10.1364/oe.19.009783); [Warren2019](https://doi.org/10.1016/j.rse.2019.03.018); HYGEOS overview)"
+    },
+    {
+      "before": "[@Hagolle2015MAJA, Methods and Conclusions; @Doxani2023, Table 1]",
+      "after": "([Hagolle2015MAJA](https://doi.org/10.3390/rs70302668), Methods and Conclusions; [Doxani2023](https://doi.org/10.1016/j.rse.2022.113412), Table 1)"
+    },
+    {
+      "before": "[@Muller2026, \u00a7\u00a72\u20134]",
+      "after": "([Muller2026](https://doi.org/10.3389/frsen.2026.1710758), \u00a7\u00a72\u20134)"
+    },
+    {
+      "before": "[@DeKeukelaere2018, Methods and Validation]",
+      "after": "([DeKeukelaere2018](https://doi.org/10.1080/22797254.2018.1457937), Methods and Validation)"
+    },
+    {
+      "before": "[@Yin2022SIAC, \u00a7\u00a72\u20134]",
+      "after": "([Yin2022SIAC](https://doi.org/10.5194/gmd-15-7933-2022), \u00a7\u00a72\u20134)"
+    },
+    {
+      "before": "[@Pahlevan2021, \u00a7\u00a73\u20137]",
+      "after": "([Pahlevan2021](https://doi.org/10.1016/j.rse.2021.112366), \u00a7\u00a73\u20137)"
+    },
+    {
+      "before": "[@Warren2019; @Renosh2020Estuaries, \u00a75]",
+      "after": "([Warren2019](https://doi.org/10.1016/j.rse.2019.03.018); [Renosh2020Estuaries](https://doi.org/10.3390/rs12081285), \u00a75)"
+    },
+    {
+      "before": "[@Castagna2025; @Muller2026; release sources above]",
+      "after": "([Castagna2025](https://doi.org/10.1364/ao.546766); [Muller2026](https://doi.org/10.3389/frsen.2026.1710758); release sources above)"
+    },
+    {
+      "before": "[@Doxani2023; @Yin2022SIAC]",
+      "after": "([Doxani2023](https://doi.org/10.1016/j.rse.2022.113412); [Yin2022SIAC](https://doi.org/10.5194/gmd-15-7933-2022))"
+    },
+    {
+      "before": "[@Zoffoli2020, \u00a7\u00a72.3.1,3.3.1 and Fig.5]",
+      "after": "([Zoffoli2020](https://doi.org/10.1016/j.rse.2020.112020), \u00a7\u00a72.3.1,3.3.1 and Fig.5)"
+    },
+    {
+      "before": "[@Daggers2020, satellite preprocessing]",
+      "after": "([Daggers2020](https://doi.org/10.3389/fmars.2020.00392), satellite preprocessing)"
+    },
+    {
+      "before": "[@Jacobs2021, satellite processing and Discussion]",
+      "after": "([Jacobs2021](https://doi.org/10.1371/journal.pone.0246012), satellite processing and Discussion)"
+    },
+    {
+      "before": "[@Granadeiro2021, \u00a7\u00a72.2\u20132.5 and Discussion]",
+      "after": "([Granadeiro2021](https://doi.org/10.3390/rs13020320), \u00a7\u00a72.2\u20132.5 and Discussion)"
+    },
+    {
+      "before": "[@Thuy2022, \u00a7\u00a7II\u2013IV]",
+      "after": "([Thuy2022](https://doi.org/10.1109/jstars.2022.3162622), \u00a7\u00a7II\u2013IV)"
+    },
+    {
+      "before": "[@Colin2023, \u00a7\u00a72\u20134]",
+      "after": "([Colin2023](https://doi.org/10.3390/rs15102665), \u00a7\u00a72\u20134)"
+    }
+  ]
+}

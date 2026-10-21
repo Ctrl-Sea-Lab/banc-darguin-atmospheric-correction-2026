@@ -1,0 +1,12 @@
+{
+  "affected": false,
+  "agent": "rachel-carson",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/bibliography-followup"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-64",
+  "version": 1
+}

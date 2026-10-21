@@ -1,0 +1,1010 @@
+{
+  "archive": "outputs/CTR36_author-preservation.zip",
+  "sha256": "2e9337d43bcf1138d47e75611e6f64bf6cddc9f9a59a8795c1be349e139261f5",
+  "files": 143,
+  "raw_payloads": false,
+  "manifest": [
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/.gitignore",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/.gitignore",
+      "sha256": "a2c42d7579873fcc1885712af8e33d47a2d84452ca1214383e92b03ed98321c4",
+      "bytes": 28
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/README.md",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/README.md",
+      "sha256": "d90939c397b11e9f1309aea9c173d749e736aacc7c1663bc654d8f09a7d3e63d",
+      "bytes": 5677
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/_quarto.yml",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/_quarto.yml",
+      "sha256": "bcd9a43e34741d1fdb807e5e91b3d47513b52cdc8a7273d2204ca3e5ff5f2498",
+      "bytes": 386
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/figures/.gitkeep",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/figures/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/.gitkeep",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/browser-checks/field-spectra.png",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/field-spectra.png",
+      "sha256": "41031ab024ab9d7b798e0ebcf11a57f421d64a45bc07a7d16748a7f6b93b9848",
+      "bytes": 226681
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/browser-checks/first-page.png",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/first-page.png",
+      "sha256": "0b92209bb5cdca45ce960838be3807ed4c3a525a582ea82dc33bc4d83d27f08a",
+      "bytes": 280257
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/browser-checks/paired-differences.png",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/paired-differences.png",
+      "sha256": "11307cf1acf6c9ce6d932f05c93666cb1edf3cdb583af8e09c303b52be5b503e",
+      "bytes": 129521
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/browser-checks/product-scatter.png",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/product-scatter.png",
+      "sha256": "d321362bf7644f3e6a7ea734af5e4779e80708fb7b823bcf925ba5cf16b73970",
+      "bytes": 158839
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/browser-checks/station-map.png",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/station-map.png",
+      "sha256": "2e0745cc33202f9bb9d8b09b2c7ed5dd2994220418b0632d74fcee21728b7957",
+      "bytes": 234472
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/figure_checks.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/figure_checks.json",
+      "sha256": "0efa39f36ba6d0f75b0a9045735aed359c80ef872bac7fe95f8092b39b572b4e",
+      "bytes": 3524
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/presentation.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/presentation.json",
+      "sha256": "611a1da2513716be700e373202c25e0e41bff7fabe621a5e3260f8408c228926",
+      "bytes": 363
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/outputs/source_preservation.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/source_preservation.json",
+      "sha256": "e3b2607533a2a3e40159e5de1c5fec999151a9d821f066eb0f99859a8a871cbb",
+      "bytes": 16134
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/.gitkeep",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/browser_checks.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/browser_checks.json",
+      "sha256": "4f3d08c08eedde03d5e47564af8c47d568aa4583a27fe8fad4cde3c40511a2b8",
+      "bytes": 1301
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/editorial_run.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/editorial_run.json",
+      "sha256": "45d2c8ad333aac43e2ff492d349d240e2724cabab096a12b8685577e303e4631",
+      "bytes": 1314
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/preservation.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/preservation.json",
+      "sha256": "0eb4d3cfaea8cb63e5587a74b7dc0abd609d86309256a737fce918ca2dd9185d",
+      "bytes": 7347
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/preservation_tests.txt",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/preservation_tests.txt",
+      "sha256": "9733c2e864c70b2cdce705ac0f7899c175452f242516e9c5e254075df8d9ee3c",
+      "bytes": 652
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/raw_stats_before.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/raw_stats_before.json",
+      "sha256": "a80e9db7794900f7c687ad94c5d1c1bcc05c323b9356044925aac78cac4d9009",
+      "bytes": 117195
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/render.txt",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/render.txt",
+      "sha256": "94324c29c4c62f392cfa59c3ee55dbc078e2a966e55bdea00dc61175593c341b",
+      "bytes": 629
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/source-independent-review.md",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/source-independent-review.md",
+      "sha256": "d346ac91c7dc4d54cb08bc373f1221b12ee8afeae8da6db1011d610eee1671a4",
+      "bytes": 12587
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/source-pi-decision.md",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/source-pi-decision.md",
+      "sha256": "0873a5b4b823502f61bdcecbb5d1e4ef6127a7d5c724202b9a8ec0563f7bcf88",
+      "bytes": 2147
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/source_state.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/source_state.json",
+      "sha256": "fce086ed0f64c07d273ebb53c780b05cc7a7a579d73117f54b24fd6359f5a772",
+      "bytes": 5813
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/sync_readiness.json",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/sync_readiness.json",
+      "sha256": "7fa7d53341fd36015705aefe738d942912e69975ab9020ffc2290c2049757fdc",
+      "bytes": 290
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/provenance/verification.txt",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/verification.txt",
+      "sha256": "bdf9c7f8d91c5a4ce069a58240a17f7168902ac581436913cd09e86857e14067",
+      "bytes": 874
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/report.css",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.css",
+      "sha256": "45dcaecc3034b29de1816fc2c3bc117e7c0c1b34e153de676667225a31761596",
+      "bytes": 626
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/report.html",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.html",
+      "sha256": "31a8a21a454c2754e08e141fdb38d812de904fbe571f823f0795dd7b3c978824",
+      "bytes": 657844
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/report.md",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.md",
+      "sha256": "097bb8822d72d6d8a1621a93c93c680e268ce07a7fa0989800990fc066679a89",
+      "bytes": 56756
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/report.qmd",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.qmd",
+      "sha256": "0bc8eed26a7d2f84eeae161578bb19e0bb994d0aa0bce77f266032fc378864dc",
+      "bytes": 56981
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/scripts/.gitkeep",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/scripts/build_report.py",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/build_report.py",
+      "sha256": "49f3768c22667795283f4ff83de42a7a985df1bee1ae5594c63dc601be4c6da1",
+      "bytes": 16923
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/scripts/capture_browser.py",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/capture_browser.py",
+      "sha256": "ce7a1221749458e194dd4b3a7f855c36c03f6a14bba32e3adb6d4ac714f176cb",
+      "bytes": 2083
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/scripts/verify.py",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/verify.py",
+      "sha256": "240da592b882e68cb0c93fcd3d1f71732e5736691f9c159bb7b35b0104f9b63a",
+      "bytes": 7960
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/tables/.gitkeep",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/tables/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/tables/claim_evidence.csv",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/tables/claim_evidence.csv",
+      "sha256": "e90407350f47f9d16acdf645e531c6c16ef6260e3ab8037f645b5930186ffe88",
+      "bytes": 3200
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/tables/content_map.csv",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/tables/content_map.csv",
+      "sha256": "edb3f5b7e4d5a4eda5ed2bc623122a93a45ebb51693a32fe7d7ebd73f448a8d8",
+      "bytes": 6079
+    },
+    {
+      "archive_path": "CTR33/analysis/CTR-33_scientific-first-report/task.yml",
+      "source_commit": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+      "source_path": "analysis/CTR-33_scientific-first-report/task.yml",
+      "sha256": "93c63cb2cdb89434f632ce46840697a12a9c398d4f4cf3e42b0e973274ba9070",
+      "bytes": 1710
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/CTR34_README.md",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/CTR34_README.md",
+      "sha256": "23ab63bd89c1b2c924538d4baf229db24c238460762f68372edc5384a52c0688",
+      "bytes": 3594
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr34-current-spectra.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr34-current-spectra.png",
+      "sha256": "b1bd26480ca53db9336145d44938f83bc863fe2cfc7759e6bd81dcee5738190f",
+      "bytes": 128940
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr34-local-imagery.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr34-local-imagery.png",
+      "sha256": "508250780834aa69bc18104dc860df48f5834490f0a8bee1f0aa3ea2d920117b",
+      "bytes": 86761
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr34-scl.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr34-scl.png",
+      "sha256": "89bf515e5a72f69d3c412e9d3655d467ccb461147d5c2bf29c711349828cd9e8",
+      "bytes": 23552
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/CTR-34_review-bundle.zip",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/CTR-34_review-bundle.zip",
+      "sha256": "120f0832082f3801e9f8189da5432527ad754e8bbce537af78a8a49193590de2",
+      "bytes": 2578722
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/current-spectra.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/current-spectra.png",
+      "sha256": "40a98a34d2d19e438834e58c7283628c1b71f424a1a28395d8b13110c419f742",
+      "bytes": 186635
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/first-page.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/first-page.png",
+      "sha256": "e515a6a7b9b035e1738e71d6d9b57f36d2c266ac8d64dd88f4578364e0522e2c",
+      "bytes": 260563
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/local-imagery.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/local-imagery.png",
+      "sha256": "46af47e23211a708c21d80a60a9031b38c9cbed2c0298febe9590cd0aa5a31b3",
+      "bytes": 230892
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/scl.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_browser/scl.png",
+      "sha256": "26d90a013c152a304f1c964bbaa0c8031bb94458eba095a366563f72ffe3c95c",
+      "bytes": 84624
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_dependence_graph.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_dependence_graph.json",
+      "sha256": "7b0bdb67ec176ba14b296e1c7ac2f78285aabaccd06cbf33a5d5a8dc973a4f8d",
+      "bytes": 8764
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_headers.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_headers.json",
+      "sha256": "ff66b8837f97a5f7233961737ca9a497ac7f013797761ea22165ad2d0d71fda8",
+      "bytes": 262413
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_preinspection_contract.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_preinspection_contract.json",
+      "sha256": "6b451679b24968555c4b82d4cd3920ec6a3a3feb35ef3b5e4e304890e76ef459",
+      "bytes": 1846
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_references_occasions.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_references_occasions.json",
+      "sha256": "4bca91ff4b0ac2d8fa142255681bbf6a4a662ad0cdc319af7a6ed4c59e141a76",
+      "bytes": 26226
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_release_contract.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_release_contract.json",
+      "sha256": "edbd2527ca039139e9b79501f9130014488784bf1008d637d2264b72f30ddd0a",
+      "bytes": 7743
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_schema.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_schema.json",
+      "sha256": "3b0a7bb0d900b2eb192daff6e5f347801415a1b3ecc0d7d084493cc7a34b6337",
+      "bytes": 2450
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_sources.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/outputs/ctr34_sources.json",
+      "sha256": "04e9e72f872b53e42bb4c2b02cc3e6e0f0994567ce40a14cad06bf46895e2b73",
+      "bytes": 8509
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_browser.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_browser.json",
+      "sha256": "c33dcdd9eef62f9a9c4d20ca1de9cc9dc2c2b453efdab4413c0f2f3bcb07f32d",
+      "bytes": 1239
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_contract_document_receipt.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_contract_document_receipt.json",
+      "sha256": "de3f83bffc5d8da3ce2d93405c04b6d3cbeff31c8169bc6c0cf03f6c30c1b638",
+      "bytes": 185
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_environment.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_environment.json",
+      "sha256": "4cca6e81f730fb82fe47997916439d5dfab761c9b6326e6cc685c33f19ce4a7b",
+      "bytes": 1001
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_extract.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_extract.json",
+      "sha256": "1d8b30d21d8e5024049a552196226fa062ec9145658f26fcd273461899961ef1",
+      "bytes": 1136
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_inspect.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_inspect.json",
+      "sha256": "c8ad324bc8b025ee194c7766d1cb86140af501dce047ebb0a1aa7d159ebc4318",
+      "bytes": 417
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_lineage_inspection.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_lineage_inspection.json",
+      "sha256": "f905634aa9a5f46b292277cc4bc5e7cf8948ca72f385138c44cd652bbfce8777",
+      "bytes": 938
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_mud_scan.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_mud_scan.json",
+      "sha256": "09f1dbe5ecbc611324e6380c03b4d77db57413ed75b849d65b7912096f85c603",
+      "bytes": 712
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_preservation_tests.txt",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_preservation_tests.txt",
+      "sha256": "f07dd89721a17574e1451f8a754c9dce6d514adf90b0201960128e4c4255910e",
+      "bytes": 111
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_raw_before.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_raw_before.json",
+      "sha256": "6c1d8a475d6edff9dce6afd68f10a2f363886f1132310d2954a104a68f2c66bd",
+      "bytes": 121668
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_render.txt",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_render.txt",
+      "sha256": "b0aeba4b07a452237bb40b23100f7ea97311c7a30b263b368f88f0aeb1b110a4",
+      "bytes": 655
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_reproduction.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_reproduction.json",
+      "sha256": "3b9950cc63fcf01192897e84453497e6705e057063f058c053d1bc7b88f027d9",
+      "bytes": 3670
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_sync_readiness.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_sync_readiness.json",
+      "sha256": "85c6df30dfec3baa792656418c9b2826ab7c7a59b6cdc5193c96bc731fd37e5c",
+      "bytes": 286
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_validation.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_validation.json",
+      "sha256": "ad6a418472737ef605a777b4b137bb92a342e59d75809ba490239196152a21bf",
+      "bytes": 13238
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_worktree_preflight.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/provenance/ctr34_worktree_preflight.json",
+      "sha256": "bae645d1e40cb8a6ef66680970a4c33a13bdacf57a29653235f569f8ce1655be",
+      "bytes": 902
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/report.html",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/report.html",
+      "sha256": "7696e04210cebf0da53b22c2f4b75af1803ada9309d3584d0b1952acfc8c1e6e",
+      "bytes": 355187
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/report.md",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/report.md",
+      "sha256": "7f9cfed57fed77b10d236e823a97d199f5f6a7611ec0448b20fe350633b6a05e",
+      "bytes": 23098
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/report.qmd",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/report.qmd",
+      "sha256": "54f7f490537f60c3c4bc1879c3429985e0d8c77569fc5b7fb2cd51dca2695192",
+      "bytes": 23352
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_browser.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_browser.py",
+      "sha256": "292a7ff684af4599d8a94bc580b32b03bc5fc35d5ff46988d40ad0146e08db6e",
+      "bytes": 1919
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_extract.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_extract.py",
+      "sha256": "d52a8fd9e0be92b8a7af8513976f58a5d9bfdaaa2652d703fb7486c5e7268478",
+      "bytes": 8808
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_figures.R",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_figures.R",
+      "sha256": "e45f712ff32635fe03de28f83bc06f81053a96fb2ddf68a8b841d90f632f9ad8",
+      "bytes": 2742
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_freeze.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_freeze.py",
+      "sha256": "ab8a6e74a01b1f6f17bfe4e85593e5f4cce60e55b023ba42c51b6f4f9a4d54ee",
+      "bytes": 18938
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_inventory.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_inventory.py",
+      "sha256": "b148e5109a9815b7a001f82b847034d337a1092bc518c39061109400ea5ec4f8",
+      "bytes": 2423
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_package.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_package.py",
+      "sha256": "57804bb0e62b1f7694af07bdd2a20cbc7e315a63f5b4ba76d3afb37819ceddf2",
+      "bytes": 2367
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_publish_figures.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_publish_figures.py",
+      "sha256": "3a6d506440565c0ab7cedf4d11cd15d2148f8751be329b7c87865d6de0d9e3dd",
+      "bytes": 326
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_report.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_report.py",
+      "sha256": "15c2b6fe41e8bfd3a956bc9212be0fae6faec395a2e31a25065d9c7f887b7ddd",
+      "bytes": 26171
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_reproduce.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_reproduce.py",
+      "sha256": "41c0ae113668efb305fa6bf277c12c12c66c8ced53f641aa5bad1b4608b333a1",
+      "bytes": 1095
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_support.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_support.py",
+      "sha256": "a0ed490969cfa052a752d260f98cbb87772a4f129e170e8dfae417508cdf8a5e",
+      "bytes": 8019
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_validate.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr34_validate.py",
+      "sha256": "d977834a21a0d2f9ba4132f2635c31e89acb0a666acb4e7db88d56f79dba4521",
+      "bytes": 9276
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_candidate_ledger.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_candidate_ledger.csv",
+      "sha256": "a56bc710c553fcdd8034a959b2ee73cd4279df239106de743757804036d7ad46",
+      "bytes": 74317
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_common_masks.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_common_masks.csv",
+      "sha256": "af55f8caa10149f9225b552d96bce1ca8a6cdfea6e3216599c1da917942c0b20",
+      "bytes": 3020
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_convolved_references.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_convolved_references.csv",
+      "sha256": "a0f0fa312f1ee87adbf4473df0c0660a925093ff9d7aa6ef6e27cb0241b0c82a",
+      "bytes": 15871
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_coverage.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_coverage.csv",
+      "sha256": "cc534ae4c8540cd3799b8bce8dd55347b0688a8e1dc3f8f326d9c17b59cbffea",
+      "bytes": 1772
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_current_spectra.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_current_spectra.csv",
+      "sha256": "e2a1614b9ca7043b0e844162c0be9b6c4cf600a44a29c9aa69018065ef89d86e",
+      "bytes": 391587
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_current_spectral_summary.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_current_spectral_summary.csv",
+      "sha256": "a9b176a288c6e9f16497fa39861ea509e88505a903f00ffee16a6c8fc2963478",
+      "bytes": 2493
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_dependence_edges.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_dependence_edges.csv",
+      "sha256": "87d3edf5e9047920f19d049dc278f47ada4b27a4f8040b487a510fda7347f254",
+      "bytes": 2612
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_eligible_pairs.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_eligible_pairs.csv",
+      "sha256": "3f90d4a030c1daa5f59259180e30bf2f0adf0c41b6ae7f3e1f1d8eb1f1bdc4ff",
+      "bytes": 188
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_held_diagnostics.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_held_diagnostics.csv",
+      "sha256": "c0b3ef9db017f606da4655cec75ed44d1098a4e36fde39cad92ab0c94d250564",
+      "bytes": 4255
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_heterogeneity.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_heterogeneity.csv",
+      "sha256": "906691ce1bf75b53247f453e7927550d4ac0d39ff2bc35c81d2a0f504ad35260",
+      "bytes": 11132
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_local_imagery.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_local_imagery.csv",
+      "sha256": "634eaeb8259be2fde159798be073747cd21caab78ea517c9f00e0681b86d061d",
+      "bytes": 144777
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_local_qa.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_local_qa.csv",
+      "sha256": "8ad9d4af8a2bacb9ed0c384587f9c355dd38a31dd471bb32d23d300956aaee0b",
+      "bytes": 1217839
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_locations.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_locations.csv",
+      "sha256": "a0bbd8c875d9b5e2bdaf5b1e471c1186aeb5338545d173def6fcbfd45c8a56ea",
+      "bytes": 2398
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_mud_metadata_dispositions.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_mud_metadata_dispositions.csv",
+      "sha256": "d7af0d2619b938f0a92c91d43aef167e09bb1d6fe0d07414b0673c765f66eb64",
+      "bytes": 1318
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_qa_cells.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_qa_cells.csv",
+      "sha256": "5e66f42ca32189186f22ef55ca47325ae19d65bcf7bbd96ac7043c2ba6493a10",
+      "bytes": 1188989
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_qa_links.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_qa_links.csv",
+      "sha256": "51d58d411eae3f6326a7cc3997bd344e357b2ef376280fafa062e780b9df74ef",
+      "bytes": 471674
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_raw_decode.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_raw_decode.csv",
+      "sha256": "e16e50377c4e99d093adaf8dd729bf4c14646fc21d529dc21585eb17172bb4ad",
+      "bytes": 14498
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_relative_registration.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_relative_registration.csv",
+      "sha256": "2b2e11e9c4828078d80570eb8b42937f4e85df1f5805bd1dec22a4ef7bf33168",
+      "bytes": 23684
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_source_identity.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_source_identity.csv",
+      "sha256": "6a75d57ee9192563aef7582cf78be218b976d8711e6de04930b0d865716971d1",
+      "bytes": 1035
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_support.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_support.csv",
+      "sha256": "fe914d0597cbb261c340a4f650c36f774878f55205f691e6f23dc5e7f41662f1",
+      "bytes": 20085
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_target_decisions.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_target_decisions.csv",
+      "sha256": "fcdc34b19e6cd08f0e3fd651c93d5605428cca2a0df63fe559d18a0074939d51",
+      "bytes": 4933
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_targets.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_targets.csv",
+      "sha256": "cecbf76386e188e06b586ffdef02371ad95c593335f09a2a14045e00aec3f71f",
+      "bytes": 6598
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_weights.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_weights.csv",
+      "sha256": "50687d395bf0afb35ec1e9e63f581024bd939e5bbad0e5b740fb0efaf2a14e7c",
+      "bytes": 2861
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_window_hashes.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/tables/ctr34_window_hashes.csv",
+      "sha256": "8d1f26b210369a8000d626881c215390a93b5fa571a67be4ae95c19b7f856515",
+      "bytes": 58723
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-27_sen2cor-acolite-asd/task.yml",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-27_sen2cor-acolite-asd/task.yml",
+      "sha256": "3ac855cf4583d11505d3351a9e6a844f35462918a9bdf2b498dca2a4d49c3a04",
+      "bytes": 2560
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/.gitignore",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/.gitignore",
+      "sha256": "a2c42d7579873fcc1885712af8e33d47a2d84452ca1214383e92b03ed98321c4",
+      "bytes": 28
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/README.md",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/README.md",
+      "sha256": "d90939c397b11e9f1309aea9c173d749e736aacc7c1663bc654d8f09a7d3e63d",
+      "bytes": 5677
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/_quarto.yml",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/_quarto.yml",
+      "sha256": "bcd9a43e34741d1fdb807e5e91b3d47513b52cdc8a7273d2204ca3e5ff5f2498",
+      "bytes": 386
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/figures/.gitkeep",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/figures/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/.gitkeep",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/browser-checks/field-spectra.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/field-spectra.png",
+      "sha256": "41031ab024ab9d7b798e0ebcf11a57f421d64a45bc07a7d16748a7f6b93b9848",
+      "bytes": 226681
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/browser-checks/first-page.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/first-page.png",
+      "sha256": "0b92209bb5cdca45ce960838be3807ed4c3a525a582ea82dc33bc4d83d27f08a",
+      "bytes": 280257
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/browser-checks/paired-differences.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/paired-differences.png",
+      "sha256": "11307cf1acf6c9ce6d932f05c93666cb1edf3cdb583af8e09c303b52be5b503e",
+      "bytes": 129521
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/browser-checks/product-scatter.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/product-scatter.png",
+      "sha256": "d321362bf7644f3e6a7ea734af5e4779e80708fb7b823bcf925ba5cf16b73970",
+      "bytes": 158839
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/browser-checks/station-map.png",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/browser-checks/station-map.png",
+      "sha256": "2e0745cc33202f9bb9d8b09b2c7ed5dd2994220418b0632d74fcee21728b7957",
+      "bytes": 234472
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/figure_checks.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/figure_checks.json",
+      "sha256": "0efa39f36ba6d0f75b0a9045735aed359c80ef872bac7fe95f8092b39b572b4e",
+      "bytes": 3524
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/presentation.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/presentation.json",
+      "sha256": "611a1da2513716be700e373202c25e0e41bff7fabe621a5e3260f8408c228926",
+      "bytes": 363
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/outputs/source_preservation.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/outputs/source_preservation.json",
+      "sha256": "e3b2607533a2a3e40159e5de1c5fec999151a9d821f066eb0f99859a8a871cbb",
+      "bytes": 16134
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/.gitkeep",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/browser_checks.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/browser_checks.json",
+      "sha256": "4f3d08c08eedde03d5e47564af8c47d568aa4583a27fe8fad4cde3c40511a2b8",
+      "bytes": 1301
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/editorial_run.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/editorial_run.json",
+      "sha256": "45d2c8ad333aac43e2ff492d349d240e2724cabab096a12b8685577e303e4631",
+      "bytes": 1314
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/preservation.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/preservation.json",
+      "sha256": "0eb4d3cfaea8cb63e5587a74b7dc0abd609d86309256a737fce918ca2dd9185d",
+      "bytes": 7347
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/preservation_tests.txt",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/preservation_tests.txt",
+      "sha256": "9733c2e864c70b2cdce705ac0f7899c175452f242516e9c5e254075df8d9ee3c",
+      "bytes": 652
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/raw_stats_before.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/raw_stats_before.json",
+      "sha256": "a80e9db7794900f7c687ad94c5d1c1bcc05c323b9356044925aac78cac4d9009",
+      "bytes": 117195
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/render.txt",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/render.txt",
+      "sha256": "94324c29c4c62f392cfa59c3ee55dbc078e2a966e55bdea00dc61175593c341b",
+      "bytes": 629
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/source-independent-review.md",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/source-independent-review.md",
+      "sha256": "d346ac91c7dc4d54cb08bc373f1221b12ee8afeae8da6db1011d610eee1671a4",
+      "bytes": 12587
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/source-pi-decision.md",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/source-pi-decision.md",
+      "sha256": "0873a5b4b823502f61bdcecbb5d1e4ef6127a7d5c724202b9a8ec0563f7bcf88",
+      "bytes": 2147
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/source_state.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/source_state.json",
+      "sha256": "fce086ed0f64c07d273ebb53c780b05cc7a7a579d73117f54b24fd6359f5a772",
+      "bytes": 5813
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/sync_readiness.json",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/sync_readiness.json",
+      "sha256": "7fa7d53341fd36015705aefe738d942912e69975ab9020ffc2290c2049757fdc",
+      "bytes": 290
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/provenance/verification.txt",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/provenance/verification.txt",
+      "sha256": "bdf9c7f8d91c5a4ce069a58240a17f7168902ac581436913cd09e86857e14067",
+      "bytes": 874
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/report.css",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.css",
+      "sha256": "45dcaecc3034b29de1816fc2c3bc117e7c0c1b34e153de676667225a31761596",
+      "bytes": 626
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/report.html",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.html",
+      "sha256": "31a8a21a454c2754e08e141fdb38d812de904fbe571f823f0795dd7b3c978824",
+      "bytes": 657844
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/report.md",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.md",
+      "sha256": "097bb8822d72d6d8a1621a93c93c680e268ce07a7fa0989800990fc066679a89",
+      "bytes": 56756
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/report.qmd",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/report.qmd",
+      "sha256": "0bc8eed26a7d2f84eeae161578bb19e0bb994d0aa0bce77f266032fc378864dc",
+      "bytes": 56981
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/scripts/.gitkeep",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/scripts/build_report.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/build_report.py",
+      "sha256": "49f3768c22667795283f4ff83de42a7a985df1bee1ae5594c63dc601be4c6da1",
+      "bytes": 16923
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/scripts/capture_browser.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/capture_browser.py",
+      "sha256": "ce7a1221749458e194dd4b3a7f855c36c03f6a14bba32e3adb6d4ac714f176cb",
+      "bytes": 2083
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/scripts/verify.py",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/scripts/verify.py",
+      "sha256": "240da592b882e68cb0c93fcd3d1f71732e5736691f9c159bb7b35b0104f9b63a",
+      "bytes": 7960
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/tables/.gitkeep",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/tables/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/tables/claim_evidence.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/tables/claim_evidence.csv",
+      "sha256": "e90407350f47f9d16acdf645e531c6c16ef6260e3ab8037f645b5930186ffe88",
+      "bytes": 3200
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/tables/content_map.csv",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/tables/content_map.csv",
+      "sha256": "edb3f5b7e4d5a4eda5ed2bc623122a93a45ebb51693a32fe7d7ebd73f448a8d8",
+      "bytes": 6079
+    },
+    {
+      "archive_path": "CTR34/analysis/CTR-33_scientific-first-report/task.yml",
+      "source_commit": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d",
+      "source_path": "analysis/CTR-33_scientific-first-report/task.yml",
+      "sha256": "93c63cb2cdb89434f632ce46840697a12a9c398d4f4cf3e42b0e973274ba9070",
+      "bytes": 1710
+    }
+  ],
+  "history": "Both original branch refs and all commits remain in the shared original .git; no branch deletion."
+}

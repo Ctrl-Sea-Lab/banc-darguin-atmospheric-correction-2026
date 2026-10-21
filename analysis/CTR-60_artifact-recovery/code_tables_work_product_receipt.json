@@ -1,0 +1,34 @@
+{
+  "status": 201,
+  "body": {
+    "id": "8d705646-554f-41b2-b287-9bba2b96d07a",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "projectId": "5fc298b7-b03d-4a03-b14f-25b3e66ccf85",
+    "issueId": "a4205ca2-a28b-4b26-91f9-961228794a7d",
+    "executionWorkspaceId": null,
+    "runtimeServiceId": null,
+    "type": "artifact",
+    "provider": "paperclip",
+    "externalId": "2e1cae0f-f4cf-4279-b591-64531f13c23a",
+    "title": "CTR-55 code, tables and provenance",
+    "url": null,
+    "status": "ready_for_review",
+    "reviewState": "needs_board_review",
+    "isPrimary": true,
+    "healthStatus": "unknown",
+    "summary": "Compact package of saved code, tables and provenance; no scientific rerun. Independent review and PI approval pending.",
+    "metadata": {
+      "byteSize": 113955,
+      "openPath": "/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content",
+      "contentPath": "/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content",
+      "contentType": "application/zip",
+      "attachmentId": "2e1cae0f-f4cf-4279-b591-64531f13c23a",
+      "downloadPath": "/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content?download=1",
+      "originalFilename": "CTR55_code_tables.zip"
+    },
+    "sourceTrust": null,
+    "createdByRunId": "3f4cd6b3-1276-4c7d-9969-4239a1c45956",
+    "createdAt": "2026-10-20T18:19:04.733Z",
+    "updatedAt": "2026-10-20T18:19:06.295Z"
+  }
+}

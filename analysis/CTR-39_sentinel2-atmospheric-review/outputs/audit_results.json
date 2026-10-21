@@ -1,0 +1,182 @@
+{
+  "result": "passed",
+  "citations_resolved": 14,
+  "library_references": 27,
+  "unique_dois": 25,
+  "valid_identity_checked_ignored_pdfs": 24,
+  "new_article_pdfs": 9,
+  "rendered_comparison_tables": 2,
+  "protected_root_files_unchanged": true,
+  "previous_snapshot_hashes_verified": true,
+  "pdf_checks": [
+    {
+      "key": "Warren2019",
+      "pdf": "literature/pdfs/Warren_2019_Assessment.pdf",
+      "sha256": "bcc2fcce0e9323e14a1539a116fed8cca24e786db9800238b2b04f230631a496",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Pahlevan2021",
+      "pdf": "literature/pdfs/Pahlevan_2021_ACIXAqua.pdf",
+      "sha256": "4a942732f95b745c224036c87afa78c98dfd048889bc222dc8aa9ffba43c5537",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Vanhellemont2019",
+      "pdf": "literature/pdfs/Vanhellemont_2019_DarkSpectrumFitting.pdf",
+      "sha256": "7e336f97a87f99dca01b28d9fc6aa4e0f09d7c0e3bbf6472752a4c6083f1c017",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "DeKeukelaere2018",
+      "pdf": "literature/pdfs/DeKeukelaere_2018_iCOR.pdf",
+      "sha256": "a9c24c2503b2d6c83ca0694b5aa19c2543353f9e1d03a1bf83c430cd15c66cde",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "MainKnorn2017",
+      "pdf": "literature/pdfs/MainKnorn_2017_Sen2Cor.pdf",
+      "sha256": "b1c37142eb61b31858818192491f4aded7e8226764ecf3a09368a82b796de718",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Fan2021",
+      "pdf": "literature/pdfs/Fan_2021_OCSMART.pdf",
+      "sha256": "235cf1215df9d8b9d9a67eddf88a539151e75acfe0dc4e20fdb14d6b947ac1ee",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Harmel2018",
+      "pdf": "literature/pdfs/Harmel_2018_FullText.pdf",
+      "sha256": "d4c0895e614a66ebe52288e7c44c1048e3139c579bcf9bfa3dab848c54907893",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Bui2022",
+      "pdf": "literature/pdfs/Bui_2022_FrenchCoastalWaters.pdf",
+      "sha256": "695db4ee72a3d81095495c242a11b209fa595c28052c9d2ae5138c0377e84cf7",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "PereiraSandoval2019",
+      "pdf": "literature/pdfs/PereiraSandoval_2019_SpanishInlandWaters.pdf",
+      "sha256": "b03de1f606f330e1b9738aec937c9f4f034ff0bfcd678eb3e9abcb21e5434235",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Castagna2025",
+      "pdf": "literature/pdfs/Castagna_2025_RAdCor.pdf",
+      "sha256": "66f9a2d3b3f29adfc80c1c9a0a578a50dfe74fedde906263d718bac00ea730a1",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Muller2026",
+      "pdf": "literature/pdfs/Muller_2026_C2RCC.pdf",
+      "sha256": "63d4a10db4a27e0bb710d0d7eae0c45db5d1bbd54923b472d2172281e6b8f2b6",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Vrdoljak2022",
+      "pdf": "literature/pdfs/Vrdoljak_2022_Bathymetry.pdf",
+      "sha256": "4053ba9d6d5bae9c3cafc533b99c370ef9cec036c2eb956e036c6d7c53c88be8",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Gordon1994",
+      "pdf": "literature/pdfs/Gordon_1994_SeaWiFSAtmosphericCorrection.pdf",
+      "sha256": "ca940113508a2c6af5dc437f96c15922793ff5406791c0f92cf0eacd49b6a3f0",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Lathif2025",
+      "pdf": "literature/pdfs/Lathif_2025_FullText.pdf",
+      "sha256": "03b4c99837a4fadcc7e85ef8205d91cdf276987484feca2abfba7af14fb5bff8",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Brockmann2016",
+      "pdf": "literature/pdfs/Brockmann_2016_C2RCC.pdf",
+      "sha256": "bddb6e671a54d64b1f39c2d09652ae747c2acc3317311177ec560032f68b9117",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Daggers2020",
+      "pdf": "literature/pdfs/Daggers2020_Intertidal.pdf",
+      "sha256": "267a252c292ad6e2811b0894f00732e47e31cc79d1bda3e1f4f35c17584f962c",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Jacobs2021",
+      "pdf": "literature/pdfs/Jacobs2021_Intertidal.pdf",
+      "sha256": "9da4e35480b7e29bab02e530f4419eceb464a97f53af5504fa5641bb4b2dcaef",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Granadeiro2021",
+      "pdf": "literature/pdfs/Granadeiro2021_Intertidal.pdf",
+      "sha256": "83e514baf535a4796aae4f724aa2b193d52aa7f055c6c35fc92488abdf4b86e9",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Thuy2022",
+      "pdf": "literature/pdfs/Thuy2022_Intertidal.pdf",
+      "sha256": "0525d216b237b80bd230500a00d1ccb02ebfecb59b6dfa1710a6c921d97d6c9b",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Henriques2022",
+      "pdf": "literature/pdfs/Henriques2022_Intertidal.pdf",
+      "sha256": "15e3a92b7348ab7a5d3654321d389b8cc706d3d64156008998283214bd2e9b21",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Doxani2023",
+      "pdf": "literature/pdfs/Doxani2023_Intertidal.pdf",
+      "sha256": "c2d93cd1830c11358a40f0c6f4753d5f6c4dc2830255f6aed52835e64af5b208",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Colin2023",
+      "pdf": "literature/pdfs/Colin2023_Intertidal.pdf",
+      "sha256": "3e7fe38769593920211e24fd468e5f90b36f886ff6193c1a92f7b9685a1e3004",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Zarzuelo2025",
+      "pdf": "literature/pdfs/Zarzuelo2025_Intertidal.pdf",
+      "sha256": "8045de0805c92030ee8c7590f00defdf827f031a0e5a4ef143452af9e09d9406",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    },
+    {
+      "key": "Zoffoli2020",
+      "pdf": "literature/pdfs/Zoffoli2020_Intertidal.pdf",
+      "sha256": "d0db18cdffad68238ade52241daa917c5c84118ae3bf98280edf8ebbcd04a3ae",
+      "title_token_overlap": 1.0,
+      "git_ignored": true
+    }
+  ],
+  "limitations": "Automated consistency checks supplement critical source inspection. New intertidal revision requires independent review; earlier CTR-40 verdict does not cover it. No PI scientific approval, integration, merge or publication is implied."
+}

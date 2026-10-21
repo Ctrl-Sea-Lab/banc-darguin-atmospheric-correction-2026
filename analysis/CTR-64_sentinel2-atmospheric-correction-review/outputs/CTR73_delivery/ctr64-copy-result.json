@@ -1,0 +1,15 @@
+{
+  "task": "CTR-73",
+  "time_utc": "2026-10-21T05:27:54Z",
+  "source_revision": "e1f7b4bc5f81c61bf8eba0f891ba1abc7a949048",
+  "reviewed_scientific_revision": "3138892ee7a40a4b42a0a5696f2623f94845acd7",
+  "destination": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review",
+  "files_verified": 197,
+  "bytes_verified": 201305752,
+  "all_source_files_byte_identical": true,
+  "existing_tracked_and_sync_state_preserved": true,
+  "ctr54_unchanged": true,
+  "scientific_approval": "not_inferred",
+  "integration_merge_publication": "not_authorized",
+  "root_bibliography": "not_copied_or_modified"
+}

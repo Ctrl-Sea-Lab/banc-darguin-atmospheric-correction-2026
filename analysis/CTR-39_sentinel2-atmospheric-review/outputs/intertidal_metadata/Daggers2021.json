@@ -1,0 +1,1217 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        29
+      ]
+    ],
+    "date-time": "2026-09-29T21:43:17Z",
+    "timestamp": 1790718197972,
+    "version": "4.1.0"
+  },
+  "reference-count": 100,
+  "publisher": "Public Library of Science (PLoS)",
+  "issue": "7",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            6
+          ]
+        ],
+        "date-time": "2021-07-06T00:00:00Z",
+        "timestamp": 1625529600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Ministry of Infrastructure and Water Management, the Netherlands",
+      "award": [
+        "31144695"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "31144695"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "www.plosone.org"
+    ],
+    "crossmark-restriction": false
+  },
+  "abstract": "<jats:p>In depositional intertidal coastal systems, primary production is dominated by benthic microalgae (microphytobenthos) inhabiting the mudflats. This benthic productivity is supporting secondary production and supplying important services to humans including food provisioning. Increased frequencies of extreme events in weather (such as heatwaves, storm surges and cloudbursts) are expected to strongly impact the spatiotemporal dynamics of the microphytobenthos and subsequently their contribution to coastal food webs. Within north-western Europe, the years 2018 and 2019 were characterized by record-breaking summer temperatures and accompanying droughts. Field-calibrated satellite data (Sentinel 2) were used to quantify the seasonal dynamics of microphytobenthos biomass and production at an unprecedented spatial and temporal resolution during these years. We demonstrate that the Normalized Difference Vegetation Index (NDVI) should be used with caution in depositional coastal intertidal systems, because it may reflect import of remains of allochthonous pelagic productivity rather than local benthic biomass. We show that the reduction in summer biomass of the benthic microalgae cannot be explained by grazing but was most probably due to the high temperatures. The fivefold increase in salinity from January to September 2018, resulting from reduced river run-off during this exceptionally dry year, cannot have been without consequences for the vitality of the microphytobenthos community and its resistance to wind stress and cloud bursts. Comparison to historical information revealed that primary productivity of microphytobenthos may vary at least fivefold due to variations in environmental conditions. Therefore, ongoing changes in environmental conditions and especially extreme events because of climate change will not only lead to changes in spatiotemporal patterns of benthic primary production but also to changes in biodiversity of life under water and ecosystem services including food supply. Satellite MPB data allows for adequate choices in selecting coastal biodiversity conservation and coastal food supply.</jats:p>",
+  "DOI": "10.1371/journal.pone.0246012",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        6
+      ]
+    ],
+    "date-time": "2021-07-06T13:32:41Z",
+    "timestamp": 1625578361000
+  },
+  "page": "e0246012",
+  "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 30,
+  "title": "Assessing biomass and primary production of microphytobenthos in depositional coastal systems using spectral information",
+  "prefix": "10.1371",
+  "volume": "16",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-7530-4023",
+      "authenticated-orcid": true,
+      "given": "Pascalle",
+      "family": "Jacobs",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jaime",
+      "family": "Pitarch",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jacco C.",
+      "family": "Kromkamp",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Catharina J. M.",
+      "family": "Philippart",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "340",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        6
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "pone.0246012.ref001",
+      "doi-asserted-by": "crossref",
+      "first-page": "2477",
+      "DOI": "10.5194/bg-11-2477-2014",
+      "article-title": "Phytoplankton primary production in the world\u2019s estuarine-coastal ecosystems",
+      "volume": "11",
+      "author": "JE Cloern",
+      "year": "2014",
+      "journal-title": "Biogeosciences"
+    },
+    {
+      "key": "pone.0246012.ref002",
+      "doi-asserted-by": "crossref",
+      "first-page": "222",
+      "DOI": "10.1038/s41586-018-0805-8",
+      "article-title": "The global distribution and trajectory of tidal flats",
+      "volume": "565",
+      "author": "NJ Murray",
+      "year": "2019",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "pone.0246012.ref003",
+      "unstructured": "United Nations. Sustainable development goals. 2016 [Cited 2020 December 21]. Available from: https://www.unep.org/explore-topics/sustainable-development-goals."
+    },
+    {
+      "key": "pone.0246012.ref004",
+      "doi-asserted-by": "crossref",
+      "first-page": "1019",
+      "DOI": "10.1007/s11625-017-0472-y",
+      "article-title": "Strong sustainability in coastal areas: a conceptual interpretation of SDG 14",
+      "volume": "12",
+      "author": "BK Neumann",
+      "year": "2017",
+      "journal-title": "Sustain Sci"
+    },
+    {
+      "key": "pone.0246012.ref005",
+      "volume-title": "Intertidal Deposits: River Mouths, Tidal Flats, and Coastal Lagoons",
+      "author": "D Eisma",
+      "year": "1998",
+      "edition": "1"
+    },
+    {
+      "key": "pone.0246012.ref006",
+      "doi-asserted-by": "crossref",
+      "first-page": "e44155",
+      "DOI": "10.1371/journal.pone.0044155",
+      "article-title": "Spatial variability of benthic-pelagic coupling in an estuary ecosystem: consequences for microphytobenthos resuspension phenomenon",
+      "volume": "7",
+      "author": "M Ubertini",
+      "year": "2012",
+      "journal-title": "PloS one"
+    },
+    {
+      "key": "pone.0246012.ref007",
+      "unstructured": "CWSS. Nomination of the Dutch-German Wadden Sea as World Heritage Site. Wadden Sea Ecosystem. Common Wadden Sea Secretariat. Wilhelmshaven, Germany 2008; 24: 1\u2013200."
+    },
+    {
+      "key": "pone.0246012.ref008",
+      "doi-asserted-by": "crossref",
+      "first-page": "49",
+      "DOI": "10.1016/j.marpolbul.2005.09.016",
+      "article-title": "Benthic primary production during emersion: in-situ measurements and potential primary production in the Seine Estuary (English Channel, France)",
+      "volume": "53",
+      "author": "N Spilmont",
+      "year": "2006",
+      "journal-title": "Mar Pollut Bull"
+    },
+    {
+      "key": "pone.0246012.ref009",
+      "doi-asserted-by": "crossref",
+      "first-page": "37",
+      "DOI": "10.3354/meps07321",
+      "article-title": "Stable isotope addition reveals dietary importance of phytoplankton and microphytobenthos to saltmarsh infauna",
+      "volume": "359",
+      "author": "K Galv\u00e1n",
+      "year": "2008",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref010",
+      "doi-asserted-by": "crossref",
+      "first-page": "1498",
+      "DOI": "10.1002/ecy.1837",
+      "article-title": "Benthic primary producers are key to sustain the Wadden Sea food web: stable carbon isotope analysis at landscape scale",
+      "volume": "98",
+      "author": "MJ Christianen",
+      "year": "2017",
+      "journal-title": "Ecology"
+    },
+    {
+      "key": "pone.0246012.ref011",
+      "first-page": "29",
+      "volume-title": "Changes in fluxes in estuaries",
+      "author": "VN De Jonge",
+      "year": "1995"
+    },
+    {
+      "key": "pone.0246012.ref012",
+      "doi-asserted-by": "crossref",
+      "first-page": "117",
+      "DOI": "10.3354/meps173117",
+      "article-title": "Factors controlling primary production and photosynthetic characteristics of intertidal microphytobenthos",
+      "volume": "173",
+      "author": "C Barranguet",
+      "year": "1998",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref013",
+      "doi-asserted-by": "crossref",
+      "first-page": "1760",
+      "DOI": "10.1016/j.rse.2009.04.003",
+      "article-title": "Effects of chlorophyll fluorescence on the estimation of microphytobenthos biomass using spectral reflectance indices",
+      "volume": "113",
+      "author": "J Ser\u00f4dio",
+      "year": "2009",
+      "journal-title": "Remote Sens Environ"
+    },
+    {
+      "key": "pone.0246012.ref014",
+      "doi-asserted-by": "crossref",
+      "first-page": "111",
+      "DOI": "10.3354/meps025111",
+      "article-title": "Primary production of benthic microalgae in an intertidal sand flat of the Ria de Arosa, NW Spain",
+      "volume": "25",
+      "author": "M Varela",
+      "year": "1985",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref015",
+      "doi-asserted-by": "crossref",
+      "first-page": "93",
+      "DOI": "10.1007/978-94-011-0293-3_8",
+      "volume-title": "Space Partition within Aquatic Ecosystems",
+      "author": "V Brotas",
+      "year": "1995"
+    },
+    {
+      "key": "pone.0246012.ref016",
+      "doi-asserted-by": "crossref",
+      "first-page": "2055",
+      "DOI": "10.1016/S0278-4343(01)00042-5",
+      "article-title": "Benthic community structure and sediment processes on an intertidal flat: results from the ECOFLAT project",
+      "volume": "21",
+      "author": "PM Herman",
+      "year": "2001",
+      "journal-title": "Cont Shelf Res"
+    },
+    {
+      "key": "pone.0246012.ref017",
+      "article-title": "Mud dynamics in the Wadden Sea Towards a conceptual model",
+      "author": "PMJ Herman",
+      "year": "2018",
+      "journal-title": "Report Deltares"
+    },
+    {
+      "key": "pone.0246012.ref018",
+      "doi-asserted-by": "crossref",
+      "first-page": "704",
+      "DOI": "10.1016/j.ecss.2006.09.019",
+      "article-title": "Benthic photosynthesis in submerged Wadden Sea intertidal flats",
+      "volume": "71",
+      "author": "M Billerbeck",
+      "year": "2007",
+      "journal-title": "Estuar Coast Shelf Sci"
+    },
+    {
+      "key": "pone.0246012.ref019",
+      "doi-asserted-by": "crossref",
+      "first-page": "338",
+      "DOI": "10.1007/s10021-010-9322-9",
+      "article-title": "Spatial Synchrony in Intertidal Benthic Algal Biomass in Temperate Coastal and Estuarine Ecosystems",
+      "volume": "13",
+      "author": "D Van der Wal",
+      "year": "2010",
+      "journal-title": "Ecosystems"
+    },
+    {
+      "key": "pone.0246012.ref020",
+      "doi-asserted-by": "crossref",
+      "first-page": "95",
+      "DOI": "10.1016/j.jembe.2014.11.003",
+      "article-title": "Combined effect of high light and high salinity on the regulation of photosynthesis in three diatom species belonging to the main growth forms of intertidal flat inhabiting microphytobenthos",
+      "volume": "463",
+      "author": "P Juneau",
+      "year": "2015",
+      "journal-title": "J Exp Mar Biol Ecol"
+    },
+    {
+      "key": "pone.0246012.ref021",
+      "doi-asserted-by": "crossref",
+      "first-page": "203",
+      "DOI": "10.1002/9781118412787.ch8",
+      "volume-title": "Estuarine Ecology",
+      "author": "KJ McGlathery",
+      "year": "2012",
+      "edition": "2"
+    },
+    {
+      "key": "pone.0246012.ref022",
+      "doi-asserted-by": "crossref",
+      "first-page": "79",
+      "DOI": "10.3354/meps249079",
+      "article-title": "Seasonal and interannual patterns of intertidal microphytobenthos in combination with laboratory and areal production estimates",
+      "volume": "249",
+      "author": "S Montani",
+      "year": "2003",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref023",
+      "doi-asserted-by": "crossref",
+      "first-page": "83",
+      "DOI": "10.1016/j.csr.2013.07.004",
+      "article-title": "Seasonality of microphytobenthos revealed by remote sensing in a South European estuary",
+      "volume": "66",
+      "author": "AC Brito",
+      "year": "2013",
+      "journal-title": "Cont Shelf Res"
+    },
+    {
+      "key": "pone.0246012.ref024",
+      "doi-asserted-by": "crossref",
+      "first-page": "175",
+      "DOI": "10.1146/annurev-fluid-010313-141302",
+      "article-title": "The Estuarine Circulation",
+      "volume": "46",
+      "author": "RW Geyer",
+      "year": "2014",
+      "journal-title": "Annu Rev Fluid Mech"
+    },
+    {
+      "key": "pone.0246012.ref025",
+      "doi-asserted-by": "crossref",
+      "first-page": "105",
+      "DOI": "10.1007/s10750-004-7123-x",
+      "article-title": "Influence of changes in salinity and light intensity on growth of phytoplankton communities from the Schelde river and estuary (Belgium/The Netherlands)",
+      "volume": "540",
+      "author": "M Lionard",
+      "year": "2005",
+      "journal-title": "Hydrobiologia"
+    },
+    {
+      "key": "pone.0246012.ref026",
+      "doi-asserted-by": "crossref",
+      "first-page": "2051",
+      "DOI": "10.1016/j.envpol.2018.06.079",
+      "article-title": "Rainfall effects on the erodibility of sediment and microphytobenthos in the intertidal flat",
+      "volume": "242",
+      "author": "HJ Ha",
+      "year": "2018",
+      "journal-title": "Environ Pollut"
+    },
+    {
+      "key": "pone.0246012.ref027",
+      "doi-asserted-by": "crossref",
+      "first-page": "277",
+      "DOI": "10.1126/science.1229931",
+      "article-title": "Essential biodiversity variables",
+      "volume": "339",
+      "author": "HM Pereira",
+      "year": "2013",
+      "journal-title": "Science"
+    },
+    {
+      "key": "pone.0246012.ref028",
+      "doi-asserted-by": "crossref",
+      "first-page": "211",
+      "DOI": "10.3389/fmars.2018.00211",
+      "article-title": "Advancing marine biological observations and data requirements of the complementary essential ocean variables (EOVs) and essential biodiversity variables (EBVs) frameworks",
+      "volume": "5",
+      "author": "FE Muller-Karger",
+      "year": "2018",
+      "journal-title": "Front Mar Sci"
+    },
+    {
+      "key": "pone.0246012.ref029",
+      "first-page": "71",
+      "volume-title": "The role of organic matter in the Wadden Sea",
+      "author": "GC Cad\u00e9e",
+      "year": "1984"
+    },
+    {
+      "key": "pone.0246012.ref030",
+      "doi-asserted-by": "crossref",
+      "first-page": "773",
+      "DOI": "10.1006/ecss.2001.0848",
+      "article-title": "Changes in abundance and composition of phytoplankton and microphytobenthos due to increased sediment fluxes in the Venice Lagoon, Italy",
+      "volume": "54",
+      "author": "C Facca",
+      "year": "2002",
+      "journal-title": "Estuar Coast Shelf Sci"
+    },
+    {
+      "key": "pone.0246012.ref031",
+      "doi-asserted-by": "crossref",
+      "first-page": "43",
+      "DOI": "10.3354/meps09954",
+      "article-title": "Long-term mean annual microphytobenthos chlorophyll a variation correlates with air temperature",
+      "volume": "468",
+      "author": "VN De Jonge",
+      "year": "2012",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref032",
+      "doi-asserted-by": "crossref",
+      "first-page": "43",
+      "DOI": "10.1016/j.ecss.2013.11.007",
+      "article-title": "Microphytobenthos interannual variations in a north-European estuary (Loire estuary, France) detected by visible-infrared multispectral remote sensing",
+      "volume": "136",
+      "author": "I Benyoucef",
+      "year": "2014",
+      "journal-title": "Estuar Coast Shelf Sci"
+    },
+    {
+      "key": "pone.0246012.ref033",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1186/s12898-015-0043-y",
+      "article-title": "Effects of elevated temperature and CO 2 on intertidal microphytobenthos",
+      "volume": "15",
+      "author": "P Cartaxana",
+      "year": "2015",
+      "journal-title": "BMC Ecol"
+    },
+    {
+      "key": "pone.0246012.ref034",
+      "doi-asserted-by": "crossref",
+      "first-page": "288",
+      "DOI": "10.1016/j.advwatres.2015.10.011",
+      "article-title": "A one-dimensional biomorphodynamic model of tidal flats: Sediment sorting, marsh distribution, and carbon accumulation under sea level rise",
+      "volume": "93",
+      "author": "Z Zhou",
+      "year": "2016",
+      "journal-title": "Adv Water Resour"
+    },
+    {
+      "key": "pone.0246012.ref035",
+      "doi-asserted-by": "crossref",
+      "first-page": "183",
+      "DOI": "10.1007/BF02781988",
+      "article-title": "Relationship of intertidal surface sediment chlorophyll concentration to hyperspectral reflectance and chlorophyll fluorescence",
+      "volume": "29",
+      "author": "JC Kromkamp",
+      "year": "2006",
+      "journal-title": "Estuaries Coast"
+    },
+    {
+      "key": "pone.0246012.ref036",
+      "doi-asserted-by": "crossref",
+      "first-page": "129",
+      "DOI": "10.1016/j.rse.2018.03.037",
+      "article-title": "A model to assess microphytobenthic primary production in tidal systems using satellite remote sensing",
+      "volume": "211",
+      "author": "TD Daggers",
+      "year": "2018",
+      "journal-title": "Remote Sens Environ"
+    },
+    {
+      "key": "pone.0246012.ref037",
+      "doi-asserted-by": "crossref",
+      "first-page": "1245",
+      "DOI": "10.1093/plankt/17.6.1245",
+      "article-title": "An estimate of global primary production in the ocean from satellite radiometer data",
+      "volume": "17",
+      "author": "A Longhurst",
+      "year": "1995",
+      "journal-title": "J Plankton Res"
+    },
+    {
+      "key": "pone.0246012.ref038",
+      "doi-asserted-by": "crossref",
+      "first-page": "1479",
+      "DOI": "10.4319/lo.1997.42.7.1479",
+      "article-title": "A consumer\u2019s guide to phytoplankton primary productivity models",
+      "volume": "42",
+      "author": "MJ Behrenfeld",
+      "year": "1997",
+      "journal-title": "Limnol Oceanogr"
+    },
+    {
+      "key": "pone.0246012.ref039",
+      "doi-asserted-by": "crossref",
+      "first-page": "233",
+      "DOI": "10.1016/S0022-0981(00)00199-4",
+      "article-title": "Estimation of phytoplankton production from space: current status and future potential of satellite remote sensing",
+      "volume": "250",
+      "author": "I Joint",
+      "year": "2000",
+      "journal-title": "J Exp Mar Biol Ecol"
+    },
+    {
+      "key": "pone.0246012.ref040",
+      "doi-asserted-by": "crossref",
+      "first-page": "57",
+      "DOI": "10.3354/meps07535",
+      "article-title": "Distribution and dynamics of intertidal macrobenthos predicted from remote sensing: response to microphytobenthos and environment",
+      "volume": "367",
+      "author": "D Van der Wal",
+      "year": "2008",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref041",
+      "first-page": "97",
+      "article-title": "Preprocessing transformations and their effects on multispectral recognition",
+      "author": "FJ Kriegler",
+      "year": "1969",
+      "journal-title": "Proceedings of the Sixth International Symposium on Remote Sens Environ"
+    },
+    {
+      "key": "pone.0246012.ref042",
+      "unstructured": "Rouse JW, Haas RH, Schell JA, Deering DW. Monitoring Vegetation Systems in the Great Plains with ERTS. 3rd ERTS Symposium, NASA SP-351, Washington DC; 1973 December 10\u201314."
+    },
+    {
+      "key": "pone.0246012.ref043",
+      "doi-asserted-by": "crossref",
+      "first-page": "166",
+      "DOI": "10.3390/rs8030166",
+      "article-title": "First Experience with Sentinel-2 Data for Crop and Tree Species Classifications in Central Europe",
+      "volume": "8",
+      "author": "M Immitzer",
+      "year": "2016",
+      "journal-title": "Remote Sens"
+    },
+    {
+      "key": "pone.0246012.ref044",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Topaloglu RH, Sertel E, Musaoglu N. Assessment of Classification Accuracies of Sentinel-2 and Landsat-8 Data for Land Cover/Use Mapping. In: Proceedings of the International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences; 2016 July12\u201319; Prague, Czech Republic. 2016.",
+      "DOI": "10.5194/isprs-archives-XLI-B8-1055-2016"
+    },
+    {
+      "key": "pone.0246012.ref045",
+      "doi-asserted-by": "crossref",
+      "first-page": "4349",
+      "DOI": "10.5194/hess-22-4349-2018",
+      "article-title": "Surface water monitoring in small water bodies: Potential and limits of multi-sensor Landsat time series",
+      "volume": "22",
+      "author": "A Ogilvie",
+      "year": "2018",
+      "journal-title": "J Hydrol Earth Syst Sci"
+    },
+    {
+      "key": "pone.0246012.ref046",
+      "doi-asserted-by": "crossref",
+      "first-page": "386",
+      "DOI": "10.1016/j.rse.2003.08.009",
+      "article-title": "Spectrometric constraint in analysis of benthic diatom biomass using monospecific cultures",
+      "volume": "88",
+      "author": "V M\u00e9l\u00e9der",
+      "year": "2003",
+      "journal-title": "Remote Sens Environ"
+    },
+    {
+      "key": "pone.0246012.ref047",
+      "doi-asserted-by": "crossref",
+      "first-page": "1034",
+      "DOI": "10.1016/j.rse.2010.12.008",
+      "article-title": "Spectral response of benthic diatoms with different sediment backgrounds",
+      "volume": "115",
+      "author": "L Barill\u00e9",
+      "year": "2001",
+      "journal-title": "Remote Sens Environ"
+    },
+    {
+      "key": "pone.0246012.ref048",
+      "doi-asserted-by": "crossref",
+      "first-page": "1835",
+      "DOI": "10.1080/01431160512331326530",
+      "article-title": "Estimation of surface chlorophyll-a on an emerged mudflat using field spectrometry: accuracy of ratios and derivative-based approaches",
+      "volume": "26",
+      "author": "RJ Murphy",
+      "year": "2005",
+      "journal-title": "Int J Remote Sens"
+    },
+    {
+      "key": "pone.0246012.ref049",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.seares.2016.08.002",
+      "article-title": "Temporal dynamics and spatial heterogeneity of microalgal biomass in recently reclaimed intertidal flats of the Saemangeum area, Korea",
+      "volume": "116",
+      "author": "BO Kwon",
+      "year": "2016",
+      "journal-title": "J Sea Res"
+    },
+    {
+      "key": "pone.0246012.ref050",
+      "doi-asserted-by": "crossref",
+      "first-page": "43",
+      "DOI": "10.1029/95GB02831",
+      "article-title": "Oceanic primary production: 1. Adaptation of a spectral light-photosynthesis model in view of application to satellite chlorophyll observations",
+      "volume": "10",
+      "author": "D Antoine",
+      "year": "1996",
+      "journal-title": "Global Biogeochem Cycles"
+    },
+    {
+      "key": "pone.0246012.ref051",
+      "doi-asserted-by": "crossref",
+      "first-page": "33",
+      "DOI": "10.3354/meps218033",
+      "article-title": "Short-term dynamics in microphytobenthos distribution and associated extracellular carbohydrates in surface sediments of an intertidal mudflat",
+      "volume": "218",
+      "author": "JFC De Brouwer",
+      "year": "2001",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref052",
+      "doi-asserted-by": "crossref",
+      "first-page": "181",
+      "DOI": "10.1080/0269249X.2004.9705870",
+      "article-title": "The ups and downs of life in a benthic biofilm: migration of benthic diatoms",
+      "volume": "19",
+      "author": "M Consalvey",
+      "year": "2004",
+      "journal-title": "Diatom Res"
+    },
+    {
+      "key": "pone.0246012.ref053",
+      "doi-asserted-by": "crossref",
+      "first-page": "60",
+      "DOI": "10.1016/j.jembe.2005.11.005",
+      "article-title": "Effect of sediment type on microphytobenthos vertical distribution: Modelling the productive biomass and improving ground truth measurements",
+      "volume": "332",
+      "author": "B Jesus",
+      "year": "2006",
+      "journal-title": "J Exp Mar Biol Ecol"
+    },
+    {
+      "key": "pone.0246012.ref054",
+      "doi-asserted-by": "crossref",
+      "first-page": "119",
+      "DOI": "10.1016/j.seares.2017.06.014",
+      "article-title": "Shifting baselines in the Ems Dollard estuary: A comparison across three decades reveals changing benthic communities",
+      "volume": "127",
+      "author": "TJ Compton",
+      "year": "2017",
+      "journal-title": "J Sea Res"
+    },
+    {
+      "key": "pone.0246012.ref055",
+      "unstructured": "De Jonge VN. Physical processes and dynamics of microphytobenthos in the Ems estuary (The Netherlands). Ministry of Transport, Public Works and Water Management, Directorate-General for Public Works and Water Management, Tidal Waters Division; 1992."
+    },
+    {
+      "key": "pone.0246012.ref056",
+      "first-page": "283",
+      "article-title": "A preliminary carbon budget for a part of the Ems estuary: the Dollard",
+      "volume": "30",
+      "author": "FB Van Es",
+      "year": "1977",
+      "journal-title": "Helgol Mar Res"
+    },
+    {
+      "key": "pone.0246012.ref057",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.3354/meps014185",
+      "article-title": "Primary production of microphytobenthos in the Ems-Dollard Estuary",
+      "volume": "14",
+      "author": "F Colijn",
+      "year": "1984",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref058",
+      "unstructured": "Brinkman AG, Riegman R, Jacobs P, Kuhn S. Meijboom A. Ems-Dollard primary production research: Full data report. Report IMARES Wageningen UR, IJmuiden, the Netherlands; 2015: C160/14."
+    },
+    {
+      "key": "pone.0246012.ref059",
+      "doi-asserted-by": "crossref",
+      "first-page": "589",
+      "DOI": "10.1007/s10236-015-0821-2",
+      "article-title": "Fine sediment transport into the hyper-turbid lower Ems river: the role of channel deepening and sediment-induced drag reduction",
+      "volume": "65",
+      "author": "DS Van Maren",
+      "year": "2015",
+      "journal-title": "Ocean Dyn"
+    },
+    {
+      "key": "pone.0246012.ref060",
+      "doi-asserted-by": "crossref",
+      "first-page": "147",
+      "DOI": "10.1016/j.margeo.2016.03.007",
+      "article-title": "The effect of land reclamations and sediment extraction on the suspended sediment concentration in the Ems Estuary",
+      "volume": "376",
+      "author": "DS Van Maren",
+      "year": "2016",
+      "journal-title": "Marine Geology"
+    },
+    {
+      "key": "pone.0246012.ref061",
+      "unstructured": "ED2050. The program Eems-Dollard [Cited 21 December 2020]. Available from: https://eemsdollard2050.nl/english/."
+    },
+    {
+      "key": "pone.0246012.ref062",
+      "doi-asserted-by": "crossref",
+      "first-page": "103",
+      "DOI": "10.1016/j.seares.2013.02.002",
+      "article-title": "Distinctly variable mudscapes: distribution gradients of intertidal macrofauna across the Dutch Wadden Sea",
+      "volume": "82",
+      "author": "TJ Compton",
+      "year": "2013",
+      "journal-title": "J Sea Res"
+    },
+    {
+      "key": "pone.0246012.ref063",
+      "article-title": "In vitro determination of chlorophyll a and pheophytin a in marine and freshwater algae by fluorescence",
+      "volume": "445",
+      "author": "EJ Arar",
+      "year": "1997",
+      "journal-title": "National Exposure Research Laboratory Report"
+    },
+    {
+      "key": "pone.0246012.ref064",
+      "doi-asserted-by": "crossref",
+      "first-page": "245",
+      "DOI": "10.3354/meps145245",
+      "article-title": "Primary production by suspended and benthic microalgae in a turbid estuary: timescales of variability in San Antonio Bay, Texas",
+      "volume": "145",
+      "author": "HL MacIntyre",
+      "year": "1996",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref065",
+      "doi-asserted-by": "crossref",
+      "first-page": "99",
+      "DOI": "10.3354/meps013099",
+      "article-title": "A small volume, short-incubation-time method for measurement of photosynthesis as a function of incident irradiance",
+      "volume": "13",
+      "author": "MR Lewis",
+      "year": "1983",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref066",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.dsr.2013.07.011",
+      "article-title": "Does the 14C method estimate net photosynthesis? Implications from batch and continuous culture studies of marine phytoplankton",
+      "volume": "82",
+      "author": "S Pei",
+      "year": "2013",
+      "journal-title": "Deep Sea Res 1"
+    },
+    {
+      "key": "pone.0246012.ref067",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.3354/meps13267",
+      "article-title": "Planktonic primary production in the western Dutch Wadden Sea",
+      "volume": "639",
+      "author": "P Jacobs",
+      "year": "2020",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref068",
+      "unstructured": "R Core Team. R: A language and environment for statistical computing. 2018. R Foundation for Statistical Computing, Vienna, Austria, version 3.5.1. https://www.R-project.org/."
+    },
+    {
+      "key": "pone.0246012.ref069",
+      "unstructured": "Silsbe GM, Malkin SY. Phytotools: Phytoplankton production tools. 2015. R package Version 1.0. Available from https://CRAN.R-project.org/package=phytotools."
+    },
+    {
+      "key": "pone.0246012.ref070",
+      "doi-asserted-by": "crossref",
+      "first-page": "199",
+      "DOI": "10.1016/0304-3800(88)90057-9",
+      "article-title": "A model for the relationship between light intensity and the rate of photosynthesis in phytoplankton",
+      "volume": "42",
+      "author": "PHC Eilers",
+      "year": "1988",
+      "journal-title": "Ecol Modell"
+    },
+    {
+      "issue": "5",
+      "key": "pone.0246012.ref071",
+      "article-title": "Het macrozoobenthos op twaalf raaien in de Waddenzee en de Eems-Dollard in 2007",
+      "author": "R Dekker",
+      "year": "2008",
+      "journal-title": "NIOZ-rapport"
+    },
+    {
+      "key": "pone.0246012.ref072",
+      "first-page": "376",
+      "article-title": "Lake Veluwe, a macrophyte-dominated system under eutrophication stress",
+      "author": "W Van Vierssen",
+      "year": "1994",
+      "journal-title": "Dordrecht: Kluwer Academic Publishers"
+    },
+    {
+      "issue": "4",
+      "key": "pone.0246012.ref073",
+      "first-page": "42",
+      "article-title": "MODIS BRDF/albedo product: algorithm theoretical basis document version 5.0",
+      "volume": "23",
+      "author": "B Strahler",
+      "year": "1999",
+      "journal-title": "MODIS documentation"
+    },
+    {
+      "key": "pone.0246012.ref074",
+      "doi-asserted-by": "crossref",
+      "first-page": "25",
+      "DOI": "10.1016/j.rse.2017.06.019",
+      "article-title": "Examination of Sentinel-2A multi-spectral instrument (MSI) reflectance anisotropy and the suitability of a general method to normalize MSI reflectance to nadir BRDF adjusted reflectance",
+      "volume": "199",
+      "author": "DP Roy",
+      "year": "2017",
+      "journal-title": "Remote Sens Environ"
+    },
+    {
+      "key": "pone.0246012.ref075",
+      "doi-asserted-by": "crossref",
+      "first-page": "377",
+      "DOI": "10.1086/622910",
+      "article-title": "A scale of grade and class terms for cladistic sediments",
+      "volume": "30",
+      "author": "CK Wentworth",
+      "year": "1922",
+      "journal-title": "J Geol"
+    },
+    {
+      "key": "pone.0246012.ref076",
+      "doi-asserted-by": "crossref",
+      "first-page": "1637",
+      "DOI": "10.1093/plankt/19.11.1637",
+      "article-title": "Parameters of photosynthesis: definitions, theory and interpretation of results",
+      "volume": "19",
+      "author": "E Sakshaug",
+      "year": "1997",
+      "journal-title": "J Plankton Res"
+    },
+    {
+      "key": "pone.0246012.ref077",
+      "doi-asserted-by": "crossref",
+      "first-page": "562",
+      "DOI": "10.3389/fmars.2020.00562",
+      "article-title": "Microscale variability in biomass and photosynthetic activity of microphytobenthos during a spring-neap tidal cycle",
+      "volume": "7",
+      "author": "JC Kromkamp",
+      "year": "2020",
+      "journal-title": "Front Mar Sci"
+    },
+    {
+      "key": "pone.0246012.ref078",
+      "doi-asserted-by": "crossref",
+      "first-page": "163",
+      "DOI": "10.1007/s10750-008-9626-3",
+      "article-title": "Spatio-temporal variability of intertidal benthic primary production and respiration in the western part of the Mont Saint-Michel Bay (Western English Channel, France)",
+      "volume": "620",
+      "author": "D Davoult",
+      "year": "2009",
+      "journal-title": "Hydrobiologia"
+    },
+    {
+      "key": "pone.0246012.ref079",
+      "first-page": "257",
+      "article-title": "The microphytobenthos of Konigshafen\u2014spatial and seasonal distribution on a sandy tidal flat",
+      "volume": "48",
+      "author": "RM Asmus",
+      "year": "1994",
+      "journal-title": "Helgol Mar Res"
+    },
+    {
+      "key": "pone.0246012.ref080",
+      "doi-asserted-by": "crossref",
+      "first-page": "872",
+      "DOI": "10.3389/fmicb.2016.00872",
+      "article-title": "Regulation of intertidal microphytobenthos photosynthesis over a diel emersion period is strongly affected by diatom migration patterns",
+      "volume": "7",
+      "author": "P Cartaxana",
+      "year": "2016",
+      "journal-title": "Front Microbiol"
+    },
+    {
+      "key": "pone.0246012.ref081",
+      "doi-asserted-by": "crossref",
+      "first-page": "723",
+      "DOI": "10.1111/j.0022-3646.1997.00723.x",
+      "article-title": "Seasonal effect on the relationship between the photosynthetic capacity of intertidal microphytobenthos and temperature",
+      "volume": "33",
+      "author": "GF Blanchard",
+      "year": "1997",
+      "journal-title": "J Phycol"
+    },
+    {
+      "key": "pone.0246012.ref082",
+      "doi-asserted-by": "crossref",
+      "first-page": "133",
+      "DOI": "10.1080/0967026031000085832",
+      "article-title": "Influence of temperature on the relationship between oxygen- and fluorescence-based estimates of photosynthetic parameters in a marine benthic diatom (Cylindrotheca closterium)",
+      "volume": "38",
+      "author": "EP Morris",
+      "year": "2003",
+      "journal-title": "Eur J Phycol"
+    },
+    {
+      "key": "pone.0246012.ref083",
+      "doi-asserted-by": "crossref",
+      "first-page": "327",
+      "DOI": "10.4319/lo.1987.32.2.0327",
+      "article-title": "Resuspension in the shallow sublittoral zone of a macrotidal estuarine environment: wind influence",
+      "volume": "32",
+      "author": "S Demers",
+      "year": "1987",
+      "journal-title": "Limnol Oceanogr"
+    },
+    {
+      "key": "pone.0246012.ref084",
+      "doi-asserted-by": "crossref",
+      "first-page": "260",
+      "DOI": "10.1016/0077-7579(74)90020-9",
+      "article-title": "Primary production of the benthic microflora living on tidal flats in the Dutch Wadden Sea",
+      "volume": "8",
+      "author": "GC Cad\u00e9e",
+      "year": "1974",
+      "journal-title": "J Sea Res"
+    },
+    {
+      "key": "pone.0246012.ref085",
+      "doi-asserted-by": "crossref",
+      "first-page": "7243",
+      "DOI": "10.5194/bg-15-7243-2018",
+      "article-title": "On biotic and abiotic drivers of the microphytobenthos seasonal cycle in a temperate intertidal mudflat: a modelling study",
+      "volume": "15",
+      "author": "R Savelli",
+      "year": "2018",
+      "journal-title": "Biogeosciences"
+    },
+    {
+      "key": "pone.0246012.ref086",
+      "doi-asserted-by": "crossref",
+      "first-page": "471",
+      "DOI": "10.1016/S0302-3524(82)80071-6",
+      "article-title": "Observations and experiments on the population dynamics of epipelic diatoms from an estuarine mudflat",
+      "volume": "14",
+      "author": "W Admiraal",
+      "year": "1982",
+      "journal-title": "Estuar Coast Shelf Sci"
+    },
+    {
+      "key": "pone.0246012.ref087",
+      "first-page": "766",
+      "article-title": "Wind- and tide-induced resuspension of sediment and microphytobenthos from tidal flats in the Ems estuary",
+      "volume": "40",
+      "author": "VN De Jonge",
+      "year": "1995",
+      "journal-title": "Limnol Oceanogr"
+    },
+    {
+      "key": "pone.0246012.ref088",
+      "doi-asserted-by": "crossref",
+      "first-page": "205",
+      "DOI": "10.3354/meps278205",
+      "article-title": "Interacting effects of Hydrobia ulvae bioturbation and microphytobenthos on the erodibility of mudflat sediments",
+      "volume": "278",
+      "author": "F Orvain",
+      "year": "2004",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref089",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.3354/meps104185",
+      "article-title": "Dynamics of microphytobenthos biomass in the Ems estuary",
+      "volume": "104",
+      "author": "VN De Jonge",
+      "year": "1994",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref090",
+      "unstructured": "Stal LJ, de Brouwer JFC. Biofilm formation by benthic diatoms and their influence on the stabilization of intertidal mudflat. In Rullk\u00f6tter J, editor, BioGeoChemistry of Tidal Flats. Proceedings of a Workshop at the Hanse Institute of Advanced Study, May 14\u201317, Delmenhorst, Germany. Wilhelmshaven: Forschungszentrum Terramare. 2003. p. 109\u2013111."
+    },
+    {
+      "key": "pone.0246012.ref091",
+      "doi-asserted-by": "crossref",
+      "first-page": "735",
+      "DOI": "10.2307/1353106",
+      "article-title": "Sediment grain size effect on benthic microalgal biomass in shallow aquatic ecosystems",
+      "volume": "22",
+      "author": "LB Cahoon",
+      "year": "1999",
+      "journal-title": "Estuaries"
+    },
+    {
+      "key": "pone.0246012.ref092",
+      "doi-asserted-by": "crossref",
+      "first-page": "301",
+      "DOI": "10.3354/ame01175",
+      "article-title": "Coupling between Photosystem II electron transport and carbon fixation in microphytobenthos",
+      "volume": "50",
+      "author": "EP Morris",
+      "year": "2008",
+      "journal-title": "Aquat Microb Ecol"
+    },
+    {
+      "key": "pone.0246012.ref093",
+      "doi-asserted-by": "crossref",
+      "first-page": "864",
+      "DOI": "10.1111/j.1529-8817.2007.00379.x",
+      "article-title": "Photosynthetic activity of intertidal microphytobenthic communities during emersion: in-situ measurements of chlorophyll fluorescence (PAM) and CO2-flux (IRGA)",
+      "volume": "43",
+      "author": "A Mign\u00e9",
+      "year": "2007",
+      "journal-title": "J Phycol"
+    },
+    {
+      "key": "pone.0246012.ref094",
+      "doi-asserted-by": "crossref",
+      "first-page": "1437",
+      "DOI": "10.1016/j.csr.2004.06.002",
+      "article-title": "In-situ measurements of benthic primary production during emersion: seasonal variations and annual production in the Bay of Somme (eastern English Channel, France)",
+      "volume": "24",
+      "author": "A Mign\u00e9",
+      "year": "2004",
+      "journal-title": "Cont Shelf Res"
+    },
+    {
+      "key": "pone.0246012.ref095",
+      "doi-asserted-by": "crossref",
+      "first-page": "227",
+      "DOI": "10.3354/meps122227",
+      "article-title": "Fine-scale vertical resolution of chlorophyll and photosynthetic parameters in shallow-water benthos",
+      "volume": "122",
+      "author": "HL MacIntyre",
+      "year": "1995",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref096",
+      "doi-asserted-by": "crossref",
+      "first-page": "139",
+      "DOI": "10.3354/meps105139",
+      "article-title": "Light penetration and light intensity in sandy marine sediments measured with irradiance and scalar irradiance fibre-optic microprobes",
+      "volume": "105",
+      "author": "M K\u00fchl",
+      "year": "1994",
+      "journal-title": "Mar Ecol Prog Ser"
+    },
+    {
+      "key": "pone.0246012.ref097",
+      "doi-asserted-by": "crossref",
+      "first-page": "306",
+      "DOI": "10.1038/s41558-019-0412-1",
+      "article-title": "Marine heatwaves threaten global biodiversity and the provision of ecosystem services",
+      "volume": "9",
+      "author": "DA Smale",
+      "year": "2019",
+      "journal-title": "Nat Clim Change"
+    },
+    {
+      "key": "pone.0246012.ref098",
+      "doi-asserted-by": "crossref",
+      "first-page": "313",
+      "DOI": "10.1146/annurev-marine-032720-095144",
+      "article-title": "Marine heatwaves",
+      "volume": "13",
+      "author": "EC Oliver",
+      "year": "2020",
+      "journal-title": "Annu Rev Mar Sci"
+    },
+    {
+      "key": "pone.0246012.ref099",
+      "doi-asserted-by": "crossref",
+      "first-page": "195",
+      "DOI": "10.1016/S0065-2504(08)60194-4",
+      "volume-title": "In: Estuaries",
+      "author": "PMJ Herman",
+      "year": "1999",
+      "edition": "29"
+    },
+    {
+      "key": "pone.0246012.ref100",
+      "unstructured": "Klein Tank A, Beersma J, Bessembinder J, Van den Hurk B, Lenderink G. KNMI 14 climate scenarios for the Netherlands. KNMI publication: Brochure KNMI\u201914 climate scenarios, revised editions; 2015."
+    }
+  ],
+  "container-title": "PLOS ONE",
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://dx.plos.org/10.1371/journal.pone.0246012",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        6
+      ]
+    ],
+    "date-time": "2021-07-06T13:34:12Z",
+    "timestamp": 1625578452000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dx.plos.org/10.1371/journal.pone.0246012"
+    }
+  },
+  "subtitle": [],
+  "editor": [
+    {
+      "given": "Vona",
+      "family": "M\u00e9l\u00e9der",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "editor"
+        }
+      ]
+    }
+  ],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        6
+      ]
+    ]
+  },
+  "references-count": 100,
+  "journal-issue": {
+    "issue": "7",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          6
+        ]
+      ]
+    }
+  },
+  "URL": "http://dx.doi.org/10.1371/journal.pone.0246012",
+  "relation": {
+    "has-preprint": [
+      {
+        "id-type": "doi",
+        "id": "10.1101/2021.01.13.426519",
+        "asserted-by": "object"
+      }
+    ]
+  },
+  "ISSN": [
+    "1932-6203"
+  ],
+  "subject": [],
+  "container-title-short": "PLoS ONE",
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        7,
+        6
+      ]
+    ]
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "completed_utc": "2026-10-20T09:49:31.813495+00:00",
+  "status": "pass",
+  "checks": [
+    {
+      "check": "165 historical candidates; 15 targets; unique normalized key and matchup ID",
+      "status": "pass"
+    },
+    {
+      "check": "historical station-band mapping preserved one-to-one",
+      "status": "pass"
+    },
+    {
+      "check": "reference/occasion/scene/target foreign keys",
+      "status": "pass"
+    },
+    {
+      "check": "support and QA key/foreign-key cardinality",
+      "status": "pass"
+    },
+    {
+      "check": "six primary x three bands; common pair held; ledger mutually reconciled",
+      "status": "pass"
+    },
+    {
+      "check": "included numerical fields null while held",
+      "status": "pass"
+    },
+    {
+      "check": "empty eligible P_b/P* table is header only",
+      "status": "pass"
+    },
+    {
+      "check": "stored extraction weights normalize independently of statistical weights",
+      "status": "pass"
+    },
+    {
+      "check": "unknown grouping not fabricated as singleton/QA groups",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC01:B02",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC01:B03",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC01:B04",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC02:B02",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC02:B03",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC02:B04",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC05:B02",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC05:B03",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC05:B04",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC06:B02",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC06:B03",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC06:B04",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC07:B02",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC07:B03",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC07:B04",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC08:B02",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC08:B03",
+      "status": "pass"
+    },
+    {
+      "check": "common stored boundary AC08:B04",
+      "status": "pass"
+    },
+    {
+      "check": "nominal mask envelopes: 3600 clear defect flags; 450 valid detector values; SCL conditional",
+      "status": "pass"
+    },
+    {
+      "check": "special codes masked before decoding; valid negative retained",
+      "status": "pass"
+    },
+    {
+      "check": "36 original centre reads agree with decoding and stored 11x11 diagnostics",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC01L2AB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC01ACOLITEB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC01L2AB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC01ACOLITEB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC01L2AB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC01ACOLITEB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC02L2AB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC02ACOLITEB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC02L2AB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC02ACOLITEB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC02L2AB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC02ACOLITEB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC05L2AB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC05ACOLITEB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC05L2AB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC05ACOLITEB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC05L2AB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC05ACOLITEB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC06L2AB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC06ACOLITEB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC06L2AB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC06ACOLITEB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC06L2AB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC06ACOLITEB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC07L2AB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC07ACOLITEB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC07L2AB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC07ACOLITEB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC07L2AB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC07ACOLITEB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC08L2AB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC08ACOLITEB02",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC08L2AB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC08ACOLITEB03",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC08L2AB04",
+      "status": "pass"
+    },
+    {
+      "check": "centre/window consistency AC08ACOLITEB04",
+      "status": "pass"
+    },
+    {
+      "check": "new current spectra and diagnostics exclude AC03/04; supplementary not substituted",
+      "status": "pass"
+    },
+    {
+      "check": "constant reflectance preserved by response convolution",
+      "status": "pass"
+    },
+    {
+      "check": "linear reflectance and symmetric SRF analytic mean",
+      "status": "pass"
+    },
+    {
+      "check": "missing interval intersecting positive SRF rejected",
+      "status": "pass"
+    },
+    {
+      "check": "positive response outside ASD rejected without truncation",
+      "status": "pass"
+    },
+    {
+      "check": "18 v4 references and 18 separately identified v5 sensitivities",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC01B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC01B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC01B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC02B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC02B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC02B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC05B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC05B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC05B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC06B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC06B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC06B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC07B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC07B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC07B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC08B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC08B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v4_primaryAC08B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC01B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC01B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC01B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC02B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC02B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC02B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC05B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC05B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC05B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC06B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC06B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC06B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC07B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC07B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC07B04",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC08B02",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC08B03",
+      "status": "pass"
+    },
+    {
+      "check": "independent reference integral v5_sensitivityAC08B04",
+      "status": "pass"
+    },
+    {
+      "check": "coordinate order and roundtrip to WGS84 within 1e-9 degree",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_candidate_ledger.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_coverage.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_dependence_edges.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_heterogeneity.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_local_qa.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_locations.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_mud_metadata_dispositions.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_qa_cells.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_qa_links.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_support.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_target_decisions.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_targets.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_weights.csv",
+      "status": "pass"
+    },
+    {
+      "check": "frozen metadata bytes tables/ctr34_window_hashes.csv",
+      "status": "pass"
+    },
+    {
+      "check": "release contract timestamp and Git freeze precede diagnostic export",
+      "status": "pass"
+    },
+    {
+      "check": "all raw path/size/mtime records preserved",
+      "status": "pass"
+    },
+    {
+      "check": "full-byte small inputs match accepted audit identities",
+      "status": "pass"
+    },
+    {
+      "check": "no lockfile/dependency changes",
+      "status": "pass"
+    },
+    {
+      "check": "statistical weighting algebra sums to one in unequal-unit fixture",
+      "status": "pass"
+    }
+  ],
+  "check_count": 128,
+  "scope": "technical and numerical consistency; not independent scientific review or PI approval",
+  "raw_preservation_scope": "whole inventory path/size/mtime plus full small-input hashes and repeated window byte hashes; no full-byte 91GB identity claim"
+}

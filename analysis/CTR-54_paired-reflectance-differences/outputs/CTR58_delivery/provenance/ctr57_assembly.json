@@ -1,0 +1,153 @@
+{
+  "status": "passed",
+  "scope": "Writer assembly and tabular checks; no raster processing/model reruns or independent scientific approval",
+  "consumed_files": [
+    {
+      "path": "tables/date_band_summary.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 118322,
+      "sha256": "342f79e8f154dde2780bd6a6df974dfe3df097cfca9dd0246419f3bb81df202a"
+    },
+    {
+      "path": "tables/temporal_raster_summary.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 1398,
+      "sha256": "9be097ec0262bc4644132dcdd70f53b47d044a52225df16f1ef53569ea44cec7"
+    },
+    {
+      "path": "tables/temporal_coverage.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 2892,
+      "sha256": "96e073f37cb7e6ebb3288876bec67d7eb38b77ebde145f738158a72d5fa29a32"
+    },
+    {
+      "path": "tables/ctr56_observed_summary.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 738,
+      "sha256": "26f48123ce1fffe474455c1ac2814d5b4e876dcbc7bbfa669c2e75d17c1d9d27"
+    },
+    {
+      "path": "tables/ctr56_endpoint_contrasts.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 1098,
+      "sha256": "57c718d702893623b7e79800991c7275374012d6fab1151000d038c07275a42f"
+    },
+    {
+      "path": "tables/ctr56_diagnostics.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 2222,
+      "sha256": "e98bce4e14431f09e53b04e2799c5a2e8c5588a6f641c4bddea31247e1e49e31"
+    },
+    {
+      "path": "tables/ctr56_domain_sensitivity.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 6232,
+      "sha256": "c8646585e4669893e7b8ffc8888ab9575ee89093ea897fa01dc5d59c9e0dc625"
+    },
+    {
+      "path": "tables/ctr56_quality_coverage_diagnostics.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 763,
+      "sha256": "fa7282739c486d4e57bf13f71bdb375185c99c3df3f8101b0b83f02a7982a482"
+    },
+    {
+      "path": "tables/ctr56_leave_one_date_out.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 16377,
+      "sha256": "6fa21db3d70631e270c944ae042a580db4ea4d7f924c9e78ef8864190afdb77e"
+    },
+    {
+      "path": "tables/ctr56_date_design.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 1060,
+      "sha256": "76e87b23e10d621e5fbed3d41a263afbaecc2a990e037f81ca345a8d60f05935"
+    },
+    {
+      "path": "figures/generated/ctr56_temporal_gam.png",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 251105,
+      "sha256": "2b820b0b477e72c33324c0550e16cef2febbaf27b5873e055d41734ff6793aef"
+    },
+    {
+      "path": "figures/generated/ctr56_temporal_gam.pdf",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 27314,
+      "sha256": "d3dc35bc1809a3750231e245b0293bb8d4c619bd46342cd6115845ecea9f5550"
+    },
+    {
+      "path": "provenance/input_hashes.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 37568,
+      "sha256": "e0b207ea8d92ea0058b1db9d9a970fee8041f5330541d0b607f4898758b30a31"
+    },
+    {
+      "path": "provenance/output_hashes.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 23653,
+      "sha256": "d6c86eb7be928dd850eb9190647b1927c0fa749fa8ad638ade993867b3ce5bbb"
+    },
+    {
+      "path": "provenance/ctr56_output_hashes.csv",
+      "source_revision": "f1ae24ad409ae31f82cad4fd1767ed9861145fbf",
+      "bytes": 4040,
+      "sha256": "3de7fb1f2a8a1763e8def45390707bda69f0f3a0226fffd4508bd70aa7fd04d7"
+    },
+    {
+      "path": "tables/display_limits_v2.csv",
+      "source_revision": "8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04",
+      "bytes": 957,
+      "sha256": "10d03d6279831bcb453192713a30d894d7ed717227ac2a5205b09a7a51f69b7d"
+    },
+    {
+      "path": "tables/color_anchors_v2.csv",
+      "source_revision": "8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04",
+      "bytes": 134,
+      "sha256": "368a7b7cb77492bd6a413601b0245fea2cea52ea86766689bc47f395e8166bb1"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2.png",
+      "source_revision": "8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04",
+      "bytes": 17602104,
+      "sha256": "ca9d6e599cd98e875bc04e4602eece1b480d222f721658e654afbd53ecaae0be"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2.pdf",
+      "source_revision": "8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04",
+      "bytes": 12965942,
+      "sha256": "b202c1ffa79365b4d332a70d0507cbf999777f0961d0b2038f0a542a64523d3d"
+    },
+    {
+      "path": "figures/generated/paired_reflectance_maps_v2_preview.png",
+      "source_revision": "8dc80d7141d8c4482b8e36ee00f4cee4c9bf8e04",
+      "bytes": 1954528,
+      "sha256": "8f75cb51ff40d42281b782166e38bb3270a1df34f2936c4cc906ed4e76182a66"
+    },
+    {
+      "path": "provenance/figure_v2_files.csv",
+      "source_revision": "2f69c2311f1ca9956845e3896d25d678619e597e",
+      "bytes": 1474,
+      "sha256": "588d54c60142028788cb35a5789827aa4cb2b220f7e5ff31099e411fb4631c28"
+    }
+  ],
+  "table_rows": 528,
+  "primary_rows": 88,
+  "bands": [
+    "B2",
+    "B3",
+    "B4",
+    "B8"
+  ],
+  "checks": [
+    "Exact consumed bytes match source manifests; Git bytes also checked when upstream objects are available",
+    "Unique table keys",
+    "Per-band observations and signs recomputed",
+    "Map counts and temporal coverage checked",
+    "Date extrema recomputed",
+    "Endpoint intervals include null",
+    "All prose diagnostic values retained in claim ledger"
+  ],
+  "manuscript_changed": false,
+  "dependencies_changed": false,
+  "scientific_review": "pending CTR-59",
+  "pi_approval": "pending"
+}

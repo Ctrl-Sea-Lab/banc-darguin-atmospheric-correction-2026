@@ -1,0 +1,69 @@
+{
+  "scene_pair_id": "S2B_20260307_R080_T28QCH_A047010",
+  "same_acquisition_evidence": "exact tile sensing time plus S2B, T28QCH, orbit A047010, datatake 20260307T113319 and L1C tile processing identity; original upstream L1C bytes not available",
+  "sen2cor_product": {
+    "PRODUCT_START_TIME": [
+      "2026-03-07T11:33:19.024Z"
+    ],
+    "PRODUCT_URI": [
+      "S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE"
+    ],
+    "PROCESSING_BASELINE": [
+      "05.12"
+    ],
+    "SPACECRAFT_NAME": [
+      "Sentinel-2B"
+    ],
+    "DATATAKE_SENSING_START": [
+      "2026-03-07T11:33:19.024Z"
+    ],
+    "SENSING_ORBIT_NUMBER": [
+      "80"
+    ]
+  },
+  "sen2cor_tile": {
+    "SENSING_TIME": [
+      "2026-03-07T11:45:54.425534Z"
+    ],
+    "L1C_TILE_ID": [
+      "S2B_OPER_MSI_L1C_TL_2BPS_20260307T153536_A047010_T28QCH_N05.12"
+    ],
+    "TILE_ID": [
+      "S2B_OPER_MSI_L2A_TL_2BPS_20260307T154921_A047010_T28QCH_N05.12"
+    ],
+    "HORIZONTAL_CS_CODE": [
+      "EPSG:32628"
+    ]
+  },
+  "metadata_consistent_same_acquisition": true,
+  "byte_identical_L1C_ancestry_verified": false,
+  "alternatives": "no equally plausible early-March 2026 pair in current product roots; March 2025 and 27 March 2026 not substituted",
+  "SCL_labels_from_product_XML": {
+    "0": "SC_NODATA",
+    "1": "SC_SATURATED_DEFECTIVE",
+    "2": "SC_CAST_SHADOW",
+    "3": "SC_CLOUD_SHADOW",
+    "4": "SC_VEGETATION",
+    "5": "SC_NOT_VEGETATED",
+    "6": "SC_WATER",
+    "7": "SC_UNCLASSIFIED",
+    "8": "SC_CLOUD_MEDIUM_PROBA",
+    "9": "SC_CLOUD_HIGH_PROBA",
+    "10": "SC_THIN_CIRRUS",
+    "11": "SC_SNOW_ICE"
+  },
+  "acolite": {
+    "sensor": "S2B_MSI",
+    "granule": "L1C_T28QCH_A047010_20260307T114112",
+    "inputfile": "C:/Users/Simon/Downloads/S2B_MSIL1C_20260307T113319_N0512_R080_T28QCH_20260307T153536.SAFE/S2B_MSIL1C_20260307T113319_N0512_R080_T28QCH_20260307T153536.SAFE",
+    "isodate": "2026-03-07T11:45:54.425534+00:00",
+    "acolite_version": "Generic GitHub Clone c2026-04-07T11:45:24",
+    "atmospheric_correction_method": "dark_spectrum",
+    "ac_model": "ACOLITE-LUT-202110-MOD2",
+    "l2w_mask": "False",
+    "rsr_version": null,
+    "s2_target_res": "10",
+    "output_projection_resampling_method": "bilinear",
+    "warp_resampling_method": "bilinear"
+  }
+}

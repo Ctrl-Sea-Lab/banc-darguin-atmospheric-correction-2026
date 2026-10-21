@@ -1,0 +1,14 @@
+station_id,class_literal,role,ASD_column,latitude,longitude,coordinate_CRS,satellite_bands_available,satellite_match_status,continuous_ASD_spectrum_available,convolved_ASD_reference_status
+AC01,dry_sand,primary_intended,AC_01,19.883937,-16.294369,EPSG:4326,3,held_containing_cell_values_available,True,v4_primary_and_v5_sensitivity
+AC02,dry_sand,primary_intended,AC_02,19.883816,-16.294463,EPSG:4326,3,held_containing_cell_values_available,True,v4_primary_and_v5_sensitivity
+AC05,algae_mud,primary_intended,AC_05,19.898096,-16.504162,EPSG:4326,3,held_containing_cell_values_available,True,v4_primary_and_v5_sensitivity
+AC06,white_sand,primary_intended,AC_06,19.898859,-16.504517,EPSG:4326,3,held_containing_cell_values_available,True,v4_primary_and_v5_sensitivity
+AC07,seagrass,primary_intended,AC_07,19.899799,-16.508523,EPSG:4326,3,held_containing_cell_values_available,True,v4_primary_and_v5_sensitivity
+AC08,seagrass,primary_intended,AC_08,19.897776,-16.502755,EPSG:4326,3,held_containing_cell_values_available,True,v4_primary_and_v5_sensitivity
+D06_A,zn,supplementary_only,D06_A,19.898679,-16.506917,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export
+D06_B,zn,supplementary_only,D06_B,19.898684,-16.506903,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export
+D06_C,zn,supplementary_only,D06_C,19.898814,-16.507075,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export
+D06_D,zn,supplementary_only,D06_D,19.899237,-16.507142,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export
+D06_E,zn,supplementary_only,D06_E,19.899335,-16.507878,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export
+D06_F,zn,supplementary_only,D06_F,19.89972,-16.508063,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export
+D06_G,sand,supplementary_only,D06_G,19.899536,-16.508149,EPSG:4326,0,no_satellite_match_exported_in_CTR34; supplementary_only_not_substituted,True,NA_not_in_existing_band_reference_export

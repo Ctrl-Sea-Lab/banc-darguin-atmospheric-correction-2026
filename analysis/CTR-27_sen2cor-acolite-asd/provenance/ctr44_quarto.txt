@@ -1,0 +1,26 @@
+Rendered /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-27_sen2cor-acolite-asd/report.html
+pandoc 
+  to: html
+  output-file: report.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 2
+  number-sections: false
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: cosmo
+  title: Satellite–ASD reflectance at Banc d’Arguin
+  subtitle: Retained supplied-table matchup and 7 March 2026 station spectra
+  author: Ctrl+Sea · Edward Tufte · verified numerical handoff by Thomas Bayes and Roger Tomlinson
+  
+Output created: report.html
+

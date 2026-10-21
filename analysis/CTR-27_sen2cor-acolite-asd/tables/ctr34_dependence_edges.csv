@@ -1,0 +1,16 @@
+target_a,target_b,shared_stored_radiometric_cell,actual_upstream_radiometric_overlap,actual_field_patch_overlap,actual_primary_graph_edge,shared_QA_diagnostic_cells,diagnostic_5x5_windows_overlap,component_id,evidence,do_not_merge_from_QA_alone
+AC01,AC02,False,unknown,unknown,unknown,True,True,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC01,AC05,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC01,AC06,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC01,AC07,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC01,AC08,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC02,AC05,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC02,AC06,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC02,AC07,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC02,AC08,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC05,AC06,False,unknown,unknown,unknown,True,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC05,AC07,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC05,AC08,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC06,AC07,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC06,AC08,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True
+AC07,AC08,False,unknown,unknown,unknown,False,False,,nominal cells known; effective/native radiometric bound and representative field patches unverified,True

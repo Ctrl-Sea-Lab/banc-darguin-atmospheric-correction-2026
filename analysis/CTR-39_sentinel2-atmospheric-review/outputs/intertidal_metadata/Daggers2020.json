@@ -1,0 +1,678 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2026-10-10T01:35:40Z",
+    "timestamp": 1791596140116,
+    "version": "4.3.4"
+  },
+  "reference-count": 46,
+  "publisher": "Frontiers Media SA",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2020-06-03T00:00:00Z",
+        "timestamp": 1591142400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100003246",
+      "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "ALW-GO 13/14"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "ALW-GO 13/14"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100003246",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "frontiersin.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "DOI": "10.3389/fmars.2020.00392",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2020-06-03T05:39:43Z",
+    "timestamp": 1591162783000
+  },
+  "update-policy": "https://doi.org/10.3389/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 32,
+  "title": "Seasonal and Spatial Variability in Patchiness of Microphytobenthos on Intertidal Flats From Sentinel-2 Satellite Imagery",
+  "prefix": "10.3389",
+  "volume": "7",
+  "author": [
+    {
+      "given": "Tisja D.",
+      "family": "Daggers",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter M. J.",
+      "family": "Herman",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Daphne",
+      "family": "van der Wal",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1965",
+  "published-online": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        3
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "B1",
+      "doi-asserted-by": "crossref",
+      "first-page": "51",
+      "DOI": "10.1016/S1385-1101(02)00130-2",
+      "article-title": "Enhanced erodibility of fine-grained marine sediments by Hydrobia ulvae.",
+      "volume": "48",
+      "author": "Andersen",
+      "year": "2002",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "B2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.seares.2019.05.003",
+      "article-title": "An ecotope map of the trilateral Wadden Sea.",
+      "volume": "152",
+      "author": "Baptist",
+      "year": "2019",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "B3",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.1016/S1385-1101(97)00032-4",
+      "article-title": "Microphytobenthos biomass and community composition studied by pigment biomarkers: importance and fate in the carbon cycle of a tidal flat.",
+      "volume": "38",
+      "author": "Barranguet",
+      "year": "1997",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "B4",
+      "doi-asserted-by": "publisher",
+      "first-page": "43",
+      "DOI": "10.1016/j.ecss.2013.11.007",
+      "article-title": "Microphytobenthos interannual variations in a north-European estuary (Loire estuary, France) detected by visible-infrared multispectral remote sensing.",
+      "volume": "136",
+      "author": "Benyoucef",
+      "year": "2014",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "B5",
+      "author": "Bouma",
+      "year": "2006",
+      "journal-title": "A Dutch Ecotope System for Coastal Waters (ZES.1). To Map The Potential Occurrence Of Ecological Communities In Dutch Coastal And Transitional Waters."
+    },
+    {
+      "key": "B6",
+      "doi-asserted-by": "publisher",
+      "first-page": "83",
+      "DOI": "10.1016/j.csr.2013.07.004",
+      "article-title": "Seasonality of microphytobenthos revealed by remote-sensing in a South European estuary.",
+      "volume": "66",
+      "author": "Brito",
+      "year": "2013",
+      "journal-title": "Cont. Shelf Res."
+    },
+    {
+      "key": "B7",
+      "doi-asserted-by": "publisher",
+      "first-page": "1498",
+      "DOI": "10.1002/ecy.1837",
+      "article-title": "Benthic primary producers are key to sustain the Wadden Sea food web: stable carbon isotope analysis at landscape scale.",
+      "volume": "98",
+      "author": "Christianen",
+      "year": "2017",
+      "journal-title": "Ecology"
+    },
+    {
+      "key": "B8",
+      "doi-asserted-by": "publisher",
+      "first-page": "119",
+      "DOI": "10.3354/Meps10112",
+      "article-title": "Application of non-linear quantile regression to macrozoobenthic species distribution modelling: comparing two contrasting basins.",
+      "volume": "475",
+      "author": "Cozzoli",
+      "year": "2013",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B9",
+      "doi-asserted-by": "publisher",
+      "first-page": "129",
+      "DOI": "10.1016/j.rse.2018.03.037",
+      "article-title": "A model to assess microphytobenthic primary production in tidal systems using satellite remote sensing.",
+      "volume": "211",
+      "author": "Daggers",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "B10",
+      "doi-asserted-by": "crossref",
+      "first-page": "129",
+      "DOI": "10.1016/j.rse.2018.03.037",
+      "article-title": "Corrigendum to \u201cA model to assess microphytobenthic primary production in tidal systems using satellite remote sensing\u201d.",
+      "volume": "211",
+      "author": "Daggers",
+      "year": "2019",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "B11",
+      "doi-asserted-by": "publisher",
+      "first-page": "665",
+      "DOI": "10.1006/ecss.2001.0811",
+      "article-title": "Destabilization of cohesive intertidal sediments by infauna.",
+      "volume": "53",
+      "author": "de Deckere",
+      "year": "2001",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "B12",
+      "doi-asserted-by": "crossref",
+      "first-page": "131",
+      "DOI": "10.3354/meps166131",
+      "article-title": "Dynamics of spatial patterns of microphytobenthic biomass: inferences from a geostatistical analysis of two comprehensive surveys in Marennes-Oleron bay (France).",
+      "volume": "166",
+      "author": "Guarini",
+      "year": "1998",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B13",
+      "doi-asserted-by": "publisher",
+      "first-page": "79",
+      "DOI": "10.3354/Meps204079",
+      "article-title": "Stable isotopes as trophic tracers: combining field sampling and manipulative labelling of food resources for macrobenthos.",
+      "volume": "204",
+      "author": "Herman",
+      "year": "2000",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B14",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1016/j.rse.2012.08.016",
+      "article-title": "Microphytobenthos biomass mapping using the optical model of diatom biofilms: application to hyperspectral images of Bourgneuf Bay.",
+      "volume": "127",
+      "author": "Kazemipour",
+      "year": "2012",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "B15",
+      "doi-asserted-by": "publisher",
+      "first-page": "183",
+      "DOI": "10.1007/Bf02781988",
+      "article-title": "Relationship of intertidal surface sediment chlorophyll concentration to hyperspectral reflectance and chlorophyll fluorescence.",
+      "volume": "29",
+      "author": "Kromkamp",
+      "year": "2006",
+      "journal-title": "Estuar. Coasts"
+    },
+    {
+      "key": "B16",
+      "doi-asserted-by": "crossref",
+      "first-page": "785",
+      "DOI": "10.1016/B978-0-444-53868-0.50013-7",
+      "article-title": "Spatial analysis",
+      "author": "Legendre",
+      "year": "2012",
+      "journal-title": "Numerical Ecology"
+    },
+    {
+      "key": "B17",
+      "doi-asserted-by": "crossref",
+      "first-page": "51",
+      "DOI": "10.3354/meps180051",
+      "article-title": "Nature and ecological implications of algal pigment diversity on the molenplaat tidal flat (Westerschelde estuary, SW Netherlands).",
+      "volume": "180",
+      "author": "Lucas",
+      "year": "1999",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B18",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.3354/meps196059",
+      "article-title": "Benthic-pelagic exchange of microalgae at a tidal flat. 1. Pigment analysis.",
+      "volume": "196",
+      "author": "Lucas",
+      "year": "2000",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B19",
+      "doi-asserted-by": "publisher",
+      "first-page": "1177",
+      "DOI": "10.1111/j.1529-8817.2007.00423.x",
+      "article-title": "Spatiotemporal changes in microphytobenthos assemblages in a macrotidal flat (Bourgneuf bay, France).",
+      "volume": "43",
+      "author": "Meleder",
+      "year": "2007",
+      "journal-title": "J. Phycol."
+    },
+    {
+      "key": "B20",
+      "doi-asserted-by": "crossref",
+      "first-page": "465",
+      "DOI": "10.1007/BF02334807",
+      "article-title": "Environmental gradients in a southern Europe estuarine system: Ria de Aveiro, Portugal. Implications for soft bottom macrofauna colonization.",
+      "volume": "27",
+      "author": "Moreira",
+      "year": "1993",
+      "journal-title": "Neth. J. Aquat. Ecol."
+    },
+    {
+      "key": "B21",
+      "author": "Morris",
+      "year": "2005",
+      "journal-title": "Quantifying Primary Production Of Microphytobenthos: Application Of Optical Methods."
+    },
+    {
+      "key": "B22",
+      "doi-asserted-by": "publisher",
+      "first-page": "45",
+      "DOI": "10.3354/Meps07456",
+      "article-title": "Spatial variation of chlorophyll on estuarine mudflats determined by field-based remote sensing.",
+      "volume": "365",
+      "author": "Murphy",
+      "year": "2008",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B23",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.3354/meps09698",
+      "article-title": "Spatial and temporal interaction between sediment and microphytobenthos in a temperate estuarine macro-intertidal bay.",
+      "volume": "458",
+      "author": "Orvain",
+      "year": "2012",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B24",
+      "doi-asserted-by": "publisher",
+      "first-page": "205",
+      "DOI": "10.3354/Meps278205",
+      "article-title": "Interacting effects of Hydrobia ulvae bioturbation and microphytobenthos on the erodibility of mudflat sediments.",
+      "volume": "278",
+      "author": "Orvain",
+      "year": "2004",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B25",
+      "doi-asserted-by": "crossref",
+      "first-page": "1207",
+      "DOI": "10.4319/lo.1998.43.6.1207",
+      "article-title": "Microbiological mediation of spectral reflectance from intertidal cohesive sediments.",
+      "volume": "43",
+      "author": "Paterson",
+      "year": "1998",
+      "journal-title": "Limnol. Oceanogr."
+    },
+    {
+      "key": "B26",
+      "doi-asserted-by": "crossref",
+      "first-page": "683",
+      "DOI": "10.1016/j.cageo.2004.03.012",
+      "article-title": "Multivariable geostatistics in S: the gstat package.",
+      "volume": "30",
+      "author": "Pebesma",
+      "year": "2004",
+      "journal-title": "Comput. Geosci."
+    },
+    {
+      "key": "B27",
+      "doi-asserted-by": "publisher",
+      "first-page": "365",
+      "DOI": "10.1006/ecss.2000.0684",
+      "article-title": "Heavy delta N-15 in intertidal benthic algae and invertebrates in the Scheldt Estuary (The Netherlands): effect of river nitrogen inputs.",
+      "volume": "51",
+      "author": "Riera",
+      "year": "2000",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "B28",
+      "author": "Rijkswaterstaat",
+      "year": "2017",
+      "journal-title": "Toelichting op de zoute ecotopenkaart Westerschelde 2016: biologische monitoring zoute rijkswateren"
+    },
+    {
+      "key": "B29",
+      "doi-asserted-by": "publisher",
+      "first-page": "277",
+      "DOI": "10.2307/2937096",
+      "article-title": "Geostatistical tools for modeling and interpreting ecological spatial dependence.",
+      "volume": "62",
+      "author": "Rossi",
+      "year": "1992",
+      "journal-title": "Ecol. Monogr."
+    },
+    {
+      "key": "B30",
+      "doi-asserted-by": "publisher",
+      "first-page": "458",
+      "DOI": "10.1016/j.ocecoaman.2014.03.003",
+      "article-title": "Potential of remote sensing in management of tidal flats: a case study of thematic mapping in the Korean tidal flats.",
+      "volume": "102",
+      "author": "Ryu",
+      "year": "2014",
+      "journal-title": "Ocean Coast. Manag."
+    },
+    {
+      "key": "B31",
+      "doi-asserted-by": "crossref",
+      "first-page": "275",
+      "DOI": "10.1007/BF00028026",
+      "article-title": "Short-term fluctuations in benthic diatom numbers on an intertidal sandflat in the Westerschelde estuary (Zeeland, The Netherlands).",
+      "volume": "26",
+      "author": "Sabbe",
+      "year": "1993",
+      "journal-title": "Hydrobiologia"
+    },
+    {
+      "key": "B32",
+      "first-page": "91",
+      "article-title": "Distribution of benthic diatom assemblages in the Westerschelde (Zeeland, The Netherlands).",
+      "volume": "124",
+      "author": "Sabbe",
+      "year": "1991",
+      "journal-title": "Belg. Journ. Bot."
+    },
+    {
+      "key": "B33",
+      "doi-asserted-by": "crossref",
+      "first-page": "253",
+      "DOI": "10.3354/ame047253",
+      "article-title": "Community structure and seasonal dynamics of diatom biofilms and associated grazers in intertidal mudflats.",
+      "volume": "47",
+      "author": "Sahan",
+      "year": "2007",
+      "journal-title": "Aquat. Microb. Ecol."
+    },
+    {
+      "key": "B34",
+      "doi-asserted-by": "crossref",
+      "first-page": "313",
+      "DOI": "10.1016/S0022-0981(02)00535-X",
+      "article-title": "Towards a greater understanding of pattern, scale and process in marine benthic systems: a picture is worth a thousand worms.",
+      "volume": "285",
+      "author": "Solan",
+      "year": "2003",
+      "journal-title": "J. Exp. Mar. Biol. Ecol."
+    },
+    {
+      "key": "B35",
+      "doi-asserted-by": "publisher",
+      "first-page": "1213",
+      "DOI": "10.1890/11-1403.1",
+      "article-title": "Interaction networks in coastal soft-sediments highlight the potential for change in ecological resilience.",
+      "volume": "22",
+      "author": "Thrush",
+      "year": "2012",
+      "journal-title": "Ecol Appl"
+    },
+    {
+      "key": "B36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1371/journal.pone.0044155",
+      "article-title": "Spatial variability of benthic-pelagic coupling in an estuary ecosystem: consequences for microphytobenthos resuspension phenomenon.",
+      "volume": "7",
+      "author": "Ubertini",
+      "year": "2012",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "B37",
+      "doi-asserted-by": "crossref",
+      "first-page": "52",
+      "DOI": "10.1016/j.jembe.2015.02.007",
+      "article-title": "Impact of sediment grain-size and biofilm age on epipelic microphytobenthos resuspension.",
+      "volume": "467",
+      "author": "Ubertini",
+      "year": "2015",
+      "journal-title": "J. Exp. Mar. Biol. Ecol."
+    },
+    {
+      "key": "B38",
+      "doi-asserted-by": "publisher",
+      "first-page": "93",
+      "DOI": "10.1016/j.scitotenv.2017.12.184",
+      "article-title": "Primary production by phytoplankton and microphytobenthos in estuaries.",
+      "volume": "29",
+      "author": "Underwood",
+      "year": "1999",
+      "journal-title": "Adv. Ecol. Res."
+    },
+    {
+      "key": "B39",
+      "doi-asserted-by": "crossref",
+      "first-page": "3449",
+      "DOI": "10.1890/0012-9658(2001)082[3449:DASSOI]2.0.CO;2",
+      "article-title": "Do alternate stable states occur in natural ecosystems? Evidence from a tidal flat.",
+      "volume": "82",
+      "author": "Van De Koppel",
+      "year": "2001",
+      "journal-title": "Ecology"
+    },
+    {
+      "key": "B40",
+      "doi-asserted-by": "publisher",
+      "first-page": "57",
+      "DOI": "10.3354/Meps07535",
+      "article-title": "Distribution and dynamics of intertidal macrobenthos predicted from remote sensing: response to microphytobenthos and environment.",
+      "volume": "367",
+      "author": "Van der Wal",
+      "year": "2008",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B41",
+      "doi-asserted-by": "publisher",
+      "first-page": "519",
+      "DOI": "10.1007/s10236-010-0271-9",
+      "article-title": "Spatial heterogeneity in estuarine mud dynamics.",
+      "volume": "60",
+      "author": "Van der Wal",
+      "year": "",
+      "journal-title": "Ocean Dyn."
+    },
+    {
+      "key": "B42",
+      "doi-asserted-by": "publisher",
+      "first-page": "338",
+      "DOI": "10.1007/s10021-010-9322-9329",
+      "article-title": "Spatial synchrony in intertidal benthic algal biomass in temperate coastal and estuarine ecosystems.",
+      "volume": "13",
+      "author": "Van der Wal",
+      "year": "",
+      "journal-title": "Ecosystems"
+    },
+    {
+      "key": "B43",
+      "doi-asserted-by": "publisher",
+      "first-page": "17",
+      "DOI": "10.3354/meps12374",
+      "article-title": "Response of intertidal benthic macrofauna to migrating megaripples and hydrodynamics.",
+      "volume": "585",
+      "author": "Van der Wal",
+      "year": "2017",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "B44",
+      "doi-asserted-by": "publisher",
+      "first-page": "487",
+      "DOI": "10.1890/10-0270.1",
+      "article-title": "Top-down control inhibits spatial self-organization of a patterned landscape.",
+      "volume": "92",
+      "author": "Weerman",
+      "year": "2011",
+      "journal-title": "Ecology"
+    },
+    {
+      "key": "B45",
+      "doi-asserted-by": "publisher",
+      "first-page": "608",
+      "DOI": "10.1890/11-0625.1",
+      "article-title": "Changes in diatom patch-size distribution and degradation in a spatially self-organized intertidal mudflat ecosystem.",
+      "volume": "93",
+      "author": "Weerman",
+      "year": "2012",
+      "journal-title": "Ecology"
+    },
+    {
+      "key": "B46",
+      "doi-asserted-by": "publisher",
+      "first-page": "335",
+      "DOI": "10.1016/S0272-7714(02)00359-351",
+      "article-title": "Large-scale spatial patterns in estuaries: estuarine macrobenthic communities in the Schelde estuary, NW Europe.",
+      "volume": "57",
+      "author": "Ysebaert",
+      "year": "2003",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    }
+  ],
+  "container-title": "Frontiers in Marine Science",
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://www.frontiersin.org/article/10.3389/fmars.2020.00392/full",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        3
+      ]
+    ],
+    "date-time": "2020-06-03T05:39:49Z",
+    "timestamp": 1591162789000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.frontiersin.org/article/10.3389/fmars.2020.00392/full"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        3
+      ]
+    ]
+  },
+  "references-count": 46,
+  "alternative-id": [
+    "10.3389/fmars.2020.00392"
+  ],
+  "URL": "http://dx.doi.org/10.3389/fmars.2020.00392",
+  "relation": {},
+  "ISSN": [
+    "2296-7745"
+  ],
+  "subject": [],
+  "container-title-short": "Front. Mar. Sci.",
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        6,
+        3
+      ]
+    ]
+  },
+  "article-number": "392"
+}

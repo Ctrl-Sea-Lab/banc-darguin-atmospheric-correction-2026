@@ -1,0 +1,14 @@
+station_id,class_literal,role,n_wavelengths_not_replicates,mean_across_channels,SD_across_channels_ddof1,minimum,maximum,unit,meaning
+AC01,dry_sand,primary_intended_held,501,0.24051983586101844,0.07698033017923933,0.0945190230530172,0.316803520074791,1,spectrum description only; no repeated-measurement uncertainty
+AC02,dry_sand,primary_intended_held,501,0.20146766502614508,0.056564425343153854,0.0958893829294735,0.254642077962155,1,spectrum description only; no repeated-measurement uncertainty
+AC05,algae_mud,primary_intended_held,501,0.12419901192063004,0.05423660025834101,0.0579983520962014,0.200837001204233,1,spectrum description only; no repeated-measurement uncertainty
+AC06,white_sand,primary_intended_held,501,0.423395168380698,0.10037828073529506,0.232364421864782,0.573630828705862,1,spectrum description only; no repeated-measurement uncertainty
+AC07,seagrass,primary_intended_held,501,0.13516361945668473,0.09335345243279355,0.0355475847314855,0.285669757845099,1,spectrum description only; no repeated-measurement uncertainty
+AC08,seagrass,primary_intended_held,501,0.13304086525043793,0.09070994183787497,0.0371015135420358,0.265931940495273,1,spectrum description only; no repeated-measurement uncertainty
+D06_A,zn,supplementary_not_primary,501,0.16379962728095535,0.08180099081201496,0.0680215788819103,0.286558890920277,1,spectrum description only; no repeated-measurement uncertainty
+D06_B,zn,supplementary_not_primary,501,0.1494794653311301,0.10158711594557607,0.0461900330385225,0.31620862422016,1,spectrum description only; no repeated-measurement uncertainty
+D06_C,zn,supplementary_not_primary,501,0.15731052596370926,0.09738367024411235,0.0535439311227033,0.307830203730008,1,spectrum description only; no repeated-measurement uncertainty
+D06_D,zn,supplementary_not_primary,501,0.14793929094999753,0.10380787489031928,0.0487994541415208,0.317636381212649,1,spectrum description only; no repeated-measurement uncertainty
+D06_E,zn,supplementary_not_primary,501,0.14264167564906013,0.09786727794125497,0.0464483045896243,0.299057466246829,1,spectrum description only; no repeated-measurement uncertainty
+D06_F,zn,supplementary_not_primary,501,0.13144665454806442,0.09810869666934363,0.0293690581032576,0.295575073550742,1,spectrum description only; no repeated-measurement uncertainty
+D06_G,sand,supplementary_not_primary,501,0.21826215404059882,0.05642371084122827,0.112819444304223,0.285661358043826,1,spectrum description only; no repeated-measurement uncertainty

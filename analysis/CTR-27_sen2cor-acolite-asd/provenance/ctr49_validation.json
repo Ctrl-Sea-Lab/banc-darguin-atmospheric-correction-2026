@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "verified_revision": "c4ac607826d6f1c1f3b0ea6040e6a8775ac6bb5b",
+  "checks": [
+    "common: 108 original values, six panels, nine bands, both curves, all values inside limits",
+    "custom: 108 original values, six panels, nine bands, both curves, all values inside limits",
+    "report: exactly two figures; self-contained; exact Figure 1 bytes; science-only prose",
+    "report-custom: exactly two figures; self-contained; exact Figure 1 bytes; science-only prose",
+    "report-portable: exactly two figures; self-contained; exact Figure 1 bytes; science-only prose",
+    "report-custom-portable: exactly two figures; self-contained; exact Figure 1 bytes; science-only prose",
+    "Preserved 500 prior tracked files and 123 unrelated files; only three intended existing reports changed"
+  ],
+  "counts": {
+    "targets": 6,
+    "bands": 9,
+    "values": 108,
+    "finite_pairs": 54,
+    "negative_values": 9,
+    "missing_pairs": 0
+  },
+  "changed_existing_paths": [
+    "analysis/CTR-27_sen2cor-acolite-asd/report-portable.html",
+    "analysis/CTR-27_sen2cor-acolite-asd/report.html",
+    "analysis/CTR-27_sen2cor-acolite-asd/report.qmd"
+  ],
+  "input_sha256": {
+    "ctr48_R_crosscheck.csv": "69ea4055aa55850890678b824cc8081c08e5b1d7ce1d09aff7fdd5d869c3e97c",
+    "ctr48_accounting.csv": "c902691a6d3d9052e9924471a3f7935719ec0f01ce6ecdd678f2eeac543d37a8",
+    "ctr48_band_summary.csv": "bfa120deea2a3eafc1d1b3cdbe5d8c142b006c0f41be3a671dba1e5af909137a",
+    "ctr48_pairs.csv": "047cfde28141ad81baa120c5e4773752b295f5c4cfbb3b4d0266bad3119032ad",
+    "ctr48_plot_values.csv": "065c9064993419f395c937e36a0027ab6c2e0f8bfa9b3152f35bb49865332629",
+    "ctr48_scale_ranges.csv": "e9a29376e1dc7cfc871c66439fe480951516116e163838dcafd2a6ce828e327c",
+    "ctr48_spectral_steps.csv": "3d6d509d652ffbfc9446f50da2f64660d23a04a7110aa4abbd71343a6f7c2004",
+    "ctr48_target_summary.csv": "b4056ad071477b232fb8369bc294651ea7d97d004dc38abf5418b0d25566f948"
+  },
+  "figure1_sha256": {
+    "png": "87e0fc3f503b326c0db4cbcde7603b81fab888fed64761faac1e24954dc04bad",
+    "pdf": "475f6a5f281081cf55bbd437f605e53e17730c8d7d972aa32059e48ae9e3c374",
+    "svg": "952f061328f6ed3b1f280b9a70a6128801e7688384fd75d0fc52103c0e8c3b44"
+  },
+  "serialization_absolute_tolerance": 1e-12,
+  "scientific_approval": false
+}

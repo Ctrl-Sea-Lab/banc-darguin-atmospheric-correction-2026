@@ -1,0 +1,113 @@
+## Take-home message: temporal comparison
+
+ACOLITE generally gives lower surface reflectance than Sen2Cor across the 22 matched acquisitions. The date-to-date disagreement is much larger than the change in the fitted median curves. Restricting the comparison to pixels observed on every date produces similar curves, but individual acquisitions and missing quality information materially affect the temporal smooths. These are descriptive comparisons of processing methods, not evidence of atmospheric-correction accuracy or ecological change.
+
+## Meaningful results
+
+The median across the 22 **date-level spatial medians** is −0.00962, −0.00924, −0.00751 and −0.00935 for B2, B3, B4 and B8, respectively. These quantities differ from the spatial median of pixel-level temporal medians in the geospatial report. Date-level spatial medians are negative on 19/22 dates for each visible band and 21/22 for B8. Spatial sample SD ranges from about 0.0043 to 0.0291 across all band/date combinations; it measures within-date spatial heterogeneity of disagreement, not uncertainty in the spatial median.
+
+The median GAM smooths reduce to almost straight lines (effective degrees of freedom approximately 1), with fitted endpoint increases of 0.0056–0.0074 reflectance units. The working-model uncertainty intervals include zero for all four increases. The SD smooths have effective degrees of freedom 1.40–2.72. Broad mid-2025 elevations in the visible-band SD curves should not be interpreted as a validated seasonal cycle.
+
+## Issues and limitations
+
+Only 22 irregularly spaced acquisitions cover 6 January 2025–27 March 2026. Gaps range from 2 to 70 days; the June–August and December–March gaps are 60 and 70 days. Sensors are unevenly represented (S2A: 3; S2B: 11; S2C: 8), and sensor, acquisition date, atmospheric conditions, tide and quality information cannot be disentangled by these curves. Both March 2026 dates lack supplied ACOLITE flags. Removing them changes fitted SD curves by up to 0.00579 over the remaining date range. This sensitivity changes both quality availability and time support; it does not identify a causal effect of missing flags.
+
+The median-model residuals have a pronounced negative tail, and the SD-model residuals show negative correlation between adjacent acquisitions. The displayed uncertainty bands use a working independent Gaussian model and are **illustrative, approximate pointwise model intervals**, not validated frequentist coverage guarantees, simultaneous bands, prediction intervals, or uncertainty from spatial sampling. No temporal significance claim is made.
+
+## Implications and next steps
+
+Use the figure to describe the magnitude and acquisition-specific variability of disagreement. Coverage sensitivity supports the conclusion that changing spatial coverage is not the only source of this variability; it does not prove that coverage or quality selection is ignorable. Rachel can incorporate these qualified results into the investigation report. Independent scientific review under CTR-59 and authenticated PI scientific approval remain pending. Manuscript integration, merge and publication are separate and unauthorized.
+
+## Research question, data and study area
+
+How do the per-date spatial median and sample SD of paired surface-reflectance differences vary through time, separately for B2/B3/B4/B8? Define ΔR = ACOLITE − Sen2Cor in dimensionless surface-reflectance units; B8 is the broad near-infrared band, not B8A. Positive ΔR means higher ACOLITE reflectance.
+
+This statistical extension consumes CTR-55 scientific revision `1bbb23b3b94e775a60aa921f8c9c4f86f51926cb` and handoff revision `1631082`, without repeating atmospheric correction or raster production. It uses `tables/date_band_summary.csv`, whose unique key is `(pair_id, band, domain)`. The 528 rows are 22 dates × four bands × six overlapping domains, not 528 temporal replicates. Each model has 22 equally weighted acquisition-level summaries; bands are fitted separately. No pixel counts, spatial SDs or domains are used as independent temporal replication or precision weights.
+
+The supplied T28QCH crop contains 7,428,162 10-m cells (742.8162 km²) in EPSG:32628, covering land, intertidal and water. It is not a marine-only sample. Primary coverage varies approximately 72–98% of that fixed grid. Source pairing, reflectance scale/offset handling, quality masks, retained negative reflectances and exact encoded-fill exclusions are documented in the preserved CTR-55 methods. The geospatial table contract is preserved in `TABLE_CONTRACT.md`.
+
+## Statistical methods
+
+For band *b* and acquisition *i*, let *M* be the median and *S* the sample SD (denominator number of valid pixels minus one) of paired pixel ΔR. Fit separate working Gaussian additive models:
+
+\[
+M_{ib}=\alpha_{b,M}+f_{b,M}(t_i)+\epsilon_{ib,M},\qquad
+\log S_{ib}=\alpha_{b,S}+f_{b,S}(t_i)+\epsilon_{ib,S}.
+\]
+
+Here *t* is elapsed days since 6 January 2025. Each smooth is a penalized cubic regression spline (`mgcv::gam`, `bs="cr"`, `k=5`), with smoothing selected by restricted maximum likelihood (REML). The main fits have at most four smooth degrees of freedom plus an intercept. This modest basis allows broad curvature without attempting to resolve seasonal structure from roughly 15 months of sparse data. It is checked against `k=10`, rather than selected to obtain an appealing curve. All date observations remain in the primary fits; none are removed as outliers. There are no zero or missing SDs, so logarithms need neither a pseudocount nor exclusions.
+
+Exponentiating the fitted log-SD gives the fitted **conditional median of date-level spatial SD** under the working lognormal model (also the exponential of the fitted mean log-SD). It is not an arithmetic conditional mean; no `exp(sigma²/2)` correction is applied. All plotted SD points remain on their original reflectance scale. Predictions use 401 evenly spaced elapsed-day values within observed bounds only. Interpolation across long gaps is weakly supported; there is no extrapolation. Refit comparisons after omitting dates use only the overlapping temporal support.
+
+We use `predict.gam(..., unconditional=TRUE)` for approximate coefficient uncertainty including smoothing-parameter uncertainty, available for all eight primary models. Pointwise intervals are linear predictor ±1.96 SE, exponentiated for SD. Endpoint median differences and SD ratios use the full covariance of the difference of the endpoint design rows, rather than adding independent endpoint errors. These working-model summaries quantify uncertainty conditional on the observed acquisition selection; model misspecification and sensor/quality confounding limit their interpretation.
+
+Basis assessment uses a reproducible 1,000-permutation `k.check` (seed 56054), effective degrees of freedom and response-scale changes after doubling the basis. Residual checks include standardized residuals through time, normal quantile plots, residual spread versus fitted values, ordered adjacent residual correlation, and an empirical semivariogram using actual elapsed-day lags. The ordered correlation is an acquisition-lag diagnostic, **not** a one-day autocorrelation. With only 22 irregular observations, neither this diagnostic nor a nonsignificant basis test establishes independence or correct distributional assumptions. We retain the descriptive models rather than claim a reliably identified temporal covariance model.
+
+Influence is assessed by 22 leave-one-acquisition-out refits per primary model. Spatial-domain sensitivity refits all eight models for each of five alternative domains: complete-date core, ≥18/22-date core, common pre-quality footprint, inclusion of SCL class 7, and exclusion of high-TOA flags. The complete-date core is the principal comparable-domain check because exactly the same pixels enter each date within a band. The ≥18-date core and pre-quality footprint still have date-specific missing values after quality filtering. These are overlapping conditional subsets, not independent replication. Spearman correlations of coverage with observations and model residuals are descriptive checks, not causal adjustment.
+
+Methodological implementation follows the primary [mgcv basis-dimension guidance](https://www.stat.ethz.ch/R-manual/R-devel/library/mgcv/html/choose.k.html), [GAM diagnostic documentation](https://www.stat.ethz.ch/R-manual/R-devel/library/mgcv/html/gam.check.html), and [prediction documentation](https://www.stat.ethz.ch/R-manual/R-devel/library/mgcv/html/predict.gam.html), consulted 20 October 2026. Installed implementation: R 4.3.3 and mgcv 1.9-1; the full session record is supplied.
+
+## Temporal figure and observed estimates
+
+![Date-level differences between atmospheric corrections. Points show all 22 spatial medians (top) and sample SDs (bottom) per band; lines are separate descriptive REML GAMs. ΔR = ACOLITE − Sen2Cor, dimensionless reflectance. SD curves are exponentiated log-scale fits. Curves span observed dates only; the two March 2026 acquisitions lack ACOLITE flags.](figures/generated/ctr56_temporal_gam.png){#fig-temporal-gam width=95%}
+
+```{r}
+#| echo: false
+#| results: asis
+obs <- read.csv('tables/ctr56_observed_summary.csv')
+knitr::kable(obs, digits=5, caption='Unweighted summaries across 22 observed dates; median_across_dates is not a pooled-pixel statistic.')
+```
+
+## Coverage, influence and diagnostic findings
+
+The fixed complete-date core contains 3,541,100–3,541,623 pixels per band (approximately 47.7% of the grid). Primary versus complete-core date summaries correlate 0.9936–0.9970 for medians and 0.9964–0.9985 for SDs. The maximum primary-to-core curve shift is 0.00103 for medians and 0.000786 for SDs. A high correlation does not exclude a consistent level shift: for example, B2 spatial medians shift upward by a median 0.000966 in the core. This consistently clear subset can differ ecologically from excluded pixels.
+
+```{r}
+#| echo: false
+sens <- read.csv('tables/ctr56_domain_sensitivity.csv')
+knitr::kable(sens[sens$domain=='complete_dates',c('band','statistic','min_pixels','observed_median_change','observed_max_change','curve_max_change')],digits=6,caption='Fixed complete-date core versus primary domain, in reflectance units.')
+```
+
+The most influential median acquisition is 22 March 2025 in all four bands: omitting it changes curves by up to 0.00261–0.00316. The most influential SD acquisition is 7 March 2026: omission changes curves by up to 0.00326–0.00569. No observation is removed from the requested figure. Excluding both March 2026 acquisitions alters B3's median curve by up to 0.00602 and SD curves by 0.00490–0.00579 within the retained period, demonstrating sensitivity to acquisition support and smoothing selection. These changes are not spatial-sampling confidence limits.
+
+All eight primary fits report full convergence and have smoothing-uncertainty covariance matrices. The median basis change has negligible response-scale effect (less than 4×10⁻⁸). Doubling the SD basis changes curves by up to 0.000159–0.00184, with B3/B4 showing the largest changes; exact curvature is therefore not uniquely supported. The primary smooth EDFs remain below the `k−1=4` limit. The basis diagnostics provide no strong indication of a binding basis limit, but are low-powered and depend on working residual assumptions.
+
+The median residuals are left-tailed, especially on 22 March 2025; Shapiro diagnostic p-values are approximately 0.104, 0.035, 0.0088 and 0.0021 for B2/B3/B4/B8. These diagnostic tests are not used to select findings. Ordered adjacent residual correlations are about 0.05–0.17 for median models and −0.34 to −0.45 for log-SD models. The residual spread–fitted Spearman correlations reach 0.41 for log-SD. Distributional and dependence concerns prevent treating the approximate intervals as calibrated inferential evidence. Coverage–outcome correlations are weak for medians and moderately negative for SD (about −0.24 to −0.38), but covarying acquisition conditions remain unresolved.
+
+![Primary curves with approximate pointwise model intervals (shading) and fixed complete-date core curves (dashed). Panels have separate vertical scales to show uncertainty. Bands assume independent Gaussian errors on the fitted scale and are illustrative; they are not simultaneous or predictive intervals.](figures/generated/ctr56_uncertainty_coverage.png){width=100%}
+
+```{r}
+#| echo: false
+con <- read.csv('tables/ctr56_endpoint_contrasts.csv')
+knitr::kable(con[,c('band','statistic','estimate','lower','upper')],digits=5,caption='Fitted 27 March 2026 versus 6 January 2025 contrasts: additive change for spatial medians; ratio for typical spatial SD. Approximate 95% working-model intervals; all median intervals include 0 and all SD-ratio intervals include 1. This is not evidence of no change.')
+```
+
+![Standardized primary residuals against acquisition date and normal quantiles. Median residuals have a negative tail; log-SD residuals show alternating acquisition-level variation.](figures/generated/ctr56_residual_diagnostics.png){width=100%}
+
+## Scientific interpretation
+
+The correction methods disagree systematically on most observed dates, and the size and spatial spread of that disagreement vary. Similar fixed-core curves suggest that a changing set of observed pixels does not alone explain the broad patterns. The study contains no independent surface-reflectance reference, so neither the negative sign nor reduced spatial SD identifies a more accurate correction. Atmospheric conditions, adjacency, tide, substrate visibility, land cover, sensor response and masking are plausible contributors, not tested mechanisms. The short and uneven series cannot establish recurrent seasonality, a long-term trend, or ecological change.
+
+## Reproducibility and validation
+
+The executable statistical entry point is `scripts/ctr56_run.py`, which runs `scripts/ctr56_models.R` through the repository environment and the guarded figure-output helper. `scripts/ctr56_validate.py` independently recomputes date statistics from preserved difference rasters. `scripts/ctr56_check_outputs.R` checks saved models, tables, transformations and contrasts. All statistical writes are confined to this investigation; original data, upstream rasters and the final manuscript are preserved. The worktree shares the existing repository Python and R libraries; no lockfile or package change is part of this delivery.
+
+The independent implementation audit checks all 528 table keys, positive finite SDs, counts and coverage formulas. It verifies the SHA-256 hashes of 24 paired-date rasters and four complete-core masks against the predecessor output manifest, then recomputes full-resolution medians and sample SDs for six dates spanning first acquisition, the negative outlier, minimum coverage, December, and both missing-flag acquisitions. All 48 primary/core summary rows match within 10⁻¹², including exact valid counts. This is an independent calculation by the analysis author, **not independent scientific review**. Raw-source validation from CTR-55 is reused, not claimed as rerun here.
+
+The archive contains all statistical scripts, input date table, predictions, fitted models, diagnostics, 176 leave-one-date-out results, spatial-domain and quality sensitivities, source hash evidence and exact output hashes. It does not duplicate raw data or the raster archive. Main figure: 3096 × 2232 PNG at 360 dpi and vector PDF. HTML reports are self-contained and rendered with the investigation configuration. Figure review confirms both panel order and complete data ranges without clipping.
+
+From this task worktree, using the canonical repository environment (set `CTR56_ENV_ROOT` to an equivalent restored project if relocated):
+
+```bash
+export CTR56_ENV_ROOT=/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026
+.venv/bin/python analysis/CTR-54_paired-reflectance-differences/scripts/ctr56_validate.py
+.venv/bin/python analysis/CTR-54_paired-reflectance-differences/scripts/ctr56_run.py
+"$CTR56_ENV_ROOT/scripts/project-env.sh" Rscript analysis/CTR-54_paired-reflectance-differences/scripts/ctr56_check_outputs.R analysis/CTR-54_paired-reflectance-differences
+RENV_PATHS_LIBRARY="$CTR56_ENV_ROOT/renv/library" ./scripts/render-analysis.sh analysis/CTR-54_paired-reflectance-differences
+```
+
+Set `CTR56_PRODUCTS` to the preserved upstream investigation directory if the raster products are elsewhere. See `CTR56_HANDOFF.md` for the exact statistical commit, durable access and manifest hash. Default seed: 56054; no MCMC is used. The model warning log is retained, including an empty log when there are no warnings.
+
+## Internal review and approval status
+
+Author computation and figure checks: completed, with distributional/dependence limitations explicitly retained. Independent scientific review: pending in the existing downstream CTR-59 workflow. PI scientific approval: pending; no authenticated decision bound to this statistical revision has been received. No manuscript integration, merge or publication is authorized by this report or its task metadata.

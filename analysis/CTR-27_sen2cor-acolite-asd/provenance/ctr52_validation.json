@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "baseline": "4e4e46b3b05fb30ef11549c28f5e96e7a40f1bcc",
+  "numerical_revision": "c4ac607826d6f1c1f3b0ea6040e6a8775ac6bb5b",
+  "changed_existing_paths": [
+    "analysis/CTR-27_sen2cor-acolite-asd/README.md",
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom.pdf",
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom.png",
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom.svg",
+    "analysis/CTR-27_sen2cor-acolite-asd/figures/generated/ctr49_target_spectra_custom_300dpi.png",
+    "analysis/CTR-27_sen2cor-acolite-asd/report-custom-portable.html",
+    "analysis/CTR-27_sen2cor-acolite-asd/report-custom.html",
+    "analysis/CTR-27_sen2cor-acolite-asd/report-custom.qmd",
+    "analysis/CTR-27_sen2cor-acolite-asd/report-portable.html",
+    "analysis/CTR-27_sen2cor-acolite-asd/report.html",
+    "analysis/CTR-27_sen2cor-acolite-asd/report.qmd",
+    "analysis/CTR-27_sen2cor-acolite-asd/scripts/ctr49_spectra.R"
+  ],
+  "unchanged_tracked_files": 534,
+  "preserved_unrelated_files": 74,
+  "unchanged_numerical_tables": 75,
+  "drawing_rows_and_axes_byte_identical": true,
+  "figures_per_preferred_report": 2,
+  "all_preferred_reports_embed_exact_exports": true,
+  "all_QA_fields_and_report_caveats_retained": true,
+  "figure_flag_text_absent_pdf": true,
+  "raster_comparison": {
+    "only_changed_pixels_bbox": [
+      2503,
+      625,
+      3343,
+      674
+    ],
+    "png_size": [
+      4322,
+      4724
+    ],
+    "changed_region_is_white": true,
+    "Pillow_version": "10.2.0"
+  },
+  "figure1_sha256": {
+    "png": "87e0fc3f503b326c0db4cbcde7603b81fab888fed64761faac1e24954dc04bad",
+    "pdf": "475f6a5f281081cf55bbd437f605e53e17730c8d7d972aa32059e48ae9e3c374",
+    "svg": "952f061328f6ed3b1f280b9a70a6128801e7688384fd75d0fc52103c0e8c3b44"
+  },
+  "scientific_approval": false,
+  "CTR50_guard_prerequisite": "unresolved; unrelated CTR39 files preserved; no PR or push"
+}

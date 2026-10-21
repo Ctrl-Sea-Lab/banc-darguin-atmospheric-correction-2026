@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-10-20T09:11:43.106683+00:00",
+  "raw_stat_unchanged": true,
+  "raw_files": 894,
+  "window_count": 198,
+  "ASD_errors_computed": false,
+  "excluded_mud_radiometric_reads": 0,
+  "limits": "six nonmud primary targets; 11x11 B02-B04 imagery; 5x5 native QA per target; no full-scene reads",
+  "environment": "existing locked project numpy; installed GDAL C API and CLI; no dependency changes"
+}
