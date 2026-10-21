@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "source_tables_byte_identical": 46,
+  "current_manifest_entries": 40,
+  "primary_rows": 36,
+  "reference_rows": 108,
+  "validation_eligible_pairs": 0,
+  "supplementary_rows": 14,
+  "external_rendering_resources": 0,
+  "links_checked": 8,
+  "exact_revision_review": "pending; author engineering QA only"
+}

@@ -12,13 +12,9 @@ format:
     toc-depth: 3
     number-sections: true
     code-fold: true
-    theme: none
-    minimal: true
-    css: report.css
+    theme: cosmo
     embed-resources: true
 
 execute:
   echo: true
   warning: true
-
-# A minimal standalone document avoids embedding unused Bootstrap/font assets.

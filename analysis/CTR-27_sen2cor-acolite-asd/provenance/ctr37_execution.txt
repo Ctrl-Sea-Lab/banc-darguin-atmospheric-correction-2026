@@ -1,0 +1,28 @@
+{
+  "primary_complete_stations": 6,
+  "partial_primary_stations": 0,
+  "primary_triples": 18,
+  "primary_correction_rows": 36,
+  "unavailable_supplementary_stations": 7,
+  "eligible_validation_pairs": 0,
+  "max_abs_v5_minus_v4_reference": 1.5520406161650957e-05,
+  "unit": "1",
+  "scope": "EXPLORATORY_DIAGNOSTIC_PHYSICAL_HOLD",
+  "source_sha256": "4b2f989e011e856124a87a742b742cc41aa2c361d38cc6c505477895e7090fd1",
+  "input_audit_sha256": "44188d4dd1d248f66fff49f364b1ef0b268d7891f78a02cb316719461edf369c",
+  "no_model_fitted": true,
+  "no_random_sampling": true,
+  "review": "awaiting independent review and PI approval"
+}
+AC01 L2A 3 0.02401767 0.02401767 0.02448781
+AC01 ACOLITE 3 0.00798255 0.00798255 0.00894929
+AC02 L2A 3 0.07474746 0.07474746 0.08011468
+AC02 ACOLITE 3 0.05416842 0.05416842 0.06036463
+AC05 L2A 3 0.01230810 0.01230810 0.01237644
+AC05 ACOLITE 3 0.00524559 0.00524559 0.00633676
+AC06 L2A 3 0.10772827 0.10772827 0.10780710
+AC06 ACOLITE 3 -0.00182745 0.00750155 0.00834180
+AC07 L2A 3 0.00902310 0.00902310 0.00967453
+AC07 ACOLITE 3 0.00637557 0.00637557 0.00771892
+AC08 L2A 3 0.08346194 0.08346194 0.08395573
+AC08 ACOLITE 3 0.06436613 0.06436613 0.06548460
