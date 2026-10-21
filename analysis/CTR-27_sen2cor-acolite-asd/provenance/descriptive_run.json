@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-10-20T06:43:07.320757+00:00",
+  "ended_utc": "2026-10-20T06:43:10.488641+00:00",
+  "base_commit": "5a93e7fcd0973ab10346a0333526cc87cf4f3285",
+  "PI_scope_comment": "cd589b22-be5b-45ed-9df8-accc7ff5949e",
+  "review_revision": "41b37e06-40fd-471b-b7de-ef3e2d339803",
+  "raw_stat_unchanged": true,
+  "raw_files": 894,
+  "raw_stat_snapshot_sha256": "348fa5b6d0288579ee6e7f0fa944ad2a7a5f3ba795fa46d0f97f19f9e94265ec",
+  "used_input_hashes": [
+    {
+      "path": "data/raw/Atm_Compare_AOI/ACOLITE/2026-03-27.csv",
+      "sha256": "a25dbd5e47694c6a83765a6c5c9b8b542a85faf623e294aff0639c944a075743"
+    },
+    {
+      "path": "data/raw/Atm_Compare_AOI/Sen2Cor/2026-03-27.csv",
+      "sha256": "5f682490c6ee009c54883ec58b1893773509e0f33a01277f7fda20dd9f60f7a0"
+    },
+    {
+      "path": "data/raw/ASD/202603_Reflectance_avg.txt",
+      "sha256": "16985b87c9f5f991f0684bfb6bbaa9f53696c681bd311500b22b41c32860c23d"
+    }
+  ],
+  "quantile": "NumPy linear = R type 7; SD sample ddof=1",
+  "exclusion": "paired complete finite B02-B04 per band; decoded L2A special values -0.1 and 6.4535 excluded; no range clipping or ecological/QA filtering",
+  "source_encoding": "CSV already decoded; operational L2A native DN maps to (DN-1000)/10000 excluding 0,65535; ACOLITE Float32 rhos direct; no second scale/offset",
+  "station_transform": "gdaltransform EPSG:4326 to EPSG:32628 agrees with all 15 saved points within 1e-6 m; no location shifts",
+  "resampling": "none; paired identical supplied 10m cell centres; actual effective support/QA remain unverified",
+  "new_raster_reads": 0,
+  "field_summary": "501 wavelength channels per station; SD and quantiles describe spectral variation, not replicate variability",
+  "AOI_summary": "spatially dependent supplied pixel records; no uncertainty intervals, p-values or correction ranking",
+  "locks": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  },
+  "scripts": {
+    "scripts/descriptive.py": "c7fe9cf90dcb122afe2392753ee5575412c172939a09b79717d70c7e72d0338f",
+    "scripts/descriptive_figures.R": "ed389d905eceafef7b37a1a7effd4c2bb7d63af47efd99dd54b2cd8048db7f37"
+  },
+  "ASD_validation_metrics": "not estimable: zero admitted field matchups",
+  "independent_review": "pending",
+  "PI_scientific_approval": "pending"
+}

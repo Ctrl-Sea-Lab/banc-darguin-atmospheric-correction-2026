@@ -1,0 +1,5 @@
+# Separately fetched official reference cache; pinned URL and SHA in audit.py/provenance.
+/outputs/official-srf-v5.xlsx
+
+/.quarto/
+**/*.quarto_ipynb

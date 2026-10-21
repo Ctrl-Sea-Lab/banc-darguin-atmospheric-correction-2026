@@ -1,0 +1,607 @@
+{
+  "Overview": [
+    {
+      "row": 1,
+      "cells": {
+        "A": "Overview"
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A": "Code:",
+        "F": "COPE-GSEG-EOPG-TN-15-0007 "
+      }
+    },
+    {
+      "row": 3,
+      "cells": {
+        "A": "Title:",
+        "F": "Sentinel-2 Spectral Response Functions"
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A": "Abreviation:",
+        "F": "[S2-SRF]"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A": "Date:",
+        "F": "45447"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A": "Version:",
+        "F": "4.0"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A": "This spreadsheet contains the measured spectral responses for each band of Sentinel-2A and Sentinel-2B MultiSpectral Instrument (MSI).\nThe \"Overview\" sheet (Sheet 1) introduces the dataset and identifies the specified central wavelength and bandwidth for the 13 spectral bands of the MSI.\nThe Spectral Responses (SR) sheets (Sheet 2 and Sheet 3) contain respectively for S2A and S2B:\n1. A single column representing the centre wavelength of each measurement\n2. The values in the SR_AV_Bx columns represent the average spectral response\ndetermined through ground-based testing of the MSI. Bx denotes the spectral\nband (1, 2, 3, 4, 5, 6, 7, 8, 8a, 9, 10, 11, 12).\n\nThe plots of spectral response of SR_AV_B1 to SR_AV_B9  (VNIR) and SR_AV_B10 to SR_AV_B12  (SWIR) can be visualised in \"VNIR SR S2A vs S2B Chart\" (Sheet 4) and \"SWIR SR S2A vs S2B Chart\" (Sheet 5) plots respectively.\n\nDetector spectral response  averages taken: \nfor Sentinel-2A from document Synthèse_moyennes_donnees_spectrales.xlsx (worksheet \"S2A_NEW\") and \nfor Sentinel-2B from document S2_OPER_MSI_SPECT__20160415T000000_0001.xml (within [ICCDB-S2B] GS2.TN.ASF.MSI.00399 [1.0].zip)\nfor Sentinel-2C from document S2C_OPER_MSI_SPECT___20201110T000000_0001.xml (within S2C ICCDB version 1.0 )\nData are based on ground measurements performed in the frame of the Assembly, Integration and Test (AIT) campaign of the MSI.\n"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A": "Band ",
+        "C": "Centre",
+        "D": "Spectral width",
+        "E": "Spatial"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "C": "λ",
+        "D": "Δλ",
+        "E": "resolution",
+        "F": "Purpose"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A": "#",
+        "C": "nm",
+        "D": "nm",
+        "E": "m"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A": "B",
+        "B": "1",
+        "C": "443",
+        "D": "20",
+        "E": "60",
+        "F": "Atmospheric correction (aerosol scattering)"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A": "B",
+        "B": "2",
+        "C": "490",
+        "D": "65",
+        "E": "10",
+        "F": "Sensitive to vegetation senescing, carotenoid, browning and soil background; atmospheric correction (aerosol scattering)"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A": "B",
+        "B": "3",
+        "C": "560",
+        "D": "35",
+        "E": "10",
+        "F": "Green peak, sensitive to total chlorophyll in vegetation"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A": "B",
+        "B": "4",
+        "C": "665",
+        "D": "30",
+        "E": "10",
+        "F": "Maximum chlorophyll absorption"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A": "B",
+        "B": "5",
+        "C": "705",
+        "D": "15",
+        "E": "20",
+        "F": "Position of red edge; consolidation of atmospheric corrections / flourescence baseline."
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A": "B",
+        "B": "6",
+        "C": "740",
+        "D": "15",
+        "E": "20",
+        "F": "Position of red edge, atmospheric correction, retrieval of aerosol load."
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A": "B",
+        "B": "7",
+        "C": "783",
+        "D": "20",
+        "E": "20",
+        "F": "Leaf Area Index (LAI), edge of the Near-Infrared (NIR) plateau."
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A": "B",
+        "B": "8",
+        "C": "842",
+        "D": "105",
+        "E": "10",
+        "F": "LAI"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A": "B",
+        "B": "8a",
+        "C": "865",
+        "D": "20",
+        "E": "20",
+        "F": "NIR plateau, sensitive to total chlorophyll, biomass, LAI and protein; water vapour absorption reference; retrieval of aerosol load and type."
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A": "B",
+        "B": "9",
+        "C": "945",
+        "D": "20",
+        "E": "60",
+        "F": "Water vapour absorption, atmospheric correction."
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A": "B",
+        "B": "10",
+        "C": "1375",
+        "D": "30",
+        "E": "60",
+        "F": "Detection of thin cirrus for atmospheric correction."
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A": "B",
+        "B": "11",
+        "C": "1610",
+        "D": "90",
+        "E": "20",
+        "F": "Sensitive to lignin, starch and forest above ground biomass. Snow/ice/cloud separation."
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A": "B",
+        "B": "12",
+        "C": "2190",
+        "D": "180",
+        "E": "20",
+        "F": "Assessment of Mediterranean vegetation conditions. Distinction of clay soils for the monitoring of soil erosion. Distinction between live biomass, dead biomass and soil, e.g. for burn scars mapping."
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "D": "Change Log:"
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "D": "Date",
+        "E": "Version",
+        "F": "Modifications"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "D": "42801",
+        "E": "1.0",
+        "F": "First version."
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "D": "42857",
+        "E": "2.0",
+        "F": "Alignment of the spectral response functions with the ones applicable and used by the ground segment "
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "D": "43088",
+        "E": "3.0",
+        "F": "Improvement of Sentinel-2A spectral responses and changes are mainly modifying the responses for bands 01 and 02."
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "D": "43811",
+        "E": "3.0.1",
+        "F": " Removal of shorter wavelengths points of Sentinel-2A and Sentinel-2B B02response function, which were affected by measurement noise. This evolution affects only the spectral response metadata of products and has no impact on the radiometry."
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "D": "44691",
+        "E": "3.1",
+        "F": "Central wavelengths have slightly changed for the B02 band of S2A and S2B, and B01 of S2A, along with slight changes of the Full Width Half Maximum (FMWH) for most of the bands."
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "D": "45447",
+        "E": "4.0",
+        "F": "Addition of S2C spectral band definition (new ISRF definition sheet and addition of the S2C ISRF to the graphs on the VNIR and SWIR band sheets).\nNew sheet of inforamtion on S2A, S2B and S2C equivalent wavelengths per band.\nNew sheet of inforamtion on S2A, S2B and S2C bandwidths and wavelengths at mid-bandwidth per band.\nNew sheet of information about the variation of the S2C ISRF over pixels, per band.\nUniformisation of the number of digits for the data of ISRF of S2A B01 band (8 digits as for other bands)."
+      }
+    }
+  ],
+  "Equivalent Wavelengths": [
+    {
+      "row": 2,
+      "cells": {
+        "C": "Equivalent wavelength  (nm)"
+      }
+    },
+    {
+      "row": 3,
+      "cells": {
+        "C": "S2A",
+        "D": "S2B",
+        "E": "S2C",
+        "H": "Definition of the equivalent wavelength"
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "B": "B01",
+        "C": "442.6950461040808",
+        "D": "442.24623060025323",
+        "E": "444.22373327681981"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "B": "B02",
+        "C": "492.71521345831241",
+        "D": "492.33869378287199",
+        "E": "489.02832775873162"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "B": "B03",
+        "C": "559.84905547784774",
+        "D": "558.94946584910303",
+        "E": "560.63205818437336"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "B": "B04",
+        "C": "664.62175292114773",
+        "D": "664.94790435537391",
+        "E": "666.52913094711005"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "B": "B05",
+        "C": "704.11493621524903",
+        "D": "703.82431241900269",
+        "E": "707.06533315053764"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "B": "B06",
+        "C": "740.49182088433838",
+        "D": "739.12789460003819",
+        "E": "741.07055253455587"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "B": "B07",
+        "C": "782.75291732859387",
+        "D": "779.70571903444261",
+        "E": "784.66019306078965"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "B": "B08",
+        "C": "832.79041114302345",
+        "D": "832.94819110940068",
+        "E": "834.6126030984999"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "B": "B8A",
+        "C": "864.71078924307415",
+        "D": "863.97239057690001",
+        "E": "865.57396125051298"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "B": "B09",
+        "C": "945.05447044128528",
+        "D": "943.16503622074947",
+        "E": "947.20192820989564"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "B": "B10",
+        "C": "1373.4555487383936",
+        "D": "1376.8776161605051",
+        "E": "1372.1765695554327"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "B": "B11",
+        "C": "1613.6805030441292",
+        "D": "1610.4140888739992",
+        "E": "1612.004342894852"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "B": "B12",
+        "C": "2202.3678008529923",
+        "D": "2185.7067770182734",
+        "E": "2191.2703452093451"
+      }
+    }
+  ],
+  "Bandwidth and mid-wavelength": [
+    {
+      "row": 2,
+      "cells": {
+        "I": "Calculation by determinating the steepest increasing and decreasing slopes "
+      }
+    },
+    {
+      "row": 3,
+      "cells": {
+        "B": "Wavelength at mid-bandwidth and bandwidth (nm)"
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "B": "S2A",
+        "D": "S2B",
+        "F": "S2C",
+        "I": "Definition of \"bandwidth\" and \"wavelength at mid-bandwidth\" parameters"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "B": "Wa",
+        "C": "Bandwidth",
+        "D": "Wa",
+        "E": "Bandwidth",
+        "F": "Wa",
+        "G": "Bandwidth"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A": "B01",
+        "B": "443",
+        "C": "20",
+        "D": "443",
+        "E": "20",
+        "F": "444.5",
+        "G": "21"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A": "B02",
+        "B": "492",
+        "C": "64",
+        "D": "491.5",
+        "E": "65",
+        "F": "489.5",
+        "G": "65"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A": "B03",
+        "B": "560.5",
+        "C": "35",
+        "D": "559.5",
+        "E": "35",
+        "F": "561",
+        "G": "36"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A": "B04",
+        "B": "665",
+        "C": "30",
+        "D": "665.5",
+        "E": "31",
+        "F": "667",
+        "G": "30"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A": "B05",
+        "B": "705",
+        "C": "14",
+        "D": "704.5",
+        "E": "15",
+        "F": "707.5",
+        "G": "15"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A": "B06",
+        "B": "741",
+        "C": "14",
+        "D": "740",
+        "E": "14",
+        "F": "741.5",
+        "G": "15"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A": "B07",
+        "B": "784",
+        "C": "20",
+        "D": "781",
+        "E": "20",
+        "F": "785.5",
+        "G": "21"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A": "B08",
+        "B": "842",
+        "C": "118",
+        "D": "840.5",
+        "E": "115",
+        "F": "844",
+        "G": "114"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A": "B8A",
+        "B": "865",
+        "C": "20",
+        "D": "865",
+        "E": "20",
+        "F": "866",
+        "G": "20"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A": "B09",
+        "B": "946",
+        "C": "20",
+        "D": "944",
+        "E": "20",
+        "F": "948",
+        "G": "20"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A": "B10",
+        "B": "1374",
+        "C": "30",
+        "D": "1378",
+        "E": "30",
+        "F": "1372.5",
+        "G": "33"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A": "B11",
+        "B": "1614",
+        "C": "88",
+        "D": "1611.5",
+        "E": "93",
+        "F": "1611.5",
+        "G": "89"
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A": "B12",
+        "B": "2197.5",
+        "C": "179",
+        "D": "2184.5",
+        "E": "181",
+        "F": "2193",
+        "G": "182"
+      }
+    }
+  ]
+}

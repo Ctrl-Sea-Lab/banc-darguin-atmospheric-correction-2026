@@ -1,0 +1,30 @@
+{
+  "source_kind": "authenticated_PI_field_testimony",
+  "interaction_id": "4765af59-1308-4dfe-8c85-19b3f5190b1f",
+  "answered_utc": "2026-10-20T06:05:15.036Z",
+  "reconciliation_revision": "f820bfe7-8b71-4344-8b19-15fca9a25164",
+  "independent_review_revision": "71ca4c89-4664-4868-9eb2-07b4b9c9cd05",
+  "concurrence_revision": "1f9de7bb-a5fb-4c73-ad90-7444529f2189",
+  "supersedes_audit_revision": "6fec859e-0973-430f-9486-f618deb59b6b",
+  "supersedes_commit": "1cd34b042eca41f26da81e41fb838b7344357dca",
+  "confirmed": {
+    "wavelength_unit": "nm",
+    "reflectance_unit": "dimensionless 0-1",
+    "export_aggregation": "station average",
+    "instrument": "ASD Handheld FieldSpec2",
+    "panel": "99% Spectralon",
+    "view": "nadir; qualitatively consistent stated sun-relative orientation",
+    "field_state": "all targets intertidal and exposed during field measurement",
+    "gps_crs": "EPSG:4326"
+  },
+  "not_established": [
+    "replicate membership/weights/variance",
+    "numerical geometry/height/FOV",
+    "GPS accuracy/field footprints",
+    "AC01/02 Iwik-versus-Arel location",
+    "field times/timezone",
+    "satellite-overpass exposure/wetness",
+    "AC03 mbp_mud spelling"
+  ],
+  "scientific_approval": false
+}

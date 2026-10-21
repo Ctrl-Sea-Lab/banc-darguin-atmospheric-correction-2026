@@ -1,0 +1,47 @@
+path,bytes,mtime_ns,used,sha256,scope
+data/raw/Atm_Compare_AOI/ACOLITE/2025-01-06.csv,617250,1775590444000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-02-05.csv,617112,1775590444000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-02-15.csv,617436,1775590444000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-03-02.csv,617474,1775590446000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-03-07.csv,616304,1775590446000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-03-17.csv,617169,1775590446000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-03-22.csv,618789,1775590448000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-04-06.csv,616066,1775590448000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-04-16.csv,614996,1775590448000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-04-18.csv,616520,1775590450000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-05-16.csv,615816,1775590450000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-05-31.csv,619315,1775590450000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-06-15.csv,616172,1775590452000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-06-17.csv,617194,1775590452000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-06-30.csv,618329,1775590452000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-08-29.csv,619479,1775590454000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-09-13.csv,619428,1775590454000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-09-28.csv,618079,1775590456000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-10-28.csv,617454,1775590456000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-11-27.csv,618601,1775590458000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2025-12-27.csv,616527,1775590458000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/ACOLITE/2026-03-27.csv,612770,1775590458000000000,True,a25dbd5e47694c6a83765a6c5c9b8b542a85faf623e294aff0639c944a075743,whole-file SHA256 and table inspection
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-01-06.csv,609778,1775590460000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-01-21.csv,611243,1775590462000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-01-31.csv,604281,1775590464000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-02-05.csv,609385,1775590466000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-02-20.csv,606145,1775590466000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-03-02.csv,610431,1775590468000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-03-07.csv,603643,1775590468000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-03-17.csv,608886,1775590470000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-03-22.csv,607868,1775590472000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-04-06.csv,608419,1775590474000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-04-16.csv,609032,1775590476000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-04-18.csv,607375,1775590478000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-05-16.csv,610499,1775590478000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-05-31.csv,619380,1775590480000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-06-15.csv,607244,1775590482000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-06-17.csv,609653,1775590484000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-06-30.csv,604008,1775590484000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-08-29.csv,615200,1775590486000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-09-13.csv,607611,1775590488000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-09-28.csv,605348,1775590490000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-10-28.csv,608978,1775590492000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-11-27.csv,615512,1775590492000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2025-12-27.csv,609842,1775590494000000000,False,,stat inventory only; other date excluded
+data/raw/Atm_Compare_AOI/Sen2Cor/2026-03-27.csv,601456,1775590496000000000,True,5f682490c6ee009c54883ec58b1893773509e0f33a01277f7fda20dd9f60f7a0,whole-file SHA256 and table inspection
