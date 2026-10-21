@@ -1,0 +1,217 @@
+PASS: independent base-R arithmetic and plotting-contract verification
+Checks: 212
+R: R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu
+Numerical cross-check only. Final independent scientific review and PI approval remain.
+signed-error fixture retains cancellation
+empty metrics are NA
+negative reflectance is finite
+one missing correction excludes both from shared metric
+234 pair masks unique
+702 spectral rows unique
+468 comparison rows unique
+52 station metrics unique
+all identities accounted
+v4_primary reference exact input values
+v4_primary Sen2Cor exact satellite and flags
+v4_primary Sen2Cor all 117 satellite bands including B08
+v4_primary Sen2Cor source provenance and date
+v4_primary ACOLITE exact satellite and flags
+v4_primary ACOLITE all 117 satellite bands including B08
+v4_primary ACOLITE source provenance and date
+v4_primary 104 shared finite rows; B08 not forced
+v4_primary SCL-complement mask does not change eligibility
+v4_primary AC01 identical band set and pair signature
+v4_primary AC01 Sen2Cor independent bias MAE RMSE
+v4_primary AC01 Sen2Cor metric bounds
+v4_primary AC01 ACOLITE independent bias MAE RMSE
+v4_primary AC01 ACOLITE metric bounds
+v4_primary AC01 ASD eight supported bands; gap splits line
+v4_primary AC02 identical band set and pair signature
+v4_primary AC02 Sen2Cor independent bias MAE RMSE
+v4_primary AC02 Sen2Cor metric bounds
+v4_primary AC02 ACOLITE independent bias MAE RMSE
+v4_primary AC02 ACOLITE metric bounds
+v4_primary AC02 ASD eight supported bands; gap splits line
+v4_primary AC05 identical band set and pair signature
+v4_primary AC05 Sen2Cor independent bias MAE RMSE
+v4_primary AC05 Sen2Cor metric bounds
+v4_primary AC05 ACOLITE independent bias MAE RMSE
+v4_primary AC05 ACOLITE metric bounds
+v4_primary AC05 ASD eight supported bands; gap splits line
+v4_primary AC06 identical band set and pair signature
+v4_primary AC06 Sen2Cor independent bias MAE RMSE
+v4_primary AC06 Sen2Cor metric bounds
+v4_primary AC06 ACOLITE independent bias MAE RMSE
+v4_primary AC06 ACOLITE metric bounds
+v4_primary AC06 ASD eight supported bands; gap splits line
+v4_primary AC07 identical band set and pair signature
+v4_primary AC07 Sen2Cor independent bias MAE RMSE
+v4_primary AC07 Sen2Cor metric bounds
+v4_primary AC07 ACOLITE independent bias MAE RMSE
+v4_primary AC07 ACOLITE metric bounds
+v4_primary AC07 ASD eight supported bands; gap splits line
+v4_primary AC08 identical band set and pair signature
+v4_primary AC08 Sen2Cor independent bias MAE RMSE
+v4_primary AC08 Sen2Cor metric bounds
+v4_primary AC08 ACOLITE independent bias MAE RMSE
+v4_primary AC08 ACOLITE metric bounds
+v4_primary AC08 ASD eight supported bands; gap splits line
+v4_primary D06_A identical band set and pair signature
+v4_primary D06_A Sen2Cor independent bias MAE RMSE
+v4_primary D06_A Sen2Cor metric bounds
+v4_primary D06_A ACOLITE independent bias MAE RMSE
+v4_primary D06_A ACOLITE metric bounds
+v4_primary D06_A ASD eight supported bands; gap splits line
+v4_primary D06_B identical band set and pair signature
+v4_primary D06_B Sen2Cor independent bias MAE RMSE
+v4_primary D06_B Sen2Cor metric bounds
+v4_primary D06_B ACOLITE independent bias MAE RMSE
+v4_primary D06_B ACOLITE metric bounds
+v4_primary D06_B ASD eight supported bands; gap splits line
+v4_primary D06_C identical band set and pair signature
+v4_primary D06_C Sen2Cor independent bias MAE RMSE
+v4_primary D06_C Sen2Cor metric bounds
+v4_primary D06_C ACOLITE independent bias MAE RMSE
+v4_primary D06_C ACOLITE metric bounds
+v4_primary D06_C ASD eight supported bands; gap splits line
+v4_primary D06_D identical band set and pair signature
+v4_primary D06_D Sen2Cor independent bias MAE RMSE
+v4_primary D06_D Sen2Cor metric bounds
+v4_primary D06_D ACOLITE independent bias MAE RMSE
+v4_primary D06_D ACOLITE metric bounds
+v4_primary D06_D ASD eight supported bands; gap splits line
+v4_primary D06_E identical band set and pair signature
+v4_primary D06_E Sen2Cor independent bias MAE RMSE
+v4_primary D06_E Sen2Cor metric bounds
+v4_primary D06_E ACOLITE independent bias MAE RMSE
+v4_primary D06_E ACOLITE metric bounds
+v4_primary D06_E ASD eight supported bands; gap splits line
+v4_primary D06_F identical band set and pair signature
+v4_primary D06_F Sen2Cor independent bias MAE RMSE
+v4_primary D06_F Sen2Cor metric bounds
+v4_primary D06_F ACOLITE independent bias MAE RMSE
+v4_primary D06_F ACOLITE metric bounds
+v4_primary D06_F ASD eight supported bands; gap splits line
+v4_primary D06_G identical band set and pair signature
+v4_primary D06_G Sen2Cor independent bias MAE RMSE
+v4_primary D06_G Sen2Cor metric bounds
+v4_primary D06_G ACOLITE independent bias MAE RMSE
+v4_primary D06_G ACOLITE metric bounds
+v4_primary D06_G ASD eight supported bands; gap splits line
+v4_primary B01 availability counts
+v4_primary B02 availability counts
+v4_primary B03 availability counts
+v4_primary B04 availability counts
+v4_primary B05 availability counts
+v4_primary B06 availability counts
+v4_primary B07 availability counts
+v4_primary B08 availability counts
+v4_primary B8A availability counts
+v5_sensitivity reference exact input values
+v5_sensitivity Sen2Cor exact satellite and flags
+v5_sensitivity Sen2Cor all 117 satellite bands including B08
+v5_sensitivity Sen2Cor source provenance and date
+v5_sensitivity ACOLITE exact satellite and flags
+v5_sensitivity ACOLITE all 117 satellite bands including B08
+v5_sensitivity ACOLITE source provenance and date
+v5_sensitivity 104 shared finite rows; B08 not forced
+v5_sensitivity SCL-complement mask does not change eligibility
+v5_sensitivity AC01 identical band set and pair signature
+v5_sensitivity AC01 Sen2Cor independent bias MAE RMSE
+v5_sensitivity AC01 Sen2Cor metric bounds
+v5_sensitivity AC01 ACOLITE independent bias MAE RMSE
+v5_sensitivity AC01 ACOLITE metric bounds
+v5_sensitivity AC01 ASD eight supported bands; gap splits line
+v5_sensitivity AC02 identical band set and pair signature
+v5_sensitivity AC02 Sen2Cor independent bias MAE RMSE
+v5_sensitivity AC02 Sen2Cor metric bounds
+v5_sensitivity AC02 ACOLITE independent bias MAE RMSE
+v5_sensitivity AC02 ACOLITE metric bounds
+v5_sensitivity AC02 ASD eight supported bands; gap splits line
+v5_sensitivity AC05 identical band set and pair signature
+v5_sensitivity AC05 Sen2Cor independent bias MAE RMSE
+v5_sensitivity AC05 Sen2Cor metric bounds
+v5_sensitivity AC05 ACOLITE independent bias MAE RMSE
+v5_sensitivity AC05 ACOLITE metric bounds
+v5_sensitivity AC05 ASD eight supported bands; gap splits line
+v5_sensitivity AC06 identical band set and pair signature
+v5_sensitivity AC06 Sen2Cor independent bias MAE RMSE
+v5_sensitivity AC06 Sen2Cor metric bounds
+v5_sensitivity AC06 ACOLITE independent bias MAE RMSE
+v5_sensitivity AC06 ACOLITE metric bounds
+v5_sensitivity AC06 ASD eight supported bands; gap splits line
+v5_sensitivity AC07 identical band set and pair signature
+v5_sensitivity AC07 Sen2Cor independent bias MAE RMSE
+v5_sensitivity AC07 Sen2Cor metric bounds
+v5_sensitivity AC07 ACOLITE independent bias MAE RMSE
+v5_sensitivity AC07 ACOLITE metric bounds
+v5_sensitivity AC07 ASD eight supported bands; gap splits line
+v5_sensitivity AC08 identical band set and pair signature
+v5_sensitivity AC08 Sen2Cor independent bias MAE RMSE
+v5_sensitivity AC08 Sen2Cor metric bounds
+v5_sensitivity AC08 ACOLITE independent bias MAE RMSE
+v5_sensitivity AC08 ACOLITE metric bounds
+v5_sensitivity AC08 ASD eight supported bands; gap splits line
+v5_sensitivity D06_A identical band set and pair signature
+v5_sensitivity D06_A Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_A Sen2Cor metric bounds
+v5_sensitivity D06_A ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_A ACOLITE metric bounds
+v5_sensitivity D06_A ASD eight supported bands; gap splits line
+v5_sensitivity D06_B identical band set and pair signature
+v5_sensitivity D06_B Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_B Sen2Cor metric bounds
+v5_sensitivity D06_B ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_B ACOLITE metric bounds
+v5_sensitivity D06_B ASD eight supported bands; gap splits line
+v5_sensitivity D06_C identical band set and pair signature
+v5_sensitivity D06_C Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_C Sen2Cor metric bounds
+v5_sensitivity D06_C ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_C ACOLITE metric bounds
+v5_sensitivity D06_C ASD eight supported bands; gap splits line
+v5_sensitivity D06_D identical band set and pair signature
+v5_sensitivity D06_D Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_D Sen2Cor metric bounds
+v5_sensitivity D06_D ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_D ACOLITE metric bounds
+v5_sensitivity D06_D ASD eight supported bands; gap splits line
+v5_sensitivity D06_E identical band set and pair signature
+v5_sensitivity D06_E Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_E Sen2Cor metric bounds
+v5_sensitivity D06_E ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_E ACOLITE metric bounds
+v5_sensitivity D06_E ASD eight supported bands; gap splits line
+v5_sensitivity D06_F identical band set and pair signature
+v5_sensitivity D06_F Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_F Sen2Cor metric bounds
+v5_sensitivity D06_F ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_F ACOLITE metric bounds
+v5_sensitivity D06_F ASD eight supported bands; gap splits line
+v5_sensitivity D06_G identical band set and pair signature
+v5_sensitivity D06_G Sen2Cor independent bias MAE RMSE
+v5_sensitivity D06_G Sen2Cor metric bounds
+v5_sensitivity D06_G ACOLITE independent bias MAE RMSE
+v5_sensitivity D06_G ACOLITE metric bounds
+v5_sensitivity D06_G ASD eight supported bands; gap splits line
+v5_sensitivity B01 availability counts
+v5_sensitivity B02 availability counts
+v5_sensitivity B03 availability counts
+v5_sensitivity B04 availability counts
+v5_sensitivity B05 availability counts
+v5_sensitivity B06 availability counts
+v5_sensitivity B07 availability counts
+v5_sensitivity B08 availability counts
+v5_sensitivity B8A availability counts
+Sen2Cor signed differences only on shared mask
+ACOLITE signed differences only on shared mask
+masks no validation eligibility
+long no validation eligibility
+pairs no validation eligibility
+metrics no validation eligibility
+inventory no validation eligibility
+all current spectral values are nonnegative but no clipping rule
+flagged satellite values retained once per role
+primary/supplementary designation retained
+SRF difference exactly recomputed

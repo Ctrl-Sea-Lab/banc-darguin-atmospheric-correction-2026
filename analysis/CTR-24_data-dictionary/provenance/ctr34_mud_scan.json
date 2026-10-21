@@ -1,0 +1,9 @@
+{
+  "scope": "complete supplied cover table, complete GPS workbook all sheets (freeze script), complete measurement log (this script); station metadata only, no excluded spectral summarization",
+  "cover_GPS_hits": "tables/ctr34_mud_metadata_dispositions.csv; only AC03 mbp_mud and AC04 mpb_mud",
+  "log_source": "data/raw/ASD/202603_Measurement_log.txt",
+  "log_sha256": "f5dead39285522d5cec031cce05c377117b79b39357b6e35e4eadf902c8ec6e2",
+  "log_explicit_mud_MPB_hits": [],
+  "other_records": "none explicitly documented in the inspected supplied metadata; generic mud references or algae_mud do not trigger exclusion",
+  "conservative_alias": "AC03 mbp_mud treated as PI-excluded mpb_mud without raw rename"
+}

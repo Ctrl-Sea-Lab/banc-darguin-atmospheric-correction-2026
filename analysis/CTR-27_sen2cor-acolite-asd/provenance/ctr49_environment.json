@@ -1,0 +1,8 @@
+{
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "quarto": "1.10.19",
+  "environment_check": "PASS: existing locked Python/R environments; no installs or lockfile changes; pre-existing temporary-home warning only",
+  "R_session": "ctr49_figure_render.txt",
+  "inspection_tools": "existing system Firefox, pdftoppm, system Pillow 10.2.0 (inspection slices only)",
+  "workflow": "base R/grDevices and Python standard library; no raster extraction or statistical model"
+}

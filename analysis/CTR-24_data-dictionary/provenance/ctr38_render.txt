@@ -1,0 +1,3 @@
+Display rows: 54 spectral values; 18 points in each scatter panel.
+Limits: 0 0.6 ; no clipping, interpolation, fits or uncertainty estimates.
+Software:  R version 4.3.3 (2024-02-29) ; graphics/grDevices; Cairo= TRUE 

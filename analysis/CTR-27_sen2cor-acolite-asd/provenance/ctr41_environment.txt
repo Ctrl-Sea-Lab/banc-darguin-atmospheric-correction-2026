@@ -1,0 +1,8 @@
+Resolved 104 packages in 1ms
+Would use project environment at: .venv
+Resolved 104 packages in 1ms
+Checked 100 packages in 101ms
+Would make no changes
+Lockfile sources and versions are valid.
+No issues found -- the project is in a consistent state.
+Environment checks passed.

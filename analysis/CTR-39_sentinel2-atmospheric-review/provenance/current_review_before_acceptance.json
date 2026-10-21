@@ -1,0 +1,7 @@
+{
+  "review_issue": "CTR-45",
+  "review_issue_id": "e922accd-6b21-4147-9afc-4b86d2291f99",
+  "status": "pending",
+  "source_commit": "af8b45637a838d66ab6e53d08f154a93fc82817a",
+  "note": "Storage handoff sidecar; no review verdict or PI approval implied."
+}

@@ -1,0 +1,35 @@
+task:
+  id: CTR-54
+  delivery_task: CTR-55
+  paperclip_issue_id: 868eb798-9341-4ffd-b10c-1b515fce46c0
+  title: Paired Sentinel-2 reflectance differences
+  research_question: How do matched ACOLITE and Sen2Cor surface reflectances differ?
+  created_at: '2026-10-20'
+analysis:
+  status: computations_checked_review_pending
+  language: [Python, R]
+  input_datasets: [data/raw/S2/ACOLITE, data/raw/S2/Sen2Cor, data/raw/S2/top-level-SAFE]
+  scripts: [scripts/01_inventory.py, scripts/09_fill_audit.py, scripts/02_process.py, scripts/03_validate.py, scripts/04_figures.py, scripts/05_R_crosscheck.R, scripts/06_input_manifest.py, scripts/07_report.py]
+  report_source: report.qmd
+  report_html: report.html
+environment:
+  python_lockfile: ../../uv.lock
+  python_lockfile_sha256: 99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1
+  r_lockfile: ../../renv.lock
+  r_lockfile_sha256: 6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707
+  python_version: '3.12.3'
+  r_version: '4.3.3'
+  quarto_version: '1.10.19'
+  dependencies_changed: false
+  provenance_file: provenance/environment.json
+review:
+  status: pending
+  reviewer: Karl Popper
+pi_approval:
+  status: pending
+  approved_revision: null
+  note: This YAML is not evidence of authenticated PI approval.
+manuscript:
+  integration_status: not_authorized
+  merge_status: not_authorized
+  publication_status: not_authorized

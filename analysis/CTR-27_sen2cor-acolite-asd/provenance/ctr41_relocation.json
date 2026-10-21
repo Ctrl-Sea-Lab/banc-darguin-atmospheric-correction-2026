@@ -1,0 +1,54 @@
+{
+  "source_commit": "dc6db713a5179422b6ad94629472cd37f9bb32e8",
+  "source_manifest_entries_verified": 40,
+  "previous_target_commit": "dc6db713a5179422b6ad94629472cd37f9bb32e8",
+  "target_archive": ".git/ctr41-recovery/CTR27-before-dc6db713.tar.gz",
+  "target_archive_sha256": "e4ec673ddbb45a71b283aebc3beaddd78da17360b42d9f6e0f76d717486f12b5",
+  "old_unique_ignored_files_preserved": true,
+  "ctr40_status": "done",
+  "ctr40_assignee": "Karl Popper",
+  "ctr40_uploaded_evidence_attachment": "de0dc2cb-b2d1-42a2-aa3e-00151a2ef42d",
+  "ctr40_evidence_relocated_to": ".git/ctr41-recovery/CTR-40-a031b9d",
+  "ctr40_evidence_inventory": {
+    "CTR-40-review-evidence.zip": {
+      "sha256": "bae4e6d1c92234f64acb3d05d40cfce7290fdc699021d16526a536e1c9578ee2",
+      "bytes": 43731
+    },
+    "audit-execution.json": {
+      "sha256": "f88666dc1a0ba2d92919471ea21365942f4da94072b0b0043a5313f45988d861",
+      "bytes": 325
+    },
+    "independent-checks.json": {
+      "sha256": "6af3afa4710185cf77f853097b61c819aa332e056527b4072983ccd9eea0f945",
+      "bytes": 804
+    },
+    "metadata-verification.json": {
+      "sha256": "3f5aa76dbd20be6c7c6b9302314ad460d057edf74040b072166f1590db328daf",
+      "bytes": 54024
+    },
+    "render.log": {
+      "sha256": "04db054bdd1a2b3efc2eb912bdeaeef03cf8a74bf050659d1c2dd3260be5e6bc",
+      "bytes": 773
+    },
+    "review.html": {
+      "sha256": "77d9c408bf55e730c16be68e1d18848b4337f5839b3384913e5aa569664d06a1",
+      "bytes": 22624
+    },
+    "review.md": {
+      "sha256": "5774d72cb7ef0f5389bd02f6d72fe0b7fdee048a9d213d2078d866f3a4b311a7",
+      "bytes": 16102
+    },
+    "source-manifest-before.json": {
+      "sha256": "a07f6b7130f3fd86314279d7fac664305648f5d077987c58d68141ffd8204f23",
+      "bytes": 56821
+    },
+    "verify_review.py": {
+      "sha256": "83775803b75a9740fe60c19f1d05c86196c81e7996108f412c99b5286cd25f66",
+      "bytes": 3585
+    }
+  },
+  "source_approval_scope": "source presentation only; relocation authorized; new revision unapproved",
+  "runtime_notes": "No active analysis writers found; Firefox has old report open as reader. No symlinks in target.",
+  "api_limit": "Approval-ID GET endpoints returned 404; authorization references are supplied by the current authenticated assignment; no new approval inferred.",
+  "table_selection": "46 source tables retained: scientific stage tables plus band contract, station crosswalk and proposed matchups. Four unrelated dictionary inventory tables omitted; all 50 source tables remain untouched in CTR24."
+}

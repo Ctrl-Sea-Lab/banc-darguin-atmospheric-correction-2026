@@ -1,0 +1,7 @@
+{
+  "files": 142,
+  "total_bytes": 22240796841,
+  "all_stable_during_hash": true,
+  "scope": "Full physical ZIP containers for selected Sen2Cor products; used bands, flags and metadata for loose inputs. Unpaired inputs catalogued but not hashed or processed.",
+  "raw_write_operations": 0
+}

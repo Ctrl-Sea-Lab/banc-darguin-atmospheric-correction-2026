@@ -1,0 +1,25 @@
+{
+  "pairs": 22,
+  "pixels": 7428162,
+  "grid": {
+    "size": [
+      3763,
+      1974
+    ],
+    "geotransform": [
+      334050.0,
+      10.0,
+      0.0,
+      2209980.0,
+      0.0,
+      -10.0
+    ],
+    "epsg": 32628
+  },
+  "delta_stack_bytes": 2614713024,
+  "scratch_budget_GiB": 12,
+  "working_memory_target_GiB": 1.5,
+  "chunk_rows": 64,
+  "gdal_cache_MiB": 256,
+  "method": "Sequential cropped GDAL extraction, NumPy disk-backed delta arrays; 64-row temporal chunks; no full SAFE extraction"
+}

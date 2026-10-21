@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "scope": "Final committed assembler executed outside any Git repository using recorded exact upstream hashes; generated tables and claim ledger match candidate bytes",
+  "compared": [
+    "outputs/ctr57-summary-table.md",
+    "outputs/ctr57-contrast-table.md",
+    "tables/ctr57_claim_ledger.csv"
+  ],
+  "stdout": "Passed: source hashes, 528 keys, 88 primary rows, summary tables and claim ledger.\n"
+}

@@ -1,0 +1,21 @@
+{
+  "source_comment_id": "429e664e-c012-456b-86c7-a52fd584b449",
+  "previous_revision": "9a5e100fb00251bb4b9083aec5b9e54c60784cb0",
+  "scope": "Presentation only: shape key inside Sen2Cor bottom right; band-colour key inside ACOLITE bottom right. Both keys apply to both panels. Canvas reduced to 183 x 100 mm after removing exterior legend row.",
+  "visual_checks": [
+    "Opened both 600 dpi PNGs",
+    "Opened both PDF raster previews",
+    "Opened offline report screenshot",
+    "All four surface labels and all nine/three band labels visible without clipping or overlap with data"
+  ],
+  "scientific_tables_identical_to_previous_revision": true,
+  "metrics_and_interpretation_unchanged": true,
+  "validation_eligible_pairs": 0,
+  "physical_holds_preserved": true,
+  "new_extraction": false,
+  "new_integration": false,
+  "environment_check": "scripts/check-env.sh passed",
+  "prior_preservation_tests": "34 passed on prior revision; reused for this display-only change",
+  "review": "Author QA by Rachel; pending Edward confirmation and exact-revision native stages; no independent self-approval or PI approval",
+  "packaging": "Offline copy is regenerated before manifest hashing and archive creation."
+}

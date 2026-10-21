@@ -1,0 +1,81 @@
+{
+  "candidate_commit": "7b9232da45c68c82c5f996b37357f15fb7b9ed55",
+  "work_products": [
+    {
+      "id": "7c2dae5d-6b8c-4613-83e7-b9d84c47bade",
+      "title": "CTR-58 verified standalone reflectance report",
+      "path": "report.html",
+      "bytes": 4870217,
+      "sha256": "a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84"
+    },
+    {
+      "id": "28adee89-13da-4e45-bae6-0ce1f71ae17b",
+      "title": "CTR-58 complete review package",
+      "path": "CTR58_review_package.zip",
+      "bytes": 59498020,
+      "sha256": "c326399d37b31b65e0ff38dfaa4437ebae4d6bb10c03e125041c266a954b7ef7"
+    },
+    {
+      "id": "d968cd78-628a-431f-b967-1915a79cf9af",
+      "title": "CTR-58 editable source and provenance bundle",
+      "path": "CTR58_source_provenance.zip",
+      "bytes": 2085530,
+      "sha256": "7767f898e94e3f9e38896f518a1c6b7032bf877b713b6b0ab5e2f0d7f7361107"
+    },
+    {
+      "id": "2a3cc911-c252-4ea6-9003-f2b0213f1ee0",
+      "title": "CTR-58 revised eight-map figure \u2014 full-resolution PNG",
+      "path": "figures/generated/paired_reflectance_maps_v2.png",
+      "bytes": 17602104,
+      "sha256": "ca9d6e599cd98e875bc04e4602eece1b480d222f721658e654afbd53ecaae0be"
+    },
+    {
+      "id": "11615aee-7e4b-4464-ae53-776a51be33f2",
+      "title": "CTR-58 revised eight-map figure \u2014 PDF",
+      "path": "figures/generated/paired_reflectance_maps_v2.pdf",
+      "bytes": 12965942,
+      "sha256": "b202c1ffa79365b4d332a70d0507cbf999777f0961d0b2038f0a542a64523d3d"
+    },
+    {
+      "id": "9642baae-b332-4916-9581-0eb9c4b491c8",
+      "title": "CTR-58 temporal GAM figure \u2014 PNG",
+      "path": "figures/generated/ctr56_temporal_gam.png",
+      "bytes": 251105,
+      "sha256": "2b820b0b477e72c33324c0550e16cef2febbaf27b5873e055d41734ff6793aef"
+    },
+    {
+      "id": "e9f3dff6-a436-4f80-b699-1ecc43e7af5c",
+      "title": "CTR-58 temporal GAM figure \u2014 PDF",
+      "path": "figures/generated/ctr56_temporal_gam.pdf",
+      "bytes": 27314,
+      "sha256": "d3dc35bc1809a3750231e245b0293bb8d4c619bd46342cd6115845ecea9f5550"
+    },
+    {
+      "id": "840d13cf-ad66-44a3-bc1c-c08ad6378cb4",
+      "title": "CTR-58 exact candidate source/output manifest",
+      "path": "delivery.json",
+      "bytes": 42800,
+      "sha256": "596879fb5ce7415c585a288ba5cfd4bce2c6ac2c7ac1d3be5df77e6e6268d7bf"
+    },
+    {
+      "id": "4258d8c7-966f-44d1-b87c-995103b1c9b6",
+      "title": "CTR-58 focused draft PR #10",
+      "url": "https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026/pull/10"
+    },
+    {
+      "id": "b9d31c29-11a5-413d-9ef1-c0ec4a76bee9",
+      "title": "CTR-58 immutable review candidate",
+      "url": "https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026/commit/7b9232da45c68c82c5f996b37357f15fb7b9ed55"
+    }
+  ],
+  "upload": {
+    "helper": "Stopped before network because jq is unavailable; no software installed",
+    "direct_multipart_http": 409,
+    "error": "Timed out waiting for host bridge response",
+    "outcome": "indeterminate",
+    "retryable": false,
+    "confirmed_attachment_records": 0,
+    "retried": false
+  },
+  "delivery_route": "confirmed project_workspace file work products"
+}

@@ -1,0 +1,4 @@
+{
+  "status": 403,
+  "body": "{\"error\":\"Route not allowed: POST /api/projects/5fc298b7-b03d-4a03-b14f-25b3e66ccf85/workspaces\"}"
+}

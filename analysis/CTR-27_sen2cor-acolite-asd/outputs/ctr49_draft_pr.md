@@ -1,0 +1,7 @@
+# CTR-49: compare corrections at six targets in two scientific report scales
+
+Replace the earlier station/ASD spectral presentation with the exact independently verified target-point Sen2Cor/ACOLITE values. Both reports contain only unchanged Figure 1 and a renewed six-panel Figure 3, with either common or target-specific y limits; the alternative discloses magnification. Scientific discussion reports observed magnitude and shape differences, retains negative values and the T2 cirrus caveat, and avoids accuracy rankings. Technical provenance and reproduction live in separate source records.
+
+Validation: all 108 plotted values agree with the frozen numerical handoff; both scales use byte-identical drawing rows and contain every finite value. Both reports have exactly two figures and self-contained resources. Figure 1 and all prior supporting data, metrics, dictionary, manuscript and unrelated work are preserved. Every panel, both PNGs, PDF rasterizations and both complete browser reports were opened and inspected. Rachel presentation review, Karl independent scientific review and PI acceptance remain outstanding for this exact revision.
+
+PR status: NOT OPENED. Clean-workspace preflight refuses unrelated untracked CTR39 files. No local file was removed/stashed/staged to bypass this requirement; no pushed branch or real PR is claimed. The task document records exact author revision and upload links.

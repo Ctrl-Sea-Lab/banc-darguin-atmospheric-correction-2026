@@ -1,0 +1,24 @@
+{
+  "status": 201,
+  "body": {
+    "id": "2e1cae0f-f4cf-4279-b591-64531f13c23a",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "issueId": "a4205ca2-a28b-4b26-91f9-961228794a7d",
+    "issueCommentId": null,
+    "originatingRunId": "3f4cd6b3-1276-4c7d-9969-4239a1c45956",
+    "assetId": "438b2d77-e2d4-4a1b-b34c-90bd7a387eaa",
+    "provider": "local_disk",
+    "objectKey": "f81d1807-ee34-464f-a570-93f50a636086/issues/a4205ca2-a28b-4b26-91f9-961228794a7d/2026/10/20/eda0d49a-b636-424b-a7ee-47b4806b55ba-CTR55_code_tables.zip",
+    "contentType": "application/zip",
+    "byteSize": 113955,
+    "sha256": "f547770309135c6b8cd35ad9b1533376ccacc415460f9275df55152253112561",
+    "originalFilename": "CTR55_code_tables.zip",
+    "createdByAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+    "createdByUserId": null,
+    "createdAt": "2026-10-20T18:19:04.733Z",
+    "updatedAt": "2026-10-20T18:19:04.733Z",
+    "contentPath": "/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content",
+    "openPath": "/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content",
+    "downloadPath": "/api/attachments/2e1cae0f-f4cf-4279-b591-64531f13c23a/content?download=1"
+  }
+}

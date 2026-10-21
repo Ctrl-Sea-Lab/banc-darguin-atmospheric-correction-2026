@@ -1,0 +1,799 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        1
+      ]
+    ],
+    "date-time": "2026-10-01T05:59:07Z",
+    "timestamp": 1790834347596,
+    "version": "4.1.0"
+  },
+  "reference-count": 53,
+  "publisher": "MDPI AG",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2021,
+            1,
+            19
+          ]
+        ],
+        "date-time": "2021-01-19T00:00:00Z",
+        "timestamp": 1611014400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100013324",
+      "name": "MAVA Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "project \u201cWaders of the Bijag\u00f3s: Securing the ecological integrity of the Bijag\u00f3s archipelago as a key site for waders along the East Atlantic Flyway\u201d"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "project \u201cWaders of the Bijag\u00f3s: Securing the ecological integrity of the Bijag\u00f3s archipelago as a key site for waders along the East Atlantic Flyway\u201d"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100013324",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Project \u201cMigraWebs: Migrants as a seasonal ecological force shaping communities and ecosystem functions in temperate and tropical coastal wetlands\u201d (PTDC/BIA-ECO/28205/2017)"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "Project \u201cMigraWebs: Migrants as a seasonal ecological force shaping communities and ecosystem functions in temperate and tropical coastal wetlands\u201d (PTDC/BIA-ECO/28205/2017)"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Strategic project to CESAM (UIDP/50017/2020 and UIDB/50017/2020)"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "Strategic project to CESAM (UIDP/50017/2020 and UIDB/50017/2020)"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Grant SFRH/BD/131148/2017 to MH"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "Grant SFRH/BD/131148/2017 to MH"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001871",
+      "name": "Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "Contract IF/00694/2015 to TC"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "Contract IF/00694/2015 to TC"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001871",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Remote Sensing"
+  ],
+  "abstract": "<jats:p>Intertidal areas provide key ecosystem services but are declining worldwide. Digital elevation models (DEMs) are important tools to monitor the evolution of such areas. In this study, we aim at (i) estimating the intertidal topography based on an established pixel-wise algorithm, from Sentinel-2 MultiSpectral Instrument scenes, (ii) implementing a set of procedures to improve the quality of such estimation, and (iii) estimating the exposure period of the intertidal area of the Bijag\u00f3s Archipelago, Guinea-Bissau. We first propose a four-parameter logistic regression to estimate intertidal topography. Afterwards, we develop a novel method to estimate tide-stage lags in the area covered by a Sentinel-2 scene to correct for geographical bias in topographic estimation resulting from differences in water height within each image. Our method searches for the minimum differences in height estimates obtained from rising and ebbing tides separately, enabling the estimation of cotidal lines. Tidal-stage differences estimated closely matched those published by official authorities. We re-estimated pixel heights from which we produced a model of intertidal exposure period. We obtained a high correlation between predicted and in-situ measurements of exposure period. We highlight the importance of remote sensing to deliver large-scale intertidal DEM and tide-stage data, with relevance for coastal safety, ecology and biodiversity conservation.</jats:p>",
+  "DOI": "10.3390/rs13020320",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        20
+      ]
+    ],
+    "date-time": "2021-01-20T03:34:25Z",
+    "timestamp": 1611113665000
+  },
+  "page": "320",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 16,
+  "title": [
+    "Using Sentinel-2 Images to Estimate Topography, Tidal-Stage Lags and Exposure Periods over Large Intertidal Areas"
+  ],
+  "prefix": "10.3390",
+  "volume": "13",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0002-7207-3474",
+      "authenticated-orcid": false,
+      "given": "Jos\u00e9 P.",
+      "family": "Granadeiro",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "CESAM, Faculdade de Ci\u00eancias, Universidade de Lisboa, 1749-016 Lisboa, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1772-8367",
+      "authenticated-orcid": false,
+      "given": "Jo\u00e3o",
+      "family": "Belo",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "CESAM, Faculdade de Ci\u00eancias, Universidade de Lisboa, 1749-016 Lisboa, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-3061-5423",
+      "authenticated-orcid": false,
+      "given": "Mohamed",
+      "family": "Henriques",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "CESAM, Faculdade de Ci\u00eancias, Universidade de Lisboa, 1749-016 Lisboa, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-1028-4644",
+      "authenticated-orcid": false,
+      "given": "Jo\u00e3o",
+      "family": "Catal\u00e3o",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "IDL, Faculdade de Ci\u00eancias, Universidade de Lisboa, 1749-016 Lisboa, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4047-9995",
+      "authenticated-orcid": false,
+      "given": "Teresa",
+      "family": "Catry",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "CESAM, Faculdade de Ci\u00eancias, Universidade de Lisboa, 1749-016 Lisboa, Portugal"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        19
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "unstructured": "Rafaelli, D., and Hawkins, S.J. (2012). The shore environment: Major gradients. Intertidal Ecology, Springer Science & Buisness Media."
+    },
+    {
+      "key": "ref_2",
+      "first-page": "1",
+      "article-title": "Land claim and loss of tidal flats in the Yangtze Estuary",
+      "volume": "6",
+      "author": "Chen",
+      "year": "2016",
+      "journal-title": "Sci. Rep."
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Chmura, G.L., Anisfeld, S.C., Cahoon, D.R., and Lynch, J.C. (2003). Global carbon sequestration in tidal, saline wetland soils. Glob. Biogeochem. Cycles, 17.",
+      "DOI": "10.1029/2002GB001917"
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "first-page": "35",
+      "DOI": "10.3354/meps316035",
+      "article-title": "Nutrient release from an exposed intertidal sandflat",
+      "volume": "316",
+      "author": "Billerbeck",
+      "year": "2006",
+      "journal-title": "Mar. Ecol. Prog. Ser."
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Day, J.W., Crump, B.C., Kemp, W.M., and Y\u00e1\u00f1ez-Arancibia, A. (2012). Introduction to Estuarine Ecology. Estuarine Ecology, Springer Science & Buisness Media.",
+      "DOI": "10.1002/9781118412787"
+    },
+    {
+      "key": "ref_6",
+      "doi-asserted-by": "crossref",
+      "first-page": "976",
+      "DOI": "10.1046/j.1365-2664.2001.00652.x",
+      "article-title": "Long-term indirect effects of mechanical cockle-dredging on intertidal bivalve stocks in the Wadden Sea",
+      "volume": "38",
+      "author": "Piersma",
+      "year": "2001",
+      "journal-title": "J. Appl. Ecol."
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "first-page": "222",
+      "DOI": "10.1038/s41586-018-0805-8",
+      "article-title": "The global distribution and trajectory of tidal flats",
+      "volume": "565",
+      "author": "Murray",
+      "year": "2019",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "ref_8",
+      "unstructured": "Hill, N.K., Woodworth, B.K., Phinn, S.R., Murray, N.J., and Fuller, R.A. (2020). Global protected-area coverage and human pressure on tidal flats. Conserv. Biol., 1\u201319."
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ch\u00e9nier, R., Faucher, M.A., and Ahola, R. (2018). Satellite-derived bathymetry for improving Canadian Hydrographic Service charts. ISPRS Int. J. Geo Inf., 7.",
+      "DOI": "10.3390/ijgi7080306"
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "115",
+      "DOI": "10.1016/j.ecss.2019.03.006",
+      "article-title": "Between the tides: Modelling the elevation of Australia\u2019s exposed intertidal zone at continental scale",
+      "volume": "223",
+      "author": "Sagar",
+      "year": "2019",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "first-page": "281",
+      "DOI": "10.1080/01490410802466652",
+      "article-title": "Automated derivation of bathymetric information from multi-spectral satellite imagery using a non-linear inversion model",
+      "volume": "31",
+      "author": "Su",
+      "year": "2008",
+      "journal-title": "Mar. Geod."
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "first-page": "1019",
+      "DOI": "10.2112/JCOASTRES-D-11-00017.1",
+      "article-title": "Beach profiling and LIDAR bathymetry: An overview with case studies",
+      "volume": "27",
+      "author": "Klemas",
+      "year": "2011",
+      "journal-title": "J. Coast. Res."
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "first-page": "942",
+      "DOI": "10.2112/JCOASTRES-D-13-00192.1",
+      "article-title": "Challenges in building coastal digital elevation models",
+      "volume": "30",
+      "author": "Eakins",
+      "year": "2014",
+      "journal-title": "J. Coast. Res."
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "92",
+      "DOI": "10.1016/j.isprsjprs.2017.07.008",
+      "article-title": "Reconstruction of time-varying tidal flat topography using optical remote sensing imageries",
+      "volume": "131",
+      "author": "Tseng",
+      "year": "2017",
+      "journal-title": "ISPRS J. Photogramm. Remote Sens."
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.geomorph.2017.02.002",
+      "article-title": "Application of marine radar to monitoring seasonal and event-based changes in intertidal morphology",
+      "volume": "285",
+      "author": "Bird",
+      "year": "2017",
+      "journal-title": "Geomorphology"
+    },
+    {
+      "key": "ref_16",
+      "unstructured": "Silva, A.N., Taborda, R., Catal\u00e3o, J., and Freire, P. (2009). DTM extraction using video-monitoring techniques: Application to a fetch limited beach. J. Coast. Res., 203\u2013207."
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "first-page": "932",
+      "DOI": "10.2112/04-0172.1",
+      "article-title": "Erosion hazard vulnerability of US coastal counties",
+      "volume": "21",
+      "author": "Boruff",
+      "year": "2005",
+      "journal-title": "J. Coast. Res."
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "378",
+      "DOI": "10.2112/SI70-064.1",
+      "article-title": "Assessment of the Sensitivity of Salamina (Saronic Gulf) and Elafonissos (Lakonic Gulf) islands to Sea-level Rise",
+      "volume": "70",
+      "author": "Karymbalis",
+      "year": "2014",
+      "journal-title": "J. Coast. Res."
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "599",
+      "DOI": "10.1007/s11852-019-00690-2",
+      "article-title": "Tidal inundation modeling within GIS",
+      "volume": "23",
+      "author": "Hickey",
+      "year": "2019",
+      "journal-title": "J. Coast. Conserv."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "227",
+      "DOI": "10.1016/j.seares.2004.01.005",
+      "article-title": "Modelling the distribution of shorebirds in estuarine areas using generalised additive models",
+      "volume": "52",
+      "author": "Granadeiro",
+      "year": "2004",
+      "journal-title": "J. Sea Res."
+    },
+    {
+      "key": "ref_21",
+      "first-page": "236",
+      "article-title": "Intertidal zonation of marine invertebrates in sand and mud",
+      "volume": "79",
+      "author": "Peterson",
+      "year": "1991",
+      "journal-title": "Am. Sci."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "first-page": "1243",
+      "DOI": "10.1109/36.536540",
+      "article-title": "Accurate and efficient determination of the shoreline in ERS-1 SAR images",
+      "volume": "34",
+      "author": "Mason",
+      "year": "1996",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "2855",
+      "DOI": "10.1080/01431161.2018.1533660",
+      "article-title": "Assessment of empirical algorithms for bathymetry extraction using Sentinel-2 data",
+      "volume": "40",
+      "author": "Casal",
+      "year": "2019",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1016/j.rse.2017.08.033",
+      "article-title": "Sentinel-2 MultiSpectral Instrument (MSI) data processing for aquatic science applications: Demonstrations and validations",
+      "volume": "201",
+      "author": "Pahlevan",
+      "year": "2017",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "first-page": "153",
+      "DOI": "10.1016/j.rse.2017.04.009",
+      "article-title": "Extracting the intertidal extent and topography of the Australian coastline from a 28 year time series of Landsat observations",
+      "volume": "195",
+      "author": "Sagar",
+      "year": "2017",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "1066",
+      "DOI": "10.1109/TGRS.2016.2619067",
+      "article-title": "Multitemporal Backscattering Logistic Analysis for Intertidal Bathymetry",
+      "volume": "55",
+      "author": "Catalao",
+      "year": "2017",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bu\u00e9, I., Catal\u00e3o, J., and Semedo, \u00c1. (2020). Intertidal bathymetry extraction with multispectral images: A logistic regression approach. Remote Sens., 12.",
+      "DOI": "10.3390/rs12081311"
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "first-page": "183",
+      "DOI": "10.1175/1520-0426(2002)019<0183:EIMOBO>2.0.CO;2",
+      "article-title": "Efficient inverse modeling of barotropic ocean tides",
+      "volume": "19",
+      "author": "Egbert",
+      "year": "2002",
+      "journal-title": "J. Atmos. Ocean. Technol."
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "first-page": "3417",
+      "DOI": "10.3390/rs4113417",
+      "article-title": "Continental scale mapping of tidal flats across east Asia using the landsat archive",
+      "volume": "4",
+      "author": "Murray",
+      "year": "2012",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "ref_30",
+      "unstructured": "Cuq, F. (2001). Un syst\u00e8me d\u2019information g\u00e9ographique pour l\u2019aide \u00e0 la gestion int\u00e9gr\u00e9e de l\u2019archipel des Bijagos (Guin\u00e9e-Bissau). Notice de la Carte, Constitution et Exploitation du SIG, Brest G\u00e9osyst\u00e8mes."
+    },
+    {
+      "key": "ref_31",
+      "doi-asserted-by": "crossref",
+      "first-page": "307",
+      "DOI": "10.1007/s10745-017-9907-4",
+      "article-title": "The Social Dynamics of Mangrove Forests in Guinea-Bissau, West Africa",
+      "volume": "45",
+      "author": "Temudo",
+      "year": "2017",
+      "journal-title": "Hum. Ecol."
+    },
+    {
+      "key": "ref_32",
+      "unstructured": "Instituto Hidrogr\u00e1fico (2020). Tabelas de Mar\u00e9s, Vol II Pa\u00edses Africanos de L\u00edngua Oficial Portuguesa e Macau; Instituto Hidrogr\u00e1fico."
+    },
+    {
+      "key": "ref_33",
+      "unstructured": "European Space Agency (2015). Sentinel-2 User Handbook, ESA. Available online: https://sentinel.esa.int/documents/247904/685211/Sentinel-2_User_Handbook."
+    },
+    {
+      "key": "ref_34",
+      "unstructured": "European Space Agency (2020, October 29). Sentinel-2 MSI Technical Guide. Available online: https://earth.esa.int/web/sentinel/technical-guides/sentinel-2-msi."
+    },
+    {
+      "key": "ref_35",
+      "doi-asserted-by": "crossref",
+      "first-page": "598",
+      "DOI": "10.1016/j.rse.2018.07.014",
+      "article-title": "Coral reef applications of Sentinel-2: Coverage, characteristics, bathymetry and benthic mapping with comparison to Landsat 8",
+      "volume": "216",
+      "author": "Hedley",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_36",
+      "doi-asserted-by": "crossref",
+      "first-page": "586",
+      "DOI": "10.1016/j.rse.2018.07.015",
+      "article-title": "Atmospheric correction of metre-scale optical satellite data for inland and coastal water applications",
+      "volume": "216",
+      "author": "Vanhellemont",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_37",
+      "unstructured": "Royal Belgium Institute of Natural Sciences (2020, October 29). ACOLITE Python User Manual. Available online: https://odnature.naturalsciences.be/remsem/software-and-data/acolite."
+    },
+    {
+      "key": "ref_38",
+      "doi-asserted-by": "crossref",
+      "first-page": "105",
+      "DOI": "10.1016/j.rse.2014.01.009",
+      "article-title": "Turbid wakes associated with offshore wind turbines observed with Landsat 8",
+      "volume": "145",
+      "author": "Vanhellemont",
+      "year": "2014",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_39",
+      "doi-asserted-by": "crossref",
+      "first-page": "89",
+      "DOI": "10.1016/j.rse.2015.02.007",
+      "article-title": "Advantages of high quality SWIR bands for ocean colour processing: Examples from Landsat-8",
+      "volume": "161",
+      "author": "Vanhellemont",
+      "year": "2015",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_40",
+      "first-page": "9",
+      "article-title": "Acolite for Sentinel-2: Aquatic applications of MSI imagery",
+      "volume": "SP-740",
+      "author": "Vanhellemont",
+      "year": "2016",
+      "journal-title": "ESA Spec. Publ."
+    },
+    {
+      "key": "ref_41",
+      "unstructured": "R Core Team (2020). R: A Language and Environment for Statistical Computing, R Foundation for Statistical Computing. Available online: https://www.R-project.org/."
+    },
+    {
+      "key": "ref_42",
+      "unstructured": "Hijmans, R.J. (2020, June 20). Raster: Geographic Data Analysis and Modeling. Available online: https://CRAN.R-project.org/package=raster."
+    },
+    {
+      "key": "ref_43",
+      "unstructured": "Legendre, P. (2020, June 20). lmodel2: Model II Regression. Available online: https://CRAN.R-project.org/package=lmodel2."
+    },
+    {
+      "key": "ref_44",
+      "doi-asserted-by": "crossref",
+      "unstructured": "McFeeters, S.K. (1996). The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features. Int. J. Remote Sens., 1425\u20131432.",
+      "DOI": "10.1080/01431169608948714"
+    },
+    {
+      "key": "ref_45",
+      "unstructured": "Commo, F., and Bot, B.M. (2020, June 20). nplr: N-Parameter Logistic Regression. Available online: https://CRAN.R-project.org/package=lmodel2."
+    },
+    {
+      "key": "ref_46",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wood, S.N. (2017). R, Generalized Additive Models: An Introduction with R, Chapman and Hall/CRC. [2nd ed.].",
+      "DOI": "10.1201/9781315370279"
+    },
+    {
+      "key": "ref_47",
+      "unstructured": "Wang, M. (2010). Atmospheric Correction for Remotely-Sensed Ocean Colour Products, International Ocean Colour Coordinating Group (IOCCG). Technical Report."
+    },
+    {
+      "key": "ref_48",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Gordon, H.R., and Morel, A.Y. (1983). Remote assessment of Ocean Color for Interpretation of Satellite Visible Imagery. A Review Lecture Notes ib Coastal and Estuarine Studies, Springer.",
+      "DOI": "10.1029/LN004"
+    },
+    {
+      "key": "ref_49",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Pereira-Sandoval, M., Ruescas, A., Urrego, P., Ruiz-Verd\u00fa, A., Delegido, J., Tenjo, C., Soria-Perpiny\u00e0, X., Vicente, E., Soria, J., and Moreno, J. (2019). Evaluation of atmospheric correction algorithms over spanish inland waters for sentinel-2 multi spectral imagery data. Remote Sens., 11.",
+      "DOI": "10.3390/rs11121469"
+    },
+    {
+      "key": "ref_50",
+      "doi-asserted-by": "crossref",
+      "first-page": "551",
+      "DOI": "10.1016/j.rse.2018.11.007",
+      "article-title": "Near real-time agriculture monitoring at national scale at parcel resolution: Performance assessment of the Sen2-Agri automated system in various cropping systems around the world",
+      "volume": "221",
+      "author": "Defourny",
+      "year": "2019",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_51",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Navarro, A., Catalao, J., and Calvao, J. (2019). Assessing the use of Sentinel-2 time series data for monitoring Cork Oak decline in Portugal. Remote Sens., 11.",
+      "DOI": "10.20944/preprints201909.0316.v1"
+    },
+    {
+      "key": "ref_52",
+      "doi-asserted-by": "crossref",
+      "first-page": "84",
+      "DOI": "10.1016/j.coastaleng.2015.09.009",
+      "article-title": "A temporal waterline approach to mapping intertidal areas using X-band marine radar",
+      "volume": "107",
+      "author": "Bell",
+      "year": "2016",
+      "journal-title": "Coast. Eng."
+    },
+    {
+      "key": "ref_53",
+      "doi-asserted-by": "crossref",
+      "first-page": "6138",
+      "DOI": "10.3390/rs5116138",
+      "article-title": "Quantitative analysis of the waterline method for topographical mapping of tidal flats: A case study in the dongsha sandbank, China",
+      "volume": "5",
+      "author": "Liu",
+      "year": "2013",
+      "journal-title": "Remote Sens."
+    }
+  ],
+  "container-title": [
+    "Remote Sensing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2072-4292/13/2/320/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        11
+      ]
+    ],
+    "date-time": "2025-10-11T05:12:41Z",
+    "timestamp": 1760159561000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2072-4292/13/2/320"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        19
+      ]
+    ]
+  },
+  "references-count": 53,
+  "journal-issue": {
+    "issue": "2",
+    "published-online": {
+      "date-parts": [
+        [
+          2021,
+          1
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "rs13020320"
+  ],
+  "URL": "https://doi.org/10.3390/rs13020320",
+  "relation": {},
+  "ISSN": [
+    "2072-4292"
+  ],
+  "issn-type": [
+    {
+      "value": "2072-4292",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2021,
+        1,
+        19
+      ]
+    ]
+  }
+}

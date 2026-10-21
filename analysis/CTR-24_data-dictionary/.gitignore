@@ -1,0 +1,4 @@
+/.quarto/
+**/*.quarto_ipynb
+# Full captured headers are distributed in the downloadable metadata bundle.
+/outputs/headers.json

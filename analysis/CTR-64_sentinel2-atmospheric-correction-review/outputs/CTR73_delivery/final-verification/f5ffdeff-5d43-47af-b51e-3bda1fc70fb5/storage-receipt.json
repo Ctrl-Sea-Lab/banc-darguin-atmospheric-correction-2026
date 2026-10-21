@@ -1,0 +1,61 @@
+{
+  "directory": "analysis/CTR-64_sentinel2-atmospheric-correction-review/outputs/CTR73_delivery/final-verification/f5ffdeff-5d43-47af-b51e-3bda1fc70fb5",
+  "files": [
+    {
+      "path": "CTR54-root-inventory.json",
+      "bytes": 128356,
+      "sha256": "85ea01022657dd7c33353f740557e10e61a6bae17c4013419070a12350923db0"
+    },
+    {
+      "path": "CTR54-prior-preservation.json",
+      "bytes": 2086,
+      "sha256": "0b23693ebad8518b2d6912a5c683819e0285c76247d74b7e0618d68d07076d92"
+    },
+    {
+      "path": "CTR54-assets.json",
+      "bytes": 3396,
+      "sha256": "a908b0fd10cd5f0547f34434d394de8e9cec606d63d45e99f847eb6fadfa5bfd"
+    },
+    {
+      "path": "CTR54-exact-revision.json",
+      "bytes": 92575,
+      "sha256": "27f0c49fd6ae344ea07cbe86546d4e99514136820d85c95391a7ed1f0bb905cc"
+    },
+    {
+      "path": "CTR64-assets.json",
+      "bytes": 2763,
+      "sha256": "e6bdce36c2c09fea569fc449fad928297addd10ca4c4be9d898282609aff5bfa"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 5693,
+      "sha256": "b2c71c477c0e225fe9399cc4f36b5759a2d686e6211f36d771115127a56eabfd"
+    },
+    {
+      "path": "CTR64-exact-revision.json",
+      "bytes": 27188,
+      "sha256": "c0f8e07ffd13e18fc5ef8e4a67736e60cbae98a2cc722549e6e46b10b9dd4733"
+    },
+    {
+      "path": "CTR64-root-inventory.json",
+      "bytes": 35827,
+      "sha256": "60d1863dba66bfc26c70f74729e73baad79bd6d2960148d8da783a51e600d40c"
+    },
+    {
+      "path": "tracked-and-state-comparison.json",
+      "bytes": 267509,
+      "sha256": "3f0cbb987871550273fe4d0fcdc176b7cf472be0c5ca2032372b287fe31a023b"
+    },
+    {
+      "path": "delivery-manifest-final.json",
+      "bytes": 9072,
+      "sha256": "fd401093ad9c283acc97c8ae42bab6ef729ae7d31e223d021514cfc436f79821"
+    },
+    {
+      "path": "readiness.json",
+      "bytes": 5275,
+      "sha256": "85b60efb1279d25a3353220f343ad808d8b78d4a7d18fa1050409b976094df54"
+    }
+  ],
+  "note": "Archive and receipt are additions to the measured investigation inventory; no selected scientific source/destination file was edited."
+}

@@ -1,0 +1,72 @@
+{
+  "directory": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences",
+  "html_local_assets": [
+    {
+      "tag": "a",
+      "attribute": "href",
+      "url": "figures/generated/paired_reflectance_maps_v2.png",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2.png",
+      "exists": true
+    },
+    {
+      "tag": "a",
+      "attribute": "href",
+      "url": "figures/generated/paired_reflectance_maps_v2.pdf",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2.pdf",
+      "exists": true
+    },
+    {
+      "tag": "a",
+      "attribute": "href",
+      "url": "figures/generated/ctr56_temporal_gam.pdf",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/ctr56_temporal_gam.pdf",
+      "exists": true
+    }
+  ],
+  "source_local_assets": [
+    {
+      "source": "report.qmd",
+      "url": "figures/generated/paired_reflectance_maps_v2_preview.png",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2_preview.png",
+      "exists": true
+    },
+    {
+      "source": "report.qmd",
+      "url": "figures/generated/paired_reflectance_maps_v2.png",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2.png",
+      "exists": true
+    },
+    {
+      "source": "report.qmd",
+      "url": "figures/generated/paired_reflectance_maps_v2.pdf",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_v2.pdf",
+      "exists": true
+    },
+    {
+      "source": "report.qmd",
+      "url": "figures/generated/ctr56_temporal_gam.png",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/ctr56_temporal_gam.png",
+      "exists": true
+    },
+    {
+      "source": "report.qmd",
+      "url": "figures/generated/ctr56_temporal_gam.pdf",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/ctr56_temporal_gam.pdf",
+      "exists": true
+    },
+    {
+      "source": "report.qmd",
+      "url": "outputs/ctr57-summary-table.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/outputs/ctr57-summary-table.md",
+      "exists": true
+    },
+    {
+      "source": "report.qmd",
+      "url": "outputs/ctr57-contrast-table.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/outputs/ctr57-contrast-table.md",
+      "exists": true
+    }
+  ],
+  "missing": [],
+  "html_resources_embedded": true
+}

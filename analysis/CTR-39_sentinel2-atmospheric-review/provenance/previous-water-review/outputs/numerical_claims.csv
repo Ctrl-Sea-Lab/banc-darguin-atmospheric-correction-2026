@@ -1,0 +1,9 @@
+claim_id,citation_key,claim,source_location,qualification
+N01,Warren2019,Six processors compared,Methods and Conclusions,Historical implementations including exponential ACOLITE
+N02,Pahlevan2021,Eight processors and more than 1000 radiometric matchups,Abstract and Methods,Mixed sensors and coastal/inland validation populations
+N03,Bui2022,28 potential individual matchups,Abstract and Table 4,Valid observations differ by method and band; not 28 valid matchups per processor
+N04,Lathif2025,75 potential matchups,Results III-A p. 1179,Unequal valid subsets; does not imply 75 common matchups
+N05,Wu2024,212 nearshore matchups within 200 m and average RMSE reduction 16.7 percent,Publisher Results 3.1 Table 3 and Conclusion,Pooled MSI and OLI bands and three processors; no universal Sentinel-2-only improvement
+N06,Castagna2025,Clear-sky MSI visible mean absolute percentage deviation (MAPD) 14–31 percent except 443 nm at 70 percent,Evaluation methods and clear-sky MSI results (PDF pp. 9 and 15),Belgian inland-water validation; not all visible bands or marine accuracy
+N07,Muller2026,Framework described as v2-2017,Introduction,Publication year 2026 does not imply a 2026 MSI network release
+N08,library_summary,17 references 15 local PDFs 16 full-text inspected 1 abstract-only,outputs/library_summary.json and literature/references_index.csv,Inventory counts; not ecological or processor-performance results

@@ -1,0 +1,8 @@
+claim_id,claim,claim_type,source,locator,limitation
+Q1,"27 library references; 17 retained originals, nine new articles, one technical webpage",generated library counts,outputs/source_records.json; outputs/library_summary.json,build_library.py,"Counts describe this library, not the full literature."
+Q2,24 identity-checked local PDFs,generated library count,outputs/source_records.json,pdf_path and pdf_sha256 fields,HTML access is separate; abstract-only source retained from original library.
+S1,Zoffoli atmospheric validation used two scenes,literature method description,Zoffoli2020,§2.3.1 PDF p. 6,Do not pool broader seagrass algorithm validation as sediment radiometric validation.
+S2,Daggers used Sen2Cor v2.2; Jacobs used v2.8,historical software descriptions,Daggers2020; Jacobs2021,PDF p. 3; PDF pp. 8–10,Not current-version performance claims.
+S3,Surface reflectance dimensionless; water-leaving Rrs units inverse steradians,physical quantity definitions,MainKnorn2017; Muller2026,Processor descriptions,Quantities are not interchangeable.
+S4,Band support differs across 10/20 m products,technical specification,CopernicusS2Products,Level-2A Products resolution lists,"Resampling creates a new grid, not finer native observations."
+P1,No local numerical processor-performance result is reported,scope and recommendation,User comment; scope_revision.md,Revised report,All validation design steps are proposed.

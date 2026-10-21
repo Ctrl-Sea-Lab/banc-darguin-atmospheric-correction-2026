@@ -1,0 +1,144 @@
+---
+title: "CTR-59 — Independent scientific review"
+subtitle: "Paired ACOLITE–Sen2Cor reflectance comparison, CTR-54"
+author: "Karl Popper · Senior Scientific Reviewer"
+date: "2026-10-20"
+format:
+  html:
+    embed-resources: true
+    toc: true
+    theme: cosmo
+---
+
+**Take-home message:** **Accept** the submitted revision for PI consideration as a descriptive comparison of the supplied reflectance products. No unresolved critical or major concern was identified. This recommendation is not PI approval.
+
+**Meaningful results:** Independent checks support predominantly negative ACOLITE minus Sen2Cor differences on the 22 matched acquisitions, the reported spatial and temporal summaries, descriptive GAM calculations, and revised map presentation.
+
+**Issues and limitations:** The comparison cannot determine accuracy, ecological change, a causal mechanism, a reliable trend, or recurring seasonality. Two acquisitions lack ACOLITE quality flags; changing coverage, influential dates, irregular sampling and mixed habitats constrain inference. Verification was bounded, not a full reprocessing of all raw inputs.
+
+**Implications and next steps:** Charles may submit this exact candidate and review to the PI. Changes require reassessment of affected files and claims. Scientific approval, manuscript integration, merge and publication remain separate decisions.
+
+## A. Review identification
+
+- **Project/repository:** Banc d’Arguin atmospheric correction 2026, `Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026`.
+- **Review task:** [CTR-59](/CTR/issues/CTR-59), issue `a4873b8e-3d1d-4dd8-a554-537e0e41000e`; investigation CTR-54; prerequisite [CTR-58](/CTR/issues/CTR-58).
+- **Exact candidate:** `7b9232da45c68c82c5f996b37357f15fb7b9ed55`, [draft PR #10](https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026/pull/10). This review does not cover subsequent branch changes.
+- **Investigation:** `analysis/CTR-54_paired-reflectance-differences/`.
+- **Date:** 20 October 2026.
+- **Independent reviewer:** Karl Popper; no substantial authorship of the submitted analysis, figures or report. Verification files are isolated under `outputs/CTR59_review/` on branch `ctr-59-independent-review`.
+- **Contributors:** Roger Tomlinson (geospatial analysis/maps), Thomas Bayes (statistics), Rachel Carson (report), Alan Turing (execution/package).
+- **Reviewed materials:** report source/HTML, methods, table contract, README and handoffs; pair/inventory metadata; input/output manifests; raster products; date/domain summaries; model predictions, contrasts and diagnostics; processing/plotting code; bibliography; environment locks; CTR-58 delivery evidence and archive.
+
+### Exact artifact identity
+
+| Candidate file | SHA-256 |
+|---|---|
+| `report.qmd` | `b60915cce69a89f34c50c09d794e023425149c79e5c9faeeeea7963e8ac8eaff` |
+| `report.html` | `a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84` |
+| Full-resolution map PNG | `ca9d6e599cd98e875bc04e4602eece1b480d222f721658e654afbd53ecaae0be` |
+| Displayed map preview PNG | `8f75cb51ff40d42281b782166e38bb3270a1df34f2936c4cc906ed4e76182a66` |
+| Temporal GAM PNG | `2b820b0b477e72c33324c0550e16cef2febbaf27b5873e055d41734ff6793aef` |
+| Input-file manifest | `e0b207ea8d92ea0058b1db9d9a970fee8041f5330541d0b607f4898758b30a31` |
+
+## B. Overall assessment
+
+The question and design are appropriate for a paired descriptive comparison. Acquisition, sensor, orbit and tile matching avoids interpreting directory counts as replicate counts. Differences use dimensionless surface reflectance and the requested B2/B3/B4/B8 bands. Integer-aligned native grids avoid reflectance interpolation; nearest-neighbour transfer of the 20 m quality layer does not create finer quality information or prove mask accuracy.
+
+Temporal pixel summaries and spatial acquisition summaries are correctly distinguished. Acquisitions are the temporal units; millions of pixels are not treated as independent temporal replicates. The domain mixes land, intertidal and water cells. The fixed complete-date core is a conditional subset, not a random sample of the rectangle.
+
+The Gaussian GAMs are defensible as descriptive smooths. Equal acquisition weights avoid treating pixel counts as inferential precision. Log SD preserves positivity; exponentiated fits and covariance intervals are correctly described. Residual departures, influential observations, sensor/date confounding and irregular spacing limit inference. The report maintains these limits and does not equate convergence or intervals containing zero with proof of no change.
+
+The revised maps satisfy the larger actual display, fixed SD color mapping, distinct nodata and saturation disclosure requirements. Scientific raster values were preserved.
+
+## C. Strengths
+
+1. Explicit pairing, deterministic duplicate handling, sensor-specific band mapping and metadata-derived offsets.
+2. Correct exclusion of finite netCDF fill values without a generic positivity filter that would remove legitimate negative reflectance.
+3. Observation-count rasters and coverage/mask sensitivities, with overlapping domains and conditional selection acknowledged.
+4. Separation of temporal SD, spatial SD and fitted-quantity uncertainty.
+5. Influence, basis and missing-quality diagnostics; all primary observations retained.
+6. Exact manifests, reproducible compact models, reproducible standalone HTML and full-resolution figure access.
+
+## D. Critical and major concerns
+
+**None identified within the reviewed scope.** This does not establish full upstream atmospheric-correction reproducibility, independent mask accuracy, or stronger inference than the report makes.
+
+Missing flags on 7 and 27 March 2026 remain a limitation. Omitting those dates also changes temporal support, so the sensitivity cannot isolate a flag-availability effect. The report states this correctly. The unrecovered original ACOLITE processor commit constrains reconstruction of the upstream correction but does not invalidate comparison of the supplied hashed products.
+
+## E. Minor and editorial concerns
+
+**E1 — Editorial, non-blocking: historical workflow status.** Location: `report.qmd`, “Internal review and PI approval status.” It describes CTR-58 execution verification as pending, whereas the completed exact-candidate handoff is available. This is a status-record inconsistency, not a scientific discrepancy. Preserve the reviewed report and associate the completed CTR-58 handoff and this review with the PI submission. If the author updates the report, record its new hash and check the limited diff. Never replace “PI approval pending” without authenticated exact-revision evidence.
+
+No required numerical, methodological or interpretive correction is outstanding. No additional significance test or removal of inconclusive results is required.
+
+## F. Reproducibility verification
+
+### Checks executed independently
+
+The candidate was checked out separately. Actual-path readiness returned `ready`, `affected: false` for the analysis-only review directory. Protected files, candidate tracked files and original data were not edited. The canonical environment check passed; both lockfiles and `pyproject.toml` match the project environment.
+
+| Independent execution | Result |
+|---|---|
+| Direct product/tile XML and ACOLITE B2 metadata for all 22 pairs | Sensing times, product identity, sensor/tile association, EPSG:32628, native grid, quantification and offsets verified |
+| Inventory paths and duplicate ranking | 24 ACOLITE entries, 48 Sen2Cor candidates, 22 unique selected pairs; two unmatched ACOLITE dates excluded explicitly |
+| 32 source-image patches, 64 × 64 cells each, four bands and four dates | 131,072 tested band-cell observations: 99,327 retained, 31,745 excluded; masks identical; stored Float32 differences reproduced exactly |
+| Two 16 × 16 temporal patches per band using all 22 dates | 24 count/median/sample-SD block comparisons; nodata patterns identical; maximum difference 1.86265 × 10⁻⁹ |
+| Full-resolution temporal median, SD and count rasters | 12 raster hashes verified; all support-count bins and saturation counts reconciled |
+| Full primary and complete-date-core spatial summaries, 6 January 2025 and 27 March 2026, all bands | 16 summaries reproduced; counts exact, median/sample SD within 10⁻¹²; eight per-date raster hashes verified |
+| Eight independently refitted primary GAMs, 401 predictions each | Curves/pointwise intervals agree within 7.98 × 10⁻¹⁷; endpoint contrasts/intervals within 4.22 × 10⁻¹⁵ |
+| Independently executed SD color-index calculation | 0 → `#2166AC`; 0.01 → `#FFFFFF`; 0.02 and 0.03 → `#B2182B` |
+| Browser measurements at 1440, 1920 and 390 pixel viewports | Desktop map widths 1376/1600 CSS pixels versus 798.984375 before; mobile 366; no candidate page overflow |
+| Isolated standalone render with investigation config and copied canonical render helper | Passed; HTML SHA-256 identical to candidate |
+| Portable ZIP integrity and byte comparisons | Passed; packaged HTML, full map PNG/PDF and temporal PNG equal candidate files |
+| Provenance | 21 consumed files equal hashes and exact upstream Git bytes; 142 raw sizes/mtimes unchanged; one fresh B8 raw hash matches original manifest |
+
+Source patches cover 6 January 2025, influential 22 March 2025 and both March 2026 dates without flags, at boundary and interior locations. They were selected independently of the authors’ published check points. Float32 rounding explains tiny temporal differences; the predetermined comparison tolerance was 2 × 10⁻⁷.
+
+### SD saturation independently reconciled
+
+The denominator is **7,309,566 finite valid SD cells per band**, excluding nodata. Source maxima exceed 0.02: numerical rasters were not clipped to the display limit.
+
+| Band | Cells above 0.02 | Percentage | Maximum SD |
+|---|---:|---:|---:|
+| B2 | 326,652 | 4.468829% | 0.0671850 |
+| B3 | 866,286 | 11.851401% | 0.0635699 |
+| B4 | 1,110,413 | 15.191230% | 0.0620862 |
+| B8 | 1,039,886 | 14.226371% | 0.0487827 |
+
+These match the rounded caption percentages. Visual inspection of the browser screenshot confirms eight panels in the requested order, compact legends, upper red extension, gray nodata and signed zero-centered median mapping. Geometry preserves the extent/aspect ratio; disclosed edge-inclusive display sampling does not alter numerical products. The two-panel temporal figure was inspected. Its code passes all 22 values per band to each panel without filtering or clipping, although nearby symbols can overlap.
+
+### Execution evidence and limits
+
+Reviewer scripts: `scripts/independent_checks.py`, `scripts/independent_models.R`, `scripts/display_check.py`. Logs, JSON checks, R session, browser measurements/screenshots, model/color tables, render results and provenance comparisons accompany this report. Commands are recorded in `commands.md`.
+
+The initial readiness wrapper attempted a frozen environment restore in the new worktree. That unnecessary restore was stopped; scientific verification used the canonical environment. No lockfile or dependency specification changed.
+
+**Author evidence inspected but not independently repeated:** full raster processing, complete 22.24 GB raw hash pass, all 113-raster checks, 48-model/176-influence-refit rerun, and all alternative-mask full-resolution summaries. This reviewer ran the eight primary models and bounded checks above. Sizes/mtimes are not fresh cryptographic proof for unsampled raw files. Remote CI and initialization acceptance were not adjudicated; neither is scientific evidence.
+
+### Literature verification
+
+All six primary documentation sources were accessed. The decoding equation is supported by [Copernicus products](https://sentiwiki.copernicus.eu/web/s2-products); class identities/resolution by [Copernicus processing](https://sentiwiki.copernicus.eu/web/s2-processing); and the fill constant by [Unidata](https://docs.unidata.ucar.edu/netcdf-c/current/netcdf_8h.html). Current [ACOLITE flag source](https://raw.githubusercontent.com/acolite/acolite/main/acolite/acolite/acolite_flags.py) supports the stated bitmask interpretation, while remaining distinct from the unrecovered historical producer revision. [mgcv GAM](https://www.stat.ethz.ch/R-manual/R-devel/library/mgcv/html/gam.html) and [prediction](https://www.stat.ethz.ch/R-manual/R-devel/library/mgcv/html/predict.gam.html) documentation support the fitting and smoothing-uncertainty calculations. These sources do not validate comparative processor accuracy; no such claim is made.
+
+## G. Claims and evidence
+
+| Claim | Assessment | Evidence and boundary |
+|---|---|---|
+| ACOLITE is lower on most observed acquisitions | Supported descriptively | Negative medians on 19/22 dates in visible bands, 21/22 in B8; across-date medians independently reproduced: −0.00961854, −0.00923551, −0.00751039, −0.00934927 |
+| Differences persist with fixed coverage | Supported for supplied complete-date core | Code, sensitivity tables and selected full-core summaries agree; core selection does not remove quality/habitat bias |
+| Maps show pixel temporal median/sample SD | Supported within audited scope | Source/mask patches, all-date temporal blocks, full support histograms and raster checks |
+| Curves and endpoint summaries describe observed series | Supported as working-model descriptions | Primary refits/covariance calculations reproduce; intervals do not establish temporal significance |
+| Coverage alone does not explain all variation | Qualified support | Similar fixed-core curves; influential dates and mask sensitivity disclosed; confounders not fully separated |
+| Accuracy ranking, ecological mechanism, recurring seasonality | Unsupported and appropriately not claimed | No independent reference, causal separation, habitat-specific design or repeated seasonal sampling |
+| Revised map preserves numerical evidence | Supported | Upstream byte comparisons, unchanged raster hashes, colors/saturation counts and browser measurements |
+
+## H. Final recommendation
+
+**Accept.** The methods, bounded independent reproduction and cautious interpretations support the descriptive comparison at commit `7b9232da45c68c82c5f996b37357f15fb7b9ed55`. No critical or major issue remains identified; E1 is editorial and non-blocking.
+
+This recommendation permits submission for PI consideration. It grants no PI scientific approval, manuscript integration, merge or publication authority.
+
+## I. Conditions for reconsideration
+
+No substantive correction is required for this candidate. Re-review is required for changes to inputs, pairing, masks, decoding, band mapping, summaries, models, scientific interpretation or figure mapping. A status-only correction requires an exact diff and new artifact hashes; this review must not automatically be applied to later files.
+
+Stronger accuracy, ecological, causal, habitat-specific or seasonal conclusions require new evidence and a suitable design. Charles owns follow-up and exact-revision PI submission. Preserve this review with the candidate and upstream evidence.

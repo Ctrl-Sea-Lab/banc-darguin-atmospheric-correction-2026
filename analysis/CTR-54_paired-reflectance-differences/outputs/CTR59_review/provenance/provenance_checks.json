@@ -1,0 +1,29 @@
+[
+  {
+    "check": "exact_upstream_handoff_bytes",
+    "files": 21
+  },
+  {
+    "check": "canonical_environment_locks_identical"
+  },
+  {
+    "check": "inventory_paths_and_duplicate_rank",
+    "acolite": 24,
+    "sen2cor": 48,
+    "paired": 22,
+    "ac_exclusions": [
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-02-15",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-10-13"
+    ]
+  },
+  {
+    "check": "raw_file_sizes_mtimes",
+    "files": 142,
+    "limitation": "Not a full raw-input rehash"
+  },
+  {
+    "check": "new_raw_hash",
+    "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_833.tif",
+    "sha256": "a701722d9bc4b768bd0d5fd9980025f0c007f7c2433bef9764b923fe01cbbd9a"
+  }
+]

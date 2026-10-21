@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "input_commit": "51eeaf86353e895d18ee8f0747642d45d612909e",
+  "branch": "ctr-43-march-numerics",
+  "tracked_modifications": [],
+  "old_ctr27_files_preserved": 113,
+  "unrelated_ctr39_files_preserved": 60,
+  "environment_check": "passed; no environment changes; normalizePath warning about nonexistent runtime home did not prevent project consistency check",
+  "sync_gate": "analysis-only verify-ready returned ready for all ctr43 target directories",
+  "preflight": "exit 2; existing untracked CTR39 files; no cleanup or bypass; local commit handoff only",
+  "development_notes": "Initial R verifier parse error corrected; final 212 checks pass.",
+  "files_sha256": {
+    "outputs/ctr43_numerical_delivery.md": "489d0c811be0a6125bbe31e2c6344387722f25f9f21a55f8f36cf7cd2d6d7829",
+    "provenance/ctr43_R_verification.txt": "c3d5d43a56cd8578b591144e490bef8e8e97c501eb4fdafa75a29171233bc098",
+    "provenance/ctr43_computation.json": "155bacbe3f0e6e5cb7083a95fa090b217836dad6cd1d4b4320a4865f18902636",
+    "provenance/ctr43_input_audit.json": "5a99b1ae46e03f1351c414f6e5376839c931356349537b43743d1903f185ef17",
+    "scripts/ctr43_prepare.py": "a2b7f5c0c98d1ff41b3231f13795779ccde0a8feb0707142630cc2f2512f5f97",
+    "scripts/ctr43_verify.R": "0b7ffe50b3e730ca048e8d3e419af0b1ea1ceea51b4367417a2f5ec0c37cc22a",
+    "tables/ctr43_band_availability.csv": "c770f10437ca29c6b0fd56d5c54813997c83ed6dcd693b751740ab9c200bb0be",
+    "tables/ctr43_comparison_long.csv": "512aad90dafa8558a41397e244e7153f650f574a3813238bfaf568fe64a56a27",
+    "tables/ctr43_pair_masks.csv": "49abcf63782d3dea62d8fb0c6691226b9e66961796741bc64bffc2f35daca368",
+    "tables/ctr43_spectral_long.csv": "2df8eb536d9164031dbfdd814fb1823c0991382f807ed241d93b7283fd862d6f",
+    "tables/ctr43_srf_sensitivity.csv": "83025a7e27227f59fded9f40e4f5369497afa1e60c127cdf0d41a320dc5ef888",
+    "tables/ctr43_station_accounting.csv": "b8260a4a54998fb3b490710af8233eaa6363831e523077bfdbee8e1aba7493f6",
+    "tables/ctr43_station_metrics.csv": "7974dfb7e1b0ccc368c9e186dd9f6411393bb61a825c79a06d8472e6fcadc96a"
+  }
+}

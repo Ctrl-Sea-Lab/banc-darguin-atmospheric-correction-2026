@@ -1,0 +1,12 @@
+{
+  "check_command": "./scripts/check-env.sh",
+  "status": "pass",
+  "dependency_changes": false,
+  "python_environment": ".venv",
+  "source": "existing project-local locked environment",
+  "python_lock_sha256": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+  "R_lock_sha256": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707",
+  "R_warning": "normalizePath(~) reported absent run temporary home; project consistency and environment checks passed",
+  "guard_status": "preflight and check refuse existing unrelated untracked CTR39 files; no PR proposed",
+  "analysis_path_readiness": "ready; no protected targets"
+}

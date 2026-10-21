@@ -1,0 +1,20 @@
+{
+  "status": "pass",
+  "candidate_commit": "7b9232da45c68c82c5f996b37357f15fb7b9ed55",
+  "checks": [
+    {
+      "base_ref": "origin/main",
+      "base_commit": "0085c9b0ba9f661ded5c608b7a5fa70b0b522d00",
+      "exit_code": 0,
+      "output": "PI contribution guard: no protected changes detected\n"
+    },
+    {
+      "base_ref": "origin/ctr-22-project-initialization",
+      "base_commit": "b023b619886b2a174a8b653bfc90166b7d001332",
+      "exit_code": 0,
+      "output": "PI contribution guard: no protected changes detected\n"
+    }
+  ],
+  "proposed_files": 184,
+  "all_changes_confined_to_investigation": true
+}

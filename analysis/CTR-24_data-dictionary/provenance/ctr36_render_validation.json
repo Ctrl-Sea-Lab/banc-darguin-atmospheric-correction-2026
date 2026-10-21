@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "quarto": "1.10.19",
+  "tables": 3,
+  "rows_including_headers": 30,
+  "external_rendering_assets": [],
+  "html_sha256": "db3581cb59fd950f734cc3fbf59e4112343c2c75fb7a17310b41a896d693ce00",
+  "qmd_sha256": "f58a6ae1dfe2e49bf829f854ec01cfdb28edc9a8adc904bcbd744fabfdfecf76",
+  "original_tracked_hashes_unchanged": true
+}

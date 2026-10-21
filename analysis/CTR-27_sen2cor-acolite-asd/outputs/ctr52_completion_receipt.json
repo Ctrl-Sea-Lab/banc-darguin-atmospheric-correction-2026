@@ -1,0 +1,241 @@
+{
+  "id": "4de5b4f5-7b61-4886-b386-647e737c360d",
+  "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+  "conversationAgentId": null,
+  "conversationUserId": null,
+  "conversationState": null,
+  "conversationSessionGeneration": 0,
+  "conversationBoundaryCommentId": null,
+  "projectId": "5fc298b7-b03d-4a03-b14f-25b3e66ccf85",
+  "projectWorkspaceId": null,
+  "goalId": null,
+  "parentId": "f365511a-de9f-4db7-bba8-d43c7dc7a6e5",
+  "title": "Remove flag annotations from preferred custom-axis report",
+  "titleNeedsGeneration": false,
+  "description": "Make the PI-requested small presentation edit, reusing completed CTR49 work. The second displayed figure is the satellite-only target spectral figure previously called Figure 3. Work only in /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-27_sen2cor-acolite-asd/ on the authorized Linux Mint worker, after reading live files and project instructions. Baseline branch ctr-49-target-report at 4e4e46b3b05fb30ef11549c28f5e96e7a40f1bcc. Reuse your CTR49 delivery and CTR48 numerical checks; no extraction/statistical rerun.\n\n## Authorized custom-axis presentation amendment \u2014 20 October 2026, 15:25 UTC\n\nPI comment cafc5829-a373-4020-bf4c-bceb7c9a9852 selects report-custom and requests removal of the flag text from the second displayed figure (the renewed spectral figure previously called Figure 3). Use the custom per-target y-axis report as the preferred delivery. Remove flag text/flag annotations from that spectral graphic, including its PNG/PDF/SVG exports and embedded report image. Preserve target labels, all six targets, nine bands, actual reflectance values, missingness, both correction curves, per-panel y-limits, and unchanged Figure 1. Keep exactly two figures. Do not interpret the request as removal of underlying QA flags or scientifically necessary caveats: retain those in the scientific limitations and supporting evidence. No extraction, statistical rerun, new scientific claims or arbitrary figure relabelling is needed. Preserve the existing common-axis alternative as a secondary historical deliverable; the selected custom report is the clear main download and canonical report entry point.\n\nEdward will make this bounded presentation revision in the existing CTR27 directory from scientific baseline 4e4e46b3b05fb30ef11549c28f5e96e7a40f1bcc, after reading live files and shared-checkout state. Reuse the completed plotting/report framework and validated tables. Render the custom report, visually inspect all panels, prove Figure 1 and numerical tables unchanged, confirm no flag text remains in the second graphic and two embedded figures remain, and deliver editable source, standalone HTML, updated figure exports, package/hashes and exact revision. Preserve raw data, CTR24 dictionary, manuscript, unrelated CTR39 work and existing recoverable history. No new investigation/repository/worktree, infrastructure changes, guard bypass, force push, merge or publication.\n\nCTR50 remains the separate workspace/PR prerequisite; its owner-preservation handoff is awaiting coordination, so Edward must not stage, delete, stash or move another task\u2019s files. The small figure revision can proceed while that prerequisite is unresolved, as earlier delivery did, with the unresolved guard honestly recorded. Shared-checkout edits must remain serialized. Charles retains the engineering prerequisite and routes the newly delivered exact revision through the existing Rachel presentation then Karl independent scientific review. Earlier review submissions and the PI\u2019s preference do not approve this new revision scientifically.\n\n\nPrevious custom HTML: /api/attachments/134bc216-bcef-495a-9a02-9e19fcfb80f2/content. Previous source: /api/attachments/7f887a65-d56b-4bf6-ab9d-cae543c102bc/content. Deliver updated custom report and scientific figure PNG/PDF/SVG, editable source package and validated hashes as accessible attachments/work products on this task. Save a technical-delivery document with exact revision and preservation/visual evidence. Mark this bounded author task done once the presentation revision is delivered; Charles verifies then submits it through CTR38 native Rachel/Karl reviews. Record any unresolved CTR50 guard prerequisite honestly; that does not require repeating analysis or waiting here for PI approval. Do not alter the existing native review policy or claim scientific approval.\n",
+  "status": "done",
+  "statusVersion": 2,
+  "lastStatusDecisionId": null,
+  "workMode": "standard",
+  "harnessKind": null,
+  "priority": "medium",
+  "reviewPolicy": null,
+  "assigneeAgentId": "e2f5ec7e-29b8-47fc-afa5-121e4cc9ca07",
+  "assigneeUserId": null,
+  "checkoutRunId": null,
+  "executionRunId": null,
+  "executionAgentNameKey": null,
+  "executionLockedAt": null,
+  "createdByAgentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd",
+  "createdByUserId": null,
+  "responsibleUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+  "issueNumber": 52,
+  "identifier": "CTR-52",
+  "originKind": "manual",
+  "originId": null,
+  "originRunId": "33d88cfe-a2aa-4538-ba63-0a8a903b861c",
+  "originIdentityContextId": "a9d960ab-4e88-440a-8d58-52220286c752",
+  "continuationIdentityContextId": "adf3b2a6-c8fe-4cb3-a5d6-d91e04ac585b",
+  "originFingerprint": "default",
+  "requestDepth": 0,
+  "billingCode": null,
+  "assigneeAdapterOverrides": null,
+  "executionPolicy": null,
+  "executionState": null,
+  "monitorNextCheckAt": null,
+  "monitorWakeRequestedAt": null,
+  "monitorLastTriggeredAt": null,
+  "monitorAttemptCount": 0,
+  "monitorNotes": null,
+  "monitorScheduledBy": null,
+  "executionWorkspaceId": null,
+  "executionWorkspacePreference": null,
+  "executionWorkspaceSettings": null,
+  "sourceTrust": null,
+  "unblockDescriptor": null,
+  "blockedTransitionAt": null,
+  "blockedOwnerNotifiedAt": null,
+  "startedAt": "2026-10-20T15:28:07.517Z",
+  "completedAt": "2026-10-20T15:36:40.736Z",
+  "cancelledAt": null,
+  "hiddenAt": null,
+  "createdAt": "2026-10-20T15:28:07.285Z",
+  "updatedAt": "2026-10-20T15:36:40.736Z",
+  "labels": [],
+  "labelIds": [],
+  "watchdog": null,
+  "changes": {
+    "status": {
+      "from": "in_progress",
+      "to": "done"
+    },
+    "statusVersion": {
+      "from": 1,
+      "to": 2
+    },
+    "checkoutRunId": {
+      "from": "285797d9-b6fa-4055-8517-663a71d36f6b",
+      "to": null
+    },
+    "executionRunId": {
+      "from": "285797d9-b6fa-4055-8517-663a71d36f6b",
+      "to": null
+    },
+    "executionAgentNameKey": {
+      "from": "edward tufte",
+      "to": null
+    },
+    "executionLockedAt": {
+      "from": "2026-10-20T15:28:07.464Z",
+      "to": null
+    },
+    "completedAt": {
+      "from": null,
+      "to": "2026-10-20T15:36:40.736Z"
+    }
+  },
+  "relatedWork": {
+    "outbound": [
+      {
+        "issue": {
+          "id": "f365511a-de9f-4db7-bba8-d43c7dc7a6e5",
+          "identifier": "CTR-38",
+          "title": "Deliver professional CTR24 station matchup figures and report",
+          "status": "blocked",
+          "priority": "medium",
+          "assigneeAgentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd",
+          "assigneeUserId": null
+        },
+        "mentionCount": 2,
+        "sources": [
+          {
+            "kind": "document",
+            "sourceRecordId": "b63f2125-c0ee-4b6a-b361-adefaf17f515",
+            "label": "technical-delivery",
+            "matchedText": "/CTR/issues/CTR-38"
+          },
+          {
+            "kind": "comment",
+            "sourceRecordId": "3651fad7-d81a-48d1-a622-e053407968aa",
+            "label": "comment",
+            "matchedText": "/CTR/issues/CTR-38"
+          }
+        ]
+      },
+      {
+        "issue": {
+          "id": "56cff84a-1123-47aa-92f1-28523228dcf7",
+          "identifier": "CTR-50",
+          "title": "Resolve preserved workspace prerequisite for CTR27 report PR",
+          "status": "in_review",
+          "priority": "medium",
+          "assigneeAgentId": "8e429434-cc27-4927-997b-1d3e3923b1e1",
+          "assigneeUserId": null
+        },
+        "mentionCount": 2,
+        "sources": [
+          {
+            "kind": "document",
+            "sourceRecordId": "b63f2125-c0ee-4b6a-b361-adefaf17f515",
+            "label": "technical-delivery",
+            "matchedText": "/CTR/issues/CTR-50"
+          },
+          {
+            "kind": "comment",
+            "sourceRecordId": "3651fad7-d81a-48d1-a622-e053407968aa",
+            "label": "comment",
+            "matchedText": "/CTR/issues/CTR-50"
+          }
+        ]
+      },
+      {
+        "issue": {
+          "id": "fc460715-c4e9-4ee5-8131-526a84dd38b1",
+          "identifier": "CTR-49",
+          "title": "Deliver two-figure science report with both spectral scale versions",
+          "status": "done",
+          "priority": "medium",
+          "assigneeAgentId": "e2f5ec7e-29b8-47fc-afa5-121e4cc9ca07",
+          "assigneeUserId": null
+        },
+        "mentionCount": 1,
+        "sources": [
+          {
+            "kind": "description",
+            "sourceRecordId": null,
+            "label": "description",
+            "matchedText": "ctr-49"
+          }
+        ]
+      }
+    ],
+    "inbound": [
+      {
+        "issue": {
+          "id": "f365511a-de9f-4db7-bba8-d43c7dc7a6e5",
+          "identifier": "CTR-38",
+          "title": "Deliver professional CTR24 station matchup figures and report",
+          "status": "blocked",
+          "priority": "medium",
+          "assigneeAgentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd",
+          "assigneeUserId": null
+        },
+        "mentionCount": 1,
+        "sources": [
+          {
+            "kind": "comment",
+            "sourceRecordId": "d16e746c-8cec-4917-ad67-8a2508ab00cd",
+            "label": "comment",
+            "matchedText": "/CTR/issues/CTR-52"
+          }
+        ]
+      }
+    ]
+  },
+  "referencedIssueIdentifiers": [
+    "CTR-38",
+    "CTR-50",
+    "CTR-49"
+  ],
+  "comment": {
+    "id": "3651fad7-d81a-48d1-a622-e053407968aa",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "issueId": "4de5b4f5-7b61-4886-b386-647e737c360d",
+    "authorAgentId": "e2f5ec7e-29b8-47fc-afa5-121e4cc9ca07",
+    "authorUserId": null,
+    "onBehalfOfUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+    "authorType": "agent",
+    "createdByRunId": "285797d9-b6fa-4055-8517-663a71d36f6b",
+    "derivedAuthorAgentId": null,
+    "derivedCreatedByRunId": null,
+    "derivedAuthorSource": null,
+    "clientRequestId": null,
+    "conversationSessionGeneration": null,
+    "body": "Delivered the PI-selected custom-axis report with flag annotations removed from the second graphic and its PNG/PDF/SVG exports.\n\n- [Preferred standalone report](/api/attachments/321cc270-6bdd-4484-9bc4-f410a30de469/content)\n- [Technical delivery, source package, figures and validated hashes](/CTR/issues/CTR-52#document-technical-delivery)\n\nAll six targets, nine bands, both curves, values, missingness, per-panel limits, QA evidence and scientific caveats remain. Figure 1 and all 75 numerical tables are unchanged; exactly two figures remain. The common-axis report is preserved as a secondary work product. Numerical, pixel-preservation and actual visual checks passed. Confirmed attachments include the standalone report, 300 dpi PNG, PDF, SVG, editable sources and hashes.\n\nExact final source revision: `f21777bffe1392b0d207b265b852232a779a16f1` on `ctr-49-target-report`. Charles verifies this revision and routes it through the existing Rachel then Karl reviews on [CTR38](/CTR/issues/CTR-38). This closes the bounded author task and does not claim scientific approval. [CTR50](/CTR/issues/CTR-50) remains the separate unresolved workspace/PR prerequisite; unrelated CTR39 files were preserved. No guard bypass, push, PR, manuscript integration, merge or publication occurred.",
+    "presentation": null,
+    "metadata": {
+      "version": 1,
+      "authorizationReason": "allow_self",
+      "sections": [
+        {
+          "title": "Authorization",
+          "rows": [
+            {
+              "type": "key_value",
+              "label": "Reason",
+              "value": "allow_self"
+            }
+          ]
+        }
+      ]
+    },
+    "deletedAt": null,
+    "deletedByType": null,
+    "deletedByAgentId": null,
+    "deletedByUserId": null,
+    "deletedByRunId": null,
+    "sourceTrust": null,
+    "createdAt": "2026-10-20T15:36:40.805Z",
+    "updatedAt": "2026-10-20T15:36:40.805Z"
+  }
+}

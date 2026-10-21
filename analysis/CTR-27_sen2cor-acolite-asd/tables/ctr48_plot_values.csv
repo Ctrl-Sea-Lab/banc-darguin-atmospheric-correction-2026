@@ -1,0 +1,109 @@
+target_id,class_literal,display_label,band_id,band_order_1based,wavelength_nm,correction,reflectance,finite,unit,SCL_flag,segment_id
+T1,Terrestrial soil,T1 — Terrestrial soil,B01,1,442.2312743651042,ACOLITE,0.1628187596797943,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B01,1,442.2312743651042,Sen2Cor,0.2052,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B02,2,492.1332440560396,ACOLITE,0.20929093658924103,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B02,2,492.1332440560396,Sen2Cor,0.2666,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B03,3,558.9474584756214,ACOLITE,0.310320645570755,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B03,3,558.9474584756214,Sen2Cor,0.377,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B04,4,664.9366618663723,ACOLITE,0.4239492118358612,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B04,4,664.9366618663723,Sen2Cor,0.4958,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B05,5,703.8279778657,ACOLITE,0.45142024755477905,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B05,5,703.8279778657,Sen2Cor,0.5353,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B06,6,739.1263016544829,ACOLITE,0.477098286151886,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B06,6,739.1263016544829,Sen2Cor,0.5445,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B07,7,779.7203770693726,ACOLITE,0.4898054897785187,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B07,7,779.7203770693726,Sen2Cor,0.5617,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B08,8,832.9487541240974,ACOLITE,0.5086599588394165,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B08,8,832.9487541240974,Sen2Cor,0.5938,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B8A,9,863.9795562407608,ACOLITE,0.5076432228088379,True,1,False,1
+T1,Terrestrial soil,T1 — Terrestrial soil,B8A,9,863.9795562407608,Sen2Cor,0.5665,True,1,False,1
+T2,Water,T2 — Water,B01,1,442.2312743651042,ACOLITE,0.05449993535876274,True,1,True,1
+T2,Water,T2 — Water,B01,1,442.2312743651042,Sen2Cor,0.0227,True,1,True,1
+T2,Water,T2 — Water,B02,2,492.1332440560396,ACOLITE,0.06707234680652618,True,1,True,1
+T2,Water,T2 — Water,B02,2,492.1332440560396,Sen2Cor,0.0407,True,1,True,1
+T2,Water,T2 — Water,B03,3,558.9474584756214,ACOLITE,0.07843544334173203,True,1,True,1
+T2,Water,T2 — Water,B03,3,558.9474584756214,Sen2Cor,0.0382,True,1,True,1
+T2,Water,T2 — Water,B04,4,664.9366618663723,ACOLITE,0.03133157268166542,True,1,True,1
+T2,Water,T2 — Water,B04,4,664.9366618663723,Sen2Cor,-0.023,True,1,True,1
+T2,Water,T2 — Water,B05,5,703.8279778657,ACOLITE,0.025646213442087173,True,1,True,1
+T2,Water,T2 — Water,B05,5,703.8279778657,Sen2Cor,-0.0279,True,1,True,1
+T2,Water,T2 — Water,B06,6,739.1263016544829,ACOLITE,0.020484918728470802,True,1,True,1
+T2,Water,T2 — Water,B06,6,739.1263016544829,Sen2Cor,-0.0313,True,1,True,1
+T2,Water,T2 — Water,B07,7,779.7203770693726,ACOLITE,0.0203079916536808,True,1,True,1
+T2,Water,T2 — Water,B07,7,779.7203770693726,Sen2Cor,-0.0273,True,1,True,1
+T2,Water,T2 — Water,B08,8,832.9487541240974,ACOLITE,0.01691073179244995,True,1,True,1
+T2,Water,T2 — Water,B08,8,832.9487541240974,Sen2Cor,-0.0251,True,1,True,1
+T2,Water,T2 — Water,B8A,9,863.9795562407608,ACOLITE,0.016875088214874268,True,1,True,1
+T2,Water,T2 — Water,B8A,9,863.9795562407608,Sen2Cor,-0.0215,True,1,True,1
+T3,Seagrass,T3 — Seagrass,B01,1,442.2312743651042,ACOLITE,0.027922794222831726,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B01,1,442.2312743651042,Sen2Cor,-0.0185,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B02,2,492.1332440560396,ACOLITE,0.02950887754559517,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B02,2,492.1332440560396,Sen2Cor,-0.0146,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B03,3,558.9474584756214,ACOLITE,0.06218554452061653,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B03,3,558.9474584756214,Sen2Cor,0.0243,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B04,4,664.9366618663723,ACOLITE,0.04693452641367912,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B04,4,664.9366618663723,Sen2Cor,0.0062,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B05,5,703.8279778657,ACOLITE,0.10334011912345886,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B05,5,703.8279778657,Sen2Cor,0.0888,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B06,6,739.1263016544829,ACOLITE,0.15807077288627625,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B06,6,739.1263016544829,Sen2Cor,0.1596,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B07,7,779.7203770693726,ACOLITE,0.17473192512989044,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B07,7,779.7203770693726,Sen2Cor,0.1834,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B08,8,832.9487541240974,ACOLITE,0.18580463528633118,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B08,8,832.9487541240974,Sen2Cor,0.2032,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B8A,9,863.9795562407608,ACOLITE,0.19286808371543884,True,1,False,1
+T3,Seagrass,T3 — Seagrass,B8A,9,863.9795562407608,Sen2Cor,0.2041,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B01,1,442.2312743651042,ACOLITE,0.09999224543571472,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B01,1,442.2312743651042,Sen2Cor,0.1228,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B02,2,492.1332440560396,ACOLITE,0.12902197241783142,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B02,2,492.1332440560396,Sen2Cor,0.1678,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B03,3,558.9474584756214,ACOLITE,0.18297643959522247,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B03,3,558.9474584756214,Sen2Cor,0.2227,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B04,4,664.9366618663723,ACOLITE,0.20427440106868744,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B04,4,664.9366618663723,Sen2Cor,0.2455,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B05,5,703.8279778657,ACOLITE,0.2415565550327301,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B05,5,703.8279778657,Sen2Cor,0.2902,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B06,6,739.1263016544829,ACOLITE,0.25605323910713196,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B06,6,739.1263016544829,Sen2Cor,0.2929,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B07,7,779.7203770693726,ACOLITE,0.2608962059020996,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B07,7,779.7203770693726,Sen2Cor,0.2995,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B08,8,832.9487541240974,ACOLITE,0.2627248764038086,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B08,8,832.9487541240974,Sen2Cor,0.3066,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B8A,9,863.9795562407608,ACOLITE,0.2631722092628479,True,1,False,1
+T4,Intertidal Sediment,T4 — Intertidal Sediment,B8A,9,863.9795562407608,Sen2Cor,0.2946,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B01,1,442.2312743651042,ACOLITE,0.025715185329318047,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B01,1,442.2312743651042,Sen2Cor,0.0014,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B02,2,492.1332440560396,ACOLITE,0.03054467961192131,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B02,2,492.1332440560396,Sen2Cor,0.0139,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B03,3,558.9474584756214,ACOLITE,0.05493059381842613,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B03,3,558.9474584756214,Sen2Cor,0.0423,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B04,4,664.9366618663723,ACOLITE,0.03254837170243263,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B04,4,664.9366618663723,Sen2Cor,0.0194,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B05,5,703.8279778657,ACOLITE,0.05702733248472214,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B05,5,703.8279778657,Sen2Cor,0.0514,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B06,6,739.1263016544829,ACOLITE,0.022249646484851837,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B06,6,739.1263016544829,Sen2Cor,0.0027,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B07,7,779.7203770693726,ACOLITE,0.022161617875099182,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B07,7,779.7203770693726,Sen2Cor,0.0049,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B08,8,832.9487541240974,ACOLITE,0.01951964758336544,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B08,8,832.9487541240974,Sen2Cor,0.0065,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B8A,9,863.9795562407608,ACOLITE,0.010422032326459885,True,1,False,1
+T5,Underwater Vegetation,T5 — Underwater Vegetation,B8A,9,863.9795562407608,Sen2Cor,-0.0038,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B01,1,442.2312743651042,ACOLITE,0.04663185775279999,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B01,1,442.2312743651042,Sen2Cor,0.0597,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B02,2,492.1332440560396,ACOLITE,0.07005352526903152,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B02,2,492.1332440560396,Sen2Cor,0.1021,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B03,3,558.9474584756214,ACOLITE,0.10921930521726608,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B03,3,558.9474584756214,Sen2Cor,0.1497,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B04,4,664.9366618663723,ACOLITE,0.11092713475227356,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B04,4,664.9366618663723,Sen2Cor,0.157,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B05,5,703.8279778657,ACOLITE,0.11399539560079575,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B05,5,703.8279778657,Sen2Cor,0.1616,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B06,6,739.1263016544829,ACOLITE,0.06035655736923218,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B06,6,739.1263016544829,Sen2Cor,0.0799,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B07,7,779.7203770693726,ACOLITE,0.062099069356918335,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B07,7,779.7203770693726,Sen2Cor,0.0833,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B08,8,832.9487541240974,ACOLITE,0.05712324380874634,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B08,8,832.9487541240974,Sen2Cor,0.0789,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B8A,9,863.9795562407608,ACOLITE,0.03527802973985672,True,1,False,1
+T6,Underwater Sand,T6 — Underwater Sand,B8A,9,863.9795562407608,Sen2Cor,0.0482,True,1,False,1

@@ -1,0 +1,62 @@
+{
+  "directory": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review",
+  "html_local_assets": [],
+  "source_local_assets": [
+    {
+      "source": "report.qmd",
+      "url": "review.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/review.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/coverage.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/coverage.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/method_matrix.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/method_matrix.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/candidate_decision.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/candidate_decision.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/local_requirements.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/local_requirements.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/output_definitions.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/output_definitions.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/software_snapshots.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/software_snapshots.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/claim_evidence.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/claim_evidence.md",
+      "exists": true
+    },
+    {
+      "source": "review.md",
+      "url": "tables/access_gaps.md",
+      "resolved": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review/tables/access_gaps.md",
+      "exists": true
+    }
+  ],
+  "missing": [],
+  "html_resources_embedded": true
+}

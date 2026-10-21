@@ -1,0 +1,120 @@
+
+The two authorized sibling worktrees have been removed. The canonical station inputs now live in the existing **CTR24** analysis, with **18 held containing-cell triples**, **18 primary v4 ASD band references**, and **18 separately identified v5 sensitivities**. Seven supplementary non-mud stations have no exported satellite matches. The eligible-validation table still has **zero rows**.
+
+This is an engineering handoff for Thomas's subsequent exploratory diagnostics. No satellite–ASD agreement metric was computed in CTR-36. The physical support, exposure and representativeness holds remain in force. These checks establish technical consistency within the stated identity limits; they do not establish correction accuracy or scientific approval.
+
+[Open the unchanged reviewed data dictionary](report.html) · [Editable dictionary source](report.qmd) · [CTR-36 task](/CTR/issues/CTR-36) · [CTR-35 coordination and authorization](/CTR/issues/CTR-35)
+
+## Canonical location and reproduction
+
+```text
+/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/
+  analysis/CTR-24_data-dictionary/
+Branch: ctr-36-ctr24-consolidation
+```
+
+The exact final commit is recorded in the saved Paperclip handoff and draft pull request. These local commands run from the original checkout using its existing locked environment:
+
+```bash
+.venv/bin/python analysis/CTR-24_data-dictionary/scripts/ctr34_validate.py
+.venv/bin/python analysis/CTR-24_data-dictionary/scripts/ctr36_validate_handoff.py
+.venv/bin/python analysis/CTR-24_data-dictionary/scripts/ctr36_build_handoff.py
+(cd analysis/CTR-24_data-dictionary && ../../scripts/project-env.sh quarto render matchup-amendment.qmd --to html)
+```
+
+The input validator reads six original rasters at the 36 already defined single-cell positions and checks small source files; it does not process whole scenes. It exports joins and missingness tables, never agreement metrics. The adapted original bounded replay script is retained for source reproducibility, but is not needed for this input handoff. The original freeze generator is historical and must not be rerun to redefine decisions.
+
+Use `tables/ctr36_station_inputs.csv` for the convenient joined primary inputs. Its numerical strings equal the held author table exactly. Use `tables/ctr34_convolved_references.csv` for reference identities and separate SRF roles. Keep `tables/ctr34_eligible_pairs.csv` as the distinct empty scientific-validation population.
+
+## Input gate
+
+The relocated author validator passed **128 checks**. The input handoff validator passed **256 checks**, including exact source/copy hashes, unique keys, station identity, containing-cell coordinates, common nominal boundaries, reflectance units, decoding, native centre byte hashes, reference provenance, exclusions, missingness inventory, and preservation of original tracked files and raw path/size/mtime records.
+
+The saved native QA witnesses and links are retained separately. A clear analyst-selected QA neighbourhood is not proof of the unknown full radiometric support. Source identity uses full small-file SHA-256, original centre bytes, saved decoded-window hashes, and raster header/path/stat evidence. Full raster bytes were not hashed. No claim of whole-scene byte identity is made.
+
+All 34 existing repository preservation tests passed. Any guard refusal or simulated GitHub authorization printed in that test log belongs to the test fixtures, not a decision on this delivery.
+
+The project lockfiles are unchanged. Existing software versions and processing parameters are saved in `provenance/ctr36_input_validation.json`, the original author receipts, and the frozen contracts. No random procedure or dependency installation was used.
+
+## Fixed primary inputs
+
+Values below are dimensionless reflectance (unit **1**), rounded for display only. The downloadable CSV retains the original full precision. L2A means the supplied operational L2A product; ACOLITE values are supplied `rhos` values. L2A uses `(DN - 1000) / 10000` after masking special codes 0 and 65535; ACOLITE Float32 values are used directly. Valid negative values are not clipped. Both products use the same station/band rows and the fixed containing cell; neither uses an AOI mean or a nearest CSV cell.
+
+| station_id | band_id | class_literal | ASD_v4 | ASD_v5_sensitivity | L2A | ACOLITE |
+| --- | --- | --- | --- | --- | --- | --- |
+| AC01 | B02 | dry_sand | 0.13995444 | 0.13994506 | 0.15930000 | 0.14264393 |
+| AC01 | B03 | dry_sand | 0.19946948 | 0.19947445 | 0.22160000 | 0.20821689 |
+| AC01 | B04 | dry_sand | 0.27992308 | 0.27991906 | 0.31050000 | 0.29243383 |
+| AC02 | B02 | dry_sand | 0.12594458 | 0.12593788 | 0.16690000 | 0.14791001 |
+| AC02 | B03 | dry_sand | 0.17151363 | 0.17151762 | 0.24340000 | 0.22485039 |
+| AC02 | B04 | dry_sand | 0.23089941 | 0.23089723 | 0.34230000 | 0.31810248 |
+| AC05 | B02 | algae_mud | 0.06841620 | 0.06841062 | 0.07890000 | 0.06916658 |
+| AC05 | B03 | algae_mud | 0.10076496 | 0.10076713 | 0.11380000 | 0.10630820 |
+| AC05 | B04 | algae_mud | 0.08219453 | 0.08220605 | 0.09560000 | 0.09163768 |
+| AC06 | B02 | white_sand | 0.30732512 | 0.30730960 | 0.41480000 | 0.29594612 |
+| AC06 | B03 | white_sand | 0.37328855 | 0.37329206 | 0.47610000 | 0.37067404 |
+| AC06 | B04 | white_sand | 0.44720152 | 0.44719466 | 0.56010000 | 0.45571268 |
+| AC07 | B02 | seagrass | 0.04683798 | 0.04683049 | 0.05200000 | 0.04902986 |
+| AC07 | B03 | seagrass | 0.08390892 | 0.08391061 | 0.09220000 | 0.08846825 |
+| AC07 | B04 | seagrass | 0.06038379 | 0.06038844 | 0.07400000 | 0.07275930 |
+| AC08 | B02 | seagrass | 0.04572858 | 0.04572115 | 0.11810000 | 0.09652747 |
+| AC08 | B03 | seagrass | 0.08582784 | 0.08582996 | 0.16920000 | 0.14804453 |
+| AC08 | B04 | seagrass | 0.05575775 | 0.05576434 | 0.15040000 | 0.13584056 |
+
+V4 supplied S2B spectral responses remain primary. V5 is a separate sensitivity and is not substituted into the primary reference. ASD spectra span 400–900 nm; B08 fails the existing spectral-coverage test and remains excluded. The full station crosswalk, source GPS/ASD identities and EPSG:4326 coordinates remain accessible. Containing-cell coordinates and boundaries use EPSG:32628.
+
+The six stations are AC01, AC02, AC05, AC06, AC07 and AC08. The existing CTR34 target metadata records AC01/02 as Iwik using the cited PI testimony, while preserving the obsolete literal location text in the historical crosswalk. No original field record was edited.
+
+## All non-mud stations and explicit missingness
+
+The seven stations below have retained continuous ASD spectra but no satellite-match export or band-integrated reference in the existing CTR34 delivery. Each has three explicit NA rows in `tables/ctr36_supplementary_unmatched.csv`. They are not substituted into the six-station population. `tables/ctr36_nonmud_station_inventory.csv` accounts for all 13 non-mud stations. A zero in its *count of available bands* is an inventory count; missing reflectance values are always NA.
+
+| station_id | class_literal | L2A | ACOLITE | ASD_band_reference |
+| --- | --- | --- | --- | --- |
+| D06_A | zn | NA | NA | NA (continuous spectrum retained) |
+| D06_B | zn | NA | NA | NA (continuous spectrum retained) |
+| D06_C | zn | NA | NA | NA (continuous spectrum retained) |
+| D06_D | zn | NA | NA | NA (continuous spectrum retained) |
+| D06_E | zn | NA | NA | NA (continuous spectrum retained) |
+| D06_F | zn | NA | NA | NA (continuous spectrum retained) |
+| D06_G | sand | NA | NA | NA (continuous spectrum retained) |
+
+AC03 **mbp_mud** and AC04 **mpb_mud** are excluded from all new analysis under the PI instruction. Both spellings remain in `tables/ctr36_exclusions.csv` and the full original candidate/exclusion ledger. Their metadata is retained solely to audit exclusion.
+
+## Frozen scope for subsequent numerical work
+
+The saved amendment is `outputs/ctr36_matchup_amendment.json`; it links CTR24, CTR-35 and CTR-36 and was written before downstream comparisons. It preserves the earlier empty scientific-validation table. Thomas must verify the saved input/provenance gate before computing any later station-level descriptive bias (satellite minus ASD), MAE or RMSE across B02/B03/B04 and report the number of finite paired bands. If a quantity, identity, coordinate, decode or unit essential fails, the relevant metric is NA with a reason.
+
+Where these essentials hold but physical representativeness or exposure remains uncertain, subsequent numerical agreement is exploratory. No independent-n interpretation of bands, population inference, p-values, confidence intervals, guessed error bars, correction accuracy claim, superiority claim or method ranking is authorized. Both corrections use identical rows. Any overall summary must explicitly disclose equal station/band weighting and its diagnostic scope. Scientific approval, manuscript integration, merge and public publication remain separate decisions.
+
+## Actual removal and preservation
+
+| path | existed_before | exists_after | registered_after |
+| --- | --- | --- | --- |
+| banc-darguin-atmospheric-correction-2026-ctr33 | yes | no | no |
+| banc-darguin-atmospheric-correction-2026-ctr34 | yes | no | no |
+
+Each exact path was a real directory and a registered worktree, rather than a top-level link. Pre-removal checks confirmed the supplied heads, clean tracked files, unchanged inventories, and no unpreserved source work. `git worktree remove --force <exact-path>` removed the known ignored files and symlink entries. No link target was traversed. The original raw directories and project environment remain present, and all original tracked files plus raw inventory records passed preservation checks afterward.
+
+The local pre-removal process scan found no other visible working process referencing the original or sibling checkouts through cwd, open files or mapped files. Process details for other users and three known session daemons were inaccessible without privileges; this is recorded explicitly, and there is no claim of NAS-wide process surveillance. No privileges or infrastructure settings were changed.
+
+Both original branch refs and their commits remain in the original shared Git repository. No remote branch, PR, repository or task record was deleted. Required scripts, tables and provenance are selectively recovered in CTR24. Original CTR33 and CTR34 report revisions and source changes are preserved byte-for-byte in `outputs/CTR36_author-preservation.zip` with an internal per-file manifest. Only path/import adaptations are active; the exact relocation diff and source/destination hashes are saved. The official v5 cache was copied and hash-verified. Reproducible package and render caches were discarded with the copies.
+
+Preservation archive: **143 files**, SHA-256 `2e9337d43bcf1138d47e75611e6f64bf6cddc9f9a59a8795c1be349e139261f5`.
+
+Amendment SHA-256: `ca3775471a138f59bb0c8c9710ea3848c996535ae33764815afc5596348764ef`.
+
+Original author evidence (unreviewed for this new amendment): CTR33 `86e0d6cd6663a80691fd52d050776bf0c790c8bf`; CTR34 `3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d` (scientific files `92f06560bbb9b227a4db98dd240651a6db849e7d`). Historical review labels and commands in archived author products are preserved as history and do not approve this delivery or authorize recreating sibling worktrees.
+
+## Handoff files and review status
+
+- `tables/ctr36_station_inputs.csv`: 18 exact primary input rows.
+- `tables/ctr34_convolved_references.csv`: 18 primary v4 and 18 v5 reference rows with source/SRF identities.
+- `tables/ctr36_nonmud_station_inventory.csv`: all 13 non-mud stations.
+- `tables/ctr36_supplementary_unmatched.csv`: 21 explicit missing station/band rows.
+- `tables/ctr36_exclusions.csv` and `tables/ctr34_candidate_ledger.csv`: excluded labels and historical dispositions.
+- `tables/ctr34_raw_decode.csv`, support, locations, QA cells/links, source identity, band contract and reference occasions: technical provenance.
+- `provenance/ctr36_recovery_manifest.json`, relocation diff, pre-removal inventory, deletion receipt and validation receipts: preservation and checks.
+- `report.qmd` and `report.html`: unchanged dictionary; this editable/rendered amendment accompanies them.
+
+CTR-37 performs the subsequent descriptive numerical work; CTR-38 handles the station figures and final report. Their dependency order serializes changes to the original checkout. The final revision still requires the assigned independent scientific and presentation reviews, followed by Charles's coordination and the PI's exact-revision scientific decision. The author cannot approve this work.

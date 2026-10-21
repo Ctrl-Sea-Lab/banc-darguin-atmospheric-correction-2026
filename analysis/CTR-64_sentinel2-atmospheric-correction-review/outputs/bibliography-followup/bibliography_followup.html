@@ -1,0 +1,247 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CTR-64 bibliography follow-up</title><style>body{max-width:1050px;margin:3rem auto;padding:0 1rem;font:17px/1.55 system-ui;color:#17343c}h1,h2{line-height:1.2}table{border-collapse:collapse;font-size:14px}td,th{border:1px solid #aaa;padding:.5rem;text-align:left}pre{white-space:pre-wrap;background:#f2f6f7;padding:1rem;font-size:12px;overflow-wrap:anywhere}code{overflow-wrap:anywhere}a{color:#006b85}</style><h1>CTR-64: verified bibliography follow-up</h1><p><strong>Take-home message:</strong> The scientific review is independently accepted at revision <code>3138892ee7a40a4b42a0a5696f2623f94845acd7</code>. The recommendation remains Sen2Cor + ACOLITE + POLYMER + MAJA + C2RCC; no local accuracy ranking was established.</p><p><strong>Meaningful results:</strong> Nineteen verified bibliography entries were appended locally. All 22 existing entries are preserved byte-for-byte; the resulting 41 entries contain no key, DOI or title collisions. All 19 review citations resolve through the updated root bibliography. Thirty-four repository tests passed. Test-suite authorization messages are simulated regression fixtures, not evidence of a PI decision. All 40 submission source hashes, both locks and the reviewed scientific HTML are unchanged.</p><p><strong>Issues and limitations:</strong> The exact bibliography commit requires PI contribution-change authorization. Synchronization readiness is a different prerequisite and does not supply this authorization. No processor was installed or imagery processed. PI scientific approval remains pending.</p><p><strong>Next step:</strong> Authorize only the protected bibliography change below before it is proposed in the draft PR. The commit is local and unpushed. This does not authorize manuscript integration, accepted-revision refresh, merge or publication.</p><h2>Exact revision and scope</h2><p>Local commit: <code>e1f7b4bc5f81c61bf8eba0f891ba1abc7a949048</code><br>Parent / independently accepted scientific revision: <code>3138892ee7a40a4b42a0a5696f2623f94845acd7</code><br>Guard base: <code>0085c9b0ba9f661ded5c608b7a5fa70b0b522d00</code><br>Only committed path: <code>library.bib</code><br>Required decision: <code>pi_contribution_change</code><br>Bibliography SHA-256: <code>d3f137d005ff606167f54cb23a2108f027581c45a9da50279853b0626c0f4930</code></p><h2>Verification and preservation</h2><p>Rachel ran her own immediate verify-ready check in the exact submission worktree; it returned ready for CTR-64, prepared by Ada Lovelace. Pandoc parsed both original and added records, verified existing-entry preservation and collision absence, and rendered a citation smoke document using root library.bib. All project-index citation keys resolve. The bibliography patch is a byte-preserving append; Git displays one replaced final line because the original lacked a trailing newline.</p><p>The dirty author-worktree preflight and guard refused to proceed, as expected from the pre-existing 143 executable-mode differences and Ada’s tool-written state. These differences were preserved. A clean scratch clone of this exact local commit passed preflight and produced the actual protected-path verdict below. No safeguard, baseline, pre-build file, original source, manuscript or lockfile was altered by Rachel. Ada’s state hash remains <code>320c62de05ee19452e06eeaefe860b80629612511746e3c2cc34688b61d07a84</code>. The receipt becomes stale for further protected work after this expected bibliography edit; no refresh was performed.</p><p>The reviewed report and tables were not regenerated because their scientific contents did not change. E3 was corrected only in the Paperclip Markdown presentation: 19 citation groups now have direct verified DOI links, and all noncitation text is preserved. Current review status is supplied as a separate notice; submission-era status text remains historical. No new literature search, renewed PDF acquisition, processor execution or benchmark is claimed.</p><h2>Independent evidence</h2><p><a href="/CTR/issues/CTR-66#document-report">Karl’s scientific Accept verdict</a>; <a href="/CTR/issues/CTR-67#document-coordination">Charles’s readiness handoff</a>; <a href="/CTR/issues/CTR-68#document-synchronization-report">Ada’s receipt</a>; <a href="/CTR/issues/CTR-69#document-receipt-review">Karl’s receipt review</a>; <a href="/CTR/issues/CTR-64#document-report">current scientific report</a>; <a href="https://github.com/Ctrl-Sea-Lab/banc-darguin-atmospheric-correction-2026/pull/11">draft PR 11</a>. The PR remains at the accepted scientific commit, without this bibliography patch. Delivery back to source conversation CTR-51 remains unconfirmed; no rejected write was retried.</p><h2>Guard result</h2><pre>{
+  &quot;version&quot;: 1,
+  &quot;base_commit&quot;: &quot;0085c9b0ba9f661ded5c608b7a5fa70b0b522d00&quot;,
+  &quot;head_commit&quot;: &quot;e1f7b4bc5f81c61bf8eba0f891ba1abc7a949048&quot;,
+  &quot;protected_changes&quot;: [
+    {
+      &quot;path&quot;: &quot;library.bib&quot;,
+      &quot;decision_types&quot;: [
+        &quot;pi_contribution_change&quot;
+      ]
+    }
+  ],
+  &quot;required_paths&quot;: [
+    &quot;library.bib&quot;
+  ],
+  &quot;required_decision_types&quot;: [
+    &quot;pi_contribution_change&quot;
+  ]
+}
+PI contribution guard: explicit review is required
+</pre><h2>Added verified references</h2><table><tr><th>Existing stable key</th><th>Verified title</th><th>DOI</th></tr><tr><td>Castagna2025</td><td>A generalized physics-based correction for adjacency effects</td><td><a href="https://doi.org/10.1364/ao.546766">10.1364/ao.546766</a></td></tr><tr><td>Colin2023</td><td>Assessment of the Performance of the Atmospheric Correction Algorithm MAJA for Sentinel-2 Surface Reflectance Estimates</td><td><a href="https://doi.org/10.3390/rs15102665">10.3390/rs15102665</a></td></tr><tr><td>Daggers2020</td><td>Seasonal and Spatial Variability in Patchiness of Microphytobenthos on Intertidal Flats From Sentinel-2 Satellite Imagery</td><td><a href="https://doi.org/10.3389/fmars.2020.00392">10.3389/fmars.2020.00392</a></td></tr><tr><td>DeKeukelaere2018</td><td>Atmospheric correction of Landsat-8/OLI and Sentinel-2/MSI data using iCOR algorithm: validation for coastal and inland waters</td><td><a href="https://doi.org/10.1080/22797254.2018.1457937">10.1080/22797254.2018.1457937</a></td></tr><tr><td>Doxani2023</td><td>Atmospheric Correction Inter-comparison eXercise, ACIX-II Land: An assessment of atmospheric correction processors for Landsat 8 and Sentinel-2 over land</td><td><a href="https://doi.org/10.1016/j.rse.2022.113412">10.1016/j.rse.2022.113412</a></td></tr><tr><td>Fan2021</td><td>OC-SMART: A machine learning based data analysis platform for satellite ocean color sensors</td><td><a href="https://doi.org/10.1016/j.rse.2020.112236">10.1016/j.rse.2020.112236</a></td></tr><tr><td>Granadeiro2021</td><td>Using Sentinel-2 Images to Estimate Topography, Tidal-Stage Lags and Exposure Periods over Large Intertidal Areas</td><td><a href="https://doi.org/10.3390/rs13020320">10.3390/rs13020320</a></td></tr><tr><td>Hagolle2015MAJA</td><td>A Multi-Temporal and Multi-Spectral Method to Estimate Aerosol Optical Thickness over Land, for the Atmospheric Correction of FormoSat-2, LandSat, VENμS and Sentinel-2 Images</td><td><a href="https://doi.org/10.3390/rs70302668">10.3390/rs70302668</a></td></tr><tr><td>Jacobs2021</td><td>Assessing biomass and primary production of microphytobenthos in depositional coastal systems using spectral information</td><td><a href="https://doi.org/10.1371/journal.pone.0246012">10.1371/journal.pone.0246012</a></td></tr><tr><td>Muller2026</td><td>Case 2 Regional Coast Colour: a neural network-based framework for atmospheric correction and in-water retrievals across multiple ocean colour satellite sensors</td><td><a href="https://doi.org/10.3389/frsen.2026.1710758">10.3389/frsen.2026.1710758</a></td></tr><tr><td>Pahlevan2021</td><td>ACIX-Aqua: A global assessment of atmospheric correction methods for Landsat-8 and Sentinel-2 over lakes, rivers, and coastal waters</td><td><a href="https://doi.org/10.1016/j.rse.2021.112366">10.1016/j.rse.2021.112366</a></td></tr><tr><td>Renosh2020Estuaries</td><td>Evaluation of Atmospheric Correction Algorithms for Sentinel-2-MSI and Sentinel-3-OLCI in Highly Turbid Estuarine Waters</td><td><a href="https://doi.org/10.3390/rs12081285">10.3390/rs12081285</a></td></tr><tr><td>Steinmetz2011</td><td>Atmospheric correction in presence of sun glint: application to MERIS</td><td><a href="https://doi.org/10.1364/oe.19.009783">10.1364/oe.19.009783</a></td></tr><tr><td>Tavora2023Recipes</td><td>Recipes for the Derivation of Water Quality Parameters Using the High-Spatial-Resolution Data from Sensors on Board Sentinel-2A, Sentinel-2B, Landsat-5, Landsat-7, Landsat-8, and Landsat-9 Satellites</td><td><a href="https://doi.org/10.34133/remotesensing.0049">10.34133/remotesensing.0049</a></td></tr><tr><td>Thuy2022</td><td>Estimating Water Content and Grain Size of Intertidal Flat Sediments Using Visible to Shortwave-Infrared Reflectance and Sentinel 2A Data: A Case Study of the Red River Delta, Vietnam</td><td><a href="https://doi.org/10.1109/jstars.2022.3162622">10.1109/jstars.2022.3162622</a></td></tr><tr><td>Vanhellemont2019</td><td>Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives</td><td><a href="https://doi.org/10.1016/j.rse.2019.03.010">10.1016/j.rse.2019.03.010</a></td></tr><tr><td>Warren2019</td><td>Assessment of atmospheric correction algorithms for the Sentinel-2A MultiSpectral Imager over coastal and inland waters</td><td><a href="https://doi.org/10.1016/j.rse.2019.03.018">10.1016/j.rse.2019.03.018</a></td></tr><tr><td>Yin2022SIAC</td><td>Bayesian atmospheric correction over land: Sentinel-2/MSI and Landsat 8/OLI</td><td><a href="https://doi.org/10.5194/gmd-15-7933-2022">10.5194/gmd-15-7933-2022</a></td></tr><tr><td>Zoffoli2020</td><td>Sentinel-2 remote sensing of Zostera noltei-dominated intertidal seagrass meadows</td><td><a href="https://doi.org/10.1016/j.rse.2020.112020">10.1016/j.rse.2020.112020</a></td></tr></table><h2>Complete reviewable bibliography diff</h2><pre>diff --git a/library.bib b/library.bib
+index 652094b..0fea8fc 100644
+--- a/library.bib
++++ b/library.bib
+@@ -245,4 +245,219 @@
+   year    = {2023},
+   doi     = {10.1016/j.ecss.2023.108432},
+   publisher = {Elsevier}
+-}
+\ No newline at end of file
++}
++% CTR-64: verified additions from the independently reviewed processor review.
++@article{Castagna2025,
++  title = {A generalized physics-based correction for adjacency effects},
++  author = {Castagna, Alexandre and Vanhellemont, Quinten},
++  year = {2025},
++  journal = {Applied Optics},
++  doi = {10.1364/ao.546766},
++  url = {https://doi.org/10.1364/ao.546766},
++  volume = {64},
++  number = {10},
++  pages = {2719},
++}
++
++@article{Colin2023,
++  title = {Assessment of the Performance of the Atmospheric Correction Algorithm MAJA for Sentinel-2 Surface Reflectance Estimates},
++  author = {Colin, Jérôme and Hagolle, Olivier and Landier, Lucas and Coustance, Sophie and Kettig, Peter and Meygret, Aimé and Osman, Julien and Vermote, Eric},
++  year = {2023},
++  journal = {Remote Sensing},
++  doi = {10.3390/rs15102665},
++  url = {https://doi.org/10.3390/rs15102665},
++  volume = {15},
++  number = {10},
++  pages = {2665},
++}
++
++@article{Daggers2020,
++  title = {Seasonal and Spatial Variability in Patchiness of Microphytobenthos on Intertidal Flats From Sentinel-2 Satellite Imagery},
++  author = {Daggers, Tisja D. and Herman, Peter M. J. and van der Wal, Daphne},
++  year = {2020},
++  journal = {Frontiers in Marine Science},
++  doi = {10.3389/fmars.2020.00392},
++  url = {https://doi.org/10.3389/fmars.2020.00392},
++  volume = {7},
++}
++
++@article{DeKeukelaere2018,
++  title = {Atmospheric correction of Landsat-8/OLI and Sentinel-2/MSI data using iCOR algorithm: validation for coastal and inland waters},
++  author = {De Keukelaere, L. and Sterckx, S. and Adriaensen, S. and Knaeps, E. and Reusen, I. and Giardino, C. and Bresciani, M. and Hunter, P. and Neil, C. and Van der Zande, D. and Vaiciute, D.},
++  year = {2018},
++  journal = {European Journal of Remote Sensing},
++  doi = {10.1080/22797254.2018.1457937},
++  url = {https://doi.org/10.1080/22797254.2018.1457937},
++  volume = {51},
++  number = {1},
++  pages = {525-542},
++}
++
++@article{Doxani2023,
++  title = {Atmospheric Correction Inter-comparison eXercise, ACIX-II Land: An assessment of atmospheric correction processors for Landsat 8 and Sentinel-2 over land},
++  author = {Doxani, Georgia and Vermote, Eric F. and Roger, Jean-Claude and Skakun, Sergii and Gascon, Ferran and Collison, Alan and De Keukelaere, Liesbeth and Desjardins, Camille and Frantz, David and Hagolle, Olivier and Kim, Minsu and Louis, Jérôme and Pacifici, Fabio and Pflug, Bringfried and Poilvé, Hervé and Ramon, Didier and Richter, Rudolf and Yin, Feng},
++  year = {2023},
++  journal = {Remote Sensing of Environment},
++  doi = {10.1016/j.rse.2022.113412},
++  url = {https://doi.org/10.1016/j.rse.2022.113412},
++  volume = {285},
++  pages = {113412},
++}
++
++@article{Fan2021,
++  title = {OC-SMART: A machine learning based data analysis platform for satellite ocean color sensors},
++  author = {Fan, Yongzhen and Li, Wei and Chen, Nan and Ahn, Jae-Hyun and Park, Young-Je and Kratzer, Susanne and Schroeder, Thomas and Ishizaka, Joji and Chang, Ryan and Stamnes, Knut},
++  year = {2021},
++  journal = {Remote Sensing of Environment},
++  doi = {10.1016/j.rse.2020.112236},
++  url = {https://doi.org/10.1016/j.rse.2020.112236},
++  volume = {253},
++  pages = {112236},
++}
++
++@article{Granadeiro2021,
++  title = {Using Sentinel-2 Images to Estimate Topography, Tidal-Stage Lags and Exposure Periods over Large Intertidal Areas},
++  author = {Granadeiro, José P. and Belo, João and Henriques, Mohamed and Catalão, João and Catry, Teresa},
++  year = {2021},
++  journal = {Remote Sensing},
++  doi = {10.3390/rs13020320},
++  url = {https://doi.org/10.3390/rs13020320},
++  volume = {13},
++  number = {2},
++  pages = {320},
++}
++
++@article{Hagolle2015MAJA,
++  title = {A Multi-Temporal and Multi-Spectral Method to Estimate Aerosol Optical Thickness over Land, for the Atmospheric Correction of FormoSat-2, LandSat, VENμS and Sentinel-2 Images},
++  author = {Hagolle, Olivier and Huc, Mireille and Villa Pascual, David and Dedieu, Gerard},
++  year = {2015},
++  journal = {Remote Sensing},
++  doi = {10.3390/rs70302668},
++  url = {https://doi.org/10.3390/rs70302668},
++  volume = {7},
++  number = {3},
++  pages = {2668-2691},
++}
++
++@article{Jacobs2021,
++  title = {Assessing biomass and primary production of microphytobenthos in depositional coastal systems using spectral information},
++  author = {Jacobs, Pascalle and Pitarch, Jaime and Kromkamp, Jacco C. and Philippart, Catharina J. M.},
++  year = {2021},
++  journal = {PLOS ONE},
++  doi = {10.1371/journal.pone.0246012},
++  url = {https://doi.org/10.1371/journal.pone.0246012},
++  volume = {16},
++  number = {7},
++  pages = {e0246012},
++}
++
++@article{Muller2026,
++  title = {Case 2 Regional Coast Colour: a neural network-based framework for atmospheric correction and in-water retrievals across multiple ocean colour satellite sensors},
++  author = {Müller, Dagmar and Hieronymi, Martin and Ruescas, Ana B. and Peters, Marco and Röttgers, Rüdiger and König, Marcel and Lebreton, Carole and Stelzer, Kerstin and Brockmann, Carsten and Doerffer, Roland},
++  year = {2026},
++  journal = {Frontiers in Remote Sensing},
++  doi = {10.3389/frsen.2026.1710758},
++  url = {https://doi.org/10.3389/frsen.2026.1710758},
++  volume = {7},
++}
++
++@article{Pahlevan2021,
++  title = {ACIX-Aqua: A global assessment of atmospheric correction methods for Landsat-8 and Sentinel-2 over lakes, rivers, and coastal waters},
++  author = {Pahlevan, Nima and Mangin, Antoine and Balasubramanian, Sundarabalan V. and Smith, Brandon and Alikas, Krista and Arai, Kohei and Barbosa, Claudio and Bélanger, Simon and Binding, Caren and Bresciani, Mariano and Giardino, Claudia and Gurlin, Daniela and Fan, Yongzhen and Harmel, Tristan and Hunter, Peter and Ishikaza, Joji and Kratzer, Susanne and Lehmann, Moritz K. and Ligi, Martin and Ma, Ronghua and Martin-Lauzer, François-Régis and Olmanson, Leif and Oppelt, Natascha and Pan, Yanqun and Peters, Steef and Reynaud, Nathalie and Sander de Carvalho, Lino A. and Simis, Stefan and Spyrakos, Evangelos and Steinmetz, François and Stelzer, Kerstin and Sterckx, Sindy and Tormos, Thierry and Tyler, Andrew and Vanhellemont, Quinten and Warren, Mark},
++  year = {2021},
++  journal = {Remote Sensing of Environment},
++  doi = {10.1016/j.rse.2021.112366},
++  url = {https://doi.org/10.1016/j.rse.2021.112366},
++  volume = {258},
++  pages = {112366},
++}
++
++@article{Renosh2020Estuaries,
++  title = {Evaluation of Atmospheric Correction Algorithms for Sentinel-2-MSI and Sentinel-3-OLCI in Highly Turbid Estuarine Waters},
++  author = {Renosh, Pannimpullath Remanan and Doxaran, David and Keukelaere, Liesbeth De and Gossn, Juan Ignacio},
++  year = {2020},
++  journal = {Remote Sensing},
++  doi = {10.3390/rs12081285},
++  url = {https://doi.org/10.3390/rs12081285},
++  volume = {12},
++  number = {8},
++  pages = {1285},
++}
++
++@article{Steinmetz2011,
++  title = {Atmospheric correction in presence of sun glint: application to MERIS},
++  author = {Steinmetz, François and Deschamps, Pierre-Yves and Ramon, Didier},
++  year = {2011},
++  journal = {Optics Express},
++  doi = {10.1364/oe.19.009783},
++  url = {https://doi.org/10.1364/oe.19.009783},
++  volume = {19},
++  number = {10},
++  pages = {9783},
++}
++
++@article{Tavora2023Recipes,
++  title = {Recipes for the Derivation of Water Quality Parameters Using the High-Spatial-Resolution Data from Sensors on Board Sentinel-2A, Sentinel-2B, Landsat-5, Landsat-7, Landsat-8, and Landsat-9 Satellites},
++  author = {Tavora, Juliana and Jiang, Binbin and Kiffney, Thomas and Bourdin, Guillaume and Gray, Patrick Clifton and Carvalho, Lino Sander and Hesketh, Gabriel and Schild, Kristin M. and Souza, Luiz Faria and Brady, Damian C. and Boss, Emmanuel},
++  year = {2023},
++  journal = {Journal of Remote Sensing},
++  doi = {10.34133/remotesensing.0049},
++  url = {https://doi.org/10.34133/remotesensing.0049},
++  volume = {3},
++}
++
++@article{Thuy2022,
++  title = {Estimating Water Content and Grain Size of Intertidal Flat Sediments Using Visible to Shortwave-Infrared Reflectance and Sentinel 2A Data: A Case Study of the Red River Delta, Vietnam},
++  author = {Thuy, Vu Thi Thu and Ha, Nguyen Thi Thu and Koike, Katsuaki and Thao, Nguyen Thien Phuong and Trung, Pham Ngoc and Thanh, Dinh Xuan},
++  year = {2022},
++  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
++  doi = {10.1109/jstars.2022.3162622},
++  url = {https://doi.org/10.1109/jstars.2022.3162622},
++  volume = {15},
++  pages = {2696-2708},
++}
++
++@article{Vanhellemont2019,
++  title = {Adaptation of the dark spectrum fitting atmospheric correction for aquatic applications of the Landsat and Sentinel-2 archives},
++  author = {Vanhellemont, Quinten},
++  year = {2019},
++  journal = {Remote Sensing of Environment},
++  doi = {10.1016/j.rse.2019.03.010},
++  url = {https://doi.org/10.1016/j.rse.2019.03.010},
++  volume = {225},
++  pages = {175-192},
++}
++
++@article{Warren2019,
++  title = {Assessment of atmospheric correction algorithms for the Sentinel-2A MultiSpectral Imager over coastal and inland waters},
++  author = {Warren, M.A. and Simis, S.G.H. and Martinez-Vicente, V. and Poser, K. and Bresciani, M. and Alikas, K. and Spyrakos, E. and Giardino, C. and Ansper, A.},
++  year = {2019},
++  journal = {Remote Sensing of Environment},
++  doi = {10.1016/j.rse.2019.03.018},
++  url = {https://doi.org/10.1016/j.rse.2019.03.018},
++  volume = {225},
++  pages = {267-289},
++}
++
++@article{Yin2022SIAC,
++  title = {Bayesian atmospheric correction over land: Sentinel-2/MSI and Landsat 8/OLI},
++  author = {Yin, Feng and Lewis, Philip E. and Gómez-Dans, Jose L.},
++  year = {2022},
++  journal = {Geoscientific Model Development},
++  doi = {10.5194/gmd-15-7933-2022},
++  url = {https://doi.org/10.5194/gmd-15-7933-2022},
++  volume = {15},
++  number = {21},
++  pages = {7933-7976},
++}
++
++@article{Zoffoli2020,
++  title = {Sentinel-2 remote sensing of Zostera noltei-dominated intertidal seagrass meadows},
++  author = {Zoffoli, Maria Laura and Gernez, Pierre and Rosa, Philippe and Le Bris, Anthony and Brando, Vittorio E. and Barillé, Anne-Laure and Harin, Nicolas and Peters, Steef and Poser, Kathrin and Spaias, Lazaros and Peralta, Gloria and Barillé, Laurent},
++  year = {2020},
++  journal = {Remote Sensing of Environment},
++  doi = {10.1016/j.rse.2020.112020},
++  url = {https://doi.org/10.1016/j.rse.2020.112020},
++  volume = {251},
++  pages = {112020},
++}
+</pre></html>

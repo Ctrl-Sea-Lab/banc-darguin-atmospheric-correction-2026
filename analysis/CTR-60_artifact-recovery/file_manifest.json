@@ -1,0 +1,62 @@
+[
+  {
+    "relativePath": "report.html",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/report.html",
+    "byteSize": 4921262,
+    "sha256": "045b3ceaddc96f5c3ba55e19c8e63aa05cd9d5ad96e1f37fe58fb14ed2444e6e"
+  },
+  {
+    "relativePath": "figures/generated/paired_reflectance_maps.png",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps.png",
+    "byteSize": 7991332,
+    "sha256": "1f07e45f762067c0ed3901e0081693bbd89d6f9027687ed0eeb3c9eeeaa23348"
+  },
+  {
+    "relativePath": "figures/generated/paired_reflectance_maps.pdf",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps.pdf",
+    "byteSize": 6102564,
+    "sha256": "3d3f407cccf622779864a0a540da05ba719a900ff5de4545df754367cc0cdd2a"
+  },
+  {
+    "relativePath": "figures/generated/paired_reflectance_maps_preview.png",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/figures/generated/paired_reflectance_maps_preview.png",
+    "byteSize": 2254096,
+    "sha256": "38ab5162ea154ffae597d6c4bb03f46c29daa7d2fcfdef834301348d58525228"
+  },
+  {
+    "relativePath": "outputs/CTR55_review_package.zip",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/outputs/CTR55_review_package.zip",
+    "byteSize": 935823,
+    "sha256": "09e092dffb1ec2f36acdf66bc7c3facb54e0f0f4aa270b131a4d82a8281cec8b"
+  },
+  {
+    "relativePath": "outputs/CTR55_all_rasters.zip",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/outputs/CTR55_all_rasters.zip",
+    "byteSize": 2092926845,
+    "sha256": "e4acbee5342215c8c94054b32ceb8ea830060b7b3cb6aa0b5297a03cadc383eb"
+  },
+  {
+    "relativePath": "tables/date_band_summary.csv",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/tables/date_band_summary.csv",
+    "byteSize": 118322,
+    "sha256": "342f79e8f154dde2780bd6a6df974dfe3df097cfca9dd0246419f3bb81df202a"
+  },
+  {
+    "relativePath": "provenance/input_hashes.csv",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/provenance/input_hashes.csv",
+    "byteSize": 37568,
+    "sha256": "e0b207ea8d92ea0058b1db9d9a970fee8041f5330541d0b607f4898758b30a31"
+  },
+  {
+    "relativePath": "provenance/output_hashes.csv",
+    "absolutePath": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences/provenance/output_hashes.csv",
+    "byteSize": 23653,
+    "sha256": "d6c86eb7be928dd850eb9190647b1927c0fa749fa8ad638ade993867b3ce5bbb"
+  },
+  {
+    "relativePath": "analysis/CTR-60_artifact-recovery/CTR55_code_tables.zip",
+    "absolutePath": "/home/paperclip-worker/research/.paperclip-runtime/runs/3f4cd6b3-1276-4c7d-9969-4239a1c45956/workspace/analysis/CTR-60_artifact-recovery/CTR55_code_tables.zip",
+    "byteSize": 113955,
+    "sha256": "f547770309135c6b8cd35ad9b1533376ccacc415460f9275df55152253112561"
+  }
+]

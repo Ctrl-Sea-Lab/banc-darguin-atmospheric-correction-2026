@@ -1,0 +1,160 @@
+{
+  "source_scientific_revision": "1bbb23b3b94e775a60aa921f8c9c4f86f51926cb",
+  "source_handoff_revision": "1631082",
+  "date_table_sha256": "342f79e8f154dde2780bd6a6df974dfe3df097cfca9dd0246419f3bb81df202a",
+  "table_rows": 528,
+  "checked_summary_rows": 48,
+  "checked_dates": [
+    "2025-01-06",
+    "2025-03-22",
+    "2025-09-28",
+    "2025-12-27",
+    "2026-03-07",
+    "2026-03-27"
+  ],
+  "checks": "unique keys; finite positive SD; coverage; range; exact counts and independent full-resolution median/sample SD",
+  "raster_hashes": [
+    {
+      "path": "outputs/temporal/B2_complete_dates_domain.tif",
+      "sha256": "58b7457f4a98ad5c2e8a99f67b4fc132c58c27b2a8b90bf8e4f4cef15c23dd6c",
+      "bytes": 82592
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B2_delta.tif",
+      "sha256": "5627c4f35411384afedb1db463202c4c05b25e7e9a98e06c9a00f8e18216a616",
+      "bytes": 22108375
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B2_delta.tif",
+      "sha256": "2cab97975946f00830df06d3c3cea54d8f3829f70cd366e0fe7f44e58227fdf2",
+      "bytes": 21341449
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B2_delta.tif",
+      "sha256": "25638d4cbc5b521b0b9e82a144024f37af85f634809b7e248cc4f41cd843fd5a",
+      "bytes": 16559829
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B2_delta.tif",
+      "sha256": "2c87f811001e8c48b13d1e39b859ed2b2c2a5cd06ac2446de187858f2024b6d3",
+      "bytes": 23300042
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B2_delta.tif",
+      "sha256": "ee78ad19276f6b9dd4a1690d684bd00b6e7296535710eef63d0eb846398312ae",
+      "bytes": 22114433
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B2_delta.tif",
+      "sha256": "5cebbb1d16eb77eb381af197983266926e9e6ec2f6873248ba878256faa7c094",
+      "bytes": 23113696
+    },
+    {
+      "path": "outputs/temporal/B3_complete_dates_domain.tif",
+      "sha256": "77b9b4235297b65818b0220a8f3f30a35db49a1742b171a20fe6adf6c6720eee",
+      "bytes": 81966
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B3_delta.tif",
+      "sha256": "f6711f547b42e5e3702125fdffd28583ba71caef7a60adbc0e1b15e03beea08b",
+      "bytes": 21904705
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B3_delta.tif",
+      "sha256": "20898165a245d2840fb2629dd0374ca878f6ad87dc2dfa57970b852058a6da6b",
+      "bytes": 21283380
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B3_delta.tif",
+      "sha256": "fe35ec797e3835db8cd523daa35739441c31dde3a103e8cb1e0c5e34feb86de8",
+      "bytes": 16639253
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B3_delta.tif",
+      "sha256": "ddfe3e7280f0e2267c61d478f5677fbff745ac8015aec5e4da381d972c4e7a90",
+      "bytes": 23679895
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B3_delta.tif",
+      "sha256": "e3c89b2a5678d3c4d7320e57d65d3f55f49237d28f4df9d1aaf334ed8a4aa719",
+      "bytes": 21812350
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B3_delta.tif",
+      "sha256": "3533716e695f334d11646d7ecf269d0374f1ca47687f1b79a763920d3ebcd406",
+      "bytes": 23624514
+    },
+    {
+      "path": "outputs/temporal/B4_complete_dates_domain.tif",
+      "sha256": "1bd30d512f9a6cc47b96d52a2ca6d28f209bff7d756288f86b3a279ddcacf5df",
+      "bytes": 82411
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B4_delta.tif",
+      "sha256": "9562b4fed9209b024b3e7d7cb9c4877197437894989dacd57b3cbb93b4322b0e",
+      "bytes": 21302256
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B4_delta.tif",
+      "sha256": "6dd45756285af0794c48b056ba5e90085f6518fe4fa997d66914c9c797b70656",
+      "bytes": 20808064
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B4_delta.tif",
+      "sha256": "c588055a39e3bdc2cee29b74ac4a071be9fa067f576be46cf1ec6487eeadc52a",
+      "bytes": 16283977
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B4_delta.tif",
+      "sha256": "b60321492b3dc1ae50284bfc32cbd44bb0d078bac3353fff3b55716d90da80b3",
+      "bytes": 23158484
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B4_delta.tif",
+      "sha256": "49904cb89618fe207ebe83c11f778ae9c92a0bd916b231a11f3cbc2f1fd46931",
+      "bytes": 21403987
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B4_delta.tif",
+      "sha256": "b8d590667628ec73cc75cf3598dd63a2626ca289d93d7ae05e0bd305ca7f11ed",
+      "bytes": 23328619
+    },
+    {
+      "path": "outputs/temporal/B8_complete_dates_domain.tif",
+      "sha256": "4aeff783cbeba8dd920aefac1bc10cdd4a4463d3c4a5b4e9f9136f73106597e7",
+      "bytes": 84432
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B8_delta.tif",
+      "sha256": "78375a7a0d854eacaf16a2c1ea8b5da8f1707b85e04fc45ede50de66463a7196",
+      "bytes": 21084306
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B8_delta.tif",
+      "sha256": "18114826a0e5d00cbef17d8995ecc3d4d413b858a2e82b47e48378a18d3f4e66",
+      "bytes": 20369622
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B8_delta.tif",
+      "sha256": "ba2757a5953478ab812fe87ef04f721b4bd4f116b1dbcd4d963ff298a9ea8246",
+      "bytes": 16090996
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B8_delta.tif",
+      "sha256": "c5e75adf3ba88868ecb9f8663e125c908196c14d32a9e1d5a2b36006f2130b62",
+      "bytes": 22655762
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B8_delta.tif",
+      "sha256": "67de9988a70f0bff0a0db04cd521d87f4cbf7155f2c592658bde8c37b950d526",
+      "bytes": 20904053
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B8_delta.tif",
+      "sha256": "ffc441f8deee7778ca048df421aaa8688a34d87bbf90d95d629c087ba1930b95",
+      "bytes": 22831864
+    }
+  ],
+  "max_median_error": 0.0,
+  "max_sd_error": 0.0
+}

@@ -1,0 +1,1864 @@
+{
+  "writer_revision": "f79b98cdd810c2ffada1479dd0bddc3d34e22341",
+  "products": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-54_paired-reflectance-differences",
+  "environment_root": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026",
+  "lockfiles": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  },
+  "verification_extent": "Full stored-raster hashes and metadata; bounded raw/source/temporal pixel checks; full compact model rerun. No raster-processing or full raw-input hash rerun.",
+  "scientific_review": "pending CTR-59",
+  "pi_approval": "pending",
+  "upstream_consumed_files_checked": 21,
+  "scientific_rasters": [
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B2_delta.tif",
+      "bytes": 22108375,
+      "sha256": "5627c4f35411384afedb1db463202c4c05b25e7e9a98e06c9a00f8e18216a616",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B3_delta.tif",
+      "bytes": 21904705,
+      "sha256": "f6711f547b42e5e3702125fdffd28583ba71caef7a60adbc0e1b15e03beea08b",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B4_delta.tif",
+      "bytes": 21302256,
+      "sha256": "9562b4fed9209b024b3e7d7cb9c4877197437894989dacd57b3cbb93b4322b0e",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250106_S2A_T28QCH_B8_delta.tif",
+      "bytes": 21084306,
+      "sha256": "78375a7a0d854eacaf16a2c1ea8b5da8f1707b85e04fc45ede50de66463a7196",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250205_S2C_T28QCH_B2_delta.tif",
+      "bytes": 22157567,
+      "sha256": "82b8054b320f61c5782979364fe809a9969424f838f4f3fec3aeb21cc907e9d6",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250205_S2C_T28QCH_B3_delta.tif",
+      "bytes": 21987611,
+      "sha256": "38237ade101cf520ba625a0808e300bd315e5a73d553981286bc0d73b12e1e3c",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250205_S2C_T28QCH_B4_delta.tif",
+      "bytes": 21413267,
+      "sha256": "ecf7280b8eb4b2359e18f7d3637cc36fc9de4879034e72abbcecaa3650b96190",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250205_S2C_T28QCH_B8_delta.tif",
+      "bytes": 21015090,
+      "sha256": "249109f3e8364f0564bc99958046b5b324adf57188494b845733b35833345c6b",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250302_S2B_T28QCH_B2_delta.tif",
+      "bytes": 21701592,
+      "sha256": "38ac9ca8d09492c5abe9b44c4eeead2b120a9df14284bffa20f753f6be654462",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250302_S2B_T28QCH_B3_delta.tif",
+      "bytes": 21862946,
+      "sha256": "799816ef7505f47fdefcc9d2d7bfb06e19e98a3b08556f4539034f0f8a8690ac",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250302_S2B_T28QCH_B4_delta.tif",
+      "bytes": 21623900,
+      "sha256": "c956793efe12df1d51080e81ed46ee256127a74df7cc983db9e2d09d43a61475",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250302_S2B_T28QCH_B8_delta.tif",
+      "bytes": 21180073,
+      "sha256": "7e548c38ce5e1dd303334db90d0c62e0688b1b027dfcf732cc22d570c8c39e5a",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250307_S2C_T28QCH_B2_delta.tif",
+      "bytes": 22528749,
+      "sha256": "2ade35339c0396a798fd025fde1c46e3551e96b07f8b49dd155d3a37e8042c54",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250307_S2C_T28QCH_B3_delta.tif",
+      "bytes": 22294637,
+      "sha256": "aa8179dfc208ce904be9211bcd95bbd988936b96b171c9863874e5a4966c3866",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250307_S2C_T28QCH_B4_delta.tif",
+      "bytes": 21921447,
+      "sha256": "fb65b32ee6d228f408e965ffee950b2403a02975829b268697c945f5ee244c4d",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250307_S2C_T28QCH_B8_delta.tif",
+      "bytes": 21519256,
+      "sha256": "d34e0b644c2eafd49147daaae19b5ca553297749d2a22ad3794ec2b4ceb52d5d",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250317_S2C_T28QCH_B2_delta.tif",
+      "bytes": 21661020,
+      "sha256": "553404ab6cb60a75a6bf2b69f9263f9c4bc4cd555224d7262dd7067f384933ce",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250317_S2C_T28QCH_B3_delta.tif",
+      "bytes": 21587204,
+      "sha256": "6390249b78530a347659d14db7086e7ec347da5d1f711d8a519171c053b441bc",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250317_S2C_T28QCH_B4_delta.tif",
+      "bytes": 21275659,
+      "sha256": "6843b5831c3f5aec654e5b2b2a727ae4680ac61e71b16d64acff912d574f43a6",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250317_S2C_T28QCH_B8_delta.tif",
+      "bytes": 20889935,
+      "sha256": "347ad91de9057fc7271af58a9a9a902a2018d25662eeaf0d4a0a1cdb4e7afa95",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B2_delta.tif",
+      "bytes": 21341449,
+      "sha256": "2cab97975946f00830df06d3c3cea54d8f3829f70cd366e0fe7f44e58227fdf2",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B3_delta.tif",
+      "bytes": 21283380,
+      "sha256": "20898165a245d2840fb2629dd0374ca878f6ad87dc2dfa57970b852058a6da6b",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B4_delta.tif",
+      "bytes": 20808064,
+      "sha256": "6dd45756285af0794c48b056ba5e90085f6518fe4fa997d66914c9c797b70656",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250322_S2B_T28QCH_B8_delta.tif",
+      "bytes": 20369622,
+      "sha256": "18114826a0e5d00cbef17d8995ecc3d4d413b858a2e82b47e48378a18d3f4e66",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250406_S2C_T28QCH_B2_delta.tif",
+      "bytes": 22295792,
+      "sha256": "79453a29b771814d024e02330698b07350653880ac04514c007af3d84a4fbdfc",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250406_S2C_T28QCH_B3_delta.tif",
+      "bytes": 22603366,
+      "sha256": "fa841596ba85d8b81929791f14dc26976e76f12e4a169d3b778f0c4c90590bfe",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250406_S2C_T28QCH_B4_delta.tif",
+      "bytes": 21938474,
+      "sha256": "661153123d86b8c168fa2d24db53d8cb755ac1ebe429e631fd5e6da70c04a50e",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250406_S2C_T28QCH_B8_delta.tif",
+      "bytes": 21848004,
+      "sha256": "5b77fa5ca4278c9c71f28891253936bfd6638e839f092208619af70c3c19d227",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250416_S2C_T28QCH_B2_delta.tif",
+      "bytes": 22890787,
+      "sha256": "0943feb342c6cd233f6a0a99516245611a023d9f320e3717d5711639a1f8c395",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250416_S2C_T28QCH_B3_delta.tif",
+      "bytes": 22650851,
+      "sha256": "a9dbf2277e573cd2aaf09a256ae03cf7cadd1acd59895871b421e6942a0c3f05",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250416_S2C_T28QCH_B4_delta.tif",
+      "bytes": 21959358,
+      "sha256": "9b99d0566a7d1542f3ede41d6f7bf87edf5ded87b2134862f7e51d243f495800",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250416_S2C_T28QCH_B8_delta.tif",
+      "bytes": 21615271,
+      "sha256": "cc2444f11219d4df57db2b5c92eee3bddf1fe8e16bc79b6b87d332deb04ce6f0",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250418_S2A_T28QCH_B2_delta.tif",
+      "bytes": 23680410,
+      "sha256": "0025fcc959d2475cc0b4df47ad35f38f68ed65da507cc258158c7778b9751afb",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250418_S2A_T28QCH_B3_delta.tif",
+      "bytes": 23217442,
+      "sha256": "e7bf163fd46535fe2f66a08a2f8c1e23f3539a513c7c94108cfff4f07b825b1c",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250418_S2A_T28QCH_B4_delta.tif",
+      "bytes": 22836172,
+      "sha256": "84879d4923f0ed0ae0ef16f9b93d5a01b96b201d7101e9ba31c5e375876b18a9",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250418_S2A_T28QCH_B8_delta.tif",
+      "bytes": 22212285,
+      "sha256": "e391526c9b49782ddd3d683dfe419c492dadec791421e980285d94b353e08b8f",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250516_S2C_T28QCH_B2_delta.tif",
+      "bytes": 24072562,
+      "sha256": "08256e6f2db99eeadf8e048a18fb3591f277100a7c38c38851597c8fad2112be",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250516_S2C_T28QCH_B3_delta.tif",
+      "bytes": 23968838,
+      "sha256": "5591f4d8ee2904390105e38de39bbacc60c79d161e068c0a7dedeb7cf53272e4",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250516_S2C_T28QCH_B4_delta.tif",
+      "bytes": 23590672,
+      "sha256": "ae33309899e5728782216b72857e237fdcfe4ae9394c2c763234400efabda648",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250516_S2C_T28QCH_B8_delta.tif",
+      "bytes": 23170091,
+      "sha256": "f5f04027b1bf456bb22de44650a9799ee1e54225d8f59ec25472e24f10ebead6",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250531_S2B_T28QCH_B2_delta.tif",
+      "bytes": 18827634,
+      "sha256": "2aabdb3557303ae4a5e5ef6c945ccdf184ab0d4e65647e9e387ea1249b58ad58",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250531_S2B_T28QCH_B3_delta.tif",
+      "bytes": 19076519,
+      "sha256": "e909df8b99987257a49a94b134c9130ecfc999c36974793f1653bc630e0c60b7",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250531_S2B_T28QCH_B4_delta.tif",
+      "bytes": 18534180,
+      "sha256": "ae4b4cacbd87cc4bfebbce388c0ae72bb0837ff2edb378babf751e52e70675e2",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250531_S2B_T28QCH_B8_delta.tif",
+      "bytes": 18523804,
+      "sha256": "29dbea2db749fe0e178d37cf048c766b3dc250a228a45f400265a9afc4f37ed4",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250615_S2C_T28QCH_B2_delta.tif",
+      "bytes": 23943528,
+      "sha256": "07974aac511f8232e4370ef6b06fa99008171c3b989086d244b16c6945c796ba",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250615_S2C_T28QCH_B3_delta.tif",
+      "bytes": 24125802,
+      "sha256": "21d855d045d7a255752b2f6b78b1f6d963a0d8178cd437c8462cb09f16df9b8d",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250615_S2C_T28QCH_B4_delta.tif",
+      "bytes": 23705256,
+      "sha256": "9d8838066815128b6640edefad46fc7879e86686230f79a207c59ee77ca12777",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250615_S2C_T28QCH_B8_delta.tif",
+      "bytes": 23347822,
+      "sha256": "a7fef63e3d76c08b47df3cfd8eeddfbfc19c3bbc1547e3acdf0208d75a0461de",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250617_S2A_T28QCH_B2_delta.tif",
+      "bytes": 23879503,
+      "sha256": "47230fbc147e06866e34b361e463f5591745329ebf54de02db1a5d166c6d1900",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250617_S2A_T28QCH_B3_delta.tif",
+      "bytes": 23601792,
+      "sha256": "0dfdd7f07e39e4ce902ccdaa647f43c4a50f6a752da000d6b9b4d7303097ae54",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250617_S2A_T28QCH_B4_delta.tif",
+      "bytes": 22868197,
+      "sha256": "0132168c0e0d97b1ef967081187f3a7d0e3a0cf5ff37598809f3249fe98a97d6",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250617_S2A_T28QCH_B8_delta.tif",
+      "bytes": 22631658,
+      "sha256": "00b7661d563424a7eccc5e197c54b847adf40bea34b42c9f04fc5ef8e582dc04",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250630_S2B_T28QCH_B2_delta.tif",
+      "bytes": 24443640,
+      "sha256": "9ebb5567e601f8d63cd91eb38f4ec56b346906857165e15e51d34dadd2b2c1aa",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250630_S2B_T28QCH_B3_delta.tif",
+      "bytes": 23956782,
+      "sha256": "09010f83d756cfb49221fb58b8c225bec5e9514ebc859627e3e0c7d90a207e3d",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250630_S2B_T28QCH_B4_delta.tif",
+      "bytes": 23628980,
+      "sha256": "65d9e7db88843775986d48eb416eb71f74965c3afd610b58c4b4a1900c58527e",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250630_S2B_T28QCH_B8_delta.tif",
+      "bytes": 22727538,
+      "sha256": "8450bd3d7057d483fef737918ef0c701ffdc3dd5461001661d90692c955f8a68",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250829_S2B_T28QCH_B2_delta.tif",
+      "bytes": 22191138,
+      "sha256": "64bb55705b224d9106839e2922e0e1206774c1b9431d7aed59c4546dac603f63",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250829_S2B_T28QCH_B3_delta.tif",
+      "bytes": 22036415,
+      "sha256": "09d8202c1be46d4fb5b86d528c5db71e08945af5f80a763845c6a6eaff8cd5a9",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250829_S2B_T28QCH_B4_delta.tif",
+      "bytes": 21393807,
+      "sha256": "6c88667e16bf6535f5c50fbbb9b977bc1541358546e0a70339e21cf3920806de",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250829_S2B_T28QCH_B8_delta.tif",
+      "bytes": 21063600,
+      "sha256": "3e2c4bb008abd79737f743f0819c7d86dc37bb4430c09c111ed85dc6d20ff561",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250913_S2C_T28QCH_B2_delta.tif",
+      "bytes": 21814338,
+      "sha256": "0ce4cadbbb4a978bfe43c3cb6c83fd87e68e374dc1a6424a6cc6afdaed7fb238",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250913_S2C_T28QCH_B3_delta.tif",
+      "bytes": 21655991,
+      "sha256": "3e848c4bc1fee986ec24e80b3b1f54572177fc9715ba3086ba8fb7e3297a2a50",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250913_S2C_T28QCH_B4_delta.tif",
+      "bytes": 21155551,
+      "sha256": "0c3fc914d44336b6d1b154817cb40b2f1739ec2b657834bbf2ead37c9b7592de",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250913_S2C_T28QCH_B8_delta.tif",
+      "bytes": 20830082,
+      "sha256": "1aa203d13592a0a8c7e7755dd80f9dca61f4a1f077e5b0d9e83515cf96dbf5eb",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B2_delta.tif",
+      "bytes": 16559829,
+      "sha256": "25638d4cbc5b521b0b9e82a144024f37af85f634809b7e248cc4f41cd843fd5a",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B3_delta.tif",
+      "bytes": 16639253,
+      "sha256": "fe35ec797e3835db8cd523daa35739441c31dde3a103e8cb1e0c5e34feb86de8",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B4_delta.tif",
+      "bytes": 16283977,
+      "sha256": "c588055a39e3bdc2cee29b74ac4a071be9fa067f576be46cf1ec6487eeadc52a",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20250928_S2B_T28QCH_B8_delta.tif",
+      "bytes": 16090996,
+      "sha256": "ba2757a5953478ab812fe87ef04f721b4bd4f116b1dbcd4d963ff298a9ea8246",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251028_S2B_T28QCH_B2_delta.tif",
+      "bytes": 20601263,
+      "sha256": "4a34d047c41c51e4bc746c42113cd56c310b76b4607c7754c117332e29477b13",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251028_S2B_T28QCH_B3_delta.tif",
+      "bytes": 20968502,
+      "sha256": "3198ba9c90cfd4048c236b2d9dc2aab5e67f6cc5c42178f6594cd77ae05e7983",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251028_S2B_T28QCH_B4_delta.tif",
+      "bytes": 20311198,
+      "sha256": "1fce0d63886b1dae3185e6f3a6dfe6b94af5afddd53b580473a81ec822655041",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251028_S2B_T28QCH_B8_delta.tif",
+      "bytes": 20082540,
+      "sha256": "23a6f8f3cdc222ba08af061f4a3b63a3de49dfc138ca5c6c5cb2b59c0a5ad98d",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251127_S2B_T28QCH_B2_delta.tif",
+      "bytes": 22359047,
+      "sha256": "781c40061b1bdf194afc3fb061ccf54d048bc65d114134b8c91323c4c8edbdb1",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251127_S2B_T28QCH_B3_delta.tif",
+      "bytes": 22732826,
+      "sha256": "872424310fed3c637632ee5f9041ba9ccf84ef7fe658aa20a665fd5b9d264e33",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251127_S2B_T28QCH_B4_delta.tif",
+      "bytes": 21818996,
+      "sha256": "6aa0cb7439ad8d40096020b05ecb1e13032b6b37d4bbe9633ab86784375c21ed",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251127_S2B_T28QCH_B8_delta.tif",
+      "bytes": 21391269,
+      "sha256": "03c265ad4968a575df5341822220a368b4fecf19f190ee2daee74ba57e774ed7",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B2_delta.tif",
+      "bytes": 23300042,
+      "sha256": "2c87f811001e8c48b13d1e39b859ed2b2c2a5cd06ac2446de187858f2024b6d3",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B3_delta.tif",
+      "bytes": 23679895,
+      "sha256": "ddfe3e7280f0e2267c61d478f5677fbff745ac8015aec5e4da381d972c4e7a90",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B4_delta.tif",
+      "bytes": 23158484,
+      "sha256": "b60321492b3dc1ae50284bfc32cbd44bb0d078bac3353fff3b55716d90da80b3",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20251227_S2B_T28QCH_B8_delta.tif",
+      "bytes": 22655762,
+      "sha256": "c5e75adf3ba88868ecb9f8663e125c908196c14d32a9e1d5a2b36006f2130b62",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B2_delta.tif",
+      "bytes": 22114433,
+      "sha256": "ee78ad19276f6b9dd4a1690d684bd00b6e7296535710eef63d0eb846398312ae",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B3_delta.tif",
+      "bytes": 21812350,
+      "sha256": "e3c89b2a5678d3c4d7320e57d65d3f55f49237d28f4df9d1aaf334ed8a4aa719",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B4_delta.tif",
+      "bytes": 21403987,
+      "sha256": "49904cb89618fe207ebe83c11f778ae9c92a0bd916b231a11f3cbc2f1fd46931",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260307_S2B_T28QCH_B8_delta.tif",
+      "bytes": 20904053,
+      "sha256": "67de9988a70f0bff0a0db04cd521d87f4cbf7155f2c592658bde8c37b950d526",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B2_delta.tif",
+      "bytes": 23113696,
+      "sha256": "5cebbb1d16eb77eb381af197983266926e9e6ec2f6873248ba878256faa7c094",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B3_delta.tif",
+      "bytes": 23624514,
+      "sha256": "3533716e695f334d11646d7ecf269d0374f1ca47687f1b79a763920d3ebcd406",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B4_delta.tif",
+      "bytes": 23328619,
+      "sha256": "b8d590667628ec73cc75cf3598dd63a2626ca289d93d7ae05e0bd305ca7f11ed",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/paired_differences/20260327_S2B_T28QCH_B8_delta.tif",
+      "bytes": 22831864,
+      "sha256": "ffc441f8deee7778ca048df421aaa8688a34d87bbf90d95d629c087ba1930b95",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B2_common_footprint_domain.tif",
+      "bytes": 48018,
+      "sha256": "0ddbeec26ffa7bb4ecf2b848471ccce3b78a13233ead6ff536714c1c71d697a2",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B2_complete_dates_domain.tif",
+      "bytes": 82592,
+      "sha256": "58b7457f4a98ad5c2e8a99f67b4fc132c58c27b2a8b90bf8e4f4cef15c23dd6c",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B2_coverage80_domain.tif",
+      "bytes": 47708,
+      "sha256": "384ab1f6a55a77397e3d1f728f464e348ce9d2e7444387b0d7a2ce34ac054f29",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B2_median.tif",
+      "bytes": 22422409,
+      "sha256": "60ad6231fee5626d88fd7d0d6c769be6fee37e100c57331b0bf0f6318ca5c537",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B2_n.tif",
+      "bytes": 152896,
+      "sha256": "4edc20b8b4afbec44237370cd754a56f758f865257f1408cc5b0d49a93a18b37",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B2_sd.tif",
+      "bytes": 21292023,
+      "sha256": "f0b67895baa06c1b589d396567a57ce1a48711884ac0b813ad958dd96dc070a0",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B3_common_footprint_domain.tif",
+      "bytes": 48018,
+      "sha256": "bb0ea9d80b4de2705bbd39c3f8715962fabee7b235fd324a72e57113e07995d6",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B3_complete_dates_domain.tif",
+      "bytes": 81966,
+      "sha256": "77b9b4235297b65818b0220a8f3f30a35db49a1742b171a20fe6adf6c6720eee",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B3_coverage80_domain.tif",
+      "bytes": 47700,
+      "sha256": "ca4fc16f1f750504dec35e10c12cf519c21bdc16197cb998dc5d7555dcfacfa0",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B3_median.tif",
+      "bytes": 22541835,
+      "sha256": "1c79f065eea1b6004a4d5bbfb2dfc923317debacfb130143f0b66dd59ceb1668",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B3_n.tif",
+      "bytes": 152013,
+      "sha256": "6ed1a65d8198094abb42a1925d0598c0efb6ba2aab306c5facadb7ab29a40844",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B3_sd.tif",
+      "bytes": 21290549,
+      "sha256": "1aef425e1e5a5ccc034c5a4c41556c78091b3ce5cdbf9c3e6f8a4eb6a1797406",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B4_common_footprint_domain.tif",
+      "bytes": 48018,
+      "sha256": "5dffe5ea3cbbe7403952adf9ab504852b94c9d39a6e1441cab6b01f4fb73580b",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B4_complete_dates_domain.tif",
+      "bytes": 82411,
+      "sha256": "1bd30d512f9a6cc47b96d52a2ca6d28f209bff7d756288f86b3a279ddcacf5df",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B4_coverage80_domain.tif",
+      "bytes": 47714,
+      "sha256": "d9aa8eaeec6cc59c964e325d6e19e18e28d58024b1f646d91edd740a557c3aad",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B4_median.tif",
+      "bytes": 22030860,
+      "sha256": "f35d4359946493a8d92577e3a9bb93037704676ca586cb2e55dca3ebc9e24aa5",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B4_n.tif",
+      "bytes": 152802,
+      "sha256": "57789895f7af5df938e7eb20374b007be30270717d1bbfc9c1a41c274adc0f6c",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B4_sd.tif",
+      "bytes": 20789050,
+      "sha256": "7c2be3ca557cbb28e3ed7cff78e314bcb2c22e1ca34426bb7741cf89d564d4e9",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B8_common_footprint_domain.tif",
+      "bytes": 48018,
+      "sha256": "959d6bc6318bc30b7b347483ff8eec8626ecdc9be89f0580fabe1946e8bb574f",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B8_complete_dates_domain.tif",
+      "bytes": 84432,
+      "sha256": "4aeff783cbeba8dd920aefac1bc10cdd4a4463d3c4a5b4e9f9136f73106597e7",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B8_coverage80_domain.tif",
+      "bytes": 47750,
+      "sha256": "14b7ebdf3b4f9411a9b50336802dd35a8f55c4ce658c78a324476f1b48f03e0e",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B8_median.tif",
+      "bytes": 21636846,
+      "sha256": "671be0d7b24582264624422fd99b3ca9ebaae1be635d0ac4e5bb3db0e9f1d15d",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/B8_n.tif",
+      "bytes": 156934,
+      "sha256": "24415db8f993e5a2b4a920159defacd2a3840d1f3c9e1e24949b36e825d03ccf",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    },
+    {
+      "path": "outputs/temporal/B8_sd.tif",
+      "bytes": 20422740,
+      "sha256": "1e3227a624f487d6d5f83e34b1c05a4d48fc8e9e26bdbe440c1ddf02e325e511",
+      "epsg": 32628,
+      "type": "Float32",
+      "nodata": -9999.0
+    },
+    {
+      "path": "outputs/temporal/footprint_count.tif",
+      "bytes": 47328,
+      "sha256": "b0871bf4e51f7fcf7a15b70df2d618c0efd5056aa9bc65da1b1e45c874ff2364",
+      "epsg": 32628,
+      "type": "Byte",
+      "nodata": 255.0
+    }
+  ],
+  "input_metadata_checked": [
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-01-06/S2A_MSI_2025_01_06_11_45_53_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-01-06/S2A_MSI_2025_01_06_11_45_53_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-01-06/S2A_MSI_2025_01_06_11_45_53_T28QCH_L2W_rhos_560.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-01-06/S2A_MSI_2025_01_06_11_45_53_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-01-06/S2A_MSI_2025_01_06_11_45_53_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-02-05/S2C_MSI_2025_02_05_11_46_23_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-02-05/S2C_MSI_2025_02_05_11_46_23_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-02-05/S2C_MSI_2025_02_05_11_46_23_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-02-05/S2C_MSI_2025_02_05_11_46_23_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-02-05/S2C_MSI_2025_02_05_11_46_23_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-02/S2B_MSI_2025_03_02_11_45_59_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-02/S2B_MSI_2025_03_02_11_45_59_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-02/S2B_MSI_2025_03_02_11_45_59_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-02/S2B_MSI_2025_03_02_11_45_59_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-02/S2B_MSI_2025_03_02_11_45_59_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-07/S2C_MSI_2025_03_07_11_46_20_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-07/S2C_MSI_2025_03_07_11_46_20_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-07/S2C_MSI_2025_03_07_11_46_20_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-07/S2C_MSI_2025_03_07_11_46_20_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-07/S2C_MSI_2025_03_07_11_46_20_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-17/S2C_MSI_2025_03_17_11_46_19_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-17/S2C_MSI_2025_03_17_11_46_19_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-17/S2C_MSI_2025_03_17_11_46_19_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-17/S2C_MSI_2025_03_17_11_46_19_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-17/S2C_MSI_2025_03_17_11_46_19_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-22/S2B_MSI_2025_03_22_11_45_59_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-22/S2B_MSI_2025_03_22_11_45_59_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-22/S2B_MSI_2025_03_22_11_45_59_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-22/S2B_MSI_2025_03_22_11_45_59_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-03-22/S2B_MSI_2025_03_22_11_45_59_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-06/S2C_MSI_2025_04_06_11_46_19_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-06/S2C_MSI_2025_04_06_11_46_19_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-06/S2C_MSI_2025_04_06_11_46_19_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-06/S2C_MSI_2025_04_06_11_46_19_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-06/S2C_MSI_2025_04_06_11_46_19_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-16/S2C_MSI_2025_04_16_11_46_16_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-16/S2C_MSI_2025_04_16_11_46_16_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-16/S2C_MSI_2025_04_16_11_46_16_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-16/S2C_MSI_2025_04_16_11_46_16_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-16/S2C_MSI_2025_04_16_11_46_16_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-18/S2A_MSI_2025_04_18_11_46_08_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-18/S2A_MSI_2025_04_18_11_46_08_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-18/S2A_MSI_2025_04_18_11_46_08_T28QCH_L2W_rhos_560.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-18/S2A_MSI_2025_04_18_11_46_08_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-04-18/S2A_MSI_2025_04_18_11_46_08_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-16/S2C_MSI_2025_05_16_11_46_12_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-16/S2C_MSI_2025_05_16_11_46_12_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-16/S2C_MSI_2025_05_16_11_46_12_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-16/S2C_MSI_2025_05_16_11_46_12_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-16/S2C_MSI_2025_05_16_11_46_12_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-31/S2B_MSI_2025_05_31_11_46_00_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-31/S2B_MSI_2025_05_31_11_46_00_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-31/S2B_MSI_2025_05_31_11_46_00_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-31/S2B_MSI_2025_05_31_11_46_00_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-05-31/S2B_MSI_2025_05_31_11_46_00_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-15/S2C_MSI_2025_06_15_11_46_15_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-15/S2C_MSI_2025_06_15_11_46_15_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-15/S2C_MSI_2025_06_15_11_46_15_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-15/S2C_MSI_2025_06_15_11_46_15_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-15/S2C_MSI_2025_06_15_11_46_15_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-17/S2A_MSI_2025_06_17_11_46_09_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-17/S2A_MSI_2025_06_17_11_46_09_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-17/S2A_MSI_2025_06_17_11_46_09_T28QCH_L2W_rhos_560.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-17/S2A_MSI_2025_06_17_11_46_09_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-17/S2A_MSI_2025_06_17_11_46_09_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-30/S2B_MSI_2025_06_30_11_45_58_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-30/S2B_MSI_2025_06_30_11_45_58_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-30/S2B_MSI_2025_06_30_11_45_58_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-30/S2B_MSI_2025_06_30_11_45_58_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-30/S2B_MSI_2025_06_30_11_45_58_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-08-29/S2B_MSI_2025_08_29_11_45_57_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-08-29/S2B_MSI_2025_08_29_11_45_57_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-08-29/S2B_MSI_2025_08_29_11_45_57_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-08-29/S2B_MSI_2025_08_29_11_45_57_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-08-29/S2B_MSI_2025_08_29_11_45_57_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-13/S2C_MSI_2025_09_13_11_46_09_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-13/S2C_MSI_2025_09_13_11_46_09_T28QCH_L2W_rhos_489.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-13/S2C_MSI_2025_09_13_11_46_09_T28QCH_L2W_rhos_561.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-13/S2C_MSI_2025_09_13_11_46_09_T28QCH_L2W_rhos_667.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-13/S2C_MSI_2025_09_13_11_46_09_T28QCH_L2W_rhos_835.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-28/S2B_MSI_2025_09_28_11_45_56_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-28/S2B_MSI_2025_09_28_11_45_56_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-28/S2B_MSI_2025_09_28_11_45_56_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-28/S2B_MSI_2025_09_28_11_45_56_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-09-28/S2B_MSI_2025_09_28_11_45_56_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-10-28/S2B_MSI_2025_10_28_11_45_55_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-10-28/S2B_MSI_2025_10_28_11_45_55_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-10-28/S2B_MSI_2025_10_28_11_45_55_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-10-28/S2B_MSI_2025_10_28_11_45_55_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-10-28/S2B_MSI_2025_10_28_11_45_55_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-11-27/S2B_MSI_2025_11_27_11_45_48_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-11-27/S2B_MSI_2025_11_27_11_45_48_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-11-27/S2B_MSI_2025_11_27_11_45_48_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-11-27/S2B_MSI_2025_11_27_11_45_48_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-11-27/S2B_MSI_2025_11_27_11_45_48_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-12-27/S2B_MSI_2025_12_27_11_45_55_T28QCH_L2W_l2_flags.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-12-27/S2B_MSI_2025_12_27_11_45_55_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-12-27/S2B_MSI_2025_12_27_11_45_55_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-12-27/S2B_MSI_2025_12_27_11_45_55_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-12-27/S2B_MSI_2025_12_27_11_45_55_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260307/S2B_MSI_2026_03_07_11_45_54_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260307/S2B_MSI_2026_03_07_11_45_54_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260307/S2B_MSI_2026_03_07_11_45_54_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260307/S2B_MSI_2026_03_07_11_45_54_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_492.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_559.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_665.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_833.tif",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R10m/T28QCH_20260307T113319_B02_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R10m/T28QCH_20260307T113319_B03_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R10m/T28QCH_20260307T113319_B04_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R10m/T28QCH_20260307T113319_B08_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/IMG_DATA/R20m/T28QCH_20260307T113319_SCL_20m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/GRANULE/L2A_T28QCH_A047010_20260307T114112/MTD_TL.xml",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260307T113319_N0512_R080_T28QCH_20260307T154921.SAFE/MTD_MSIL2A.xml",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B02_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B03_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B04_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R10m/T28QCH_20260327T113319_B08_10m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/IMG_DATA/R20m/T28QCH_20260327T113319_SCL_20m.jp2",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/GRANULE/L2A_T28QCH_A047296_20260327T113507/MTD_TL.xml",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/S2B_MSIL2A_20260327T113319_N0512_R080_T28QCH_20260327T152639.SAFE/MTD_MSIL2A.xml",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2A_MSIL2A_20250106T113451_N0511_R080_T28QCH_20250106T154249.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2A_MSIL2A_20250418T113331_N0511_R080_T28QCH_20250418T201159.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2A_MSIL2A_20250617T113331_N0511_R080_T28QCH_20250617T163516.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20250302T113319_N0511_R080_T28QCH_20250302T134730.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20250322T113319_N0511_R080_T28QCH_20250322T152119.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20250531T113319_N0511_R080_T28QCH_20250531T134627.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20250630T113319_N0511_R080_T28QCH_20250630T151706.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20250829T113319_N0511_R080_T28QCH_20250829T134946.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20250928T113319_N0511_R080_T28QCH_20250928T153627.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20251028T113319_N0511_R080_T28QCH_20251028T134111.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20251127T113319_N0511_R080_T28QCH_20251127T134745.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2B_MSIL2A_20251227T113409_N0511_R080_T28QCH_20251227T151413.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250205T113341_N0511_R080_T28QCH_20250205T151111.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250307T113341_N0511_R080_T28QCH_20250307T161813.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250317T113341_N0511_R080_T28QCH_20250317T172413.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250406T113341_N0511_R080_T28QCH_20250406T182716.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250416T113341_N0511_R080_T28QCH_20250416T175402.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250516T113331_N0511_R080_T28QCH_20250516T143805.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250615T113341_N0511_R080_T28QCH_20250615T144716.zip",
+      "size_and_mtime_match": true
+    },
+    {
+      "path": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/Sen2Cor/S2C_MSIL2A_20250913T113331_N0511_R080_T28QCH_20250913T182413.zip",
+      "size_and_mtime_match": true
+    }
+  ],
+  "source_pixels": [
+    {
+      "date": "2025-01-06",
+      "band": "B2",
+      "absolute_error": 2.2947788114180412e-10
+    },
+    {
+      "date": "2025-06-15",
+      "band": "B2",
+      "absolute_error": 5.513429296444272e-11
+    },
+    {
+      "date": "2026-03-27",
+      "band": "B2",
+      "absolute_error": 2.6822093157630178e-11
+    },
+    {
+      "date": "2025-01-06",
+      "band": "B3",
+      "absolute_error": 4.708766709882184e-10
+    },
+    {
+      "date": "2025-06-15",
+      "band": "B3",
+      "absolute_error": 1.996755608080214e-10
+    },
+    {
+      "date": "2026-03-27",
+      "band": "B3",
+      "absolute_error": 1.3876705340365447e-11
+    },
+    {
+      "date": "2025-01-06",
+      "band": "B4",
+      "absolute_error": 1.5497209071568818e-10
+    },
+    {
+      "date": "2025-06-15",
+      "band": "B4",
+      "absolute_error": 2.205371857355587e-10
+    },
+    {
+      "date": "2026-03-27",
+      "band": "B4",
+      "absolute_error": 6.752098880014046e-13
+    },
+    {
+      "date": "2025-01-06",
+      "band": "B8",
+      "absolute_error": 7.122755163457839e-10
+    },
+    {
+      "date": "2025-06-15",
+      "band": "B8",
+      "absolute_error": 4.6938657821682384e-11
+    },
+    {
+      "date": "2026-03-27",
+      "band": "B8",
+      "absolute_error": 1.3969832235449786e-12
+    }
+  ],
+  "raw_files_rehashed": {
+    "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-01-06/S2A_MSI_2025_01_06_11_45_53_T28QCH_L2W_rhos_492.tif": "749fe97b65beb671dafa99d8095f355303357a6a58b56b406e0a0225720bfb75",
+    "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/2025-06-15/S2C_MSI_2025_06_15_11_46_15_T28QCH_L2W_rhos_489.tif": "47a1e36fa7426abc4041604ece4c3c2f7c0a3e588070e3ad298d42d076385c4e",
+    "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/data/raw/S2/ACOLITE/20260327/S2B_MSI_2026_03_27_11_45_53_T28QCH_L2W_rhos_492.tif": "9891c80d574f9c457bcd8216ead356569f1ecfa7dabb78fdecd813baf18c5b88"
+  },
+  "temporal_pixels": [
+    {
+      "band": "B2",
+      "row": 31,
+      "col": 0,
+      "statistic": "n",
+      "n": 21,
+      "expected": 21,
+      "actual": 21.0,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B2",
+      "row": 31,
+      "col": 0,
+      "statistic": "median",
+      "n": 21,
+      "expected": -0.003998078405857086,
+      "actual": -0.003998078405857086,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B2",
+      "row": 31,
+      "col": 0,
+      "statistic": "sd",
+      "n": 21,
+      "expected": 0.0075615023587738885,
+      "actual": 0.0075615025125443935,
+      "absolute_error": 1.5377050500975376e-10
+    },
+    {
+      "band": "B3",
+      "row": 31,
+      "col": 0,
+      "statistic": "n",
+      "n": 21,
+      "expected": 21,
+      "actual": 21.0,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B3",
+      "row": 31,
+      "col": 0,
+      "statistic": "median",
+      "n": 21,
+      "expected": -0.0035187851171940565,
+      "actual": -0.0035187851171940565,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B3",
+      "row": 31,
+      "col": 0,
+      "statistic": "sd",
+      "n": 21,
+      "expected": 0.0066151681125946995,
+      "actual": 0.006615167949348688,
+      "absolute_error": 1.6324601132683414e-10
+    },
+    {
+      "band": "B4",
+      "row": 31,
+      "col": 0,
+      "statistic": "n",
+      "n": 21,
+      "expected": 21,
+      "actual": 21.0,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B4",
+      "row": 31,
+      "col": 0,
+      "statistic": "median",
+      "n": 21,
+      "expected": -0.004597797524183989,
+      "actual": -0.004597797524183989,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B4",
+      "row": 31,
+      "col": 0,
+      "statistic": "sd",
+      "n": 21,
+      "expected": 0.005589753333237964,
+      "actual": 0.0055897533893585205,
+      "absolute_error": 5.612055611892153e-11
+    },
+    {
+      "band": "B8",
+      "row": 31,
+      "col": 0,
+      "statistic": "n",
+      "n": 21,
+      "expected": 21,
+      "actual": 21.0,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B8",
+      "row": 31,
+      "col": 0,
+      "statistic": "median",
+      "n": 21,
+      "expected": -0.005260203965008259,
+      "actual": -0.005260203965008259,
+      "absolute_error": 0.0
+    },
+    {
+      "band": "B8",
+      "row": 31,
+      "col": 0,
+      "statistic": "sd",
+      "n": 21,
+      "expected": 0.005874812752070653,
+      "actual": 0.005874812602996826,
+      "absolute_error": 1.490738270673586e-10
+    }
+  ],
+  "sd_saturation": [
+    {
+      "band": "B2",
+      "finite_pixels": 7309566,
+      "fraction_above_0_02": 0.04468828929104683
+    },
+    {
+      "band": "B3",
+      "finite_pixels": 7309566,
+      "fraction_above_0_02": 0.11851401300706499
+    },
+    {
+      "band": "B4",
+      "finite_pixels": 7309566,
+      "fraction_above_0_02": 0.1519123023172648
+    },
+    {
+      "band": "B8",
+      "finite_pixels": 7309566,
+      "fraction_above_0_02": 0.14226371305765623
+    }
+  ],
+  "model_rerun_tables": [
+    {
+      "path": "tables/ctr56_date_design.csv",
+      "rows": 22,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_diagnostics.csv",
+      "rows": 8,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_domain_sensitivity.csv",
+      "rows": 40,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_endpoint_contrasts.csv",
+      "rows": 8,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_leave_one_date_out.csv",
+      "rows": 176,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_observed_summary.csv",
+      "rows": 8,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_predictions.csv",
+      "rows": 21808,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_quality_coverage_diagnostics.csv",
+      "rows": 8,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_residual_variogram.csv",
+      "rows": 48,
+      "max_absolute_numeric_error": 0
+    },
+    {
+      "path": "tables/ctr56_residuals.csv",
+      "rows": 176,
+      "max_absolute_numeric_error": 0
+    }
+  ],
+  "model_check": "PASS: 48 converged models; 401 in-range predictions per model; positive inverse-transformed SD; prediction/covariance and endpoint-contrast agreement; 176 influence refits.\nMaximum saved prediction/SE discrepancy: 6.217249e-15 \nMaximum linear-GAM versus independent OLS discrepancy: 1.342676e-07 \n",
+  "presentation": {
+    "anchors": [
+      {
+        "sd": "0",
+        "index": "1",
+        "hex": "#2166AC",
+        "expected": "#2166AC",
+        "pass": "TRUE"
+      },
+      {
+        "sd": "0.01",
+        "index": "129",
+        "hex": "#FFFFFF",
+        "expected": "#FFFFFF",
+        "pass": "TRUE"
+      },
+      {
+        "sd": "0.02",
+        "index": "257",
+        "hex": "#B2182B",
+        "expected": "#B2182B",
+        "pass": "TRUE"
+      }
+    ],
+    "panels": [
+      {
+        "statistic": "median",
+        "band": "B2",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "median",
+        "band": "B3",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "median",
+        "band": "B4",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "median",
+        "band": "B8",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "sd",
+        "band": "B2",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "sd",
+        "band": "B3",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "sd",
+        "band": "B4",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      },
+      {
+        "statistic": "sd",
+        "band": "B8",
+        "width_inches": "4.42",
+        "height_inches": "2.31865001328727",
+        "xmin": "334050",
+        "xmax": "371680",
+        "ymin": "2190240",
+        "ymax": "2209980"
+      }
+    ],
+    "median_limit": 0.0464419350028038,
+    "upper_extension": true,
+    "nodata": "#D9D9D9"
+  },
+  "status": "pass"
+}

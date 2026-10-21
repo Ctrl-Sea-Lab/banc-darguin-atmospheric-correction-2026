@@ -1,0 +1,1989 @@
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<!DOCTYPE html>
+<html
+	lang="en"
+	data-page-template="article"
+	
+ data-page-id="ci_99ac04b8aa934bcbc782e3123dc64acd1b1c3a4b7c1f8ab670e028bf90e8556c" data-confluence-content-id="1688888"
+		data-color-scheme="light"
+>
+<head>
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="color-scheme" content="light">
+
+						<link id="pageTreeSource" rel="preload" href="/web/__pagetree.json" as="fetch" type="application/json" crossorigin="anonymous">
+
+		<meta name="site-path" content="/">
+
+					<link rel="x-site-path" href="/">
+	<link rel="x-root-path" href="/">
+
+	<meta name="site-default-language" content="en">
+		<meta name="site-languages" content="en">
+		<meta name="confluence-content-type" content="page">
+		<meta name="confluence-base-url" content="https://sentiwiki.atlassian.net/wiki">
+		<meta name="confluence-space-key" content="CSWK">
+	
+
+
+
+	<link rel="icon" href="/__site/221041cd-2147-445f-83f7-7d08d954cd1d/ESA_logo_simple.svg.png" type="image/svg+xml">
+
+
+
+
+
+
+
+
+
+
+
+		<title>S2 Products | SentiWiki</title>
+		<meta property="og:title" content="S2 Products | SentiWiki">
+		<meta property="twitter:title" content="S2 Products | SentiWiki">
+
+		<link rel="canonical" href="https://sentiwiki.copernicus.eu/web/s2-products">
+		<meta property="og:url" content="https://sentiwiki.copernicus.eu/web/s2-products">
+
+		<meta name="description" content="MSI Products Overview The continuous acquisition of Sentinel-2 image data in a given MSI mode is called a &amp;quot;datatake&amp;quot;. The maximum length of an imaging datatake…">
+		<meta property="og:description" content="MSI Products Overview The continuous acquisition of Sentinel-2 image data in a given MSI mode is called a &amp;quot;datatake&amp;quot;. The maximum length of an imaging datatake…">
+		<meta property="twitter:description" content="MSI Products Overview The continuous acquisition of Sentinel-2 image data in a given MSI mode is called a &amp;quot;datatake&amp;quot;. The maximum length of an imaging datatake…">
+
+		<meta property="og:image" content="https://sentiwiki.copernicus.eu/__attachments/a_2d90822d3dccd8454c2cedf7eccda81adc40bcfe51007251f0c99b57564fba08/image-20230904-071039.png?cb=b16533329ed8963c10f54d40a482844f">
+		<meta property="twitter:image" content="https://sentiwiki.copernicus.eu/__attachments/a_2d90822d3dccd8454c2cedf7eccda81adc40bcfe51007251f0c99b57564fba08/image-20230904-071039.png?cb=b16533329ed8963c10f54d40a482844f">
+
+	<meta property="og:type" content="website">
+	<meta property="twitter:card" content="summary_large_image">
+
+		<meta name="page-last-modified" content="2026-09-21T16:26:06.675Z">
+
+		<script>
+		(function () {
+			const defaultLanguageMeta = /** @type {string|undefined} */(document.querySelector('meta[name="site-default-language"]')?.content);
+			const availableLanguagesMeta = /** @type {string|undefined} */(document.querySelector('meta[name="site-languages"]')?.content);
+			const fallbackLanguage = defaultLanguageMeta ?? 'en';
+			const supportedLanguagesFromMeta = availableLanguagesMeta?.split(',') ?? [];
+			const supportedLanguages = [...new Set([fallbackLanguage, ...supportedLanguagesFromMeta])].filter(Boolean);
+			const detectedLanguage = new URLSearchParams(self.location.search).get('l') || document.documentElement.lang;
+			const resolvedLanguage = supportedLanguages.includes(detectedLanguage) ? detectedLanguage : fallbackLanguage;
+			document.documentElement.lang = resolvedLanguage;
+			const sheet = new CSSStyleSheet();
+			document.adoptedStyleSheets.push(sheet);
+			// Hide any element with a `data-lang` attribute that does NOT match the detected language
+			sheet.replaceSync('[data-lang]:not([data-lang="' + resolvedLanguage + '"]) { display: none; }');
+		})();
+	</script>
+
+		<script>
+		(function() {
+			/** @typedef {'light'|'dark'} ColorScheme */
+			/** @type {ColorScheme[]} */
+			const availableColorSchemes = document.documentElement.querySelector('meta[name="color-scheme"]').content.split(' ').filter(Boolean);
+			/** @type {ColorScheme|'system'} */
+			const userPreference = localStorage?.getItem('color-scheme-preference') ?? 'system';
+			// Clean-up user preference in case there's nothing to choose from
+			// Fall back to the HTML document's default color theme
+			if (availableColorSchemes.length <= 1 || ![...availableColorSchemes, 'system'].includes(userPreference)) {
+				localStorage?.removeItem('color-scheme-preference');
+				return;
+			}
+			// Override default HTML document with client-side user preference
+			if (userPreference === 'system') {
+				updateThemeAttribute(self.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark')
+			} else {
+				updateThemeAttribute(userPreference)
+			}
+			/** @param {ColorScheme} colorScheme */
+			function updateThemeAttribute(colorScheme) {
+				document.documentElement.setAttribute('data-color-scheme', colorScheme);
+			}
+		})();
+	</script>
+
+		<script>
+		
+		function sortContentSources(a, b) {
+			let result = a.precedence - b.precedence;
+
+			if (result === 0) {
+				result = a.value.localeCompare(b.value);
+			}
+
+			return result;
+		}
+
+		
+		function applyContentSourceOrderToElements({ parent, children }) {
+			const contentSourceElements = [...children];
+
+			contentSourceElements
+				.sort((a, b) => (
+					sortContentSources(
+						{ value: a.dataset.orderValue, precedence: a.dataset.orderPrecedence },
+						{ value: b.dataset.orderValue, precedence: b.dataset.orderPrecedence }
+					)
+				))
+				.forEach((element) => {
+					delete element.dataset.orderValue;
+					delete element.dataset.orderPrecedence;
+				});
+
+			parent.replaceChildren(...contentSourceElements);
+		}
+	</script>
+
+<script>
+	(() => {
+		if (isInAppHelpEnabled()) {
+			document.documentElement.dataset.inAppHelp = 'true';
+
+			if (isTitleHidden()) {
+				document.documentElement.dataset.hideTitle = 'true';
+			}
+		}
+
+		function isInAppHelpEnabled() {
+			return new URLSearchParams(location.search).get('inAppHelp') === 'true';
+		}
+
+		function isTitleHidden() {
+			return new URLSearchParams(location.search).get('title') === 'false';
+		}
+	})();
+</script>
+
+<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/in-app-help.css"/>
+<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/in-app-help.js"></script>
+
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/styles.css">
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/fonts.css">
+	<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/search-styles-bundle.css">
+
+	
+
+	<style>
+		@layer overrides {
+			:root {
+				--theme-headline-font: "Roboto";
+				--theme-text-font: "Roboto";
+				--theme-headline-scale: calc(100 / 100);
+				--theme-text-scale: calc(100 / 100);
+			}
+		}
+	</style>
+
+	<style>
+		@layer overrides {
+			:root, :host {
+					--theme-header-logo-size: 40px;
+					--theme-footer-logo-size: 40px;
+			}
+
+			:root[data-color-scheme='light'],
+			:host([data-color-scheme='light']) {
+					--theme-header-text-color: #FFFFFF;
+					--theme-header-background-color: #0d284f;
+					--theme-footer-text-color: #FFF;
+					--theme-footer-background-color: #0d284f;
+			}
+
+			:root[data-color-scheme='dark'],
+			:host([data-color-scheme='dark']) {
+					--theme-header-text-color: #FFFFFF;
+					--theme-header-background-color: #0a0b0c;
+					--theme-footer-text-color: #FFFFFF;
+					--theme-footer-background-color: #0a0b0c;
+			}
+		}
+	</style>
+
+	 
+
+
+
+
+
+<script data-site-data="content-sources" type="application/json">
+{
+	"collection": {
+		"members": [
+
+
+	{
+	"name": "SentiWiki",
+	"id": "92625472-4650-4eae-857c-0f249472e91f",
+	"key": "CSWK",
+	"path": "/web",
+		"prefix": "/web",
+		"current": true,
+	"versions": {
+		"available": [
+		]
+	},
+	"variants": {
+		"available": [
+		]
+	},
+	"languages": {
+		"available": [
+		]
+	}
+}
+
+		]
+	}
+}
+</script>
+
+
+<script data-theme-placeholder="site" type="application/json">
+	{
+		"id": "131812fa-6c98-411c-8c5a-8623a325fb95",
+		"path": "/",
+		"url": "/",
+		"domain": "sentiwiki.copernicus.eu",
+		"aiSearchEnabled": false,
+		"isMcpServerEnabled": false,
+		"visibleToSearchEngines": true,
+		"isProtectionEnabled": false,
+		"isPublished": true,
+		"isAiAssistantEnabled": false
+	}
+</script>
+
+ 
+<script data-config="cookieconsent" type="application/json">
+{
+	"enabled": true,
+	"mode": "opt-in",
+	"heading": "Cookie Notice",
+	"description": "We use cookies which are essential for you to access our website and to provide you with our services and allow us to measure and improve the performance of our website.",
+	"links": [
+	]
+}
+</script>
+
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/main.js"></script>
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/page-tree.js" fetchpriority="high"></script>
+	<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/search-bundle.js"></script>
+
+							<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/article.js"></script>
+
+		<link rel="stylesheet" href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/ai-actions.css">
+		<script type="module" src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/ai-actions.js"></script>
+
+
+
+
+
+
+<template data-custom-overrides data-type="code-asset">
+	<link rel="stylesheet" href="/__site/76712f91-90a6-4142-b1a8-fae39cb188f2/code_custom_css_override_asset.css">
+</template>
+
+<template data-custom-overrides data-type="code-asset">
+				<script data-cfasync="false" src="/__site/5f705acf-5afa-46fe-8d05-33fd919c186a/code_custom_js_override_asset.js"></script>
+</template>
+
+<script data-cfasync="false">
+	(() => {
+		if (new URLSearchParams(location.search).has('disable-custom-overrides')) {
+			return;
+		}
+
+		document.querySelectorAll('[data-custom-overrides]').forEach(template => {
+			const type = template.getAttribute('data-type');
+
+			if (type === 'code-asset') {
+				const assetElement = template.content.cloneNode(true).firstElementChild;
+				const appendAsset = () => document.head.appendChild(assetElement);
+
+				if (assetElement.tagName === 'SCRIPT') {
+															if (document.readyState === 'complete') {
+						appendAsset();
+					} else {
+												document.addEventListener('DOMContentLoaded', appendAsset, { once: true });
+					}
+				} else {
+					appendAsset();
+				}
+			}
+		});
+	})();
+</script>
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+			</head>
+<body>
+	<a href="#content" class="skip-link">
+		<i18n-message i18nkey="navigation.skip.to.main.label">Skip to main content</i18n-message>
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+<header data-component="header" class="header">
+
+	<div class="header-site-branding">
+		<i18n-message id="5f95adaffa918bd6-2" class="sr-only" i18nkey="header.home.label"></i18n-message>
+
+		<a href="/" aria-labelledby="5f95adaffa918bd6-2">
+
+
+
+
+		<img class="header-logo header-logo--dark" src="/__site/daf22bbc-3283-4247-8d4c-43dcc8aa2152/esa-brand-dark-transparent.png" alt="">
+
+		<img class="header-logo header-logo--light" src="/__site/daf22bbc-3283-4247-8d4c-43dcc8aa2152/esa-brand-dark-transparent.png" alt="">
+
+		</a>
+
+	</div>
+	<div class="header-content">
+			<div class="header-links">
+				<ul>
+						<li><a href="https://sentiwiki.copernicus.eu">SentiWiki</a></li>
+				</ul>
+			</div>
+
+		<div class="header-pickers">
+
+		</div>
+
+			<div class="header-search">
+				<search-bar quicksearch></search-bar>
+			</div>
+
+
+				<button type="button" aria-controls="drawer-5f95adaffa918bd6-1" aria-haspopup="dialog" aria-expanded="false" class="header-nav-toggle" onclick="self['drawer-5f95adaffa918bd6-1'].showModal()">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-menu ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#menu"></use>
+	</svg>
+			<i18n-message class="sr-only" i18nkey="navigation.main.label">Main navigation</i18n-message>
+		</button>
+	</div>
+
+	
+
+<dialog id="drawer-5f95adaffa918bd6-1" class="drawer">
+	<header data-component="header" class="header">
+
+	<div class="header-site-branding">
+		<i18n-message id="5f95adaffa918bd6-3" class="sr-only" i18nkey="header.home.label"></i18n-message>
+
+		<a href="/" aria-labelledby="5f95adaffa918bd6-3">
+
+
+
+
+		<img class="header-logo header-logo--dark" src="/__site/daf22bbc-3283-4247-8d4c-43dcc8aa2152/esa-brand-dark-transparent.png" alt="">
+
+		<img class="header-logo header-logo--light" src="/__site/daf22bbc-3283-4247-8d4c-43dcc8aa2152/esa-brand-dark-transparent.png" alt="">
+
+		</a>
+
+	</div>
+
+		<div class="header-content">
+			<button type="button" aria-controls="drawer-5f95adaffa918bd6-1" aria-haspopup="dialog" aria-expanded="true" autofocus class="drawer-toggle" onclick="self['drawer-5f95adaffa918bd6-1'].close()">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-close ">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#close"></use>
+	</svg>
+				<i18n-message class="sr-only" i18nkey="action.close.label">Close</i18n-message>
+			</button>
+		</div>
+	</header>
+
+	<div class="drawer-section drawer-search">
+		<search-bar quicksearch></search-bar>
+	</div>
+
+
+	<nav id="drawer-nav" class="drawer-section drawer-nav tree" aria-labelledby="drawer-nav-label">
+		<i18n-message id="drawer-nav-label" class="sr-only" i18nkey="navigation.main.label">Main</i18n-message>
+
+						<copy-page-tree target="articleTree"></copy-page-tree>
+	</nav>
+
+			<div class="drawer-section drawer-links tree">
+<ul  >
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-4" href="https://sentiwiki.copernicus.eu" >SentiWiki</a>
+			</div>
+
+		</li>
+</ul>
+		</div>
+</dialog>
+
+</header>
+		<section class="article-page body">
+		<theme-navigator class="navigator">
+			<button id="navigator-toggle" class="navigator-toggle" aria-controls="navigator-nav" aria-labelledby="navigator-nav-label" aria-expanded="true">
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-menu navigator-icon-closed">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#menu"></use>
+	</svg>
+	<svg role="img" aria-hidden="true" data-component="icon" class="icon icon-chevron_left navigator-icon-opened">
+		<use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#chevron_left"></use>
+	</svg>
+			</button>
+						<nav id="navigator-nav" class="navigator-body tree" aria-labelledby="navigator-nav-label">
+				<i18n-message id="navigator-nav-label" class="sr-only" i18nkey="navigation.main.label">Main</i18n-message>
+				<theme-page-tree id="articleTree">
+<ul  >
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-5" href="/web/sentiwiki" >SentiWiki</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-6"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-6" href="/web/copernicus-programme" >Copernicus Programme</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-8"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-8" href="/web/copernicus-applications" >Copernicus Applications</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="true"
+aria-controls="5f95adaffa918bd6-11"						aria-labelledby="5f95adaffa918bd6-10"
+					></button>
+				<a id="5f95adaffa918bd6-10" href="/web/satellite-missions" >Satellite Missions</a>
+			</div>
+
+<ul  id="5f95adaffa918bd6-11" >
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-12"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-12" href="/web/sentinel-1" >Sentinel-1</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="true"
+aria-controls="5f95adaffa918bd6-15"						aria-labelledby="5f95adaffa918bd6-14"
+					></button>
+				<a id="5f95adaffa918bd6-14" href="/web/sentinel-2" >Sentinel-2</a>
+			</div>
+
+<ul  id="5f95adaffa918bd6-15" >
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-16" href="/web/s2-mission" >S2 Mission</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-17" href="/web/s2-applications" >S2 Applications</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-18" href="/web/s2-products" aria-current="page">S2 Products</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-19" href="/web/s2-processing" >S2 Processing</a>
+			</div>
+
+		</li>
+</ul>
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-20"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-20" href="/web/sentinel-3" >Sentinel-3</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-22"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-22" href="/web/sentinel-5p" >Sentinel-5P</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-24"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-24" href="/web/future-missions" >Future Missions</a>
+			</div>
+
+		</li>
+</ul>
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-26"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-26" href="/web/copernicus-operations" >Copernicus Operations</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-28"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-28" href="/web/general-information" >General Information</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+					<button
+						class="tree-action"
+						type="button"
+						aria-expanded="false"
+						aria-labelledby="5f95adaffa918bd6-30"
+aria-busy="true" aria-disabled="true"					></button>
+				<a id="5f95adaffa918bd6-30" href="/web/document-library" >Document Library</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-32" href="/web/ask-copernicus-ai-data-guide" >Ask Copernicus - AI data guide</a>
+			</div>
+
+		</li>
+		<li class="tree-item">
+			<div class="tree-item-header">
+				<a id="5f95adaffa918bd6-33" href="/web/terms-and-conditions" >Terms and Conditions</a>
+			</div>
+
+		</li>
+</ul>
+				</theme-page-tree>
+			</nav>
+		</theme-navigator>
+
+		<main class="main-content">
+			<div class="topbar">
+
+
+
+
+	<theme-breadcrumbs class="breadcrumbs" >
+		<i18n-message id="5f95adaffa918bd6-34" class="sr-only" i18nkey="breadcrumbs.label">Breadcrumbs</i18n-message>
+		<nav aria-labelledby="5f95adaffa918bd6-34">
+				<ol>
+														<li>
+								<a href="/web/satellite-missions">
+										Satellite Missions
+								</a>
+							</li>
+							<li>
+								<a href="/web/sentinel-2">
+										Sentinel-2
+								</a>
+							</li>
+				</ol>
+		</nav>
+	</theme-breadcrumbs>
+					<ai-actions class="ai-actions"><theme-dropdown></theme-dropdown></ai-actions>
+			</div>
+				<script src="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/breadcrumbs.js"></script>
+		<nav class="toc sticky" data-component="toc" aria-labelledby="5f95adaffa918bd6-35">
+			<h2 class="toc-heading" id="5f95adaffa918bd6-35">
+				<i18n-message i18nkey="page.article.toc.label">On this Page</i18n-message>
+			</h2>
+			<theme-toc for="content"></theme-toc>
+		</nav>
+			<article id="content" tabindex="-1" class="fb-layout-container">
+				<header>
+					<h1>S2 Products</h1>
+				</header>
+				<section class="article-body fb-layout-body" data-searchable-content>
+		
+	
+	
+
+
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+		
+
+	
+		
+		
+	
+	
+	
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+						
+		
+
+
+				
+
+
+	
+	
+	
+	
+	
+	<h2 id="MSI-Products-Overview" style=""><span id="S2Products-MSIProductsOverview"></span>MSI Products Overview
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#MSI-Products-Overview">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>The continuous acquisition of Sentinel-2 image data in a given MSI mode is called a "datatake". The maximum length of an imaging datatake is 15,000 km (e.g. continuous observation from northern Russia to southern Africa). All products contain granules/tiles from a single datatake. A datatake is presented inside a product as a set of one or more datastrips (corresponding to acquisition segments downlinked to different ground stations, please see <strong>Figure 1</strong> below).</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1600px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_2d90822d3dccd8454c2cedf7eccda81adc40bcfe51007251f0c99b57564fba08/image-20230904-071039.png?cb=b16533329ed8963c10f54d40a482844f" alt="image-20230904-071039.png" data-scope="internal" width="1600" height="655">
+   </div>
+   <figcaption>
+    <strong>Figure 1: Sentinel-2 Datatake split in three Datastrips. [Credits: Exprivia]</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>The products are elementary granules of fixed size, within a single orbit. A granule is the minimum indivisible partition of a product (containing all possible spectral bands).</p>
+<p>For Level-1B granules are small images in sensor geometry sensed by each of the twelve MSI detectors and are 23 km x 25 Km large.</p>
+<p>For Level-1C and Level-2A, the granules, also called tiles, are 110 km x 110 km ortho-images projected onto the Universal Transversal Mercator (UTM) spatial reference system, which divides Earth into 60 longitudinal zones. Each UTM zone has a vertical width of 6° of longitude and horizontal width of 8° of latitude (see <strong>Figure 2</strong>). Earth is subdivided on a predefined set of tiles, defined in UTM/WGS84 projection and using a 100 km step. However, each tile has a surface of 110 km x 110 km in order to provide large overlap with the neighbouring.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 760px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_bf38b41d3a2cc91cc666685f413af37bd6278154e71dc91ccd28bae321942a57/sentinel-2-products-product-types.png?cb=a5525dffce4c7bf8213e27eadb7c822b" alt="sentinel-2-products-product-types.png" data-scope="internal" width="812" height="404">
+   </div>
+   <figcaption>
+    <strong>Figure 2: Level-1C product tiling</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>Tiles can be fully or partially covered by image data. Partially covered tiles correspond to those at the edge or top/bottom of the Datastrip.</p>
+<p>Download is available here:&nbsp;<a href="/__attachments/a_69a662aa1cb30487acc66009f09b1dcfa9e4e32f92af1c3b2dd1fc8a3c011738/S2A_OPER_GIP_TILPAR_MPC__20151209T095117_V20150622T000000_21000101T000000_B00.zip" data-scope="internal">Sentinel-2 tiling grid kml</a>.</p>
+<p>
+ <br>
+</p>
+<p>
+ <br>
+</p>
+<p>
+ <br>
+</p>
+<h3 id="Naming-Convention" style=""><span id="S2Products-NamingConvention"></span>Naming Convention <span id="S2-Products-Naming-Convention"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Naming-Convention">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>Since December 6th, 2016, the Sentinel-2 Level-1C User products distributed by the <a href="https://dataspace.copernicus.eu/" data-scope="external" rel="external noreferrer">Copernicus Data Space Ecosystem (CDSE)</a> are available in a new product format. This format has been introduced in order to overcome the 256 characters limitation on pathnames imposed by Windows platforms. This has been achieved by compaction of the filenames, including the naming of internal folders and files.</p>
+<p>This product format is described in detail in the <a href="/__attachments/a_0d279c523381917992e4b2b28f5229995e592ffc6e17fc1aebf09b8c120240ea/S2-PDGS-CS-DI-PSD%20-%20S2%20Product%20Specification%20Document%202024%20-%2015.0.pdf" data-scope="internal">Sentinel-2 Products Specification Document</a> (PSD) (starting with the version 14.6). The product format corresponding to the Level-1C User products combines the features described in the 'Compact Naming Convention' and the 'Complete Single Tile' sections in the PSD.</p>
+<h4 id="Compact-Naming-Convention" style=""><span id="S2Products-CompactNamingConvention"></span>Compact Naming Convention<span id="S2-Products-Compact-Naming-Convention"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Compact-Naming-Convention">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>The compact naming convention of Sentinel-2 User products is arranged as follows:</p>
+<p data-indentation-level="2">MMM_MSIXXX_YYYYMMDDHHMMSS_Nxxyy_ROOO_Txxxxx_&lt;Product Discriminator&gt;.SAFE</p>
+<p>The products contain two dates.</p>
+<ul>
+ <li>
+  <p>The first date (YYYYMMDDHHMMSS) is the datatake start sensing time.</p>
+ </li>
+ <li>
+  <p>The second date is the "&lt;Product Discriminator&gt;" field, which is 15 characters in length, and is used to distinguish between different end user products from the same datatake. Depending on the instance, the time in this field can be earlier or slightly later than the datatake sensing time.</p>
+ </li>
+</ul>
+<p>The other components of the filename are:</p>
+<ul>
+ <li>
+  <p>MMM: is the mission ID(S2A/S2B)</p>
+ </li>
+ <li>
+  <p>MSIXXX: MSIL1C denotes the Level-1C product level/ MSIL2A denotes the Level-2A product level</p>
+ </li>
+ <li>
+  <p>YYYYMMDDHHMMSS: the datatake sensing start time</p>
+ </li>
+ <li>
+  <p>Nxxyy: the Processing Baseline number (e.g. N0204)</p>
+ </li>
+ <li>
+  <p>ROOO: Relative Orbit number (R001 - R143)</p>
+ </li>
+ <li>
+  <p>Txxxxx: Tile Number field</p>
+ </li>
+ <li>
+  <p>SAFE: Product Format (Standard Archive Format for Europe)</p>
+ </li>
+</ul>
+<p>Thus, the following filename:</p>
+<p data-indentation-level="2">S2A_MSIL1C_20170105T013442_N0204_R031_T53NMJ_20170105T013443.SAFE</p>
+<p>Identifies a Level-1C product acquired by Sentinel-2A on the 5th of January, 2017 at 1:34:42 AM. It was acquired over Tile 53NMJ<sup>(1)</sup> during Relative Orbit 031, and processed with Processing Baseline 02.04.</p>
+<p>In addition to the above changes, a TCI (True Colour Image) in JPEG2000 format is included within the Tile folder of Level-1C products in this format. For more information on the TCI, see the <a href="/web/glossary#D" data-scope="internal">Glossary | D</a>.</p>
+<p><em>(1) The Tile Naming Convention is described in the 'Tiles and UTM Tiled Grid' section of the [PSD]. Download the </em><a href="/__attachments/a_69a662aa1cb30487acc66009f09b1dcfa9e4e32f92af1c3b2dd1fc8a3c011738/S2A_OPER_GIP_TILPAR_MPC__20151209T095117_V20150622T000000_21000101T000000_B00.zip" data-scope="internal"><em>Sentinel-2 tiling grid kml</em></a><em>. (in KML format).</em></p>
+<details class="expand" data-component="expand">
+ <summary class="expand-control"> Old format Naming Convention for Sentinel-2 Level-1C User products generated before December 6th, 2016 </summary>
+ <div class="expand-body">
+  <p>The top-level Sentinel-2 product folder name is composed of upper-case alphanumeric characters separated by an underscore (_).</p>
+  <div class="theme-block-image">
+   <image-lightbox>
+    <figure data-component="figure">
+     <div class="block-image" style="--width: 442px" data-component="image" data-align="align-center">
+      <img src="https://sentinels.copernicus.eu/documents/247904/266422/Sentinel-2_Naming_Convention_Figure_1.jpg" alt="https://sentinels.copernicus.eu/documents/247904/266422/Sentinel-2_Naming_Convention_Figure_1.jpg" data-scope="external" width="600" height="368">
+     </div>
+     <figcaption>
+      <strong>Figure 3: Product naming convention</strong>
+     </figcaption>
+    </figure>
+   </image-lightbox>
+  </div>
+  <p>The Mission Identifier (MMM) denotes the satellite and will be either S2A for the Sentinel-2A instrument or S2B for the Sentinel-2B instrument.</p>
+  <p>The File Class (CCCC) may be set to "OPER" for all products generated during the Operations Phase. During Validation or internal testing, other values can be defined.</p>
+  <p>The File Type (TTTTTTTTTT) consist of the File Category and File Semantic</p>
+  <p>TTTTTTTTTT = FFFFDDDDDD where:</p>
+  <p>FFFF = File Category and DDDDDD = Semantic Descriptor.</p>
+  <p>The File Category comprises 3 characters and an ending underscore "_". This sub-field allows the definition of file groups characterised by related information / configuration information / generated data / usage of the data / etc. The Semantic Descriptor comprises 6 characters. The Semantic Descriptor can be composed of uppercase letters, digits or underscores. The File Type for a product may be "PRD_MSIL0P" for Level-0, "PRD_MSIL1A" for Level-1A, "PRD_MSIL1B" for Level-1B, "PRD_MSIL1C" for Level-1C, "PRD_MSITCI", or for Level-2A; "PRD_USER2A"</p>
+  <p>The Instance Identifier contains the Site Centre (ssss) and Creation Date in UTC time (yyyymmddThhmmss). The Site Centre denotes the file originator or processing facility. The Site Centre may be set to "MTI_" for Matera CGS, "SGS_" for Svalbard CGS, "MPS_" for Maspalomas CGS, "EPA_" for Madrid PAC, "MPC_" for the MPC/CC centre, "UPA_", for the UK PAC, "EDRS" for the EDRS Exploitation Segment, plus Local Ground Stations ending in "L", and "USER" for L2 products. A combination of additional fields may be included and are distinguished by the leading character:</p>
+  <p>The Relative Orbit Number (<strong>R</strong>OOO) where OOO represents the relative orbit number.</p>
+  <p>The Applicability Time Period: (<strong>V</strong>yyyymmddThhmmss_YYYYMMDDTHHMMSS) appends the Validity Period Time fields (Start and Stop).</p>
+  <p>The Product Format (SAFE) indicates that the product is in Sentinel <a href="/web/safe-format" data-scope="internal">SAFE</a> format.</p>
+ </div>
+</details>
+<p>
+ <br>
+</p>
+<h3 id="Data-Formats" style=""><span id="S2Products-DataFormats"></span>Data Formats<span id="S2-Products-Data-Formats"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Data-Formats">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>Sentinel-2 Level-1C and Level-2A User products are made available in Sentinel-SAFE format, including image data in JPEG2000 format, quality indicators (e.g. defective pixels mask), auxiliary data and metadata.</p>
+<p>The SAFE format has been designed to act as a common format for archiving and conveying data within ESA Earth Observation archiving facilities.</p>
+<p>A Sentinel-2 User product refers to a directory folder that contains a collection of information (<strong>Figure 4</strong>). It includes:</p>
+<ul>
+ <li>
+  <p>a product metadata file in XML format that describes the physical organization and the content of the product</p>
+ </li>
+ <li>
+  <p>a <em>manifest.safe</em> file which holds the general product information in XML</p>
+ </li>
+ <li>
+  <p>a GRANULE subfolder, including image data (granules/tiles) in JPEG2000 format as well as quality indicators (quality masks, quality reports, etc.)</p>
+ </li>
+ <li>
+  <p>a DATASTRIP subfolder, containing information at&nbsp;datastrip level</p>
+ </li>
+ <li>
+  <p>an AUX_DATA subfolder, containing the set of auxiliary files that can be embedded in the product</p>
+ </li>
+ <li>
+  <p>a rep-info subfolder, containing the XSD schemas describing the product components</p>
+ </li>
+ <li>
+  <p>an INSPIRE XML file, that is a metadata file based on INSPIRE Metadata regulation</p>
+ </li>
+ <li>
+  <p>a HTML subfolder,&nbsp;containing a product presentation file allowing to display easily the main content of the product.</p>
+ </li>
+</ul>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 742px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_06948b80da6b1f665d0627c4b545c122e963451e2ed751c2097666e97fcecc6d/image-20230808-143157.png?cb=06262c0a86537211cea06d7528327853" alt="image-20230808-143157.png" data-scope="internal" width="742" height="635">
+   </div>
+   <figcaption>
+    <strong>Figure 4: Sentinel-2 SAFE product content</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h3 id="XML-Schema-Definitions-(XSD)" style=""><span id="S2Products-XMLSchemaDefinitions(XSD)"></span>XML Schema Definitions (XSD)<span id="S2-Products-XML-Schema-Definitions"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#XML-Schema-Definitions-(XSD)">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>The products metadata within a Sentinel-2 Level-1C and Level-2A <a href="/web/s2-products#S2-Products-Compact-Naming-Convention" data-scope="internal">Compact Naming Convention</a> User product, is contained in the root XML (eXtensible Markup Language) file within the product, as shown below.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 508px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_036946c1e83cef52829009e282ee6e4b56d676b1c0ddfadc6b178e3cff1313b5/image-20230818-091544.png?cb=f6994f05c6404358ba627fe1526511a0" alt="image-20230818-091544.png" data-scope="internal" width="508" height="233">
+   </div>
+   <figcaption>
+    <strong>Figure 5: Sentinel-2 L1C and L2A Compact naming Convention product physical structure</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>This metadata in XML format conforms to the XSD (XML Schema Definition) Schemas (S2_PDI_Level-1C_Tile_Metadata.xsd and S2_User_Product_Level-2A_Metadata.xsd respectively) that accompany the Product Specification Document (PSD) available from the <a href="/web/document-library#Library-S2-Documents" data-scope="internal">Sentinel-2 Document Library</a>.</p>
+<p>XSD is a World Wide Web Consortium (W3C) recommendation that specifies how to formally describe the elements in an Extensible Markup Language (XML) document. More information can be found on the <a href="https://www.w3.org/standards/xml/schema" data-scope="external" rel="external noreferrer">Web Standards</a>.</p>
+<h3 id="Processing-Levels" style=""><span id="S2Products-ProcessingLevels"></span>Processing Levels<span id="S2-Products-Processing-Levels"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Processing-Levels">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>All data acquired by the MSI instrument are systematically processed up to Level-2A&nbsp;within the ESA Earth Observation Framework - Copernicus Space Component (EOF-CSC).</p>
+<p>Only the Level-1C and Level-2A products are released to Users.&nbsp;L1B products are available for expert users only on request.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 760px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_0c2c5f7c4fb38ae3bffae9716f6c858f75a17f7b9fa1fe2b447b0486cab545cd/sentinel-2-products-processing-levels-overview.png?cb=d51cf989c8f35c8ef9739658997b55d2" alt="sentinel-2-products-processing-levels-overview.png" data-scope="internal" width="1022" height="478">
+   </div>
+   <figcaption>
+    <strong>Figure 6: Processing levels from Level-0 to Level-2A (Level-0, Level-1A and Level-1B products are internal products not available to users)</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>For more details on processing levels, please visit the <a href="/web/s2-processing" data-scope="internal">S2 Processing</a> page.</p>
+<p>The quality of generated products is assessed by the On Line Quality Control (OLQC) functionality. The OLQC performs essential quality checks on each product generated by the processing chain. The results of the quality checks are presented as XML reports and GML quality masks&nbsp;for data processed prior to Processing Baseline 04.00 (since January 24th 2022), and in JP2 format for data processed after that date.</p>
+<h3 id="Products-availability" style=""><span id="S2Products-Productsavailability"></span>Products availability
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Products-availability">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>The Copernicus Data Space Ecosystem is the main distribution service for data from the Copernicus Sentinels missions. These data, including Sentinel-2, are accessible via a series of APIs, as well as through a new, more intuitive browser interface, the <a href="https://dataspace.copernicus.eu/browser/?zoom=3&amp;lat=26&amp;lng=0&amp;themeId=DEFAULT-THEME&amp;visualizationUrl=https%3A%2F%2Fsh.dataspace.copernicus.eu%2Fogc%2Fwms%2Fa91f72b5-f393-4320-bc0f-990129bd9e63&amp;datasetId=S2_L2A_CDAS&amp;demSource3D=%22MAPZEN%22&amp;cloudCoverage=30" data-scope="external" rel="external noreferrer">Copernicus Browser</a>.</p>
+<h2 id="Level-2A-Products" style=""><span id="S2Products-Level-2AProducts"></span>Level-2A Products<span id="S2-Products-L2A"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Level-2A-Products">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>The Level-2A product provides atmospherically corrected Surface Reflectance (SR) products from Level-1C products.</p>
+<p>Please be aware that "Surface Reflectance (SR)" is a new term that has been introduced to replace the former one: "Bottom of Atmosphere (BOA) reflectance."</p>
+<p>Each Level-2A product is composed of 110 km x 110 km tiles in cartographic geometry (UTM/WGS84 projection).&nbsp;Earth is subdivided on a predefined set of tiles, defined in UTM/WGS84 projection and using a 100 km step. However, each tile has a surface of 110 km x 110 km in order to provide large overlap with the neighbouring.</p>
+<p>Additional Level-2A output image products are an Aerosol Optical Thickness (AOT) map, a Water Vapour (WV) map and a Scene Classification (SCL) map. These image products, as well as the Surface Reflectance for the different spectral bands, are resampled at different spatial resolutions (10 m, 20 m or 60 m), and provided in three distinct folders:</p>
+<ul>
+ <li>
+  <p>10 m: containing spectral bands 2, 3, 4 , 8, a True Colour Image (TCI) and an AOT and WVP maps resampled from 20 m.</p>
+ </li>
+ <li>
+  <p>20 m: containing spectral bands 1&nbsp;- 7, the bands 8A, 11 and 12, a True Colour Image (TCI), a Scene Classification (SCL) map and an AOT and WVP maps. The band B8 is omitted as B8A provides more precise spectral information.</p>
+ </li>
+ <li>
+  <p>60 m: containing all the spectral bands provided in the 20 m folder, plus the band 9, a True Colour Image (TCI), a Scene Classification (SCL) map and an AOT and WVP maps. The cirrus band 10 is omitted, as it does not contain surface information.</p>
+ </li>
+</ul>
+<p>L2A products were initially released as L2Ap (Pilot) products using L2A Baseline 02.07 from March 28th, 2017, onward. From mid-March 2018, the Level-2A became an operational product, beginning with coverage of the Euro-Mediterranean region. Global coverage started on December 13th, 2018.</p>
+<p>Please note that starting with the Processing Baseline (PB) 04.00 (25th January 2022), the dynamic range of the Level-2A products is shifted by a band-dependent constant: BOA_ADD_OFFSET. This offset will allow encoding negative surface reflectances that may occur over very dark surfaces. From the user’s point of view, the L2A Surface Reflectance (L2A_SR) shall be retrieved from the output radiometry as follows:</p>
+<ul>
+ <li>
+  <p>Digital Number DN=0 remains the “NO_DATA” value</p>
+ </li>
+ <li>
+  <p>For a given DN in [1; 1;2<sup>15</sup>-1], the L2A SR reflectance value will be:</p>
+ </li>
+</ul>
+<p style="--text-align: center"><strong>L2A_SR</strong><sub><strong>i</strong></sub><strong> = (L2A_DN</strong><sub><strong>i </strong></sub><strong>+ BOA_ADD_OFFSET</strong><sub><strong>i</strong></sub><strong>) / QUANTIFICATION_VALUE</strong></p>
+<p>The offset per spectral band and quantification values are reported in the General_Info/Product_Image_Characteristics section of the product metadata.</p>
+<p>Level-2A products additionally include&nbsp;quality information like <a href="/web/s2-processing#S2-Processing-Masks" data-scope="internal">Cloud Masks</a>, Detector Footprint Masks and Quality Masks, and auxiliary <a href="/web/s2-processing#S2-Processing-Auxiliary-Data-Files" data-scope="internal">ECMWF</a> and <a href="/web/s2-processing#S2-Processing-Auxiliary-Data-Files" data-scope="internal">CAMS</a> data, inherited from <a href="/web/s2-products#S2-Products-L1C" data-scope="internal">Level-1C products</a>. Cloud and snow probabilities at 20 and 60 m resolutions from Level-2A processing are also provided.</p>
+<p>Level-2A can also be generated by the User from the Level-1C product using the <a href="/web/sentinels-toolboxes" data-scope="internal">Sentinel-Toolbox</a> or the <a href="http://step.esa.int/main/third-party-plugins-2/sen2cor/" data-scope="external" rel="external noreferrer">Sen2Cor</a> .</p>
+<p><em>CEOS has officially assessed Sentinel-2 Level-2A Surface Reflectance (SR) products as compliant with</em> <a href="https://ceos.org/ard/index.html" data-scope="external" rel="external noreferrer"><u><em>CEOS Analysis Ready Data</em></u></a><em>(ARD) requirements at the Threshold level. These CEOS-ARD requirements are designed to make Earth-observation data easier to use. The assessment was conducted using version 5.0 of the Product Family Specification (PFS) for Surface Reflectance.</em></p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <div class="block-image" style="--width: 267px" data-component="image" data-align="align-center">
+   <img src="/__attachments/a_3482651c2402c6058a974342b8607fb3f5f39caa69a465479efe99a73dd4588d/CEOS_ARD_Logo_blue.png?cb=572f48c2055bf298bbfca185b32ee940" alt="CEOS_ARD_Logo_blue.png" data-scope="internal" width="267" height="217">
+  </div>
+ </image-lightbox>
+</div>
+<p>
+ <br>
+</p>
+<h2 id="Level-1C-Products" style=""><span id="S2Products-Level-1CProducts"></span>Level-1C Products<span id="S2-Products-L1C"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Level-1C-Products">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>The Level-1C product provides Top Of Atmosphere (TOA) reflectance images, derived from associated Level-1B products.</p>
+<p>The Level-1C product is composed of 110 km x 110 km tiles (ortho-images in UTM/WGS84 projection).&nbsp;Earth is subdivided on a predefined set of tiles, defined in UTM/WGS84 projection and using a 100 km step. However, each tile has a surface of 110 km x 110 km in order to provide large overlap with the neighbouring. The Level-1C product results from using a <a href="/web/glossary#D" data-scope="internal">Digital Elevation Model (DEM)</a> to project the image in cartographic geometry.</p>
+<p>Per-pixel radiometric measurements are provided in Top Of Atmosphere (TOA) reflectances along with the parameters to transform them into radiances. The formula for the conversion of reflectance to radiance is:</p>
+<p style="--text-align: center"><strong>radiance = reflectance * cos(SunZenithAngle) * solarIrradiance * U / pi</strong></p>
+<p>Understanding:</p>
+<ol>
+ <li>
+  <p>The value of SunZenithAngle can be found in the tile metadata</p>
+ </li>
+ <li>
+  <p>The value of U (scaling factor linked to the Sun-Earth distance) and SolarIrradiance for the considered band can be found in the Sentinel-2 User&nbsp;product metadata</p>
+ </li>
+</ol>
+<p><strong>NOTE</strong>: In order to undertake this conversion, the User will first need to convert the digital counts into reflectance.</p>
+<p>Level-1C products are resampled with a constant Ground Sampling Distance (GSD) of 10, 20 and 60 m depending on the native resolution of the different spectral bands. In Level-1C products, pixel coordinates refer to the upper left corner of the pixel.</p>
+<p>Please note that starting from January 25th, 2022 (PB 04.00), to avoid truncation of negative values, the dynamic range of Level-1C products is shifted by a band-dependent constant radiometric offset called RADIO_ADD_OFFSET. From the user’s point of view, the L1C TOA reflectance (L1C_TOA) shall be retrieved from the output radiometry as follows:</p>
+<ul>
+ <li>
+  <p>Digital Number DN=0 remains the “NO_DATA” value</p>
+ </li>
+ <li>
+  <p>For a given DN in [1; 1;2^15-1], the L1C TOA reflectance value is:</p>
+ </li>
+</ul>
+<p data-indentation-level="2"><strong>L1C_TOAi = (L1C_DNi + RADIO_ADD_OFFSETi) / QUANTIFICATION_VALUE</strong></p>
+<p>The radiometric offset per spectral band and quantification value are reported in the General_Info/Product_Image_Characteristics section of the product metadata.</p>
+<p>Moreover,&nbsp;independent validation analysis highlighted that Sentinel-2A shows brighter TOA-reflectance than Sentinel-2B, with an average bias of 1.1% over the VNIR bands.&nbsp;As the Sentinel-2A reflectance is known to be close to those of other sensors such as OLI/LANDSAT-8, MERIS, SPOT-5, a&nbsp;re-adjusting of the native reflectance of Sentinel-2B&nbsp;by a factor 1.011 for all the VNIR bands was implemented within the PB 04.00.</p>
+<p>Level-1C products additionally include&nbsp;quality information like <a href="/web/s2-processing#S2-Processing-Masks" data-scope="internal">Cloud Masks</a>, Detector Footprint Masks and Quality Masks and auxiliary data like <a href="/web/s2-processing#S2-Processing-Auxiliary-Data-Files" data-scope="internal">ECMWF</a> data (total column of ozone, total column of water vapour and mean sea level pressure) and <a href="/web/s2-processing#S2-Processing-Auxiliary-Data-Files" data-scope="internal">CAMS</a> (Copernicus Atmosphere Monitoring Service) aerosols content information.</p>
+<h2 id="Level-1B-Products" style=""><span id="S2Products-Level-1BProducts"></span>Level-1B Products<span id="S2-Products-L1B"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Level-1B-Products">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>The Level-1B product is composed of an ensemble of granules that are 25 km across track (AC) by 23 km along track (AL). Each granule is approximately 27 MB in size</p>
+<p>The Level-1B product provides radiometrically corrected imagery in Top-Of-Atmosphere (TOA) radiance values and in sensor geometry. Additionally, this product includes the refined geometric model which is used to generate the Level-1C product. Level-1B pixel coordinates refer to the centre of each pixel.</p>
+<p>The Level-1B User Product (TOA calibrated radiance) is a radio-corrected and geo-refined product obtained from processing and refining the input Level-1A (TOA radiance) data. It includes:</p>
+<ul>
+ <li>
+  <p>radiometric corrections</p>
+ </li>
+ <li>
+  <p>refinement of the physical geometrical viewing model (which is not applied at this level)</p>
+ </li>
+</ul>
+<p>The Level-1B products are released only to expert users on request.</p>
+<h2 id="Level-1A-Products" style=""><span id="S2Products-Level-1AProducts"></span>Level-1A Products<span id="S2-Products-L1A"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Level-1A-Products">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>The Level-1A product is obtained by decompressing image data and developing a geometric model to locate any pixel in the image. Each Level-1A product is a 25 km across track (AC) by 23 km along track (AL) granule. An average orbit will contain approximately 3,500 Level-1A granules. Level-1A pixel coordinates refer to the centre of each pixel.</p>
+<p>The Level-1A product is not released to Users.</p>
+<h2 id="Level-0-Products" style=""><span id="S2Products-Level-0Products"></span>Level-0 Products<span id="S2-Products-L0"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Level-0-Products">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>The Level-0 product is compressed raw image data in Instrument Source Packet (ISP) format. It forms the basis of the subsequent Level-1 production. Like the Level-1B product, a Level-0 product is a 25 km across track by 23 km along track granule. An average orbit will contain approximately 3,500 Level-1B granules. The Level-0 product consists of:</p>
+<ul>
+ <li>
+  <p>a metadata structure describing the Level-0 product</p>
+ </li>
+ <li>
+  <p>a consistent set of annotated ISPs corresponding to the compressed image data</p>
+ </li>
+ <li>
+  <p>the relevant annotated ancillary source packets</p>
+ </li>
+</ul>
+<p>The ancillary source packets contain the ancillary data required for onward processing to higher product levels, in particular, the information required to compute the associated geometric model. This ancillary data will include time correlation data (sampled at 1 Hz), ephemeris and attitude data, and thermal data.</p>
+<p>The Level-0 product is not released to Users.</p>
+<h2 id="Product-anomalies-and-features" style=""><span id="S2Products-Productanomaliesandfeatures"></span>Product anomalies and features
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Product-anomalies-and-features">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<h3 id="Product-related-anomalies" style=""><span id="S2Products-Product-relatedanomalies"></span>Product-related anomalies<span id="S2-Products-Product-related-anomalies"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Product-related-anomalies">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>The&nbsp;<a href="https://s2anomalies.acri.fr/" data-scope="external" rel="external noreferrer">Sentinel-2 anomaly database</a> provides a searchable access to the list of known anomalies on Sentinel-2 products. This database includes both on-board anomalies (usually irrecoverable) and processing anomalies (potentially recoverable), and covers image data as well as metadata and format anomalies. For each anomaly, a short description and illustrations are provided and a list of datatakes, datastrips or products can be retrieved.</p>
+<p>In addition to the search interface, this website provides an API (Application Programming Interface) for machine-to-machine access using scripts.</p>
+<h3 id="L1C-product-Features" style=""><span id="S2Products-L1CproductFeatures"></span>L1C product Features<span id="S2-Products-L1C-product-Features"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#L1C-product-Features">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>Contrary to anomalies, features do not result from issues during data acquisition or processing. They are characteristics of the products and can be explained according to how the instrument is built and how the data is processed.</p>
+<h4 id="​​​​​Spectral-response-non-uniformity" style=""><span id="S2Products-Spectralresponsenon-uniformity"></span>​​​​​Spectral response non-uniformity
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#​​​​​Spectral-response-non-uniformity">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>In this section we report on a known feature of Sentinel 2 products created by the spectral response non-uniformity. This feature has been anticipated since the design phase and is compliant with mission specification.</p>
+<p>This feature is characterized by along-track soft-edged darker or brighter stripes near the detector boundaries, as shown on the figure below. Indeed, the spectral response is slightly different at the edges of the detectors, especially for bands B03 and B05. When the spectrum of the scene has strong gradient over the spectral bandwidth of the detector, a difference in the measured radiometry can be observed (up to 2% in worst-cases).</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 737px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_2a60cb395a49eb0da59cf0011cffa74e1d04b4bab19154e892c699639c70b3c1/image-20230824-103330.png?cb=1d86bd124e11a4aea9b88c95a5f501ca" alt="image-20230824-103330.png" data-scope="internal" width="737" height="584">
+   </div>
+   <figcaption>
+    <strong>Figure 7: Along-track stripes resulting from spectral response non-uniformity (band B03).</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Parallax-effects" style=""><span id="S2Products-Parallaxeffects"></span>Parallax effects
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Parallax-effects">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>In this section we report on parallax effects created by the staggered configuration of the focal plane. Indeed, the instrument swath is covered by 12 individual detectors assembled in a staggered manner. Because of this configuration, odd and even detectors do not see the ground under the same viewing angles. This can create visible effects on some images, as detailed in the next subsections.</p>
+<h5 id="Surface-reflectance-effects" style=""><span id="S2Products-Surfacereflectanceeffects"></span>Surface reflectance effects
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Surface-reflectance-effects">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h5>
+<p>Because the viewing angles are not the same for even and odd detectors, differences in measured radiometry can be observed on non-Lambertian surfaces. This is especially visible on Sun glint over sea surfaces (see <strong>Figure 8</strong> below).</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 940px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_295b44b8b55df1a1a31cb3013dafef54529920305386c675ec7482de312b6db9/image-20230824-103445.png?cb=be922fd892d3ee185babd65ba99d9ca6" alt="image-20230824-103445.png" data-scope="internal" width="940" height="508">
+   </div>
+   <figcaption>
+    <strong>Figure 8: Stripe pattern over sea surface due to the observation parallax effect between odd and even detectors</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h5 id="Misregistration-of-high-altitude-objects" style=""><span id="S2Products-Misregistrationofhigh-altitudeobjects"></span>Misregistration of high-altitude objects
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Misregistration-of-high-altitude-objects">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h5>
+<p>The processing algorithm ensures the co-registration of images acquired by all spectral bands and the detectors for features at ground level. Objects at a higher altitude like planes and clouds cannot be properly co-registered. This effect leads to spectral misregistration (“rainbow” effect) and discontinuities between detectors.</p>
+<p>Both effects can be seen in <strong>Figure 9</strong> hereafter.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1093px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_991681007ccad03960467aae5b0b59ac6f563c5998da0567bdb676945ddaeb7b/image-20230824-103528.png?cb=2e413a4f501bc96288c7d2229b721c3d" alt="image-20230824-103528.png" data-scope="internal" width="1093" height="579">
+   </div>
+   <figcaption>
+    <strong>Figure 9: Spectral misregistration and detector misalignment for object at high altitude (plane and contrail). This feature is not an anomaly</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Gradient-crosstalk" style=""><span id="S2Products-Gradientcrosstalk"></span>Gradient crosstalk
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Gradient-crosstalk">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>This feature can be seen on band B12 on contrasted images, typically near the coastlines. It is a specific parasitic signal depending on the along track gradient of the signal acquired by B11 at the same time and same across track position. Due to the time delay between bands, for the acquisition of a location on earth, a shift of around 150 lines is observed in B12 between the landscape, and the gradient crosstalk coming from B11 (150 lines before or after, depending on detectors oddity).</p>
+<p>The typical amplitude of the effect is 10 digital counts. It is not corrected.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 741px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_452a5540777668ead3dbbee537835c090df443c53a06f2f4d84a6b36daf68c3a/image-20230824-103610.png?cb=501cd079f24d339a8b65af0a014e8e3c" alt="image-20230824-103610.png" data-scope="internal" width="741" height="588">
+   </div>
+   <figcaption>
+    <strong>Figure 10: Gradient crosstalk on band B12 (highly enhanced contrast).</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Datastrip-overlap" style=""><span id="S2Products-Datastripoverlap"></span>Datastrip overlap
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Datastrip-overlap">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>Sentinel-2 products are generated by a network of several ground stations around the globe. Data acquired by the satellites are split into processing units called “datastrips” which are processed independently, and subsequently transferred to the <a href="https://dataspace.copernicus.eu/" data-scope="external" rel="external noreferrer">Copernicus Data Space Ecosystem</a>. A given continuous acquisition sequence (or “datatake”) can be split into several datastrips. In that case, two different products are generated for level 1C tiles located at the interface between the datastrips.</p>
+<p>The two products can be merged to reconstruct the full image.</p>
+<p>However, one should be aware that the geometric refinement (improvement of the geometric model at datastrip level) may introduce a small shift (a few meters) between the two tiles. This shift is not visible to the naked eye but can be measured by computing the co-registration between the products on their overlap area. This shift is zero if both products are unrefined, as in the figure below.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 728px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_1a97d170ea2a3311388448822867d56976cf1cdb04dc11519d035b5fa471e187/image-20230824-103633.png?cb=a994c11b3763fc5b206085e6ff57aa24" alt="image-20230824-103633.png" data-scope="internal" width="728" height="559">
+   </div>
+   <figcaption>
+    <strong>Figure 11: Example of a pair of products at the overlap between two data-strips. a: product from the first data-strip, processed at Svalbard (SGS) b: product from the second data-strip, processed at Matera (MTI). c: the two products overlap seamlessly to reconstruct the complete acquisition. d: close-up near the transition line</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Valid-pixels" style=""><span id="S2Products-Validpixels"></span>Valid pixels
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Valid-pixels">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>Users are advised that the pixel validity status may be different for different spectral bands: it is possible to have one band with valid data and one band with No Data (0) at the same location. This happens in particular at the western and eastern edges of the swath. Any multi-spectral processing should be done only on pixels having valid data for all spectral bands.</p>
+<h4 id="Very-high-Solar-Zenith-Angle" style=""><span id="S2Products-VeryhighSolarZenithAngle"></span>Very high Solar Zenith Angle
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Very-high-Solar-Zenith-Angle">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>L1C TOA reflectance is computed according to the formula provided in the <a href="https://sentiwiki.copernicus.eu/web/s2-processing#S2Processing-TopOfAtmosphere(TOA)ReflectanceComputation" data-scope="external" rel="external noreferrer">TOA reflectance computation section</a>, where <em>θ</em><sub><em>s</em></sub> stands for the Solar Zenith Angle (SZA). If the SZA equals 90°, the TOA reflectance computation is impossible (division by 0), and become negative if the SZA is higher than 90°. To avoid this behavior, the TOA reflectance is computed only for SZA lower than 89.9° in L1C products and set to 0 (1000 DN) otherwise.</p>
+<p>This is shown in <strong>Figure 12</strong>, in the tile highlighted in green, which is located in the middle of the datastrip. Data pixels can be observed in the top right corner of the thumbnail of the corresponding L1C product, as SZA is lower than 89.9° for these pixels, whereas the bottom left corner of the product is filled with 0, as SZA is higher than 89.9° for these pixels. The thumbnails of the next two products in the list show that these products are fully filled with 0, as the corresponding tiles are located more in the South of the datastrip, having then a SZA higher than 89.9° for all the pixels.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 760px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_259ae9fa9999933b0f62bd1398d8b8198022989468d39b35aa7297cae07479ca/Sentinel-2-products-l1c-products-datastrip.png?cb=b507ee23fc3c7f3f61c941ce43b4d8fa" alt="Sentinel-2-products-l1c-products-datastrip.png" data-scope="internal" width="760" height="482">
+   </div>
+   <figcaption>
+    <strong>Figure 12: L1C products from datastrip S2A_OPER_MSI_L1C_DS_S2RP_20231019T133207_S20160418T212546_N05.00 </strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>L2A products for which the mean SZA over the tile is higher than 90°, are not generated. L2A products for which the mean SZA over the tile is lower than 90° (but that can contain several pixels with SZA higher than 90°) are generated. For these products, the surface reflectance of the pixels with SZA higher than 89.9° is set to 1 DN.</p>
+<h4 id="Isolated-no-data-pixels" style=""><span id="S2Products-Isolatednodatapixels"></span>Isolated no data pixels
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Isolated-no-data-pixels">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>Isolated no data pixels may be found in Sentinel-2 L1C and L2A reflectance images and are classified as such in the L2A scene classification. These spurious no data pixels occur in areas of very high contrast, as shown in <strong>Figure 13</strong>, due to a combination of interpolation and JPEG2000 compression errors.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 760px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_0b448139d6ad6719cc8501b253f1abcab81d2ba574ce790f46825f5f613dfacd/sentinel-2-products-isolated-no-data-pixels.webp?cb=504efc734b5128ace1f6b62b006e164b" alt="sentinel-2-products-isolated-no-data-pixels.webp" data-scope="internal" width="969" height="355">
+   </div>
+   <figcaption>
+    <strong>Figure 13: L2A scene classification (left) and B8A TOA reflectance (right) over tile 31UES for the acquisition starting at 10:53:49 on 21 November 2020. The two pixels classified as no data in the L2A scene classification are equal to 0 Digital Number in the B8A TOA reflectance image, which is the value reserved for no data, and are located around a very bright pattern (TOA reflectance higher than 2.7).</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>As algorithmic errors, these may be solved theoretically by choosing alternative interpolation and/or compression methods/parameters. However, if these no data isolated pixels can be seen as a problem, all the pixels around such highly contrasted areas are affected by high measurement uncertainty, to the point that they are probably not usable (for instance negative reflectance may be generated).</p>
+<p>
+ <br>
+</p>
+<h3 id="L2A-Products-Features" style=""><span id="S2Products-L2AProductsFeatures"></span>L2A Products Features<span id="S2-Products-L2A-products-Features"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#L2A-Products-Features">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<h4 id="Scene-classification" style=""><span id="S2Products-Sceneclassification"></span>Scene classification
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Scene-classification">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>The current scene classification algorithm has some known limitations (see the <a href="https://sentiwiki.copernicus.eu/web/s2-processing#S2Processing-L2AProcessingBaselineS2-Processing-L2A-Processing-Baselinetrue" data-scope="external" rel="external noreferrer">L2A Processing Baseline section</a> to know when the different Processing Baselines (PB) have been released):</p>
+<ul>
+ <li>
+  <p>Over-detection of clouds over bright targets: fixed with PB &gt;= 04.00,</p>
+ </li>
+ <li>
+  <p>Under-detection of semi-transparent clouds or cloud edges: fixed with PB &gt;= 04.00,</p>
+ </li>
+ <li>
+  <p>Cloud pixels miss-classified as snow (shaded parts of the clouds): fixed with PB &gt;= 04.00,</p>
+ </li>
+ <li>
+  <p>Topographic shadows may be miss-classified as water: fixed with PB &gt;= 04.00,</p>
+ </li>
+ <li>
+  <p>Blocky patterns on the Scene Classification mask: this issue is due to the coarser resolution of the <a href="https://sentiwiki.copernicus.eu/web/s2-processing#S2Processing-ESACCILandCovermaps" data-scope="external" rel="external noreferrer">CCI auxiliary data</a> used to improve the scene classification. In some cases (as in <strong>Figure 14</strong> – left) it can lead to a local over-detection of clouds. This has been fixed with PB &gt;= 04.00,</p>
+ </li>
+ <li>
+  <p>Degraded pixels from data loss at L1C were not supported by the L2A processor: fixed with PB &gt;= 05.00,</p>
+ </li>
+ <li>
+  <p>Open fires can be miss-classified as cirrus,</p>
+ </li>
+ <li>
+  <p>Dark areas miss-classified as cloud shadows: this can occur when bright objects are incorrectly classified as clouds, and with most of occurrences in winter period when the sun is low on the horizon (High solar zenith angle),</p>
+ </li>
+ <li>
+  <p>Omission of very low altitude clouds or fog: since PB 04.00, the SCL algorithm introduced a processing based on pixel parallax to solve the issue of over-detection of clouds over bright targets. The downside of this algorithm is that the SCL map can omit very low altitude clouds or fog and classify them as “not vegetated”. A mitigation approach of this issue is under study for a future version,</p>
+ </li>
+ <li>
+  <p>Visual artefacts at the edges of semi-transparent clouds: since L2A PB 02.10, terrain correction is no longer applied for pixels identified as cloudy. This can lead to visual artefacts at the edges of semi-transparent clouds, see <strong>Figure 15</strong>.</p>
+ </li>
+</ul>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1182px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_9e38c975db7b959596cfd90931ac4b94e122218e58796e7a07d0b301568ba6d7/image-20230824-103829.png?cb=032ac6362bb7d1706a9431bdabf62f2f" alt="image-20230824-103829.png" data-scope="internal" width="1182" height="380">
+   </div>
+   <figcaption>
+    <strong>Figure 14: Blocky patterns on the scene classification layer (SCL). Left: near the coastline. Right: near city boundaries.</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 736px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_571bc91909bb3cb84c17bb60e2916081a3d75651db50956bb260edbe26a5b915/image-20230824-103804.png?cb=c7cec9f2b6d2cffd2ce779851fd5c65c" alt="image-20230824-103804.png" data-scope="internal" width="736" height="588">
+   </div>
+   <figcaption>
+    <strong>Figure 15: Visual artefacts at the edges of semi-transparent clouds</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Overlap-between-tiles" style=""><span id="S2Products-Overlapbetweentiles"></span>Overlap between tiles
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Overlap-between-tiles">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>The L2A products are processed at tile level and some differences can occur in the overlap area between adjacent tiles:</p>
+<ul>
+ <li>
+  <p>The scene classification may be different for a few pixels</p>
+ </li>
+ <li>
+  <p>The Aerosol Optical Depth (AOD) and surface reflectances are generally different, although the difference should be small.</p>
+ </li>
+</ul>
+<h4 id="Terrain-over-correction-on-shaded-areas" style=""><span id="S2Products-Terrainover-correctiononshadedareas"></span>Terrain over-correction on&nbsp;shaded areas
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Terrain-over-correction-on-shaded-areas">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>Due to inaccuracies of the Digital Elevation Model, a strong terrain correction may be applied in totally or partially shaded areas. This results in a bluish colour in colour composite and inaccuracy in the surface reflectance.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1369px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_b6777d22a1e60aa8ffa722954eaedb836e160436c8757c026a5069fb066eb927/image-20230824-103858.png?cb=636c406d5da65cdcb3ab722effe34a78" alt="image-20230824-103858.png" data-scope="internal" width="1369" height="439">
+   </div>
+   <figcaption>
+    <strong>Figure 16: Terrain over-correction on shaded areas. Left: Level 1C true colour image, right: L2A true colour image.</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Maximal-Sun-Zenith-Angle" style=""><span id="S2Products-MaximalSun-ZenithAngle"></span>Maximal Sun-Zenith Angle
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Maximal-Sun-Zenith-Angle">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>Users are advised that products with a Sun-Zenith Angle (SZA) higher than 70° are processed with a clipped SZA value of 70°. This results in an under-correction of the atmospheric signal, which results in a bluish colour on the L2A products. The surface reflectance of products with SZA &gt; 70° should not be used for quantitative/scientific analysis. The value of the SZA can be obtained from the GRANULE metadata (MTD_TL.xml, field Mean_Sun_Angle/ZENITH_ANGLE). Since Processing Baseline 02.14 (February 4th, 2020), a warning message is introduced in the GENERAL_QUALITY report to identify these products.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1322px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_7b3bc7d50f75715f789ce4af2e5a131859e6a9f61ee6c4e0b2620bc802a3a575/image-20230824-103953.png?cb=7d5f5ed17ccc9b642859151423c68925" alt="image-20230824-103953.png" data-scope="internal" width="1322" height="458">
+   </div>
+   <figcaption>
+    <strong>Figure 17: L2A True Colour Image of tile 30VVH. Left: 10/10/2018, SZA = 62°. Right: 24/12/208, SZA = 80°. The radiometric quality for surface reflectance is not ensured for SZA &gt; 70°.</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Missing-packets" style=""><span id="S2Products-Missingpackets"></span>Missing packets
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Missing-packets">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>In L2A products generated with Processing Baseline older than 05.00, corrupted pixels affected by missing or degraded instrument source packets are not reported in the Scene Classification Layer. Users are advised to check the TECQUA mask to identify affected areas where the SCL is not reliable.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1134px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_6bfe7c91c3387a7812756ac876c5ba98818687b011c7176962ee41d78da80d14/image-20230824-104020.png?cb=82e967178cee95c0cc65e93796744403" alt="image-20230824-104020.png" data-scope="internal" width="1134" height="550">
+   </div>
+   <figcaption>
+    <strong>Figure 18: Left: TCI image of a product affected by missing packets. Right: Scene Classification Layer, PB = 04.00</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<p>Note that missing packets in atmospheric correction input bands (B10 and B09) can affect surface reflectance of other spectral bands.</p>
+<p>Since the deployment of the Processing Baseline 05.09 on December 6th, 2022, pixels affected by missing or degraded instrument source packets are identified as defective pixels (SCL=1) in the Scene Classification Layer (see figure below). Collection-1 products (even those tagged with PB 05.00) also benefit from this correction.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1137px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_8f36397c5247f0bf9dafc3474a600c0cb426a95d9ed871e7030298309bb69e03/image-20230824-104058.png?cb=dbdee67e686d3d39c792d8cc438439dc" alt="image-20230824-104058.png" data-scope="internal" width="1137" height="549">
+   </div>
+   <figcaption>
+    <strong>Figure 19: Left: TCI image of a product affected by missing packets. Right: Scene Classification Layer, PB = 05.09</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Discontinuities-visible-in-Terrain-Corrections-on-very-flat-areas" style=""><span id="S2Products-DiscontinuitiesvisibleinTerrainCorrectionsonveryflatareas"></span>Discontinuities visible in Terrain Corrections on very flat areas
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Discontinuities-visible-in-Terrain-Corrections-on-very-flat-areas">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>This apparent contouring in L2A products arises on images over very flat area with high Sun-Zenith angles. This artifact comes from the impact of the vertical quantization of the Digital Elevation Map (1 meter steps in the current production) on topographic correction.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1204px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_011a1be50b64ba9841f242d8c71430de8537749024c609d40a44304a63babab5/image-20230824-104133.png?cb=105f30b15a7ee29423cc578d098f9a5e" alt="image-20230824-104133.png" data-scope="internal" width="1204" height="583">
+   </div>
+   <figcaption>
+    <strong>Figure 20: Contour-like line features (red box – right) visible in L2A products over Antarctica</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h4 id="Artefacts-at-the-edge-of-the-swath-due-to-L2A-NoData-mask" style=""><span id="S2Products-ArtefactsattheedgeoftheswathduetoL2ANoDatamask"></span>Artefacts at the edge of the swath due to L2A NoData mask
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Artefacts-at-the-edge-of-the-swath-due-to-L2A-NoData-mask">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h4>
+<p>The nodata mask at L2A is common to all the bands and computed at 20 m resolution, while each band has its own nodata mask at L1C. Indeed, the nodata masks of the 10 m bands are downsampled at 20 m, merged with the nodata masks of all the other bands, and the resulting common mask at 20 m is then oversampled at 10 m during the processing of 10 m bands.</p>
+<p>In some rare cases, this process of generating a common nodata mask to all bands from heterogenous spatial resolution, by nearest downsampling to 20 m followed by nearest oversampling to 10 m can induce some artefacts at the edge of the swath. That means that it could happen that some artificially created 10 m bands pixels are filled with interpolated data, resulting in very low reflectance values at the edge of the swath border area.</p>
+<p>This behaviour can also be observed in the 10 m bands that have been downsampled at 20 m (but also at 60 m, even if less noticeable), and in the 20 m (60 m) TCI as it is created by a downsampling of the 10 m TCI.</p>
+<p>This artefact was corrected in Processing Baseline 05.13, introduced in operation on 21 September 2026. For older products, users are advised to pay particular attention to the swath border area for downstream applications (e.g. mosaicking, temporal synthesis). It is recommended to use the MSK_DETFOO per band (available in L2A Granule QI_DATA folder) to filter out those additional artificial pixels and keep only pixels for which data has been acquired.</p>
+<div class="theme-block-image">
+ <image-lightbox>
+  <figure data-component="figure">
+   <div class="block-image" style="--width: 1072px" data-component="image" data-align="align-center">
+    <img src="/__attachments/a_2a902cbe6d66716a73e29cca99c1b25dedc6e58bf606a2174ac589b94c84b533/image-20230824-104221.png?cb=6195c5cb7aaaf41f4cf86fea70c8e9a5" alt="image-20230824-104221.png" data-scope="internal" width="1072" height="607">
+   </div>
+   <figcaption>
+    <strong>Figure 21: Artefacts observed at the swath border of the S2B_MSIL2A_20220228T102849_N0400_R108_T31UGR_20220228T134712.SAFE tile highlighted in the red rectangles on a True Colour Image at 10 m resolution (left) and on the B04 image (right)</strong>
+   </figcaption>
+  </figure>
+ </image-lightbox>
+</div>
+<h2 id="Copernicus-Sentinel-2-Collections" style=""><span id="S2Products-CopernicusSentinel-2Collections"></span>Copernicus Sentinel-2 Collections<span id="S2-Products-Collection-1-Products-Description"></span>
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Copernicus-Sentinel-2-Collections">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h2>
+<p>Sentinel-2 products delivered in the framework of the nominal sensing operations are referred to as Collection-0. Products resulting from reprocessing campaigns are referred as Collection-n (n&gt;0) instead.</p>
+<h3 id="Copernicus-Sentinel-2-Collection-1" style=""><span id="S2Products-CopernicusSentinel-2Collection-1"></span>Copernicus Sentinel-2 Collection-1
+ <i18n-message i18nkey="clipboard.copyLink.label" attribute="description">
+  <copy-clipboard class="anchor-copy-button" value="https://sentiwiki.copernicus.eu/web/s2-products#Copernicus-Sentinel-2-Collection-1">
+   <svg role="img" aria-hidden="true" data-component="icon" class="icon icon-link copy-headline-link-icon">
+    <use href="/__theme/b_8ca5a7d7-80f3-41c8-bea7-75cce14ad14f/scroll-sites-help-center-theme/55/icons.svg#link"></use>
+   </svg>
+  </copy-clipboard>
+ </i18n-message></h3>
+<p>The Copernicus Sentinel-2 Collection-1 was created from the Sentinel-2 historical archive to provide consistent Sentinel-2A and Sentinel-2B time series with uniform processing baselines (PB) and optimised calibration, in particular improving, but not limited to, the products geometric performance. Please refer to the dedicated <a href="/web/s2-processing" data-scope="internal">S2 Processing page</a> for further details on the Collection-1 products characteristics.</p>
+<p>All historical data in the period spanning from the Sentinel-2A satellite launch in 2015 until 13 December 2023 (when PB 05.10, used for the Collection-1 reprocessing, was deployed for nominal sensing operations), has been reprocessed, and resulting Level-1C and Level-2A products have been ingested into the <a href="https://dataspace.copernicus.eu/" data-scope="external" rel="external noreferrer">Copernicus Data Space Ecosystem</a>.</p>
+<p>As mentioned in news on <a href="https://sentinels.copernicus.eu/web/sentinel/-/sentinel-2-old-baselines-products-deletion" data-scope="external" rel="external noreferrer">Sentinel Online</a> and the <a href="https://dataspace.copernicus.eu/news/2025-8-11-sentinel-2-old-baselines-products-deletion-phase-2" data-scope="external" rel="external noreferrer">CDSE</a><a href="https://dataspace.copernicus.eu/news/2025-8-11-sentinel-2-old-baselines-products-deletion-phase-2," data-scope="external" rel="external noreferrer">,</a> <strong>please note that Collection-0 products up to 13 December 2023, have been removed from the </strong><a href="https://dataspace.copernicus.eu/" data-scope="external" rel="external noreferrer"><strong>Copernicus Data Space Ecosystem</strong></a>. Only products tagged with PB 05.00, 05.10 and 05.11 are now available.</p>
+<p>
+ <br>
+</p>
+
+
+																				<script>
+						// Mark block images on the first level as breakout so they can grow wider than the article content.
+						document.querySelectorAll('.article-body > .theme-block-image [data-component="image"]').forEach((element) => {
+							const propertyValue = element.style.getPropertyValue('--width');
+							if (!propertyValue) {
+								return;
+							}
+							if (parseInt(propertyValue) >= 760) {
+								element.closest('.theme-block-image').classList.add('theme-block-image--breakout');
+							}
+						});
+
+						// Remove the inline size on page layouts as this would lead to layouts breaking out of the article content.
+						document.querySelectorAll('.article-body [data-component="layout-section"]').forEach((element) => {
+							const propertyValue = element.style.getPropertyValue('--inline-size');
+							if (!propertyValue) {
+								return;
+							}
+							// ONLY for this very specific width (Confluence default)
+							if (parseInt(propertyValue) === 760) {
+								element.style.removeProperty('--inline-size');
+							}
+						})
+
+						// Set the initial state of the navigation toggle to prevent shifting in the UI
+						try {
+							const navigationToggle = document.querySelector('#navigator-toggle');
+							const navigationState = localStorage.getItem('theme-navigation-state');
+
+							if (navigationState === 'collapsed' && navigationToggle) {
+								navigationToggle.setAttribute('aria-expanded', 'false');
+							}
+						} catch (error) {
+							console.error(error);
+						}
+					</script>
+																			</section>
+				<footer>
+
+				</footer>
+			</article>
+		</main>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer data-component="footer" class="footer">
+
+
+
+
+
+		<img class="footer-logo footer-logo--dark" src="/__site/daf22bbc-3283-4247-8d4c-43dcc8aa2152/esa-brand-dark-transparent.png" alt="">
+
+		<img class="footer-logo footer-logo--light" src="/__site/daf22bbc-3283-4247-8d4c-43dcc8aa2152/esa-brand-dark-transparent.png" alt="">
+	<ul class="footer-content">
+		<li><i18n-message i18nkey="footer.copyright.label">Copyright</i18n-message> <current-year></current-year> European Space Agency</li>		<li><i18n-message i18nkey="footer.poweredBy.label">Powered by</i18n-message> <a href="https://www.k15t.com/products/scroll-sites-for-confluence?utm_campaign=k15t-sts-attribution-line&utm_source=k15t-apps" rel="external nofollow">Scroll&nbsp;Sites</a> & <a href="https://www.atlassian.com/software/confluence" rel="external nofollow">Atlassian&nbsp;Confluence</a></li>
+			<li>
+				<button type="button" data-cc="show-preferencesModal">
+					<i18n-message i18nkey="cookieConsent.showPreferences">Manage cookie preferences</i18n-message>
+				</button>
+			</li>
+	</ul>
+
+</footer>
+
+
+	</body>
+</html>

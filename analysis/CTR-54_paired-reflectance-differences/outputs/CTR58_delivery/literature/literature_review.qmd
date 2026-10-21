@@ -1,0 +1,3 @@
+## Documentation verification scope
+
+A targeted primary-documentation check on 20 October 2026 verified product decoding, SCL identities, netCDF fill constants, ACOLITE flag semantics and GAM implementation. These are methodological implementation sources, not peer-reviewed tests of atmospheric-correction performance. All six cited items were inspected as HTML or source text; publication PDFs are not applicable and none were downloaded. No inaccessible research publication is cited. This check does not establish consensus, novelty or comparative accuracy. Exact verification levels and mutable-source limitations are in references_index.csv.

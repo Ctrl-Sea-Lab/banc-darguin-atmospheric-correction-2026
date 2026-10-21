@@ -1,0 +1,66 @@
+{
+  "id": "74ea77b5-4377-40ce-8172-5850d26ecd5a",
+  "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+  "issueId": "8c96dd3e-f4cd-49c2-b195-1007c7dfee1c",
+  "kind": "ask_user_questions",
+  "status": "pending",
+  "continuationPolicy": "wake_assignee",
+  "requestedResolverPolicy": "anyone",
+  "effectiveResolverPolicy": "anyone",
+  "resolverPolicyProvenance": "inherited",
+  "effectiveResolverPolicySource": "requested",
+  "idempotencyKey": "ctr73-ctr63-preservation-release-order-v1",
+  "originCommentIds": [],
+  "sourceCommentId": null,
+  "sourceIdentityContextId": "a741e812-1bb0-4853-94e4-1034c79ca0d3",
+  "sourceRunId": "7668b544-7ff2-4c29-9893-1bffa35b9f56",
+  "title": null,
+  "summary": null,
+  "createdByAgentId": "8e429434-cc27-4927-997b-1d3e3923b1e1",
+  "addresseeAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+  "addresseeUserId": null,
+  "createdByUserId": null,
+  "resolvedByAgentId": null,
+  "resolvedByRunId": null,
+  "resolvedByUserId": null,
+  "payload": {
+    "version": 1,
+    "supersedeOnUserComment": false,
+    "questions": [
+      {
+        "id": "delivery_release",
+        "prompt": "CTR-73 is assigned to deliver reviewed CTR-54 into root analysis/CTR-54_paired-reflectance-differences/. Your reconciliation-prechecks revision 464148b4-68f0-4b76-b744-e4c071cf45a6 includes the older report.qmd/report.html and must remain valid. Please confirm exact preservation commit/parent and explicit release/order for root delivery after your 85-file registration, or identify the pending prerequisite. I will preserve differing pre-existing files byte-for-byte in a documented analysis-only archive after your release, then promote only reviewed candidate bytes from CTR-58-review revision 7b9232da45c68c82c5f996b37357f15fb7b9ed55. No competing registration, root Git staging, or CTR-54 overwrite will occur before coordination. CTR-64 delivery is independent and creates a previously absent directory. Please confirm whether this isolated CTR-64 write conflicts with any active hold. No scientific, merge or publication decision is requested.",
+        "selectionMode": "single",
+        "required": true,
+        "allowOther": true,
+        "options": [
+          {
+            "id": "paperclip_text_answer",
+            "label": "Type an answer",
+            "freeText": true
+          }
+        ]
+      }
+    ],
+    "questionSet": {
+      "schema": "paperclip.question_set.v1",
+      "questions": [
+        {
+          "id": "delivery_release",
+          "prompt": "CTR-73 is assigned to deliver reviewed CTR-54 into root analysis/CTR-54_paired-reflectance-differences/. Your reconciliation-prechecks revision 464148b4-68f0-4b76-b744-e4c071cf45a6 includes the older report.qmd/report.html and must remain valid. Please confirm exact preservation commit/parent and explicit release/order for root delivery after your 85-file registration, or identify the pending prerequisite. I will preserve differing pre-existing files byte-for-byte in a documented analysis-only archive after your release, then promote only reviewed candidate bytes from CTR-58-review revision 7b9232da45c68c82c5f996b37357f15fb7b9ed55. No competing registration, root Git staging, or CTR-54 overwrite will occur before coordination. CTR-64 delivery is independent and creates a previously absent directory. Please confirm whether this isolated CTR-64 write conflicts with any active hold. No scientific, merge or publication decision is requested.",
+          "required": true,
+          "answerMode": "text"
+        }
+      ]
+    }
+  },
+  "result": null,
+  "resolvedAt": null,
+  "createdAt": "2026-10-21T05:22:39.194Z",
+  "updatedAt": "2026-10-21T05:22:39.194Z",
+  "resolverPolicy": "anyone",
+  "legacyResolverPolicyAliases": {
+    "requested": "board_or_agents",
+    "effective": "board_or_agents"
+  }
+}

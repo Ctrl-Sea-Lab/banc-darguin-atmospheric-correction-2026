@@ -1,0 +1,115 @@
+**Take-home message.** Sentinel-2 marine applications should compare aquatic atmospheric corrections against local measurements before selecting a production method. A useful initial comparison includes ACOLITE dark-spectrum fitting (DSF), C2RCC with a documented network, and POLYMER; OC-SMART and NASA SeaDAS/l2gen deserve consideration for water-quality retrieval. This is an evidence-informed shortlist, not a demonstrated ranking for Banc d’Arguin.
+
+**Meaningful results.** The literature supports different choices across water types, spectral bands, and application endpoints. Shoreline adjacency and sunglint require explicit treatment. Good bathymetry or habitat classification alone does not establish accurate water-leaving reflectance.
+
+**Issues and limitations.** This is a targeted critical review, not a systematic review or meta-analysis. Published comparisons use different versions, masks, matchup subsets, and water types. No local processor-performance result is established here. The library contains 17 verified references: 15 local PDFs, one additional full text inspected as publisher HTML, and one abstract-only source.
+
+**Implications and next steps.** Test the shortlist on the same scenes and common radiometric matchups, while separately reporting usable coverage. Add an adjacency-correction experiment where shoreline contamination is plausible. Validate the intended ecological product independently. All recommendations below concern future validation, not a change to the project's scientific objectives.
+
+## Research question, scope, and study context
+
+Which commonly used atmospheric-correction approaches can process Sentinel-2 MultiSpectral Instrument (MSI) imagery for marine ecology, and what evidence should guide selection for coastal water quality, bathymetry, and submerged-habitat mapping?
+
+The review prioritizes direct MSI radiometric validation and coastal applications, supplemented by foundational ocean-colour algorithms, inland-water comparisons that test relevant mechanisms, and developments published through 20 October 2026. “Common” denotes recurring use in the selected comparisons, not a measured software-adoption rate. The review is relevant to the Banc d’Arguin project; evidence from Europe, French Guiana, and Atlantic sites is not assumed to transfer to Mauritanian conditions. No project reflectance, habitat, or statistical dataset was analysed for this task.
+
+## Search and evidence appraisal
+
+Discovery used targeted web searches of publishers and institutional repositories, Crossref DOI records for bibliographic verification, and OpenAlex records for legitimate open-access locations. Search families combined *Sentinel-2/MSI*, *atmospheric correction*, *coastal/marine/inland waters*, *ACOLITE/DSF*, *C2RCC/C2X*, *POLYMER*, *iCOR/SIMEC*, *Sen2Cor*, *OC-SMART*, *l2gen/SeaDAS*, *sunglint/GRS*, *adjacency/RAdCor/T-Mart*, and *bathymetry/benthic habitat*. The dated search log records actual query strings, source routes, inclusion rules, and limitations.
+
+Selection favoured comparisons against field radiometry, explicit descriptions of physical assumptions, and studies that expose transfer limits. Reference lists and related studies in Warren et al., ACIX-Aqua, and the newer adjacency papers guided citation chaining. Inland studies were retained as indirect evidence and labelled accordingly. Algorithm-development studies and conference proceedings were distinguished from independent comparisons. Duplicate DOI/title checks were made against the existing project bibliography. Discovery was not exhaustive; no PRISMA screening count or formal risk-of-bias score is claimed.
+
+Relevant methods, results, or discussion passages were inspected for the 16 sources classified as full text. Steinmetz et al. (2011) is retained at abstract level for POLYMER's origin only. Its original validation concerns MERIS; MSI applicability is supported separately by later comparisons. PDFs were checked for a valid PDF header, successful text extraction, publication identity, and checksum. Retrieval logs retain failures as well as successes. Bibliographic year follows the publication record rather than the year embedded in a DOI: Wu et al. is 2024, whereas the Lathif and Al Shehhi journal volume is 2025.
+
+## What the correction must recover
+
+Atmospheric correction separates the water contribution from molecular and aerosol scattering and absorption. Water-surface reflections, whitecaps, and light scattered from neighbouring surfaces complicate that separation. The foundational NIR approach estimates aerosol properties where the ocean contribution is assumed small; productive or sediment-rich waters can violate the dark-water approximation. The SeaWiFS-era method establishes the principle, not Sentinel-2 performance [@Gordon1994].
+
+The target quantity must be defined before comparing products. Above-water remote-sensing reflectance is $R_{rs}=L_w/E_d(0^+)$, with units of sr$^{-1}$. Water-leaving reflectance commonly uses $\rho_w=\pi R_{rs}$ when illumination, geometry, and normalization conventions match. Generic bottom-of-atmosphere (BOA) surface reflectance may retain surface contributions or use other conventions. “Bottom” in BOA refers to the atmosphere, not the seabed. Processing labels alone cannot establish equivalence [@MainKnorn2017; @Fan2021].
+
+For ecological interpretation, this distinction prevents a processing difference from being mistaken for a change in phytoplankton, sediment, or benthic habitat. Atmospheric correction also does not remove water-column attenuation or isolate bottom reflectance: those require application-specific modelling and validation [@Vrdoljak2022].
+
+## Methods applicable to Sentinel-2
+
+| Approach | Principle and useful role | Main condition to test | Evidence |
+|:--|:--|:--|:--|
+| **ACOLITE DSF** | Fits an atmospheric dark spectrum from image targets; tiled retrieval and optional SWIR glint treatment make it a practical aquatic baseline. | Requires sufficiently dark targets and locally representative atmosphere; inspect selected bands, aerosol model, tile extent, and glint settings. Distinguish DSF from older exponential (EXP) correction. | @Vanhellemont2019 |
+| **C2RCC / C2X family** | Neural networks invert radiative-transfer simulations; retrieves aquatic reflectance and optical properties. | Document the exact network and range/spectral-scope flags. A wider training range is not proof of better local performance. | @Brockmann2016 |
+| **POLYMER** | Spectral matching jointly represents water and a flexible atmosphere/surface contribution; relevant where glint limits coverage. | A good fitted spectrum is conditional on its water model and masking. Evaluate shallow-water spectral retention. Original paper is MERIS, with abstract-only verification here; MSI evidence comes from later studies. | @Steinmetz2011; @Warren2019 |
+| **iCOR + SIMEC** | Land-based aerosol estimation with explicit adjacency treatment over water using spectral similarity. | Suitable land targets and water-spectral assumptions need checking; adjacency capability does not ensure the lowest overall error. | @DeKeukelaere2018 |
+| **SeaDAS / l2gen (NASA-AC)** | Ocean-colour processing framework with aerosol and water-signal corrections. | Record the implemented NIR/SWIR scheme and flags; valid-pixel losses can influence rankings. “l2gen” names software, not one invariant configuration. | @Bui2022 |
+| **OC-SMART** | Neural-network retrieval trained with coupled atmosphere–ocean simulations; includes MSI support. | Validate generalization and quality control; non-negative output alone is not evidence of accuracy. | @Fan2021 |
+| **GRS approach** | SWIR observations constrain sunglint and its extrapolation toward visible wavelengths, combined with atmospheric information. | Aerosol–glint separation and ancillary data remain important. Glint removal alone is not full atmospheric correction. | @Harmel2018 |
+| **Sen2Cor / standard L2A** | Operational L1C-to-BOA processing; useful as an accessible comparator. | Quantitative aquatic suitability must be demonstrated, including surface-glint and shoreline behaviour. Historical evaluations are version-specific. | @MainKnorn2017; @PereiraSandoval2019 |
+| **TSDSF + RAdCor; T-Mart preprocessing** | Explicit atmospheric spatial-scattering treatment; RAdCor is coupled to aerosol estimation, whereas T-Mart can precede other atmospheric processors. | Test sensitivity to atmospheric assumptions and context extent; these are distinct configurations, not interchangeable labels. | @Castagna2025; @Wu2024 |
+
+Generic radiative-transfer tools such as 6S/6SV and FLAASH, and image-based methods such as QUAC or dark-object subtraction, can be configured for satellite imagery. They are secondary candidates here because the selected marine MSI comparisons provide a clearer evidence base for the aquatic shortlist. This is a review-scope decision, not evidence that those methods are intrinsically unsuitable. Any such configuration needs aquatic validation, explicit aerosol inputs or retrieval assumptions, and surface-reflection treatment.
+
+## What the comparative evidence establishes
+
+### Water type and implementation explain part of the disagreement
+
+Warren et al. compared six processors across Baltic, Western Channel, and inland waters and found comparatively favourable results for POLYMER and C2RCC, with substantial residual uncertainty. Their ACOLITE implementation used exponential aerosol extrapolation. Applying that ranking directly to later DSF would conflate different methods [@Warren2019]. Pereira-Sandoval et al. also favoured POLYMER and C2RCC in Spanish lakes/reservoirs, while identifying water-type dependence. These freshwater results justify testing candidates, not adopting a marine ranking [@PereiraSandoval2019].
+
+ACIX-Aqua evaluated eight processors using more than 1,000 radiometric matchups. Its mostly freshwater community database and predominantly coastal AERONET-OC observations produced different relative performances. The discussion favoured iCOR/ACOLITE in several turbid or eutrophic classes, and OC-SMART/SeaDAS in clearer classes. It also demonstrated that reflectance uncertainty propagates into chlorophyll-a and suspended-solids estimates. A universal processor ranking would discard the exercise's main qualification [@Pahlevan2021].
+
+Bui et al.'s French coastal comparison favoured OC-SMART and NASA-AC. It began with 28 potential individual matchups, and NASA-AC returned fewer valid observations. OC-SMART led the individual-set scoring, while NASA-AC led the common-set scoring. This is evidence of sensitivity to the evaluated sample and scoring scheme, not a contradiction that can be resolved by choosing one headline winner [@Bui2022].
+
+The Atlantic comparison by Lathif and Al Shehhi used 75 potential matchups, chiefly clear to moderately turbid waters, and found favourable overall results for OC-SMART with differences among spectral-shape metrics and water types. It tested largely default configurations and obtained unequal valid subsets. Its abstract and discussion contain inconsistent total-score values; this review does not reproduce those scores or use them to rank methods [@Lathif2025].
+
+### Adjacency correction deserves a separate experiment
+
+iCOR's SIMEC results show why shoreline contamination should be examined directly rather than handled only by removing coastal pixels [@DeKeukelaere2018]. More recent work broadens the available mechanisms. Wu et al. reported an average 16.7% RMSE reduction after adjacency preprocessing for 212 nearshore matchups within 200 m of shore, pooled across MSI/OLI bands and three subsequent processors. This is a within-study improvement, not an expected Sentinel-2 correction factor for Banc d’Arguin [@Wu2024].
+
+Castagna and Vanhellemont demonstrated TSDSF + RAdCor over Belgian inland waters. For clear-sky MSI matchups, visible-band mean absolute percentage deviation (MAPD) was 14–31%, except at 443 nm, where MAPD was 70%; performance differed in the NIR. The method is therefore a relevant test candidate rather than a guaranteed remedy for every band or coastal setting [@Castagna2025].
+
+### Shallow habitats require a different validation endpoint
+
+The 2026 C2RCC description explicitly models an optically deep water layer without bottom reflection. Its new validation mainly concerns Sentinel-3 OLCI. This identifies a model-transfer issue for submerged habitats and a sensor-transfer limit for the evidence; it does not show that every C2RCC shallow-water reflectance output fails [@Muller2026].
+
+The Middle Adriatic bathymetry study found application-dependent differences among ACOLITE, iCOR, C2RCC, and Sen2Cor, including differences in usable scenes. A locally fitted depth model can compensate for some spectral bias, so bathymetric prediction error and radiometric fidelity answer different questions. Habitat maps likewise need field-based classification validation in addition to correction checks [@Vrdoljak2022].
+
+## Recommended comparison for the project
+
+These recommendations are the author's synthesis and proposed validation design. They are not local findings or a production-method decision.
+
+| Scientific use | Initial candidates | Decisive evidence |
+|:--|:--|:--|
+| Coastal chlorophyll-a, suspended matter, turbidity | ACOLITE DSF, documented C2RCC network, POLYMER; add OC-SMART and l2gen where feasible | Bandwise radiometry, spectral shape, coverage, then independent constituent measurements |
+| Submerged vegetation, benthic habitats, bathymetry | ACOLITE DSF and POLYMER as contrasting approaches; include C2RCC as a model-sensitivity comparator | Preservation of bottom-sensitive spectra, tide/depth context, independent habitat or depth validation |
+| Pixels near bright land or tidal boundaries | A paired correction experiment using iCOR/SIMEC, TSDSF + RAdCor, or T-Mart followed by a documented processor | Change in error by distance to shore, water type, and scene; inspect mixed pixels separately |
+| Strong glint conditions | POLYMER, a documented DSF glint option, or a GRS workflow | Radiometric accuracy and recovered usable area, with residual glint and masking documented |
+| Existing standard L2A workflow | Retain Sen2Cor as a comparator | Whether accessible standard products meet the intended aquatic endpoint locally |
+
+A staged design keeps the first comparison tractable. Start with DSF, C2RCC, POLYMER, and the available Sen2Cor baseline on identical imagery. Add OC-SMART/l2gen for a water-quality endpoint and an explicit adjacency branch for shoreline questions. Actual inclusion depends on demonstrated software access and data availability, which were not tested here.
+
+1. **Define the observable.** Start aquatic processors from the appropriate L1C input. Use matched L2A products only for the Sen2Cor comparator. Record exact product identifiers, processing baselines, radiometric scale/offset handling, ancillary inputs, code versions, networks, and options. Compare the same $R_{rs}$ or $\rho_w$ convention; avoid double correction or unexamined unit conversion.
+2. **Separate environmental regimes.** Identify optically deep and shallow observations, exposed/intertidal and submerged targets, glint conditions, water types, and shoreline distance. Treat tide stage, changing depth, sediment resuspension, and aerosol conditions as possible confounders to measure, not as demonstrated explanations for local error.
+3. **Make field and satellite spectra comparable.** Inspect field calibration and geometry, convolve hyperspectral measurements with the relevant MSI spectral responses, and document spatial resampling. Do not describe a coarser native band as containing new spatial information after interpolation. Set matchup timing from local variability and test sensitivity to that choice.
+4. **Separate accuracy from availability.** Report common-matchup results and each processor's full valid set. Show retained area and observation counts, all exclusions, bandwise bias and absolute error, spectral-shape error, and uncertainty. Relative errors can become unstable where the reference signal approaches zero; correlation alone cannot measure agreement.
+5. **Validate the ecological result separately.** Assess chlorophyll/turbidity against independent measurements, bathymetry against withheld depths, or habitat classes against independent field labels. Separate calibration and evaluation across space/time where possible. Select the production method by the intended endpoint and uncertainty, not map appearance.
+
+## Evidence gaps and limits of inference
+
+The review does not establish which processor performs best in Banc d’Arguin, whether local aerosol regimes are adequately represented, or how bottom and tidal effects alter method rankings there. Repeated comparisons of the same development-era algorithms should not be treated as independent validation of their current releases. No cross-study meta-analysis is justified because metrics, sensor populations, versions, and retained samples differ.
+
+Current availability and installation were not audited. The source records describe published configurations; the 2026 C2RCC publication, for example, discusses a framework labelled v2-2017 rather than proving a new MSI implementation. Recent adjacency methods add useful candidates, but independent marine validation and uncertainty under local conditions remain necessary.
+
+Steinmetz et al. (2011) remained abstract-only in this library after legitimate retrieval attempts. Wu et al. (2024) was inspected as full publisher HTML but no standalone article PDF was obtained. These limitations are recorded per reference. Download success was not used as a substitute for reading the evidence.
+
+## Reproducibility, review, and handoff
+
+The task-local `library.bib`, `literature/references_index.csv`, `tables/evidence_matrix.csv`, `literature/search_log.md`, and `outputs/source_records.json` preserve bibliographic and claim provenance. `outputs/numerical_claims.csv` identifies the source passages for the quantitative statements used above. PDFs and extracted full text remain outside Git and the downloadable deliverable bundle; source URLs and checksums remain in the index. Use original hosts to obtain papers under their applicable terms.
+
+This investigation was copied from `analysis/_template/` onto branch `ctr-39-atmospheric-review`, based on project commit `4af70f3`. Its actual analysis path passed `pi-workspace verify-ready`. The shared root bibliography is protected by the project's synchronization policy; these verified entries are staged in the investigation library. Promotion to the shared library requires Charles Darwin's coordination and Ada Lovelace's task-scoped synchronization. This does not prevent review of the standalone deliverable.
+
+Rebuild the library and render the investigation from the task worktree root:
+
+```bash
+python3 analysis/CTR-39_sentinel2-atmospheric-review/scripts/build_library.py
+./scripts/render-analysis.sh analysis/CTR-39_sentinel2-atmospheric-review
+python3 analysis/CTR-39_sentinel2-atmospheric-review/scripts/audit_review.py
+```
+
+Acquisition scripts and URL-level retrieval outcomes document discovery-time downloads; network availability can change. Inspection notes are curated judgments, not an automated endorsement of paper reliability. Software/tool versions and lockfile hashes are recorded separately in `provenance/environment.json`.
+
+**Internal scientific review:** Karl Popper accepted source revision `a031b9dfdfafc6b7db02848d4ded3228d2cb3e88` in [CTR-40](/CTR/issues/CTR-40#document-independent-review), with no critical or major concerns. This subsequent editorial revision corrects Warren’s source locator (E1) and names Castagna’s MAPD metric (E2); it preserves all numerical values, source scope, and processor recommendations. The reviewer’s acceptance applies to the stated source revision; the editorial response and repeat checks are recorded in `provenance/editorial_response.md`. **PI scientific approval:** pending; no authenticated approval is claimed. **Manuscript integration, merge, and publication:** not authorized. The report supplies a reviewable synthesis and proposed validation design; the final manuscript has not been edited.

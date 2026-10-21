@@ -1,0 +1,58 @@
+[
+  {
+    "file": "figures/generated/ctr38_figure3_reference.png",
+    "sha256": "87e0fc3f503b326c0db4cbcde7603b81fab888fed64761faac1e24954dc04bad",
+    "attachmentId": "928aa398-6d11-4210-b8c2-dddc5b15785c",
+    "workProductId": "201f3d30-8477-4964-97b8-5c976a05969e",
+    "download_verified": true
+  },
+  {
+    "file": "figures/generated/ctr38_figure3_reference.pdf",
+    "sha256": "0412f92fdf287c6f172322e62378c1b650f47d2fe20585b2e2e00494e12bab1a",
+    "attachmentId": "0ba2389b-109c-4f5e-8689-0d931a473819",
+    "workProductId": "32aa3cd3-d64e-4bd8-bab8-215a95dd5490",
+    "download_verified": true
+  },
+  {
+    "file": "figures/generated/ctr38_figure3_reference.svg",
+    "sha256": "952f061328f6ed3b1f280b9a70a6128801e7688384fd75d0fc52103c0e8c3b44",
+    "attachmentId": "65972649-ea84-42c8-9abb-c3a7d249f5ff",
+    "workProductId": "9497ba8d-d23d-4939-ba36-8270c78137cb",
+    "download_verified": true
+  },
+  {
+    "file": "figures/generated/ctr38_figure3_primary.png",
+    "sha256": "307f0ab58f161fe3d18f5d3fa81f698293e1e71d5af53ccae68c16cb533fc974",
+    "attachmentId": "957007ad-b6f4-4ddc-8b58-589b1f4faaeb",
+    "workProductId": "bfa23712-bb21-4d29-bb83-2b85f35d98fb",
+    "download_verified": true
+  },
+  {
+    "file": "figures/generated/ctr38_figure3_station_spectra.pdf",
+    "sha256": "c6de84cca311b39cf381c22990a6d3608c602187db3ad313e3921247e22239e6",
+    "attachmentId": "812c7bd0-7ff4-47ad-aebe-fec419d9a789",
+    "workProductId": "c5e0a7fb-b542-4e85-b58d-18f6d45d22d6",
+    "download_verified": true
+  },
+  {
+    "file": "outputs/CTR38_portable-final-report.zip",
+    "sha256": "0ac988aecdb57f58354c40ea8f20f2c351632140da9ff6ea1b8c24b3780b0c5d",
+    "attachmentId": "c7e8ce1c-94a4-4648-ab05-eea90aa087bc",
+    "workProductId": "4ee1a98a-91a7-4b58-928d-43d4a87a07dd",
+    "download_verified": true
+  },
+  {
+    "file": "final-matchup-report.qmd",
+    "sha256": "71d1df9dc2768cb63bfb2dc5b53f0fc0ace4803ee851c7702298f51580bbab9e",
+    "attachmentId": "f97d281f-e944-43dd-9063-283aaedd93ae",
+    "workProductId": "7e0725b2-5fdd-4754-a217-d61e5d32ee4e",
+    "download_verified": true
+  },
+  {
+    "file": "outputs/CTR38_figure3-source-and-tables.zip",
+    "sha256": "25bb4198f9d2c82e8028bf6f969b12c698b87af9696724cb9cb3dfa9044e4652",
+    "attachmentId": "d131fbd6-49a9-417b-a059-2b31cde92cf3",
+    "workProductId": "c89a3204-7b68-42e4-82ff-11bb9419ea69",
+    "download_verified": true
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "alt": "",
+        "width": 798.984375,
+        "height": 251.109375,
+        "naturalWidth": 2800,
+        "naturalHeight": 880
+      }
+    ],
+    "label": "previous"
+  },
+  {
+    "viewport": 1440,
+    "scrollWidth": 1440,
+    "images": [
+      {
+        "alt": "Eight maps: temporal median and SD of ACOLITE minus Sen2Cor reflectance for B2, ",
+        "width": 1376,
+        "height": 419.671875,
+        "naturalWidth": 2400,
+        "naturalHeight": 732
+      },
+      {
+        "alt": "Two time-series panels showing all 22 date-level spatial medians and SDs with se",
+        "width": 960,
+        "height": 692.078125,
+        "naturalWidth": 3096,
+        "naturalHeight": 2232
+      }
+    ],
+    "label": "candidate"
+  },
+  {
+    "viewport": 1920,
+    "scrollWidth": 1920,
+    "images": [
+      {
+        "alt": "",
+        "width": 798.984375,
+        "height": 251.109375,
+        "naturalWidth": 2800,
+        "naturalHeight": 880
+      }
+    ],
+    "label": "previous"
+  },
+  {
+    "viewport": 1920,
+    "scrollWidth": 1920,
+    "images": [
+      {
+        "alt": "Eight maps: temporal median and SD of ACOLITE minus Sen2Cor reflectance for B2, ",
+        "width": 1600,
+        "height": 488,
+        "naturalWidth": 2400,
+        "naturalHeight": 732
+      },
+      {
+        "alt": "Two time-series panels showing all 22 date-level spatial medians and SDs with se",
+        "width": 960,
+        "height": 692.078125,
+        "naturalWidth": 3096,
+        "naturalHeight": 2232
+      }
+    ],
+    "label": "candidate"
+  },
+  {
+    "viewport": 390,
+    "scrollWidth": 618,
+    "images": [
+      {
+        "alt": "",
+        "width": 338.953125,
+        "height": 106.53125,
+        "naturalWidth": 2800,
+        "naturalHeight": 880
+      }
+    ],
+    "label": "previous"
+  },
+  {
+    "viewport": 390,
+    "scrollWidth": 390,
+    "images": [
+      {
+        "alt": "Eight maps: temporal median and SD of ACOLITE minus Sen2Cor reflectance for B2, ",
+        "width": 366,
+        "height": 111.625,
+        "naturalWidth": 2400,
+        "naturalHeight": 732
+      },
+      {
+        "alt": "Two time-series panels showing all 22 date-level spatial medians and SDs with se",
+        "width": 364.5,
+        "height": 262.765625,
+        "naturalWidth": 3096,
+        "naturalHeight": 2232
+      }
+    ],
+    "label": "candidate"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "command": "./scripts/check-env.sh --help",
+  "behavior": "script performs checks without a separate help mode",
+  "exit_code": 0,
+  "result": "Environment checks passed; lockfile sources and versions valid; Python would make no changes; R project consistent",
+  "warning": "R normalizePath warning for absent temporary home path; environment consistency checks passed",
+  "dependencies_changed": false
+}

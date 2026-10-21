@@ -1,0 +1,850 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        7
+      ]
+    ],
+    "date-time": "2026-10-07T22:19:53Z",
+    "timestamp": 1791411593047,
+    "version": "4.3.3"
+  },
+  "reference-count": 36,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2023-02-01T00:00:00Z",
+        "timestamp": 1675209600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2023-02-01T00:00:00Z",
+        "timestamp": 1675209600000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            20
+          ]
+        ],
+        "date-time": "2022-12-20T00:00:00Z",
+        "timestamp": 1671494400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100002830",
+      "name": "Centre National d\u2019Etudes Spatiales",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100002830",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000203",
+      "name": "U.S. Geological Survey",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "140G0121D0001"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "140G0121D0001"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000203",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100007851",
+      "name": "National Physical Laboratory",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100007851",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100000844",
+      "name": "European Space Agency",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100000844",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100013341",
+      "name": "National Centre for Earth Observation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "525861"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "525861"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100013341",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001636",
+      "name": "University College Cork",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100001636",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.rse.2022.113412",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        21
+      ]
+    ],
+    "date-time": "2022-12-21T18:44:51Z",
+    "timestamp": 1671648291000
+  },
+  "page": "113412",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 72,
+  "special_numbering": "C",
+  "title": "Atmospheric Correction Inter-comparison eXercise, ACIX-II Land: An assessment of atmospheric correction processors for Landsat 8 and Sentinel-2 over land",
+  "prefix": "10.1016",
+  "volume": "285",
+  "author": [
+    {
+      "given": "Georgia",
+      "family": "Doxani",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Eric F.",
+      "family": "Vermote",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jean-Claude",
+      "family": "Roger",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Sergii",
+      "family": "Skakun",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Ferran",
+      "family": "Gascon",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Alan",
+      "family": "Collison",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Liesbeth",
+      "family": "De Keukelaere",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Camille",
+      "family": "Desjardins",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "David",
+      "family": "Frantz",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Olivier",
+      "family": "Hagolle",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Minsu",
+      "family": "Kim",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "J\u00e9r\u00f4me",
+      "family": "Louis",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Fabio",
+      "family": "Pacifici",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Bringfried",
+      "family": "Pflug",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Herv\u00e9",
+      "family": "Poilv\u00e9",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Didier",
+      "family": "Ramon",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Rudolf",
+      "family": "Richter",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Feng",
+      "family": "Yin",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "issue": "20",
+      "key": "10.1016/j.rse.2022.113412_bb0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "2401",
+      "DOI": "10.3390/rs11202401",
+      "article-title": "RadCalNet: A radiometric calibration network for Earth observing imagers operating in the visible to shortwave infrared spectral range",
+      "volume": "11",
+      "author": "Bouvet",
+      "year": "2019",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.rse.2022.113412_bb0010",
+      "doi-asserted-by": "crossref",
+      "first-page": "1357",
+      "DOI": "10.1080/01431160903547999",
+      "article-title": "A comparison between two radiative transfer models for atmospheric correction over a wide range of wavelengths",
+      "volume": "32",
+      "author": "Callieco",
+      "year": "2011",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0015",
+      "doi-asserted-by": "crossref",
+      "first-page": "390",
+      "DOI": "10.1016/j.rse.2015.08.030",
+      "article-title": "Evaluation of the Landsat-5 TM and Landsat-7 ETM+ surface reflectance products",
+      "volume": "169",
+      "author": "Claverie",
+      "year": "2015",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.rse.2022.113412_bb0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "525",
+      "DOI": "10.1080/22797254.2018.1457937",
+      "article-title": "Atmospheric correction of Landsat-8/OLI and Sentinel-2/MSI data using iCOR algorithm: validation for coastal and inland waters",
+      "volume": "51",
+      "author": "De Keukelaere",
+      "year": "2018",
+      "journal-title": "Eur. J. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "352",
+      "DOI": "10.3390/rs10020352",
+      "article-title": "Atmospheric correction inter-comparison exercise",
+      "volume": "10",
+      "author": "Doxani",
+      "year": "2018",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.rse.2022.113412_bb0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "1363",
+      "DOI": "10.3390/rs10091363",
+      "article-title": "Analysis ready data: enabling analysis of the Landsat archive",
+      "volume": "10",
+      "author": "Dwyer",
+      "year": "2018",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "issue": "9",
+      "key": "10.1016/j.rse.2022.113412_bb0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "1124",
+      "DOI": "10.3390/rs11091124",
+      "article-title": "FORCE\u2014Landsat+ Sentinel-2 analysis ready data and beyond",
+      "volume": "11",
+      "author": "Frantz",
+      "year": "2019",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.rse.2022.113412_bb0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "3928",
+      "DOI": "10.1109/TGRS.2016.2530856",
+      "article-title": "An operational radiometric Landsat preprocessing framework for large-area time series applications",
+      "volume": "54",
+      "author": "Frantz",
+      "year": "2016",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.5194/amt-12-169-2019",
+      "article-title": "Advancements in the Aerosol Robotic Network (AERONET) Version 3 Database \u2013 automated near real-time quality control algorithm with improved cloud screening for sun photometer aerosol optical depth (AOD) measurements",
+      "volume": "12",
+      "author": "Giles",
+      "year": "2019",
+      "journal-title": "Atmos. Meas. Tech."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0050",
+      "series-title": "IEEE International Geoscience and Remote Sensing Symposium IGARSS, 7920-7923",
+      "article-title": "Automated Generation of Hyperspectral Fiducial Reference Measurements of Water and Land Surface Reflectance for the Hypernets Networks",
+      "author": "Goyens",
+      "year": "2021"
+    },
+    {
+      "issue": "1",
+      "key": "10.1016/j.rse.2022.113412_bb0055",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/S0034-4257(98)00031-5",
+      "article-title": "AERONET\u2014A federated instrument network and data archive for aerosol characterization",
+      "volume": "66",
+      "author": "Holben",
+      "year": "1998",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "issue": "26",
+      "key": "10.1016/j.rse.2022.113412_bb0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "6762",
+      "DOI": "10.1364/AO.45.006762",
+      "article-title": "Validation of a vector version of the 6S radiative transfer code for atmospheric correction of satellite data. Part I: Path radiance",
+      "volume": "45",
+      "author": "Kotchenova",
+      "year": "2006",
+      "journal-title": "Appl. Opt."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0065",
+      "doi-asserted-by": "crossref",
+      "first-page": "2215",
+      "DOI": "10.1364/AO.47.002215",
+      "article-title": "Radiative transfer codes for atmospheric correction and aerosol retrieval: intercomparison study",
+      "volume": "47",
+      "author": "Kotchenova",
+      "year": "2008",
+      "journal-title": "Appl. Opt."
+    },
+    {
+      "issue": "6",
+      "key": "10.1016/j.rse.2022.113412_bb0075",
+      "doi-asserted-by": "crossref",
+      "first-page": "1997",
+      "DOI": "10.1109/JSTARS.2018.2835823",
+      "article-title": "Evaluation of sentinel-2A surface reflectance derived using Sen2Cor in North America",
+      "volume": "11",
+      "author": "Li",
+      "year": "2018",
+      "journal-title": "IEEE J. Select. Top. Appl. Earth Observ. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0080",
+      "series-title": "Advanced Remote Sensing",
+      "first-page": "131",
+      "article-title": "Chapter 4 - Atmospheric correction of optical imagery",
+      "author": "Liang",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0085",
+      "series-title": "Proceedings of the IGARSS 2018\u20142018 IEEE International Geoscience and Remote Sensing Symposium, Valencia, Spain, 22\u201327 July",
+      "article-title": "New Radcalnet Site at Gobabeb, Namibia: Installation of the Instrumentation and First Satellite Calibration Results",
+      "author": "Marcq",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0090",
+      "series-title": "Proceedings of the Earth Observing Systems XVI, San Diego, CA, USA",
+      "article-title": "ROSAS: a robotic station for atmosphere and surface characterization dedicated to on-orbit calibration",
+      "author": "Meygret",
+      "year": "2011"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0095",
+      "doi-asserted-by": "crossref",
+      "first-page": "3003",
+      "DOI": "10.3390/rs13153003",
+      "article-title": "European Space Agency (ESA) calibration/validation strategy for optical land-imaging satellites and pathway towards interoperability",
+      "volume": "13",
+      "author": "Niro",
+      "year": "2021",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0100",
+      "first-page": "258",
+      "article-title": "ACIX-Aqua: A global assessment of atmospheric correction methods for Landsat-8 and Sentinel-2 over lakes, rivers, and coastal waters",
+      "author": "Pahlevan",
+      "year": "2021",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0105",
+      "series-title": "Next updates of atmospheric correction processor Sen2Cor. Proc. SPIE 11533, Image and Signal Processing for Remote Sensing XXVI, 1153304",
+      "author": "Pflug",
+      "year": "2020"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0110",
+      "doi-asserted-by": "crossref",
+      "first-page": "426",
+      "DOI": "10.3390/rs12030426",
+      "article-title": "Landsat analysis ready data for global land cover and land cover change mapping",
+      "volume": "12",
+      "author": "Potapov",
+      "year": "2020",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0115",
+      "author": "Remer"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0120",
+      "doi-asserted-by": "crossref",
+      "first-page": "4004",
+      "DOI": "10.1364/AO.37.004004",
+      "article-title": "Correction of satellite imagery over mountainous terrain",
+      "volume": "37",
+      "author": "Richter",
+      "year": "1998",
+      "journal-title": "Appl. Opt."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0125",
+      "doi-asserted-by": "crossref",
+      "first-page": "1123",
+      "DOI": "10.5194/amt-15-1123-2022",
+      "article-title": "Aerosol models from the AERONET database: application to surface reflectance validation",
+      "volume": "15",
+      "author": "Roger",
+      "year": "2022",
+      "journal-title": "Atmos. Meas. Tech."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0130",
+      "doi-asserted-by": "crossref",
+      "first-page": "1230",
+      "DOI": "10.3390/rs9121230",
+      "article-title": "Using copernicus atmosphere monitoring service products to constrain the aerosol type in the atmospheric correction processor MAJA",
+      "volume": "9",
+      "author": "Rouqui\u00e9",
+      "year": "2017",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0135",
+      "doi-asserted-by": "crossref",
+      "first-page": "112990",
+      "DOI": "10.1016/j.rse.2022.112990",
+      "article-title": "Cloud Mask Intercomparison eXercise (CMIX): an evaluation of cloud masking algorithms for Landsat 8 and Sentinel-2",
+      "volume": "274",
+      "author": "Skakun",
+      "year": "2022",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0145",
+      "doi-asserted-by": "crossref",
+      "first-page": "D23S90",
+      "DOI": "10.1029/2007JD009662",
+      "article-title": "Atmospheric correction for the monitoring of land surfaces",
+      "volume": "113",
+      "author": "Vermote",
+      "year": "2008",
+      "journal-title": "J. Geophys. Res.-Atmos."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0150",
+      "doi-asserted-by": "crossref",
+      "first-page": "898",
+      "DOI": "10.1109/TGRS.2008.2005977",
+      "article-title": "Towards a generalized approach for correction of the BRDF effect in MODIS directional reflectances",
+      "volume": "47",
+      "author": "Vermote",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0155",
+      "doi-asserted-by": "crossref",
+      "first-page": "46",
+      "DOI": "10.1016/j.rse.2016.04.008",
+      "article-title": "Preliminary analysis of the performance of the Landsat 8/OLI land surface reflectance product",
+      "volume": "185",
+      "author": "Vermote",
+      "year": "2016",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0160",
+      "doi-asserted-by": "crossref",
+      "first-page": "1945",
+      "DOI": "10.5194/gmd-13-1945-2020",
+      "article-title": "Comparative analysis of atmospheric radiative transfer models using the Atmospheric Look-up table Generator (ALG) toolbox (version 2.0)",
+      "volume": "13",
+      "author": "Vicent",
+      "year": "2020",
+      "journal-title": "Geosci. Model Dev."
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0165",
+      "series-title": "A sensor-invariant atmospheric correction method: application to Sentinel-2/MSI and Landsat 8/OLI",
+      "author": "Yin",
+      "year": "2019"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0170",
+      "series-title": "MAJA Algorithm Theoretical Basis Document (1.0). Zenodo",
+      "author": "Hagolle",
+      "year": "2017"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0175",
+      "author": "Sentinel-2 L-1C User guide"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0185",
+      "author": "Lamasquere project details"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0190",
+      "author": "Level-2A Algorithm Theoretical Basis Document"
+    },
+    {
+      "key": "10.1016/j.rse.2022.113412_bb0195",
+      "author": "RAdiation Transfer Model Intercomparison for Atmosphere (RAMI4ATM) Web Portal"
+    }
+  ],
+  "container-title": "Remote Sensing of Environment",
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0034425722005181?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0034425722005181?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        9,
+        22
+      ]
+    ],
+    "date-time": "2025-09-22T02:36:36Z",
+    "timestamp": 1758508596000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0034425722005181"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        2
+      ]
+    ]
+  },
+  "references-count": 36,
+  "alternative-id": [
+    "S0034425722005181"
+  ],
+  "URL": "http://dx.doi.org/10.1016/j.rse.2022.113412",
+  "relation": {},
+  "ISSN": [
+    "0034-4257"
+  ],
+  "subject": [],
+  "container-title-short": "Remote Sensing of Environment",
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        2
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Atmospheric Correction Inter-comparison eXercise, ACIX-II Land: An assessment of atmospheric correction processors for Landsat 8 and Sentinel-2 over land",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Remote Sensing of Environment",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.rse.2022.113412",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "\u00a9 2022 The Authors. Published by Elsevier Inc.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "113412"
+}

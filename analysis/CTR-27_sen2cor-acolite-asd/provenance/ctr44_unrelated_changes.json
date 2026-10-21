@@ -1,0 +1,85 @@
+{
+  "active_issue": "CTR-39",
+  "active_run_observed": "88ba401d-6729-434b-b661-6d7981792266",
+  "baseline_files": 60,
+  "externally_changed_files": {
+    "analysis/CTR-39_sentinel2-atmospheric-review/report.html": {
+      "before": "64551bd690a5a3d010684994c1fc76b2dd946773fe7c3acb34bc8de56091d756",
+      "current": "88391561dcb4f267b9c9a3e49cf01bdaef42665d235e68a312e5a1c84ad0944b"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/README.md": {
+      "before": "7627533c7c0af15b52e7b10b074c15520b2c6e0dea32dcb92db83b384fdc81ca",
+      "current": "c18443cacc920416954c265dc27136a9d1b82fb8609ef612eb65c54103acd032"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/task.yml": {
+      "before": "f1087c25f9256a696811c84b47af4fe3922b0b06e1be5faead40c58ce780b8d2",
+      "current": "da43c02955b253a319d146125729c38b159518c7bf76d6808f97e417c73b0603"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/library.bib": {
+      "before": "a5bc324d218e5d6f1f0ced3258337bcf6cd6beef1e3fb7fc9e1dbbd4ad5ec224",
+      "current": "04998bc5c56eef6a466bb75530f17881436199b5d93af2e35f25283f5ccf1c91"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/report.qmd": {
+      "before": "6a5ff510dba8eece03b082eec4953342cfc5a60f8a4d10a34057c8366a25071d",
+      "current": "1bb99593a9e1d5741823975a26654a85db44c7d1c232c85b3e4f2c02043806ab"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/literature/references_index.csv": {
+      "before": "42785d258a5a3d0eda8615eea69cb7aea2b870a6364fed9cbd5e9a7f3c07d25d",
+      "current": "e0a3b1e9269fe8395f65654c538e5e699a493467b07f8189e96ffed7f0c2a684"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/literature/search_log.md": {
+      "before": "50039e29bee915b2cfb189e18e79247ed31f4614e213f9b157ce2321e6e8d474",
+      "current": "8caef1303040f7bbc66c33a82580bf1a8403cbee6400cc3cb9ef44ba0a719f94"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/literature/literature_review.qmd": {
+      "before": "67ff6358168cc0ace72a004513e196e21739cb2284c8e02a8386473fb3b09f7f",
+      "current": "5076b65bd087eae351c1d01e44eb28a3db0fed4f06bf961abde5909628576397"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/provenance/editorial_response.md": {
+      "before": "44b89d9878daf2d5b5c22d70eae5ce973d6935f1ea135eeb8d079d9af939582d",
+      "current": "bef35827a0d2cf05a220ac166183099d97457e7a82e4fe9679853dcf5c7dd2dc"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/provenance/storage_copy_verification.json": {
+      "before": "2370ed7af96e3435ea12b2b60d3e75649815d084612e31138ee6cbcfacc200d4",
+      "current": "8c25f24a840c045df91a5f77582b88753f88a26afcb0473f37ed126595e3e418"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/provenance/environment.json": {
+      "before": "32e5ba8808937b70455a29a978e34859dde9cab5e38e535b9b0b6bd3db4f9603",
+      "current": "b62db5982d3b0f66c169e57c92ce45302508d8c68e6f58734bd705194658aa51"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/scripts/acquire_literature.py": {
+      "before": "cbdc5d097d1d0f348161bcebda0001b580b66d343c8777c68252400766c10345",
+      "current": "50c1fef6c15f7cf9b32570f48fe104ab5e2fa6ced2bffc09d38e0b5fdd7327df"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/scripts/audit_review.py": {
+      "before": "a76424a6712518e77ce0cb82b29a4be17f1f1a8a0eb93f0bfb9a45575bb5bfa4",
+      "current": "c6a8f6bc31e15a5a2db6e945a1bcfaa5a9b9baf80ce28cf8ce42bc9810c4ad14"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/scripts/build_library.py": {
+      "before": "8abbb4924cc0acbfc08e5939575790a75a8ec15e059075b69bb8884baec351f8",
+      "current": "3e8813ac0b336421a9c87b8dd49e441bd78c9110f384b605cd110446d252ebca"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/tables/evidence_matrix.csv": {
+      "before": "90153be2881582ef471dc1791db41c53b76b3b63e1250c999c58c23d90f21883",
+      "current": "812a4fab7eedcfb5d81883248caa18e04baaf30208eb480e9f3eb3aeae07873f"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/outputs/audit_results.json": {
+      "before": "0feacf0ffd0c79ca321b1a3457ab2546f62b09f558ad0f8d881dc1fcb88f0f62",
+      "current": "6d997fe1af48b44eb3f0570a72989625cdefd9d1579e5af7d3114e04bebed852"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/outputs/numerical_claims.csv": {
+      "before": "a07f0e8cfc7eb70363fb7e23f0925e3552abbd8bcb6a45766c6f8ae1865eb9fa",
+      "current": "5956f811bf9f1a0c02e39cbe0d4c755eefe2572045b9108e8b3730453613c7f2"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/outputs/source_records.json": {
+      "before": "5aca5bfc80898dbf0b5b2659c73adce371d6814828d1dec44dc8ce5dd35c5cf0",
+      "current": "4036da89c51e46373dd17b10f9c1673e7f8e830b150e6e69406f001e7d4abe15"
+    },
+    "analysis/CTR-39_sentinel2-atmospheric-review/outputs/library_summary.json": {
+      "before": "ab9450498c0784c5a31f38d009880b5aa3e6321db72422693689467e65293baf",
+      "current": "a8e34d613dae1f0f99ae5d8687de575ebbcea338d5be2386ee70ce17ffbd22f9"
+    }
+  },
+  "CTR44_writes_confined_to": "analysis/CTR-27_sen2cor-acolite-asd",
+  "no_CTR39_files_deleted_or_restored": true
+}

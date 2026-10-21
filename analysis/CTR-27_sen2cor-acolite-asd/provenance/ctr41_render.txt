@@ -1,0 +1,26 @@
+pandoc 
+  to: html
+  output-file: report.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 2
+  number-sections: false
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  theme: cosmo
+  title: Satellite–ASD reflectance matchups at Banc d’Arguin
+  subtitle: CTR-27 replacement · CTR-38 Figure 3 revision · engineering handoff CTR-41
+  author: Ctrl+Sea · report revision by Rachel Carson · prior figures by Edward Tufte · validated numerical tables by Thomas Bayes
+  
+Output created: report.html
+
+Rendered /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-27_sen2cor-acolite-asd/report.html

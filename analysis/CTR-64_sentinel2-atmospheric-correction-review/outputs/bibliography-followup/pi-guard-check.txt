@@ -1,0 +1,1 @@
+PI contribution guard: working tree is not clean; preserve and resolve local files before checking

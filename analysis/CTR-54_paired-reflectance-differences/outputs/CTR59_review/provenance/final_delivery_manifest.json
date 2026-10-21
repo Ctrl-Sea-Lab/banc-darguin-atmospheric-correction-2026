@@ -1,0 +1,137 @@
+{
+  "candidate_commit": "7b9232da45c68c82c5f996b37357f15fb7b9ed55",
+  "review_commit": "1a7a57ba0b5b36ceaa288d5522eafe74adedd756",
+  "recommendation": "Accept",
+  "files": [
+    {
+      "path": "_quarto.yml",
+      "bytes": 106,
+      "sha256": "486e30f06f2aa986d8f7e7bfc01bd87d3066db3ee8afe199bd8be59d2474b6b4"
+    },
+    {
+      "path": "commands.md",
+      "bytes": 2852,
+      "sha256": "66da1d1f1cf44654f85bdbb74eb65727758c031859c96e73848dbbce356eab4e"
+    },
+    {
+      "path": "outputs/display/provenance/ctr59_display.json",
+      "bytes": 2434,
+      "sha256": "424cd41465006b1021f7d73902737cebffbef02adecc2a8b308507928574234f"
+    },
+    {
+      "path": "outputs/display/provenance/ctr59_display_1440.png",
+      "bytes": 826397,
+      "sha256": "4fe466da64f81d8e24994a25162dd552cc7931245c4133b790a54095eef886b9"
+    },
+    {
+      "path": "outputs/display/provenance/ctr59_display_1920.png",
+      "bytes": 1038775,
+      "sha256": "a4fd0f814261b11862fd86d1de01b0f9446eb3f80831e1d41ffe12108b27e42e"
+    },
+    {
+      "path": "outputs/display/provenance/ctr59_display_390.png",
+      "bytes": 189067,
+      "sha256": "4994211ded9f93edde4ba8dfcfdffb820c46c46c9bedaac914a2c4b74684d21e"
+    },
+    {
+      "path": "provenance/R_session.txt",
+      "bytes": 915,
+      "sha256": "f864e37d09d9fc05e6c62fcd54b90f6aa6e987d852c809ab92478e9e8d516e5a"
+    },
+    {
+      "path": "provenance/display.log",
+      "bytes": 2434,
+      "sha256": "424cd41465006b1021f7d73902737cebffbef02adecc2a8b308507928574234f"
+    },
+    {
+      "path": "provenance/document_receipt.json",
+      "bytes": 15865,
+      "sha256": "716aa275c69042fea3a7cd51567e79cef7b8860f9fd1793857c6ecb95ccb3958"
+    },
+    {
+      "path": "provenance/independent_checks.json",
+      "bytes": 35304,
+      "sha256": "576236e392ed58c46f37d6bea8274d482917f6f5de91619567a0d7b8364cc711"
+    },
+    {
+      "path": "provenance/independent_checks.log",
+      "bytes": 1400,
+      "sha256": "6fb0bdb156ef3ebcf4f0eefa47e2224bb4dbb44b647176769f8ee3d35b9375a9"
+    },
+    {
+      "path": "provenance/independent_models.log",
+      "bytes": 1502,
+      "sha256": "f57a6d4f1b11d079d60323042a1f55fad764a0e51a44e7d0ec7b72f1f137130b"
+    },
+    {
+      "path": "provenance/package_links.json",
+      "bytes": 441,
+      "sha256": "b2e99d42b668822973f1a04368fcf13e18156463f141ce98fd969487dc0188a2"
+    },
+    {
+      "path": "provenance/provenance_checks.json",
+      "bytes": 909,
+      "sha256": "d73b7b2fc32a210fe76aa3c9a90c9f3d6adf2fa5b55daa039032356b42ef5182"
+    },
+    {
+      "path": "provenance/readiness.json",
+      "bytes": 314,
+      "sha256": "85ba2011258e0ee0b4b233525f8aa11d61f6d97bf4b1bc42cf198cd2ef9906af"
+    },
+    {
+      "path": "provenance/render.json",
+      "bytes": 343,
+      "sha256": "2f3482dc4910c4fbd37692b1d8b4ba7cd940327465396f06d5fa13c51247a86e"
+    },
+    {
+      "path": "provenance/render.log",
+      "bytes": 784,
+      "sha256": "7c16a41bbff3de52daa59cb416e362158778fba0016112dbc5061b3788176bbb"
+    },
+    {
+      "path": "provenance/upload_receipt.json",
+      "bytes": 143,
+      "sha256": "b926c8ae2973acd7860ccb100de393ab65042abc5ca7b6740666c46bec1d65f1"
+    },
+    {
+      "path": "report.html",
+      "bytes": 1918158,
+      "sha256": "7f37d3195e2f2c9b6e6b274bec310e4d5a84e22e748a826dd8d9618291c50135"
+    },
+    {
+      "path": "report.qmd",
+      "bytes": 15137,
+      "sha256": "dd650ef977a5f95aafa09f31043faff7b37112e507aa474f0b0dae2b98610834"
+    },
+    {
+      "path": "scripts/display_check.py",
+      "bytes": 3323,
+      "sha256": "ee5c24578830d66ad6350a66c2c42fcb55b1f79987f587cc9663502282f5b85f"
+    },
+    {
+      "path": "scripts/independent_checks.py",
+      "bytes": 8609,
+      "sha256": "a6c63337b734f35f19de4bfc91035ee64a4f73ba3d7561cbcfae30777b7735b5"
+    },
+    {
+      "path": "scripts/independent_models.R",
+      "bytes": 2082,
+      "sha256": "0a0ce5de7ac74060e549159c588dff3f3f3dae48aa3b2e003b07cf31ca9cefe4"
+    },
+    {
+      "path": "tables/independent_colors.csv",
+      "bytes": 90,
+      "sha256": "3d7e3597b8758fbf4d229e6682d43f71b2b225a82019a67310122f9300c12bdb"
+    },
+    {
+      "path": "tables/independent_models.csv",
+      "bytes": 813,
+      "sha256": "7944ca37a0be8eb05529a7e7a46dcaac4f627c8dd70038c066053350b84dc841"
+    },
+    {
+      "path": "task.yml",
+      "bytes": 379,
+      "sha256": "10229233f8bbad61dcdebfa8434f0069bf2e48d5109ae83e8a47b19b282d7ad5"
+    }
+  ]
+}

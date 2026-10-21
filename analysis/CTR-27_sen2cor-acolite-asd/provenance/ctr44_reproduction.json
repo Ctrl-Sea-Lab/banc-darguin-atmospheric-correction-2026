@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "entry_point": "scripts/ctr38_figure3_revision.py",
+  "checked_QMD_PNG_SVG": 7,
+  "byte_identical": true,
+  "changed": [],
+  "upstream_numerics_not_executed": true,
+  "PDF_creation_metadata_not_claimed_identical": true
+}

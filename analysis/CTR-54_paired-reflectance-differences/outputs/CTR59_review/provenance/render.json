@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "candidate_html_sha256": "a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84",
+  "rerendered_html_sha256": "a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84",
+  "identical_html": true,
+  "scope": "Copied investigation config and canonical render helper, local SSD, author files unchanged"
+}

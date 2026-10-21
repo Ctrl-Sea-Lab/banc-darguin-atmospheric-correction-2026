@@ -1,0 +1,30 @@
+{
+  "record_type": "post_acceptance_administrative_closeout",
+  "date": "2026-10-20",
+  "accepted_scientific_revision": "1d9f5bc97ca79a4053860f508a31a1b3f0e981b4",
+  "review_issue": "CTR-46",
+  "review_document_revision": "0274ae1d-ac6a-46e9-b195-d21c164a92fe",
+  "verdict": "Accept",
+  "review_body_sha256": "64f6a57d752b2e7bba1604ad82592c6357b8fa7eaf5c4ca56f2eb9a7b23199df",
+  "reviewer": "Karl Popper",
+  "resolved_findings": [
+    "M1",
+    "E1"
+  ],
+  "scientific_text_before_review_status_unchanged": true,
+  "all_other_existing_files_unchanged": true,
+  "administrative_changed_files": [
+    "README.md",
+    "literature/literature_review.qmd",
+    "provenance/independent_recheck.md",
+    "report.html",
+    "task.yml"
+  ],
+  "validation": "standalone render and existing citation/PDF/protected-file/snapshot audit passed; status-only diff inspected by author",
+  "scope_note": "Independent acceptance remains bound to the accepted scientific revision. These administrative edits were checked by the author; no fresh independent acceptance is claimed. Historical audit pending-review wording describes submission-time status.",
+  "pi_scientific_approval": "not_claimed",
+  "manuscript_integration": "not_authorized",
+  "shared_bibliography_promotion": "not_authorized",
+  "merge": "not_claimed",
+  "publication": "not_claimed"
+}

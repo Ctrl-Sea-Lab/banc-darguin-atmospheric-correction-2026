@@ -1,0 +1,26 @@
+[
+  {
+    "file": "figures/generated/ctr44_march_primary_300dpi.png",
+    "dpi": 300,
+    "source_pdf": "figures/generated/ctr44_march_primary.pdf",
+    "source_pdf_sha256": "0e7be03ad97d10a211a9179c053eec313cb646fd14c047e7f6d2ac5753409c4b",
+    "sha256": "17869440d094799ce265a0e33ec94243822564a34f1d112209be50bd8f62e514",
+    "bytes": 306167,
+    "source_commit": "3d881f57530b90a093aa695c6157c899ee475e38",
+    "command": "pdftoppm -r 300 -f 1 -singlefile -png <source_pdf> <output_stem>",
+    "canonical_600dpi_PNG_unchanged": true,
+    "new_scientific_computation": false
+  },
+  {
+    "file": "figures/generated/ctr44_march_supplementary_300dpi.png",
+    "dpi": 300,
+    "source_pdf": "figures/generated/ctr44_march_supplementary.pdf",
+    "source_pdf_sha256": "6d28967c0afa9aa06574ed40288bf4976d7dfb485c630a74e10bbe322229a515",
+    "sha256": "8325bdf5c877065be27ef37cc90bf4f9a23cdd4ae7d86af81de493afc87dbcb7",
+    "bytes": 372015,
+    "source_commit": "3d881f57530b90a093aa695c6157c899ee475e38",
+    "command": "pdftoppm -r 300 -f 1 -singlefile -png <source_pdf> <output_stem>",
+    "canonical_600dpi_PNG_unchanged": true,
+    "new_scientific_computation": false
+  }
+]

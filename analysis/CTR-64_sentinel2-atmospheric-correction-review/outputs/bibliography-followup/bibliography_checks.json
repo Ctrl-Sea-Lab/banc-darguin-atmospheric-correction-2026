@@ -1,0 +1,40 @@
+{
+  "task": "CTR-64",
+  "scientific_review_revision": "3138892ee7a40a4b42a0a5696f2623f94845acd7",
+  "scientific_review_task": "CTR-66",
+  "scientific_verdict": "Accept",
+  "readiness": {
+    "affected": true,
+    "agent": "rachel-carson",
+    "managed_tree_sha256": "2490c50abaa86f2005deb862e6d596ef0d1e8f65439c9659dec7f2e19d6bdf24",
+    "operation": "verify-ready",
+    "paths": [
+      "library.bib"
+    ],
+    "policy": ".pi-preservation/sync-policy.json",
+    "prepared_by": "ada-lovelace",
+    "result": "ready",
+    "task_id": "CTR-64",
+    "version": 1
+  },
+  "original_entries_preserved": 22,
+  "verified_entries_appended": 19,
+  "total_entries": 41,
+  "original_sha256": "f8d1911f84b1d547b354b5555fc3284bd5ca8662ba69d38ce8c88b0a41f043bc",
+  "new_sha256": "d3f137d005ff606167f54cb23a2108f027581c45a9da50279853b0626c0f4930",
+  "append_only": true,
+  "doi_title_key_collisions": 0,
+  "all_project_index_keys_resolve": true,
+  "pi_scientific_approval": "pending",
+  "protected_change_authorization": "not_yet_granted",
+  "prebuild_and_baseline_not_modified_by_Rachel": true,
+  "local_commit": "e1f7b4bc5f81c61bf8eba0f891ba1abc7a949048",
+  "base_commit": "0085c9b0ba9f661ded5c608b7a5fa70b0b522d00",
+  "parent_commit": "3138892ee7a40a4b42a0a5696f2623f94845acd7",
+  "pushed": false,
+  "root_bibliography_citation_smoke": "19/19 references resolve",
+  "clean_clone_preflight": "passed",
+  "clean_clone_guard": "requires pi_contribution_change for library.bib",
+  "scientific_HTML_sha256": "34a306948d836135e01e4fc6082e46028b7d3cf61e827f69ab3e495f798fc972",
+  "note": "This supplement documents bibliography maintenance, not a new scientific analysis or PI approval."
+}

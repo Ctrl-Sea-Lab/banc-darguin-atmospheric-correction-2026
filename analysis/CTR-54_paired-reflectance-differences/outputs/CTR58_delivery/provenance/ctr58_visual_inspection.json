@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "inspection": "1920 px actual HTML screenshot inspected: eight full-extent panels, matching aspect ratio and band order; compact shared legends; SD upper extension; unclipped caption and links; median scale preserved. Mobile measured without page overflow; full-resolution figure needed for detailed inspection at narrow widths.",
+  "measurements": [
+    {
+      "viewport": 1440,
+      "figure_width_css_px": 1376,
+      "panel_width_css_px": 304.096,
+      "panel_height_css_px": 159.52312091416417,
+      "basis": "browser figure bounds multiplied by verified panel/canvas geometry"
+    },
+    {
+      "viewport": 1920,
+      "figure_width_css_px": 1600,
+      "panel_width_css_px": 353.6,
+      "panel_height_css_px": 185.4920010629816,
+      "basis": "browser figure bounds multiplied by verified panel/canvas geometry"
+    },
+    {
+      "viewport": 390,
+      "figure_width_css_px": 366,
+      "panel_width_css_px": 80.886,
+      "panel_height_css_px": 42.43129524315704,
+      "basis": "browser figure bounds multiplied by verified panel/canvas geometry"
+    }
+  ]
+}

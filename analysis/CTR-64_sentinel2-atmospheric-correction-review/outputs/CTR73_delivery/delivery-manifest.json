@@ -1,0 +1,121 @@
+{
+  "task_id": "CTR-73",
+  "scope": "delivery correction; no scientific rerun or render",
+  "completion": "partial; CTR54 awaiting owner preservation release",
+  "ctr64": {
+    "task": "CTR-73",
+    "time_utc": "2026-10-21T05:27:54Z",
+    "source_revision": "e1f7b4bc5f81c61bf8eba0f891ba1abc7a949048",
+    "reviewed_scientific_revision": "3138892ee7a40a4b42a0a5696f2623f94845acd7",
+    "destination": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026/analysis/CTR-64_sentinel2-atmospheric-correction-review",
+    "files_verified": 197,
+    "bytes_verified": 201305752,
+    "all_source_files_byte_identical": true,
+    "existing_tracked_and_sync_state_preserved": true,
+    "ctr54_unchanged": true,
+    "scientific_approval": "not_inferred",
+    "integration_merge_publication": "not_authorized",
+    "root_bibliography": "not_copied_or_modified"
+  },
+  "ctr54": {
+    "source_revision": "7b9232da45c68c82c5f996b37357f15fb7b9ed55",
+    "review_revision": "1a7a57ba0b5b36ceaa288d5522eafe74adedd756",
+    "source_files": 184,
+    "source_bytes": 68999663,
+    "destination_files_before_and_after": 652,
+    "destination_bytes_before_and_after": 4525522265,
+    "all_existing_files_byte_identical_after_ctr64_delivery": true,
+    "promotion": "not_started",
+    "different_paths": [
+      {
+        "path": "README.md",
+        "action": "different_preserve_before_promotion",
+        "before": {
+          "path": "README.md",
+          "bytes": 2549,
+          "sha256": "2e4fa2e5559acc607a3794fddc956bc0c5f52e5b894559c7c0aaf5057f8fd421"
+        },
+        "source": {
+          "path": "README.md",
+          "bytes": 5755,
+          "sha256": "cb8fccbbe98a29d1b2ddcbf433af57b1235066fce32c91f23f4d70e85a496237",
+          "git_status": "tracked_exact",
+          "git_blob": "7e269073f89631297613e6ec3435d258419f883b"
+        }
+      },
+      {
+        "path": "report.html",
+        "action": "different_preserve_before_promotion",
+        "before": {
+          "path": "report.html",
+          "bytes": 4921262,
+          "sha256": "045b3ceaddc96f5c3ba55e19c8e63aa05cd9d5ad96e1f37fe58fb14ed2444e6e"
+        },
+        "source": {
+          "path": "report.html",
+          "bytes": 4870217,
+          "sha256": "a1ba565a3729a1b64e25f62c2c40979d9eaa4a71e8814be76d5e01fa38c0db84",
+          "git_status": "tracked_exact",
+          "git_blob": "6bbfd390d511961874af1925eeebe94e22e7bd1a"
+        }
+      },
+      {
+        "path": "report.qmd",
+        "action": "different_preserve_before_promotion",
+        "before": {
+          "path": "report.qmd",
+          "bytes": 11685,
+          "sha256": "ca5368c87f8b4d2a0ee08c33f832489de4e02db7b486c32d2f27f83b3993d80a"
+        },
+        "source": {
+          "path": "report.qmd",
+          "bytes": 20728,
+          "sha256": "b60915cce69a89f34c50c09d794e023425149c79e5c9faeeeea7963e8ac8eaff",
+          "git_status": "tracked_exact",
+          "git_blob": "df816085de4c3e0cc8e8a4a1e79a5280e7ed6e97"
+        }
+      },
+      {
+        "path": "task.yml",
+        "action": "different_preserve_before_promotion",
+        "before": {
+          "path": "task.yml",
+          "bytes": 1395,
+          "sha256": "5f70963e14bccf0891f033c0d3b5986facadc92d7b3023600388efe2377f5995"
+        },
+        "source": {
+          "path": "task.yml",
+          "bytes": 2933,
+          "sha256": "61b46d5276880771dd91dac761eebc4fe8110e28f874e7d9f0d49110bb79984a",
+          "git_status": "tracked_exact",
+          "git_blob": "788086d2a15a6260be5f4b880e52c777a0f5f767"
+        }
+      }
+    ],
+    "release_interaction": "74ea77b5-4377-40ce-8172-5850d26ecd5a",
+    "blocker_issue": "CTR-63"
+  },
+  "preservation": {
+    "tracked_plus_sync_state_files_verified": 639,
+    "root_head_before": "869b7596bd287b27d7a8d86e1eb52d2ba20e7075",
+    "root_head_after": "869b7596bd287b27d7a8d86e1eb52d2ba20e7075",
+    "root_branch": "ctr-49-target-report",
+    "staging_commit_branch_switch": false,
+    "tracked_content_diff_after": "",
+    "root_library_bib_sha256": "f8d1911f84b1d547b354b5555fc3284bd5ca8662ba69d38ce8c88b0a41f043bc",
+    "full_raw_dataset_rehash": "not_performed; copy scope confined to the absent CTR64 investigation"
+  },
+  "validation": {
+    "all_197_ctr64_files_verified": true,
+    "all_local_report_assets_resolve": true,
+    "scientific_rerun": false,
+    "quarto_render": false,
+    "protected_paths_modified": false
+  },
+  "approval": {
+    "ctr54_scientific": "authenticated human acceptance verified at interaction 3a4364a2-1650-48f0-ba96-532e7dadad11 for source revision and exact artifacts",
+    "ctr64_scientific": "independent review accepted; no PI scientific approval inferred",
+    "bibliography": "existing approval separate; protected root bibliography not copied",
+    "manuscript_integration_merge_publication": "not_authorized"
+  }
+}

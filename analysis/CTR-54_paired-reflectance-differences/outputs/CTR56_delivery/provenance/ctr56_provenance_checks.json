@@ -1,0 +1,19 @@
+{
+  "tables/date_band_summary.csv": "342f79e8f154dde2780bd6a6df974dfe3df097cfca9dd0246419f3bb81df202a",
+  "provenance/output_hashes.csv": "d6c86eb7be928dd850eb9190647b1927c0fa749fa8ad638ade993867b3ce5bbb",
+  "provenance/input_hashes.csv": "e0b207ea8d92ea0058b1db9d9a970fee8041f5330541d0b607f4898758b30a31",
+  "report.html": {
+    "bytes": 5800133,
+    "embedded_images": 4,
+    "standalone_image_check": "passed"
+  },
+  "ctr56-statistics.html": {
+    "bytes": 2060400,
+    "embedded_images": 3,
+    "standalone_image_check": "passed"
+  },
+  "shared_environment": "Existing canonical repository environment reused. Python worktree link retained; R entry point calls canonical project-env.sh. Temporary R library link was removed after rendering. Canonical environment check passed; worktree checker rejects cross-root library paths by design.",
+  "lockfiles_unchanged": true,
+  "repeat_numerical_tables_identical": true,
+  "render_environment_resolution": "Final renders passed with RENV_PATHS_LIBRARY set to the canonical renv/library base (renv appends version/platform). Failed version-suffixed attempts preserved in separate logs. Run-created nested bootstrap directory removed; canonical environment rechecked successfully."
+}

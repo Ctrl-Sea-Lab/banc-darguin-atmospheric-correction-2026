@@ -1,0 +1,7 @@
+/.quarto/
+**/*.quarto_ipynb
+
+/literature/pdfs/*
+!/literature/pdfs/.gitkeep
+/literature/texts/*
+!/literature/texts/.gitkeep

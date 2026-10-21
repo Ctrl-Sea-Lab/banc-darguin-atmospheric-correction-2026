@@ -1,0 +1,1338 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        2
+      ]
+    ],
+    "date-time": "2026-10-02T13:41:56Z",
+    "timestamp": 1790948516441,
+    "version": "4.1.0"
+  },
+  "reference-count": 95,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2020-12-01T00:00:00Z",
+        "timestamp": 1606780800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            12,
+            1
+          ]
+        ],
+        "date-time": "2020-12-01T00:00:00Z",
+        "timestamp": 1606780800000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2020,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2020-09-21T00:00:00Z",
+        "timestamp": 1600646400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100007601",
+      "name": "Horizon 2020",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100007601",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Remote Sensing of Environment"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2020,
+        12
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.rse.2020.112020",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2020,
+        9,
+        25
+      ]
+    ],
+    "date-time": "2020-09-25T07:17:11Z",
+    "timestamp": 1601018231000
+  },
+  "page": "112020",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 97,
+  "special_numbering": "C",
+  "title": [
+    "Sentinel-2 remote sensing of Zostera noltei-dominated intertidal seagrass meadows"
+  ],
+  "prefix": "10.1016",
+  "volume": "251",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-1892-0051",
+      "authenticated-orcid": false,
+      "given": "Maria Laura",
+      "family": "Zoffoli",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Pierre",
+      "family": "Gernez",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Philippe",
+      "family": "Rosa",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Anthony",
+      "family": "Le Bris",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Vittorio E.",
+      "family": "Brando",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Anne-Laure",
+      "family": "Barill\u00e9",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Nicolas",
+      "family": "Harin",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Steef",
+      "family": "Peters",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Kathrin",
+      "family": "Poser",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lazaros",
+      "family": "Spaias",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Gloria",
+      "family": "Peralta",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Laurent",
+      "family": "Barill\u00e9",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0005",
+      "series-title": "Procedings of the 7th Annual JPL Airborne Earth Science Workshop, Pasadena, CA, USA",
+      "first-page": "9",
+      "article-title": "FLAASH, a MODTRAN4 atmospheric correction package for hyperspectral data retrievals and simulations",
+      "author": "Adler-Golden",
+      "year": "1998"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0010",
+      "series-title": "Algorithms and Technologies for Multispectral, Hyperspectral, and Ultraspectral Imagery VIII (Proceedings of SPIE)",
+      "first-page": "65",
+      "article-title": "MODTRAN4-based atmospheric correction algorithm: FLAASH (fast line-of-sight atmospheric analysis of spectral hypercubes)",
+      "author": "Anderson",
+      "year": "2002"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0015",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.1890/10-1510.1",
+      "article-title": "The value of estuarine and coastal ecosystem services",
+      "volume": "81",
+      "author": "Barbier",
+      "year": "2011",
+      "journal-title": "Ecol. Monogr."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "45",
+      "DOI": "10.1016/j.aquabot.2011.12.009",
+      "article-title": "Spectral response of the seagrass Zostera noltii with different sediment backgrounds",
+      "volume": "98",
+      "author": "Bargain",
+      "year": "2012",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0025",
+      "doi-asserted-by": "crossref",
+      "first-page": "86",
+      "DOI": "10.1016/j.jembe.2013.04.012",
+      "article-title": "Seasonal spectral variation of Zostera noltii and its influence on pigment-based vegetation indices",
+      "volume": "446",
+      "author": "Bargain",
+      "year": "2013",
+      "journal-title": "J. Exp. Mar. Biol. Ecol."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "185",
+      "DOI": "10.1016/j.aquabot.2009.11.006",
+      "article-title": "Increase in seagrass distribution at Bourgneuf Bay (France) detected by spatial remote sensing",
+      "volume": "92",
+      "author": "Barill\u00e9",
+      "year": "2010",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0035",
+      "doi-asserted-by": "crossref",
+      "first-page": "485",
+      "DOI": "10.1016/j.rse.2013.09.020",
+      "article-title": "Use of Landsat data to track historical water quality changes in Florida keys marine environments",
+      "volume": "140",
+      "author": "Barnes",
+      "year": "2014",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0040",
+      "series-title": "Nordic Society Oikos Is Total Primary Production in Shallow Coastal Marine Waters Stimulated by Nitrogen Loading?",
+      "first-page": "406",
+      "author": "Borum",
+      "year": "2019"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/j.rse.2012.06.025",
+      "article-title": "Correction of MODIS surface reflectance time series for BRDF effects",
+      "volume": "125",
+      "author": "Br\u00e9on",
+      "year": "2012",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0050",
+      "series-title": "Global Seagrass Research Methods",
+      "first-page": "79",
+      "article-title": "Standards for seagrass collection, identification and sample design",
+      "author": "Burdick",
+      "year": "2001"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0055",
+      "doi-asserted-by": "crossref",
+      "first-page": "93",
+      "DOI": "10.1016/j.marenvres.2017.07.017",
+      "article-title": "Long-term analysis of Zostera noltei: a retrospective approach for understanding seagrasses\u2019 dynamics",
+      "volume": "130",
+      "author": "Calleja",
+      "year": "2017",
+      "journal-title": "Mar. Environ. Res."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "307",
+      "DOI": "10.1016/j.ecss.2005.02.024",
+      "article-title": "Spatio-temporal dynamics of a Zostera noltii dominated community over a period of fluctuating salinity in a shallow lagoon, southern France",
+      "volume": "64",
+      "author": "Charpentier",
+      "year": "2005",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0065",
+      "doi-asserted-by": "crossref",
+      "first-page": "145",
+      "DOI": "10.1016/j.rse.2018.09.002",
+      "article-title": "The harmonized Landsat and Sentinel-2 surface reflectance data set",
+      "volume": "219",
+      "author": "Claverie",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0070",
+      "doi-asserted-by": "crossref",
+      "first-page": "253",
+      "DOI": "10.1038/387253a0",
+      "article-title": "The value of the world\u2019s ecosystem services and natural capital. LK - https://royalroads.on.worldcat.org/oclc/4592801201",
+      "volume": "387",
+      "author": "Costanza",
+      "year": "1997",
+      "journal-title": "Nature"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0075",
+      "doi-asserted-by": "crossref",
+      "first-page": "6221",
+      "DOI": "10.3390/s150306221",
+      "article-title": "Adjusting spectral indices for spectral response function differences of very high spatial resolution sensors simulated from field spectra",
+      "volume": "15",
+      "author": "Cundill",
+      "year": "2015",
+      "journal-title": "Sensors (Switzerland)"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0080",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3389/fmars.2020.00392",
+      "article-title": "Seasonal and spatial variability in patchiness of microphytobenthos on intertidal flats from Sentinel-2 satellite imagery",
+      "author": "Daggers",
+      "year": "2020",
+      "journal-title": "Front. Mar. Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0085",
+      "doi-asserted-by": "crossref",
+      "first-page": "415",
+      "DOI": "10.1016/j.rse.2005.02.017",
+      "article-title": "Retrospective seagrass change detection in a shallow coastal tidal Australian lake",
+      "volume": "97",
+      "author": "Dekker",
+      "year": "2005",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0090",
+      "doi-asserted-by": "crossref",
+      "first-page": "68",
+      "DOI": "10.1016/j.ecoser.2016.02.010",
+      "article-title": "A review of seagrass economic valuations: gaps and progress in valuation approaches",
+      "volume": "18",
+      "author": "Dewsbury",
+      "year": "2016",
+      "journal-title": "Ecosyst. Serv."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0095",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1111/j.1461-0248.2010.01565.x",
+      "article-title": "High CO2 enhances the competitive strength of seaweeds over corals",
+      "author": "Diaz-Pulido",
+      "year": "2011",
+      "journal-title": "Ecol. Lett."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0100",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3390/rs11050540",
+      "article-title": "Mapping coastal wetland biomass from high resolution unmanned aerial vehicle (UAV) imagery",
+      "volume": "11",
+      "author": "Doughty",
+      "year": "2019",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0105",
+      "doi-asserted-by": "crossref",
+      "first-page": "87",
+      "DOI": "10.1080/00785236.1995.10422039",
+      "article-title": "Submerged aquatic vegetation in relation to different nutrient regimes",
+      "volume": "41",
+      "author": "Duarte",
+      "year": "1995",
+      "journal-title": "Ophelia"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0110",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.1016/j.ecss.2017.11.001",
+      "article-title": "Estuarine, coastal and shelf science spatial assessment of intertidal seagrass meadows using optical imaging systems and a lightweight drone",
+      "volume": "200",
+      "author": "Duffy",
+      "year": "2018",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0115",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3389/fmars.2019.00317",
+      "article-title": "Toward a coordinated global observing system for Seagrasses and marine macroalgae",
+      "volume": "6",
+      "author": "Duffy",
+      "year": "2019",
+      "journal-title": "Front. Mar. Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0120",
+      "doi-asserted-by": "crossref",
+      "first-page": "319",
+      "DOI": "10.1051/alr/2009042",
+      "article-title": "Temperature and seston quantity and quality effects on field reproduction of farmed oysters, Crassostrea gigas, in Bourgneuf Bay, France",
+      "volume": "22",
+      "author": "Dutertre",
+      "year": "2009",
+      "journal-title": "Aquat. Living Resour."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0125",
+      "doi-asserted-by": "crossref",
+      "first-page": "905",
+      "DOI": "10.5194/bg-15-905-2018",
+      "article-title": "Satellite remote sensing reveals a positive impact of living oyster reefs on microalgal biofilm development",
+      "volume": "15",
+      "author": "Echapp\u00e9",
+      "year": "2018",
+      "journal-title": "Biogeosciences"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0130",
+      "series-title": "SENTINEL-2 User Handbook",
+      "author": "ESA",
+      "year": "2015"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0135",
+      "doi-asserted-by": "crossref",
+      "first-page": "241",
+      "DOI": "10.1016/S0304-3770(97)00038-7",
+      "article-title": "Remote sensing and GIS analysis of seagrass meadows in North Carolina, USA",
+      "volume": "58",
+      "author": "Ferguson",
+      "year": "1997",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0140",
+      "doi-asserted-by": "crossref",
+      "first-page": "464",
+      "DOI": "10.4319/lo.2003.48.1_part_2.0464",
+      "article-title": "Spatial and temporal variation in spectral reflectance: are seagrass species spectrally distinct?",
+      "volume": "48",
+      "author": "Fyfe",
+      "year": "2003",
+      "journal-title": "Limnol. Oceanogr."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0145",
+      "doi-asserted-by": "crossref",
+      "first-page": "7277",
+      "DOI": "10.1002/2014JC010055",
+      "article-title": "Remote sensing of suspended particulate matter in turbid oyster-farming ecosystems",
+      "volume": "119",
+      "author": "Gernez",
+      "year": "2014",
+      "journal-title": "J. Geophys. Res. Ocean"
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.rse.2020.112020_bb0150",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1371/journal.pone.0177001",
+      "article-title": "Carbon storage in the seagrass meadows of Gazi Bay, Kenya",
+      "volume": "12",
+      "author": "Githaiga",
+      "year": "2017",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0155",
+      "doi-asserted-by": "crossref",
+      "first-page": "1683",
+      "DOI": "10.1109/TGRS.2005.863299",
+      "article-title": "A low computational-cost method to fuse IKONOS images using the spectral response function of its sensors",
+      "volume": "44",
+      "author": "Gonz\u00e1lez-Aud\u00edcana",
+      "year": "2006",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0160",
+      "doi-asserted-by": "crossref",
+      "first-page": "12242",
+      "DOI": "10.3390/rs70912242",
+      "article-title": "SPOT-4 (Take 5): simulation of Sentinel-2 time series on 45 large sites",
+      "volume": "7",
+      "author": "Hagolle",
+      "year": "2015",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0165",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3390/rs8020118",
+      "article-title": "Remote sensing of coral reefs for monitoring and management: a review",
+      "volume": "8",
+      "author": "Hedley",
+      "year": "2016",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0170",
+      "doi-asserted-by": "crossref",
+      "first-page": "598",
+      "DOI": "10.1016/j.rse.2018.07.014",
+      "article-title": "Coral reef applications of Sentinel-2: coverage, characteristics, bathymetry and benthic mapping with comparison to Landsat 8",
+      "volume": "216",
+      "author": "Hedley",
+      "year": "2018",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0175",
+      "doi-asserted-by": "crossref",
+      "first-page": "181",
+      "DOI": "10.1016/j.rse.2015.05.023",
+      "article-title": "Measuring freshwater aquatic ecosystems: the need for a hyperspectral global mapping satellite mission",
+      "volume": "167",
+      "author": "Hestir",
+      "year": "2015",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0180",
+      "doi-asserted-by": "crossref",
+      "first-page": "61",
+      "DOI": "10.1080/01431161.2014.990649",
+      "article-title": "The application of remote sensing to seagrass ecosystems: an overview and future research prospects",
+      "volume": "36",
+      "author": "Hossain",
+      "year": "2015",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0185",
+      "doi-asserted-by": "crossref",
+      "first-page": "295",
+      "DOI": "10.1016/0034-4257(88)90106-X",
+      "article-title": "A soil-adjusted vegetation index (SAVI)",
+      "volume": "25",
+      "author": "Huete",
+      "year": "1988",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0190",
+      "doi-asserted-by": "crossref",
+      "first-page": "702",
+      "DOI": "10.1366/0003702934066839",
+      "article-title": "Piece-wise multiplicative scatter correction applied to near-infrared diffuse transmittance data from meat products",
+      "volume": "47",
+      "author": "Isaksson",
+      "year": "1993",
+      "journal-title": "Appl. Spectrosc."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0195",
+      "doi-asserted-by": "crossref",
+      "first-page": "833",
+      "DOI": "10.1016/j.cageo.2004.05.006",
+      "article-title": "TIMESAT - a program for analyzing time-series of satellite sensor data",
+      "volume": "30",
+      "author": "J\u00f6nsson",
+      "year": "2004",
+      "journal-title": "Comput. Geosci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0200",
+      "doi-asserted-by": "crossref",
+      "first-page": "261",
+      "DOI": "10.1109/36.134076",
+      "article-title": "Atmospherically resistant vegetation index\u2014ARVI for EOS/MODIS",
+      "volume": "30",
+      "author": "Kaufman",
+      "year": "1992",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0205",
+      "doi-asserted-by": "crossref",
+      "first-page": "686",
+      "DOI": "10.1080/2150704X.2018.1468101",
+      "article-title": "Seagrass habitat mapping: how do Landsat 8 OLI, Sentinel-2, ZY-3A, and Worldview-3 perform?",
+      "volume": "9",
+      "author": "Kovacs",
+      "year": "2018",
+      "journal-title": "Remote Sens. Lett."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0210",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1098/rsbl.2018.0236",
+      "article-title": "Sequestration of macroalgal carbon: the elephant in the blue carbon room",
+      "volume": "14",
+      "author": "Krause-Jensen",
+      "year": "2018",
+      "journal-title": "Biol. Lett."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0215",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.rse.2019.111619",
+      "article-title": "Remote sensing of shallow waters \u2013 a 50 year retrospective and future directions",
+      "volume": "240",
+      "author": "Kutser",
+      "year": "2020",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0220",
+      "doi-asserted-by": "crossref",
+      "first-page": "82",
+      "DOI": "10.1016/j.aquabot.2009.03.003",
+      "article-title": "Are epiphytes a significant component of intertidal Zostera noltii beds?",
+      "volume": "91",
+      "author": "Lebreton",
+      "year": "2009",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0225",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3389/fpls.2018.01545",
+      "article-title": "Which genes in a typical intertidal Seagrass (Zostera japonica) indicate pollution?",
+      "volume": "9",
+      "author": "Lin",
+      "year": "2018",
+      "journal-title": "Front. Plant Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0230",
+      "doi-asserted-by": "crossref",
+      "first-page": "42",
+      "DOI": "10.3390/rs3010042",
+      "article-title": "Integrating Quickbird multi-spectral satellite and field data: mapping bathymetry, seagrass cover, seagrass species and change in Moreton Bay, Australia in 2004 and 2007",
+      "volume": "3",
+      "author": "Lyons",
+      "year": "2011",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0235",
+      "doi-asserted-by": "crossref",
+      "first-page": "42",
+      "DOI": "10.1016/j.ecss.2013.01.015",
+      "article-title": "Towards understanding temporal and spatial dynamics of seagrass landscapes using time-series remote sensing",
+      "volume": "120",
+      "author": "Lyons",
+      "year": "2013",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb9003",
+      "series-title": "Sen2Cor for Sentinel-2. In: SPIE Remote Sensing",
+      "first-page": "12",
+      "author": "Main-Knorn",
+      "year": "2017"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0240",
+      "series-title": "Seagrass Ecosystems: A Scientific Perspective",
+      "first-page": "53",
+      "article-title": "Production ecology and physiology of seagrasses",
+      "author": "McRoy",
+      "year": "1977"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0245",
+      "first-page": "S92",
+      "article-title": "Progress in field spectroscopy",
+      "volume": "113",
+      "author": "Milton",
+      "year": "2007",
+      "journal-title": "Int. Geosci. Remote Sens. Symp."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0250",
+      "series-title": "Classification Scheme for Marine Habitats of Belize UNDP/GEF Belize Coastal Zone Management Project Section 1. Introduction and Overview",
+      "author": "Mumby",
+      "year": "1999"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0255",
+      "article-title": "Seagrass ecosystem services and their variability across genera and geographical regions",
+      "volume": "11",
+      "author": "Nordlund",
+      "year": "2016",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0260",
+      "doi-asserted-by": "crossref",
+      "first-page": "145",
+      "DOI": "10.1016/j.marpolbul.2017.09.014",
+      "article-title": "Seagrass ecosystem services \u2013 What\u2019s next?",
+      "volume": "134",
+      "author": "Nordlund",
+      "year": "2018",
+      "journal-title": "Mar. Pollut. Bull."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0265",
+      "doi-asserted-by": "crossref",
+      "first-page": "987",
+      "DOI": "10.1641/0006-3568(2006)56[987:AGCFSE]2.0.CO;2",
+      "article-title": "A global crisis for seagrass ecosystems",
+      "volume": "56",
+      "author": "Orth",
+      "year": "2006",
+      "journal-title": "Bioscience"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0270",
+      "series-title": "Satellite-Assisted Monitoring of Water Quality to Support the Implementation of the Water Framework Directive White Paper|November 2019 Satellite-Assisted Monitoring of Water Quality to Support the Implementation of the Water Framework Directive",
+      "author": "Papathanasopoulou",
+      "year": "2019"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0275",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1371/journal.pone.0043542",
+      "article-title": "Estimating global \u2018blue carbon\u2019 emissions from conversion and degradation of vegetated coastal ecosystems",
+      "volume": "7",
+      "author": "Pendleton",
+      "year": "2012",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0280",
+      "doi-asserted-by": "crossref",
+      "first-page": "347",
+      "DOI": "10.1016/j.ecss.2005.02.027",
+      "article-title": "Morphometric variations as acclimation mechanisms in Zostera noltii beds",
+      "volume": "64",
+      "author": "Peralta",
+      "year": "2005",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0285",
+      "doi-asserted-by": "crossref",
+      "first-page": "49",
+      "DOI": "10.1016/0304-3770(93)90064-4",
+      "article-title": "Seasonal dynamics of biomass and nutrient content in the intertidal seagrass Zostera noltii Hornem from Palmones River estuary, Spain",
+      "volume": "46",
+      "author": "Perez-Llorens",
+      "year": "1993",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0290",
+      "doi-asserted-by": "crossref",
+      "first-page": "503",
+      "DOI": "10.1016/j.tree.2005.05.011",
+      "article-title": "Using the satellite-derived NDVI to assess ecological responses to environmental change",
+      "volume": "20",
+      "author": "Pettorelli",
+      "year": "2005",
+      "journal-title": "Trends Ecol. Evol."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0295",
+      "doi-asserted-by": "crossref",
+      "first-page": "255",
+      "DOI": "10.1016/0304-3770(94)00431-K",
+      "article-title": "Wax and wane of Zostera noltii in the Dutch Wadden Sea",
+      "volume": "49",
+      "author": "Philippart",
+      "year": "1995",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0300",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.rse.2007.09.017",
+      "article-title": "Mapping seagrass species, cover and biomass in shallow waters: an assessment of satellite multi-spectral and airborne hyper-spectral imaging systems in Moreton Bay (Australia)",
+      "author": "Phinn",
+      "year": "2008",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0305",
+      "doi-asserted-by": "crossref",
+      "first-page": "803",
+      "DOI": "10.1080/17538947.2017.1359343",
+      "article-title": "Assessing the potential for satellite image monitoring of seagrass thermal dynamics: for inter- and shallow sub-tidal seagrasses in the inshore great barrier reef world heritage area, Australia",
+      "volume": "11",
+      "author": "Phinn",
+      "year": "2018",
+      "journal-title": "Int. J. Digit. Earth"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0310",
+      "series-title": "Seagrasses of Australia",
+      "first-page": "445",
+      "article-title": "Mapping, monitoring and modelling seagrass using remote sensing techniques",
+      "author": "Phinn",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0315",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1371/journal.pone.0198348",
+      "article-title": "Low blue carbon storage in eelgrass (Zostera marina) meadows on the Pacific coast of Canada",
+      "volume": "13",
+      "author": "Postlethwaite",
+      "year": "2018",
+      "journal-title": "PLoS One"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0320",
+      "first-page": "88",
+      "article-title": "Evaluating the relationship between biomass, percent groundcover and remote sensing indices across six winter cover crop fields in Maryland, United States",
+      "volume": "39",
+      "author": "Prabhakara",
+      "year": "2015",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0325",
+      "doi-asserted-by": "crossref",
+      "first-page": "161",
+      "DOI": "10.1016/j.ecss.2013.08.026",
+      "article-title": "Challenges of remote sensing for quantifying changes in large complex seagrass environments",
+      "volume": "133",
+      "author": "Roelfsema",
+      "year": "2013",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0330",
+      "doi-asserted-by": "crossref",
+      "first-page": "172",
+      "DOI": "10.1016/j.rse.2014.05.001",
+      "article-title": "Multi-temporal mapping of seagrass cover, species and biomass: a semi-automated object based image analysis approach",
+      "volume": "150",
+      "author": "Roelfsema",
+      "year": "2014",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0335",
+      "doi-asserted-by": "crossref",
+      "first-page": "25",
+      "DOI": "10.1016/j.rse.2017.06.019",
+      "article-title": "Examination of Sentinel-2A multi-spectral instrument (MSI) reflectance anisotropy and the suitability of a general method to normalize MSI reflectance to nadir BRDF adjusted reflectance",
+      "volume": "199",
+      "author": "Roy",
+      "year": "2017",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0340",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1038/s41467-019-08842-6",
+      "article-title": "Role of carbonate burial in blue carbon budgets",
+      "author": "Saderne",
+      "year": "2019",
+      "journal-title": "Nat. Commun."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0345",
+      "first-page": "1",
+      "article-title": "Recent advancement on estimation of blue carbon biomass using satellite-based approach",
+      "author": "Sani",
+      "year": "2019",
+      "journal-title": "Int. J. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0350",
+      "doi-asserted-by": "crossref",
+      "first-page": "3",
+      "DOI": "10.1016/j.jembe.2007.06.012",
+      "article-title": "Global seagrass distribution and diversity: a bioregional model",
+      "volume": "350",
+      "author": "Short",
+      "year": "2007",
+      "journal-title": "J. Exp. Mar. Biol. Ecol."
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.rse.2020.112020_bb9094",
+      "doi-asserted-by": "crossref",
+      "first-page": "1961",
+      "DOI": "10.1016/j.biocon.2011.04.010",
+      "article-title": "Extinction risk assessment of the world\u2019s seagrass species",
+      "volume": "144",
+      "author": "Short",
+      "year": "2011",
+      "journal-title": "Biol. Conserv."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0355",
+      "doi-asserted-by": "crossref",
+      "first-page": "337",
+      "DOI": "10.1016/S0034-4257(02)00010-X",
+      "article-title": "Relationships between leaf pigment content and spectral reflectance across a wide range of species, leaf structures and developmental stages",
+      "volume": "81",
+      "author": "Sims",
+      "year": "2002",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0360",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.3389/fpls.2018.00088",
+      "article-title": "Latitudinal patterns in European seagrass carbon reserves: influence of seasonal fluctuations versus short-term stress and disturbance events",
+      "volume": "9",
+      "author": "Soissons",
+      "year": "2018",
+      "journal-title": "Front. Plant Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0365",
+      "doi-asserted-by": "crossref",
+      "first-page": "1180",
+      "DOI": "10.1109/TGRS.2003.813210",
+      "article-title": "Cross comparison of EO-1 sensors and other earth resources sensors to Landsat-7 ETM+ using Railroad Valley playa",
+      "volume": "41",
+      "author": "Thome",
+      "year": "2003",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0370",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.3389/fpls.2018.00096",
+      "article-title": "Interannual change detection of Mediterranean seagrasses using RapidEye image time series",
+      "volume": "9",
+      "author": "Traganos",
+      "year": "2018",
+      "journal-title": "Front. Plant Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0375",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.3390/rs10081227",
+      "article-title": "Towards global-scale seagrass mapping and monitoring using Sentinel-2 on Google earth engine: the case study of the Aegean and Ionian seas",
+      "volume": "10",
+      "author": "Traganos",
+      "year": "2018",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0380",
+      "doi-asserted-by": "crossref",
+      "first-page": "127",
+      "DOI": "10.1016/0034-4257(79)90013-0",
+      "article-title": "Red and photographic infrared linear combinations for monitoring vegetation",
+      "volume": "8",
+      "author": "Tucker",
+      "year": "1979",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0385",
+      "article-title": "Seagrass meadows support global fisheries production",
+      "volume": "1\u20138",
+      "author": "Unsworth",
+      "year": "2018",
+      "journal-title": "Conserv. Lett."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0390",
+      "doi-asserted-by": "crossref",
+      "first-page": "801",
+      "DOI": "10.1007/s13280-018-1115-y",
+      "article-title": "Global challenges for seagrass conservation",
+      "volume": "48",
+      "author": "Unsworth",
+      "year": "2019",
+      "journal-title": "Ambio"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0395",
+      "series-title": "LANDSAT 8 (L8) DATA USERS HANDBOOK. Version 3.0. Sioux Falls, South Dakota",
+      "author": "USGS",
+      "year": "2018"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0400",
+      "doi-asserted-by": "crossref",
+      "first-page": "74",
+      "DOI": "10.1016/j.biocon.2013.12.017",
+      "article-title": "Projecting future distribution of the seagrass Zostera noltii under global warming and sea level rise",
+      "volume": "170",
+      "author": "Valle",
+      "year": "2014",
+      "journal-title": "Biol. Conserv."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0405",
+      "doi-asserted-by": "crossref",
+      "first-page": "433",
+      "DOI": "10.1016/j.ecss.2015.07.034",
+      "article-title": "Mapping estuarine habitats using airborne hyperspectral imagery, with special focus on seagrass meadows",
+      "volume": "164",
+      "author": "Valle",
+      "year": "2015",
+      "journal-title": "Estuar. Coast. Shelf Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0410",
+      "doi-asserted-by": "crossref",
+      "first-page": "338",
+      "DOI": "10.1007/s10021-010-9322-9",
+      "article-title": "Spatial synchrony in intertidal benthic algal biomass in temperate coastal and estuarine ecosystems",
+      "volume": "13",
+      "author": "van der Wal",
+      "year": "2010",
+      "journal-title": "Ecosystems"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0415",
+      "series-title": "Use of MODIS Imagery for the Assessment of the Variability in Intertidal Microphytobenthos Biomass at Regional and Global Scales. Thesis",
+      "author": "Vanhellemont",
+      "year": "2009"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0420",
+      "doi-asserted-by": "crossref",
+      "first-page": "259",
+      "DOI": "10.1016/0304-3770(95)00510-2",
+      "article-title": "Seasonal variation in the intertidal seagrass Zostera noltii Hornem.: Copuling demographic and physiological patterns",
+      "volume": "52",
+      "author": "Vermaat",
+      "year": "1996",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0425",
+      "doi-asserted-by": "crossref",
+      "first-page": "898",
+      "DOI": "10.1109/TGRS.2008.2005977",
+      "article-title": "Towards a generalized approach for correction of the BRDF effect in MODIS directional reflectances",
+      "volume": "47",
+      "author": "Vermote",
+      "year": "2009",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0430",
+      "doi-asserted-by": "crossref",
+      "first-page": "399",
+      "DOI": "10.1007/s11273-013-9311-9",
+      "article-title": "A remote sensing approach to monitor the conservation status of lacustrine Phragmites australis beds",
+      "volume": "21",
+      "author": "Villa",
+      "year": "2013",
+      "journal-title": "Wetl. Ecol. Manag."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0435",
+      "first-page": "113",
+      "article-title": "Aquatic vegetation indices assessment through radiative transfer modeling and linear mixture simulation",
+      "volume": "30",
+      "author": "Villa",
+      "year": "2014",
+      "journal-title": "Int. J. Appl. Earth Obs. Geoinf."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0440",
+      "article-title": "Evaluating the performance of Sentinel-2, Landsat 8 and Pl\u00e9iades-1 in mapping mangrove extent and species",
+      "volume": "10",
+      "author": "Wang",
+      "year": "2018",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0445",
+      "doi-asserted-by": "crossref",
+      "first-page": "229",
+      "DOI": "10.1016/S0304-3770(97)00037-5",
+      "article-title": "Distribution and stability of eelgrass beds at Izembek lagoon, Alaska",
+      "volume": "58",
+      "author": "Ward",
+      "year": "1997",
+      "journal-title": "Aquat. Bot."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0450",
+      "doi-asserted-by": "crossref",
+      "first-page": "1529",
+      "DOI": "10.1007/BF02803661",
+      "article-title": "Long-term change in eelgrass distribution at Bah\u00eda san Quint\u00edn, Baja California, Mexico, using satellite imagery",
+      "volume": "26",
+      "author": "Ward",
+      "year": "2003",
+      "journal-title": "Estuaries"
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0455",
+      "doi-asserted-by": "crossref",
+      "first-page": "343",
+      "DOI": "10.1016/j.marpolbul.2005.01.017",
+      "article-title": "Seagrass population dynamics and water quality in the great barrier reef region: a review and future research directions",
+      "volume": "51",
+      "author": "Waycott",
+      "year": "2005",
+      "journal-title": "Mar. Pollut. Bull."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0460",
+      "doi-asserted-by": "crossref",
+      "first-page": "12377",
+      "DOI": "10.1073/pnas.0905620106",
+      "article-title": "Accelerating loss of seagrasses across the globe threatens coastal ecosystems",
+      "volume": "106",
+      "author": "Waycott",
+      "year": "2009",
+      "journal-title": "Proc. Natl. Acad. Sci."
+    },
+    {
+      "key": "10.1016/j.rse.2020.112020_bb0465",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1007/s10980-008-9240-9",
+      "article-title": "Seasonal and interannual analysis of wetlands in South America using NOAA-AVHRR NDVI time series: the case of the Parana Delta region",
+      "volume": "23",
+      "author": "Zoffoli",
+      "year": "2008",
+      "journal-title": "Landsc. Ecol."
+    }
+  ],
+  "container-title": [
+    "Remote Sensing of Environment"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0034425720303904?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S0034425720303904?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        9,
+        22
+      ]
+    ],
+    "date-time": "2025-09-22T01:50:23Z",
+    "timestamp": 1758505823000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0034425720303904"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2020,
+        12
+      ]
+    ]
+  },
+  "references-count": 95,
+  "alternative-id": [
+    "S0034425720303904"
+  ],
+  "URL": "https://doi.org/10.1016/j.rse.2020.112020",
+  "relation": {},
+  "ISSN": [
+    "0034-4257"
+  ],
+  "issn-type": [
+    {
+      "value": "0034-4257",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2020,
+        12
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Sentinel-2 remote sensing of Zostera noltei-dominated intertidal seagrass meadows",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Remote Sensing of Environment",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.rse.2020.112020",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "\u00a9 2020 The Authors. Published by Elsevier Inc.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "112020"
+}

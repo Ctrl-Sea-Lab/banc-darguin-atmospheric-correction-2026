@@ -1,0 +1,582 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        24
+      ]
+    ],
+    "date-time": "2026-09-24T01:35:24Z",
+    "timestamp": 1790213724097,
+    "version": "4.1.0"
+  },
+  "reference-count": 32,
+  "publisher": "MDPI AG",
+  "issue": "10",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            19
+          ]
+        ],
+        "date-time": "2023-05-19T00:00:00Z",
+        "timestamp": 1684454400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "Contrat de Plan Etat-R\u00e9gion 2015\u20132020 \u201cSO-OMP-MIP\u201d",
+      "award": [
+        "2016-40"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2016-40"
+          ]
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "Remote Sensing"
+  ],
+  "abstract": "<jats:p>The correction of atmospheric effects on optical remote sensing products is an essential component of Analysis Ready Data (ARD) production lines. The MAJA processor aims at providing accurate time series of surface reflectances over land for satellite missions, such as Sentinel-2, Ven\u03bcs, and Landsat 8. The Centre d\u2019\u00c9tudes Spatiales de la Biosph\u00e8re (CESBIO) and the Centre National d\u2019\u00c9tudes Spatiales (CNES) share a common effort to maintain, validate, and improve the MAJA processor, using state-of-the-art ground measurement sites, and participating in processor inter-comparisons, such as the Atmospheric Correction Intercomparison Exercise (ACIX). While contributing to the second ACIX-II Land validation exercise, it was found that the candidate MAJA dataset could not adequately be compared to the main reference dataset. MAJA reflectances were corrected for adjacency and topography effects while the reference dataset was not, excluding MAJA from a part of the performance metrics of the exercise. The first part of the following study aims at providing complementary performance assessment to ACIX-II by reprocessing MAJA surface reflectances without adjacency nor topographic correction, allowing for an un-biased full resolution comparison with the reference Sentinel-2 dataset. The second part of the study consists of validating MAJA against surface reflectance measurements time series of up to five years acquired at three automated stations. Both approaches provide extensive insights on the quality of MAJA Sentinel-2 Level 2 products.</jats:p>",
+  "DOI": "10.3390/rs15102665",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        22
+      ]
+    ],
+    "date-time": "2023-05-22T02:00:27Z",
+    "timestamp": 1684720827000
+  },
+  "page": "2665",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 18,
+  "title": [
+    "Assessment of the Performance of the Atmospheric Correction Algorithm MAJA for Sentinel-2 Surface Reflectance Estimates"
+  ],
+  "prefix": "10.3390",
+  "volume": "15",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-0102-8737",
+      "authenticated-orcid": false,
+      "given": "J\u00e9r\u00f4me",
+      "family": "Colin",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Centre d\u2019\u00c9tudes Spatiales de la Biosph\u00e8re, UMR 5126 CESBIO (CNRS/CNES/UPS/IRD), 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-2358-0493",
+      "authenticated-orcid": false,
+      "given": "Olivier",
+      "family": "Hagolle",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre d\u2019\u00c9tudes Spatiales de la Biosph\u00e8re, UMR 5126 CESBIO (CNRS/CNES/UPS/IRD), 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        },
+        {
+          "name": "Centre National d\u2019\u00c9tudes Spatiales, 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Lucas",
+      "family": "Landier",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre National d\u2019\u00c9tudes Spatiales, 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Sophie",
+      "family": "Coustance",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre National d\u2019\u00c9tudes Spatiales, 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Peter",
+      "family": "Kettig",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre National d\u2019\u00c9tudes Spatiales, 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Aim\u00e9",
+      "family": "Meygret",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Centre National d\u2019\u00c9tudes Spatiales, 18 Avenue Edouard Belin, CEDEX 9, 31401 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Julien",
+      "family": "Osman",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "CS GROUP, Zone d\u2019am\u00e9nagement concert\u00e9 de la Grande Plaine, 6 Rue Brindejonc des Moulinais, 31500 Toulouse, France"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-4883-2765",
+      "authenticated-orcid": false,
+      "given": "Eric",
+      "family": "Vermote",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "NASA Goddard Space Flight Center Code 619, Greenbelt, MD 20771, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "1968",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        19
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "ref_1",
+      "unstructured": "Liang, S., and Wang, J. (2020). Advanced Remote Sensing, Academic Press. [2nd ed.]."
+    },
+    {
+      "key": "ref_2",
+      "doi-asserted-by": "crossref",
+      "first-page": "2668",
+      "DOI": "10.3390/rs70302668",
+      "article-title": "A Multi-Temporal and Multi-Spectral Method to Estimate Aerosol Optical Thickness over Land, for the Atmospheric Correction of FormoSat-2, LandSat, VENUS and Sentinel-2 Images",
+      "volume": "7",
+      "author": "Hagolle",
+      "year": "2015",
+      "journal-title": "Remote Sens."
+    },
+    {
+      "key": "ref_3",
+      "doi-asserted-by": "crossref",
+      "first-page": "4004",
+      "DOI": "10.1364/AO.37.004004",
+      "article-title": "Correction of satellite imagery over mountainous terrain",
+      "volume": "37",
+      "author": "Richter",
+      "year": "1998",
+      "journal-title": "Appl. Opt."
+    },
+    {
+      "key": "ref_4",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Frantz, D. (2019). FORCE\u2014Landsat + Sentinel-2 Analysis Ready Data and Beyond. Remote Sens., 11.",
+      "DOI": "10.3390/rs11091124"
+    },
+    {
+      "key": "ref_5",
+      "doi-asserted-by": "crossref",
+      "first-page": "46",
+      "DOI": "10.1016/j.rse.2016.04.008",
+      "article-title": "Preliminary analysis of the performance of the Landsat 8/OLI land surface reflectance product",
+      "volume": "185",
+      "author": "Vermote",
+      "year": "2016",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_6",
+      "unstructured": "ESA (2021). Level-2A Algorithm Theoretical Basis Document, ESA. ATBD S2-PDGS-MPC-ATBD-L2A."
+    },
+    {
+      "key": "ref_7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Inglada, J., Vincent, A., Arias, M., Tardy, B., Morin, D., and Rodes, I. (2017). Operational High Resolution Land Cover Map Production at the Country Scale Using Satellite Image Time Series. Remote Sens., 9.",
+      "DOI": "10.3390/rs9010095"
+    },
+    {
+      "key": "ref_8",
+      "doi-asserted-by": "crossref",
+      "first-page": "493",
+      "DOI": "10.5194/essd-11-493-2019",
+      "article-title": "Theia Snow collection: High-resolution operational snow cover maps from Sentinel-2 and Landsat-8 data",
+      "volume": "11",
+      "author": "Gascoin",
+      "year": "2019",
+      "journal-title": "Earth Syst. Sci. Data"
+    },
+    {
+      "key": "ref_9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Niro, F., Goryl, P., Dransfeld, S., Boccia, V., Gascon, F., Adams, J., Themann, B., Scifoni, S., and Doxani, G. (2021). European Space Agency (ESA) Calibration/Validation Strategy for Optical Land-Imaging Satellites and Pathway towards Interoperability. Remote Sens., 13.",
+      "DOI": "10.3390/rs13153003"
+    },
+    {
+      "key": "ref_10",
+      "doi-asserted-by": "crossref",
+      "first-page": "815311",
+      "DOI": "10.1117/12.892759",
+      "article-title": "ROSAS: A robotic station for atmosphere and surface characterization dedicated to on-orbit calibration",
+      "volume": "Volume 8153",
+      "author": "Meygret",
+      "year": "2011",
+      "journal-title": "Earth Observing Systems XVI"
+    },
+    {
+      "key": "ref_11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bouvet, M., Thome, K., Berthelot, B., Bialek, A., Czapla-Myers, J., Fox, N.P., Goryl, P., Henry, P., Ma, L., and Marcq, S. (2019). RadCalNet: A Radiometric Calibration Network for Earth Observing Imagers Operating in the Visible to Shortwave Infrared Spectral Range. Remote Sens., 11.",
+      "DOI": "10.3390/rs11202401"
+    },
+    {
+      "key": "ref_12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Vansteenwegen, D., Ruddick, K., Cattrijsse, A., Vanhellemont, Q., and Beck, M. (2019). The Pan-and-Tilt Hyperspectral Radiometer System (PANTHYR) for Autonomous Satellite Validation Measurements\u2014Prototype Design and Testing. Remote Sens., 11.",
+      "DOI": "10.3390/rs11111360"
+    },
+    {
+      "key": "ref_13",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Goyens, C., De Vis, P., and Hunt, S.E. (2021, January 11\u201316). Automated Generation of Hyperspectral Fiducial Reference Measurements of Water and Land Surface Reflectance for the Hypernets Networks. Proceedings of the 2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS, Brussels, Belgium.",
+      "DOI": "10.1109/IGARSS47720.2021.9553738"
+    },
+    {
+      "key": "ref_14",
+      "doi-asserted-by": "crossref",
+      "first-page": "97",
+      "DOI": "10.1016/S0034-4257(02)00089-5",
+      "article-title": "Atmospheric correction of MODIS data in the visible to middle infrared: First results",
+      "volume": "83",
+      "author": "Vermote",
+      "year": "2002",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Vermote, E.F., and Kotchenova, S. (2008). Atmospheric correction for the monitoring of land surfaces. J. Geophys. Res. Atmos., 113.",
+      "DOI": "10.1029/2007JD009662"
+    },
+    {
+      "key": "ref_16",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1016/S0034-4257(98)00031-5",
+      "article-title": "AERONET\u2014A federated instrument network and data archive for aerosol characterization",
+      "volume": "66",
+      "author": "Holben",
+      "year": "1998",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_17",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Doxani, G., Vermote, E., Roger, J.C., Gascon, F., Adriaensen, S., Frantz, D., Hagolle, O., Hollstein, A., Kirches, G., and Li, F. (2018). Atmospheric Correction Inter-Comparison Exercise. Remote Sens., 10.",
+      "DOI": "10.3390/rs10020352"
+    },
+    {
+      "key": "ref_18",
+      "doi-asserted-by": "crossref",
+      "first-page": "113412",
+      "DOI": "10.1016/j.rse.2022.113412",
+      "article-title": "Atmospheric Correction Inter-comparison eXercise, ACIX-II Land: An assessment of atmospheric correction processors for Landsat 8 and Sentinel-2 over land",
+      "volume": "285",
+      "author": "Doxani",
+      "year": "2023",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_19",
+      "doi-asserted-by": "crossref",
+      "first-page": "459",
+      "DOI": "10.1016/0034-4257(88)90019-3",
+      "article-title": "An improved dark-object subtraction technique for atmospheric scattering correction of multispectral data",
+      "volume": "24",
+      "author": "Chavez",
+      "year": "1988",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_20",
+      "doi-asserted-by": "crossref",
+      "first-page": "947",
+      "DOI": "10.1175/JAS3385.1",
+      "article-title": "The MODIS Aerosol Algorithm, Products, and Validation",
+      "volume": "62",
+      "author": "Remer",
+      "year": "2005",
+      "journal-title": "J. Atmos. Sci."
+    },
+    {
+      "key": "ref_21",
+      "doi-asserted-by": "crossref",
+      "first-page": "112990",
+      "DOI": "10.1016/j.rse.2022.112990",
+      "article-title": "Cloud Mask Intercomparison eXercise (CMIX): An evaluation of cloud masking algorithms for Landsat 8 and Sentinel-2",
+      "volume": "274",
+      "author": "Skakun",
+      "year": "2022",
+      "journal-title": "Remote Sens. Environ."
+    },
+    {
+      "key": "ref_22",
+      "doi-asserted-by": "crossref",
+      "first-page": "479",
+      "DOI": "10.1016/j.jqsrt.2007.03.010",
+      "article-title": "A successive order of scattering code for solving the vector equation of transfer in the earth\u2019s atmosphere with aerosols",
+      "volume": "107",
+      "author": "Lenoble",
+      "year": "2007",
+      "journal-title": "J. Quant. Spectrosc. Radiat. Transf."
+    },
+    {
+      "key": "ref_23",
+      "doi-asserted-by": "crossref",
+      "first-page": "D13205",
+      "DOI": "10.1029/2008JD011115",
+      "article-title": "Aerosol analysis and forecast in the European Centre for Medium-Range Weather Forecasts Integrated Forecast System: 2. Data assimilation",
+      "volume": "114",
+      "author": "Benedetti",
+      "year": "2009",
+      "journal-title": "J. Geophys. Res. Atmos."
+    },
+    {
+      "key": "ref_24",
+      "doi-asserted-by": "crossref",
+      "first-page": "D06206",
+      "DOI": "10.1029/2008JD011235",
+      "article-title": "Aerosol analysis and forecast in the European Centre for Medium-Range Weather Forecasts Integrated Forecast System: Forward modeling",
+      "volume": "114",
+      "author": "Morcrette",
+      "year": "2009",
+      "journal-title": "J. Geophys. Res. Atmos."
+    },
+    {
+      "key": "ref_25",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Rouqui\u00e9, B., Hagolle, O., Br\u00e9on, F.M., Boucher, O., Desjardins, C., and R\u00e9my, S. (2017). Using Copernicus Atmosphere Monitoring Service Products to Constrain the Aerosol Type in the Atmospheric Correction Processor MAJA. Remote Sens., 9.",
+      "DOI": "10.3390/rs9121230"
+    },
+    {
+      "key": "ref_26",
+      "doi-asserted-by": "crossref",
+      "first-page": "169",
+      "DOI": "10.5194/amt-12-169-2019",
+      "article-title": "Advancements in the Aerosol Robotic Network (AERONET) Version 3 database \u2013 automated near-real-time quality control algorithm with improved cloud screening for Sun photometer aerosol optical depth (AOD) measurements",
+      "volume": "12",
+      "author": "Giles",
+      "year": "2019",
+      "journal-title": "Atmos. Meas. Tech."
+    },
+    {
+      "key": "ref_27",
+      "doi-asserted-by": "crossref",
+      "first-page": "675",
+      "DOI": "10.1109/36.581987",
+      "article-title": "Second Simulation of the Satellite Signal in the Solar Spectrum, 6S: An overview",
+      "volume": "35",
+      "author": "Vermote",
+      "year": "1997",
+      "journal-title": "IEEE Trans. Geosci. Remote Sens."
+    },
+    {
+      "key": "ref_28",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Marcq, S., Meygret, A., Bouvet, M., Fox, N., Greenwell, C., Scott, B., Berthelot, B., Besson, B., Guilleminot, N., and Damiri, B. (2018, January 22\u201327). New Radcalnet Site at Gobabeb, Namibia: Installation of the Instrumentation and First Satellite Calibration Results. Proceedings of the IGARSS 2018\u20142018 IEEE International Geoscience and Remote Sensing Symposium, Valencia, Spain.",
+      "DOI": "10.1109/IGARSS.2018.8517716"
+    },
+    {
+      "key": "ref_29",
+      "doi-asserted-by": "crossref",
+      "first-page": "20455",
+      "DOI": "10.1029/92JD01411",
+      "article-title": "A bidirectional reflectance model of the Earth\u2019s surface for the correction of remote sensing data",
+      "volume": "97",
+      "author": "Roujean",
+      "year": "1992",
+      "journal-title": "J. Geophys. Res. Atmos."
+    },
+    {
+      "key": "ref_30",
+      "unstructured": "Landier, L. (2023, March 07). RadCalNet Gobabeb Site Uncertainty Statement; Technical Report QA4EO-WGCV-RadCalNet-GONA-U-v2, CEOS Oct. Available online: https://www.radcalnet.org/sites/GONA/documentation/Site%20documentation/QA4EO-WGCV-RadCalNet-GONA-U-v2.pdf."
+    },
+    {
+      "key": "ref_31",
+      "unstructured": "Landier, L. (2023, March 07). RadCalNet La Crau Site Uncertainty Statement; Technical Report QA4EO-WGCV-RadCalNet-LCFR-U-v2, CEOS Oct. Available online: https://www.radcalnet.org/sites/LCFR/documentation/Site%20documentation/QA4EO-WGCV-RadCalNet-LCFR-U-v2.pdf."
+    },
+    {
+      "key": "ref_32",
+      "doi-asserted-by": "crossref",
+      "first-page": "122",
+      "DOI": "10.1080/22797254.2018.1562311",
+      "article-title": "Sentinel-2A and 2B absolute calibration monitoring",
+      "volume": "52",
+      "author": "Revel",
+      "year": "2019",
+      "journal-title": "Eur. J. Remote Sens."
+    }
+  ],
+  "container-title": [
+    "Remote Sensing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://www.mdpi.com/2072-4292/15/10/2665/pdf",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        10,
+        10
+      ]
+    ],
+    "date-time": "2025-10-10T19:38:54Z",
+    "timestamp": 1760125134000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://www.mdpi.com/2072-4292/15/10/2665"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        19
+      ]
+    ]
+  },
+  "references-count": 32,
+  "journal-issue": {
+    "issue": "10",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "rs15102665"
+  ],
+  "URL": "https://doi.org/10.3390/rs15102665",
+  "relation": {},
+  "ISSN": [
+    "2072-4292"
+  ],
+  "issn-type": [
+    {
+      "value": "2072-4292",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        5,
+        19
+      ]
+    ]
+  }
+}

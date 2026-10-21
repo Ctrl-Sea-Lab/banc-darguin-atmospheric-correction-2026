@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "body": {
+    "id": "e22d161f-275e-4155-9af7-25e1879d099f",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "issueId": "6f4a556f-9f40-40ea-bdb8-42b5f88143b3",
+    "key": "plan",
+    "title": "Plan",
+    "format": "markdown",
+    "body": "Restore board access to completed CTR-55 files; do not rerun scientific computations or modify scientific outputs, raw data, environments, manuscript, permissions or publication settings.\n\nCTR-60 recovery task a4205ca2-a28b-4b26-91f9-961228794a7d has successfully uploaded a compact code/table/provenance package (attachment 2e1cae0f-f4cf-4279-b591-64531f13c23a, work product 8d705646-554f-41b2-b287-9bba2b96d07a; 113955 bytes; SHA256 f547770309135c6b8cd35ad9b1533376ccacc415460f9275df55152253112561). Source task CTR-55 is blocked on CTR-60; downstream modelling/assembly/review already exist. Do not replace them.\n\nCanonical root: /mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026\nCompleted investigation: analysis/CTR-54_paired-reflectance-differences\nScientific revision: 1bbb23b3b94e775a60aa921f8c9c4f86f51926cb\nRead investigation HANDOFF.md and provenance/handoff.json for scope/limitations. Full scientific review remains CTR-59 following CTR-58; PI scientific approval pending.\n\nVerified files (relative to investigation):\nreport.html: 4921262 bytes; SHA256 045b3ceaddc96f5c3ba55e19c8e63aa05cd9d5ad96e1f37fe58fb14ed2444e6e\nfigures/generated/paired_reflectance_maps.png: 7991332 bytes; SHA256 1f07e45f762067c0ed3901e0081693bbd89d6f9027687ed0eeb3c9eeeaa23348\nfigures/generated/paired_reflectance_maps.pdf: 6102564 bytes; SHA256 3d3f407cccf622779864a0a540da05ba719a900ff5de4545df754367cc0cdd2a\noutputs/CTR55_all_rasters.zip: 2092926845 bytes; SHA256 e4acbee5342215c8c94054b32ceb8ea830060b7b3cb6aa0b5297a03cadc383eb (113 GeoTIFF products)\noutputs/CTR55_review_package.zip: 935823 bytes; SHA256 09e092dffb1ec2f36acdf66bc7c3facb54e0f0f4aa270b131a4d82a8281cec8b\n\nEvidence: GET /api/projects/5fc298b7-b03d-4a03-b14f-25b3e66ccf85 returns workspaces:[], primaryWorkspace:null, codebase.workspaceId:null. CTR-60 heartbeat-context currentExecutionWorkspace:null. There is no real workspace ID to use in metadata.resourceRef. POST /api/projects/5fc298b7-b03d-4a03-b14f-25b3e66ccf85/workspaces with the exact existing NAS cwd returned HTTP 403 {\"error\":\"Route not allowed: POST /api/projects/5fc298b7-b03d-4a03-b14f-25b3e66ccf85/workspaces\"}. Do not retry or bypass this denial. No workspace or permission was changed.\n\nRequired outcome: establish a supported, authorized access path for these saved large files, preferably an actual project workspace record for the existing NAS root, then create verified workspace_file work products using its returned workspaceId. If that configuration requires authority unavailable to you, obtain the narrowly scoped operator action through an explicit saved interaction; do not change permissions or invent bindings. Register products on YOUR task if cross-boundary writes to CTR-60 are unavailable. Return exact IDs, resourceRef fields, URLs and saved receipts, and verify retrieval/opening where supported. Check attachments before any retry of previously indeterminate transfers. Avoid large uploads: CTR-55 HTML and 936KB ZIP attempts timed out and its callback bridge subsequently failed with 503; compact 114KB upload on CTR-60 succeeded. No large transfers were retried in CTR-60.\n\nAcceptance: real access path and confirmed receipts for full report, full resolution PNG/PDF and 2GB archive; no fabricated registration; no scientific changes. Complete your child to wake CTR-60, where Roger will record final delivery and complete CTR-60 to release CTR-55.",
+    "latestRevisionId": "3bc3952f-352a-4d25-9f34-bb8fd6e12466",
+    "latestRevisionNumber": 1,
+    "createdByAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+    "createdByUserId": null,
+    "updatedByAgentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9",
+    "updatedByUserId": null,
+    "lockedAt": null,
+    "lockedByAgentId": null,
+    "lockedByUserId": null,
+    "sourceTrust": null,
+    "createdAt": "2026-10-20T18:20:11.740Z",
+    "updatedAt": "2026-10-20T18:20:11.740Z",
+    "annotations": []
+  }
+}

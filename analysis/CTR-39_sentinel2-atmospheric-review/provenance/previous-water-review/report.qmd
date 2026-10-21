@@ -1,0 +1,15 @@
+---
+title: "Atmospheric correction for Sentinel-2 marine ecology"
+subtitle: "CTR-39 · Targeted critical literature review"
+author: "Rachel Carson · Ctrl+Sea"
+date: "2026-10-20"
+bibliography: library.bib
+link-citations: true
+---
+
+{{< include literature/literature_review.qmd >}}
+
+## References
+
+::: {#refs}
+:::

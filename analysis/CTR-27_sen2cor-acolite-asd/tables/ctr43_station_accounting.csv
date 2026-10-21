@@ -1,0 +1,16 @@
+station_id,class_literal,disposition,population,satellite_rows,ASD_supported_bands_per_role,ASD_missing_bands,reason,validation_eligible
+AC01,dry_sand,retained,primary_intended,18,8,B08,cross_date_and_physical_holds,False
+AC02,dry_sand,retained,primary_intended,18,8,B08,cross_date_and_physical_holds,False
+AC05,algae_mud,retained,primary_intended,18,8,B08,cross_date_and_physical_holds,False
+AC06,white_sand,retained,primary_intended,18,8,B08,cross_date_and_physical_holds,False
+AC07,seagrass,retained,primary_intended,18,8,B08,cross_date_and_physical_holds,False
+AC08,seagrass,retained,primary_intended,18,8,B08,cross_date_and_physical_holds,False
+D06_A,zn,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+D06_B,zn,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+D06_C,zn,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+D06_D,zn,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+D06_E,zn,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+D06_F,zn,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+D06_G,sand,retained,supplementary_only,18,8,B08,cross_date_and_physical_holds,False
+AC03,mbp_mud,excluded,excluded,0,NA,NA,original_PI_mud_exclusion,False
+AC04,mpb_mud,excluded,excluded,0,NA,NA,original_PI_mud_exclusion,False
