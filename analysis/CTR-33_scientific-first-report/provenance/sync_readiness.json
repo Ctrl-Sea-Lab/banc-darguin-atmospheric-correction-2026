@@ -1,0 +1,12 @@
+{
+  "affected": false,
+  "agent": "roger-tomlinson",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-33_scientific-first-report"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-33",
+  "version": 1
+}

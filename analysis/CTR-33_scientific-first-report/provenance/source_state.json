@@ -1,0 +1,179 @@
+{
+  "baseline_commit": "9f0f06d2b5958b35de82adbca1577e4c384ae846",
+  "source_task": "CTR-28",
+  "source_status": "in_review",
+  "source_updatedAt": "2026-10-20T06:45:34.881Z",
+  "source_execution_state": {
+    "status": "pending",
+    "monitor": null,
+    "reviewRequest": null,
+    "currentStageId": "ec0e78bf-14af-4acc-b9b7-174af5f5bf2b",
+    "lastDecisionId": "83174631-cd77-4b3a-b56c-2a7ba41ffbd1",
+    "returnAssignee": {
+      "type": "agent",
+      "userId": null,
+      "agentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9"
+    },
+    "currentStageType": "review",
+    "completedStageIds": [],
+    "currentStageIndex": 0,
+    "currentParticipant": {
+      "type": "agent",
+      "userId": null,
+      "agentId": "34565400-bebd-4b0f-990e-a797c05798ae"
+    },
+    "lastDecisionOutcome": "changes_requested",
+    "changesRequestedCount": 2
+  },
+  "source_documents": [
+    {
+      "key": "data-readiness",
+      "latestRevisionId": "7f45ae7b-2969-4c9e-8b83-51250fc21432",
+      "updatedAt": "2026-10-20T06:45:05.193Z"
+    },
+    {
+      "key": "independent-review",
+      "latestRevisionId": "41b37e06-40fd-471b-b7de-ef3e2d339803",
+      "updatedAt": "2026-10-20T06:31:28.267Z"
+    },
+    {
+      "key": "plan",
+      "latestRevisionId": "02367f7d-6efa-4c25-91e3-baa7f5c3072c",
+      "updatedAt": "2026-10-20T06:31:46.626Z"
+    }
+  ],
+  "CTR33_execution_policy": {
+    "mode": "normal",
+    "stages": [
+      {
+        "id": "d9ee2d01-e29e-4b29-9154-15d56e16563f",
+        "type": "review",
+        "participants": [
+          {
+            "id": "0c5371ce-a37b-4ce0-a364-e22577347243",
+            "type": "agent",
+            "userId": null,
+            "agentId": "9a653f27-c9df-4f05-9f7a-e8a64b5b6ae0"
+          }
+        ],
+        "approvalsNeeded": 1
+      },
+      {
+        "id": "3cd8d66e-b641-4670-b16a-2b35892bf069",
+        "type": "review",
+        "participants": [
+          {
+            "id": "60ed759a-b522-4289-ae38-469feb53960b",
+            "type": "agent",
+            "userId": null,
+            "agentId": "34565400-bebd-4b0f-990e-a797c05798ae"
+          }
+        ],
+        "approvalsNeeded": 1
+      },
+      {
+        "id": "e4b601d3-8557-46e9-8e59-a5a2e6f5dbe0",
+        "type": "review",
+        "participants": [
+          {
+            "id": "24f98c2d-4a0a-43c1-b8c3-1cbcc9c70d05",
+            "type": "agent",
+            "userId": null,
+            "agentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd"
+          }
+        ],
+        "approvalsNeeded": 1
+      }
+    ],
+    "commentRequired": true
+  },
+  "GitHub_PR3_reviews": [],
+  "GitHub_PR3_review_threads": [],
+  "review_note": "Existing saved independent review predates expanded source; no acceptance claimed. Check source state again at submission.",
+  "submission_recheck": {
+    "source_status": "in_review",
+    "source_updatedAt": "2026-10-20T08:38:03.944Z",
+    "source_execution_state": {
+      "status": "pending",
+      "monitor": null,
+      "reviewRequest": null,
+      "currentStageId": "7ede99ca-d1ff-4237-8900-d6ddd60ea058",
+      "lastDecisionId": "2953c935-8e2d-4984-ab7c-ed09de0745bc",
+      "returnAssignee": {
+        "type": "agent",
+        "userId": null,
+        "agentId": "c9111baf-e144-4970-8ab2-37e1fb46ceb9"
+      },
+      "currentStageType": "review",
+      "completedStageIds": [
+        "ec0e78bf-14af-4acc-b9b7-174af5f5bf2b"
+      ],
+      "currentStageIndex": 1,
+      "currentParticipant": {
+        "type": "agent",
+        "userId": null,
+        "agentId": "e4f7a410-5e32-4ccb-8608-710d124d6cdd"
+      },
+      "lastDecisionOutcome": "approved",
+      "changesRequestedCount": 0
+    },
+    "source_documents": [
+      {
+        "key": "data-readiness",
+        "latestRevisionId": "7f45ae7b-2969-4c9e-8b83-51250fc21432",
+        "updatedAt": "2026-10-20T06:45:05.193Z"
+      },
+      {
+        "key": "independent-review",
+        "latestRevisionId": "19a802d4-b1fa-4e67-b376-570dc689d939",
+        "updatedAt": "2026-10-20T08:37:40.728Z"
+      },
+      {
+        "key": "pi-decision",
+        "latestRevisionId": "69563c8a-c599-4898-a7ba-e644c54a4d48",
+        "updatedAt": "2026-10-20T08:37:44.068Z"
+      },
+      {
+        "key": "plan",
+        "latestRevisionId": "02367f7d-6efa-4c25-91e3-baa7f5c3072c",
+        "updatedAt": "2026-10-20T06:31:46.626Z"
+      }
+    ],
+    "reconciliation": "Karl Accept for exact expanded baseline; authenticated PI approval applies to source only. No substantive scientific fixes requested. Historical pending labels contextualized; legacy SRF alt added to rewrite only. CTR-33 reviews and PI consideration remain separate."
+  },
+  "source_PI_comment": {
+    "id": "22aa93c7-ae6a-4bd4-8bb5-970069b954c8",
+    "companyId": "f81d1807-ee34-464f-a570-93f50a636086",
+    "issueId": "93ec8661-a983-4b74-9265-612f876599e6",
+    "authorAgentId": null,
+    "authorUserId": "m5aOHPFB0CvmFkf7UN0KHSrX57hsS5xK",
+    "onBehalfOfUserId": null,
+    "authorType": "user",
+    "createdByRunId": null,
+    "derivedAuthorAgentId": null,
+    "derivedCreatedByRunId": null,
+    "derivedAuthorSource": null,
+    "clientRequestId": "0da32b33-b154-4032-9107-d471780dde88",
+    "conversationSessionGeneration": null,
+    "body": "I approve !",
+    "presentation": null,
+    "metadata": null,
+    "deletedAt": null,
+    "deletedByType": null,
+    "deletedByAgentId": null,
+    "deletedByUserId": null,
+    "deletedByRunId": null,
+    "sourceTrust": null,
+    "createdAt": "2026-10-20T08:30:46.535Z",
+    "updatedAt": "2026-10-20T08:30:46.535Z"
+  },
+  "GitHub_PR3": {
+    "state": "open",
+    "draft": true,
+    "head_branch": "ctr-28-matchup-feasibility",
+    "head_commit": "9f0f06d2b5958b35de82adbca1577e4c384ae846",
+    "base_branch": "ctr-25-data-dictionary",
+    "base_commit": "8d885c1c9ea1b10751dea939c2d1aee1432307bd",
+    "updated_at": "2026-10-20T06:44:10Z"
+  }
+}
