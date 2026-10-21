@@ -1,0 +1,110 @@
+[
+  {
+    "id": "Vanhellemont2019DSF_pdf",
+    "url": "https://www.vliz.be/imisdocs/publications/343844.pdf",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://www.vliz.be/imisdocs/publications/343844.pdf",
+    "content_type": "application/pdf",
+    "path": "literature/pdfs/Vanhellemont2019DSF_pdf.pdf",
+    "bytes": 4974727,
+    "sha256": "7e336f97a87f99dca01b28d9fc6aa4e0f09d7c0e3bbf6472752a4c6083f1c017",
+    "valid_pdf": true
+  },
+  {
+    "id": "DeKeukelaere2018iCOR_pdf",
+    "url": "https://www.vliz.be/imisdocs/publications/330081.pdf",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://www.vliz.be/imisdocs/publications/330081.pdf",
+    "content_type": "application/pdf",
+    "path": "literature/pdfs/DeKeukelaere2018iCOR_pdf.pdf",
+    "bytes": 4179476,
+    "sha256": "a9c24c2503b2d6c83ca0694b5aa19c2543353f9e1d03a1bf83c430cd15c66cde",
+    "valid_pdf": true
+  },
+  {
+    "id": "Steinmetz2011Polymer_pdf",
+    "url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-19-10-9783&seq=0",
+    "checked": "2026-10-20",
+    "status": 202,
+    "final_url": "https://opg.optica.org/oe/viewmedia.cfm?uri=oe-19-10-9783&seq=0",
+    "content_type": "text/html;charset=UTF-8",
+    "path": "outputs/sources/Steinmetz2011Polymer_pdf.txt",
+    "bytes": 583,
+    "sha256": "6f2ee071b0402f680f061a3fd08dc12c407702cda9e4126b6fa1a43ef8f65ee4",
+    "valid_pdf": false
+  },
+  {
+    "id": "Hagolle2015MAJA_pdf",
+    "url": "https://www.mdpi.com/2072-4292/7/3/2668/pdf",
+    "checked": "2026-10-20",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "Renosh2020Estuaries_pdf",
+    "url": "https://www.mdpi.com/2072-4292/12/8/1285/pdf",
+    "checked": "2026-10-20",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "snap_download",
+    "url": "https://step.esa.int/main/download/snap-download/",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://step.esa.int/main/download/snap-download/",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "outputs/sources/snap_download.txt",
+    "bytes": 54361,
+    "sha256": "f079eeb2ece00bdc9b50910c39bfc851445120c5a74904ace787e7a66d243203",
+    "valid_pdf": false
+  },
+  {
+    "id": "snap_update",
+    "url": "https://step.esa.int/main/snap-14-0-2-update-is-now-available/",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://step.esa.int/main/snap-14-0-2-update-is-now-available/",
+    "content_type": "text/html; charset=UTF-8",
+    "path": "outputs/sources/snap_update.txt",
+    "bytes": 56035,
+    "sha256": "7d20d96f552f0eb10b6581e3dfb45a4de8a9111f89d1b7767e6b710f1867d2cc",
+    "valid_pdf": false
+  },
+  {
+    "id": "opttbx_tree",
+    "url": "https://api.github.com/repos/senbox-org/optical-toolbox/git/trees/master?recursive=1",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/senbox-org/optical-toolbox/git/trees/master?recursive=1",
+    "content_type": "application/json; charset=utf-8",
+    "path": "outputs/sources/opttbx_tree.json",
+    "bytes": 2820856,
+    "sha256": "a26744a644af6275e01862380f2fcdd4e24105ae21c5e1b3df99bb0ad4398363",
+    "valid_pdf": false
+  },
+  {
+    "id": "s3tbx_tree",
+    "url": "https://api.github.com/repos/senbox-org/s3tbx/git/trees/master?recursive=1",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/senbox-org/s3tbx/git/trees/master?recursive=1",
+    "content_type": "application/json; charset=utf-8",
+    "path": "outputs/sources/s3tbx_tree.json",
+    "bytes": 1138085,
+    "sha256": "21af1aa1baab748c4cf9614a1580deea6179e65a5db19089b8a75246ff426788",
+    "valid_pdf": false
+  },
+  {
+    "id": "Fan2021OCSMART_crossref",
+    "url": "https://api.crossref.org/works?query.title=OC-SMART%3A%20A%20machine%20learning%20based%20data%20analysis%20platform%20for%20satellite%20ocean%20color%20sensors&rows=1",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://api.crossref.org/works?query.title=OC-SMART%3A%20A%20machine%20learning%20based%20data%20analysis%20platform%20for%20satellite%20ocean%20color%20sensors&rows=1",
+    "content_type": "application/json",
+    "path": "outputs/sources/Fan2021OCSMART_crossref.json",
+    "bytes": 29060,
+    "sha256": "33f35c34c6c6ddac9927fa37141544bbaba45359af184622545006d6215e78fd",
+    "valid_pdf": false
+  }
+]

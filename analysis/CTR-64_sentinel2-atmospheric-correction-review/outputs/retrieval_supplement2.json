@@ -1,0 +1,104 @@
+[
+  {
+    "id": "c2rcc_current_operator",
+    "url": "https://raw.githubusercontent.com/senbox-org/optical-toolbox/master/opttbx-c2rcc/src/main/java/eu/esa/opt/c2rcc/msi/C2rccMsiOperator.java",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/senbox-org/optical-toolbox/master/opttbx-c2rcc/src/main/java/eu/esa/opt/c2rcc/msi/C2rccMsiOperator.java",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "outputs/sources/c2rcc_current_operator.txt",
+    "bytes": 59164,
+    "sha256": "d7dea5434f92fc2cba71c6b72ad4340872f396a68d66493a278fe828bce74912",
+    "valid_pdf": false
+  },
+  {
+    "id": "c2rcc_current_algorithm",
+    "url": "https://raw.githubusercontent.com/senbox-org/optical-toolbox/master/opttbx-c2rcc/src/main/java/eu/esa/opt/c2rcc/msi/C2rccMsiAlgorithm.java",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/senbox-org/optical-toolbox/master/opttbx-c2rcc/src/main/java/eu/esa/opt/c2rcc/msi/C2rccMsiAlgorithm.java",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "outputs/sources/c2rcc_current_algorithm.txt",
+    "bytes": 29906,
+    "sha256": "db9211b77d0ba83a36df66c4bf50de0b63c1a2a77b974d7a4047561f1356aadb",
+    "valid_pdf": false
+  },
+  {
+    "id": "c2rcc_current_commit",
+    "url": "https://api.github.com/repos/senbox-org/optical-toolbox/commits/master",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/senbox-org/optical-toolbox/commits/master",
+    "content_type": "application/json; charset=utf-8",
+    "path": "outputs/sources/c2rcc_current_commit.json",
+    "bytes": 8430,
+    "sha256": "5e46c9b54ffffef1416b105330027ac37b5e015933625945e7cbd5a50b99933a",
+    "valid_pdf": false
+  },
+  {
+    "id": "c2rcc_license",
+    "url": "https://raw.githubusercontent.com/senbox-org/s3tbx/master/s3tbx-c2rcc/LICENSE.txt",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/senbox-org/s3tbx/master/s3tbx-c2rcc/LICENSE.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "path": "outputs/sources/c2rcc_license.txt",
+    "bytes": 35146,
+    "sha256": "c53a65c2fd561c87eaabf1072ef5dcab8653042bc15308465f52413585eb6271",
+    "valid_pdf": false
+  },
+  {
+    "id": "sen2cor_iod",
+    "url": "https://step.esa.int/thirdparties/sen2cor/2.13.0/docs/OMPC.TPZG.IOD.004%20-%20i1r0%20-%20Sen2Cor%202.13.02%20Input%20Output%20Data%20Definition.pdf",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://step.esa.int/thirdparties/sen2cor/2.13.0/docs/OMPC.TPZG.IOD.004%20-%20i1r0%20-%20Sen2Cor%202.13.02%20Input%20Output%20Data%20Definition.pdf",
+    "content_type": "application/pdf",
+    "path": "literature/pdfs/sen2cor_iod.pdf",
+    "bytes": 2101690,
+    "sha256": "72cd9e35c03a7e32bb450ee95bfae0d5c3ea7c9c82d4ef57e169adaa4cee396b",
+    "valid_pdf": true
+  },
+  {
+    "id": "Hagolle2015MAJA_pdf_alternative",
+    "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-07-02668/article_deploy/remotesensing-07-02668.pdf",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-07-02668/article_deploy/remotesensing-07-02668.pdf",
+    "content_type": "application/pdf",
+    "path": "literature/pdfs/Hagolle2015MAJA_pdf_alternative.pdf",
+    "bytes": 3410310,
+    "sha256": "7903b2177fd8211ffc2890ad705ed29ee7dbfa39aa095f2fe2a2b448e71e1251",
+    "valid_pdf": true
+  },
+  {
+    "id": "Renosh2020Estuaries_pdf_alternative",
+    "url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-12-01285/article_deploy/remotesensing-12-01285.pdf",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://mdpi-res.com/d_attachment/remotesensing/remotesensing-12-01285/article_deploy/remotesensing-12-01285.pdf",
+    "content_type": "application/pdf",
+    "path": "literature/pdfs/Renosh2020Estuaries_pdf_alternative.pdf",
+    "bytes": 13286883,
+    "sha256": "28a62195d3dc8da981e1898c9653b7aa7e4bbc51b91b20389ce861b54291cd77",
+    "valid_pdf": true
+  },
+  {
+    "id": "maja_license",
+    "url": "https://raw.githubusercontent.com/CNES/MAJA/master/LICENSE.TXT",
+    "checked": "2026-10-20",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "id": "acolite_manual_tree",
+    "url": "https://api.github.com/repos/acolite/acolite/git/trees/main?recursive=1",
+    "checked": "2026-10-20",
+    "status": 200,
+    "final_url": "https://api.github.com/repos/acolite/acolite/git/trees/main?recursive=1",
+    "content_type": "application/json; charset=utf-8",
+    "path": "outputs/sources/acolite_manual_tree.json",
+    "bytes": 703138,
+    "sha256": "1f6777e8be5308161ba1903aaa0e8a690ebd50319dd462d9b666a9f97fa48505",
+    "valid_pdf": false
+  }
+]

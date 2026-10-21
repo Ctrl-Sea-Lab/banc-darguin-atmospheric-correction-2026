@@ -1,0 +1,17 @@
+{
+  "table_rebuild": "all tracked file bytes unchanged",
+  "notebook_ignore": "identical to initial submission",
+  "stale_provenance_negative_tests": [
+    {
+      "case": "uv_lock_sha256",
+      "result": "rejected as required",
+      "message": "Submitted lockfile hash matches: uv.lock"
+    },
+    {
+      "case": "source_file_sha256",
+      "result": "rejected as required",
+      "message": "Submission provenance source hash matches: analysis/CTR-64_sentinel2-atmospheric-correction-review/review.md"
+    }
+  ],
+  "restored_record_validation": "passed"
+}

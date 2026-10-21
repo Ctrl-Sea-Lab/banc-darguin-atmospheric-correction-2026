@@ -1,0 +1,19 @@
+| source | complete_query_or_chain | outcome |
+| --- | --- | --- |
+| 2026-10-20 Crossref API | Sentinel-2 atmospheric correction coastal intertidal adjacency mineral dust | 10 returned records; full response retained |
+| 2026-10-20 OpenAlex API | Sentinel-2 atmospheric correction coastal intertidal adjacency mineral dust | 10 returned records; full response retained |
+| 2026-10-20 Semantic Scholar API | Sentinel-2 atmospheric correction intertidal | HTTP429; not searched exhaustively |
+| 2026-10-20 Targeted web | Sen2Cor 2.12 2.13 release software user manual license Sentinel 2 | ESA 2.13 identified; older release not treated as latest |
+| 2026-10-20 Targeted web | ACOLITE GitHub dark spectrum fitting adjacency RAdCor | Official code, RAdCor paper and release leads |
+| 2026-10-20 Targeted web | POLYMER hygeos github license Sentinel-2 | Developer code/license/changelog |
+| 2026-10-20 Targeted web | MAJA 4.9 5.0 user manual license atmospheric correction start mode | CESBIO and archived/current repository leads |
+| 2026-10-20 Targeted web | C2RCC algorithm specification C2X MSI neural networks license SNAP 2026 | Algorithm specification, networks and recent synthesis |
+| 2026-10-20 Targeted web | site.remotesensing.vito.be icor download license linux windows Sentinel 2 SIMEC | Service/download; terms unresolved |
+| 2026-10-20 Targeted web | SIAC Sentinel-2 Bayesian atmospheric correction Yin 2022 uncertainty github | Paper/source/license |
+| 2026-10-20 Targeted web | OC-SMART Sentinel-2 software download license atmospheric correction | Foundational paper and failed current access |
+| 2026-10-20 Targeted web | ACIX Aqua Pahlevan 2021 atmospheric correction intercomparison Sentinel-2 2021 112366 | NASA repository full text |
+| 2026-10-20 Targeted web | ACIX land II Doxani 2023 Sentinel-2 MAJA Sen2Cor atmospheric correction intercomparison | Publisher/DLR full text |
+| 2026-10-20 Targeted web | Sentinel-2 intertidal atmospheric correction seagrass mudflat ACOLITE Sen2Cor POLYMER validation | No verified site-specific exposed-intertidal validation established |
+| 2026-10-20 Targeted web | "A generalized physics-based correction for adjacency effects" | Institutional full text; DOI checked |
+| 2026-10-20 Targeted web | site.step.esa.int main download SNAP 13 2026 system requirements | SNAP14 installer/update evidence; avoid obsolete assumption |
+| 2026-10-20 Citation chaining | ACIX-Aqua / ACIX-II Land / C2RCC references and ACOLITE developer bibliography | Warren, DSF, iCOR, SIAC, MAJA foundational and recent RAdCor/C2RCC |

@@ -1,0 +1,8 @@
+Processor,Quantity,Support,Conversion caution,Evidence
+Sen2Cor,Surface HDRF; dimensionless after metadata scaling/offsets,MSI supported output support; not all native bands 10 m,Water classification is not water-leaving Rrs,IOD 2.13.02 §2.3.10
+ACOLITE,rhos dimensionless; requested Rrs sr⁻¹ with documented aquatic relation ρs=πRrs,Bands/resolution and interface/glint settings recorded,Do not apply aquatic conversion to arbitrary land products,README; DSF paper; effective settings
+POLYMER,Water-reflectance output; retain normalization/BRDF configuration,Reader default 60 m; request actual support explicitly,Do not infer exact Rrs normalization from rho_w name alone,"MSI reader, changelog and output metadata"
+MAJA,Land surface reflectance; distinguish surface and terrain-corrected variants,Sensor output resolution and MUSCATE scaling/masks,Not a water-column Rrs product; bitmasks require decoding,CESBIO output documentation and product metadata
+C2RCC,Directional rhow default in inspected source; Rrs option and normalized products distinct,Inspected MSI water bands B1–B7/B8A; resample common support,"Check outputAsRrs, outputRhown, units and angular normalization before π conversion",MSI operator and algorithm; specification
+SIAC,Land BRF plus uncertainty; README lists scale 0.0001,Native sensor grids; actual GeoTIFF metadata authoritative,No aquatic interpretation from division by π,SIAC README/paper
+iCOR / OC-SMART,Paper-level descriptions; current package definitions require verification,Do not assume MSI band/resolution compatibility from older paper,No automatic π conversion; normalized versus directional distinction,Foundational papers; package access gaps

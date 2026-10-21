@@ -1,0 +1,21 @@
+| item | gap | treatment |
+| --- | --- | --- |
+| acolite_manual | HTTP Error 404: Not Found | No bypass; alternative lawful route used when available; see index |
+| maja_old_license | HTTP Error 404: Not Found | No bypass; alternative lawful route used when available; see index |
+| c2rcc_source | HTTP Error 404: Not Found | No bypass; alternative lawful route used when available; see index |
+| ocsmart_access | <urlopen error [Errno 104] Connection reset by peer> | No bypass; alternative lawful route used when available; see index |
+| Renosh2020Estuaries_html | HTTP Error 403: Forbidden | No bypass; alternative lawful route used when available; see index |
+| Hagolle2015MAJA_html | HTTP Error 403: Forbidden | No bypass; alternative lawful route used when available; see index |
+| Tavora2023Recipes_pdf | <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'patrickgray.me'. (_ssl.c:1000)> | No bypass; alternative lawful route used when available; see index |
+| semanticscholar_search | HTTP Error 429:  | No bypass; alternative lawful route used when available; see index |
+| Steinmetz2011Polymer_pdf | Response was not a PDF | No bypass; alternative lawful route used when available; see index |
+| Hagolle2015MAJA_pdf | HTTP Error 403: Forbidden | No bypass; alternative lawful route used when available; see index |
+| Renosh2020Estuaries_pdf | HTTP Error 403: Forbidden | No bypass; alternative lawful route used when available; see index |
+| maja_license | HTTP Error 404: Not Found | No bypass; alternative lawful route used when available; see index |
+| MAJA active GitLab | Access challenge | CESBIO public docs/archived code used; no newest-tag claim |
+| Root library.bib | verify-ready: requires_pre_task_sync | Addition provided locally; Charles/Ada coordination pending |
+| Independent scientific review | CTR-65: Minor Revision on 943ee59; corrections submitted for focused reconsideration | Author validation is not independent review or PI approval |
+| Banc d’Arguin five-processor validation | No site-specific common benchmark established | External intertidal field/application evidence is available; no local accuracy inference |
+| Processor installation / hardware benchmark | Outside review scope, not performed | All feasibility statements conditional |
+| Full systematic coverage | No registered systematic protocol; sources inaccessible | Structured critical review only |
+| PDF redistribution | Permissions differ; full-text redistribution not authorized | PDFs and extracted text excluded from Git/archive |
