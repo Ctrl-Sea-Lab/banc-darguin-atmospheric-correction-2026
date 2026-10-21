@@ -1,0 +1,4 @@
+Would use project environment at: .venv
+Checked 100 packages in 5ms
+Would make no changes
+Lockfile sources and versions are valid.

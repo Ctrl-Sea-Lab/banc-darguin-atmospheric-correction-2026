@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "previous_author_commit": "dd00258982cd3050d74d9a41291a1bf6fb061abc",
+  "source_comment_id": "e6a042c8-55d1-433d-afce-18a6b2f9ec0d",
+  "supplied_rows": 126,
+  "supplied_script_expected_rows": 144,
+  "missing_script_input": "figure3_metrics.csv",
+  "primary_values_per_correction": 18,
+  "reference_values_per_correction": 54,
+  "overlapping_values_checked": 36,
+  "max_ASD_difference": 5.273559366969494e-16,
+  "max_satellite_difference": 3.3306690738754696e-16,
+  "primary_summary_checked_against_saved_station_metrics": true,
+  "reference_printed_metrics_match_example": true,
+  "source_csv_excluded_station": "AC04",
+  "source_csv_AC03_absent": true,
+  "validation_eligible_pairs": 0,
+  "new_extraction": false,
+  "new_integration": false,
+  "inference": false,
+  "external_report_resources": [],
+  "scientific_review": "pending exact-revision independent review; not PI approval"
+}

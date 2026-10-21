@@ -1,0 +1,125 @@
+---
+title: "Station reflectance: ASD, Sen2Cor and ACOLITE"
+subtitle: "Banc d’Arguin · 27 March 2026"
+author: "Edward Tufte · numerical analysis by Thomas Bayes · Ctrl+Sea"
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    theme: cosmo
+    fig-cap-location: bottom
+    include-in-header:
+      text: |
+        <style>
+        body { color: #262626; } .quarto-title h1 { font-weight: 650; }
+        table { width:100%; font-variant-numeric:tabular-nums; font-size:0.9rem; margin:1rem 0; }
+        th,td { padding:0.35rem 0.5rem; border-bottom:1px solid #e4e7e9; }
+        th { text-align:left; } td:nth-last-child(-n+3) { text-align:right; }
+        figcaption { line-height:1.45; } code { overflow-wrap:anywhere; }
+        </style>
+execute:
+  enabled: false
+---
+
+## Station comparison
+
+How do the supplied satellite reflectances differ from the band-integrated ASD station averages at each station? Six primary stations have complete B02/B03/B04 values for both correction products. The figures and metrics describe **exploratory numerical discrepancies in dimensionless reflectance (1)**. All 18 station–band triples retain physical holds; **zero pairs are eligible for validation**.
+
+![Band-integrated ASD station averages (black circles), supplied operational Sen2Cor L2A (orange triangles) and ACOLITE DSF (blue squares) for six primary non-mud stations, Banc d’Arguin, 27 March 2026. S2B v4 response functions define the ASD references; B02/B03/B04 are ordered bands, not a common effective-wavelength scale. Lines guide the eye across bands only. Reflectance and discrepancies are dimensionless (1). Each table uses the same three bands: bias = mean(satellite − ASD), MAE = mean absolute difference, RMSE = root mean squared difference. Values are rounded to six decimals; N is a band count, not independent replication. The containing satellite cells and ASD footprints have unresolved spatial-support and exposure limitations; uncertainty is not estimated. All 18 triples remain exploratory and physically held; zero validation-eligible pairs. AC03 mbp_mud and AC04 mpb_mud are PI-excluded (original labels retained); AC05 algae_mud remains included. Supplementary D06_A–D06_G have unavailable matched exports and are listed explicitly below. B08 fails spectral coverage.](figures/generated/ctr38_station_spectra.svg){#fig-stations width=180mm}
+
+### Numerical observations
+
+Sen2Cor L2A station biases range from +0.009023 to +0.107728. ACOLITE DSF station biases range from −0.001827 to +0.064366. These ranges describe the fixed diagnostic set and do not establish correction accuracy or a preferred correction. The relatively large satellite–ASD separation at AC06 in the Sen2Cor panel is visible on the same vertical scale used for every station.
+
+At AC06, ACOLITE has signed bias −0.001827, MAE 0.007502 and RMSE 0.008342. Opposite-signed band differences partly cancel in the bias, so near-zero mean bias does not imply agreement in every band. All displayed values below are taken directly from the saved numerical handoff and rounded to six decimals. Machine-readable source CSVs retain full computation precision.
+
+<table><thead><tr><th>Station</th><th>Literal target</th><th>Correction</th><th>N bands</th><th>Bias (1)</th><th>MAE (1)</th><th>RMSE (1)</th></tr></thead><tbody>
+<tr><td>AC01</td><td>dry_sand</td><td>Sen2Cor L2A</td><td>3</td><td>0.024018</td><td>0.024018</td><td>0.024488</td></tr>
+<tr><td>AC01</td><td>dry_sand</td><td>ACOLITE DSF</td><td>3</td><td>0.007983</td><td>0.007983</td><td>0.008949</td></tr>
+<tr><td>AC02</td><td>dry_sand</td><td>Sen2Cor L2A</td><td>3</td><td>0.074747</td><td>0.074747</td><td>0.080115</td></tr>
+<tr><td>AC02</td><td>dry_sand</td><td>ACOLITE DSF</td><td>3</td><td>0.054168</td><td>0.054168</td><td>0.060365</td></tr>
+<tr><td>AC05</td><td>algae_mud</td><td>Sen2Cor L2A</td><td>3</td><td>0.012308</td><td>0.012308</td><td>0.012376</td></tr>
+<tr><td>AC05</td><td>algae_mud</td><td>ACOLITE DSF</td><td>3</td><td>0.005246</td><td>0.005246</td><td>0.006337</td></tr>
+<tr><td>AC06</td><td>white_sand</td><td>Sen2Cor L2A</td><td>3</td><td>0.107728</td><td>0.107728</td><td>0.107807</td></tr>
+<tr><td>AC06</td><td>white_sand</td><td>ACOLITE DSF</td><td>3</td><td>-0.001827</td><td>0.007502</td><td>0.008342</td></tr>
+<tr><td>AC07</td><td>seagrass</td><td>Sen2Cor L2A</td><td>3</td><td>0.009023</td><td>0.009023</td><td>0.009675</td></tr>
+<tr><td>AC07</td><td>seagrass</td><td>ACOLITE DSF</td><td>3</td><td>0.006376</td><td>0.006376</td><td>0.007719</td></tr>
+<tr><td>AC08</td><td>seagrass</td><td>Sen2Cor L2A</td><td>3</td><td>0.083462</td><td>0.083462</td><td>0.083956</td></tr>
+<tr><td>AC08</td><td>seagrass</td><td>ACOLITE DSF</td><td>3</td><td>0.064366</td><td>0.064366</td><td>0.065485</td></tr>
+</tbody></table>
+
+Positive bias means satellite reflectance exceeds ASD. N bands is a denominator count, not an independent sample size. Every primary station has the same three available bands and each has weight 1/3 within that station. No pooled summary or population inference is reported.
+
+## The same pairs viewed against 1:1
+
+![Exploratory numerical agreement for exactly the same 18 station–band triples in each correction panel. ASD band-integrated reflectance is on x and satellite reflectance on y; scales are identical and each panel has equal aspect. The dashed line is 1:1. Colors identify B02/B03/B04; shapes retain literal target classes dry_sand, algae_mud, white_sand and seagrass. Points are repeated spectral measurements, not independent replicates. Spatial-support and exposure holds remain, uncertainty is not estimated and zero pairs are validation-eligible. No fitted trend or correction ranking is implied. AC03 mbp_mud and AC04 mpb_mud are excluded; supplementary D06_A–D06_G have unavailable matched exports and are omitted from this scatter, with NA recorded in the station ledger. B08 is unsupported; only primary v4 references are shown.](figures/generated/ctr38_agreement_scatter.svg){#fig-agreement width=180mm}
+
+## Station coverage and exclusions
+
+The seven supplementary non-mud stations below have retained continuous ASD spectra, but neither satellite match values nor band-integrated ASD references were exported in the handoff. These are unavailable values, not zeros. Their metrics are NA for both corrections. Continuous spectra are not drawn here because they cannot supply missing satellite matches.
+
+<table><thead><tr><th>Station</th><th>Literal target</th><th>Expected bands</th><th>ASD band reference</th><th>Satellite values</th><th>N common bands</th><th>Metrics</th></tr></thead><tbody>
+<tr><td>D06_A</td><td>zn</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+<tr><td>D06_B</td><td>zn</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+<tr><td>D06_C</td><td>zn</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+<tr><td>D06_D</td><td>zn</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+<tr><td>D06_E</td><td>zn</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+<tr><td>D06_F</td><td>zn</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+<tr><td>D06_G</td><td>sand</td><td>B02, B03, B04</td><td>NA</td><td>NA</td><td>0</td><td>NA</td></tr>
+</tbody></table>
+
+N common bands applies to each correction. The full reasons and the 14 station–correction rows are preserved in `tables/ctr37_supplementary_metrics.csv`; every missing station–band value is retained as NA in the plotting tables.
+
+The authenticated PI exclusions remain **AC03 mbp_mud** and **AC04 mpb_mud**, preserving the original labels in `tables/ctr36_exclusions.csv`. AC05 **algae_mud** remains in the authorized primary population; the PI exclusions are station-specific. B08 is excluded for inadequate ASD spectral coverage. No station or band is substituted.
+
+## Short methods
+
+The study area is Banc d’Arguin, Mauritania. This figure delivery reuses Thomas’s exact validated diagnostic tables at commit `9a4ec93fc412736fda85b44a1aab56ed6e2c2beb`, derived from the consolidated CTR24 handoff. It performs no raster extraction, spectral integration, metric estimation or atmospheric processing. The reviewed dictionary and earlier reports remain separate and unchanged.
+
+The documented scene is S2B, T28QCH, 27 March 2026; the metadata acquisition time is 11:45:53.975343 UTC. Supplied Sen2Cor operational L2A PB05.12 was decoded as (DN − 1000)/10000 after masking DN 0 and 65535. Supplied ACOLITE DSF rhos is dimensionless Float32 surface reflectance. Valid negative values are retained; none of the finite plotted primary reflectances is negative. A negative signed difference is retained at AC06. These are supplied products; their processors were not rerun.
+
+Existing ASD references use supplied S2B v4 response functions, normalized response-weighted trapezoidal integration on union knots, no extrapolation, finite interpolation across gaps no larger than 1 nm and minimum response coverage 0.999. Only supported B02/B03/B04 are matched. Their ordered band axis avoids assigning a shared effective wavelength to different responses. V5 remains a separate sensitivity analysis: the saved maximum absolute v5−v4 reference change is 0.0000155204 (AC06 B02); no v5 values are mixed into these figures.
+
+Bias is mean(satellite − ASD); MAE is mean(abs(satellite − ASD)); RMSE is sqrt(mean((satellite − ASD)^2)), each across the fixed three common finite bands. Both corrections use exactly identical station–band keys. The six-station set is the frozen descriptive population, not a representative validation sample.
+
+## Interpretation and limitations
+
+ASD samples a small field footprint, while satellite values describe stored containing cells. Effective radiometric contributors, common full-support QA and representative patch support remain unresolved. Material patch representativeness remains a concern at AC01/02/06/07/08; exposure or optical-path ambiguity also remains at AC05/06/08. Effective-support bounds are unverified at all six stations. Numerical identity and unit checks support these diagnostics; physical equivalence remains unproven.
+
+Field timing is described as around acquisition, but precise station clock/timezone, station-average membership, calibration variance and scan variance are unavailable. Shared scene identity is documented; byte-identical upstream L1C ancestry is unestablished. No confidence intervals, guessed error bars, fitted trends, p-values, correlation coefficients or algorithm ranking are supplied. These discrepancy measures do not quantify the unresolved support/exposure uncertainty. Bands are repeated spectral observations, not independent replicates.
+
+## Review and approval status
+
+This is the author-checked figure revision submitted for Rachel Carson’s presentation review and then Karl Popper’s independent scientific review through CTR-38’s native stages. Their decisions and exact reviewed commit are recorded on the task. Internal review is not PI approval. Charles Darwin coordinates submission for PI scientific approval. Final-manuscript integration, protected merge and public publication remain unauthorized.
+
+## Appendix: reproducibility and provenance
+
+The exact input revision is `9a4ec93fc412736fda85b44a1aab56ed6e2c2beb`; the containing delivery commit and downloadable bundle hash are recorded in the saved CTR-38 figure-delivery document. This avoids embedding a commit hash inside its own committed output. The build records source/table/output SHA-256 hashes in `provenance/ctr38_manifest.json` and author checks in `provenance/ctr38_validation.json`.
+
+From the canonical repository root on the Linux Mint Research Worker, run:
+
+```bash
+.venv/bin/python analysis/CTR-24_data-dictionary/scripts/ctr38_build.py
+```
+
+This builds plots from saved tables using base R graphics/grDevices in the approved project environment, promotes outputs through `scripts/figure_io.py` scoped to this analysis, generates this editable Quarto source and renders only `station-matchups.qmd` using the existing investigation configuration. It intentionally does not invoke `scripts/render-analysis.sh`, whose fixed `report.qmd` target would rebuild the preserved dictionary. No packages are installed. PNGs are 600 dpi at 180 mm width; vector PDFs and SVGs use the same sizes. The station figure is 220 mm high; the scatter is 116 mm high. The source uses an 8 pt base font and colorblind-safe categorical colors, with redundant symbols and line types. SVG glyphs are vector paths; PDF text is embedded/selectable.
+
+The pipeline checks all saved CTR-37 delivery hashes, the frozen input-contract hashes and passed audit states before plotting. It checks identical scatter keys, exact long/wide plotted-value correspondence, dimensionless units, validation holds, supplementary missingness and empty validation eligibility. It compares displayed rounding against the saved tables and checks self-contained HTML resources. No new statistical calculations are needed for this figure delivery. All exported panels must additionally be opened for author visual inspection; that record is saved separately in `provenance/ctr38_visual_inspection.md`.
+
+Input table SHA-256 hashes:
+
+<table><thead><tr><th>Input table</th><th>SHA-256</th></tr></thead><tbody>
+<tr><td>tables/ctr37_figure_pairs.csv</td><td>3d80b7748b97e9c862ac274cc6fb569ee1a8d12d59caaa7328be320a2b940191</td></tr>
+<tr><td>tables/ctr37_spectral_long.csv</td><td>4b1aed435113bd2f26b166d670f5d512c0c58749440a87d89eb9ba5fda7cf075</td></tr>
+<tr><td>tables/ctr37_srf_sensitivity.csv</td><td>3815bc9032c7d8747bd5f46efc8fb35e7910976e2a09cdebbdf1650d02a2446a</td></tr>
+<tr><td>tables/ctr37_station_coverage.csv</td><td>6789fbc5276a542cdf4a581c584f7f633168ad9cb0371329fdf10c32c00659d0</td></tr>
+<tr><td>tables/ctr37_station_metrics.csv</td><td>da085365bd36b5c33487d9883166c805c8568fd9e88f1d240e290848abd75445</td></tr>
+<tr><td>tables/ctr37_supplementary_metrics.csv</td><td>703e4cdd6db96b87b241f88d641040b2e5d6cdad610b890000ae8f67ea95558d</td></tr>
+<tr><td>tables/ctr37_v5_sensitivity_metrics.csv</td><td>7b2f28234ba9f89790b4a71d5b183ea35fb241a73aee4db4e4762a1ec1508622</td></tr>
+<tr><td>tables/ctr37_v5_sensitivity_pairs.csv</td><td>4addc529437765a090837516873e4989455f66d0f784fce19538eee605536c07</td></tr>
+<tr><td>tables/ctr37_v5_spectral_long.csv</td><td>100c4e265b7a069e1bc21a3a3e7d5c51f477e0388937eba99510f07075ab0f8a</td></tr>
+</tbody></table>
+
+Author input audit: 308 checks and 74 independent arithmetic checks were saved in CTR-37; these are numerical QA, not independent scientific review. The original empty `tables/ctr34_eligible_pairs.csv`, reviewed dictionary and all historical reports are retained. The deliverable bundle includes the editable report, both figure sets, plotting/build sources, full metric and missingness tables, captions, provenance and reproduction instructions, without original raw datasets.

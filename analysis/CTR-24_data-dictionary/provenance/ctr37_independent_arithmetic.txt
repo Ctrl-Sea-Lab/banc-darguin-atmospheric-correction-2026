@@ -1,0 +1,97 @@
+74 independent R numerical checks passed
+known mixed-sign fixture detects cancellation
+zero-error fixture
+empty input yields NA metrics
+v4_primary AC01 L2A independent arithmetic and denominator
+v4_primary AC01 L2A inequalities
+v4_primary AC01 ACOLITE independent arithmetic and denominator
+v4_primary AC01 ACOLITE inequalities
+v4_primary AC02 L2A independent arithmetic and denominator
+v4_primary AC02 L2A inequalities
+v4_primary AC02 ACOLITE independent arithmetic and denominator
+v4_primary AC02 ACOLITE inequalities
+v4_primary AC05 L2A independent arithmetic and denominator
+v4_primary AC05 L2A inequalities
+v4_primary AC05 ACOLITE independent arithmetic and denominator
+v4_primary AC05 ACOLITE inequalities
+v4_primary AC06 L2A independent arithmetic and denominator
+v4_primary AC06 L2A inequalities
+v4_primary AC06 ACOLITE independent arithmetic and denominator
+v4_primary AC06 ACOLITE inequalities
+v4_primary AC07 L2A independent arithmetic and denominator
+v4_primary AC07 L2A inequalities
+v4_primary AC07 ACOLITE independent arithmetic and denominator
+v4_primary AC07 ACOLITE inequalities
+v4_primary AC08 L2A independent arithmetic and denominator
+v4_primary AC08 L2A inequalities
+v4_primary AC08 ACOLITE independent arithmetic and denominator
+v4_primary AC08 ACOLITE inequalities
+v5_sensitivity AC01 L2A independent arithmetic and denominator
+v5_sensitivity AC01 L2A inequalities
+v5_sensitivity AC01 ACOLITE independent arithmetic and denominator
+v5_sensitivity AC01 ACOLITE inequalities
+v5_sensitivity AC02 L2A independent arithmetic and denominator
+v5_sensitivity AC02 L2A inequalities
+v5_sensitivity AC02 ACOLITE independent arithmetic and denominator
+v5_sensitivity AC02 ACOLITE inequalities
+v5_sensitivity AC05 L2A independent arithmetic and denominator
+v5_sensitivity AC05 L2A inequalities
+v5_sensitivity AC05 ACOLITE independent arithmetic and denominator
+v5_sensitivity AC05 ACOLITE inequalities
+v5_sensitivity AC06 L2A independent arithmetic and denominator
+v5_sensitivity AC06 L2A inequalities
+v5_sensitivity AC06 ACOLITE independent arithmetic and denominator
+v5_sensitivity AC06 ACOLITE inequalities
+v5_sensitivity AC07 L2A independent arithmetic and denominator
+v5_sensitivity AC07 L2A inequalities
+v5_sensitivity AC07 ACOLITE independent arithmetic and denominator
+v5_sensitivity AC07 ACOLITE inequalities
+v5_sensitivity AC08 L2A independent arithmetic and denominator
+v5_sensitivity AC08 L2A inequalities
+v5_sensitivity AC08 ACOLITE independent arithmetic and denominator
+v5_sensitivity AC08 ACOLITE inequalities
+ctr37_figure_pairs.csv unique keys
+ctr37_figure_pairs.csv 78 rows; 36 finite correction rows
+ctr37_figure_pairs.csv signed differences
+ctr37_figure_pairs.csv L2A exact figure input values
+ctr37_figure_pairs.csv ACOLITE exact figure input values
+ctr37_figure_pairs.csv missing values remain NA
+ctr37_figure_pairs.csv both methods have identical keys
+ctr37_figure_pairs.csv no physical hold released
+ctr37_v5_sensitivity_pairs.csv unique keys
+ctr37_v5_sensitivity_pairs.csv 78 rows; 36 finite correction rows
+ctr37_v5_sensitivity_pairs.csv signed differences
+ctr37_v5_sensitivity_pairs.csv L2A exact figure input values
+ctr37_v5_sensitivity_pairs.csv ACOLITE exact figure input values
+ctr37_v5_sensitivity_pairs.csv missing values remain NA
+ctr37_v5_sensitivity_pairs.csv both methods have identical keys
+ctr37_v5_sensitivity_pairs.csv no physical hold released
+seven supplementary stations each correction with N=0 and NA metrics
+original eligible validation table is empty
+AC06 cancellation sign retained
+PI-excluded stations absent
+unitless reflectance units
+ctr37_spectral_long.csv unique keys and finite counts
+ctr37_v5_spectral_long.csv unique keys and finite counts
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Linux Mint 22.3
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.12.0 
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Europe/Rome
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices datasets  utils     methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.3.3 tools_4.3.3    renv_1.3.1    

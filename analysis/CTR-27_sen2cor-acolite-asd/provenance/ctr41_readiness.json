@@ -1,0 +1,12 @@
+{
+  "affected": false,
+  "agent": "alan-turing",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-27_sen2cor-acolite-asd"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-41",
+  "version": 1
+}

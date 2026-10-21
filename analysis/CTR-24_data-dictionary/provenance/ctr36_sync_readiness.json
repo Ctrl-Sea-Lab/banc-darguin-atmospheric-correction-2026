@@ -1,0 +1,12 @@
+{
+  "affected": false,
+  "agent": "alan-turing",
+  "operation": "verify-ready",
+  "paths": [
+    "analysis/CTR-24_data-dictionary"
+  ],
+  "reason": "unrelated investigation paths do not depend on PI synchronization",
+  "result": "ready",
+  "task_id": "CTR-36",
+  "version": 1
+}

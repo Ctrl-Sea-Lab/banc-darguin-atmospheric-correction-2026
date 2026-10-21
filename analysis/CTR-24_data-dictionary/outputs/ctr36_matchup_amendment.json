@@ -1,0 +1,51 @@
+{
+  "schema": "ctrlsea.ctr24.matchup-amendment.v1",
+  "created_utc": "2026-10-20T09:43:55.769199+00:00",
+  "task": "CTR-36",
+  "parent": "CTR-35",
+  "canonical_analysis": "analysis/CTR-24_data-dictionary",
+  "assignment_plan_revision": "0d32d61e-8645-4dff-9cc4-1f40d66833e0",
+  "author_sources": {
+    "CTR33": "86e0d6cd6663a80691fd52d050776bf0c790c8bf",
+    "CTR34": "3df21a9ee9bdd37d4b9d6f48d990a1a1837bb35d"
+  },
+  "purpose": "relocated held inputs for later exploratory station diagnostics; no new agreement metrics in CTR36",
+  "primary_stations": [
+    "AC01",
+    "AC02",
+    "AC05",
+    "AC06",
+    "AC07",
+    "AC08"
+  ],
+  "bands": [
+    "B02",
+    "B03",
+    "B04"
+  ],
+  "excluded": [
+    {
+      "station_id": "AC03",
+      "literal": "mbp_mud"
+    },
+    {
+      "station_id": "AC04",
+      "literal": "mpb_mud"
+    }
+  ],
+  "ASD_reference": "v4 S2B primary; v5 separate sensitivity; B08 excluded for incomplete spectral coverage",
+  "numerical_gate": "source identity, unit, decode, station/coordinate joins and provenance checks must pass before CTR37 comparisons",
+  "retained_validation_status": "18 HELD_DIAGNOSTIC_ONLY triples; original eligible-validation table remains empty",
+  "downstream_estimand": "fixed containing-cell satellite minus band-integrated ASD; exploratory numerical agreement only when essentials pass; physical holds remain",
+  "downstream_summaries": [
+    "signed bias",
+    "MAE",
+    "RMSE",
+    "finite paired band count"
+  ],
+  "units": "unitless reflectance (1)",
+  "weighting": "identical station/band rows for both methods; any overall summary explicitly equal station/band weighting",
+  "missingness": "NA; never zero",
+  "inference_limits": "no independent-n interpretation of bands, p-values, confidence intervals, guessed error bars, correction accuracy or ranking",
+  "approval": "assignment context only; agent-editable record is not scientific approval; no merge, integration or publication authorization"
+}

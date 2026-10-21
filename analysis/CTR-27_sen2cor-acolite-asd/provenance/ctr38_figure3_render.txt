@@ -1,0 +1,4 @@
+R version 4.3.3 (2024-02-29) 
+Warning message:
+In normalizePath("~") :
+  path[1]="/tmp/paperclip-ai-f81d1807-ee34-464f-a570-93f50a636086-8791ff50-c019-4dbb-8c5e-380642ad33ec-0iF5KW": No such file or directory

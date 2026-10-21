@@ -1,0 +1,13 @@
+{
+  "canonical_environment": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026",
+  "isolated_worktree": "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34",
+  "command": "scripts/check-env.sh (canonical project)",
+  "returncode": 0,
+  "output": "Resolved 104 packages in 1ms\nWould use project environment at: .venv\nResolved 104 packages in 1ms\nChecked 100 packages in 133ms\nWould make no changes\nLockfile sources and versions are valid.\nNo issues found -- the project is in a consistent state.\nEnvironment checks passed.\n",
+  "worktree_environment": "existing project .venv symlink; no second environment or installation",
+  "initial_worktree_check": "R normalized-library-path containment rejected a symlink; symlink removed; canonical check passed",
+  "locks": {
+    "uv.lock": "99b03c9488832607c0a51cfc114a49c45626b6376e8ada71a07509e78995c0b1",
+    "renv.lock": "6174d90c07f13d864c15d472b098d819a1a36cff25e5b1e6c2031937aa66b707"
+  }
+}

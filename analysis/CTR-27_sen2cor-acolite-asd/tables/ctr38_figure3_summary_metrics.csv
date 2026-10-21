@@ -1,0 +1,5 @@
+population,correction,n_stations,n_bands,n_station_band_values,bias,MAE,RMSE,unit,validation_eligible_pairs,evidence_scope
+primary,Sen2Cor,6,3,18,0.05188109064253631,0.05188109064253631,0.0657466394447343,1,0,exploratory_physical_hold
+primary,ACOLITE,6,3,18,0.022718467928493646,0.02427330094590572,0.036926804040365996,1,0,exploratory_physical_hold
+reference,Sen2Cor,6,9,54,0.04972114400182161,0.05149656268934624,0.06648404297907817,1,0,supplied_table_reproduction_only
+reference,ACOLITE,6,9,54,0.019832215357628052,0.028983678437956344,0.04167766021520752,1,0,supplied_table_reproduction_only

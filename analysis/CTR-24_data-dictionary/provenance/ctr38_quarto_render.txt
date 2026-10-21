@@ -1,0 +1,26 @@
+pandoc 
+  to: html
+  output-file: station-matchups.html
+  standalone: true
+  embed-resources: true
+  section-divs: true
+  html-math-method: mathjax
+  wrap: none
+  default-image-extension: png
+  toc: true
+  toc-depth: 2
+  number-sections: false
+  
+metadata
+  document-css: false
+  link-citations: true
+  date-format: long
+  lang: en
+  title: 'Station reflectance: ASD, Sen2Cor and ACOLITE'
+  subtitle: Banc d’Arguin · 27 March 2026
+  author: Edward Tufte · numerical analysis by Thomas Bayes · Ctrl+Sea
+  theme: cosmo
+  fig-cap-location: bottom
+  
+Output created: station-matchups.html
+

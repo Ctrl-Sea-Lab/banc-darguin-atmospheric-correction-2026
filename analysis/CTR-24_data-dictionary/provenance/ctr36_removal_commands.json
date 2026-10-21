@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "git",
+      "worktree",
+      "remove",
+      "--force",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr33"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "finished_utc": "2026-10-20T09:49:02.810663+00:00"
+  },
+  {
+    "command": [
+      "git",
+      "worktree",
+      "remove",
+      "--force",
+      "/mnt/PaperClip_Projects/projects/banc-darguin-atmospheric-correction-2026-ctr34"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "",
+    "finished_utc": "2026-10-20T09:49:11.670821+00:00"
+  }
+]
