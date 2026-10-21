@@ -1,7 +1,0 @@
-AOI,band,total_pairs,nonfinite_L2A,nonfinite_ACOLITE,decoded_L2A_special,retained_pairs,excluded_pairs,QA
-Arel,B02,730,0,0,0,730,0,not validated
-Arel,B03,730,0,0,0,730,0,not validated
-Arel,B04,730,0,0,0,730,0,not validated
-Iwik,B02,733,0,0,0,733,0,not validated
-Iwik,B03,733,0,0,0,733,0,not validated
-Iwik,B04,733,0,0,0,733,0,not validated

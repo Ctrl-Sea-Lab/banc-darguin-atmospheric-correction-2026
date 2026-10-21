@@ -1,0 +1,51 @@
+{
+  "task": "CTR-37",
+  "parent": "CTR-35",
+  "analysis": "CTR-24_data-dictionary",
+  "created_utc": "2026-10-20T10:00:22.928043+00:00",
+  "input_commit": "eea2b6067284f867770c0854edb84b17b55a4143",
+  "assignment_plan_revision": "6a62f723-b15c-4da1-ba2d-c0dca314046d",
+  "design_revision": "0744faa6-f2e0-493b-a9f8-0fe88904a8a7",
+  "concurrence_revision": "1f9de7bb-a5fb-4c73-ad90-7444529f2189",
+  "primary_stations": [
+    "AC01",
+    "AC02",
+    "AC05",
+    "AC06",
+    "AC07",
+    "AC08"
+  ],
+  "bands": [
+    "B02",
+    "B03",
+    "B04"
+  ],
+  "primary_srf": "v4_primary",
+  "sensitivity": "v5_sensitivity separate; same rows/corrections",
+  "estimand": "Exploratory fixed containing-cell satellite minus supplied band-integrated ASD station average",
+  "metrics": [
+    "bias=mean(satellite-ASD)",
+    "MAE=mean(abs(satellite-ASD))",
+    "RMSE=sqrt(mean((satellite-ASD)^2))"
+  ],
+  "weighting": "Equal 1/N bands within station; both corrections use identical finite triple rows. No overall inference or independent-band interpretation.",
+  "primary_table": "common complete three-band stations only",
+  "missingness": "NA never zero; incomplete/unavailable spectra supplementary with N and missing-band reasons",
+  "validation_eligible_pairs": 0,
+  "physical_holds": "retained unchanged; diagnostic numerical availability is not validation eligibility",
+  "uncertainty": "not estimated; no correlation, p-values, confidence intervals, ranking or population inference",
+  "review": "author delivery pending CTR38 presentation and independent review, then PI approval",
+  "inputs": {
+    "tables/ctr36_station_inputs.csv": "d9380a8c0e98aa70ec17015a0bf30daf378792b7a165fcfe21f7e803c719118d",
+    "tables/ctr36_supplementary_unmatched.csv": "52a44955b13f3d2f28e4eccf391a26a24072ee4dd05f07391a859520f1ffa17b",
+    "tables/ctr36_nonmud_station_inventory.csv": "70202c7907cdf8c1e81cd1ead9c917f00fff69e56f3e121b28f170d5f60c874b",
+    "tables/ctr36_exclusions.csv": "d243f01e50871d4b65362601ee9509095809e049405aeb7cf72cef383111e702",
+    "tables/ctr34_held_diagnostics.csv": "c0b3ef9db017f606da4655cec75ed44d1098a4e36fde39cad92ab0c94d250564",
+    "tables/ctr34_convolved_references.csv": "af2f2a5267bb5be7c81a99bd1d74022b86cea386592e0094211cddf0eb99402a",
+    "tables/ctr34_eligible_pairs.csv": "3f90d4a030c1daa5f59259180e30bf2f0adf0c41b6ae7f3e1f1d8eb1f1bdc4ff",
+    "provenance/ctr36_delivery_manifest.json": "e9cfccbc8a2a580e4dc5df884bf2d1df4538d04e979330422e71e02728901402",
+    "provenance/ctr36_input_validation.json": "95f9ece05ef6c8d9bc8ffc92e9b5b6172196babc7e041668d3f0259706a022cc",
+    "provenance/ctr36_legacy_validation.json": "0d2dfa03cc8763de5d325608fefdfe7c1fe8455e837e7413ba63ebd3f9531526",
+    "outputs/ctr36_matchup_amendment.json": "ca3775471a138f59bb0c8c9710ea3848c996535ae33764815afc5596348764ef"
+  }
+}

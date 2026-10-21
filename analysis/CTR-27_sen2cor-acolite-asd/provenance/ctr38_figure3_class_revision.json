@@ -1,0 +1,25 @@
+{
+  "source_comment_id": "e61c149b-2a8d-48a1-b2a9-b61ee8dedeca",
+  "previous_revision": "4af70f319f672a14c016012d9610c752b21d6169",
+  "scope": "PI-requested presentation classes: Algal mud to Macroalgae; Dry sand and White sand share Sand and one symbol. No class-level numerical aggregation.",
+  "display_map": {
+    "dry_sand": "Sand",
+    "white_sand": "Sand",
+    "algae_mud": "Macroalgae",
+    "seagrass": "Seagrass"
+  },
+  "existing_scientific_tables_verified_unchanged": 50,
+  "station_metric_annotations_match_saved_table": true,
+  "visual_checks": [
+    "Opened both comparison PNGs: three complete surface legend entries inside Sen2Cor; band legend inside ACOLITE; clear of data",
+    "Opened all six station panels through PDF preview",
+    "Opened portable report screenshot"
+  ],
+  "environment_check": "scripts/check-env.sh passed",
+  "physical_holds_preserved": true,
+  "validation_eligible_pairs": 0,
+  "new_extraction": false,
+  "new_integration": false,
+  "review": "Author QA by Rachel; pending author confirmation and exact-revision native reviews. No independent self-approval or PI approval.",
+  "historical_qa": "Prior ctr38_figure3_legend_revision.json applies to previous four-class revision; current record supersedes its surface-class count."
+}
